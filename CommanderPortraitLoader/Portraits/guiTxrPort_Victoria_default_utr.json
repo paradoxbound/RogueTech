@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_Victoria_default_utr",
+    "Name": "guiTxrPort_Victoria_default_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_Victoria_default_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

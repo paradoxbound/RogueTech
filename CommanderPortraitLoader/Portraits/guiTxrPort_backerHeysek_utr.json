@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerHeysek_utr",
+    "Name": "guiTxrPort_backerHeysek_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerHeysek_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

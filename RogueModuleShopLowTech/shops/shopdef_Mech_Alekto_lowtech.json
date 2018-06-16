@@ -1,0 +1,46 @@
+{
+   "ID" : "shopdef_Mech_Alekto",
+    "RequirementTags": {
+        "items": [
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+   },
+   "Inventory" : [
+		  
+	  
+   ],
+   "Specials" : [
+   
+	  	   {
+		 "ID" : "mechdef_commando_COM-2I",
+		 "Type" : "Mech",
+		 "DiscountModifier" : 1,
+		 "Count" : 0			 
+	  },
+	   {
+		 "ID" : "mechdef_blackjack_BJ-3T",
+		 "Type" : "Mech",
+		 "DiscountModifier" : 1,
+		 "Count" : 0			 
+	  }, 
+	   {
+		 "ID" : "mechdef_cicada_CDA-4L",
+		 "Type" : "Mech",
+		 "DiscountModifier" : 1,
+		 "Count" : 0			 
+	  },
+	   {
+		 "ID" : "mechdef_panther_PNT-5T",
+		 "Type" : "Mech",
+		 "DiscountModifier" : 1,
+		 "Count" : 0			 
+	  }   
+	  
+   ]
+}

@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerGibbs_utr",
+    "Name": "guiTxrPort_backerGibbs_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerGibbs_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

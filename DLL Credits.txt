@@ -1,0 +1,50 @@
+Credits for all included and used dll's
+
+Includes
+
+By Morphyum:
+
+Shotcountenabler
+MechMaintenanceByCost
+DropCostPerMech
+PermanentEvasion
+Broken Salvaged Mechs
+Sell Mech Parts
+Meleemover
+
+By Morphyum and Callyste
+CommanderPortraitLoader
+
+By RealityMachina
+AmmoCookOff
+Panic System
+LessHeadInjuries
+NoCorrectedRolls
+Better Juggernaut
+
+ByMpstark
+Random spawn starter
+SplashScreen (header by Callyste)
+intro movie skipper
+salvagefix
+
+By Janxious
+Los Improvements
+MechResizer 
+
+By ACCount
+Extended Information
+
+By gponick (aka JF)
+Use Space as back key
+BTMLSoundOnFocusLost
+
+By willssi
+Configurable Camera Settings
+
+By Zathoth
+AddYearToTimeline
+
+By Glucose
+OneArmorStep
+

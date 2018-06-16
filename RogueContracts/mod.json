@@ -1,0 +1,15 @@
+{
+    "Name": "RogueTech Contracts tweaks",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "Contains tweaks to contracts",
+    "Author": "Daiyuki",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+	
+	    "Manifest": [
+        { "Type": "LanceDef", "Path": "lance" }
+    ],
+
+}

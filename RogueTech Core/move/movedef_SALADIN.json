@@ -1,0 +1,21 @@
+{
+   "Description" : {
+      "Id" : "movedef_SALADIN",
+      "Name" : "MovementCapabilitiesDef for SALADIN",
+      "Details" : "",
+      "Icon" : ""
+   },
+   "MaxWalkDistance" : 140.0,
+   "MaxSprintDistance" : 240.0,
+   "WalkVelocity" : 40.0,
+   "RunVelocity" : 158.0,
+   "SprintVelocity" : 261.0,
+   "LimpVelocity" : 48.0,
+   "WalkAcceleration" : 25.0,
+   "SprintAcceleration" : 30.0,
+   "MaxRadialVelocity" : 70.0,
+   "MaxRadialAcceleration" : 180.0,
+   "MaxJumpVel" : 80.0,
+   "MaxJumpAccel" : 30.0,
+   "MaxJumpVerticalAccel" : 60.0
+}

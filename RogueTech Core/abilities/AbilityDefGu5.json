@@ -1,0 +1,82 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefGu5",
+		"Name" : "JUGGERNAUT",
+		"Details" : "PASSIVE: Successful Melee attacks knock your target back one Initiative Phase.Increases Melee Damage by 15%.",
+		"Icon" : "uixSvgIcon_juggernaut"
+	},
+    "DisplayParams" : "ShowInMWTRay",
+	"ReqSkill" : "Guts",
+	"ReqSkillLevel" : 5,
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "AbilityDefGu5",
+        		"Name" : "JUGGERNAUT",
+		        "Details" : "PASSIVE: Successful Melee attacks knock your target back one Initiative Phase.Increases Melee Damage by 15%.",
+				"Icon" : "uixSvgIcon_juggernaut"
+			},
+			"statisticData" : 
+			{
+				"statName" : "MeleeHitPushBackPhases",
+				"operation" : "Int_Add",
+				"modValue" : "1",
+				"modType" : "System.Int32"
+			},
+			"nature" : "Buff"
+		},
+        {
+            "durationData" : {
+                "duration" : -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnActivation",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "GU5Melee",
+                "Name" : "MELEE DAMAGE INCREASED",
+                "Details" : "Melee attacks deal 5% more damage.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.15",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "Melee"
+            },
+			"nature" : "Buff",
+        },		
+	],
+	"IsPrimaryAbility" : true
+}

@@ -1,0 +1,16 @@
+{
+    "Name": "RogueTech Specialised Ammo",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "Contains All RogueTech ammo",
+    "Author": "LadyAlekto",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+
+    "Manifest": [
+        { "Type": "AmmunitionBoxDef", "Path": "ammo" },
+        { "Type": "ShopDef", "Path": "shops" },					
+		
+    ]
+}

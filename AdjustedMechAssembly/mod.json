@@ -1,0 +1,12 @@
+{
+    "Name": "AdjustedMechAssembly",
+    "Enabled": true,
+
+    "Version": "v1.3",
+    "Description": "Changes the way Mechs get assembled from salvage.",
+    "Author": "Morphyum",
+    "Website": "https://github.com/Morphyum/AdjustedMechAssembly",
+    "Contact": "",
+	
+	"DLL": "AdjustedMechAssembly.dll"
+}

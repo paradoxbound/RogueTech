@@ -1,0 +1,64 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC20",
+    "MinRange" : 0,
+    "MaxRange" : 420,
+    "RangeSplit" : [
+        130,
+        260,
+        420
+    ],
+    "AmmoCategory" : "AC5",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 36,
+    "Damage" : 40,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 1,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 5,
+    "ShotsWhenFired" : 4,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 4,
+    "Instability" : 11.25,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
+    "Description" : {
+        "Cost" : 670000,
+        "Rarity" : 4,
+        "Purchasable" : true,
+        "Manufacturer" : "Mydron",
+        "Model" : "RAC5",
+        "UIName" : "RAC5",
+        "Id" : "Weapon_Autocannon_RAC5_0-Mydron",
+        "Name" : "RAC5",
+        "Details" : "An experimental rotary Autocannon, to prevent jamming, it is fixed at 4 shots per trigger, the sheer amount of ammo expelled allows to easier hit a moving target.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier": "AC20",
+    "BattleValue" : 0,
+    "InventorySize" : 5,
+    "Tonnage" : 14,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_long"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

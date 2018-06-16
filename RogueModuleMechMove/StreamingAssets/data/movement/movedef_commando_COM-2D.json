@@ -1,0 +1,10 @@
+{
+
+   "WalkVelocity" : 26.0,
+   "RunVelocity" : 38.0,
+   "SprintVelocity" : 46.0,
+   "LimpVelocity" : 18.0,
+   "WalkAcceleration" : 40.0,
+   "SprintAcceleration" : 50.0,
+
+}

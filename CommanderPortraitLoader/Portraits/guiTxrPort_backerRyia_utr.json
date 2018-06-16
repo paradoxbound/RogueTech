@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerRyia_utr",
+    "Name": "guiTxrPort_backerRyia_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerRyia_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

@@ -1,0 +1,169 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 800000,
+        "Rarity" : 4,
+        "Purchasable" : true,
+        "Manufacturer" : "Luthien",
+        "Model" : "Samurai",
+        "UIName" : "Samurai Gyro",
+        "Id" : "Gear_Gyro_HeavyDuty",
+        "Name" : "Samurai Heavy Gyro",
+        "Details" : "The Samurai Heavy Duty Gyro is an attempt to improve the stability of any 'Mech.",
+        "Icon" : "uixSvgIcon_equipment_Gyro"
+    },
+    "BonusValueA" : "+20% Stability +2 Melee Defense",
+    "BonusValueB" : "-20% Stability Damage Taken",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 500,
+    "InventorySize" : 4,
+    "Tonnage" : 1,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "HD Gyro",
+                "Name" : "Samurai",
+                "Details" : "Provides +20% stability, -20% stability damage taken and +2 penalty to all attacks against this unit.",
+                "Icon" : "uixSvgIcon_equipment_Gyro"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "ToHitThisActor",
+                "operation" : "Float_Add",
+                "modValue" : "2.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "Melee"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "SamuraiStabDamageBuff",
+                "Name" : "INCOMING STABILITY DAMAGE DECREASED",
+                "Details" : "Incoming stability damage reduced by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_Gyro"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "ReceivedInstabilityMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.8",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+		{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1,				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "SamuraiUnsteadyBuff",
+				"Name" : "Steadier 'Mech",
+				"Details" : "UNSTEADY threshold increased to 60",
+				"Icon" : "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData" : 
+			{
+				"statName" : "UnsteadyThreshold",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.2",
+                "modType" : "System.Single",
+			},
+			"nature" : "Buff"
+		}			
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

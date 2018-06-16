@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerWoods_utr",
+    "Name": "guiTxrPort_backerWoods_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerWoods_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

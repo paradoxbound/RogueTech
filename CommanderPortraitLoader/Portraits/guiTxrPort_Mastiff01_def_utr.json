@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_Mastiff01_def_utr",
+    "Name": "guiTxrPort_Mastiff01_def_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_Mastiff01_def_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerSwansonA_utr",
+    "Name": "guiTxrPort_backerSwansonA_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerSwansonA_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

@@ -1,0 +1,55 @@
+{
+    "ID": "shopdef_Weapons_Rogue_Liao",
+    "RequirementTags": {
+        "items": ["planet_faction_liao",
+		"rep_liao_35"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+
+        {
+            "ID": "Weapon_FLAMER_PLASMA",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },	
+        {
+            "ID": "Weapon_Flamer_Flamer_3-Prometheus",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+	  {
+         "ID" : "Gear_NullSignatureSystem",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+      },
+	  {
+         "ID" : "Gear_ECM",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+      },
+	  {
+         "ID" : "Gear_Myomer_TSM",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+      },
+        {
+            "ID": "Gear_TargetingTrackingSystem_I3F1",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+        }	  
+    ],
+    "Specials": []
+}

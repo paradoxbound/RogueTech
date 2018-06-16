@@ -1,0 +1,38 @@
+{
+   "ID" : "shopdef_HandyVac_Industrial_Mining",
+   "RequirementTags" : {
+      "items" : [
+            "planet_industry_mining"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_other_empty"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+		{
+			 "ID" : "Gear_Actuator_HandyVac_Industrial_ExcavatorClaw",
+			 "Type" : "Upgrade",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+		{
+			 "ID" : "Weapon_HandyVac_Industrial_Mining_0_Jackhammer",
+			 "Type" : "Weapon",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+		{
+			 "ID" : "Weapon_HandyVac_Industrial_Mining_1_MiningDrill",
+			 "Type" : "Weapon",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		}
+   ],
+   "Specials" : [
+		
+   ]
+}

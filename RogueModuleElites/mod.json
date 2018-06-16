@@ -1,0 +1,20 @@
+{
+    "Name": "Rogue Elite BattleMech's",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "A collection of my personal Munchkin's",
+    "Author": "LadyAlekto",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+
+    "Manifest": [
+        { "Type": "MechDef", "Path": "mech" },
+        { "Type": "ChassisDef", "Path": "chassis" },
+        { "Type": "MovementCapabilitiesDef", "Path": "move" },			
+    ],
+
+		
+
+	
+}

@@ -1,0 +1,65 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC2",
+    "MinRange" : 120,
+    "MaxRange" : 720,
+    "RangeSplit" : [
+        240,
+        480,
+        720
+    ],
+    "AmmoCategory" : "AC2",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 9,
+    "Damage" : 22,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 2,
+    "ShotsWhenFired" : 2,
+    "ProjectilesPerShot" : 3,
+    "AttackRecoil" : 1,
+    "Instability" : 6.25,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC2",
+    "Description" : {
+        "Cost" : 250000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "GM",
+        "Model" : "Sniper Autocannon",
+        "UIName" : "UAC/2",
+        "Id" : "Weapon_Autocannon_AC2_0-Ultra",
+        "Name" : "UAC/2",
+        "Details" : "Ultra Autocannon's retain most of their smaller cousin's profile while effectively doubling their rate of fire. The UAC2, while the smallest bore, gives it unparalleled headhunter skills.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC2",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 7,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

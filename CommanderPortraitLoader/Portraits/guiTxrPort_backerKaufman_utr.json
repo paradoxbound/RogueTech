@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerKaufman_utr",
+    "Name": "guiTxrPort_backerKaufman_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerKaufman_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

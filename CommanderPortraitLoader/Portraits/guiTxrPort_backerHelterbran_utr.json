@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerHelterbran_utr",
+    "Name": "guiTxrPort_backerHelterbran_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerHelterbran_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

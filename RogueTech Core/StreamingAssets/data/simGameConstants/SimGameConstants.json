@@ -1,0 +1,408 @@
+{
+
+   "Time" : {
+      "DayElapseTimeSlow" : 2,
+	  "DayElapseTimeNormal" : 0.75,
+	  "DayElapseTimeFast" : 0.2
+   },
+   "Finances" : {  
+		"QuarterLength" : 30,
+		"MonthLength" : 30,
+		"BurndownDayLength" : 30,
+		"SpartanCostModifier" : 0.6,
+		"RestrictedCostModifier" : 0.8,
+		"GenerousCostModifier" : 1.4,
+		"ExtravagantCostModifier" : 1.8,
+		"JumpShipCost" : 25000,
+		"MechWarriorBaseCostPerPoint" : 2000.0,
+		"MechWarriorBonusCostPerPoint" : 1000.0,
+		"MechWarriorHiringCostPerPoint" : 3000.0,
+		"DefaultShopRefreshRate" : 14,
+        "DefaultShopMaxInventory" : 80,
+        "DefaultShopMaxSpecials" : 25,
+		"ContractPricePerDifficulty" : 290000,
+		"ContractTypeMod_AmbushConvoy" : 0.9,
+		"ContractTypeMod_Assassinate" : 0.9,
+		"ContractTypeMod_CaptureBase" : 1.0,
+		"ContractTypeMod_CaptureEscort" : 1.1,
+		"ContractTypeMod_DefendBase" : 1.1,
+		"ContractTypeMod_DestroyBase" : 0.9,
+		"ContractTypeMod_Rescue" : 0.5,
+		"ContractTypeMod_SimpleBattle" : 1.0,
+		"ContractPriceVariance" : 0.15,
+		"ContractFloorSalaryMultiplier" : 0.2,
+		"ContractFloorSalvageBonus" : 1,
+		"ContractNegotiatedReputationPerDifficulty" : 2,
+		"ContractNegotiatedReputationDifficultyMod" : 5,
+		"ContractNegotiatedReputationVariance" : 0.0,
+		"MaxReputationChangeOnAContract" : 20.0,
+		"GoodFaithModifier" : 0.3,
+		"NoFaithModifier" : 0,
+		"TechHiringCostPerPoint" : 8000,
+		"ShopSellModifier": 0.2,
+		"ShopSellDamagedModifier": 0.15,
+		"ShopWarnBeforeSellingPriceMinimum": 300000,
+		"MechScrapModifier": 0.2,
+		"MechLabRefundModifier": 1.0,
+		"RecoveredChassisShopModifier" : 0.9,
+		"QuartersYouCanAffordWithoutTriggeringWarning" : 3,
+		"ArgoBaseMaintenanceCost" : 90000
+		
+   },
+   "Shop" : {
+      "InventoryRefreshRate" : 1,
+	  "DefaultSpecialWeight" : 15
+   },
+   "Pilot" : {
+      "MaleNameList" : "name_male_intl",
+      "FemaleNameList" : "name_female_intl",
+      "SurnameNameList" : "name_surname_intl",
+      "CallsignNameList" : "name_callsign",
+      "MaleGenerationWeight" : 44,
+	  "FemaleGenerationWeight" : 46,
+	  "NonBinaryGenerationWeight" : 10,
+	  "PilotPortraits" : "genderedoptionslistdef_mechwarriorPortraits",
+	  "PilotVoices" : "genderedoptionslistdef_mechwarriorVoices",		
+      "MinimumPilotAge" : 14,
+      "StartingAgeRange" : 4,
+	  "AgeEndingModifier" : 2.0,
+	  "SkillCap" : 10,
+	  "SkillFloor" : 1,
+	  "DifficultySkillFudge" : 3,
+	  "AdvancedPilotBaseChance" : -0.25,
+	  "AdvancedPilotDifficultyStep" : 0.08,
+	  "BaseXPGainPerMission" : 333,
+	  "PilotLevelCostExponent" : 2.5,
+	  "PilotLevelCostMultiplier" : 90,
+	  "MaxLevelOneAbilities" : 2,
+	  "MaxLevelTwoAbilities" : 2,
+	  "LethalDamageCost" : 180,
+	  "IncapacitatedDamageCost" : 180,
+	  "BaseInjuryDamageCost" : 480,
+	  "IncapacitatedDeathChance" : 0.9,
+	  "LethalDeathChance" : 1.4,
+	  "GutsDeathReduction" : 0.1
+	  
+   },
+   "Salvage" : {
+		"DefaultSalvageRights" : 1.0,
+		"DefaultSalvagePotential" : 8,
+		"MaxSalvagePotential" : 32,
+		"MinSalvagePotential" : 0,
+		"VictorySalvageChance" : 1.0,
+		"RetreatSalvageChance" : 0.5,
+		"DefeatSalvageChance" : 0.2,
+		"VictorySalvageLostPerMechDestroyed" : 0.0,
+		"RetreatSalvageLostPerMechDestroyed" : 0.20,
+		"DefeatSalvageLostPerMechDestroyed" : 0.25,
+		"DefaultChassisWeight" : 5,
+        "DefaultWeaponWeight" : 6,
+        "DefaultComponentWeight" : 3,
+		"DefaultMechPartWeight" : 6,
+		"RetreatRewardModifier" : 0.5,
+		"DefeatRewardModifier" : 0.2,
+		"PrioritySalvageModifier" : 0.25,
+		"DestroyedMechRecoveryChance" : 1,		
+		"VeryRareWeaponLevel" :[
+			4,
+			5
+		],
+		"VeryRareWeaponChance" : -5,
+		"RareWeaponLevel" : [
+			2,
+			3
+		],
+		"RareWeaponChance" : -3,
+		"WeaponChanceDivisor" : 25,
+		"VeryRareUpgradeLevel" :[
+			4,
+			5
+		],
+		"VeryRareUpgradeChance" : -6,
+		"RareUpgradeLevel" : [
+			1,
+			2,
+			3
+		],
+		"RareUpgradeChance" : -4,
+		"UpgradeChanceDivisor" : 30,
+		"ItemAutoCullLevel" : 40
+   },
+   "Story" : {
+		"CommanderPilotDefID" : "pilot_commander",
+		"DefaultCommanderID" : "pilot_commander_temp",
+		"SystemUseTimeTag" : "SYSTEM_UseTime",
+		"SystemUseEventsTag" : "SYSTEM_UseEvents",
+		"SystemUseMilestoneTag" : "SYSTEM_UseMilestone",
+		"SystemMissionCompleteCountStat" : "MissionsComplete",
+		"StartingCBills" : 1780000,
+		"StartingMechTechSkill" : 4,
+        "StartingMedTechSkill" : 7,
+		"DailyUpgradeValue" : 1,
+        "ArgoMechTechs" : 0,
+        "ArgoMedTechs" : 0,
+		"MaxMechWarriorsPerPod" : 8,
+		"MaxMechsPerPod" : 6,
+		"StartingDropShip" : "argo",
+		"UpgradedDropShip" : "argo",
+		"StartingPlayerMech" : "mechdef_commando_COM-MK2",
+		"StartingArgoUpgrades" : [
+			"argoUpgrade_drive0",
+			"argoUpgrade_mechBay1",
+			"argoUpgrade_medBay1",
+			"argoUpgrade_pod1",
+			"argoUpgrade_structure0"
+		],
+		"StartingReputation" : 0,
+		"MechMothballTime" : 0,
+		"CompanyEventStartingChance" : -2.5,
+		"CompanyEventIncreaseRate" : 0.5,
+		"MoraleEventStartingChance" : -15.0,
+		"MoraleEventIncreaseRate" : 0.0,
+		"LoathedRepPaymentAdjustment" : -0.9,
+		"HatedRepPaymentAdjustment" : -0.5,
+		"DislikedRepPaymentAdjustment" : -0.15,
+		"LikedRepPaymentAdjustment" : 0.05,
+		"FriendlyRepPaymentAdjustment" : 0.15,
+		"AlliedRepPaymentAdjustment" : 0.25,
+		"HatedRepShopAdjustment" : 0.6,
+		"DislikedRepShopAdjustment" : 0.3,
+		"IndifferentRepShopAdjustment" : 0.15,
+		"LikedRepShopAdjustment" : 0,
+		"FriendlyRepShopAdjustment" : -0.1,
+		"AlliedRepShopAdjustment" : -0.2,
+		"StartingMorale": 10,
+		"MaxMorale": 150,
+		"SpartanMoraleModifier" : -2,
+		"RestrictedMoraleModifier" : -1,
+		"NormalMoraleModifier" : 0,
+		"GenerousMoraleModifier" : 1,
+		"ExtravagantMoraleModifier" : 2,
+		"BadFaithMoraleModifier" : 1,
+		"CatastropheMoraleModifier" : 2,
+		"MaxMechTechID" : "MechTechHireLimit",
+		"MaxMedTechID" : "MedTechHireLimit",
+		"StartingGlobalContractDifficulty" : 1,
+		"ContractDifficultyVariance": 5,
+		"GlobalContractDifficultyMax" : 10,
+		"DefaultPilotsPerSystem" : 3,
+		"DefaultMechTechsPerSystem" : 2,
+		"DefaultMedTechsPerSystem" : 2,
+		"DailyHealValue" : 0,
+		"MedTechSkillMod" : 1,
+		"MRBSuccessMod" : 1,
+		"MRBGoodFaithMod" : 0.5,
+		"MRBFailureMod" : -2.0,
+		"XPGoodFaithMod" : 0.5,
+		"XPFailureMod" : 0.2,
+		"XPBadFaithMod" : 0,
+
+		"MaxContractsPerSystem": 15,
+		"MaxBreadcrumbsPerSystem": 6,
+		"ContractRenewalPerWeek" : 0.5,
+		"ContractSuccessReduction" : 1.0,
+		"StartingPassiveXPGainCap" : 10000,
+		"StartingPassiveXPGain" : 5,
+		"MechReadyTime" :  7,
+		"DefaultMechPartMax" : 5,
+		"DefaultMechPartName" : "Partial Mech Salvage",
+		"DefaultFullMechName" : "BattleMech",
+		"DefaultContractRefreshRate" : 30,
+		"StartingMechPods" : 1,
+		"StartingBarrackPods" : 1,
+		"StartingDriveMod" : 1,
+		"MaximumDebt" : 0,
+		"DebtWarningValue" : 10000,
+		"DefaultRoninHiringChance" : 0.28,
+
+		"NotifLowFundsQtrRemainThreshold": 0,
+		"NotifLowFundsRecurrence": 0,
+		"NotifDangerLowFundsQtrRemainThreshold": 0,
+		"NotifDangerLowFundsRecurrence": 0,
+		"NotifArgoUpgradesModuleThreshold": 6,
+		"NotifArgoUpgradesRecurrence": 0,
+		"NotifMechRepairsNeededRecurrence": 0,
+		"DiscardPileToActiveRatio" : 2.0,
+		"CommanderStartingExperience" : 3800,
+   },
+   "MechLab" :{
+		"StructureRepairTechPoints" : 0.85,
+		"StructureRepairCost" : 333,
+		"ComponentRepairTechPoints" : 5.4,
+		"ComponentRepairCost" : 555,
+		"BallisticInstallTechPoints" : 8.8,
+		"BallisticInstallCost" : 500,
+		"MissileInstallTechPoints" : 8.8,
+		"MissileInstallCost" : 500,
+		"EnergyInstallTechPoints" : 8.8,
+		"EnergyInstallCost" : 500,
+		"APInstallTechPoints" : 4.4,
+		"APInstallCost" : 250,
+		"AmmoInstallTechPoints" : 4.3,
+		"AmmoInstallCost" : 100,
+		"JumpJetInstallTechPoints" : 5.5,
+		"JumpJetInstallCost" : 250,
+		"HeatSinkInstallTechPoints" : 5.5,
+		"HeatSinkInstallCost" : 250,
+		"ArmorInstallTechPoints" : 0.4,
+		"ArmorInstallCost" : 100,
+		"OtherInstallTechPoints" : 6,
+		"OtherInstallCost" : 450,
+		"UninstallTechPoints" : 0.0,
+		"ZeroStructureCBillModifier" : 3.9,
+		"ZeroStructureTechPointModifier" : 1.4
+   },
+
+   "Progression" : {
+		"GunnerySkills" :[
+			[
+				"TraitDefWeaponHit1"
+			],
+			[
+				"TraitDefWeaponHit2"
+			],
+			[
+				"TraitDefWeaponHit3"
+			],
+			[
+				"TraitDefWeaponHit4"
+			],
+			[
+				"TraitDefWeaponHit5",
+				"AbilityDefG5",
+				"TraitOPOnePlus"
+			],
+			[
+				"TraitDefWeaponHit6",
+				"TraitDefRefireReduceOne"				
+			],
+			[
+				"TraitDefWeaponHit7",
+				"TraitOPTWOPlus"
+			],
+			[
+				"TraitDefWeaponHit8",
+				"AbilityDefG8"				
+			],
+			[
+				"TraitDefWeaponHit9",
+				"TraitDefRefireReduceTwo"				
+			],
+			[
+				"TraitDefWeaponHit10",
+				"TraitOPTHREEPlus"
+			]
+		],
+		"PilotingSkills" :[
+			[
+				"TraitDefMeleeHit1"
+			],
+			[
+				"TraitDefMeleeHit2"
+			],
+			[
+				"TraitDefMeleeHit3",
+				"TraitDefEvasiveChargeAddOne"				
+			],
+			[
+				"TraitDefMeleeHit4",
+				"TraitDefUnsteadySet60"
+			],
+			[
+				"TraitDefMeleeHit5",
+				"AbilityDefP5",
+                "TraitStabDamage5"				
+			],
+			[
+				"TraitDefMeleeHit6",
+				"TraitDefEvasiveChargeAddTwo"		
+			],
+			[
+				"TraitDefMeleeHit7",
+				"TraitDefSprintIncrease10"
+			],
+			[
+				"TraitDefMeleeHit8",
+				"AbilityDefP8",
+				"TraitStabDamage10"
+			],
+			[
+				"TraitDefMeleeHit9",
+				"TraitDefUnsteadySet80"				
+			],
+			[
+				"TraitDefMeleeHit10",
+				"TraitDefSprintIncrease20",
+				"TraitDefEvasiveChargeAddThree"				
+			]
+		],
+		"GutsSkills" :[
+			[
+			],
+			[
+			],
+			[
+			],
+			[
+				"TraitDefHealthAddOne"
+			],
+			[
+				"TraitHeatReduction5",
+				"AbilityDefGu5"				
+			],
+			[
+				"TraitDefOverheatAddFifteen"
+			],
+			[
+				"TraitDefHealthAddTwo"
+			],
+			[
+                "TraitHeatReduction10",
+				"AbilityDefGu8"
+			],
+			[
+				"TraitDefOverheatAddThirty"
+			],
+			[
+                "TraitDefHealthAddThree"
+			]
+		],
+		"TacticsSkills" :[
+			[
+			],
+			[
+			],
+			[
+			],
+			[
+				"TraitDefIndirectReduceOne"
+			],
+			[
+				"TraitDefMinRangeReduce45",
+				"AbilityDefT5A"				
+			],
+			[
+				"TraitDefCalledShotImprove",
+                "TraitTacSight50"				
+			],
+			[
+				"TraitDefIndirectReduceTwo",
+				"TraitSensors15"
+			],
+			[
+				"TraitDefMinRangeReduce90",
+				"AbilityDefT8A"				
+			],
+			[
+				"TraitDefCalledShotMaster",
+				"TraitTacSight100"
+			],
+			[
+				"TraitDefIndirectReduceThree",
+				"TraitSensors30"
+			]
+		]
+
+   }
+
+}

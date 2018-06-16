@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerHuxley_utr",
+    "Name": "guiTxrPort_backerHuxley_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerHuxley_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

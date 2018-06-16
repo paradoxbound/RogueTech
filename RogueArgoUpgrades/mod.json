@@ -1,0 +1,15 @@
+{
+    "Name": "RogueArgoUpgrades",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "Recreational facility reduce monthly upkeep very very slightly and weaponize it against pirates",
+    "Author": "LadyAlekto",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+
+    "Manifest": [
+        { "Type": "ShipModuleUpgrade", "Path": "shipUpgrades" },
+					
+    ]
+}

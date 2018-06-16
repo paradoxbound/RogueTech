@@ -1,0 +1,37 @@
+{
+		"HeadRepaired" : false,
+        "LeftArmRepaired" : false,
+        "RightArmRepaired" : false,
+        "CentralTorsoRepaired" : false,
+        "LeftTorsoRepaired" : false,
+        "RightTorsoRepaired" : false,
+        "LeftLegRepaired" : false,
+        "RightLegRepaired" : false,
+
+        "RepairMechLimbs" : true,
+        "RepairMechLimbsChance" : 0.65,
+        "RandomStructureOnRepairedLimbs" : true,
+
+        "RepairMechComponents" : true,
+        "RepairComponentsFunctionalThreshold" : 0.25,
+        "RepairComponentsNonFunctionalThreshold" : 0.5,
+		
+		"AssembleVariants" : true,
+		 "AssembleMostParts" : true,
+        "VariantExceptions" : [
+		"mechdef_Mackie-6S",
+		"mechdef_blackknight_BL-S7",
+		"mechdef_catapult_CPLT-S7",
+		"mechdef_griffin_GRF-S7",
+		"mechdef_highlander_HGN-EXb",
+		"mechdef_kingcrab_KGC-B",
+		"mechdef_stalker_STK-3Hb",
+		"mechdef_thunderbolt_TDR-E5",
+		"mechdef_locust_LCT-LR",
+		"mechdef_atlas_AS7-D-HT",
+		"mechdef_blackknight_BL-6b-KNT",
+		"mechdef_griffin_GRF-4N",
+		"mechdef_highlander_HGN-732b",
+		"mechdef_commando_COM-MK2"
+		]
+}

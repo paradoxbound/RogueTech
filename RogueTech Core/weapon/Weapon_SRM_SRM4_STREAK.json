@@ -1,0 +1,65 @@
+{
+    "Category" : "Missile",
+    "Type" : "SRM",
+    "WeaponSubType" : "SRM4",
+    "MinRange" : 0,
+    "MaxRange" : 290,
+    "RangeSplit" : [
+        120,
+        210,
+        290
+    ],
+    "AmmoCategory" : "SRM",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 12,
+    "Damage" : 8,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 2,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -2,
+    "CriticalChanceMultiplier" : 2,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 4,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 2.25,
+    "WeaponEffectID" : "WeaponEffect-Weapon_SRM4",
+    "Description" : {
+        "Cost" : 580000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Holly",
+        "Model" : "STREAK Missile Launcher",
+        "UIName" : "SSRM4",
+        "Id" : "Weapon_SRM_SRM4_STREAK",
+        "Name" : "SSRM4",
+        "Details" : "A STREAK SRM 4 Launcher, this early version upgraded the launcher to carry an advanced active guidance system that allowed the missile to easier track it's target but had a 50% increase in heat and weight.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "+2Accuracy",
+    "BonusValueB" : "+2 Evasion Ignore",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "srm4",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 3,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_standard"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

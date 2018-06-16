@@ -1,0 +1,13 @@
+{
+    Name: "Handy Industrial Weapons",
+    Enabled: true,
+    Version: "10",
+    Description: "Adds several new weapons based on industrial machinery. These are less effective than the default mech weapons, but cheaper, so should be useful during the early game.",
+    Author: "HandyVac",
+    
+	Manifest: [
+		{ Type: "WeaponDef", Path: "weapon" },
+		{ Type: "UpgradeDef", Path: "upgrades" },
+		{ Type: "ShopDef", Path: "shops" },
+	]
+}

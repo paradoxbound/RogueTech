@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerSlipais_utr",
+    "Name": "guiTxrPort_backerSlipais_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerSlipais_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

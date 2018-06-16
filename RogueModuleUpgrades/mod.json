@@ -1,0 +1,15 @@
+{
+    "Name": "Rogue Vanilla Upgrades Module",
+    "Enabled": true,
+
+    "Version": "0.1.1",
+    "Description": "Tweaks to vanilla upgrades module for Rogue Battletech",
+    "Author": "LadyAlekto",
+    "Website": "https://www.nexusmods.com/battletech/mods/79",
+    "Contact": "fakeemail@fakeemail.com",
+	
+	    "Manifest": [
+			{ "Type": "UpgradeDef", "Path": "actuators" },
+			{ "Type": "UpgradeDef", "Path": "targetTrackingSystem" },			
+    ],
+}

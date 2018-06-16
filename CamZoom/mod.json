@@ -1,0 +1,27 @@
+{
+    "Name": "CamZoom",
+    "Enabled": true,
+
+    "Version": "0.2",
+    "Description": "The maximum amount the camera can zoom out is increased",
+    "Author": "willssi",
+    "Website": "TBD",
+    
+    "DLL": "CamZoom.dll",
+
+    "Settings": {
+      "MaxHeightSetting": 800,
+	  "ZoomSpeedSetting": 4750,
+	  "MaxSpeedSetting": 30,
+	  "MoveSpeedSetting": { "x": 300, "y": 300, "z": 300 },
+	  "MinAngleSetting": 1,
+	  "MaxAngleSetting": 90,
+	  "DefaultAngleSetting": 40,
+	  "ZoomToFirstEnemyContactSuppressedSetting": true,
+	  "ZoomToNewRadarContactSuppressedSetting": true,
+	  "ZoomToCombatActionSuppressedSetting": true,
+	  "AutoCalcZoomToUnitScaleFactorSetting": false,
+	  "UseManualZoomScaleFactorSetting": false,
+	  "ManualZoomToUnitScaleFactorSetting": 0.8
+    }
+}

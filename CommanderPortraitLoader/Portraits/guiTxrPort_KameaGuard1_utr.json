@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_KameaGuard1_utr",
+    "Name": "guiTxrPort_KameaGuard1_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_KameaGuard1_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

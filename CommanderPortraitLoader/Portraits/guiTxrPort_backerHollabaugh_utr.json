@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerHollabaugh_utr",
+    "Name": "guiTxrPort_backerHollabaugh_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerHollabaugh_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

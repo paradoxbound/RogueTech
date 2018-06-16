@@ -1,0 +1,329 @@
+{
+    "AmmoID" : "Ammunition_LRM",
+    "Capacity" : 120,
+    "Description" : {
+        "Cost" : 40000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "LRM DF",
+        "UIName" : "LRM DeadFire Ammo",
+        "Id" : "Ammo_AmmunitionBox_Deadfire_LRM",
+        "Name" : "LRM Deadfire Ammo",
+        "Details" : "Deadfire LRM's trade any advanced guidance system, reducing range and accuracy, for a bigger payload and reduced minimum range.",
+        "Icon" : "uixSvgIcon_ammoBox_Missile"
+    },
+    "BonusValueA" : "+35% Damage +5%Heat Generated",
+    "BonusValueB" : "-30% Range -2Accuracy",
+    "ComponentType" : "AmmunitionBox",
+    "ComponentSubType" : "Ammunition",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+			{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+                "showInStatusPanel" : true				
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "DFLRM1",
+				"Name" : "DeadFire LRM",
+				"Details" : "This unit fires DeadFire LRM's.",
+				"Icon" : "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData" : 
+			{
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "2.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",
+                "targetWeaponSubType" : "NotSet"				
+			},		
+			"nature" : "Buff"
+		},
+		{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "DFLRMMinR",
+				"Name" : "DFLRMMinR",
+				"Details" : "DF Minrange by 50m",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"statName" : "MinRange",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.5",
+				"modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",
+                "targetWeaponSubType" : "NotSet"				
+			},		
+			"nature" : "Buff"
+		},	
+		{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "DFLRMSR",
+				"Name" : "DFLRMSR",
+				"Details" : "DF Minrange by 50m",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"statName" : "ShortRange",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.7",
+				"modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",
+                "targetWeaponSubType" : "NotSet"				
+			},		
+			"nature" : "Buff"
+		},
+		{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "DFLRMMR",
+				"Name" : "DFLRMMR",
+				"Details" : "DF Minrange by 50m",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"statName" : "MediumRange",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.7",
+				"modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",
+                "targetWeaponSubType" : "NotSet"				
+			},		
+			"nature" : "Buff"
+		},
+		{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "DFLRMLR",
+				"Name" : "DFLRMLR",
+				"Details" : "DF Minrange by 50m",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"statName" : "LongRange",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.7",
+				"modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",
+                "targetWeaponSubType" : "NotSet"				
+			},		
+			"nature" : "Buff"
+		},	
+		{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "DFLRMMXR",
+				"Name" : "DFLRMMXR",
+				"Details" : "DF Minrange by 50m",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"statName" : "MaxRange",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.7",
+				"modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",
+                "targetWeaponSubType" : "NotSet"				
+			},		
+			"nature" : "Buff"
+		},		
+		{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "DFLRMDMG",
+				"Name" : "DFLRMDMG",
+				"Details" : "DF Minrange by 50m",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.35",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",
+                "targetWeaponSubType" : "NotSet"				
+			},		
+			"nature" : "Buff"
+		},
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Heat_DFLRM",
+                "Name" : "Increased Heat",
+                "Details" : "Heat generation increased by 20%.",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "HeatGenerated",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.05",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }		
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

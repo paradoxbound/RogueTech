@@ -1,0 +1,30 @@
+﻿{
+  "Name": "CharlesB",
+  "Enabled": true,
+
+  "Version": "0.3.0",
+
+  "Author": "janxious",
+  "Website": "https://github.com/janxious/CharlesB",
+
+  "DLL": "CharlesB.dll",
+  "DLLEntryPoint": "CharlesB.CharlesB.Init",
+  "DependsOn": [],
+  "ConflictsWith": [],
+
+  "Settings": {
+      "attackMissInstability": true,
+    "attackMissInstabilityPercent": "30",
+    "attackMissInstabilityLeggedPercent": "60",
+    
+    "dfaMissInstability": true,
+    "dfaMissInstabilityPercent": 50,
+    "dfaMissInstabilityLeggedPercent": 90,
+	
+    "pilotingSkillInstabilityMitigation": true,	
+    
+    "allowSteadyToKnockdownForMelee": true,
+
+    "debug": false
+  }
+}

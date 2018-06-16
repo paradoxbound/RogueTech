@@ -1,0 +1,19 @@
+{
+    "Name": "Rogue Shops Module Factions Rep",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "Adds RogueTech equipment to respective Factions by reputation",
+    "Author": "LadyAlekto",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+
+    "Manifest": [		
+        { "Type": "ShopDef", "Path": "shops" },		
+    ],
+	
+	
+	"DLL": "StoreTagEnabler.dll",
+
+	
+}

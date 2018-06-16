@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerLoving_utr",
+    "Name": "guiTxrPort_backerLoving_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerLoving_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

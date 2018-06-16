@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "swordngun_cr",
+    "Name": "swordngun_cr",
+    "Details": "",
+    "Icon": "swordngun_cr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

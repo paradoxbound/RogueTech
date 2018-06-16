@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerBozeman_utr",
+    "Name": "guiTxrPort_backerBozeman_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerBozeman_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

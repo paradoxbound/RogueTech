@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_LiaoRep_utr",
+    "Name": "guiTxrPort_LiaoRep_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_LiaoRep_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

@@ -1,0 +1,41 @@
+{
+	"Description" : {
+		"Id" : "TraitOPTHREEPlus",
+		"Name" : "",
+		"Details" : "",
+		"Icon" : ""
+	},
+	"Type" : "CalledAccuracy",
+	"ShortDesc" : "-3 Called Shot Penalty",
+    "DisplayParams" : "ShowInPilotToolTip",
+	"ActivationTime" : "Passive",
+	"EffectData" : [
+				{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "TraitOPTHREEPlus",
+				"Name" : "Called Shot Accuracy Bonus",
+				"Details" : "+1 Accuracy",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+                "statName" : "ToHitOffensivePush",
+                "operation" : "Float_Add",
+                "modValue" : "-1",
+                "modType" : "System.Single",
+			},
+			"nature" : "Buff"
+		}
+	]
+}

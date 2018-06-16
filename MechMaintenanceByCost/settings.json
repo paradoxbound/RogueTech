@@ -1,0 +1,5 @@
+{
+"PercentageOfMechCost" : 0.003,
+"CostByTons" : false,
+"cbillsPerTon" : 500
+}

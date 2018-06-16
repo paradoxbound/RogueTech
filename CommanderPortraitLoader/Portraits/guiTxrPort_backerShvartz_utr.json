@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerShvartz_utr",
+    "Name": "guiTxrPort_backerShvartz_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerShvartz_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

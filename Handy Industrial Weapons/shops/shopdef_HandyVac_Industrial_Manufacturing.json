@@ -1,0 +1,38 @@
+{
+   "ID" : "shopdef_HandyVac_Industrial_Manufacturing",
+   "RequirementTags" : {
+      "items" : [
+            "planet_industry_manufacturing"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+		"planet_other_empty"
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+		{
+			 "ID" : "Gear_Actuator_HandyVac_Industrial_CargoGrip",
+			 "Type" : "Upgrade",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+		{
+			 "ID" : "Weapon_HandyVac_Industrial_Construction_0_ArcWelder",
+			 "Type" : "Weapon",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+		{
+			 "ID" : "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch",
+			 "Type" : "Weapon",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		}
+   ],
+   "Specials" : [
+		
+   ]
+}

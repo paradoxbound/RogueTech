@@ -1,0 +1,535 @@
+
+RogueTech
+
+RogueTech has as goal to provide new challenges and a harsher simgame experience. You have to survive by all means, the enemys will do their best to kill you and no one gives a rats ass about some merc dying
+
+The timeline for this mod is at the start of 4th Succesion and the War of 3039, when the the first technologies of the Helm Core appear around the sphere.
+
+THIS MOD IS NOT SUPPOSED TO BE EASY, ENEMIES ARE DEADLIER AND THAT'S INTENTIONAL!
+
+I mean, how fair would it be to just have the player have all these fancy toys?
+
+Highlights
+
+    Big, RogueLike, Sandbox Experience
+    Rebalanced Sim and Combat game, to give you a harsher world.
+    More Mech's: From the pirate commando with infernos, to the Massive KingCrab-0001 with twin Gaussrifles, face off against all kinds of enemys.
+    With the great houses scrambling for superiority and unlocking the secrets of Helm, new weapons arrive on the battlefield, but nothing is cheap.
+
+
+Included Mods
+Check this Article ﻿for the mods included in this pack.
+
+Required Mods
+You WILL need MPStark's BattletechModLoader(BTML) and ModTek in the newest versions, since older one break the mod.
+UPGRADE TO MODTEK 0.2!
+
+    ModTek﻿
+    BattleTechModLoader
+
+    ﻿
+
+Install
+
+The All in One, this is the intented game experience.
+The AIO Package includes most required dll's
+
+    Select your Battletech\mods\ folder and extract the files
+    Start your game
+	
+	FIRST START TAKES A WHILE BE PATIENT
+
+
+Optional:
+
+You are also free to poke and prod each of the files to see what you can do.
+
+Update:
+
+    To update, simply overwrite existing files.
+
+
+IMPORTANT!
+
+If you had other mods installed, and the game doesnt start, delete all saves that uses these as the game may try to reference files from these and can crash on startup
+
+This is a hbs issue with internal databases on saves, not a RogueTech bug
+Changelog
+The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).
+
+Special Thanks
+I want to credit MPStark, Morphyum, RealityMachine and janxious for their dll's, which they have given me permission to be used for this mod pack.
+
+And credit where credit is due, everyone on the battletech discord modders channel, who gave input and who helps ironing out bugs, you are all great guys :)
+
+Thanks to Callyste for the gorgeous Header
+
+Notes
+Anyone may take this apart to figure out how modtek works, ill try to add as many different stuff as possible for this purpose. I will also answer about everything i learn and tell you how to use it.
+
+
+
+
+
+
+
+
+
+		
+
+Emblem Module
+Contains the emblems i use
+
+Black Widow, Green Goblin, Flaming skull
+
+
+Upgrade Tweak Module
+
+This Module will contain tweaks to all vanilla Gear upgrades
+
+Actuators reworked to give a Multiplier instead of fixed bonus (and slightly less bulkier) (instability dealing actuators dont like it, so theyre just smaller)
+TTS are normalized to 1slot/ton to make finding a greater one more meaningful	
+
+Faster Mech's Module
+
+Increases All mech's movementspeed by roughly 30-50% (not the distance, inspired by the faster vehicles)
+
+Weapon Rebalance Module
+
+Contains current vanilla Weapon tweaks
+
+        Weapon rebalance
+        
+        Short ranges(half of optimal range in mechbay) on everything, penalty for medium range
+        
+        Stability for every weapon 1 stab per 4 damage (doing fractions) lasers 1 per 5
+        Closer to tt for a "damage taken" piloting roll
+        
+        Removed LRM clustering reduced accuracy, this nerf's LRM slightly but you may remove heads with one salvo and tons of luck
+              
+        LL'S and PPC's increased damage
+        
+        PPC's recoil, so do pulse lasers(reflect difficulty to keep the damage on point)
+                
+        Pulse weapon ignore 2 pips
+        
+        Adds a tier3 PPC, ERPPC got the PPC debuff HBS forgot
+        
+        Gauss Improved range, damage, crit, min range and accuracy	
+		
+		Ac's got 20% reduced heat, accuracy boni replaced with increased range, and evasion ignore for higher tier
+		
+		+Stability modifiers are now a multiplier not a straight addition
+		
+		All flamers produce some heat instead of limited ammo
+		
+		ER Weapons gain a slight damage bonus and slightly reduced heat
+		
+		Lostech weapons are changed to be variants, to appear randomly on mech's (not gauss though)
+		
+		
+A selection of optional shop to gain access to the gear
+
+Choose the one youd like to have interact (or leave it out to be salvage only)
+
+If you want to change the time or reputation, just open the file and change the value to your liking
+
+
+
+"All these goodies brought to you by the Deadly Sins stable, enjoy your stay on Solaris"
+
+---------
+
+0.9857A3
+By popular request, elites, royals, mackie and locust-lr excluded from random assembly
+Also chassis assembly changed to always create the chassis with most parts used
+MeleeMover by Morphyum added, allows to move in melee when already engaged
+1st Rework of the HeatSystem
+Double heat sink engine buff only when double heat sinks are installed exclusively
+Exchangers and Banks Buffed, costs of Double Heatsinks raised by 33%, standard heatsink are cheaper
+Tweak of IF TTS for possible fix of unexpected bug
+Inner Sphere colours Updated for colourblind support and changing map colours
+Jump Heat by distance increased
+Bulwark passive renamed to Berserker, removed autoguard on standing still but grants buff to melee and DFA
+CombatGameConstants is now a merger instead of replacer to prevent conflicts 
+Guts heat threshhold reduced by 5 points to 10/20 respectively
+Greater pay for contracts when liked
+
+0.9857A2
+Added "Injured Piloting" by RealityMachina
+Added Injuries hurt by "Night Thastus"
+Royal Battlemechs properly adjusted and fixed for rt
+CBT Heat updated, now applies a escalating movement penalty
+Sensor lock reduced to 2 turns
+!EXPERIMENTAL!
+Overheat threshhold reduced to 46% and increased to 110, effectively reducing overheat to be at 50 points and keeping players longer in it
+Added "Internal Heatsinks" by Janxious - Eqipping Double heatsinks will make your internal heat sinks all doubles
+
+
+0.9857AHF
+Sensor lock now (should) work on indirect, please reports
+Argo tech modules buffed by another 0.5 to rpevent stuck event bug
+Contains shotcount enabler fix by FlukeyFiddler (bow to his majesty of fixing dirty hacks)
+delete the old shotcountenabler.dll
+
+0.9857A1
+Eris reworked, mg's repalced with better heatcapacity
+Fixed alpha randomstart and new mechs
+Argo MechTech upgrades raise a bit more points and are quicker build
+Tweaks to all elite mech's hidden stats (may add them sometime to the readme)
+D7Catapult renamed to Hwacha
+6x Trebuchet buffed and renamed to Katyushka
+Added the Behemoth Elite
+Further tweaks to melee failstate chances and CharlesB updated to 03
+Multimissions an optional install
+
+
+
+0.9857A
+Allowed 6 melee destinations
+Fixed accidentally wrong guarded/entrenched nerfs being buffs
+Increased size of all RT AC's by 1 slot
+Increased speed penalty for overheating
+Armor change tech cost reduced
+DropCost per mech updated to be mac compatible and saving its state
+Added 2 new pilots
+Added 2 more mech's and a turret
+Additional melee nerfs
+
+MULTI Missions
+
+0.9856HF
+Fixed guts buffs accidental bugging out with tsm
+Ace pilot now generates an extra evasive charge
+Contract name bug fix
+
+0.9856
+Reduced base accuracy gain
+Flamers produce some more heat when fired
+Overheat state is reached earlier (55% max instead of 60%)
+Elevation now grants an escalating effect by 1 accuracy per 30 units (most circumstance this gives a 2-3 change for attacks)
+Normal Urbie can now spawn
+Gauss got a nerf of 5dmg
+Further contract tweaks
+
+MECH Salvage now is combined from 5 parts per base, not per chassis
+This means if youve got parts of a couple different variants, these get combined into a single mech, with a higher chance depending on the parts it used
+
+CBT heat updated, affected by guts now 10 guts gives you a ~10% bonus on the roll
+
+        "ShutdownPercentages": [0.083, 0.278, 0.583, 0.833],
+        "AmmoExplosionPercentages": [0, 0.083, 0.278, 0.583],
+
+0.8956Alpha3
+Added CBT penaltys for overheating, movement and piloting instability check
+Reworked supercharger and ace pilot
+
+ALL your mechs and the enemy can shoot and sprint at higher accuracy cost
+Jumping will make you even less accurate
+Accuracy mods (cumulative)
++1 for moving, +2 sprinting, +3for jumping
+
+Melee accuracy reduced
+
+Being in overheat will give you a escalating penalty to accuracy, ammo explosion and shutdown per turn
+
+        "ShutdownPercentages": [0.042, 0.139, 0.292, 0.416],
+        "AmmoExplosionPercentages": [0, 0.05, 0.15, 0.28],
+        "HeatToHitModifiers": [1, 2, 3, 4]
+
+Being pushed beyond the stability threshhold will only knock you down on a stability check dependant on piloting skill
+
+
+
+
+09856A2HF
+Added dfa missed extra instability, DFA less base instability
+Accidentaly made contract templates added to db, delete your .modtek cache
+
+0.9856Alpha2
+Removed equip removal tech cost to prevent missing equip bug, made all other actions cost more tech points
+Added melee misses causing instability, melee accuracy reduced
+Fixed typo in cluster chance
+Elevation has higher increases
+Entrenched and guarded grant less defense
+Reduced ammo cook off chance again
+Additional Plasma tweaks
+Re-enabled alpha contract tweaks
+Further AI Tweaks (im getting close, shouldnt suicide bomb as much now ;))
+
+0.9856Alpha
+Removed instability on heat (structure Damage from overheat removed)
+Ai now will ignore evasion strip logic
+Inreased morale penaltys
+Reduced base called shot location multiplier
+Extra vehicle evasion
+Added fix for vehicles as ambush targets by daiyuki
+
+0.9855
+5 New Mechs thanks to veritas for the inspiration
+TC cockpit reworked: Grants +2 accuracy and 80% increased chance for Called shot, minimum range modifier removed, other modifiers halved
+PanicSystem Updated
+You now start properly in 3031
+Nerfed movement of the Erinya
+Laser weapons now deal stability damage of 1 per 6 damage
+Additional AI Tweaks
+
+0.9854
+All RT AC types had their recoil increased, uac/rac slightly less damage per shot
+Doubled values of Recreational monthly upkeep reduction
+Argo Mechbay and Pods 2+3 also reduce monthly upkeep now
+Further evasion tweaks
+Echidnae reworked to be a dfa pulse beast
+Erinya nerfed again, it is now a nasty brawler instead of the shotgun
+JumpJet Heat slightly increased
+Melee stability actuators are a % buff now too
+Starter mechs tweaked further, 2 lights 1 med 1 heavy, but you have a chance for an elite mech
+3 New traits +1to3 accuracy to Offensive Push (Called shot) gained through Gunnery
+Reset salvage tweaks until i find why prioritysalvagefix failed
+
+
+0.9853
+Tweaked some of the rt weapons, mostly nerfs
+added a dl to cap salvage at 7 picks to prevent ui issues and increased salvage - please feedback on this
+You will now start with with 2 lights, 2 meds, and a heavy
+IntroMovieskipper by mpstark
+Increased required distance for evasion pips and their effect (may change it back)
+Tweaked heat exchangers and banks
+Eject now always gives you your mech back and kia adds a 50% chance for 75% chance of recovery
+
+
+0.9852
+Added 3 new TTS, that grant you 2-4 improved accuracy on indirect fire
+Removed to hit penalty for lights and mediums
+Further economy and AI tweaks
+Fixed typo for salvage
+Removed stacking from all TTS, you can use one of each, but not two of the same
+
+0.985
+Slightly increased salvage potential and default contract payout
+Increased difficulty variety (3->5)
+Increased Max Contracts per system (10->15)
+Removed most notifs for mech repair and argo upgrades
+Cleaned up some files
+Second part of argo tweaks, Training pods give a tiny bit more xp with a higher limit to offset the raised leveling cost
+Adjusted Salvage now gives a greater recovery chance for ejected(+50%) and kia (+25%)
+Thunderbolts are now large cruise missiles
+
+0.9845
+Made HBS Royal SLDF avaible to appear in sandbox
+Adds a BL-9-KNT, a pulse laser boat
+Fixed bug with light rifle not rendering
+You Ammo may cook off, watch those heat levels!
+Includes alpha testing of a changed event, now you can get weapons on your argo
+Recreationals reducing monthly cost now included to soften end game economy
+Plasma rework to actually need ammo bins (gauss ammo) and got its debuff back
+
+
+0.9841
+Added an Installer and Splash Screen
+Reduced MAX heat
+Fixed Supercharger stacking
+Ac5 Defiance 2++ had bugged accuracy
+
+0.984
+Further AI tweaks
+All mechs slightly rescaled for a more reasonable feeling (thanks janxious and delta_assault on reddit)
+You can now press space or mouse4 to go back (as if its esc), can be changed in the bindableesckey mod.json
+Keep sound while alt tabbing
+Cleaned up some gear and descriptions, prevents most effects from stacking.
+Deadfire LRM indirect bool bugged, so it just has an accuracy penalty for now
+Added DeadFire SRM
+Added Incendiary LRM
+Added the Eris Elite Battlemech, a wannabe Hellbringer
+Commander cannot resist Panic anymore ad less likely that a loner will eject
+Argo Power 3 now also grants you a better option to deal with pirates
+
+0.9831
+Added a merger to speed up audio
+Changed the default shop from specials to shop by faction rep
+You now need at least 30 rep with a faction to see their roguetech gear
+Removed elites from shop
+Removed low tech mech shop
+Now Includes Faster Vehicles as part of the AIO
+Couple balance tweaks to all gear
+Adjusted salvage will grant only 1 salvage if enemy was cored
+Ai tweaks to make it more aggresive early on and less possible to be catched standing around (hopefully)
+
+
+0.982
+Included the Mackie
+Added the CommanderPortraitLoader
+Reduced lost salvage again
+Cause for randomly lost mechs might be extraction instead of clearing, still investigated
+
+0.981
+Nerfed the mk2 Commanndo slightly 
+Black Jag G Move speed nerfed further
+Kintaro 18S has more free weight but is slower
+Added LMG
+Reworked all Roguetech variants to have less hardpoints 
+Elites Made Special
+
+
+0.98
+Reduced sell prices of everything to account for selling parts
+25% chance your own destroyed mech comes back, otherwise you have to salvage it
+Ai Pilots now access the same skill tree buffs and cleaned up the mess hbs made in the files
+Turrets have sensor lock back
+Removed accidental double dll
+
+
+0.97
+Combined all shops into a single download
+Added a All in One Main file, this how the mod is intented to be played
+Adds the Adjusted Salvage, accoutning for each destroyed limb on determining salvage and you have to salvage your own lost and destroyed mech's
+
+
+0.96
+Added several vanilla mech's to the random start
+Added an Elite 'Mech
+Added a few new cheap tanks
+RogueTech made dependant on IS map to prevent a conflict
+
+
+0.95
+Restricted DNI accuracy bonus to melee
+Economy tweaks to not get bankrupted too easy (mostly autosalvage chances)
+No salvage when loosing or retreating
+Less extreme contract difference for IS mod, more for vanilla, trying to make single planets offer multiple missions as if waging a little campaign on each
+Raised random start to 3 lights and 2 meds to account for proper armoured enemys
+Fixed gaining too much salvage per mission
+Added the quickstart back in i forgot, it "shouldnt" interfere with Sandbox and work for vanilla players as usual
+Reduced Starting Morale
+New shop def's
+
+0.94 
+Added Rifles and a mech for each
+Found a bug that could Lock up your barracks, not my source but it shouldnt happen with this
+Renamed to "RogueTech" (thanks jaxious)
+
+
+0.93 
+UAC10 1 ton less/UAC20 1 ton more weight
+Few extra combat tweaks, gonna chase that perfect balance
+Made Compatible to Inner Sphere Map
+Basic Shop Module added, will add a specials and factions shop option soon to spread the gear among the factions that made them
+Added smarter and more aggresive AI
+
+
+0.92
+Remade the Starter Commando into one of the "Elite Mech's"
+Fixed several typos and bugs with the weapons module
+Reduced base sight and sensors but added abilities to improve both to tactics
+Ronin got all reduced to max start passive skill of 3 but gained extra xp (more control over your start lance and less problems with reworked skills)
+Decided to not split Gear and weapons off from core but Elite Battlemech's become their own Module except for the commando
+
+
+0.91
+Streaks deal 1 more point of damage
+Nerfed TBT-6X movement speed
+Plasma debuff removed, it could stop mission progression, releasing fix because of this
+DNi Extra evasion charge replaced with 1 more generated from movement
+Piloting Evasive Move grants 20% increased jump distance
+Tweaks to various chassis, mostly unit tags for lance spawner, balance is king
+
+
+0.9
+Slowing release cycle, the base of what i want is mostly done
+Removed "multiple elevation bonus" as it didnt work correctly
+Increased chance of melee being a punch
+Charging for melee attack gives bonus instability damage
+Vehicles can guard
+Faster mech movement reworked to merge instead of replace (more elegant)
+UpgradeModule: Vanilla tts radically decreased in weight, added a targeting Computer for core
+Tweak to morale again: OffensivePush(called shot) now costs barely anything, but every shot has a 6 to hit penalty
+Plasma debuff increased, but cannot stack anymore (it made problems, now reduces max heat by 15%)
+Indirect fire penalty doubled
+Overheat accuracy penalty increased to 4
+Elite Battlemech's, highly optimized chassis that embody the horrors of their class
+Changed Missile tohit on NSS to Bulwark
+Started to clear up effects of gear
+
+0.892
+Another quickfix for some stupid typo that could break the ai, need more coffee
+
+0.891
+Moved changelog to end of readme, RTFM people
+Cleaning up the readme/description
+Max evasive traits didnt properly copy, you still need to invest into piloting
+Removed the test money settings (ooops)
+
+0.89
+Max evasion pips increased to 9
+Evasion now grants a +2 to hit per 30 units moved
+TSM tiny nerf
+Gunnery Grants recoil reduction
+Guts Grants less Heat Generated 
+Overheat deals far less self damage but heatsinks loose efficiency on shutdown for a bit
+Further tweaks to Plasma and added PPC Capacitator
+Ace Pilot allows to shoot after sprinting too
+
+0.885
+Started to break the mod into modules
+Fixed description and name of the Advanced Materials
+Unsteady counters guarded
+Added INFERNO+ variants that will only spawn randomly
+Juggernaut&Bulwark grant 15% and 10% melee damage respectively
+Streaks gain a small range range bonus
+
+0.881
+Nerfed the tanks a bit (caused problems with ai)
+Raised price of and tweaked "protoype" weapons, Made most of them a "variant" to grant a chance to randomly replace similar weapons (no rac, rocketlauncher or thunderbolts)
+Added expensive "Advanced Materials"
+Still alpha concerning the weaponchanges
+Reduce your GFX if you experience everloading mission starts (problem with unity asset handling)
+Made the AMS hotfix a separate file to prevent the unity asset bug from appearing
+
+0.88-Alpha
+
+Weapons rebalance!
+Please give feedback, want a satsifying finetune before going into sensor/sight/chassis finetuning
+
+0.875
+Fixed shown cost for morale abilities
+Tweaks to mechtech/mechbay values
+Tinkered with the MK2 Commando (your brutal wet paper armour starter)
+Tweaked ER weapons
+Changed possible start mech's
+
+
+0.871
+Fixed one bug with the Rocketlauncher
+Dont know why it doesnt render anymore since 1.03 so this is a stopgap until i find it
+
+0.87
+Nerfed the griffin
+Reworked the Gladiator
+Head may now cluster
+Elevation confers now a mutiple bonus
+3 More suprise Mech's
+Fixed typo's
+
+0.865
+Youll start on the leopard
+
+0.862
+Hotfix because turrets had master tactician instead of sensor lock ('doh)
+
+0.861
+A way way cleaner change to the abilities to not interfere with preset pilots
+
+0.86
+Further refinements to Morale system
+Slight increase to contract payout's to not bankrupt you early with drop costs
+Removed many cockpit mods, they'e been too easy money
+Uses random starting mech's by mpstark
+Added optional modtekpackages for punching out with my variables(less chance, more likely eject by headhits and injury) and a classic battletech slots merger
+
+0.85
+
+Going to start to keep a changelog
+Increased cost/bv for most surprise customs to increase their rarity
+Changed starter to a unique "super commando" that wont spawn more
+Reduced damage of the Plasma
+Tweaked many values of the Electronic Warfare (will keep working on this)

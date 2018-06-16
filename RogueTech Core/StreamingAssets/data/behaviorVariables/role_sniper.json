@@ -1,0 +1,90 @@
+{
+   "behaviorVariables" : [
+      {
+         "k" : "Float_PreferLowerMovementFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 0.0,
+         }
+      },
+      {
+         "k" : "Float_PreferLessTargetableLocationFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 0.7,
+         }
+      },
+      {
+         "k" : "Float_ShootingDamageMultiplier",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 3.0,
+         }
+      },
+      {
+         "k" : "Float_MeleeDamageMultiplier",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 0.2,
+         }
+      },
+      {
+         "k" : "Float_PreferInsideMeleeRangeFactorWeight",
+         "v" : {
+            "type" : "Float",
+            "floatVal" : 0.0,
+         }
+      },
+	  	{
+	    /* If a target is a melee revenge target, what additional
+	       damage multiplier to apply. The total multiplier is
+	       Float_MeleeDamageMultiplier +
+	       FloatMeleeRevengeBonus. */
+            "k" : "Float_MeleeRevengeBonus",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.0,
+            }
+	},
+		{
+	    /* Influence Factor Weight to control the desire to be
+	       inside forests or other locations that grant guard. */
+            "k" : "Float_PreferLocationsThatGrantGuardFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.5,
+            }
+	},
+		{
+	    /* Influence Factor to prefer this lance to surround
+	       hostile units WHEN SPRINTING.*/
+	    "k" : "Float_SprintPreferSurroundingHostileUnitsFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 0.1,
+	    }
+	},
+		{
+	    /* Fence radius (in meters) for
+	     * PreferStayInsideFenceFactor. */
+	    "k" : "Float_FenceRadius",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 250,
+	    }
+	},
+		{
+	    /* Weight for an influence factor that seeks to stay
+	       within a circular fence from the centerpoint of the
+	       lance WHEN SPRINTING. Note - negative logic; this
+	       should use negative numbers, as it's designed to
+	       discourage being outside the radius and have no effect
+	       inside the fence. */
+	    "k" : "Float_SprintPreferStayInsideFenceNegativeLogicFactorWeight",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : -0.5,
+	    }
+	},
+    ]
+}

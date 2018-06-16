@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerBono_utr",
+    "Name": "guiTxrPort_backerBono_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerBono_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

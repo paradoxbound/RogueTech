@@ -1,0 +1,21 @@
+{
+   "Description" : {
+      "Id" : "movedef_HARASSER",
+      "Name" : "MovementCapabilitiesDef for HARASSER",
+      "Details" : "",
+      "Icon" : ""
+   },
+   "MaxWalkDistance" : 195.0,
+   "MaxSprintDistance" : 265.0,
+   "WalkVelocity" : 50.0,
+   "RunVelocity" : 128.0,
+   "SprintVelocity" : 161.0,
+   "LimpVelocity" : 78.0,
+   "WalkAcceleration" : 55.0,
+   "SprintAcceleration" : 90.0,
+   "MaxRadialVelocity" : 80.0,
+   "MaxRadialAcceleration" : 200.0,
+   "MaxJumpVel" : 80.0,
+   "MaxJumpAccel" : 30.0,
+   "MaxJumpVerticalAccel" : 60.0
+}

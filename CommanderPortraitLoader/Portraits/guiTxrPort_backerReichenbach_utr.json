@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_backerReichenbach_utr",
+    "Name": "guiTxrPort_backerReichenbach_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_backerReichenbach_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

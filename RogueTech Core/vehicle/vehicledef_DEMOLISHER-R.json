@@ -1,0 +1,95 @@
+{
+   "Version" : 1,
+   "Description" : {
+      "Id" : "vehicledef_DEMOLISHER-R",
+      "Name" : "Demolisher R",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 2593,
+      "Rarity" : 5,
+      "Purchasable" : false
+   },
+   "ChassisID" : "vehiclechassisdef_DEMOLISHER-R",
+   "VehicleTags": {
+      "items": [
+         "unit_vehicle",
+         "unit_assault",
+         "unit_tracks"
+      ],
+      "tagSetSourceFile": ""
+   },
+   "Locations" : [
+		{
+			"Location" : "Front",
+			"CurrentArmor" : 200,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 200,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Left",
+			"CurrentArmor" : 150,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 150,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Right",
+			"CurrentArmor" : 150,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 150,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Rear",
+			"CurrentArmor" : 100,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 100,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Turret",
+			"CurrentArmor" : 200,
+			"CurrentInternalStructure" : 40,
+			"AssignedArmor" : 200,
+			"DamageLevel" : "Functional"
+		}
+   ],
+   "inventory" : [
+      {
+         "ComponentDefID" : "Weapon_Autocannon_RAC5_0-Mydron",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 0,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_Autocannon_RAC5_0-Mydron",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC5",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC5",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC5",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      }
+   ]
+}

@@ -1,0 +1,37 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 750000,
+        "Rarity" : 3,
+        "Purchasable" : true,
+        "Manufacturer" : "NAIS",
+        "Model" : "Adv.Mat's.",
+        "UIName" : "Adv. Materials T2",
+        "Id" : "Gear_AdvancedMaterials2",
+        "Name" : "Advanced Materials T2",
+        "Details" : "This is a collection of Advanced MAterials, be it Ferro Fibrous, Endo Steel, or Ultralight Composite's, they all do effectively one thing, slightly reduce the tonnage of a mech's chassis.",
+        "Icon" : "uixSvgIcon_equipment_Gyro"
+    },
+    "BonusValueA" : "-0.5t",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : -0.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

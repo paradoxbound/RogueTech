@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_Ostergaard_default_utr",
+    "Name": "guiTxrPort_Ostergaard_default_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_Ostergaard_default_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

@@ -1,0 +1,73 @@
+{
+    "ID": "shopdef_Weapons_Alekto",
+    "RequirementTags": {
+        "items": [
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [  
+        {
+            "ID": "Weapon_LRM_ROCKETLAUNCHER5",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0				
+        },
+        {
+            "ID": "Weapon_LRM_ROCKETLAUNCHER10",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_LRM_ROCKETLAUNCHER15",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_LRM_ROCKETLAUNCHER20",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },	
+        {
+            "ID": "Weapon_Autocannon_AC5_LRIFLE",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },    
+        {
+            "ID": "Weapon_Autocannon_AC10_MRIFLE",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+         },   
+         {
+            "ID": "Weapon_Autocannon_AC20_HRIFLE",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+          },
+        {
+            "ID": "Weapon_MachineGun_MachineGun_1-HEAVY",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0				
+        },
+        {
+            "ID": "Weapon_MachineGun_MachineGun_1-LIGHT",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0				
+        }		
+	],
+    "Specials": [
+
+	]
+}

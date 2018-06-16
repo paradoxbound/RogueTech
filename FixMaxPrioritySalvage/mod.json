@@ -1,0 +1,9 @@
+{
+    "Name": "FixMaxPrioritySalvage",
+    "DLL": "FixMaxPrioritySalvage.dll",
+
+    "Version": "0.1.0",
+    "Description": "Fixes max priority salvage so that it cannot go above 7.",
+    "Author": "mpstark",
+    "Website": "www.github.com/mpstark/FixMaxPrioritySalvage"
+}

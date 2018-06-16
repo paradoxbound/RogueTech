@@ -1,0 +1,70 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefP8",
+		"Name" : "ACE PILOT",
+		"Details" : "This unit can use its movement before or after shooting and generates a further extra EVASIVE charge from movement actions (up to its max).",
+		"Icon" : "uixSvgIcon_run_n_gun"
+	},
+    "DisplayParams" : "ShowInMWTRay",
+	"ReqSkill" : "Piloting",
+	"ReqSkillLevel" : 8,
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "AbilityDefP8",
+				"Name" : "ACE PILOT",
+				"Details" : "This unit can use its movement before or after shooting and generates a further extra EVASIVE charge from movement actions (up to its max).",
+				"Icon" : "uixSvgIcon_run_n_gun"
+			},
+			"statisticData" : 
+			{
+				"statName" : "CanMoveAfterShooting",
+				"operation" : "Set",
+				"modValue" : "true",
+				"modType" : "System.Boolean"
+			},
+			"nature" : "Buff"
+		},
+{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "AbilityDefP81",
+				"Name" : "EVASIVE MOVE",
+				"Details" : "This unit generates an extra EVASIVE charge from movement actions (up to its maximum).",
+				"Icon" : "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData" : 
+			{
+				"statName" : "EvasivePipsGainedAdditional",
+				"operation" : "Int_Add",
+				"modValue" : "1",
+				"modType" : "System.Int32"
+			},
+			"nature" : "Buff"
+		}		
+    ],
+	"IsPrimaryAbility" : true
+}

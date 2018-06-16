@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_SE01_CaptainHaust_def_utr",
+    "Name": "guiTxrPort_SE01_CaptainHaust_def_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_SE01_CaptainHaust_def_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

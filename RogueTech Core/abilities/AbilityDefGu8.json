@@ -1,0 +1,133 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefGu8",
+		"Name" : "BERSERKER",
+		"Details" : "PASSIVE: Increases Melee&DFA Damage and reduces DFA self damage by 20% and allows bracing after melee strike.",
+		"Icon" : "uixSvgIcon_ability_bulwark"
+	},
+    "DisplayParams" : "ShowInMWTRay",
+	"ReqSkill" : "Guts",
+	"ReqSkillLevel" : 8,
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+        {
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "GU8DFASelf",
+                "Name" : "DFA SELF-INFLICTED DAMAGE DECREASED",
+                "Details" : "DFA attacks deal [AMT] less damage to the attacker.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorLeg"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DFASelfDamage",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.8",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "DFA"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnActivation",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "GU8Melee",
+                "Name" : "MELEE DAMAGE INCREASED",
+                "Details" : "Melee attacks deal 10% more damage.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.2",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "Melee"
+            },
+			"nature" : "Buff",
+        },	
+        {
+            "durationData" : {
+                "duration" : -1,
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnActivation",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "GU8DFA",
+                "Name" : "MELEE DAMAGE INCREASED",
+                "Details" : "Melee attacks deal 10% more damage.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.2",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "DFA"
+            },
+			"nature" : "Buff",
+        }		
+	],
+	"IsPrimaryAbility" : true
+}

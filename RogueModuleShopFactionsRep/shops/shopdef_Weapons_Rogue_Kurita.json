@@ -1,0 +1,146 @@
+{
+    "ID": "shopdef_Weapons_Rogue_Kurita",
+    "RequirementTags": {
+        "items": ["planet_faction_kurita",
+		"rep_kurita_35"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+
+        {
+            "ID": "Weapon_PPC_PPCER_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0
+        },
+		        {
+            "ID": "Weapon_PPC_PPC_LIGHT",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+		 {
+         "ID" : "Gear_Gyro_Ultralight",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+      },
+	  {
+         "ID" : "Gear_PPC_Capacitator",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+      },	  
+	  {
+         "ID" : "Gear_Gyro_HeavyDuty",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_JumpJet_Improved_Standard",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.1,
+         "Count" : 0
+      },	  
+      {
+         "ID" : "Gear_JumpJet_Improved_Heavy",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.1,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_JumpJet_Improved_Assault",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.1,
+         "Count" : 0
+      },	  
+     {
+         "ID" : "Gear_PartialWing_Generic_Standard",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_PartialWing_Generic_Standard25",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_PartialWing_Generic_Standard30",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_PartialWing_Generic_Standard40",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_PartialWing_Generic_Standard45",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_PartialWing_Generic_Standard55",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_PartialWing_Generic_Heavy",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_PartialWing_Generic_Heavy65",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_PartialWing_Generic_Heavy75",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_PartialWing_Generic_Heavy80",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_PartialWing_Generic_Assault",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_PartialWing_Generic_Assault95",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+        {
+            "ID": "Gear_TargetingTrackingSystem_I3F2",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+        }	  
+
+    ],
+    "Specials": []
+}

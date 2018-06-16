@@ -1,0 +1,18 @@
+{
+    "Name": "Rogue Shops Module LowTech",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "Adds LowTech Gear and mechs to shops for RogueTech",
+    "Author": "LadyAlekto",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+
+    "Manifest": [		
+        { "Type": "ShopDef", "Path": "shops" },			
+    ],
+	
+		
+
+	
+}

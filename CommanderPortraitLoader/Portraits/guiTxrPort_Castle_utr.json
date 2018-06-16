@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_Castle_utr",
+    "Name": "guiTxrPort_Castle_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_Castle_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}

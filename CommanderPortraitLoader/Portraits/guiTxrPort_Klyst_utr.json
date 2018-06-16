@@ -1,0 +1,10 @@
+{
+  "Description": {
+    "Id": "guiTxrPort_Klyst_utr",
+    "Name": "guiTxrPort_Klyst_utr",
+    "Details": "",
+    "Icon": "guiTxrPort_Klyst_utr"
+  },
+  "isCommander": true,
+  "headMesh": 0.5
+}
