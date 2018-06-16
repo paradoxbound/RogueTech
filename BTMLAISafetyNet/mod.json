@@ -1,0 +1,17 @@
+﻿{
+  "Name": "BTMLAISafetyNet",
+  "Enabled": true,
+
+  "Version": "0.0.2",
+
+  "Author": "gponick",
+  "Website": "https://github.com/gponick/BTMLAISafetyNet",
+
+  "DLL": "BTMLAISafetyNet.dll",
+  "DLLEntryPoint": "BTMLAISafetyNet.BTMLAISafetyNet.Init",
+  "DependsOn": [],
+  "ConflictsWith": [],
+
+  "Settings": {
+  }
+}

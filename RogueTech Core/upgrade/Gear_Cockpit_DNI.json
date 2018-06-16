@@ -14,7 +14,7 @@
         "Details" : "This cockpit mod allows the use of a DirectNeuralInterface, granting improved control over the mech at risk of injury.",
         "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
-    "BonusValueA" : "+ Accuracy + Evasive",
+    "BonusValueA" : "+1MeleeAcc + 2Pips",
     "BonusValueB" : "- 10%DFA Self Damage",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",

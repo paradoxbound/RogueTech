@@ -140,6 +140,42 @@ If you want to change the time or reputation, just open the file and change the 
 
 ---------
 
+0.9857patch2
+FastWorkOrderMove - Use shift to immediately move a order to top or bottom
+Fixed missing ballistic slots
+Fixed Hiring Hull bug
+
+0.9857patch2
+EI updated to release version
+Melee mover now works
+Berserker reworked due to bug, may be fixed/introduced in the future
+
+DELETE OLD FILES: You will be mocked if you report the bugs for not doing so
+mods folder
+ShotcountEnabler.dll
+DropCostPerMech.dll
+BetterJuggernaut.dll
+
+
+0.9857patch1
+Updated several dlls for bugfixes (lost complete notes)
+
+
+0.9857
+Fixed the -2 Initiative bug
+Early fork of Extented information to account Internal Heatsinks both by Janxious
+Contains a early rebalance of Handy Industrial Weapons by HandyVac, giving you a new choice of improving your brawlers
+3 new Mechs for these
+Buffed Yen Lo Wang
+Added a ShadowHawk-2k
+Erinya Removed as fixed starter, hidden stats nerfed and un-blacklisted, you may now encounter it in the wild
+Berserker reduced to 10% buffs
+Includes OnePointArmorStep by Glucose, hold shift to change armour by 1 point instead of 5
+Doubled Values of Recreational upkeep reduction
+Called shot Improvement and Mastery nerfed
+Buffed Heat Damage of ammo
+Added updated MeleeMover to allow sprinting into melee -Experimental will get updates-
+
 0.9857A3
 By popular request, elites, royals, mackie and locust-lr excluded from random assembly
 Also chassis assembly changed to always create the chassis with most parts used

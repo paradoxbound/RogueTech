@@ -1,4 +1,4 @@
-﻿
+
 RogueTech
 
 RogueTech has as goal to provide new challenges and a harsher simgame experience. You have to survive by all means, the enemys will do their best to kill you and no one gives a rats ass about some merc dying
@@ -139,6 +139,11 @@ If you want to change the time or reputation, just open the file and change the 
 "All these goodies brought to you by the Deadly Sins stable, enjoy your stay on Solaris"
 
 ---------
+
+0.9857patch2
+FastWorkOrderMove - Use shift to immediately move a order to top or bottom
+Fixed missing ballistic slots
+Fixed Hiring Hull bug
 
 0.9857patch2
 EI updated to release version
