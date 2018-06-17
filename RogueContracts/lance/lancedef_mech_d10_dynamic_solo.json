@@ -12,7 +12,8 @@
    "LanceTags" : {
       "items" : [
 		 "lance_type_dynamic",
-         "lance_type_solo"
+		 "lance_type_legendary",
+         "lance_type_solo",
 		 "lance_type_mech"
       ],
       "tagSetSourceFile" : "Tags/LanceTags"

@@ -1005,9 +1005,7 @@
                     "tagSetSourceFile": "Tags/LanceTags"
                 },
                 "spawnEffectTags": {
-                    "items": [
-                        "spawn_poorly_maintained_50"
-                    ],
+                    "items": [],
                     "tagSetSourceFile": "Tags/SpawnEffectTags"
                 },
                 "lanceDifficultyAdjustment": -1,
@@ -1030,7 +1028,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_50"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",
@@ -1062,7 +1062,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_75"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",
@@ -1126,7 +1128,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_50"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",
@@ -1161,9 +1165,7 @@
                     "tagSetSourceFile": "Tags/LanceTags"
                 },
                 "spawnEffectTags": {
-                    "items": [
-                        "spawn_poorly_maintained_75"
-                    ],
+                    "items": [],
                     "tagSetSourceFile": "Tags/SpawnEffectTags"
                 },
                 "lanceDifficultyAdjustment": -1,
@@ -1218,7 +1220,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_50"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",
@@ -1250,7 +1254,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_50"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",
@@ -1282,7 +1288,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_75"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",

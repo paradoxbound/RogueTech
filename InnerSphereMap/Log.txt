@@ -679,3 +679,21 @@ Date :6/13/2018 1:20:45 AM
 
 -----------------------------------------------------------------------------
 
+Message :Object reference not set to an instance of an object<br/>
+StackTrace :  at InnerSphereMap.MainMenu_Init_Patch.Prefix (BattleTech.UI.MainMenu __instance) [0x00000] in <filename unknown>:0 
+Date :6/16/2018 5:28:42 AM
+
+-----------------------------------------------------------------------------
+
+Message :Object reference not set to an instance of an object<br/>
+StackTrace :  at InnerSphereMap.MainMenu_Init_Patch.Prefix (BattleTech.UI.MainMenu __instance) [0x00000] in <filename unknown>:0 
+Date :6/16/2018 5:40:07 AM
+
+-----------------------------------------------------------------------------
+
+Message :Object reference not set to an instance of an object<br/>
+StackTrace :  at InnerSphereMap.MainMenu_Init_Patch.Prefix (BattleTech.UI.MainMenu __instance) [0x00000] in <filename unknown>:0 
+Date :6/17/2018 4:58:31 PM
+
+-----------------------------------------------------------------------------
+

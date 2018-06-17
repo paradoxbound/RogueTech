@@ -32,6 +32,7 @@
          },
          "excludedUnitTagSet" : {
             "items" : [
+				"unit_assault",			
                "unit_noncombatant",
 			   "unit_urbie"
             ],

@@ -763,7 +763,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_25"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",
@@ -795,7 +797,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_50"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",

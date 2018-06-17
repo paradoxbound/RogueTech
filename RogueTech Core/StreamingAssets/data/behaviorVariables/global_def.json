@@ -298,7 +298,7 @@
          "k" : "Float_BraceWhenOverheatedPercentage",
          "v" : {
             "type" : "Float",
-            "floatVal" : 25,
+            "floatVal" : 15,
          }
       },
 	   {

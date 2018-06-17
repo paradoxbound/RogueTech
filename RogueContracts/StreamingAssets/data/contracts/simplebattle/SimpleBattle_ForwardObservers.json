@@ -475,7 +475,7 @@
                 },
                 "spawnEffectTags": {
                     "items": [
-                        "spawn_poorly_maintained_50"
+                        
                     ],
                     "tagSetSourceFile": "Tags/SpawnEffectTags"
                 },
@@ -499,7 +499,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_25"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",
@@ -531,7 +533,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_50"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",
@@ -563,7 +567,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_33"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",
@@ -595,7 +601,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_66"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",
@@ -631,7 +639,7 @@
                 },
                 "spawnEffectTags": {
                     "items": [
-                        "spawn_poorly_maintained_25"
+                        
                     ],
                     "tagSetSourceFile": "Tags/SpawnEffectTags"
                 },
@@ -655,7 +663,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_25"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",
@@ -687,7 +697,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_33"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",
@@ -719,7 +731,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_20"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",
@@ -751,7 +765,9 @@
                             "tagSetSourceFile": "Tags/UnitTags"
                         },
                         "spawnEffectTags": {
-                            "items": [],
+                            "items": [
+							"spawn_poorly_maintained_10"
+							],
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
                         "pilotDefId": "pilotDef_InheritLance",

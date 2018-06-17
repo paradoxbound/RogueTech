@@ -135,7 +135,7 @@
 		"SystemUseEventsTag" : "SYSTEM_UseEvents",
 		"SystemUseMilestoneTag" : "SYSTEM_UseMilestone",
 		"SystemMissionCompleteCountStat" : "MissionsComplete",
-		"StartingCBills" : 1780000,
+		"StartingCBills" : 1580000,
 		"StartingMechTechSkill" : 4,
         "StartingMedTechSkill" : 7,
 		"DailyUpgradeValue" : 1,
@@ -183,7 +183,7 @@
 		"MaxMechTechID" : "MechTechHireLimit",
 		"MaxMedTechID" : "MedTechHireLimit",
 		"StartingGlobalContractDifficulty" : 1,
-		"ContractDifficultyVariance": 6,
+		"ContractDifficultyVariance": 4,
 		"GlobalContractDifficultyMax" : 10,
 		"DefaultPilotsPerSystem" : 3,
 		"DefaultMechTechsPerSystem" : 2,
@@ -199,8 +199,8 @@
 		
 		"MissionsForFirstBreadcrumb" : 0,		
 
-		"MaxContractsPerSystem": 15,
-		"MaxBreadcrumbsPerSystem": 6,
+		"MaxContractsPerSystem": 8,
+		"MaxBreadcrumbsPerSystem": 3,
 		"ContractRenewalPerWeek" : 0.5,
 		"ContractSuccessReduction" : 1.0,
 		"StartingPassiveXPGainCap" : 10000,
