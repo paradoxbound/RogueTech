@@ -183,7 +183,7 @@
 		"MaxMechTechID" : "MechTechHireLimit",
 		"MaxMedTechID" : "MedTechHireLimit",
 		"StartingGlobalContractDifficulty" : 1,
-		"ContractDifficultyVariance": 5,
+		"ContractDifficultyVariance": 6,
 		"GlobalContractDifficultyMax" : 10,
 		"DefaultPilotsPerSystem" : 3,
 		"DefaultMechTechsPerSystem" : 2,
@@ -196,6 +196,8 @@
 		"XPGoodFaithMod" : 0.5,
 		"XPFailureMod" : 0.2,
 		"XPBadFaithMod" : 0,
+		
+		"MissionsForFirstBreadcrumb" : 0,		
 
 		"MaxContractsPerSystem": 15,
 		"MaxBreadcrumbsPerSystem": 6,

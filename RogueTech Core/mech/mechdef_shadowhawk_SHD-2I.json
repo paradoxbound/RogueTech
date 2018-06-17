@@ -103,11 +103,33 @@
     ],
     "inventory": [
         {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_TAG",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_TAG",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },	
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_AdvancedMaterials2",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -147,7 +169,7 @@
             "hasPrefabName": false
         },		
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Inferno_SRM",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",

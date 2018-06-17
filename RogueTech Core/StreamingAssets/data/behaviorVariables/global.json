@@ -193,7 +193,7 @@
             "k" : "Float_AcceptableHeatLevel",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2.5
+		"floatVal" : 2.8
             }
 	},
 	{
@@ -354,7 +354,7 @@
             "k" : "Float_MajorDamageRatio",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 5.0
+		"floatVal" : 4.0
             }
 	},
 	{

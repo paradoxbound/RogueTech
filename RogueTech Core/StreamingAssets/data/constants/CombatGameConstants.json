@@ -36,7 +36,7 @@
         "MaxHeat": 110,
         "WalkHeat": 2.5,
         "SprintHeat": 6,
-        "JumpHeatUnitSize": 5,
+        "JumpHeatUnitSize": 6.5,
         "JumpHeatPerUnit": 1.5,
         "JumpHeatMin": 5,
         "EngineDamageHeat": 5,

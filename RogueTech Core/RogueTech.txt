@@ -140,10 +140,16 @@ If you want to change the time or reputation, just open the file and change the 
 
 ---------
 
-0.9857patch2
+0.9857Patch4
+Fixed custom chassis
+Locust-LR Renamed to Dagger and buffed
+Bugfix for contract issues
+
+
+0.9857patch3
 FastWorkOrderMove - Use shift to immediately move a order to top or bottom
 Fixed missing ballistic slots
-Fixed Hiring Hull bug
+Fixed Hiring Hall bug
 
 0.9857patch2
 EI updated to release version
