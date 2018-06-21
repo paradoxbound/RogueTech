@@ -3,11 +3,11 @@
     "Type" : "PPC",
     "WeaponSubType" : "PPC",
     "MinRange" : 90,
-    "MaxRange" : 410,
+    "MaxRange" : 370,
     "RangeSplit" : [
-        143,
-        285,
-        410
+        123,
+        246,
+        370
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,

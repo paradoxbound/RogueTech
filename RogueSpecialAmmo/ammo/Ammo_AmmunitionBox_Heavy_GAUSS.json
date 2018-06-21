@@ -13,7 +13,7 @@
         "Details" : "Heavy Gauss ammo fires a heavier projectile drastically reducing range but increasing the damage profile. Contains 4 shots.",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
-    "BonusValueA" : "+30% DMG -1Accuracy",
+    "BonusValueA" : "+25% DMG -1Accuracy",
     "BonusValueB" : "-50%Range",
     "ComponentType" : "AmmunitionBox",
     "ComponentSubType" : "Ammunition",
@@ -255,7 +255,7 @@
 			{
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.30",
+                "modValue" : "1.25",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",

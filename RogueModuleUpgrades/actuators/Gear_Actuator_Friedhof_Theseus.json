@@ -14,7 +14,7 @@
         "Details" : "Actuators control a 'Mech\u2019s limbs and are used to perform Melee attacks at close quarters. All 'Mechs come equipped with stock Actuators, which can be upgraded for improved performance.",
         "Icon" : "uixSvgIcon_equipment_ActuatorArm"
     },
-    "BonusValueA" : "+ 10% Melee Stb.Dmg.",
+    "BonusValueA" : "+ 5% Melee Stb.Dmg.",
     "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
@@ -52,7 +52,7 @@
             "Description" : {
                 "Id" : "StatusEffect-Attack_DamageMelee-T1",
                 "Name" : "MELEE STABILITY DAMAGE INCREASED",
-                "Details" : "Melee attacks deal 10% more stability damage.",
+                "Details" : "Melee attacks deal 5% more stability damage.",
                 "Icon" : "uixSvgIcon_equipment_ActuatorArm"
             },
             "nature" : "Buff",
@@ -61,7 +61,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "Instability",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.1",
+                "modValue" : "1.05",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",

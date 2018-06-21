@@ -40,8 +40,8 @@
         "Details" : "An improvement upon standard PPCs, Extended-Range PPCs greatly extend their effective range at the cost of incredible heat generation. ER PPCs also generate a mild EM field that degrades the firing capability of their target.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
-    "BonusValueA" : "",
-    "BonusValueB" : "",
+    "BonusValueA" : "+10 Damage",
+    "BonusValueB" : "Improved Ranges",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "PPC",
@@ -79,7 +79,7 @@
             "Description" : {
                 "Id" : "AbilityDefPPC",
                 "Name" : "SENSORS IMPAIRED",
-                "Details" : "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+                "Details" : "+1 Difficulty to all of this unit's attacks until its next activation.",
                 "Icon" : "uixSvgIcon_status_sensorsImpaired"
             },
             "nature" : "Debuff",

@@ -269,17 +269,6 @@
             "hasPrefabName": false
         },		
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
             "SimGameUID": "",

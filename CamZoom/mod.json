@@ -10,10 +10,10 @@
     "DLL": "CamZoom.dll",
 
     "Settings": {
-      "MaxHeightSetting": 800,
+      "MaxHeightSetting": 900,
 	  "ZoomSpeedSetting": 4750,
-	  "MaxSpeedSetting": 30,
-	  "MoveSpeedSetting": { "x": 300, "y": 300, "z": 300 },
+	  "MaxSpeedSetting": 25,
+	  "MoveSpeedSetting": { "x": 260, "y": 260, "z": 260 },
 	  "MinAngleSetting": 1,
 	  "MaxAngleSetting": 90,
 	  "DefaultAngleSetting": 40,

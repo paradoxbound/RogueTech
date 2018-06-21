@@ -50,7 +50,7 @@
         {
             "Location": "Head",
             "Hardpoints": [
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "Ballistic","Omni": false}
+				{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
@@ -107,7 +107,7 @@
             "Location": "RightArm",
              "Hardpoints": [
 				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
+				{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 8,

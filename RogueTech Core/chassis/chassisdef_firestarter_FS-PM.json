@@ -50,7 +50,7 @@
         {
             "Location": "Head",
             "Hardpoints": [
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "Ballistic","Omni": false}
+				{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
@@ -73,8 +73,7 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
-				{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
+				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -85,7 +84,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
+				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -96,8 +95,7 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
-				{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
+				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -109,7 +107,7 @@
             "Location": "RightArm",
             "Hardpoints": [
 				{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
+				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 8,

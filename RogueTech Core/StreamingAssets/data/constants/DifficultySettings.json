@@ -1,0 +1,2608 @@
+{
+	"difficultyList": [
+		{
+			"ID": "diff_ironMan",
+			"Name": "Ironman Mode",
+			"UIOrder": 0,
+			"Tooltip": "Ironman Mode restricts you to only one save file. All consequences, including 'Mech loss, MechWarrior death, and failed missions are <i>permanent</i>. <color=#F79B26>Running out of funds <i>or</i> failing any Priority Mission will result in campaign loss. This setting is intended for veterans and those seeking a significant challenge.</color>",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": true,
+			"StartOnly": true,
+			"DefaultIndex": 0,
+			"Options": [
+				{
+					"ID": "diff_IM_off",
+					"Name": "Off",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "IronManMode",
+							"ConstantValue": "False"
+						}
+					]
+				},
+				{
+					"ID": "diff_IM_on",
+					"Name": "On",
+					"DifficultyValue": 3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "IronmanMode",
+							"ConstantValue": "True"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_equipNewMech",
+			"Name": "Unequipped 'Mechs",
+			"UIOrder": 1,
+			"Tooltip": "<color=#F79B26>Cant delete or change this, May conflict with Mods, Use at your own risk</color>. When this setting is enabled, new 'Mechs you acquire through salvage will not come with equipped weapons or components, and will need to be customized from scratch.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": true,
+			"StartOnly": true,
+			"DefaultIndex": 0,
+			"Options": [
+				{
+					"ID": "diff_EMS_off",
+					"Name": "Off",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Salvage",
+							"ConstantName": "EquipMechOnSalvage",
+							"ConstantValue": "True"
+						}
+					]
+				},
+				{
+					"ID": "diff_EMS_on",
+					"Name": "On",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Salvage",
+							"ConstantName": "EquipMechOnSalvage",
+							"ConstantValue": "False"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_mechConstruction",
+			"Name": "Parts for 'Mech Assembly",
+			"UIOrder": 2,
+			"Tooltip": "This setting controls the number of salvaged or purchased 'Mech parts you must acquire to assemble a new 'Mech. Increase this value to make new 'Mechs rarer and more difficult to obtain. ",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": true,
+			"DefaultIndex": 1,
+			"Options": [
+				{
+					"ID": "diff_MC_easy",
+					"Name": "3",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultMechPartMax",
+							"ConstantValue": "3"
+						}
+					]
+				},
+				{
+					"ID": "diff_MC_med",
+					"Name": "5",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultMechPartMax",
+							"ConstantValue": "5"
+						}
+					]
+				},
+				{
+					"ID": "diff_MC_hard",
+					"Name": "8",
+					"DifficultyValue": 3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultMechPartMax",
+							"ConstantValue": "8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_contractDifficulty",
+			"Name": "Enemy Force Strength",
+			"UIOrder": 3,
+			"Tooltip": "This setting modifies the overall strength of enemy forces. At higher difficulties, you will encounter heavier 'Mechs.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 2,
+			"Options": [
+				{
+					"ID": "diff_CMD_veryeasy",
+					"Name": "VeryEasy",
+					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "-2"
+						}
+					]
+				},			
+				{
+					"ID": "diff_CMD_easy",
+					"Name": "Easy",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "-1"
+						}
+					]
+				},
+				{
+					"ID": "diff_CMD_med",
+					"Name": "Normal",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "0"
+						}
+					]
+				},
+				{
+					"ID": "diff_CMD_hard",
+					"Name": "Hard",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "1"
+						}
+					]
+				},
+				{
+					"ID": "diff_CMD_veryhard",
+					"Name": "VeryHard",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "2"
+						}
+					]
+				}				
+			]
+		},
+		{
+			"ID": "diff_Contracts",
+			"Name": "Contracts generated",
+			"UIOrder": 4,
+			"Tooltip": "Set your Choice of Maximum Contracts generated per system.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 2,
+			"Options": [
+				{
+					"ID": "diff_CG_supereasy",
+					"Name": "12",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "MaxContractsPerSystem",
+							"ConstantValue": "12"
+						}
+					]
+				},
+				{
+					"ID": "diff_CG_easy",
+					"Name": "10",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "MaxContractsPerSystem",
+							"ConstantValue": "10"
+						}
+					]
+				},
+				{
+					"ID": "diff_CG_medium",
+					"Name": "8",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "MaxContractsPerSystem",
+							"ConstantValue": "8"
+						}
+					]
+				},
+				{
+					"ID": "diff_CG_hard",
+					"Name": "6",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "MaxContractsPerSystem",
+							"ConstantValue": "6"
+						}
+					]
+				},
+				{
+					"ID": "diff_CG_superhard",
+					"Name": "4",
+					"DifficultyValue": 4,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "MaxContractsPerSystem",
+							"ConstantValue": "4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_Breadcrums",
+			"Name": "Travel Contracts generated",
+			"UIOrder": 5,
+			"Tooltip": "Set your Choice of Maximum Travvel Contracts generated per system",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 2,
+			"Options": [
+				{
+					"ID": "diff_BC_supereasy",
+					"Name": "5",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "MaxBreadcrumbsPerSystem",
+							"ConstantValue": "5"
+						}
+					]
+				},
+				{
+					"ID": "diff_BC_easy",
+					"Name": "4",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "MaxBreadcrumbsPerSystem",
+							"ConstantValue": "4"
+						}
+					]
+				},
+				{
+					"ID": "diff_BC_medium",
+					"Name": "3",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "MaxBreadcrumbsPerSystem",
+							"ConstantValue": "3"
+						}
+					]
+				},
+				{
+					"ID": "diff_BC_superhard",
+					"Name": "2",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "MaxBreadcrumbsPerSystem",
+							"ConstantValue": "2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_DifficVariance",
+			"Name": "Contract Difficulty Variance",
+			"UIOrder": 6,
+			"Tooltip": "Set your Choice of Maximum difficulty difference between generated contracts<color=#F79B26>Each number is a half skull difference to your global difficulty.</color>",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 6,
+			"Options": [
+				{
+					"ID": "diff_DV_10",
+					"Name": "10",
+					"DifficultyValue": -4,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyVariance",
+							"ConstantValue": "10"
+						}
+					]
+				},
+				{
+					"ID": "diff_DV_9",
+					"Name": "9",
+					"DifficultyValue": -3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyVariance",
+							"ConstantValue": "9"
+						}
+					]
+				},
+				{
+					"ID": "diff_DV_8",
+					"Name": "8",
+					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyVariance",
+							"ConstantValue": "8"
+						}
+					]
+				},
+				{
+					"ID": "diff_DV_7",
+					"Name": "7",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyVariance",
+							"ConstantValue": "7"
+						}
+					]
+				},
+				{
+					"ID": "diff_DV_6",
+					"Name": "6",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyVariance",
+							"ConstantValue": "6"
+						}
+					]
+				},
+				{
+					"ID": "diff_DV_5",
+					"Name": "5",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyVariance",
+							"ConstantValue": "5"
+						}
+					]
+				},
+				{
+					"ID": "diff_DV_4",
+					"Name": "4",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyVariance",
+							"ConstantValue": "4"
+						}
+					]
+				},
+				{
+					"ID": "diff_DV_3",
+					"Name": "3",
+					"DifficultyValue": 3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyVariance",
+							"ConstantValue": "3"
+						}
+					]
+				},
+				{
+					"ID": "diff_DV_2",
+					"Name": "2",
+					"DifficultyValue": 4,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyVariance",
+							"ConstantValue": "2"
+						}
+					]
+				},
+				{
+					"ID": "diff_DV_1",
+					"Name": "1",
+					"DifficultyValue": 5,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyVariance",
+							"ConstantValue": "1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_contractPayment",
+			"Name": "Contract Payment",
+			"UIOrder": 7,
+			"Tooltip": "This setting controls the amount of C-Bills paid by contracts across the entire game. Adjust this setting to make the economic gameplay more or less forgiving. <color=#F79B26>This setting does not apply to campaign story missions.</color>",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 2,
+			"Options": [
+				{
+					"ID": "diff_CP_supereasy",
+					"Name": "Luxurious",
+					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ContractPricePerDifficulty",
+							"ConstantValue": "300000"
+						}
+					]
+				},
+				{
+					"ID": "diff_CP_easy",
+					"Name": "Generous",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ContractPricePerDifficulty",
+							"ConstantValue": "250000"
+						}
+					]
+				},
+				{
+					"ID": "diff_CP_med",
+					"Name": "Normal",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ContractPricePerDifficulty",
+							"ConstantValue": "200000"
+						}
+					]
+				},
+				{
+					"ID": "diff_CP_hard",
+					"Name": "Stingy",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ContractPricePerDifficulty",
+							"ConstantValue": "150000"
+						}
+					]
+				},
+				{
+					"ID": "diff_CP_superhard",
+					"Name": "Cheapskate",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ContractPricePerDifficulty",
+							"ConstantValue": "100000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_baseSalvage",
+			"Name": "Salvage",
+			"UIOrder": 8,
+			"Tooltip": "This setting changes the amount of salvage you may obtain from negotiation. Adjust this setting to make the economic gameplay more or less forgiving. <color=#F79B26>This setting does not apply to campaign story missions.</color>",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 1,
+			"Options": [
+				{
+					"ID": "diff_BS_high",
+					"Name": "Generous",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ContractFloorSalvageBonus",
+							"ConstantValue": "4"
+						}
+					]
+				},
+				{
+					"ID": "diff_BS_med",
+					"Name": "Normal",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ContractFloorSalvageBonus",
+							"ConstantValue": "2"
+						}
+					]
+				},
+				{
+					"ID": "diff_BS_low",
+					"Name": "Stingy",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ContractFloorSalvageBonus",
+							"ConstantValue": "0"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_CommanderEXP",
+			"Name": "Commander Experience Points",
+			"UIOrder": 9,
+			"Tooltip": "Use this to decide for the starting Experience of your Commander",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": true,
+			"DefaultIndex": 1,
+			"Options": [
+				{
+					"ID": "diff_CMDEXP_easy",
+					"Name": "7000",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "CommanderStartingExperience",
+							"ConstantValue": "7000"
+						}
+					]
+				},
+				{
+					"ID": "diff_CMDEXP_normal",
+					"Name": "3500",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "CommanderStartingExperience",
+							"ConstantValue": "3500"
+						}
+					]
+				},
+				{
+					"ID": "diff_CMDEXP_hard",
+					"Name": "1750",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "CommanderStartingExperience",
+							"ConstantValue": "1750"
+						}
+					]
+				}
+			]
+		},		
+		{
+			"ID": "diff_advancedPilots",
+			"Name": "Advanced MechWarriors",
+			"UIOrder": 10,
+			"Tooltip": "In the later parts of the game, new MechWarriors in the Hiring Hall will often have better stats and skills than in the early parts of the game. Modify this setting to change the frequency of new MechWarriors having these improvements.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 1,
+			"Options": [
+				{
+					"ID": "diff_CMD_easy",
+					"Name": "Often",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "0.12"
+						}
+					]
+				},
+				{
+					"ID": "diff_CMD_med",
+					"Name": "Normal",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "0.08"
+						}
+					]
+				},
+				{
+					"ID": "diff_CMD_hard",
+					"Name": "Rare",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "0.04"
+						}
+					]
+				}
+			]
+		},		
+		{
+			"ID": "diff_pilotProgression",
+			"Name": "MechWarrior Progression",
+			"UIOrder": 11,
+			"Tooltip": "This setting controls the amount of experience MechWarriors gain after each mission. Change this setting to adjust the rate at which MechWarriors improve their stats and gain new skills.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 3,
+			"Options": [
+				{
+					"ID": "diff_PP_superfast",
+					"Name": "Very Fast",
+					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "BaseXPGainPerMission",
+							"ConstantValue": "600"
+						}
+					]
+				},
+				{
+					"ID": "diff_PP_fast",
+					"Name": "Fast",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "BaseXPGainPerMission",
+							"ConstantValue": "500"
+						}
+					]
+				},
+				{
+					"ID": "diff_PP_easy",
+					"Name": "Normal",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "BaseXPGainPerMission",
+							"ConstantValue": "400"
+						}
+					]
+				},
+				{
+					"ID": "diff_PP_med",
+					"Name": "Slow",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "BaseXPGainPerMission",
+							"ConstantValue": "300"
+						}
+					]
+				},
+				{
+					"ID": "diff_PP_hard",
+					"Name": "Very Slow",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "BaseXPGainPerMission",
+							"ConstantValue": "200"
+						}
+					]
+				},
+				{
+					"ID": "diff_PP_superhard",
+					"Name": "UltraSlow",
+					"DifficultyValue": 3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "BaseXPGainPerMission",
+							"ConstantValue": "100"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_pilotExponent",
+			"Name": "MechWarrior Exponent",
+			"UIOrder": 12,
+			"Tooltip": "This setting controls the exponent of raising XP Cost per Level",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 3,
+			"Options": [
+				{
+					"ID": "diff_PEXP_superfast",
+					"Name": "Very Fast",
+					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "PilotLevelCostExponent",
+							"ConstantValue": "1.1"
+						}
+					]
+				},
+				{
+					"ID": "diff_PEXP_fast",
+					"Name": "Fast",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "PilotLevelCostExponent",
+							"ConstantValue": "1.4"
+						}
+					]
+				},
+				{
+					"ID": "diff_PEXP_easy",
+					"Name": "Normal",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "PilotLevelCostExponent",
+							"ConstantValue": "1.8"
+						}
+					]
+				},
+				{
+					"ID": "diff_PEXP_med",
+					"Name": "Slow",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "PilotLevelCostExponent",
+							"ConstantValue": "2.5"
+						}
+					]
+				},
+				{
+					"ID": "diff_PEXP_hard",
+					"Name": "Very Slow",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "PilotLevelCostExponent",
+							"ConstantValue": "3.3"
+						}
+					]
+				},
+				{
+					"ID": "diff_PEXP_superhard",
+					"Name": "UltraSlow",
+					"DifficultyValue": 3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "PilotLevelCostExponent",
+							"ConstantValue": "4"
+						}
+					]
+				}
+			]
+		},	
+		{
+			"ID": "diff_pilotcostmultiplier",
+			"Name": "MechWarrior Multiplier",
+			"UIOrder": 13,
+			"Tooltip": "This setting controls the multiplier of XP Cost per Level",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 3,
+			"Options": [
+				{
+					"ID": "diff_PCMP_superfast",
+					"Name": "Very Fast",
+					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "PilotLevelCostMultiplier",
+							"ConstantValue": "30"
+						}
+					]
+				},
+				{
+					"ID": "diff_PCMP_fast",
+					"Name": "Fast",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "PilotLevelCostMultiplier",
+							"ConstantValue": "50"
+						}
+					]
+				},
+				{
+					"ID": "diff_PCMP_easy",
+					"Name": "Normal",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "PilotLevelCostMultiplier",
+							"ConstantValue": "70"
+						}
+					]
+				},
+				{
+					"ID": "diff_PCMP_med",
+					"Name": "Slow",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "PilotLevelCostMultiplier",
+							"ConstantValue": "90"
+						}
+					]
+				},
+				{
+					"ID": "diff_PCMP_hard",
+					"Name": "Very Slow",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "PilotLevelCostMultiplier",
+							"ConstantValue": "135"
+						}
+					]
+				},
+				{
+					"ID": "diff_PCMP_superhard",
+					"Name": "UltraSlow",
+					"DifficultyValue": 3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "PilotLevelCostMultiplier",
+							"ConstantValue": "200"
+						}
+					]
+				}
+			]
+		},		
+		{
+			"ID": "diff_lethality",
+			"Name": "Lethality",
+			"UIOrder": 14,
+			"Tooltip": "Choose the chance of being KILLED IN ACTION from never to always.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 2,
+			"Options": [
+				{
+					"ID": "diff_LTH_never",
+					"Name": "Never",
+					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "IncapacitatedDeathChance",
+							"ConstantValue": "0.0"
+						},
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "GutsDeathReduction",
+							"ConstantValue": "1.00"
+						}
+					]
+				},
+				{
+					"ID": "diff_LTH_easy",
+					"Name": "Half",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "IncapacitatedDeathChance",
+							"ConstantValue": "0.5"
+						},
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "GutsDeathReduction",
+							"ConstantValue": "0.55"
+						}
+					]
+				},
+				{
+					"ID": "diff_LTH_Normal",
+					"Name": "Normal",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "IncapacitatedDeathChance",
+							"ConstantValue": "0.9"
+						},
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "GutsDeathReduction",
+							"ConstantValue": "0.05"
+						}
+					]
+				},
+				{
+					"ID": "diff_LTH_ULTRA",
+					"Name": "Lethal",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "IncapacitatedDeathChance",
+							"ConstantValue": "1.05"
+						},
+						{
+							"ConstantType": "Pilot",
+							"ConstantName": "GutsDeathReduction",
+							"ConstantValue": "0"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_money",
+			"Name": "Starting Money",
+			"UIOrder": 15,
+			"Tooltip": "Select your starting capital.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": true,
+			"DefaultIndex": 2,
+			"Options": [
+				{
+					"ID": "diff_SM_supereasy",
+					"Name": "3580000",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingCBills",
+							"ConstantValue": "3580000"
+						}
+					]
+				},
+				{
+					"ID": "diff_SM_easy",
+					"Name": "2580000",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingCBills",
+							"ConstantValue": "2580000"
+						}
+					]
+				},
+				{
+					"ID": "diff_SM_medium",
+					"Name": "1580000",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingCBills",
+							"ConstantValue": "1580000"
+						}
+					]
+				},
+				{
+					"ID": "diff_SM_hard",
+					"Name": "780000",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingCBills",
+							"ConstantValue": "780000"
+						}
+					]
+				},
+				{
+					"ID": "diff_SM_veryhard",
+					"Name": "340000",
+					"DifficultyValue": 3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingCBills",
+							"ConstantValue": "340000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_MechTechs",
+			"Name": "Starting Mech Tech",
+			"UIOrder": 16,
+			"Tooltip": "Select your MechTechLevel",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": true,
+			"DefaultIndex": 2,
+			"Options": [
+				{
+					"ID": "diff_SMTS_supereasy",
+					"Name": "10",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingMechTechSkill",
+							"ConstantValue": "10"
+						}
+					]
+				},
+				{
+					"ID": "diff_SMTS_easy",
+					"Name": "8",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingMechTechSkill",
+							"ConstantValue": "8"
+						}
+					]
+				},
+				{
+					"ID": "diff_SMTS_medium",
+					"Name": "6",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingMechTechSkill",
+							"ConstantValue": "6"
+						}
+					]
+				},
+				{
+					"ID": "diff_SMTS_hard",
+					"Name": "4",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingMechTechSkill",
+							"ConstantValue": "4"
+						}
+					]
+				},
+				{
+					"ID": "diff_SMTS_ultrahard",
+					"Name": "2",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingMechTechSkill",
+							"ConstantValue": "2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_MeDTechs",
+			"Name": "Starting Med Tech",
+			"UIOrder": 17,
+			"Tooltip": "Select your starting MedTechLevel",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": true,
+			"DefaultIndex": 2,
+			"Options": [
+				{
+					"ID": "diff_MEDT_supereasy",
+					"Name": "10",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingMedTechSkill",
+							"ConstantValue": "10"
+						}
+					]
+				},
+				{
+					"ID": "diff_MEDT_easy",
+					"Name": "8",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingMedTechSkill",
+							"ConstantValue": "8"
+						}
+					]
+				},
+				{
+					"ID": "diff_MEDT_medium",
+					"Name": "6",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingMedTechSkill",
+							"ConstantValue": "6"
+						}
+					]
+				},
+				{
+					"ID": "diff_MEDT_hard",
+					"Name": "4",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingMedTechSkill",
+							"ConstantValue": "4"
+						}
+					]
+				},
+				{
+					"ID": "diff_MEDT_ultrahard",
+					"Name": "2",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingMedTechSkill",
+							"ConstantValue": "2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_MechBayTechCost",
+			"Name": "Mech Bay Speed",
+			"UIOrder": 18,
+			"Tooltip": "Select Mech Bay construction Speeds",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 2,
+			"Options": [
+				{
+					"ID": "diff_MBAY_cheat",
+					"Name": "Easy",
+					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "StructureRepairTechPoints",
+							"ConstantValue": "0.15"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ComponentRepairTechPoints",
+							"ConstantValue": "3"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "BallisticInstallTechPoints",
+							"ConstantValue": "5"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "MissileInstallTechPoints",
+							"ConstantValue": "5"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "EnergyInstallTechPoints",
+							"ConstantValue": "5"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "APInstallTechPoints",
+							"ConstantValue": "5"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "AmmoInstallTechPoints",
+							"ConstantValue": "3"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "JumpJetInstallTechPoints",
+							"ConstantValue": "3"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "HeatSinkInstallTechPoints",
+							"ConstantValue": "3"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "OtherInstallTechPoints",
+							"ConstantValue": "3"
+						}
+					]
+				},
+				{
+					"ID": "diff_MBAY_quick",
+					"Name": "Faster",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "StructureRepairTechPoints",
+							"ConstantValue": "0.35"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ComponentRepairTechPoints",
+							"ConstantValue": "5"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "BallisticInstallTechPoints",
+							"ConstantValue": "8"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "MissileInstallTechPoints",
+							"ConstantValue": "8"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "EnergyInstallTechPoints",
+							"ConstantValue": "8"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "APInstallTechPoints",
+							"ConstantValue": "8"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "AmmoInstallTechPoints",
+							"ConstantValue": "4"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "JumpJetInstallTechPoints",
+							"ConstantValue": "4"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "HeatSinkInstallTechPoints",
+							"ConstantValue": "4"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "OtherInstallTechPoints",
+							"ConstantValue": "4"
+						}
+					]
+				},
+				{
+					"ID": "diff_MBAY_Normal",
+					"Name": "Normal",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "StructureRepairTechPoints",
+							"ConstantValue": "0.35"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ComponentRepairTechPoints",
+							"ConstantValue": "6"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "BallisticInstallTechPoints",
+							"ConstantValue": "10"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "MissileInstallTechPoints",
+							"ConstantValue": "10"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "EnergyInstallTechPoints",
+							"ConstantValue": "10"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "APInstallTechPoints",
+							"ConstantValue": "10"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "AmmoInstallTechPoints",
+							"ConstantValue": "5"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "JumpJetInstallTechPoints",
+							"ConstantValue": "5"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "HeatSinkInstallTechPoints",
+							"ConstantValue": "5"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "OtherInstallTechPoints",
+							"ConstantValue": "5"
+						}
+					]
+				},
+				{
+					"ID": "diff_MBAY_Hard",
+					"Name": "Hard",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "StructureRepairTechPoints",
+							"ConstantValue": "0.65"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ComponentRepairTechPoints",
+							"ConstantValue": "8"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "BallisticInstallTechPoints",
+							"ConstantValue": "13"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "MissileInstallTechPoints",
+							"ConstantValue": "13"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "EnergyInstallTechPoints",
+							"ConstantValue": "13"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "APInstallTechPoints",
+							"ConstantValue": "13"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "AmmoInstallTechPoints",
+							"ConstantValue": "7"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "JumpJetInstallTechPoints",
+							"ConstantValue": "7"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "HeatSinkInstallTechPoints",
+							"ConstantValue": "7"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "OtherInstallTechPoints",
+							"ConstantValue": "7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_MechBayBillsCost",
+			"Name": "Mech Bay CBILLS",
+			"UIOrder": 19,
+			"Tooltip": "Select Mech Bay Cbill Cost",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 2,
+			"Options": [
+				{
+					"ID": "diff_MBAYC_cheat",
+					"Name": "Easy",
+					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "StructureRepairCost",
+							"ConstantValue": "100"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ComponentRepairCost",
+							"ConstantValue": "100"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "BallisticInstallCost",
+							"ConstantValue": "100"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "MissileInstallTechCost",
+							"ConstantValue": "100"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "EnergyInstallCost",
+							"ConstantValue": "100"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "APInstallCost",
+							"ConstantValue": "100"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "AmmoInstallCost",
+							"ConstantValue": "50"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "JumpJetInstallCost",
+							"ConstantValue": "100"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "HeatSinkInstallCost",
+							"ConstantValue": "100"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ArmorInstallCost",
+							"ConstantValue": "5"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "OtherInstallCost",
+							"ConstantValue": "100"
+						}
+					]
+				},
+				{
+					"ID": "diff_MBAYC_quick",
+					"Name": "Cheap",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "StructureRepairCost",
+							"ConstantValue": "200"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ComponentRepairCost",
+							"ConstantValue": "300"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "BallisticInstallCost",
+							"ConstantValue": "350"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "MissileInstallTechCost",
+							"ConstantValue": "350"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "EnergyInstallCost",
+							"ConstantValue": "350"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "APInstallCost",
+							"ConstantValue": "350"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "AmmoInstallCost",
+							"ConstantValue": "175"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "JumpJetInstallCost",
+							"ConstantValue": "350"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "HeatSinkInstallCost",
+							"ConstantValue": "250"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ArmorInstallCost",
+							"ConstantValue": "750"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "OtherInstallCost",
+							"ConstantValue": "250"
+						}
+					]
+				},
+				{
+					"ID": "diff_MBAYC_Normal",
+					"Name": "Normal",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "StructureRepairCost",
+							"ConstantValue": "400"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ComponentRepairCost",
+							"ConstantValue": "600"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "BallisticInstallCost",
+							"ConstantValue": "700"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "MissileInstallTechCost",
+							"ConstantValue": "700"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "EnergyInstallCost",
+							"ConstantValue": "700"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "APInstallCost",
+							"ConstantValue": "700"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "AmmoInstallCost",
+							"ConstantValue": "350"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "JumpJetInstallCost",
+							"ConstantValue": "700"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "HeatSinkInstallCost",
+							"ConstantValue": "500"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ArmorInstallCost",
+							"ConstantValue": "150"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "OtherInstallCost",
+							"ConstantValue": "500"
+						}
+					]
+				},
+				{
+					"ID": "diff_MBAYC_Hard",
+					"Name": "Expensive",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "StructureRepairCost",
+							"ConstantValue": "800"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ComponentRepairCost",
+							"ConstantValue": "1200"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "BallisticInstallCost",
+							"ConstantValue": "1400"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "MissileInstallTechCost",
+							"ConstantValue": "1400"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "EnergyInstallCost",
+							"ConstantValue": "1400"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "APInstallCost",
+							"ConstantValue": "1400"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "AmmoInstallCost",
+							"ConstantValue": "700"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "JumpJetInstallCost",
+							"ConstantValue": "1400"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "HeatSinkInstallCost",
+							"ConstantValue": "1000"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ArmorInstallCost",
+							"ConstantValue": "300"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "OtherInstallCost",
+							"ConstantValue": "1000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_ArgoMaintenance",
+			"Name": "Argo Monthly Payment",
+			"UIOrder": 20,
+			"Tooltip": "Select The modifer strength for Monthly Costs.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 2,
+			"Options": [
+				{
+					"ID": "diff_AM_supereasy",
+					"Name": "VeryEasy",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "SpartanCostModifier",
+							"ConstantValue": "0.2"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "RestrictedCostModifier",
+							"ConstantValue": "0.4"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "GenerousCostModifier",
+							"ConstantValue": "1.1"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ExtravagantCostModifier",
+							"ConstantValue": "1.2"
+						}
+					]
+				},
+				{
+					"ID": "diff_AM_easy",
+					"Name": "Easy",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "SpartanCostModifier",
+							"ConstantValue": "0.3"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "RestrictedCostModifier",
+							"ConstantValue": "0.6"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "GenerousCostModifier",
+							"ConstantValue": "1.2"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ExtravagantCostModifier",
+							"ConstantValue": "1.4"
+						}
+					]
+				},
+				{
+					"ID": "diff_AM_medium",
+					"Name": "Normal",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "SpartanCostModifier",
+							"ConstantValue": "0.5"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "RestrictedCostModifier",
+							"ConstantValue": "0.7"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "GenerousCostModifier",
+							"ConstantValue": "1.4"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ExtravagantCostModifier",
+							"ConstantValue": "1.8"
+						}
+					]
+				},
+				{
+					"ID": "diff_AM_hard",
+					"Name": "Hard",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "SpartanCostModifier",
+							"ConstantValue": "0.6"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "RestrictedCostModifier",
+							"ConstantValue": "0.8"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "GenerousCostModifier",
+							"ConstantValue": "1.5"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ExtravagantCostModifier",
+							"ConstantValue": "1.9"
+						}
+					]
+				},
+				{
+					"ID": "diff_AM_veryhard",
+					"Name": "VeryHard",
+					"DifficultyValue": 3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "SpartanCostModifier",
+							"ConstantValue": "0.7"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "RestrictedCostModifier",
+							"ConstantValue": "0.9"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "GenerousCostModifier",
+							"ConstantValue": "1.6"
+						},
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ExtravagantCostModifier",
+							"ConstantValue": "2.1"
+						}
+					]
+				},
+			]
+		},
+		{
+			"ID": "diff_ArgoMorale",
+			"Name": "Argo Monthly Morale",
+			"UIOrder": 21,
+			"Tooltip": "Select The modifer Argo Monthly Morale.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 2,
+			"Options": [
+				{
+					"ID": "diff_AMor_supereasy",
+					"Name": "VeryEasy",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "SpartanMoraleModifier",
+							"ConstantValue": "-1"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "RestrictedMoraleModifier",
+							"ConstantValue": "0"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "GenerousMoraleModifier",
+							"ConstantValue": "4"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ExtravagantMoraleModifier",
+							"ConstantValue": "8"
+						}
+					]
+				},
+				{
+					"ID": "diff_AMor_easy",
+					"Name": "Easy",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "SpartanMoraleModifier",
+							"ConstantValue": "-2"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "RestrictedMoraleModifier",
+							"ConstantValue": "-1"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "GenerousMoraleModifier",
+							"ConstantValue": "1"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ExtravagantMoraleModifier",
+							"ConstantValue": "2"
+						}
+					]
+				},
+				{
+					"ID": "diff_AMor_medium",
+					"Name": "Normal",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "SpartanMoraleModifier",
+							"ConstantValue": "-4"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "RestrictedMoraleModifier",
+							"ConstantValue": "-2"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "GenerousMoraleModifier",
+							"ConstantValue": "2"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ExtravagantMoraleModifier",
+							"ConstantValue": "4"
+						}
+					]
+				},
+				{
+					"ID": "diff_AMor_hard",
+					"Name": "Hard",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "SpartanMoraleModifier",
+							"ConstantValue": "-6"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "RestrictedMoraleModifier",
+							"ConstantValue": "-4"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "GenerousMoraleModifier",
+							"ConstantValue": "2"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ExtravagantMoraleModifier",
+							"ConstantValue": "3"
+						}
+					]
+				},
+				{
+					"ID": "diff_AMor_veryhard",
+					"Name": "VeryHard",
+					"DifficultyValue": 3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "SpartanMoraleModifier",
+							"ConstantValue": "-10"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "RestrictedMoraleModifier",
+							"ConstantValue": "-6"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "GenerousMoraleModifier",
+							"ConstantValue": "1"
+						},
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ExtravagantMoraleModifier",
+							"ConstantValue": "2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "diff_ShopSell",
+			"Name": "Shop Selling Prices",
+			"UIOrder": 22,
+			"Tooltip": "Set your desired Selling Values.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 1,
+			"Options": [
+				{
+					"ID": "diff_SS_15",
+					"Name": "15%",
+					"DifficultyValue": 3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.15"
+						}
+					]
+				},
+				{
+					"ID": "diff_SS_16",
+					"Name": "16%",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.16"
+						}
+					]
+				},
+				{
+					"ID": "diff_SS_17",
+					"Name": "17%",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.17"
+						}
+					]
+				},
+				{
+					"ID": "diff_SS_18",
+					"Name": "18%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.18"
+						}
+					]
+				},
+				{
+					"ID": "diff_SS_19",
+					"Name": "19%",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.19"
+						}
+					]
+				},
+				{
+					"ID": "diff_SS_20",
+					"Name": "20%",
+					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.20"
+						}
+					]
+				},
+				{
+					"ID": "diff_SS_21",
+					"Name": "21%",
+					"DifficultyValue": -3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.21"
+						}
+					]
+				},
+				{
+					"ID": "diff_SS_22",
+					"Name": "22%",
+					"DifficultyValue": -3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.22"
+						}
+					]
+				},
+				{
+					"ID": "diff_SS_23",
+					"Name": "23%",
+					"DifficultyValue": -5,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.23"
+						}
+					]
+				},
+				{
+					"ID": "diff_SS_24",
+					"Name": "24%",
+					"DifficultyValue": -6,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.24"
+						}
+					]
+				},
+				{
+					"ID": "diff_SS_25",
+					"Name": "25%",
+					"DifficultyValue": -7,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.25"
+						}
+					]
+				}				
+			]
+		},
+{
+			"ID": "diff_ShopScrap",
+			"Name": "Scrap Return Values",
+			"UIOrder": 23,
+			"Tooltip": "Set your desired Scrapping Payouts.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 0,
+			"Options": [
+				{
+					"ID": "diff_Scrap_15",
+					"Name": "15%",
+					"DifficultyValue": 3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.15"
+						}
+					]
+				},
+				{
+					"ID": "diff_Scrap_16",
+					"Name": "16%",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.16"
+						}
+					]
+				},
+				{
+					"ID": "diff_Scrap_17",
+					"Name": "17%",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.17"
+						}
+					]
+				},
+				{
+					"ID": "diff_Scrap_18",
+					"Name": "18%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.18"
+						}
+					]
+				},
+				{
+					"ID": "diff_Scrap_19",
+					"Name": "19%",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.19"
+						}
+					]
+				},
+				{
+					"ID": "diff_Scrap_20",
+					"Name": "20%",
+					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.20"
+						}
+					]
+				},
+				{
+					"ID": "diff_Scrap_21",
+					"Name": "21%",
+					"DifficultyValue": -3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.21"
+						}
+					]
+				},
+				{
+					"ID": "diff_Scrap_22",
+					"Name": "22%",
+					"DifficultyValue": -4,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.22"
+						}
+					]
+				},
+				{
+					"ID": "diff_Scrap_23",
+					"Name": "23%",
+					"DifficultyValue": -5,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.23"
+						}
+					]
+				},
+				{
+					"ID": "diff_Scrap_24",
+					"Name": "24%",
+					"DifficultyValue": -6,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.24"
+						}
+					]
+				},
+				{
+					"ID": "diff_Scrap_25",
+					"Name": "25%",
+					"DifficultyValue": -7,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.25"
+						}
+					]
+				}				
+			]
+		},
+{
+			"ID": "diff_ShopSize",
+			"Name": "Max Shop Inventory",
+			"UIOrder": 24,
+			"Tooltip": "Set your desired Max Shop Inventory.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 5,
+			"Options": [
+				{
+					"ID": "diff_Mshop_10",
+					"Name": "10",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "10"
+						}
+					]
+				},
+				{
+					"ID": "diff_Mshop_20",
+					"Name": "20",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "20"
+						}
+					]
+				},
+				{
+					"ID": "diff_Mshop_30",
+					"Name": "30",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "30"
+						}
+					]
+				},
+				{
+					"ID": "diff_Mshop_40",
+					"Name": "40",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "40"
+						}
+					]
+				},
+				{
+					"ID": "diff_Mshop_50",
+					"Name": "50",
+					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "50"
+						}
+					]
+				},
+				{
+					"ID": "diff_Mshop_60",
+					"Name": "60",
+					"DifficultyValue": -3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "60"
+						}
+					]
+				},
+				{
+					"ID": "diff_Mshop_70",
+					"Name": "70",
+					"DifficultyValue": -4,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "70"
+						}
+					]
+				},
+				{
+					"ID": "diff_Mshop_80",
+					"Name": "80",
+					"DifficultyValue": -5,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "80"
+						}
+					]
+				},
+				{
+					"ID": "diff_Mshop_90",
+					"Name": "90",
+					"DifficultyValue": -6,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "90"
+						}
+					]
+				},
+				{
+					"ID": "diff_Mshop_100",
+					"Name": "100",
+					"DifficultyValue": -7,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "100"
+						}
+					]
+				}				
+			]
+		},
+{
+			"ID": "diff_ShopSpecials",
+			"Name": "Max Specials per shop",
+			"UIOrder": 25,
+			"Tooltip": "Set your desired Max Special Amount .",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 3,
+			"Options": [
+				{
+					"ID": "diff_Specials_0",
+					"Name": "0",
+					"DifficultyValue": 3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "0"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_2",
+					"Name": "2",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "2"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_4",
+					"Name": "4",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "4"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_6",
+					"Name": "6",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "6"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_8",
+					"Name": "8",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "8"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_10",
+					"Name": "10",
+					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "10"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_12",
+					"Name": "12",
+					"DifficultyValue": -3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "12"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_14",
+					"Name": "14",
+					"DifficultyValue": -4,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "14"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_16",
+					"Name": "16",
+					"DifficultyValue": -5,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "16"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_18",
+					"Name": "18",
+					"DifficultyValue": -6,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "18"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_20",
+					"Name": "20",
+					"DifficultyValue": -7,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "20"
+						}
+					]
+				}				
+			]
+		}		
+	]
+}

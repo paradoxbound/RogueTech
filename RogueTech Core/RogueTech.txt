@@ -140,10 +140,69 @@ If you want to change the time or reputation, just open the file and change the 
 
 ---------
 
+RogueTech 1.1 compat patch 1
+Adapted HBS stability bleed with less extent Roguetech will for now remain at 100 stab for every chassis
+Stability changes still in testing
+Updated Skipintro - skips all icons and IntroVideo
+Updated Randomstart
+Updated CommanderPortrait
+Updated AdjustedAssembly
+Updated CharlesB - dfa self damage mitigation added
+Updated CBT Heat - Accuracy penalty bug should be fixed
+Updated AdjustedSalvage
+Alektos first 2 DLL's added (ammo for all, BetterJuggernaut with DFA brace)
+Updated Exclusive Filters
+Custom Campaign settings adjusted for RogueTech, Medium is the intented Experience
+Start changed to 3lights 2 mediums
+High end evasion tiny nerf
+Removed ammo cookoff again
+Reworked all RT chassis Hardpoints
+
+0.9858Alpha4
+Fix for Inner Sphere map faction
+Adjusted Assembly fixed
+Reenabled ammo cookoff by realitymachina to add a second ammo detonation roll <this was useless since its been the same patchcode and did nothing>
+Fix for MechMaintenanceCost - DELETE old MechMaintenaceByCost.dll
+Fix for DropCost
+Fix for GlobalDifficulty
+Adjusted value for Global Difficulty
+Contracts deprecated in preparation for 1.1, delete old RogueContracts folder before patching
+
+LATEST PATCH BEFORE 1.1 
+
+
+
+
+0.9858Alpha3
+LightPPC Range reduced
+Heavy PPC added
+Plasma Range reduced
+Supercharger Bug Fixed, now increases heat by the appropiate 15%
+Nerfed Evasive Maneuver to 10% jump distance
+Base damage of all PPC reduced by 5
+ER Med Range bracket improved, no crit bonus
+Added a K3 and K4 catapult
+Gausspult renamed to K9 and added to legendary spawns
+Added the Anansi Spider 
+Dynamic difficulty increased required cost power half skull and set to 4 best mechs
+
+
+0.9858Alpha2
+Slightly tightened the economy
+Removed Melee and DFA tonnage boni
+Added shop seller
+Patched panic System 
+Difficulty shown now adjusts dynamically
+Slight increase to LMG weight
+Flamers dont stab anymore
+5% less bonus dmg for Heavy Gauss
+
+
 0.9858Alpha1
 Nerfed High end Melee actuators
 Eject chance of salvage fixed
 New Difficulty mechanic based on cost of chassis owned
+Contract and lance spawner tweaks
 
 0.9857Patch4
 Fixed custom chassis

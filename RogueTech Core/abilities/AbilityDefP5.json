@@ -2,7 +2,7 @@
 	"Description" : {
 		"Id" : "AbilityDefP5",
 		"Name" : "EVASIVE MOVEMENT",
-		"Details" : "PASSIVE: This unit generates an extra EVASIVE charge from movement actions (up to its maximum) and jumps 20% further.",
+		"Details" : "PASSIVE: This unit generates an extra EVASIVE charge from movement actions (up to its maximum) and jumps 10% further.",
 		"Icon" : "uixSvgIcon_action_evasivemove"
 	},
     "DisplayParams" : "ShowInMWTRay",
@@ -60,7 +60,7 @@
 			{
                 "statName" : "JumpDistanceMultiplier",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.2",
+                "modValue" : "1.1",
                 "modType" : "System.Single",
 			},
 			"nature" : "Buff"

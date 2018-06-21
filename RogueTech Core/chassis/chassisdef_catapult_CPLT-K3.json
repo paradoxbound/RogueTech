@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Cost": 7800000,
-        "Rarity": 5,
+        "Cost": 5800000,
+        "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Catapult",
         "Id": "chassisdef_catapult_CPLT-K3",
         "Name": "Catapult",
-        "Details": "The Catapult K3 is an field refit of the K2 replacing the PPC's with 2 Gauss Rifles, turning an already formidable BattleMech.",
+        "Details": "hough this design never reached full production, it was prototyped during the War of 3039. It upgraded the PPCs of the K2 to ER PPCs. ",
         "Icon": "uixTxrIcon_catapultk2"
     },
     "MovementCapDefID": "movedef_catapult_CPLT-C1",
@@ -60,7 +60,7 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -78,7 +78,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
@@ -113,7 +113,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
@@ -135,7 +135,7 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -214,5 +214,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Direct-Fire Support",
-    "YangsThoughts": "The Catapult K3 is an field refit of the K2 replacing the PPC's with 2 Gauss Rifles, turning an already formidable BattleMech."
+    "YangsThoughts": "hough this design never reached full production, it was prototyped during the War of 3039. It upgraded the PPCs of the K2 to ER PPCs. "
 }

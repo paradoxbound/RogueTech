@@ -80,8 +80,8 @@
             "effectType" : "StatisticEffect",
             "Description" : {
                 "Id" : "DNI-StatusEffect-Attack_ToHit",
-                "Name" : "WEAPON HIT CHANCE IMPROVED",
-                "Details" : "Active DNI Grants additional Evasion and Accuracy.",
+                "Name" : "Man Machine Interface",
+                "Details" : "Active DNI Grants Melee Accuray and Evasion.",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "nature" : "Buff",

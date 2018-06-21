@@ -37,7 +37,7 @@
         "WalkHeat": 2.5,
         "SprintHeat": 6,
         "JumpHeatUnitSize": 6.5,
-        "JumpHeatPerUnit": 1.5,
+        "JumpHeatPerUnit": 1.35,
         "JumpHeatMin": 5,
         "EngineDamageHeat": 5,
         "InternalHeatSinkCount": 10,
@@ -69,7 +69,7 @@
         "ShutdownSpottingDistanceMultiplier": 0.1,
         "ProneSpottingDistanceMultiplier": 0.25,
         "AllowRearArcSpotting": true,
-        "NumSensorLockSteps": 4,
+        "NumSensorLockSteps": 1,
         "SensorLockSingleStepEffect":
         {
             "durationData":
@@ -197,7 +197,7 @@
         "SensorLockPipsStripped": 2,
         "ToHitMovingTargetDistances": 
 		[
-			10,
+			30,
             60,
             90,
             120,
@@ -227,9 +227,9 @@
             8,
             10,
             12,
+			13,
 			14,
-			16,
-			18
+			15
 		],
         "ToHitMovingTargetStrings": 
 		[
@@ -239,9 +239,9 @@
             "4 EVASIVE charges: +8 Difficulty to hit this unit with ranged attacks.",
             "5 EVASIVE charges: +10 Difficulty to hit this unit with ranged attacks.",
             "6 EVASIVE charges: +12 Difficulty to hit this unit with ranged attacks.",
-            "7 EVASIVE charges: +14 Difficulty to hit this unit with ranged attacks.",			
-            "8 EVASIVE charges: +16 Difficulty to hit this unit with ranged attacks.",			
-            "9 EVASIVE charges: +18 Difficulty to hit this unit with ranged attacks.",			
+            "7 EVASIVE charges: +13 Difficulty to hit this unit with ranged attacks.",			
+            "8 EVASIVE charges: +14 Difficulty to hit this unit with ranged attacks.",			
+            "9 EVASIVE charges: +15 Difficulty to hit this unit with ranged attacks.",			
 		],
         "ToHitSelfWeaponDamaged": 2,
         "ToHitSelfWeaponLocationDamagedMinor": 1,
@@ -275,19 +275,19 @@
     },
     "ResolutionConstants":
     {
-        "MeleePunchWeighting": 0.85,
+        "MeleePunchWeighting": 0.75,
         "MeleeKickWeighting": 0.25,
         "MeleeTackleWeighting": 0.1,
         "MeleeDamageTonnageMultiplier": 1.0,
         "MeleeDamageDFAMultiplier": 1.0,
-        "DFASelfDamageMultiplier": 0.35,
+        "DFASelfDamageMultiplier": 0.4,
         "DFASelfDamagePilotingDivisor": 99999.0,
         "DFAMissedPilotingModifier": 4.0,
         "MeleeDamageMultiplierTurret": 4.0,
         "MeleeDamageMultiplierVehicle": 2.0,
         "DefaultUnsteadyThreshold": 41.0,
-        "MeleeInstabilityNormalMultiplier": 1.4,
-        "MeleeInstabilityChargeMultiplier": 1.6,
+        "MeleeInstabilityNormalMultiplier": 1.2,
+        "MeleeInstabilityChargeMultiplier": 1.4,
         "MeleeInstabilityDFAMultiplier": 1.5,
         "ChargeDistanceThreshold": 0.5,
         "HeavyHitReactDamageThreshold": 100,
@@ -326,7 +326,7 @@
         "StabilityDumpAbilityDefer": 1,
         "StabilityDumpDFA": -0.75,
         "SearchForValidCritSlot": true,
-        "MinCritChance": 0.25,
+        "MinCritChance": 0.35,
         "AllowTotalNegativeModifier": true
     },
     "CombatValueMultipliers":
@@ -718,23 +718,23 @@
     },
     "PilotingConstants":
     {
-        "PilotingBaseFloor": 0.80,
+        "PilotingBaseFloor": 0.75,
         "PilotingDivisor": 35,
         "PilotingModifierDivisor": 6.0,
-        "PilotingDamageCTPenalizedModifier": 0.3,
+        "PilotingDamageCTPenalizedModifier": 0.1,
         "PilotingDamageLegPenalizedModifier": 0.2,
-        "PilotingDamageLegNonfunctionalModifier": 0.1,
+        "PilotingDamageLegNonfunctionalModifier": 0.3,
         "PilotingDFAModifier": 6.5,
-        "LocationDestroyedPermanentStabilityLoss": 10.0,
+        "LocationDestroyedPermanentStabilityLoss": 0.4,
         "OnlyPermanentLossFromLegs": false,
-        "SideTorsoBlackRelativeInstability": 0.7,
-        "CenterTorsoYellowRelativeInstability": 0.6,
-        "ArmBlackRelativeInstability": 0.6,
-        "LegDamageRelativeInstability": 0.8,
-        "InstabilityReductionLight": -1.0,
-        "InstabilityReductionMedium": -1.0,
-        "InstabilityReductionHeavy": -1.0,
-        "InstabilityReductionAssault": -1.0,
+        "SideTorsoBlackRelativeInstability": 0.2,
+        "CenterTorsoYellowRelativeInstability": 0.1,
+        "ArmBlackRelativeInstability": 0.1,
+        "LegDamageRelativeInstability": 0.1,
+        "InstabilityReductionLight": -1.1,
+        "InstabilityReductionMedium": -1.2,
+        "InstabilityReductionHeavy": -1.3,
+        "InstabilityReductionAssault": -1.4,
         "InstabilityModifierFloor": 0.75,
         "InstabilityModifierDivisor": 5,
         "GutsBaseFloor": 0.7,
@@ -766,8 +766,8 @@
         "OffensivePushHighMoraleCost": 5,
         "UseDefensivePush": true,
         "DefensivePushCost": 40,
-        "DefensivePushLowMoraleCost": 30,
-        "DefensivePushHighMoraleCost": 40,
+        "DefensivePushLowMoraleCost": 50,
+        "DefensivePushHighMoraleCost": 20,
         "MoraleInitialDefault": 5,
         "UseBaselineMoraleGainEachRound": true,
         "MoraleBaselineGainPerRound": 1,
@@ -1049,12 +1049,12 @@
         "MoraleCostDefendDescriptionLow":
         {
             "Name": "VIGILANCE COST LOW",
-            "Details": "Cost: <color=#F04228FF>30 Morale (this MechWarrior has Low Spirits)</color>"
+            "Details": "Cost: <color=#F04228FF>50 Morale (this MechWarrior has Low Spirits)</color>"
         },
         "MoraleCostDefendDescriptionHigh":
         {
             "Name": "VIGILANCE COST HIGH",
-            "Details": "Cost: <color=#85DBF6FF>40 Morale (this MechWarrior has High Spirits)</color>"
+            "Details": "Cost: <color=#85DBF6FF>30 Morale (this MechWarrior has High Spirits)</color>"
         },
         "FireMultiDescription":
         {
@@ -1179,7 +1179,62 @@
             "Name": "Evasion",
             "Details": "The farther you move, the more EVASIVE charges you will gain. Each EVASIVE charge makes you harder to hit."
         }
-    },
+    },	
+    "CameraConstants":
+    {
+        "MoveSpeed" : 90.0, /* acceleration of the camera */
+        "MaxSpeed" : 30.0, /* max top speed of the camera */
+        "MoveFalloff" : 0.7, /* this controls "friction" which slows the camera's momentum */
+        "ZoomSpeed" : 1800.0, /* how fast the camera zooms in and out, under player control */
+        "RotationSpeed" : 19.0, /* how fast the camera rotates via right mouse hold */
+        "RotationSpeedKeyboard" : 19.0, /* how fast the camera rotates via Q and E */
+        "TargetRotLerpFactor" : 0.55, /* how fast the camera will try to rotate to face its target during a camera sequence */
+        "EdgePushSize" : 0.025, /* the size of the "screen edge", where it will start pushing the camera */
+        "EdgeAutoZoomSize" : 0.25, /* the size of the "screen edge" when determining if the camera needs to refocus on an object */
+        "MinDistToFocalPoint" : 50.0, /* how close you can move the camera to its focal point */
+        "MinHeightAboveTerrain" : 20.0, /* minimum height the camera must be above terrain */
+        "MaxHeightAboveTerrain" : 720.0, /* maximum height the camera can reach above terrain, or to its focal point */
+        "MinAngle" : 10.0, /* how close you can get to looking flat toward the horizon - degrees */
+        "MaxAngle" : 75.0, /* how close you can get to looking vertically straight down - degrees */
+        "DefaultAngle" : 40.0, /* the starting vertical angle */
+        "DefaultFOV" : 35.0, /* default Field Of View that the camera will always return to from zoom-in cams */
+        "TutorialMoveTime" : 1.0, /* in first tutorial level... how long to pause after first successful "move" of camera before proceeding */
+        "TimeBetweenTutorials" : 1.0, /* ... time to pause before second tutorial */
+        "TutorialRotateTime" : 3.0, /* ... how long to pause after first successful "rotate" of camera before proceeding */
+        "TargetCamPosMultiplierSide" : 1.8, /* over-the-shoulder targeting cam - adjusts distance to the side of the firing mech */
+        "TargetCamPosMultiplierBack" : 4.5, /* over-the-shoulder targeting cam - adjusts distance back from the firing mech */
+        "TargetCamPosMultiplierHeight" : 1.2, /* over-the-shoulder targeting cam - adjusts distance up from the firing mech */
+        "TargetCamTime" : 0.2, /* time to move into over-the-shoulder cam */
+        "RestorePlayerCamTime" : 0.6, /* time for camera to move back to player controlled cam */
+        "MovementCamTime" : 0.85, /* time to move into position to show enemy moves (high angle) */
+        "ShowAttackCamTime" : 1.5, /* for non-cinematic zoom, time to move camera into final position */
+        "ShakyCamTime" : 3.0, /* for cinematic zoom on enemy movements, minimum time for the whole sequence (note, sequence can still be shorter than this) */
+        "ShakyCamOffset" : 0.5, /* max position change when showing "shaky" zoom-in cam */
+        "ShakyMoveCamHeightMultiplier" : 2.6, /* controls height when showing follow cam, and "fancy" melee cam */
+        "FollowCamGroundMin" : 1.5, /* settings for the follow cam... min height from ground */
+        "FollowCamIdealHeight" : 1.5, /* ... ideal height from ground */
+        "FollowCamMinDistMult" : 2.0, /* ... min and max follow dists (multiplied by height of unit) */
+        "FollowCamMaxDistMult" : 5.0,
+        "FollowCamTime" : 1.0, /* ... controls how "lazy" the camera is in follow mode. Max value of laziness is, of course, infinite */
+        "FollowCamDelayTime" : 1.0, /* ... at end of move, how long to pause before returning to player control */
+        "CutAngleTolerance" : 45.0, /* when you've zoomed in, and the angle is now greater than this amount, just cut back to player cam position instead of smoothing */
+        "FramingSafeMultiplier" : 1.5, /* used in low-level camera framing code, to figure out when to zoom to keep a point in frame */
+        "FramingZoomMultiplier" : 0.015, /* when auto-framing, this controls how far back to zoom */
+        "FrameRightMultiplier" : 2.0, /* framing constants, since the screen is not a square */
+        "FrameUpMultiplier" : 4.0,
+        "TimeToShowNewBlips" : 2.5, /* when zooming to newly revealed contacts, how long to show them */
+        "MeleeAttackCamMinHeight" : 85.0, /* used for non-cinematic purposes when showing units - for melee cam, as well as death cam */
+        "CamDelayDeath" : 4.0, /* this section controls delays for different events */
+        "CamDelayBuildingDeath" : 4.5,
+        "CamDelayFall" : 4.0,
+        "CamDelayLocationDestroyed" : 3.0,
+        "CamDelayCriticalHit" : 2.0,
+        "CamDelayComponentDestroyed" : 2.0,
+        "CamDelayPilotInjured" : 3.0,
+        "CamDelayPilotInspired" : 3.0,
+        "CamDelayMiscInfo" : 1.5,
+        "CamMultiplierSlowMove" : 5.0 /* this multiplier controls "slow start" camera zooms: mission begin, mission end, and non-cinematic player attack zooms */
+    },	
     "VFXNames": {
       "pilotEject": {
         "name": "vfxPrfPrtl_mechWarriorEject",

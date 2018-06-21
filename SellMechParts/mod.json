@@ -1,6 +1,6 @@
 {
     "Name": "SellMechParts",
-    "Enabled": true,
+    "Enabled": false,
 
     "Version": "0.1.0",
     "Description": "Let's you sell your mech parts in any shop..",

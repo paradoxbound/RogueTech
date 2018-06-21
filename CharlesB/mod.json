@@ -2,7 +2,7 @@
   "Name": "CharlesB",
   "Enabled": true,
 
-  "Version": "0.3.0",
+  "Version": "0.3.5",
 
   "Author": "janxious",
   "Website": "https://github.com/janxious/CharlesB",
@@ -13,16 +13,17 @@
   "ConflictsWith": [],
 
   "Settings": {
-      "attackMissInstability": true,
-    "attackMissInstabilityPercent": "30",
-    "attackMissInstabilityLeggedPercent": "60",
-    
+    "attackMissInstability": true,
+    "attackMissInstabilityPercent": 30,
+    "attackMissInstabilityLeggedPercent": 70,
+
     "dfaMissInstability": true,
-    "dfaMissInstabilityPercent": 50,
-    "dfaMissInstabilityLeggedPercent": 90,
-	
-    "pilotingSkillInstabilityMitigation": true,	
-    
+    "dfaMissInstabilityPercent": 40,
+    "dfaMissInstabilityLeggedPercent": 80,
+
+    "pilotingSkillInstabilityMitigation": true,
+    "pilotingSkillDFASelfDamageMitigation": true,
+
     "allowSteadyToKnockdownForMelee": true,
 
     "debug": false

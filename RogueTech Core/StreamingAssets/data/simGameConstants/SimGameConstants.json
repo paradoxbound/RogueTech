@@ -20,7 +20,7 @@
 		"DefaultShopRefreshRate" : 14,
         "DefaultShopMaxInventory" : 80,
         "DefaultShopMaxSpecials" : 25,
-		"ContractPricePerDifficulty" : 290000,
+		"ContractPricePerDifficulty" : 280000,
 		"ContractTypeMod_AmbushConvoy" : 0.9,
 		"ContractTypeMod_Assassinate" : 0.9,
 		"ContractTypeMod_CaptureBase" : 1.0,
@@ -39,13 +39,13 @@
 		"GoodFaithModifier" : 0.3,
 		"NoFaithModifier" : 0,
 		"TechHiringCostPerPoint" : 8000,
-		"ShopSellModifier": 0.2,
-		"ShopSellDamagedModifier": 0.15,
+		"ShopSellModifier": 0.18,
+		"ShopSellDamagedModifier": 0.1,
 		"ShopWarnBeforeSellingPriceMinimum": 300000,
-		"MechScrapModifier": 0.2,
+		"MechScrapModifier": 0.18,
 		"MechLabRefundModifier": 1.0,
 		"RecoveredChassisShopModifier" : 0.9,
-		"QuartersYouCanAffordWithoutTriggeringWarning" : 3,
+		"QuartersYouCanAffordWithoutTriggeringWarning" : 1,
 		"ArgoBaseMaintenanceCost" : 90000
 		
    },
@@ -126,7 +126,7 @@
 		],
 		"RareUpgradeChance" : -4,
 		"UpgradeChanceDivisor" : 30,
-		"ItemAutoCullLevel" : 40
+		"ItemAutoCullLevel" : 40,		
    },
    "Story" : {
 		"CommanderPilotDefID" : "pilot_commander",
@@ -183,7 +183,7 @@
 		"MaxMechTechID" : "MechTechHireLimit",
 		"MaxMedTechID" : "MedTechHireLimit",
 		"StartingGlobalContractDifficulty" : 1,
-		"ContractDifficultyVariance": 4,
+		"ContractDifficultyVariance": 5,
 		"GlobalContractDifficultyMax" : 10,
 		"DefaultPilotsPerSystem" : 3,
 		"DefaultMechTechsPerSystem" : 2,
@@ -303,8 +303,7 @@
 				"TraitDefMeleeHit2"
 			],
 			[
-				"TraitDefMeleeHit3",
-				"TraitDefEvasiveChargeAddOne"				
+				"TraitDefMeleeHit3"			
 			],
 			[
 				"TraitDefMeleeHit4",
@@ -317,7 +316,7 @@
 			],
 			[
 				"TraitDefMeleeHit6",
-				"TraitDefEvasiveChargeAddTwo"		
+				"TraitDefEvasiveChargeAddOne"					
 			],
 			[
 				"TraitDefMeleeHit7",
@@ -326,7 +325,8 @@
 			[
 				"TraitDefMeleeHit8",
 				"AbilityDefP8",
-				"TraitStabDamage10"
+				"TraitStabDamage10",
+				"TraitDefEvasiveChargeAddTwo"				
 			],
 			[
 				"TraitDefMeleeHit9",

@@ -8,7 +8,7 @@
         "UIName" : "SuperCharger",
         "Id" : "Gear_Supercharger",
         "Name" : "Supercharger",
-        "Details" : "Supercharges the engine output, increasing walk and run distance at the cost of more heat produced. Cannot Stack.",
+        "Details" : "Supercharges the engine output, increasing walk and run distance at the cost of more heat produced. Cannot Stack. Some superstitious Hillfolk believe it causes the common cold.",
         "Icon" : "uixSvgIcon_equipment_HeatBank"
     },
     "BonusValueA" : "+40%Walk/+15%Sprint",
@@ -126,7 +126,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "HeatGenerated",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.10",
+                "modValue" : "1.15",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",

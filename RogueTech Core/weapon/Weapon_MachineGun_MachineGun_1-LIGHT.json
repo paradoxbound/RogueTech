@@ -37,7 +37,7 @@
         "UIName" : "LMG",
         "Id" : "Weapon_MachineGun_MachineGun_1-LIGHT",
         "Name" : "LMG",
-        "Details" : "This Machine Gun fires a lighter caliber of shells but gains increased range and weights only half.",
+        "Details" : "This Machine Gun fires a lighter caliber of shells but gains increased range and weights less.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "",
@@ -47,7 +47,7 @@
     "PrefabIdentifier" : "MachineGun",
     "BattleValue" : 0,
     "InventorySize" : 1,
-    "Tonnage" : 0.25,
+    "Tonnage" : 0.35,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,

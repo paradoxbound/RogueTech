@@ -1,0 +1,13 @@
+{
+    "Name": "MechMaintenanceByCost",
+    "Enabled": true,
+
+    "Version": "1.0",
+    "Description": "Map of the Inner Sphere",
+    "Author": "Morphyum",
+    "Website": "https://github.com/Morphyum/MechMaintenanceByCost",
+    "Contact": "",
+	
+	"DLL": "MechMaintenanceByCost.dll",
+	"Settings":{},
+}
