@@ -246,7 +246,7 @@
 		"JumpJetInstallCost" : 250,
 		"HeatSinkInstallTechPoints" : 5.5,
 		"HeatSinkInstallCost" : 250,
-		"ArmorInstallTechPoints" : 0.4,
+		"ArmorInstallTechPoints" : 1.0,
 		"ArmorInstallCost" : 100,
 		"OtherInstallTechPoints" : 6,
 		"OtherInstallCost" : 450,

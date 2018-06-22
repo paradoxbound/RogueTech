@@ -2,7 +2,7 @@
     "Name": "ExclusiveFilters",
     "DLL": "ExclusiveFilters.dll",
 
-    "Version": "0.2.0",
+    "Version": "0.2.1",
     "Description": "Changes filter buttons in mechlab to filter exclusively",
     "Author": "mpstark",
     "Website": "www.github.com/mpstark/ExclusiveFilters"

@@ -32,12 +32,12 @@
     },
     "Heat":
     {
-        "OverheatLevel": 0.46,
+        "OverheatLevel": 0.41,
         "MaxHeat": 110,
         "WalkHeat": 2.5,
         "SprintHeat": 6,
-        "JumpHeatUnitSize": 6.5,
-        "JumpHeatPerUnit": 1.35,
+        "JumpHeatUnitSize": 6.6,
+        "JumpHeatPerUnit": 1.5,
         "JumpHeatMin": 5,
         "EngineDamageHeat": 5,
         "InternalHeatSinkCount": 10,
@@ -137,7 +137,7 @@
     {
         "FiringArcDegrees": 60.0,
         "ToHitBaseFloor": 0.75,
-        "ToHitGunneryDivisor": 35,
+        "ToHitGunneryDivisor": 50,
         "ToHitUseSteppedAlgorithm": true,
         "ToHitStepThresholds":
         [
@@ -324,7 +324,7 @@
         "StabilityDumpJumping": -0.75,
         "StabilityDumpBracing": 5,
         "StabilityDumpAbilityDefer": 1,
-        "StabilityDumpDFA": -0.75,
+        "StabilityDumpDFA": -0.5,
         "SearchForValidCritSlot": true,
         "MinCritChance": 0.35,
         "AllowTotalNegativeModifier": true
@@ -719,18 +719,18 @@
     "PilotingConstants":
     {
         "PilotingBaseFloor": 0.75,
-        "PilotingDivisor": 35,
+        "PilotingDivisor": 50,
         "PilotingModifierDivisor": 6.0,
         "PilotingDamageCTPenalizedModifier": 0.1,
         "PilotingDamageLegPenalizedModifier": 0.2,
         "PilotingDamageLegNonfunctionalModifier": 0.3,
         "PilotingDFAModifier": 6.5,
-        "LocationDestroyedPermanentStabilityLoss": 0.4,
+        "LocationDestroyedPermanentStabilityLoss": 0.15,
         "OnlyPermanentLossFromLegs": false,
-        "SideTorsoBlackRelativeInstability": 0.2,
-        "CenterTorsoYellowRelativeInstability": 0.1,
-        "ArmBlackRelativeInstability": 0.1,
-        "LegDamageRelativeInstability": 0.1,
+        "SideTorsoBlackRelativeInstability": 0.02,
+        "CenterTorsoYellowRelativeInstability": 0.02,
+        "ArmBlackRelativeInstability": 0.01,
+        "LegDamageRelativeInstability": 0.01,
         "InstabilityReductionLight": -1.1,
         "InstabilityReductionMedium": -1.2,
         "InstabilityReductionHeavy": -1.3,

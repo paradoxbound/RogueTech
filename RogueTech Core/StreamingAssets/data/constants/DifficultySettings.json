@@ -593,7 +593,7 @@
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
-			"StartOnly": true,
+			"StartOnly": false,
 			"DefaultIndex": 1,
 			"Options": [
 				{
@@ -787,7 +787,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "PilotLevelCostExponent",
-							"ConstantValue": "1.1"
+							"ConstantValue": "1.0"
 						}
 					]
 				},
@@ -799,7 +799,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "PilotLevelCostExponent",
-							"ConstantValue": "1.4"
+							"ConstantValue": "1.5"
 						}
 					]
 				},
@@ -811,7 +811,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "PilotLevelCostExponent",
-							"ConstantValue": "1.8"
+							"ConstantValue": "2.0"
 						}
 					]
 				},
@@ -835,7 +835,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "PilotLevelCostExponent",
-							"ConstantValue": "3.3"
+							"ConstantValue": "3.0"
 						}
 					]
 				},
@@ -872,7 +872,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "PilotLevelCostMultiplier",
-							"ConstantValue": "30"
+							"ConstantValue": "40"
 						}
 					]
 				},
@@ -884,7 +884,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "PilotLevelCostMultiplier",
-							"ConstantValue": "50"
+							"ConstantValue": "60"
 						}
 					]
 				},
@@ -896,7 +896,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "PilotLevelCostMultiplier",
-							"ConstantValue": "70"
+							"ConstantValue": "80"
 						}
 					]
 				},
@@ -908,7 +908,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "PilotLevelCostMultiplier",
-							"ConstantValue": "90"
+							"ConstantValue": "100"
 						}
 					]
 				},
@@ -920,7 +920,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "PilotLevelCostMultiplier",
-							"ConstantValue": "135"
+							"ConstantValue": "140"
 						}
 					]
 				},
@@ -932,7 +932,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "PilotLevelCostMultiplier",
-							"ConstantValue": "200"
+							"ConstantValue": "180"
 						}
 					]
 				}
@@ -1027,7 +1027,7 @@
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
-			"StartOnly": true,
+			"StartOnly": false,
 			"DefaultIndex": 2,
 			"Options": [
 				{
@@ -1100,7 +1100,7 @@
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
-			"StartOnly": true,
+			"StartOnly": false,
 			"DefaultIndex": 2,
 			"Options": [
 				{
@@ -1173,7 +1173,7 @@
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
-			"StartOnly": true,
+			"StartOnly": false,
 			"DefaultIndex": 2,
 			"Options": [
 				{
@@ -1247,7 +1247,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 2,
+			"DefaultIndex": 3,
 			"Options": [
 				{
 					"ID": "diff_MBAY_cheat",
@@ -1488,7 +1488,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 2,
+			"DefaultIndex": 3,
 			"Options": [
 				{
 					"ID": "diff_MBAYC_cheat",

@@ -1,0 +1,67 @@
+{
+   "Name": "Attack Improvement Mod",
+   "Enabled": true,
+
+   "Version": "1.0.0",
+   "Description": "Fix hit location distribution and called shot bugs, with options to improve attack HUD such as better called shot precision. Each fix and features can be configured individually by editing mod.json.",
+   "Author": "Sheepy",
+   "Website": "https://github.com/Sheep-y/BattleTech_Mods",
+   "Contact": "your.sheepy@gmail.com",
+
+   "DLL": "AttackImprovementMod.dll",
+   "DLLEntryPoint": "Sheepy.AttackImprovementMod.Mod.Init",
+
+   "Settings": {
+      /* Enable Vehicle Called Shot, which the game did not implement fully. Default true. */
+      "FixVehicleCalledShot" : true,
+
+      /* Fix hit distribution bug which increase head shot % of all attacks. Default true. */
+      "FixHitDistribution" : true,
+
+      /* Enable clustering effect for called shots against mechs. Default true. */
+      "CalledShotUseClustering" : true,
+
+      /* Increase or decrease called shot multiplier against mech.  0 to disable called shot, 1 is original strength.
+       * Default is 0.33 to counter the effect of CalledShotClusterStrength. */
+      "MechCalledShotMultiplier" : 1,
+
+      /* Increase or decrease called shot multiplier against mech.  0 to disable called shot, 1 is original strength.
+       * Default is 0.75 to balance vehicle's lower number of locations. */
+      "VehicleCalledShotMultiplier" : 0.75,
+
+      /* Override called shot percentage display of mech locations to show true shot distribution, with bug fix or not. Default true. */
+      "ShowRealMechCalledShotChance" : true,
+
+      /* Override called shot percentage display of vehicle locations to show true shot distribution, with bug fix or not. Default true. */
+      "ShowRealVehicleCalledShotChance" : true,
+
+      /* Display chance to one decimal IF AND ONLY IF called shot chance is overridden (above). Default false. */
+      "ShowDecimalCalledChance" : false,
+
+      /* Increase or decrease roll correction strength. 0 to disable roll correction, 1 is original strength, 2 for double strength.
+       * Default is 0.5 for less correction. */
+      "RollCorrectionStrength" : 0.0,
+
+      /* Set miss streak breaker threshold. Only attacks with hit rate above the threshold will add to streak breaker.
+       * Default is 0.5, same as game default. */
+      "MissStreakBreakerThreshold" : 1.0,
+
+      /* Set miss streak breaker divider. Set to negative or zero to make it a (positive) constant.
+       * Otherwise, MissStreakBreakerThreshold is deduced from triggering attack's hit rate, then divided by this much, then added to streak breaker's chance modifier.
+       * Default is 5, same as game default. */
+      "MissStreakBreakerDivider" : 0,
+
+      /* Show adjusted hit chance in weapon panel, instead of original (fake) hit chance. Default false. */
+      "ShowRealWeaponHitChance" : true,
+
+      /* Show hit chance to one decimal in weapon panel. Default false. */
+      "ShowDecimalHitChance" : true,
+
+      /* Log attacker, weapon, hit roll, correction, location roll, location weights etc. to "BATTLETECH\Mods\FixHitLocation\log_roll.txt", for copy and paste to Excel.
+       * Default disabled. */
+      "LogHitRolls" : false,
+
+      /* If true, don't clear log on mod load (game launch). */
+      "PersistentLog" : false
+   }
+}

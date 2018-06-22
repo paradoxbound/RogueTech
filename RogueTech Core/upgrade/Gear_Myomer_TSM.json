@@ -14,7 +14,7 @@
         "Details" : "TripleStrengthMyomer is a experimental Myomer that gains more strength and flexibility at higher temperatures, granting melee and movement boni. More than 6 pieces will not grant further boni.",
         "Icon" : "uixSvgIcon_equipment_ActuatorArm"
     },
-    "BonusValueA" : "+ 3% Melee.",
+    "BonusValueA" : "+ 3% Melee Dmg.",
     "BonusValueB" : "+ 2% Sprint Speed",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",

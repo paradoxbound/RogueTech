@@ -1002,6 +1002,59 @@
 	    }
 	},
 	{
+            /* How fast (percentage of full speed, 0% = 0, 100% = 100.0) to
+             * follow patrol routes.
+	     */
+
+	    "k" : "Float_PatrolRouteThrottlePercentage",
+	    "v" : {
+		"type" : "Float",
+		"floatVal" : 80.0
+	    }
+	},
+	{
+            /* If we have priority targets, should we only consider priority
+             * targets when evaluating the "hostile" phase of influence maps?
+	     */
+
+	    "k" : "Bool_FilterHostileInfluenceMapsToPriorityTargets",
+	    "v" : {
+		"type" : "Bool",
+		"boolVal" : false
+	    }
+	},
+	{
+            /* If true, drop out of long range pathfinding if we can walk to
+             * a destination with LOF to a hostile. (TODO: roll this behavior out to
+             * all encounters.)
+	     */
+
+	    "k" : "Bool_SimpleShortRangeLOF",
+	    "v" : {
+		"type" : "Bool",
+		"boolVal" : true
+	    }
+	},
+	{
+            /* If true, apply "ruthless" mood to AIs that have priority
+             * targets and do not consider non-LOF destinations if destinations exist
+             * that have LOF
+	     */
+
+	    "k" : "Bool_RuthlessPriorityTargeting",
+	    "v" : {
+		"type" : "Bool",
+		"boolVal" : true
+	    }
+	},
+
+
+	{
+	    /* An alerted unit will act on visibility information,
+	       closing, attacking. Non-alerted units will still follow
+	       patrol orders or movement orders. This will be set by
+	       visibility logic.
+	       For internal AI use, do not set. */
             "k" : "Bool_Alerted",
             "v" : {
 		"type" : "Bool",

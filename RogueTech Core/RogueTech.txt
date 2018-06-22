@@ -140,6 +140,41 @@ If you want to change the time or reputation, just open the file and change the 
 
 ---------
 
+0.9858
+Considered first proper patch for 1.1
+Difficulty settings tweaked
+Fixed a RT pilot
+All Ronin gain less free xp (normalized)
+Tiny Tweaks
+This is now the stable release for 1.1
+Documentation gets fixed the next days
+
+
+RogueTech 1.1 compat patch 4
+Added AIM - Attack Improvement Mod, replaces corrected hit rolls -delete  	NoCorrectedRoll.dll
+Removed SellMechParts - Discontinued because you can now scrap mech parts from bay, delete old folder
+Melee Actuators (except legs) got the TTS  treatment
+Each tier of a single Actuator cannot stack with itself, but different tiers still work
+Another tweak to Erinya
+Fast save Delete patched for 1.1
+Gunnery and Piloting divisors changed (nerfs)
+Patched CBT Heat, ammo explosions work now properly, guts improves prevention by 1% per guts
+Patched CBT Movement
+Patched CBT Piloting
+Hellion Portrait changed
+Added new Modder Pilot, Callyste
+Possible fix for bugged escort missions
+
+RogueTech 1.1 compat patch 3
+tiny bugfix
+
+RogueTech 1.1 compat patch 2
+Shopseller patched
+PilotHealthPopUp patched
+Further tweaks and fixes to new stability values
+
+
+
 RogueTech 1.1 compat patch 1
 Adapted HBS stability bleed with less extent Roguetech will for now remain at 100 stab for every chassis
 Stability changes still in testing
