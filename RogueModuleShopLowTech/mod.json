@@ -1,6 +1,6 @@
 {
     "Name": "Rogue Shops Module LowTech",
-    "Enabled": true,
+    "Enabled": false,
 
     "Version": "0.1.0",
     "Description": "Adds LowTech Gear and mechs to shops for RogueTech",

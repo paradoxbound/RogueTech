@@ -6,12 +6,12 @@
         "PhaseMedium": 3,
         "PhaseHeavy": 4,
         "PhaseAssault": 5,
-        "PhaseLightVehicle": 3,
-        "PhaseMediumVehicle": 4,
-        "PhaseHeavyVehicle": 5,
+        "PhaseLightVehicle": 2,
+        "PhaseMediumVehicle": 3,
+        "PhaseHeavyVehicle": 4,
         "PhaseAssaultVehicle": 5,
-        "PhaseLightTurret": 5,
-        "PhaseMediumTurret": 5,
+        "PhaseLightTurret": 3,
+        "PhaseMediumTurret": 4,
         "PhaseHeavyTurret": 5,
         "PhaseAssaultTurret": 5
     },
@@ -36,13 +36,13 @@
         "MaxHeat": 110,
         "WalkHeat": 2.5,
         "SprintHeat": 6,
-        "JumpHeatUnitSize": 6.6,
-        "JumpHeatPerUnit": 1.5,
+        "JumpHeatUnitSize": 6.1,
+        "JumpHeatPerUnit": 1.35,
         "JumpHeatMin": 5,
         "EngineDamageHeat": 5,
         "InternalHeatSinkCount": 10,
         "DefaultHeatSinkDissipationCapacity": 3,
-        "StartupSinkRatio": 0.55,
+        "StartupSinkRatio": 0.65,
         "GlobalHeatIncreaseMultiplier": 1.0,
         "GlobalHeatSinkMultiplier": 1.0,
         "CriticalHeatPerLocationLight": 0,
@@ -136,9 +136,9 @@
     "ToHit":
     {
         "FiringArcDegrees": 60.0,
-        "ToHitBaseFloor": 0.75,
+        "ToHitBaseFloor": 0.7,
         "ToHitGunneryDivisor": 50,
-        "ToHitUseSteppedAlgorithm": true,
+        "ToHitUseSteppedAlgorithm": false,
         "ToHitStepThresholds":
         [
             0,
@@ -154,8 +154,8 @@
         "ToHitHeavy": 0,
         "ToHitMedium": 0,
         "ToHitLight": 0,
-        "ToHitVehicleAssault": -2,
-        "ToHitVehicleHeavy": -1,
+        "ToHitVehicleAssault": 0,
+        "ToHitVehicleHeavy": 0,
         "ToHitVehicleMedium": 0,
         "ToHitVehicleLight": 1,
         "ToHitTurretAssault": -4,
@@ -286,9 +286,9 @@
         "MeleeDamageMultiplierTurret": 4.0,
         "MeleeDamageMultiplierVehicle": 2.0,
         "DefaultUnsteadyThreshold": 41.0,
-        "MeleeInstabilityNormalMultiplier": 1.2,
-        "MeleeInstabilityChargeMultiplier": 1.4,
-        "MeleeInstabilityDFAMultiplier": 1.5,
+        "MeleeInstabilityNormalMultiplier": 1.0,
+        "MeleeInstabilityChargeMultiplier": 1.0,
+        "MeleeInstabilityDFAMultiplier": 1.0,
         "ChargeDistanceThreshold": 0.5,
         "HeavyHitReactDamageThreshold": 100,
         "ComponentDestructionForceMultiplier": 25.0,
@@ -339,8 +339,8 @@
         "StructureMultiplierHeavy": 1,
         "ArmorMultiplierAssault": 1,
         "StructureMultiplierAssault": 1,
-        "ArmorMultiplierVehicle": 0.65,
-        "StructureMultiplierVehicle": 0.55,
+        "ArmorMultiplierVehicle": 1,
+        "StructureMultiplierVehicle": 0.35,
         "GlobalDamageMultiplier": 1.0,
         "TEST_MechScaleMultiplier": 1.0
     },
@@ -718,7 +718,7 @@
     },
     "PilotingConstants":
     {
-        "PilotingBaseFloor": 0.75,
+        "PilotingBaseFloor": 0.7,
         "PilotingDivisor": 50,
         "PilotingModifierDivisor": 6.0,
         "PilotingDamageCTPenalizedModifier": 0.1,
@@ -757,7 +757,7 @@
     {
         "MoraleMin": 0,
         "MoraleMax": 150,
-        "CanUseInspireLevel": 100,
+        "CanUseInspireLevel": 75,
         "InspireCost": 0,
         "AutoInspire": true,
         "UseOffensivePush": true,
@@ -1013,7 +1013,7 @@
         },
         "MoraleAttackDescription":
         {
-            "Name": "Called Shot",
+            "Name": "Offensive Push",
             "Details": "Take a Called Shot against a single target at +6 Penalty. The target's next Initiative is reduced by 1 (to a minimum of 1).\n"
         },
         "MoraleCostAttackDescription":
@@ -1235,236 +1235,7 @@
         "CamDelayMiscInfo" : 1.5,
         "CamMultiplierSlowMove" : 5.0 /* this multiplier controls "slow start" camera zooms: mission begin, mission end, and non-cinematic player attack zooms */
     },	
-    "VFXNames": {
-      "pilotEject": {
-        "name": "vfxPrfPrtl_mechWarriorEject",
-        "cacheCount": 1
-      },
-      "footfallBase": {
-        "name": "vfxPrfPrtl_mechFootfall_",
-        "cacheCount": 1
-      },
-      "groundImpactBase": {
-        "name": "vfxPrfPrtl_mechFall_",
-        "cacheCount": 1
-      },
-      "jumpjetLandBase": {
-        "name": "vfxPrfPrtl_jumpJetLanding_",
-        "cacheCount": 1
-      },
-      "mechDeath_centerTorso_A": {
-        "name": "vfxPrfPrtl_mechDeathTotal_A",
-        "cacheCount": 1
-      },
-      "mechDeath_centerTorso_B": {
-        "name": "vfxPrfPrtl_mechDeathTotal_B",
-        "cacheCount": 1
-      },
-      "mechDeath_centerTorso_C": {
-        "name": "vfxPrfPrtl_mechDeathTotal_C",
-        "cacheCount": 1
-      },
-      "mechDeath_cockpit": {
-        "name": "vfxPrfPrtl_mechDeathCockpit",
-        "cacheCount": 1
-      },
-      "mechDeath_gyro": {
-        "name": "vfxPrfPrtl_mechDeathElectricalShutdown",
-        "cacheCount": 1
-      },
-      "mechDeath_engine": {
-        "name": "vfxPrfPrtl_mechDeathHeatShutdown",
-        "cacheCount": 1
-      },
-      "mechDeath_legs": {
-        "name": "vfxPrfPrtl_mechDeathLegs",
-        "cacheCount": 1
-      },
-      "mechDeath_ammoExplosion_A": {
-        "name": "vfxPrfPrtl_mechDeathTotal_A",
-        "cacheCount": 1
-      },
-      "mechDeath_ammoExplosion_B": {
-        "name": "vfxPrfPrtl_mechDeathTotal_B",
-        "cacheCount": 1
-      },
-      "mechDeath_ammoExplosion_C": {
-        "name": "vfxPrfPrtl_mechDeathTotal_C",
-        "cacheCount": 1
-      },
-      "mechDeath_vitalComponent": {
-        "name": "vfxPrfPrtl_mechDeathElectricalShutdown",
-        "cacheCount": 1
-      },
-      "mechDeath_pilotKilled": {
-        "name": "vfxPrfPrtl_mechDeathCockpit",
-        "cacheCount": 1
-      },
-      "vehicleDeath_A": {
-        "name": "vfxPrfPrtl_vehicleDeath_A",
-        "cacheCount": 1
-      },
-      "vehicleDeath_B": {
-        "name": "vfxPrfPrtl_vehicleDeath_B",
-        "cacheCount": 1
-      },
-      "persistentDamage": [
-        {
-          "name": "vfxPrfPrtl_mechDmgSmokeLrg_loop",
-          "cacheCount": 8
-        },
-        {
-          "name": "vfxPrfPrtl_mechDmgSmokeSm_loop",
-          "cacheCount": 8
-        },
-        {
-          "name": "vfxPrfPrtl_mechDmgElectricalSm_loop",
-          "cacheCount": 8
-        },
-        {
-          "name": "vfxPrfPrtl_mechDmgElectricalLrg_loop",
-          "cacheCount": 4
-        },
-        {
-          "name": "vfxPrfPrtl_mechDmgSparks",
-          "cacheCount": 8
-        },
-        {
-          "name": "vfxPrfPrtl_mechDmgElectricalFailure_loop",
-          "cacheCount": 2
-        }
-      ],
-      "persistentCrit": [
-        {
-          "name": "vfxPrfPrtl_mechDmgFireLrg_loop",
-          "cacheCount": 2
-        },
-        {
-          "name": "vfxPrfPrtl_mechDmgFireSm_loop",
-          "cacheCount": 2
-        },
-        {
-          "name": "vfxPrfPrtl_mechDmgSmokeSpark_loop",
-          "cacheCount": 2
-        }
-      ],
-      "componentDestruction_A": {
-        "name": "vfxPrfPrtl_mechDmgParkBreak_A",
-        "cacheCount": 3
-      },
-      "componentDestruction_B": {
-        "name": "vfxPrfPrtl_mechDmgParkBreak_B",
-        "cacheCount": 3
-      },
-      "componentDestruction_C": {
-        "name": "vfxPrfPrtl_mechDmgParkBreak_C",
-        "cacheCount": 3
-      },
-      "componentDestruction_D": {
-        "name": "vfxPrfPrtl_mechDmgParkBreak_shrapnel",
-        "cacheCount": 3
-      },
-      "componentDestruction_AmmoExplosion": {
-        "name": "vfxPrfPrtl_mechDmgCritAmmo",
-        "cacheCount": 2
-      },
-      "deadMechLoop": {
-        "name": "vfxPrfPrtl_mechDmgDead_loop",
-        "cacheCount": 6
-      },
-      "heat_midHeat_persistent": {
-        "name": "vfxPrfPrtl_heatVentSm_loop",
-        "cacheCount": 3
-      },
-      "heat_highHeat_persistent": {
-        "name": "vfxPrfPrtl_heatVentLrg_loop",
-        "cacheCount": 3
-      },
-      "heat_heatVent_small": {
-        "name": "vfxPrfPrtl_heatDumpSm_burst",
-        "cacheCount": 1
-      },
-      "heat_heatVent_large": {
-        "name": "vfxPrfPrtl_heatDumpLrg_burst",
-        "cacheCount": 1
-      },
-      "heat_heatVent_shutdown": {
-        "name": "vfxPrfPrtl_heatDumpLrg_burst",
-        "cacheCount": 1
-      },
-      "heat_heatShutdown": {
-        "name": "vfxPrfPrtl_overheatStatusLrg_loop",
-        "cacheCount": 2
-      },
-      "flames_loop_small": {
-        "name": "vfxPrfPrtl_fireTerrain_smLoop",
-        "cacheCount": 1
-      },
-      "flames_loop_medium": {
-        "name": "vfxPrfPrtl_fireTerrain_medLoop",
-        "cacheCount": 1
-      },
-      "flames_loop_large": {
-        "name": "vfxPrfPrtl_fireTerrain_lrgLoop",
-        "cacheCount": 1
-      },
-      "flames_single_small": {
-        "name": "vfxPrfPrtl_fireTerrain_smOneShot",
-        "cacheCount": 1
-      },
-      "flames_single_large": {
-        "name": "vfxPrfPrtl_fireTerrain_lrgOneShot",
-        "cacheCount": 1
-      },
-      "flames_trees_small": {
-        "name": "vfxPrfPrtl_fireTree_sm",
-        "cacheCount": 1
-      },
-      "flames_trees_large": {
-        "name": "vfxPrfPrtl_fireTree_lrg",
-        "cacheCount": 1
-      },
-      "flamer_impact": {
-        "name": "vfxPrfPrtl_weaponFlamerImpact",
-        "cacheCount": 4
-      },
-      "flamer_persistent": {
-        "name": "vfxPrfPrtl_weaponFlamerBurningLrg",
-        "cacheCount": 4
-      },
-      "directionalExplosion_small": {
-        "name": "vfxPrfPrtl_explosionDirectedSm_debris",
-        "cacheCount": 1
-      },
-      "directionalExplosion_medium": {
-        "name": "vfxPrfPrtl_explosionDirectedMed_debris",
-        "cacheCount": 1
-      },
-      "directionalExplosion_large": {
-        "name": "vfxPrfPrtl_explosionDirectedLrg_debris",
-        "cacheCount": 1
-      },
-      "directionalExplosion_electrical": {
-        "name": "vfxPrfPrtl_explosionDirectedLrg_electric",
-        "cacheCount": 1
-      },
-      "directionalExplosion_energy": {
-        "name": "vfxPrfPrtl_explosionDirectedLrg_scifi",
-        "cacheCount": 1
-      },
-      "jumpjet_launch": {
-        "name": "vfxPrfSys_jumpJetLaunch",
-        "cacheCount": 5
-      },
-      "artillery_incoming": {
-        "name": "vfxPrfPrtl_artilleryProjectiles",
-        "cacheCount": 1
-      },
-      "artillery_explosion": {
-        "name": "vfxPrfPrtl_artilleryImpact",
-		"cacheCount": 1
-      }
-    },
+
     "MoveConstants":
     {
         "MoveTable": 

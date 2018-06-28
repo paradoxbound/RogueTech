@@ -1,0 +1,32 @@
+{
+    "Name": "RogueModuleTech",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "The Tech and Units of RogueTech - Core Module",
+    "Author": "LadyAlekto",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+
+    "Manifest": [
+        { "Type": "MechDef", "Path": "mech" },
+        { "Type": "ChassisDef", "Path": "chassis" },
+        { "Type": "MovementCapabilitiesDef", "Path": "move" },
+		{ "Type": "UpgradeDef", "Path": "upgrade" },
+        { "Type": "JumpJetDef", "Path": "jumpjets" },		
+        { "Type": "WeaponDef", "Path": "weapon" },			
+        { "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
+        { "Type": "VehicleDef", "Path": "vehicle" },
+        { "Type": "TurretChassisDef", "Path": "TurretChassis" },
+        { "Type": "TurretDef", "Path": "Turret" }		
+    ]
+	
+	
+	
+
+    
+
+		
+
+	
+}

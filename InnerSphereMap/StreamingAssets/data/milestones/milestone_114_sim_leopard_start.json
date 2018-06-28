@@ -76,22 +76,46 @@
                 },
 				{
                     "typeString" : "System.Int32",
-                    "name" : "Item.WeaponDef.Weapon_Autocannon_AC2_0-STOCK",
+                    "name" : "Item.WeaponDef.Weapon_Autocannon_AC2_0-Ultra",
                     "value" : 2,
                     "valueConstant" : ""
                 },
 				{
                     "typeString" : "System.Int32",
                     "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_AC2",
-                    "value" : 6,
+                    "value" : 2,
                     "valueConstant" : ""
                 },
 				{
                     "typeString" : "System.Int32",
-                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_AC5",
-                    "value" : 6,
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Precision_AC2",
+                    "value" : 1,
                     "valueConstant" : ""
                 },
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_AP_AC2",
+                    "value" : 1,
+                    "valueConstant" : ""
+                },				
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_AC5",
+                    "value" : 2,
+                    "valueConstant" : ""
+                },
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Precision_AC5",
+                    "value" : 1,
+                    "valueConstant" : ""
+                },
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_AP_AC5",
+                    "value" : 1,
+                    "valueConstant" : ""
+                },				
 				{
                     "typeString" : "System.Int32",
                     "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_AC10",
@@ -100,10 +124,22 @@
                 },
 				{
                     "typeString" : "System.Int32",
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Precision_AC10",
+                    "value" : 1,
+                    "valueConstant" : ""
+                },				
+				{
+                    "typeString" : "System.Int32",
                     "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_AC20",
-                    "value" : 2,
+                    "value" : 1,
                     "valueConstant" : ""
                 },
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_AP_AC20",
+                    "value" : 1,
+                    "valueConstant" : ""
+                },				
 				{
                     "typeString" : "System.Int32",
                     "name" : "Item.WeaponDef.Weapon_Laser_MediumLaser_0-STOCK",
@@ -119,9 +155,15 @@
 				{
                     "typeString" : "System.Int32",
                     "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_SRM",
-                    "value" : 6,
+                    "value" : 3,
                     "valueConstant" : ""
                 },
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Inferno_SRM",
+                    "value" : 1,
+                    "valueConstant" : ""
+                },				
 				{
                     "typeString" : "System.Int32",
                     "name" : "Item.WeaponDef.Weapon_LRM_LRM10_0-STOCK",
@@ -131,15 +173,27 @@
 				{
                     "typeString" : "System.Int32",
                     "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_LRM",
-                    "value" : 6,
+                    "value" : 4,
                     "valueConstant" : ""
                 },
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Deadfire_LRM",
+                    "value" : 2,
+                    "valueConstant" : ""
+                },				
 				{
                     "typeString" : "System.Int32",
                     "name" : "Item.WeaponDef.Weapon_Laser_LargeLaser_0-STOCK",
                     "value" : 1,
                     "valueConstant" : ""
                 },
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.WeaponDef.Weapon_Laser_LargeLaserPulse_0-STOCK",
+                    "value" : 1,
+                    "valueConstant" : ""
+                },				
 				{
                     "typeString" : "System.Int32",
                     "name" : "Item.HeatSinkDef.Gear_HeatSink_Generic_Standard",
@@ -151,7 +205,13 @@
                     "name" : "Item.JumpJetDef.Gear_JumpJet_Generic_Standard",
                     "value" : 2,
                     "valueConstant" : ""
-                }
+                },
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.UpgradeDef.Gear_AdvancedMaterials1",
+                    "value" : 2,
+                    "valueConstant" : ""
+                }				
             ],
             "Actions" : [
 				{

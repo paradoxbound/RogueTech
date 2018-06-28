@@ -1,0 +1,16 @@
+{
+    "Name": "JK_VariantsStarLeague",
+    "Enabled": true,
+
+	"Version": "0.1.1.0-M",
+	"PackagedOn": "2018-06-21T06:45:00Z",
+    "Description": "Star League Era - Adds 1 'Mech Variants - usable in Skirmish mode.",
+    "Author": "Justin Kase",
+    "Website": "https://www.nexusmods.com/battletech/mods/18",
+    "Contact": "message me at Nexus or Paradox sites",
+	
+	"Manifest": [
+		{ "Type": "ChassisDef", "Path": "chassis" },
+		{ "Type": "MechDef", "Path": "mech" }
+    ]
+}

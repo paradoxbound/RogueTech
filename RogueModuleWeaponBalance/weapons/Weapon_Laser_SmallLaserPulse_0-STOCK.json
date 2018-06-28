@@ -1,17 +1,17 @@
 {
-    "Category" : "AntiPersonnel",
+    "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "SmallLaserPulse",
     "MinRange" : 0,
-    "MaxRange" : 90,
+    "MaxRange" : 160,
     "RangeSplit" : [
-        30,
         60,
-        90
+        110,
+        160
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 10,
+    "HeatGenerated" : 8,
     "Damage" : 25,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,

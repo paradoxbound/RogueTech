@@ -1,13 +1,13 @@
 {
-    "Category" : "AntiPersonnel",
+    "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "SmallLaser",
     "MinRange" : 0,
-    "MaxRange" : 90,
+    "MaxRange" : 200,
     "RangeSplit" : [
-        30,
-        60,
-        90
+        75,
+        138,
+        200
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
@@ -19,7 +19,7 @@
     "DamageVariance" : 0,
     "HeatDamage" : 0,
     "AccuracyModifier" : -1,
-    "CriticalChanceMultiplier" : 1.25,
+    "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,
@@ -40,7 +40,7 @@
         "Details" : "Small Lasers deal superb damage for their weight and heat generation but have extremely limited range. Like all Lasers, Small Lasers enjoy a baseline accuracy bonus over other weapons.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
-    "BonusValueA" : "+ 25% Crit.",
+    "BonusValueA" : "+ 25% Range.",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",

@@ -49,7 +49,7 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [{"WeaponMount": "Ballistic","Omni": false}],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,

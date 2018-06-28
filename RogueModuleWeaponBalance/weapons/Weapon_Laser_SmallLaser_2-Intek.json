@@ -1,13 +1,13 @@
 {
-    "Category" : "AntiPersonnel",
+    "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "SmallLaser",
     "MinRange" : 0,
-    "MaxRange" : 90,
+    "MaxRange" : 200,
     "RangeSplit" : [
-        30,
-        60,
-        90
+        75,
+        138,
+        200
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
@@ -19,7 +19,7 @@
     "DamageVariance" : 0,
     "HeatDamage" : 0,
     "AccuracyModifier" : -1,
-    "CriticalChanceMultiplier" : 1.25,
+    "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,
@@ -41,7 +41,7 @@
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "+ 5 Dmg.",
-    "BonusValueB" : "+ 25% Crit.",
+    "BonusValueB" : "+ 25% Range.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Laser",

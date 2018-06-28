@@ -44,7 +44,7 @@
 		"ShopWarnBeforeSellingPriceMinimum": 300000,
 		"MechScrapModifier": 0.18,
 		"MechLabRefundModifier": 1.0,
-		"RecoveredChassisShopModifier" : 0.9,
+		"RecoveredChassisShopModifier" : 0.25,
 		"QuartersYouCanAffordWithoutTriggeringWarning" : 1,
 		"ArgoBaseMaintenanceCost" : 90000
 		
@@ -145,7 +145,7 @@
 		"MaxMechsPerPod" : 6,
 		"StartingDropShip" : "argo",
 		"UpgradedDropShip" : "argo",
-		"StartingPlayerMech" : "mechdef_commando_COM-MK2",
+		"StartingPlayerMech" : "mechdef_urbanmech_UM-R60",
 		"StartingArgoUpgrades" : [
 			"argoUpgrade_drive0",
 			"argoUpgrade_mechBay1",
@@ -172,7 +172,7 @@
 		"FriendlyRepShopAdjustment" : -0.1,
 		"AlliedRepShopAdjustment" : -0.2,
 		"StartingMorale": 10,
-		"MaxMorale": 150,
+		"MaxMorale": 50,
 		"SpartanMoraleModifier" : -2,
 		"RestrictedMoraleModifier" : -1,
 		"NormalMoraleModifier" : 0,
@@ -246,7 +246,7 @@
 		"JumpJetInstallCost" : 250,
 		"HeatSinkInstallTechPoints" : 5.5,
 		"HeatSinkInstallCost" : 250,
-		"ArmorInstallTechPoints" : 1.0,
+		"ArmorInstallTechPoints" : 25,
 		"ArmorInstallCost" : 100,
 		"OtherInstallTechPoints" : 6,
 		"OtherInstallCost" : 450,

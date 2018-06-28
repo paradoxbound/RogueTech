@@ -14,12 +14,12 @@
 
   "Settings": {
     "attackMissInstability": true,
-    "attackMissInstabilityPercent": 30,
-    "attackMissInstabilityLeggedPercent": 70,
+    "attackMissInstabilityPercent": 40,
+    "attackMissInstabilityLeggedPercent": 80,
 
     "dfaMissInstability": true,
-    "dfaMissInstabilityPercent": 40,
-    "dfaMissInstabilityLeggedPercent": 80,
+    "dfaMissInstabilityPercent": 50,
+    "dfaMissInstabilityLeggedPercent": 90,
 
     "pilotingSkillInstabilityMitigation": true,
     "pilotingSkillDFASelfDamageMitigation": true,

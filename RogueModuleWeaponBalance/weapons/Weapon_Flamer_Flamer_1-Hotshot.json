@@ -1,20 +1,20 @@
 {
-    "Category" : "AntiPersonnel",
+    "Category" : "Energy",
     "Type" : "Flamer",
     "WeaponSubType" : "Flamer",
     "MinRange" : 0,
-    "MaxRange" : 90,
+    "MaxRange" : 160,
     "RangeSplit" : [
-        30,
         60,
-        90
+        110,
+        160
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 4,
-    "Damage" : 10,
+    "HeatGenerated" : 6,
+    "Damage" : 15,
     "OverheatedDamageMultiplier" : 0,
-    "EvasiveDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 1,
     "EvasivePipsIgnored" : 0,
     "DamageVariance" : 0,
     "HeatDamage" : 10,
@@ -41,7 +41,7 @@
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "+ 5 Dmg.",
-    "BonusValueB" : "",
+    "BonusValueB" : "+1 Evasion Ignore.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Flamer",

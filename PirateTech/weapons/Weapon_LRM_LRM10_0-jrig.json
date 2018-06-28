@@ -1,0 +1,65 @@
+{
+    "Category" : "Missile",
+    "Type" : "LRM",
+    "WeaponSubType" : "LRM10",
+    "MinRange" : 0,
+    "MaxRange" : 460,
+    "RangeSplit" : [
+        100,
+        180,
+        460
+    ],
+    "AmmoCategory" : "LRM",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 12,
+    "Damage" : 4,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 1,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 1,
+    "CriticalChanceMultiplier" : 10,
+    "AOECapable" : false,
+    "IndirectFireCapable" : true,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 10,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 1,
+    "WeaponEffectID" : "WeaponEffect-Weapon_LRM10",
+    "Description" : {
+        "Cost" : 21000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "GM",
+        "Model" : "Long-Range Missile Launcher",
+        "UIName" : "Pirate LRM10",
+        "Id" : "Weapon_LRM_LRM10_0-jrig",
+        "Name" : "Pirate LRM10",
+        "Details" : "The guidance system has been rewired so many times, each time by a complete idiot, that I am pretty sure this thing is hard wired to shoot whatever is closest, to include yourself.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "Unknown",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "lrm10",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

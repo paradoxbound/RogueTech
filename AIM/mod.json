@@ -23,7 +23,7 @@
 
       /* Increase or decrease called shot multiplier against mech.  0 to disable called shot, 1 is original strength.
        * Default is 0.33 to counter the effect of CalledShotClusterStrength. */
-      "MechCalledShotMultiplier" : 1,
+      "MechCalledShotMultiplier" : 0.70,
 
       /* Increase or decrease called shot multiplier against mech.  0 to disable called shot, 1 is original strength.
        * Default is 0.75 to balance vehicle's lower number of locations. */
@@ -36,11 +36,11 @@
       "ShowRealVehicleCalledShotChance" : true,
 
       /* Display chance to one decimal IF AND ONLY IF called shot chance is overridden (above). Default false. */
-      "ShowDecimalCalledChance" : false,
+      "ShowDecimalCalledChance" : true,
 
       /* Increase or decrease roll correction strength. 0 to disable roll correction, 1 is original strength, 2 for double strength.
        * Default is 0.5 for less correction. */
-      "RollCorrectionStrength" : 0.0,
+      "RollCorrectionStrength" : 0.5,
 
       /* Set miss streak breaker threshold. Only attacks with hit rate above the threshold will add to streak breaker.
        * Default is 0.5, same as game default. */

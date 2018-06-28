@@ -139,6 +139,167 @@ If you want to change the time or reputation, just open the file and change the 
 "All these goodies brought to you by the Deadly Sins stable, enjoy your stay on Solaris"
 
 ---------
+0.986 Alpha 1
+Now Contains Deployments
+---
+Changes Travel contracts to deployments.
+Deplyoments start with the arrival at the Contract System.
+Deployments go on for multiple months.
+While on a Deployment you will get payed monthly.
+Each day on Deplyoment has a change to spawn a new mission.
+While a mission is available time is frozen.
+Missions wont pay you, but still reward you salvage as usual.
+After completeing the mission time is unfrozen again.
+If you leave the planet before the Deplyoment is over you will lose a huge ammount of Rep with the Faction and the MRB.
+When the Deplyoment time is over you get notified and are free again to take a new Deployment or normal Mission.
+----
+Raised default contracts and breadcrumbs
+
+Deployments show all your expenses as proper negatives
+
+
+0.9859 Patch6
+Fixed Mechmaintenancebycost now propery affected by argo payment costs
+Missed range values for JK's weapons
+Fixed Pirate MG not being a Ballistic weapon
+
+
+0.9859 Patch5
+Now includes JK Variants!
+Updated Difficulty seting for 4-6-7 mech parts
+
+0.9859 Patch4
+Added more Pirate Mech
+Removed Stacking from TAG and NARC to prevent issues with AIM
+Buffed duration of both
+Excluded King Crabs from Assembly rules to prevent them from being used for 50tons Crabs
+Added the crabs and pirate mech's as starters
+Further rework of all small weapons
+Haywire and Narc are support weapons now <may change again depending on feedback>
+Rescaled several mech's
+Reduced gunnery/piloting floor to 0.7
+
+0.9859 Patch3
+Injured Piloting is back in <may cause issues with skirmish-remove before playing skirmish>
+Disabled sortbytonnage beause of scrapping issues with adjusted assembly
+Added Monthly Morale reset by lord_yig
+Added Monthly Tech and Morale Adjustment by don zappo
+Will now be inspired at 75 Morale
+Argo Max Morale is now set at 50 (cant find where it is hardcoded-so i will redo the entire morale system)
+Removed Inferno Ammo's from vehicles (caused a bug)
+Alacorn now carries NorseStorm Gauss
+
+
+0.9859 Patch 2
+Fixed couple weapons having wrong or missing bonus (thanks RobertMerlow)
+Fixed some mech values
+Added Another pirate mech
+Added 2 more crabs
+Improved most descirptions to mention stacking rules
+
+
+0.9859 Patch 1
+Updated the mechresizer
+Patched Internal Heaters dll
+Added a Crab - more coming soon
+Caught bug with SLIC Suite
+Inclueded MechSorter, automatically sorts mechs by cost
+
+
+
+0.9859
+Tons of bugfixes and patches
+
+Please do a clean install by deleting your mods folder before updating
+
+Gauss rifle stock now properly debuffed (forgot to move the file from wip to active)
+Few more files cleaned up
+FS9T empty weight fixed
+Renamed Called shot to Offensive Push
+Vehicles and turret phase have been improved
+First "Pirate mechs" added
+Multimissions removed again, a better version comes soon™
+Offensive push passives and Warlord reworked
+Grant 5-15% increased ranges
+Warlord Grants 10% all weapon damage and +1 accuracy
+
+0.9859PublicAlpha4
+Fixed KGC0000 having no stability
+Gausszilla made its own folder for easy removal
+Updated Extented Information to official release version
+Patch for Called penalty is worked on, if it fails the values get reworked, something broke with 1.1
+Vehicles buffed armour but drastically reduced internals
+Heavy/Assault vehicle to hit bonus removed
+Early release of the Background changes
+
+Delete before patching or best do a clean install <IMPORTANT
+RogueTechCore
+LogoReplacement
+
+0.9859PublicAlpha3
+Further Weapon Rebalances
+Gauss Nerfed, Added 3 Variants and dsitributed them
+Added Another @Modder Pilot
+Starter Gear Changed
+Reworked the filestructure
+Hotfix for missing randomstart
+
+Delete RogueTechCore before patching or best do a clean install
+
+
+0.9859PublicAlpha2
+AntiPersonal weapons are now moved to their big brothers category
+Improved range and stats on all of them
+Probably fixed ai bracing too much
+Added the Urbie to the random start
+Random Campaign start moved to its own folder
+Installer will now open a link to documentation after extraction
+Power Armour may cause problems with simgamemechlab Needs be tested
+
+Before install Delete these files\folders or make a clean reinstall (to prevent issues with the pa)
+RogueTechCore\RandomCampaignStart.dll
+Mackie
+RogueTechCore all files with EXPA
+
+
+
+0.9859PublicAlpha1
+Melee failstate increased
+Elites removed from random start
+Named prototype chassis removed from random start
+Removed 2 not properly working difficulty settings
+Armour Change values can now be selected 
+MultMission Mac compat
+
+0.9859Alpha2
+Probable fix for difficulty settings breaking saves
+Probable fix for Panic System
+Added a Experimental Power Armour "mech", has unique srm and jump jets
+Fractional Numbers are back
+
+
+0.9859Alpha
+SLIC Cockpit reworked - increases sight and sensors and grants +2 health
+TC Cockpit reworked - grants breaching shot, +1 Accuracy -1CS Penalty, +1.8 Called Shot Location Multiplier
+Heat exchangers and banks received the TTS treatment and removing stacking
+Exchangers now reduce ALL heat generated
+They cans till be used as superior single heat sinks, their bonus wont stack though
+Improved Mac Compatability-
+-Patched Random Travel Contract
+-Patched Contract sorter
+-Patched Storetag Enabler
+Lowtech store removed and lowtech is Periphery Only
+Reduced min overheat threshhold
+Experimental remove of globald efense bevhaiours
+Early release of EI being containted
+Injured piloting removed because of skirmish issues
+Reduced time for armour
+MultiMissions are back
+Tweaked settings for AIM
+Skill "Breaching Shot" Replaced with "Warlord" granting you to ignore 2 Evasion and -2 called shot penalty
+
+
+
 
 0.9858
 Considered first proper patch for 1.1

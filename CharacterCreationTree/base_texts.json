@@ -1,0 +1,27 @@
+﻿{
+    "FlavourTexts": {
+        "FlavourText1": {
+            "title": "Welcome to Galatea.",
+            "textLines": [
+                "Galatea VI - more often known simply as Galatea, is home to the Mercenary Review Board and the place all mercenaries come hunting for the big bucks.\r\n\r\nCutthroats, fortune hunters, adventurers and common Thugs, all are right at home here, where ComStar manages contracts and reviews every 'respectable' mercenary unit that tries to strike it big in between the chaos that is the Inner Sphere. You arrived here after..."
+            ]
+        },
+        "FlavourText2": {
+            "title": "It was a simply life...",
+            "textLines": [
+                "You grew up on a small, backwater system where little happened. Some days were better than others but your family got by and for the most part it was an uneventful life..."
+            ]
+        },
+        "FlavourText3": {
+            "title": "Things changed one fate-filled day...",
+            "textLines": [
+                " On an unplanned emergency side trip deep in the periphery, your small group stumbled upon a derelict LosTech dropship. While inspecting it you found yourselves in the middle of an ambush. Thanks to the genius of Dr Farah, your little band of misfits survived, and managed to escape at the last moment.  \r\n\r\n With a beat-up Argo and the few Battlemechs you discovered aboard, you make your way to Galatea hoping to make the most of your newfound home…"
+            ]
+        }
+    },
+    "Questions": {
+        "Question1": "Decades ago, you were born in...",
+        "Question2": "Until one day.....",
+        "Question3": "Out on your own, you fell into the life of a..."
+    }
+}

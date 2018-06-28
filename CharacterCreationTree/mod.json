@@ -1,0 +1,18 @@
+﻿{
+    "Name": "CharacterCreationTree",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "",
+    "Author": "FlukeyFiddler",
+    "Website": "http://www.github.com/FlukeyFiddler/CharacterCreationTree",
+    "DLL": "CharacterCreationTree.dll",
+    "Manifest": [
+        {
+            "Type": "BackgroundDef",
+            "Path": "backgrounds"
+        }
+    ],
+    "Settings": {}
+
+}

@@ -1,0 +1,27 @@
+{
+    "Name": "PirateTech",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "Contains crappy mechs and weapons favoured by pirates",
+    "Author": "LadyAlekto",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+
+    "Manifest": [
+        { "Type": "MechDef", "Path": "mech" },
+        { "Type": "ChassisDef", "Path": "chassis" },
+        { "Type": "MovementCapabilitiesDef", "Path": "move" },
+		{ "Type": "UpgradeDef", "Path": "upgrades" },
+        { "Type": "WeaponDef", "Path": "weapons" },					
+    ]
+	
+	
+	
+
+    
+
+		
+
+	
+}

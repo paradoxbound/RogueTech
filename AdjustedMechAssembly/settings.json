@@ -25,6 +25,8 @@
 		"mechdef_griffin_GRF-S7",
 		"mechdef_highlander_HGN-EXb",
 		"mechdef_kingcrab_KGC-B",
+		"mechdef_kingcrab_KGC-0000",
+		"mechdef_kingcrab_KGC-0001",		
 		"mechdef_stalker_STK-3Hb",
 		"mechdef_thunderbolt_TDR-E5",
 		"mechdef_locust_LCT-LR",
@@ -33,6 +35,7 @@
 		"mechdef_griffin_GRF-4N",
 		"mechdef_highlander_HGN-732b",
 		"mechdef_commando_COM-MK2",
-		"mechdef_spider_SDR-AS"
+		"mechdef_spider_SDR-AS",
+		"mechdef_EXPA"
 		]
 }

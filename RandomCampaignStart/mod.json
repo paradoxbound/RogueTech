@@ -1,0 +1,105 @@
+{
+    "Name": "RandomCampaignStart",
+    "DLL": "RandomCampaignStart.dll",
+
+    "Version": "0.2.1",
+    "Description": "Randomizes the starting mechwarriors and mechs - adjusted for roguetech.",
+    "Author": "mpstark",
+    "Website": "www.github.com/mpstark/RandomCampaignStart",
+    
+     "Settings": {
+        "RemoveAncestralMech": true,
+        "NumberRandomRonin": 4,
+        "NumberProceduralPilots": 0,
+		
+        "StartingRonin": [
+        ],		
+        
+        "NumberLightMechs": 3,
+        "NumberMediumMechs": 2,
+        "NumberHeavyMechs": 0,
+        "NumberAssaultMechs": 0,		
+
+        "LightMechsPossible": [
+            "mechdef_locust_LCT-LR",
+            "mechdef_jenner_JR7-X",
+            "mechdef_urbanmech_UM-R66",
+            "mechdef_urbanmech_UM-R60",			
+            "mechdef_firestarter_FS-PM",
+            "mechdef_jenner_JR7-RX",
+            "mechdef_panther_PNT-9L",
+			"mechdef_panther_PNT-5T",
+			"mechdef_jenner_JR7-D",
+			"mechdef_panther_PNT-9R",
+			"mechdef_cicada_CDA-2A",
+			"mechdef_cicada_CDA-4L",
+			"mechdef_firestarter_FS9-T",
+			"mechdef_spider_SDR-6V",
+			"mechdef_spider_SDR-I1",
+			"chassisdef_commando_COM-P"
+			
+        ],
+        "MediumMechsPossible": [
+            "mechdef_kintaro_KTO-18S",
+            "mechdef_wolverine_WVR-DS",
+            "mechdef_hunchback_HBK-4J",
+            "mechdef_vindicator_VND-6L",
+            "mechdef_centurion_CN9-YLW",
+			"mechdef_hunchback_HBK-4GG",
+			"mechdef_blackjack_BJ-3T",
+			"mechdef_blackjack_BJ-1",
+			"mechdef_centurion_CN9-A",
+			"mechdef_griffin_GRF-1N",
+			"mechdef_griffin_GRF-1S",
+			"mechdef_hunchback_HBK-4G",
+			"mechdef_enforcer_ENF-4R",
+			"mechdef_trebuchet_TBT-5N",
+			"mechdef_shadowhawk_SHD-2D",
+			"mechdef_shadowhawk_SHD-2I",
+			"mechdef_shadowhawk_SHD-2H",
+			"mechdef_shadowhawk_SHD-2K",			
+			"mechdef_trebuchet_TBT-4M",
+			"mechdef_centurion_CN9-A2",
+			"mechdef_crab_CRB-20",
+			"mechdef_crab_CRB-27b",
+			"mechdef_crab_CRB-GI",
+			"chassisdef_centurion_CN9-P",
+			"chassisdef_vindicator_VND-P"
+        ],
+        "HeavyMechsPossible": [
+            "mechdef_blackknight_BL-6-KNT",
+            "mechdef_cataphract_CTF-1X",
+            "mechdef_catapult_CPLT-C1",
+            "mechdef_catapult_CPLT-K2",		
+            "mechdef_dragon_DRG-1N",
+            "mechdef_grasshopper_GHR-5H",
+            "mechdef_jagermech_JM6-A",
+            "mechdef_jagermech_JM6-S",
+            "mechdef_orion_ON1-K",
+            "mechdef_orion_ON1-V",
+            "mechdef_quickdraw_QKD-4G",
+            "mechdef_quickdraw_QKD-5A",
+            "mechdef_thunderbolt_TDR-5S",
+            "mechdef_thunderbolt_TDR-5SE",
+            "mechdef_thunderbolt_TDR-5SS",
+			"mechdef_dragon_DRG-1R",
+			"mechdef_blackknight_BL-9-KNT",			
+			"mechdef_jagermech_JM7-F",
+			"mechdef_grasshopper_GHR-5K",
+			"mechdef_jagermech_JM6-DD",
+			"mechdef_granddragon_DRG-3K",
+			"mechdef_orion_ON2-K",
+			"mechdef_grasshopper_GHR-2I",
+			"mechdef_catapult_CPLT-K3",
+			"mechdef_catapult_CPLT-K4",
+			"mechdef_catapult_CPLT-K9"
+        ],
+        "AssaultMechsPossible": [
+		"mechdef_kingcrab_KGC-B",
+		"mechdef_kingcrab_KGC-0000",
+		"mechdef_kingcrab_KGC-0001",
+		"mechdef_kingcrab_KGC-0001"
+
+        ]		
+		}
+}

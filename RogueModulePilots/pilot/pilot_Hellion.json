@@ -2,13 +2,13 @@
     "Description": {
         "Id": "pilot_Hellion",
         "Name": "Hellion",
-        "FirstName": "Alekto",
+        "FirstName": "Alicia",
         "LastName": "McEvedy",
         "Callsign": "Hellion",
         "Gender": "Female",
         "Faction": "Davion",
-        "Age": "22",
-        "Details": "Aleen 'Hellion' McEvedy Comes from the Deep Periphery, only disclosing that she had a strict upbringing she couldn't stand anymore, a hotheaded capable Pilot willing to get into the middle of any brawl and surprisingly adapt at making LosTech just work. She has a deep distrust towards ComStar and smiles sharkish when someone mentions the Exodus.",
+        "Age": "33",
+        "Details": "Alicia 'Hellion' McEvedy Comes from the Deep Periphery, only disclosing that she had a strict upbringing she couldn't stand anymore, a hotheaded capable Pilot willing to get into the middle of any brawl and surprisingly adapt at making LosTech just work. She has a deep distrust towards ComStar and smiles sharkish when someone mentions the Exodus. She was known as a Pirate Queen by the name of ''LadyAlekto''.",
         "Icon": "Hellion"
     },
     "BaseGunnery": "3",
@@ -36,7 +36,7 @@
             "pilot_lostech",
             "pilot_mechwarrior",
             "pilot_rebellious",
-            "pilot_assassin",
+            "pilot_criminal",
             "pilot_periphery",
             "pilot_release_skirmish"			
         ],

@@ -10,7 +10,7 @@
         "UIName" : "SRM DF Ammo",
         "Id" : "Ammo_AmmunitionBox_Deadfire_SRM",
         "Name" : "SRM DeadFire Ammo",
-        "Details" : "Deadfire SRM's, like their LRM counterparts, trade any advanced guidance system for a larger payload, decreasing accuracy and the already short range.",
+        "Details" : "Deadfire SRM's, like their LRM counterparts, trade any advanced guidance system for a larger payload, decreasing accuracy and the already short range. Carries 80 shots. Provides a buff to all your Ammo of the same type and doesnt stack.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "+35% Damage. +5%Heat Generated",

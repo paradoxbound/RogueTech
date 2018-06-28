@@ -10,7 +10,7 @@
         "UIName" : "Gauss Heavy Ammo",
         "Id" : "Ammo_AmmunitionBox_Heavy_GAUSS",
         "Name" : "Gauss Heavy Ammo",
-        "Details" : "Heavy Gauss ammo fires a heavier projectile drastically reducing range but increasing the damage profile. Contains 4 shots.",
+        "Details" : "Heavy Gauss ammo fires a heavier projectile drastically reducing range but increasing the damage profile. Carries 4 shots. Provides a buff to all your Ammo of the same type and doesnt stack.",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA" : "+25% DMG -1Accuracy",

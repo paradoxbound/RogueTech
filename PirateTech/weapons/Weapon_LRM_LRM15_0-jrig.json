@@ -1,0 +1,65 @@
+{
+    "Category" : "Missile",
+    "Type" : "LRM",
+    "WeaponSubType" : "LRM15",
+    "MinRange" : 120,
+    "MaxRange" : 540,
+    "RangeSplit" : [
+        210,
+        420,
+        540
+    ],
+    "AmmoCategory" : "LRM",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 12,
+    "Damage" : 4,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 2,
+    "CriticalChanceMultiplier" : 1.0,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 15,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 1,
+    "WeaponEffectID" : "WeaponEffect-Weapon_LRM15",
+    "Description" : {
+        "Cost" : 32000,
+        "Rarity" : 3,
+        "Purchasable" : true,
+        "Manufacturer" : "Irian",
+        "Model" : "Long-Range Missile Launcher",
+        "UIName" : "Pirate LRM15",
+        "Id" : "Weapon_LRM_LRM15_0-jrig",
+        "Name" : "Pirate LRM15",
+        "Details" : "The radar transmitter and guidance computer should be right here.  No, I don't have any idea where the missiles are going to go when you fire it.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "Unknown",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "lrm15",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 6,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

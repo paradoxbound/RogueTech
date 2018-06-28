@@ -1,6 +1,6 @@
 {
     "AmmoID" : "Ammunition_GAUSS",
-    "Capacity" : 16,
+    "Capacity" : 10,
     "Description" : {
         "Cost" : 90000,
         "Rarity" : 6,
@@ -10,7 +10,7 @@
         "UIName" : "Gauss Light Ammo",
         "Id" : "Ammo_AmmunitionBox_Light_GAUSS",
         "Name" : "Gauss Light Ammo",
-        "Details" : "Light Gauss have a better ballistic profile allowing a slug to travel further but have reduced damage and a longer minimum range.Contains 16 shots.",
+        "Details" : "Light Gauss have a better ballistic profile allowing a slug to travel further but have reduced damage and a longer minimum range. Carries 10 shots. Provides a buff to all your Ammo of the same type and doesnt stack.",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA" : "-40% DMG +1Accuracy",

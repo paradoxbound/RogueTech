@@ -1,0 +1,65 @@
+{
+    "Category" : "AntiPersonnel",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC20",
+    "MinRange" : 0,
+    "MaxRange" : 60,
+    "RangeSplit" : [
+        20,
+        40,
+        60
+    ],
+    "AmmoCategory" : "AC20",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 20,
+    "Damage" : 100,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 10,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 3,
+    "CriticalChanceMultiplier" : 1.5,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 3,
+    "ShotsWhenFired" : 2,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 4,
+    "Instability" : 20,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC20_Single",
+    "Description" : {
+        "Cost" : 23000,
+        "Rarity" : 4,
+        "Purchasable" : true,
+        "Manufacturer" : "Kali Yama",
+        "Model" : "Shredder Autocannon",
+        "UIName" : "Pirate AC/20",
+        "Id" : "Weapon_Autocannon_AC20_AP-jrig",
+        "Name" : "Pirate AC/20",
+        "Details" : "The king of the battlefield, and then someone let a pirate touch it.  They've cut the barrel, made it hotload 2 slugs and it has middle fingers and obscenitys scratched all over it, i have no idea what they tried to here, but its bascially a sawed-off shotgun now.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "Unknown",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC20",
+    "BattleValue" : 0,
+    "InventorySize" : 5,
+    "Tonnage" : 14,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_standard"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

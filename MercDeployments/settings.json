@@ -1,0 +1,7 @@
+{
+	"MissionChancePerDay" : 0.1,
+	"DeploymentSalaryMultiplier" : 4,
+	"MaxMonth" : 6,
+	"DeploymentBreakRepCost" : -30,
+    "DeploymentBreakMRBRepCost" : -50
+}

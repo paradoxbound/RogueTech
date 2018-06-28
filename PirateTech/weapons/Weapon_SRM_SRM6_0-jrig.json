@@ -1,0 +1,65 @@
+{
+    "Category" : "Missile",
+    "Type" : "SRM",
+    "WeaponSubType" : "SRM6",
+    "MinRange" : 0,
+    "MaxRange" : 270,
+    "RangeSplit" : [
+        90,
+        180,
+        270
+    ],
+    "AmmoCategory" : "SRM",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 14,
+    "Damage" : 10,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1.5,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 7,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 3,
+    "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
+    "Description" : {
+        "Cost" : 19000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "TharHes",
+        "Model" : "Short-Range Missile Launcher",
+        "UIName" : "Pirate SRM6",
+        "Id" : "Weapon_SRM_SRM6_0-jrig",
+        "Name" : "Pirate SRM6",
+        "Details" : "This monstrosity is two SRM4s strapped together with what looks like bailing wire and a mutilated power coupling system.  Several of the missile tubes fail to fire at random.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "Unknown",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "srm6",
+    "BattleValue" : 0,
+    "InventorySize" : 4,
+    "Tonnage" : 4,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_standard"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

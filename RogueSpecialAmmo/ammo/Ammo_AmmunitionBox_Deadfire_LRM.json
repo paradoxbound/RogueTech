@@ -1,6 +1,6 @@
 {
     "AmmoID" : "Ammunition_LRM",
-    "Capacity" : 120,
+    "Capacity" : 100,
     "Description" : {
         "Cost" : 40000,
         "Rarity" : 0,
@@ -10,7 +10,7 @@
         "UIName" : "LRM DeadFire Ammo",
         "Id" : "Ammo_AmmunitionBox_Deadfire_LRM",
         "Name" : "LRM Deadfire Ammo",
-        "Details" : "Deadfire LRM's trade any advanced guidance system, reducing range and accuracy, for a bigger payload and reduced minimum range.",
+        "Details" : "Deadfire LRM's trade any advanced guidance system, reducing range and accuracy, for a bigger payload and reduced minimum range. Carries 100 shots. Provides a buff to all your Ammo of the same type and doesnt stack.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "+35% Damage +5%Heat Generated",

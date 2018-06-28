@@ -82,8 +82,8 @@
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
-			"StartOnly": true,
-			"DefaultIndex": 1,
+			"StartOnly": false,
+			"DefaultIndex": 2,
 			"Options": [
 				{
 					"ID": "diff_MC_easy",
@@ -98,6 +98,18 @@
 					]
 				},
 				{
+					"ID": "diff_MC_easy2",
+					"Name": "4",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultMechPartMax",
+							"ConstantValue": "4"
+						}
+					]
+				},				
+				{
 					"ID": "diff_MC_med",
 					"Name": "5",
 					"DifficultyValue": 1,
@@ -109,6 +121,30 @@
 						}
 					]
 				},
+				{
+					"ID": "diff_MC_med2",
+					"Name": "6",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultMechPartMax",
+							"ConstantValue": "6"
+						}
+					]
+				},	
+				{
+					"ID": "diff_MC_med",
+					"Name": "7",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultMechPartMax",
+							"ConstantValue": "7"
+						}
+					]
+				},				
 				{
 					"ID": "diff_MC_hard",
 					"Name": "8",
@@ -205,8 +241,32 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 2,
+			"DefaultIndex": 3,
 			"Options": [
+				{
+					"ID": "diff_CG_supereasy2",
+					"Name": "16",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "MaxContractsPerSystem",
+							"ConstantValue": "16"
+						}
+					]
+				},			
+				{
+					"ID": "diff_CG_supereasy1",
+					"Name": "14",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "MaxContractsPerSystem",
+							"ConstantValue": "14"
+						}
+					]
+				},			
 				{
 					"ID": "diff_CG_supereasy",
 					"Name": "12",
@@ -273,13 +333,37 @@
 			"ID": "diff_Breadcrums",
 			"Name": "Travel Contracts generated",
 			"UIOrder": 5,
-			"Tooltip": "Set your Choice of Maximum Travvel Contracts generated per system",
+			"Tooltip": "Set your Choice of Maximum Travel Contracts generated per system",
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
 			"DefaultIndex": 2,
 			"Options": [
+				{
+					"ID": "diff_BC_supereasy2",
+					"Name": "7",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "MaxBreadcrumbsPerSystem",
+							"ConstantValue": "7"
+						}
+					]
+				},				
+				{
+					"ID": "diff_BC_supereasy1",
+					"Name": "6",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "MaxBreadcrumbsPerSystem",
+							"ConstantValue": "6"
+						}
+					]
+				},			
 				{
 					"ID": "diff_BC_supereasy",
 					"Name": "5",
@@ -467,7 +551,7 @@
 			"ID": "diff_contractPayment",
 			"Name": "Contract Payment",
 			"UIOrder": 7,
-			"Tooltip": "This setting controls the amount of C-Bills paid by contracts across the entire game. Adjust this setting to make the economic gameplay more or less forgiving. <color=#F79B26>This setting does not apply to campaign story missions.</color>",
+			"Tooltip": "This setting controls the amount of C-Bills paid by contracts across the entire game. Adjust this setting to make the economic gameplay more or less forgiving.",
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
@@ -540,7 +624,7 @@
 			"ID": "diff_baseSalvage",
 			"Name": "Salvage",
 			"UIOrder": 8,
-			"Tooltip": "This setting changes the amount of salvage you may obtain from negotiation. Adjust this setting to make the economic gameplay more or less forgiving. <color=#F79B26>This setting does not apply to campaign story missions.</color>",
+			"Tooltip": "This setting changes the amount of salvage you may obtain from negotiation. Adjust this setting to make the economic gameplay more or less forgiving.",
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
@@ -1093,155 +1177,9 @@
 			]
 		},
 		{
-			"ID": "diff_MechTechs",
-			"Name": "Starting Mech Tech",
-			"UIOrder": 16,
-			"Tooltip": "Select your MechTechLevel",
-			"Enabled": true,
-			"Visible": true,
-			"Toggle": false,
-			"StartOnly": false,
-			"DefaultIndex": 2,
-			"Options": [
-				{
-					"ID": "diff_SMTS_supereasy",
-					"Name": "10",
-					"DifficultyValue": -1,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingMechTechSkill",
-							"ConstantValue": "10"
-						}
-					]
-				},
-				{
-					"ID": "diff_SMTS_easy",
-					"Name": "8",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingMechTechSkill",
-							"ConstantValue": "8"
-						}
-					]
-				},
-				{
-					"ID": "diff_SMTS_medium",
-					"Name": "6",
-					"DifficultyValue": 1,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingMechTechSkill",
-							"ConstantValue": "6"
-						}
-					]
-				},
-				{
-					"ID": "diff_SMTS_hard",
-					"Name": "4",
-					"DifficultyValue": 2,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingMechTechSkill",
-							"ConstantValue": "4"
-						}
-					]
-				},
-				{
-					"ID": "diff_SMTS_ultrahard",
-					"Name": "2",
-					"DifficultyValue": 2,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingMechTechSkill",
-							"ConstantValue": "2"
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "diff_MeDTechs",
-			"Name": "Starting Med Tech",
-			"UIOrder": 17,
-			"Tooltip": "Select your starting MedTechLevel",
-			"Enabled": true,
-			"Visible": true,
-			"Toggle": false,
-			"StartOnly": false,
-			"DefaultIndex": 2,
-			"Options": [
-				{
-					"ID": "diff_MEDT_supereasy",
-					"Name": "10",
-					"DifficultyValue": -1,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingMedTechSkill",
-							"ConstantValue": "10"
-						}
-					]
-				},
-				{
-					"ID": "diff_MEDT_easy",
-					"Name": "8",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingMedTechSkill",
-							"ConstantValue": "8"
-						}
-					]
-				},
-				{
-					"ID": "diff_MEDT_medium",
-					"Name": "6",
-					"DifficultyValue": 1,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingMedTechSkill",
-							"ConstantValue": "6"
-						}
-					]
-				},
-				{
-					"ID": "diff_MEDT_hard",
-					"Name": "4",
-					"DifficultyValue": 2,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingMedTechSkill",
-							"ConstantValue": "4"
-						}
-					]
-				},
-				{
-					"ID": "diff_MEDT_ultrahard",
-					"Name": "2",
-					"DifficultyValue": 2,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingMedTechSkill",
-							"ConstantValue": "2"
-						}
-					]
-				}
-			]
-		},
-		{
 			"ID": "diff_MechBayTechCost",
 			"Name": "Mech Bay Speed",
-			"UIOrder": 18,
+			"UIOrder": 16,
 			"Tooltip": "Select Mech Bay construction Speeds",
 			"Enabled": true,
 			"Visible": true,
@@ -1251,7 +1189,7 @@
 			"Options": [
 				{
 					"ID": "diff_MBAY_cheat",
-					"Name": "Easy",
+					"Name": "Cheat",
 					"DifficultyValue": -2,
 					"DifficultyConstants": [
 						{
@@ -1476,13 +1414,143 @@
 							"ConstantValue": "7"
 						}
 					]
-				}
+				},
+				{
+					"ID": "diff_MBAY_VeryHard",
+					"Name": "VeryHard",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "StructureRepairTechPoints",
+							"ConstantValue": "0.85"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ComponentRepairTechPoints",
+							"ConstantValue": "11"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "BallisticInstallTechPoints",
+							"ConstantValue": "16"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "MissileInstallTechPoints",
+							"ConstantValue": "16"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "EnergyInstallTechPoints",
+							"ConstantValue": "16"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "APInstallTechPoints",
+							"ConstantValue": "16"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "AmmoInstallTechPoints",
+							"ConstantValue": "10"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "JumpJetInstallTechPoints",
+							"ConstantValue": "10"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "HeatSinkInstallTechPoints",
+							"ConstantValue": "10"
+						},
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "OtherInstallTechPoints",
+							"ConstantValue": "10"
+						}
+					]
+				}				
 			]
 		},
 		{
+			"ID": "diff_ArmourTechCost",
+			"Name": "Mech Bay Armour Speed",
+			"UIOrder": 17,
+			"Tooltip": "Select the speed at which your armour is changed",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 3,
+			"Options": [
+				{
+					"ID": "diff_MBAY_cheat",
+					"Name": "Cheat",
+					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ArmorInstallTechPoints",
+							"ConstantValue": "1"
+						}
+					]
+				},
+				{
+					"ID": "diff_MBAY_quick",
+					"Name": "Easy",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ArmorInstallTechPoints",
+							"ConstantValue": "20"
+						}
+					]
+				},
+				{
+					"ID": "diff_MBAY_Normal",
+					"Name": "Quick",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ArmorInstallTechPoints",
+							"ConstantValue": "30"
+						}
+					]
+				},
+				{
+					"ID": "diff_MBAY_Hard",
+					"Name": "Normal",
+					"DifficultyValue": 1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ArmorInstallTechPoints",
+							"ConstantValue": "50"
+						}
+					]
+				},
+				{
+					"ID": "diff_MBAY_VeryHard",
+					"Name": "VeryHard",
+					"DifficultyValue": 2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "MechLab",
+							"ConstantName": "ArmorInstallTechPoints",
+							"ConstantValue": "80"
+						}
+					]
+				}				
+			]
+		},		
+		{
 			"ID": "diff_MechBayBillsCost",
 			"Name": "Mech Bay CBILLS",
-			"UIOrder": 19,
+			"UIOrder": 18,
 			"Tooltip": "Select Mech Bay Cbill Cost",
 			"Enabled": true,
 			"Visible": true,
@@ -1743,7 +1811,7 @@
 		{
 			"ID": "diff_ArgoMaintenance",
 			"Name": "Argo Monthly Payment",
-			"UIOrder": 20,
+			"UIOrder": 19,
 			"Tooltip": "Select The modifer strength for Monthly Costs.",
 			"Enabled": true,
 			"Visible": true,
@@ -1891,7 +1959,7 @@
 		{
 			"ID": "diff_ArgoMorale",
 			"Name": "Argo Monthly Morale",
-			"UIOrder": 21,
+			"UIOrder": 20,
 			"Tooltip": "Select The modifer Argo Monthly Morale.",
 			"Enabled": true,
 			"Visible": true,
@@ -2039,7 +2107,7 @@
 		{
 			"ID": "diff_ShopSell",
 			"Name": "Shop Selling Prices",
-			"UIOrder": 22,
+			"UIOrder": 21,
 			"Tooltip": "Set your desired Selling Values.",
 			"Enabled": true,
 			"Visible": true,
@@ -2184,7 +2252,7 @@
 {
 			"ID": "diff_ShopScrap",
 			"Name": "Scrap Return Values",
-			"UIOrder": 23,
+			"UIOrder": 22,
 			"Tooltip": "Set your desired Scrapping Payouts.",
 			"Enabled": true,
 			"Visible": true,
@@ -2329,7 +2397,7 @@
 {
 			"ID": "diff_ShopSize",
 			"Name": "Max Shop Inventory",
-			"UIOrder": 24,
+			"UIOrder": 23,
 			"Tooltip": "Set your desired Max Shop Inventory.",
 			"Enabled": true,
 			"Visible": true,
@@ -2462,7 +2530,7 @@
 {
 			"ID": "diff_ShopSpecials",
 			"Name": "Max Specials per shop",
-			"UIOrder": 25,
+			"UIOrder": 24,
 			"Tooltip": "Set your desired Max Special Amount .",
 			"Enabled": true,
 			"Visible": true,

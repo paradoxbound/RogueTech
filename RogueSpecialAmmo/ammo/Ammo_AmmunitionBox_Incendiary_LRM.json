@@ -1,6 +1,6 @@
 {
     "AmmoID" : "Ammunition_LRM",
-    "Capacity" : 100,
+    "Capacity" : 50,
     "Description" : {
         "Cost" : 60000,
         "Rarity" : 0,
@@ -10,7 +10,7 @@
         "UIName" : "LRM Incendiary Ammo",
         "Id" : "Ammo_AmmunitionBox_Incendiary_LRM",
         "Name" : "LRM Incendiary Ammo",
-        "Details" : "This Ammo bin contains incendiary ammo for LRM launchers, sacrificing most of the warhead's explosive charge to carry an incendiary payload not unlike inferno missiles",
+        "Details" : "This Ammo bin contains incendiary ammo for LRM launchers, sacrificing most of the warhead's explosive charge to carry an incendiary payload not unlike inferno missiles. Carries 50 shots. Provides a buff to all your Ammo of the same type and doesnt stack.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "-50%Dmg",

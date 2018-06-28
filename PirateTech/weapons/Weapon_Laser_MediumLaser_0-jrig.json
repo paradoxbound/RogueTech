@@ -1,0 +1,65 @@
+{
+    "Category" : "Energy",
+    "Type" : "Laser",
+    "WeaponSubType" : "MediumLaser",
+    "MinRange" : 0,
+    "MaxRange" : 270,
+    "RangeSplit" : [
+        90,
+        180,
+        270
+    ],
+    "AmmoCategory" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 16,
+    "Damage" : 28,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 8,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -2,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Medium",
+    "Description" : {
+        "Cost" : 9000,
+        "Rarity" : 1,
+        "Purchasable" : true,
+        "Manufacturer" : "Hell",
+        "Model" : "Medium Laser",
+        "UIName" : "Pirate Medium Laser",
+        "Id" : "Weapon_Laser_MediumLaser_0-jrig",
+        "Name" : "Pirate Medium Laser",
+        "Details" : "I am dumbfounded.  The dizzying array of components jammed into this simple medium laser to extract an ounce more accuracy out of an already accurate design is just....dumb.",
+        "Icon" : "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA" : "Unknown",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Laser",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1",
+            "range_standard"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

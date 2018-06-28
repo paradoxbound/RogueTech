@@ -1,0 +1,65 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "MachineGun",
+    "WeaponSubType" : "MachineGun",
+    "MinRange" : 0,
+    "MaxRange" : 240,
+    "RangeSplit" : [
+        60,
+        120,
+        240
+    ],
+    "AmmoCategory" : "MG",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 12,
+    "Damage" : 6,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1.0,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 2,
+    "ShotsWhenFired" : 11,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+    "Instability" : 1.5,
+    "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
+    "Description" : {
+        "Cost" : 2500,
+        "Rarity" : 3,
+        "Purchasable" : true,
+        "Manufacturer" : "Another Idiot",
+        "Model" : "Machine Gun",
+        "UIName" : "Pirate HMG",
+        "Id" : "Weapon_MachineGun_MachineGun_Heavy-jrig",
+        "Name" : "Pirate HMG Array",
+        "Details" : "So the second and third barrel have been arc welded together and somehow jammed into the frame here.  The feeding mechanism as been looped around to feed the additional breaches here.  This entire rat nest of a mess only weighs twice what it would of took to mount a couple more machine guns in the first damn place.",
+        "Icon" : "uixSvgIcon_weapon_Support"
+    },
+    "BonusValueA" : "Unknown",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "MachineGun",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 2,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_close"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

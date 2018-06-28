@@ -1,0 +1,65 @@
+{
+    "Category" : "Energy",
+    "Type" : "Laser",
+    "WeaponSubType" : "SmallLaser",
+    "MinRange" : 0,
+    "MaxRange" : 90,
+    "RangeSplit" : [
+        30,
+        60,
+        90
+    ],
+    "AmmoCategory" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 15,
+    "Damage" : 30,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1.5,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 2,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 3,
+    "AttackRecoil" : 0,
+    "Instability" : 3,
+    "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Small",
+    "Description" : {
+        "Cost" : 5000,
+        "Rarity" : 1,
+        "Purchasable" : true,
+        "Manufacturer" : "not Martell",
+        "Model" : "Small Laser",
+        "UIName" : "Pirate Small Laser",
+        "Id" : "Weapon_Laser_SmallLaser_0-jrig",
+        "Name" : "Pirate Small Laser",
+        "Details" : "Yes, if you duct tape three Small Lasers together, jury rig the mount point and power supply, you will get this piece of crap.  Wow, I didn't know that duct tape could petrify like that.",
+        "Icon" : "uixSvgIcon_weapon_Support"
+    },
+    "BonusValueA" : "+ Damage",
+    "BonusValueB" : "+ Innacuracy",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Laser",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 1.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_close"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
