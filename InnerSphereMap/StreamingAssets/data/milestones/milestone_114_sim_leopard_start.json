@@ -77,7 +77,7 @@
 				{
                     "typeString" : "System.Int32",
                     "name" : "Item.WeaponDef.Weapon_Autocannon_AC2_0-Ultra",
-                    "value" : 2,
+                    "value" : 1,
                     "valueConstant" : ""
                 },
 				{
@@ -187,12 +187,6 @@
                     "name" : "Item.WeaponDef.Weapon_Laser_LargeLaser_0-STOCK",
                     "value" : 1,
                     "valueConstant" : ""
-                },
-				{
-                    "typeString" : "System.Int32",
-                    "name" : "Item.WeaponDef.Weapon_Laser_LargeLaserPulse_0-STOCK",
-                    "value" : 1,
-                    "valueConstant" : ""
                 },				
 				{
                     "typeString" : "System.Int32",
@@ -208,7 +202,13 @@
                 },
 				{
                     "typeString" : "System.Int32",
-                    "name" : "Item.UpgradeDef.Gear_AdvancedMaterials1",
+                    "name" : "Item.WeaponDef.Weapon_MachineGun_MachineGun_Heavy-jrig",
+                    "value" : 2,
+                    "valueConstant" : ""
+                },
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.WeaponDef.Weapon_Flamer_Flamer_0-jrig",
                     "value" : 2,
                     "valueConstant" : ""
                 }				
@@ -251,6 +251,20 @@
 				}
 			],
             "ForceEvents" : [
+				{
+					"Scope" : "Company",
+					"EventID" : "forcedevent_leopard_mechtechExpenses",
+					"MinDaysWait" : 3,
+					"MaxDaysWait" : 3,
+					"Probability" : 100
+				},
+				{
+					"Scope" : "Company",
+					"EventID" : "forcedevent_leopard_medicalExpenses",
+					"MinDaysWait" : 18,
+					"MaxDaysWait" : 18,
+					"Probability" : 100
+				}				
 				
 			],
             "TemporaryResult" : false,

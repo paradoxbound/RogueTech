@@ -31,7 +31,7 @@
     "Description" : {
         "Cost" : 810000,
         "Rarity" : 5,
-        "Purchasable" : false,
+        "Purchasable" : true,
         "Manufacturer" : "SCI",
         "Model" : "Large Pulse Laser",
         "UIName" : "L Pulse",

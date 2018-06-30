@@ -79,24 +79,6 @@
          "Type" : "HeatSink",
          "DiscountModifier" : 1.3,
          "Count" : 0
-      }, 
-	  {
-         "ID" : "Gear_TTS_AdvancedTC",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-      },
-	  {
-         "ID" : "Gear_Cockpit_DNI",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-      },
-	  {
-         "ID" : "Gear_Supercharger",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.1,
-         "Count" : 0
       }	  
     ],
     "Specials": []

@@ -5,10 +5,10 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Crab",
+        "UIName": "Gemji",
         "Id": "chassisdef_crab_CRB-GI",
-        "Name": "Crab",
-        "Details": "The Crab GI has opened its claws, bringing Industrial table flipping to a mech fight.",
+        "Name": "Gemji",
+        "Details": "The Gemji CRB-GI has opened its claws, bringing Industrial table flipping to a mech fight.",
         "Icon": "uixTxrIcon_kingcrab"
     },
     "MovementCapDefID": "movedef_crab_CRB-20",
@@ -211,5 +211,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Tableflipper",
-    "YangsThoughts": "The Crab GI has opened its claws, bringing Industrial table flipping to a mech fight."
+    "YangsThoughts": "The Gemji CRB-GI has opened its claws, bringing Industrial table flipping to a mech fight."
 }

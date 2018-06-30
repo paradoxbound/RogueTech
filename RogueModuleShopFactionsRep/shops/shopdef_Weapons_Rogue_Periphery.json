@@ -65,13 +65,7 @@
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count": 0
-          },
-	  {
-         "ID" : "Gear_Cockpit_SLDF_Custom",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-      }		  
+          }	  
     ],
     "Specials": []
 }

@@ -1,0 +1,65 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Gauss",
+    "WeaponSubType" : "Gauss",
+    "MinRange" : 00,
+    "MaxRange" : 440,
+    "RangeSplit" : [
+        160,
+        200,
+        440
+    ],
+    "AmmoCategory" : "GAUSS",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 5,
+    "Damage" : 70,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 1,
+    "CriticalChanceMultiplier" : 1.8,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 2,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 4,
+    "Instability" : 30,
+    "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
+    "Description" : {
+        "Cost" : 500000,
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "SCI",
+        "Model" : "Magnetic Cannon",
+        "UIName" : "Pirate Gauss Rifle",
+        "Id" : "Weapon_Gauss_Gauss_0-jrig",
+        "Name" : "Pirate Gauss Rifle",
+        "Details" : "How did a pirate even get his hands on a Gauss Rifle?  It is heresy.  Looks like they blew the end off the damn barrel too.  How?  Of course it has to involve bloody spikes.  The barrel and breach have been modified so that it only shoots ammunition that has been shaved down into a bloody damn spike.  I mean...that is like a days work per ton of ammunition.  You're not really going to make us do that, are you?",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "Unknown",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Gauss",
+    "BattleValue" : 0,
+    "InventorySize" : 5,
+    "Tonnage" : 11,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -55,25 +55,7 @@
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count" : 0
-        },
-	  {
-         "ID" : "Gear_AdvancedMaterials1",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-      },
-	  {
-         "ID" : "Gear_AdvancedMaterials2",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-      },	
-	  {
-         "ID" : "Gear_AdvancedMaterials3",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-      }		
+        }	
     ],
     "Specials": []
 }

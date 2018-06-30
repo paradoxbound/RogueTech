@@ -30,7 +30,7 @@ RandomStructureOnRepairedLimbs | bool | default false | Will make repaired limps
 RepairMechComponents | bool | default false | Toggles if the mech spawns with or without it's component(weapons and so on) repaired or destroyed.
 RepairComponentsFunctionalThreshold | float | default 0.25 | Chance any repaired componant has to be completely repaired when RepairMechComponents is set to true.
 RepairComponentsNonFunctionalThreshold | float | default 0.5 | Chance any repaired componant has to be broken(but repairable) when RepairMechComponents is set to true.
-AssembleVariants | bool | default true | Mechs of the same base model will now be assembled when the max partcount is reached, the actual mech that gets assembled is chance based with more parts = higher chance.
+AssembleVariants | bool | default true | Mechs of the same base model and same tonnage will now be assembled when the max partcount is reached, the actual mech that gets assembled is chance based with more parts = higher chance.
 
 Every componant that is neither Functional nor NonFunctional will be destroyed even so you set RepairMechComponents to true.
     

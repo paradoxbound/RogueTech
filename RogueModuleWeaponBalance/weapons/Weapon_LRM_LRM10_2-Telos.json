@@ -41,7 +41,7 @@
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "+ 2 Dmg.",
-    "BonusValueB" : "-50% stab",
+    "BonusValueB" : "-33% stab",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "lrm10",

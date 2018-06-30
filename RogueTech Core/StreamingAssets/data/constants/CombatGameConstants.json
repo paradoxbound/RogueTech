@@ -15,21 +15,6 @@
         "PhaseHeavyTurret": 5,
         "PhaseAssaultTurret": 5
     },
-    "Skills":
-    {
-        "MechDefaultGunnery": 1,
-        "MechDefaultGuts": 1,
-        "MechDefaultPiloting": 1,
-        "MechDefaultTactics": 1,
-        "VehicleDefaultGunnery": 1,
-        "VehicleDefaultGuts": 1,
-        "VehicleDefaultPiloting": 1,
-        "VehicleDefaultTactics": 1,
-        "TurretDefaultGunnery": 1,
-        "TurretDefaultGuts": 1,
-        "TurretDefaultPiloting": 1,
-        "TurretDefaultTactics": 1
-    },
     "Heat":
     {
         "OverheatLevel": 0.41,
@@ -158,10 +143,10 @@
         "ToHitVehicleHeavy": 0,
         "ToHitVehicleMedium": 0,
         "ToHitVehicleLight": 1,
-        "ToHitTurretAssault": -4,
-        "ToHitTurretHeavy": -4,
-        "ToHitTurretMedium": -4,
-        "ToHitTurretLight": -4,
+        "ToHitTurretAssault": 0,
+        "ToHitTurretHeavy": 0,
+        "ToHitTurretMedium": 0,
+        "ToHitTurretLight": 0,
         "ToHitElevationLevelHeight": 30,
         "ToHitElevationModifierPerLevel": 1,
         "ToHitElevationUseMultipleLevels": true,
@@ -282,7 +267,7 @@
         "MeleeDamageDFAMultiplier": 1.0,
         "DFASelfDamageMultiplier": 0.4,
         "DFASelfDamagePilotingDivisor": 99999.0,
-        "DFAMissedPilotingModifier": 4.0,
+        "DFAMissedPilotingModifier": 5.0,
         "MeleeDamageMultiplierTurret": 4.0,
         "MeleeDamageMultiplierVehicle": 2.0,
         "DefaultUnsteadyThreshold": 41.0,
@@ -339,8 +324,8 @@
         "StructureMultiplierHeavy": 1,
         "ArmorMultiplierAssault": 1,
         "StructureMultiplierAssault": 1,
-        "ArmorMultiplierVehicle": 1,
-        "StructureMultiplierVehicle": 0.35,
+        "ArmorMultiplierVehicle": 0.85,
+        "StructureMultiplierVehicle": 0.15,
         "GlobalDamageMultiplier": 1.0,
         "TEST_MechScaleMultiplier": 1.0
     },

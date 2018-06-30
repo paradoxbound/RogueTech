@@ -36,7 +36,8 @@
 			"mechdef_firestarter_FS9-T",
 			"mechdef_spider_SDR-6V",
 			"mechdef_spider_SDR-I1",
-			"chassisdef_commando_COM-P"
+			"mechdef_commando_COM-P",
+			"mechdef_locust_LCT-P"
 			
         ],
         "MediumMechsPossible": [
@@ -63,42 +64,13 @@
 			"mechdef_crab_CRB-20",
 			"mechdef_crab_CRB-27b",
 			"mechdef_crab_CRB-GI",
-			"chassisdef_centurion_CN9-P",
-			"chassisdef_vindicator_VND-P"
+			"mechdef_centurion_CN9-P",
+			"mechdef_vindicator_VND-P",
+			"mechdef_blackjack_BJ-P"
         ],
         "HeavyMechsPossible": [
-            "mechdef_blackknight_BL-6-KNT",
-            "mechdef_cataphract_CTF-1X",
-            "mechdef_catapult_CPLT-C1",
-            "mechdef_catapult_CPLT-K2",		
-            "mechdef_dragon_DRG-1N",
-            "mechdef_grasshopper_GHR-5H",
-            "mechdef_jagermech_JM6-A",
-            "mechdef_jagermech_JM6-S",
-            "mechdef_orion_ON1-K",
-            "mechdef_orion_ON1-V",
-            "mechdef_quickdraw_QKD-4G",
-            "mechdef_quickdraw_QKD-5A",
-            "mechdef_thunderbolt_TDR-5S",
-            "mechdef_thunderbolt_TDR-5SE",
-            "mechdef_thunderbolt_TDR-5SS",
-			"mechdef_dragon_DRG-1R",
-			"mechdef_blackknight_BL-9-KNT",			
-			"mechdef_jagermech_JM7-F",
-			"mechdef_grasshopper_GHR-5K",
-			"mechdef_jagermech_JM6-DD",
-			"mechdef_granddragon_DRG-3K",
-			"mechdef_orion_ON2-K",
-			"mechdef_grasshopper_GHR-2I",
-			"mechdef_catapult_CPLT-K3",
-			"mechdef_catapult_CPLT-K4",
-			"mechdef_catapult_CPLT-K9"
         ],
         "AssaultMechsPossible": [
-		"mechdef_kingcrab_KGC-B",
-		"mechdef_kingcrab_KGC-0000",
-		"mechdef_kingcrab_KGC-0001",
-		"mechdef_kingcrab_KGC-0001"
 
         ]		
 		}

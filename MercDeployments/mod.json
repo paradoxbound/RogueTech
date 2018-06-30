@@ -2,8 +2,8 @@
     "Name": "MercDeployments",
     "Enabled": true,
 
-    "Version": "0.1",
-    "Description": "Let's you move to another position while being engaged in melee, like the AI does.",
+    "Version": "1.2-beta1",
+    "Description": "Changes Travel contracts to Deployments.",
     "Author": "Morphyum",
     "Website": "https://github.com/Morphyum/MercDeployments",
     "Contact": "",

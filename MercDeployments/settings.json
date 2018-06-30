@@ -3,5 +3,6 @@
 	"DeploymentSalaryMultiplier" : 4,
 	"MaxMonth" : 6,
 	"DeploymentBreakRepCost" : -30,
-    "DeploymentBreakMRBRepCost" : -50
+    "DeploymentBreakMRBRepCost" : -50,
+	"BonusPercentage" : 0.05
 }

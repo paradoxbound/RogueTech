@@ -14,7 +14,7 @@
         "Details" : "This cockpit mod allows the use of a DirectNeuralInterface, granting improved control over the mech at risk of injury.",
         "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
-    "BonusValueA" : "+1MeleeAcc + 2Pips",
+    "BonusValueA" : "-10%DmgTaken.|+1MeleeAcc.|",
     "BonusValueB" : "- 10%DFA Self Damage",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
@@ -26,35 +26,51 @@
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [
-		{
-			"durationData" :
-			{
-				"duration" : -1
-			},
-			"targetingData" : 
-			{
-				"effectTriggerType" : "Passive",
-				"effectTargetType" : "Creator"
-			},
-			"effectType" : "StatisticEffect",
-			"Description" :
-			{
-				"Id" : "DNIExtraEvasion",
-				"Name" : "ManMachine",
-				"Details" : "PASSIVE: This unit generates 2 extra EVASIVE charge from movement actions (up to its maximum).",
-				"Icon" : "uixSvgIcon_action_evasivemove"
-			},
-			"statisticData" : 
-			{
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-DNIReduction",
+                "Name" : "Spiked Armour Plates",
+                "Details" : "All incoming damage reduced by 5% and 5% extra Melee Damage.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-				"statName" : "EvasivePipsGainedAdditional",
-				"operation" : "Int_Add",
-				"modValue" : "2",
-				"modType" : "System.Int32"
-			},		
-			"nature" : "Buff"
-		},
+                "statName" : "allDamageTakenMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.90",
+                "modType" : "System.Single"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
         {
             "durationData" : {
                 "duration" : -1,
@@ -81,7 +97,7 @@
             "Description" : {
                 "Id" : "DNI-StatusEffect-Attack_ToHit",
                 "Name" : "Man Machine Interface",
-                "Details" : "Active DNI Grants Melee Accuray and Evasion.",
+                "Details" : "Active DNI Grants Melee Accuray and Damage resistance.",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "nature" : "Buff",

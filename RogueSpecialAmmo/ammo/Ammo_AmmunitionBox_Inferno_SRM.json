@@ -13,8 +13,8 @@
         "Details" : "This SRM Ammo bin contains Inferno rounds, changing all your SRM launchers fo fire Inferno missiles but deal little to no damage. Carries 50 shots. Provides a buff to all your Ammo of the same type and doesnt stack.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
-    "BonusValueA" : "-80% DMG +6Heat",
-    "BonusValueB" : "-90% Stab Dmg.",
+    "BonusValueA" : "-80% Dmg.",
+    "BonusValueB" : "+5 Heat Dmg.",
     "ComponentType" : "AmmunitionBox",
     "ComponentSubType" : "Ammunition",
     "PrefabIdentifier" : "",
@@ -111,7 +111,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "HeatDamagePerShot",
                 "operation" : "Float_Add",
-                "modValue" : "6",
+                "modValue" : "5",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -126,58 +126,7 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
-        },
-	        {
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : 1,
-                "clearedWhenAttacked" : false
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-ISRMStabMalus",
-                "Name" : "InfernoStabMalus",
-                "Details" : "Heat damage.",
-                "Icon" : "uixSvgIcon_equipment_TTS"
-            },
-            "nature" : "Buff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "Instability",
-                "operation" : "Float_Multiply",
-                "modValue" : "0.1",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "SRM",
-                "targetAmmoCategory" : "SRM",
-                "targetWeaponSubType" : "NotSet"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
-        }			
+        }		
 		
         
     ],

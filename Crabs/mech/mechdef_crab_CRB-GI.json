@@ -18,10 +18,10 @@
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Crab CRB-GI",
+        "UIName": "Gemji CRB-GI",
         "Id": "mechdef_crab_CRB-GI",
-        "Name": "Crab",
-        "Details": "The Crab GI has opened its claws, bringing Industrial table flipping to a mech fight.",
+        "Name": "Gemji",
+        "Details": "The Gemji CRB-GI has opened its claws, bringing Industrial table flipping to a mech fight.",
         "Icon": "uixTxrIcon_kingcrab"
     },
     "simGameMechPartCost": 1270000,

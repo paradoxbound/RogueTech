@@ -1,0 +1,39 @@
+2018-06-30T18:40:10.2228462+02:00
+
+Mod Settings: {
+  "FixVehicleCalledShot": true,
+  "FixHitDistribution": true,
+  "CalledShotUseClustering": true,
+  "MechCalledShotMultiplier": 0.7,
+  "VehicleCalledShotMultiplier": 0.75,
+  "ShowRealMechCalledShotChance": true,
+  "ShowRealVehicleCalledShotChance": true,
+  "ShowDecimalCalledChance": true,
+  "RollCorrectionStrength": 0.5,
+  "MissStreakBreakerThreshold": 1.0,
+  "MissStreakBreakerDivider": 0.0,
+  "ShowRealWeaponHitChance": true,
+  "ShowDecimalHitChance": true,
+  "LogHitRolls": false,
+  "PersistentLog": false
+}
+Log folder set to Z:\SteamLibrary\steamapps\common\BATTLETECH\Mods\AIM/. If that fails, fallback to Mods/AttackImprovementMod/.
+Game is 1.1.1 or up (Non-Clustered Called Shot, Hit Location fixed)
+
+Patched: BattleTech.UI.CombatHUD Void Init(BattleTech.CombatGameState) [  : RecordCombatHUD ]
+=== Patching Roll Corrections and Logger ===
+Patched: BattleTech.AttackDirector+AttackSequence Single GetCorrectedRoll(Single, BattleTech.Team) [ OverrideRollCorrection :  ]
+Patched: BattleTech.UI.CombatHUDWeaponSlot Void SetHitChance(Single) [ ShowRealHitChance :  ]
+Patched: BattleTech.Team Void ProcessRandomRoll(Single, Boolean) [ OverrideMissStreakBreaker :  ]
+Patched: BattleTech.UI.CombatHUDWeaponSlot Void SetHitChance(Single) [ OverrideWeaponHitChanceFormat :  ]
+=== Patching Hit Location Bugfixs and Logger ===
+Patched: HitLocation.GetHitLocation <Mech>[ OverrideMechCalledShot /  ] <Vehicle>[ OverrideVehicleCalledShot /  ].
+Patched: BattleTech.Mech System.String GetLongArmorLocation(ArmorLocation) [ FixVehicleCalledShotFloatie :  ]
+Patched: BattleTech.UI.SelectionStateFire Void SetCalledShot(VehicleChassisLocations) [  : RecordVehicleCalledShotFireLocation ]
+Patched: BattleTech.UI.CombatHUDVehicleArmorHover Void OnPointerClick(UnityEngine.EventSystems.PointerEventData) [  : RecordVehicleCalledShotClickLocation ]
+Patched: BattleTech.Vehicle Int32 GetHitLocation(BattleTech.AbstractActor, Vector3, Single, ArmorLocation, Single) [ RestoreVehicleCalledShotLocation_1_1 :  ]
+=== Patching Called Shot HUD ===
+Patched: BattleTech.UI.CombatHUDCalledShotPopUp Void set_ShownAttackDirection(AttackDirection) [  : RecordAttackDirection ]
+Patched: BattleTech.UI.CombatHUDCalledShotPopUp System.String GetHitPercent(ArmorLocation, ArmorLocation) [ OverrideHUDMechCalledShotPercent :  ]
+Patched: BattleTech.UI.CombatHUDCalledShotPopUp System.String GetHitPercent(VehicleChassisLocations, VehicleChassisLocations) [ OverrideHUDVehicleCalledShotPercent :  ]
+

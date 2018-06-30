@@ -139,6 +139,55 @@ If you want to change the time or reputation, just open the file and change the 
 "All these goodies brought to you by the Deadly Sins stable, enjoy your stay on Solaris"
 
 ---------
+0.986 Alpha 4
+Added 2 forced events for early Mech and Med Tech buff
+Tank Armour down to 0.85, ranged was too weak against them
+Tweaked ammos, removed heat penaltys (prevent possible bug)
+TC nerfed to 30%
+Missing mod.json for merc emblems added
+Reworked Gladiator
+Added "Spiked Plates"
+Created a Gamesworld Shop and made solaris independent
+Merc Deployment updated to 1.2
+
+0.986 Alpha 3 HF2
+Added Merc and Capellan Emblems by Cyttorak01
+Mechsorter updated to 0.2. scrapping issue should be resolved
+Hotfix for proper merc deployments
+Hotfix to panic system
+
+0.986 Alpha 3
+Upgraded the Echidnae
+Added the Strix
+Added new Melee Weapons and Actuators
+Updated BLK9 Description
+Couple mixups with jk and my chassis fixed
+Little shakeup of starter weapons
+Modtek is now bundled
+Logo Replacement moved to its own folder - delete old logoreplacement.dll in RogueTech Core
+RogueTech version number now shown
+Probable fix to panic system
+Many fixes to weapons balance
+Re-enabled Monthly Morale reset to prevent 0 morale bug
+Patched Deployments
+
+
+0.986 Alpha 2
+Turret to hit bonus has been removed
+Adjusted assembly now checks for tonnage for exclusion, too
+Further reduced tank structure, crack its shell and its dead
+Sped up JK move defs
+Patched AIM
+Added both pirate flamers to starter gear
+Patched Merc Deployments
+Added several turrets by Nemgard
+Buffed exchangers
+Added 3 more pirate mechs
+Fixed typos in random campaign start
+
+>>POSSIBLE SAVEBREAKER - Removed outdated inferno launcher - YOU HAVE BEEN WARNED!<<
+
+
 0.986 Alpha 1
 Now Contains Deployments
 ---

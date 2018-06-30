@@ -35,7 +35,7 @@
 			{
 				"statName" : "UnsteadyThreshold",
 				"operation" : "Float_Add",
-				"modValue" : "10.0",
+				"modValue" : "10",
 				"modType" : "System.Single"
 			},
 			"nature" : "Buff"

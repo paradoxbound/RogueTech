@@ -13,7 +13,7 @@
         "Details" : "Deadfire SRM's, like their LRM counterparts, trade any advanced guidance system for a larger payload, decreasing accuracy and the already short range. Carries 80 shots. Provides a buff to all your Ammo of the same type and doesnt stack.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
-    "BonusValueA" : "+35% Damage. +5%Heat Generated",
+    "BonusValueA" : "+35% Damage.",
     "BonusValueB" : "-30% Range. -2 Accuracy",
     "ComponentType" : "AmmunitionBox",
     "ComponentSubType" : "Ammunition",
@@ -246,58 +246,7 @@
                 "targetWeaponSubType" : "NotSet"				
 			},		
 			"nature" : "Buff"
-		},
-        {
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : 1,
-                "clearedWhenAttacked" : false
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-Heat_DFSRM",
-                "Name" : "Increased Heat",
-                "Details" : "Heat generation increased by 20%.",
-                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
-            },
-            "nature" : "Buff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "HeatGenerated",
-                "operation" : "Float_Multiply",
-                "modValue" : "1.05",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "LRM",
-                "targetAmmoCategory" : "LRM",
-                "targetWeaponSubType" : "NotSet"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
-        }		
+		}		
         
     ],
     "ComponentTags" : {

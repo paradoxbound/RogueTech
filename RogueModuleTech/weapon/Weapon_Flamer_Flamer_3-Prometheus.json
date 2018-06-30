@@ -3,15 +3,15 @@
     "Type" : "Flamer",
     "WeaponSubType" : "Flamer",
     "MinRange" : 0,
-    "MaxRange" : 150,
+    "MaxRange" : 230,
     "RangeSplit" : [
-        50,
-        120,
-        160
+        75,
+        150,
+        230
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 8,
+    "HeatGenerated" : 6,
     "Damage" : 15,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,

@@ -37,7 +37,7 @@
         "UIName" : "Flame Breath",
         "Id" : "Weapon_Flamer_Flamer_P-Cockpit",
         "Name" : "Pirate Cockpit",
-        "Details" : "Yeah... well... Boss, i dont know what this is, but some Joker welded a flamer on this cockpit and hotwired a heatbank into it that runs through a coffee machine. Damn these idiots....",
+        "Details" : "Yeah... well... Boss, i dont know what this is, but some Joker welded a flamer on this cockpit and hotwired a heatbank into it that runs through a coffee machine. Damn these idiots..... Can only be instealled in the head.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "Flame Breath!",
