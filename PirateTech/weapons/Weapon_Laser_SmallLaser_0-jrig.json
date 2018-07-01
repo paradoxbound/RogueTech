@@ -37,7 +37,7 @@
         "UIName" : "Pirate Small Laser",
         "Id" : "Weapon_Laser_SmallLaser_0-jrig",
         "Name" : "Pirate Small Laser",
-        "Details" : "Yes, if you duct tape three Small Lasers together, jury rig the mount point and power supply, you will get this piece of crap.  Wow, I didn't know that duct tape could petrify like that.",
+        "Details" : "If you slap three Small Lasers together, and jury-rig the mount point and power supply, you’ll get this piece of work.  I didn't know that duct tape could petrify like that.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "+ Damage",

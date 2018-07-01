@@ -37,7 +37,7 @@
         "UIName" : "SSRM6",
         "Id" : "Weapon_SRM_SRM6_STREAK",
         "Name" : "SSRM6",
-        "Details" : "A STREAK SRM 6 Launcher, this early version upgraded the launcher to carry an advanced active guidance system that allowed the missile to easier track it's target but had a 50% increase in heat and weight.",
+        "Details" : "The Steak SRM-6 launcher is a prototype SRM that uses an advanced active guidance system to track targets, but at the cost of 50% increased weight and heat generation.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "+2Accuracy",

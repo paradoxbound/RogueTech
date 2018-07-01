@@ -37,7 +37,7 @@
         "UIName" : "TBM10",
         "Id" : "Weapon_LRM_Thunderbolt10",
         "Name" : "TBM10",
-        "Details" : "The Thunderbolt launcher is an offshoot of standard LRM technology. Instead of firing a group of missiles, the Thunderbolt launcher fires a single missile. It suffers from reduced range, and is susceptible to the, luckily, extinct ams. Uses ac5 ammo bin.",
+        "Details" : "The Thunderbolt launcher is an offshoot of standard LRM technology. Instead of firing groups of missiles, the Thunderbolt launcher fires a single missile. It suffers from reduced range, and is susceptible to the, luckily, extinct AMS. Requires AC/5 ammo.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",

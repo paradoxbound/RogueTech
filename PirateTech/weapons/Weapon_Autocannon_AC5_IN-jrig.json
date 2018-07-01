@@ -37,7 +37,7 @@
         "UIName" : "Pirate AC/5",
         "Id" : "Weapon_Autocannon_AC5_IN-jrig",
         "Name" : "Pirate AC/5",
-        "Details" : "You shouldn't let pirates touch anything!  I am not sure what they were trying to do with this thing, use it at your own risk.",
+        "Details" : "You shouldn't let pirates touch anything!  I’m not sure what they were trying to do with this thing. Use it at your own risk.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "Unknown",

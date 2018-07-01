@@ -37,7 +37,7 @@
         "UIName" : "SSRM2",
         "Id" : "Weapon_SRM_SRM2_STREAK",
         "Name" : "SSRM2",
-        "Details" : "A STREAK SRM 2 Launcher, this early version upgraded the launcher to carry an advanced active guidance system that allowed the missile to easier track it's target and critical components but had a 50% increase in heat and weight.",
+        "Details" : "The Steak SRM-2 launcher is a prototype SRM that uses an advanced active guidance system to track targets, but at the cost of 50% increased weight and heat generation.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "+2Accuracy",

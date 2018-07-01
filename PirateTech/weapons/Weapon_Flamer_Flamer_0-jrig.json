@@ -37,7 +37,7 @@
         "UIName" : "Pirate Flamer",
         "Id" : "Weapon_Flamer_Flamer_0-jrig",
         "Name" : "Pirate Flamer",
-        "Details" : "So the barrel of this flamer has been crimped at the end, probably some moronic attempt to make it squirt flames further.  You will be lucky if it doesn't blow up in your face.",
+        "Details" : "The barrel of this flamer has been crimped at the end, probably in some moronic attempt to make it shoot farther.  You’ll be lucky if it doesn't just blow up in your face.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "Unknown",

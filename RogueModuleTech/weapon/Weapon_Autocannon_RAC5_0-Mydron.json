@@ -37,7 +37,7 @@
         "UIName" : "RAC5",
         "Id" : "Weapon_Autocannon_RAC5_0-Mydron",
         "Name" : "RAC5",
-        "Details" : "An experimental rotary Autocannon, to prevent jamming, it is fixed at 4 shots per trigger, the sheer amount of ammo expelled allows to easier hit a moving target.",
+        "Details" : "The experimental Rotary Autocannon is fixed at 4 shots per trigger pull to prevent jamming. The sheer volume of fire makes it easier to hit moving targets.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "",

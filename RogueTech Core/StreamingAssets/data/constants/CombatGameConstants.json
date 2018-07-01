@@ -736,6 +736,7 @@
         "TurretAbilities":
         [
             "AbilityDefT8A"
+			"AbilityDefTurretMulti"
         ]
     },
     "MoraleConstants":

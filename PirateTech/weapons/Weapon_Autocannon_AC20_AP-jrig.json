@@ -22,7 +22,7 @@
     "CriticalChanceMultiplier" : 1.5,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
-    "RefireModifier" : 3,
+    "RefireModifier" : 5,
     "ShotsWhenFired" : 2,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 4,
@@ -37,7 +37,7 @@
         "UIName" : "Pirate AC/20",
         "Id" : "Weapon_Autocannon_AC20_AP-jrig",
         "Name" : "Pirate AC/20",
-        "Details" : "The king of the battlefield, and then someone let a pirate touch it.  They've cut the barrel, made it hotload 2 slugs and it has middle fingers and obscenitys scratched all over it, i have no idea what they tried to here, but its bascially a sawed-off shotgun now.",
+        "Details" : "The king of the battlefield, absolutely ruined by pirates. They’ve cut off half the barrel, made it hot-load two slugs at a time, and scratched obscenities all over it. They’ve basically turned this AC/20 into a sawed-off shotgun.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "Unknown",

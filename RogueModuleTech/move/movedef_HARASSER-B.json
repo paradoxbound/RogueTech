@@ -1,7 +1,7 @@
 {
    "Description" : {
-      "Id" : "movedef_HARASSER",
-      "Name" : "MovementCapabilitiesDef for HARASSER",
+      "Id" : "movedef_HARASSER-B",
+      "Name" : "MovementCapabilitiesDef for HARASSER-B",
       "Details" : "",
       "Icon" : ""
    },

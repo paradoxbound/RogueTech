@@ -37,7 +37,7 @@
         "UIName" : "Narc Beacon",
         "Id" : "Weapon_SRM_SRM_NARC",
         "Name" : "Narc Beacong",
-        "Details" : "This Launcher fires a single NARC beacon that when it hits, attaches itself and emits a homing signal for all friendly weapons, this ealy prototype has advanced guidance system. 3 Turn Duration and Cannot Stack",
+        "Details" : "This Launcher fires a single NARC beacon that attaches itself to the enemy and emits a homing signal for all friendly weapons. This prototype comes with an advanced guidance system. Three turn duration, does not stack.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",

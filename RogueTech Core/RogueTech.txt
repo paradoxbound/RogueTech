@@ -139,6 +139,16 @@ If you want to change the time or reputation, just open the file and change the 
 "All these goodies brought to you by the Deadly Sins stable, enjoy your stay on Solaris"
 
 ---------
+0.986 Alpha 5
+Fixed Wolverine DS internals
+Fixed damage taken multipliers
+Added Cargo_Vrooms Vehicle Adjustment tweaked for rt
+Reduced drop costs very slightly to account for Deployments
+Several fixes to descriptions
+Added the Porcupine
+Got new Solaris Gear working correctly
+Another try to Liberate Solaris from Steiner (probably only applies to new games)
+
 0.986 Alpha 4
 Added 2 forced events for early Mech and Med Tech buff
 Tank Armour down to 0.85, ranged was too weak against them

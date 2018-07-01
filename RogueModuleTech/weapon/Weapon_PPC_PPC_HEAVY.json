@@ -37,7 +37,7 @@
         "UIName" : "HPPC",
         "Id" : "Weapon_PPC_PPC_HEAVY",
         "Name" : "HPPC",
-        "Details" : "The Heavy PPC is a larger version more potent version of the Particle Projector Cannon. Researched by the Draconis Combine delivers this PPC a heavier hit dealing a more devastating blow to enemy sensors.",
+        "Details" : "Researched by the Draconis Combine, the Heavy PPC is a larger, more potent version of the Particle Projector Cannon, capable of delivering a devastating blow to both the enemy and their sensors.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "",

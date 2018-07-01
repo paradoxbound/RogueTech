@@ -37,7 +37,7 @@
         "UIName" : "Pirate SRM4",
         "Id" : "Weapon_SRM_SRM4_0-jrig",
         "Name" : "Pirate SRM4",
-        "Details" : "It is not really an SRM4...some moron welded together two SRM2s and added some red LED lights that blink at random and for no apparent reason.",
+        "Details" : "Though this may look like an SRM4, it’s not. Some moron welded together two SRM2s, and then stuck on some red LEDs that blink randomly and for no apparent reason. ",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "Unknown",

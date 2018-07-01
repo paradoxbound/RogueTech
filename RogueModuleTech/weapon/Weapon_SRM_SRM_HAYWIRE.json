@@ -37,7 +37,7 @@
         "UIName" : "Haywire EMP",
         "Id" : "Weapon_SRM_SRM_HAYWIRE",
         "Name" : "Haywire EMP",
-        "Details" : "A single Haywire launcher that deals little to no damage but scrambles an enemy's electronics, comes with a ton of ammo and has advanced guidance systems",
+        "Details" : "A single Haywire launcher deals little to no damage, but instead scrambles an enemy's electronics, decreasing the effectiveness of their targeting, movement, spotting, and heat management systems. The Haywire launcher comes with one ton of ammo and features advanced guidance systems",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",

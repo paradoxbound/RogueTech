@@ -19,7 +19,7 @@
     "DamageVariance" : 0,
     "HeatDamage" : 0,
     "AccuracyModifier" : 1,
-    "CriticalChanceMultiplier" : 2,
+    "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,
@@ -37,7 +37,7 @@
         "UIName" : "LMG",
         "Id" : "Weapon_MachineGun_MachineGun_1-LIGHT",
         "Name" : "LMG",
-        "Details" : "This Machine Gun fires a lighter caliber of shells but gains largely increased range.",
+        "Details" : "The Light Machine Gun fires smaller caliber shells, but boasts a higher rate of fire and increased range over a standard Machine Gun.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "",

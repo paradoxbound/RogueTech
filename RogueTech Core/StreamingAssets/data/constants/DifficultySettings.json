@@ -331,9 +331,9 @@
 		},
 		{
 			"ID": "diff_Breadcrums",
-			"Name": "Travel Contracts generated",
+			"Name": "Deployments generated",
 			"UIOrder": 5,
-			"Tooltip": "Set your Choice of Maximum Travel Contracts generated per system",
+			"Tooltip": "Set your Choice of Deployments generated per system",
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,

@@ -37,7 +37,7 @@
         "UIName" : "Pirate PPC",
         "Id" : "Weapon_PPC_PPC_0-jrig2",
         "Name" : "Pirate PPC",
-        "Details" : "It is like someone took the parts out of a broken and burned up PPC and added them to the broken and busted up parts of this one.  The EM field generation is wobbly and your likely to get zapped if you walk too close to it",
+        "Details" : "It looks like someone combined the burned out and broken parts of two PPCs to create one barely-functional PPC. The electromagnetic field generation is unstable. You’re likely to get zapped if you walk too close to this thing. ",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "Unknown",

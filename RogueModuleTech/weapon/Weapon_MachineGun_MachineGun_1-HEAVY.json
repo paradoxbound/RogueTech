@@ -37,7 +37,7 @@
         "UIName" : "HMG",
         "Id" : "Weapon_MachineGun_MachineGun_1-HEAVY",
         "Name" : "HMG",
-        "Details" : "This Machine Gun has a massively larger caliber and rate of fire.",
+        "Details" : "As its name implies, the Heavy Machine Gun is a larger version of the standard Machine Gun. The HMG does more damage, a higher rate of fire, and has a better chance of penetrating and destroying critical components, but weighs twice as much, and suffers from recoil. ",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "",

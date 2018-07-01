@@ -59,9 +59,9 @@
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "allDamageTakenMultiplier",
-                "operation" : "Float_Multiply",
-                "modValue" : "0.90",
+                "statName" : "DamageReductionMultiplierAll",
+                "operation" : "Float_Add",
+                "modValue" : "-0.10",
                 "modType" : "System.Single"
             },
             "tagData" : null,

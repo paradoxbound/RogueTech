@@ -37,7 +37,7 @@
         "UIName" : "Pirate LRM10",
         "Id" : "Weapon_LRM_LRM10_0-jrig",
         "Name" : "Pirate LRM10",
-        "Details" : "The guidance system has been rewired so many times, each time by a complete idiot, that I am pretty sure this thing is hard wired to shoot whatever is closest, to include yourself.",
+        "Details" : "Some shǎzi rewired the Guidance system so poorly, and so many times, that I’m pretty sure it would just hit whatever’s closest, including yourself.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "Unknown",

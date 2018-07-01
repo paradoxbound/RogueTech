@@ -37,7 +37,7 @@
         "UIName" : "Flamer +++",
         "Id" : "Weapon_Flamer_Flamer_3-Prometheus",
         "Name" : "Flamer +++",
-        "Details" : "This is the most powerful Fusion Powered Flamer known, Delivering a flame hot enough enough to melt even the toughest armour.",
+        "Details" : "This is the most powerful Fusion Powered Flamer known of, capable of producing a flame hot enough to melt even the toughest armour.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "+ 5 Dmg.(H)",

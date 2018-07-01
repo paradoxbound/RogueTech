@@ -37,7 +37,7 @@
         "UIName" : "Pirate LRM15",
         "Id" : "Weapon_LRM_LRM15_0-jrig",
         "Name" : "Pirate LRM15",
-        "Details" : "The radar transmitter and guidance computer should be right here.  No, I don't have any idea where the missiles are going to go when you fire it.",
+        "Details" : "The radar transmitter and guidance computer should be right here, but of course, they’re not. I don't have any idea where the missiles are going to go when you fire it.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "Unknown",

@@ -37,7 +37,7 @@
         "UIName" : "UAC/10",
         "Id" : "Weapon_Autocannon_AC10_0-Ultra",
         "Name" : "UAC/10",
-        "Details" : "Ultra Autocannon's retain most of their smaller cousin's profile while effectively doubling their rate of fire. The UAC10 is your basic Heavy gun, good damage, range and heat efficiency",
+        "Details" : "Ultra Autocannons boast double the rate of fire of a regular Autocannon, with only moderate increases in weight, size, and heat. The UAC/10 is your standard heavy gun, with all-around good damage, range, and heat efficiency.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "",

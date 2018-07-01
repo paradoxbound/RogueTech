@@ -37,7 +37,7 @@
         "UIName" : "Pirate HMG",
         "Id" : "Weapon_MachineGun_MachineGun_Heavy-jrig",
         "Name" : "Pirate HMG Array",
-        "Details" : "So the second and third barrel have been arc welded together and somehow jammed into the frame here.  The feeding mechanism as been looped around to feed the additional breaches here.  This entire rat nest of a mess only weighs twice what it would of took to mount a couple more machine guns in the first damn place.",
+        "Details" : "The second and third barrels on this machine gun have been arc welded together and somehow jammed into the frame here. The feeding mechanism has been looped around to feed the additional breaches as well. This entire rat’s nest weighs twice what it would take to mount a couple more machine guns in the first place.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "Unknown",

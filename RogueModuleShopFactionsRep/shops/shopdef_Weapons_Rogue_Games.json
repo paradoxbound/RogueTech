@@ -11,7 +11,7 @@
       "planet_industry_research",
       "planet_industry_rich",
       "planet_industry_recreation",
-	  "planet_other_gamesworld"
+	  "planet_other_megacity"
 		],
         "tagSetSourceFile": ""
     },
@@ -22,108 +22,108 @@
         "tagSetSourceFile": ""
     },
     "Inventory": [
- 
-  
-    ],
-    "Specials": [
        {
             "ID": "Weapon_Elite_2_PlasmaTorch",
             "Type": "Weapon",
             "DiscountModifier": 1,
-            "Count": 0
-			"Weight": 2			
+            "Count": 0		
         },
         {
             "ID": "Weapon_Elite_2_Chainsword",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count": 0
-			"Weight": 2			
+		
         },
         {
             "ID": "Gear_Leg_Talons",
             "Type": "Upgrade",
             "DiscountModifier": 1,
             "Count": 0
-			"Weight": 2			
+		
         },
         {
             "ID": "Gear_Cockpit_Spiked_Helmet",
             "Type": "Upgrade",
             "DiscountModifier": 1,
             "Count": 0
-			"Weight": 2			
+		
         },
         {
             "ID": "Gear_Combat_Shield",
             "Type": "Upgrade",
             "DiscountModifier": 1,
             "Count": 0
-			"Weight": 2			
+		
         },
         {
             "ID": "Gear_Solaris_Spikes",
             "Type": "Upgrade",
             "DiscountModifier": 1,
             "Count": 0
-			"Weight": 2			
+		
         },		
 	  {
          "ID" : "Gear_TTS_AdvancedTC",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.2,
          "Count" : 0
-			"Weight": 2		 
+	 
       },
 	  {
          "ID" : "Gear_Cockpit_DNI",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.2,
          "Count" : 0
-			"Weight": 2		 
+	 
       },
 	  {
          "ID" : "Gear_Supercharger",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.1,
          "Count" : 0
-			"Weight": 2		 
+	 
       },
 	  {
          "ID" : "Gear_AdvancedMaterials1",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.2,
          "Count" : 0
-			"Weight": 2		 
+	 
       },
 	  {
          "ID" : "Gear_AdvancedMaterials2",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.2,
          "Count" : 0
-			"Weight": 2		 
+	 
       },	
 	  {
          "ID" : "Gear_AdvancedMaterials3",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.2,
          "Count" : 0
-			"Weight": 2		 
+	 
       },
 	  {
          "ID" : "Gear_Cockpit_SLDF_Custom",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.2,
          "Count" : 0
-			"Weight": 2		 
+	 
       },
 	  {
          "ID" : "Gear_Myomer_TSM",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.2,
          "Count" : 0
-			"Weight": 2		 
-      },	  	
+	 
+      }		
+ 
+  
+    ],
+    "Specials": [
+  	
 	
 	]
 }

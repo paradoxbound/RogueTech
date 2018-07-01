@@ -1,0 +1,21 @@
+{
+   "Description" : {
+      "Id" : "movedef_CARRIER_HEAVYLRM",
+      "Name" : "MovementCapabilitiesDef for Heavy LRM Carrier",
+      "Details" : "",
+      "Icon" : ""
+   },
+   "MaxWalkDistance" : 65.0,
+   "MaxSprintDistance" : 95.0,
+   "WalkVelocity" : 40.0,
+   "RunVelocity" : 48.0,
+   "SprintVelocity" : 51.0,
+   "LimpVelocity" : 18.0,
+   "WalkAcceleration" : 25.0,
+   "SprintAcceleration" : 40.0,
+   "MaxRadialVelocity" : 60.0,
+   "MaxRadialAcceleration" : 180.0,
+   "MaxJumpVel" : 80.0,
+   "MaxJumpAccel" : 30.0,
+   "MaxJumpVerticalAccel" : 60.0
+}

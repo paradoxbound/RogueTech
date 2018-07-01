@@ -27,7 +27,7 @@
       "planet_industry_research",
       "planet_industry_rich",
       "planet_industry_recreation",
-	  "planet_other_gamesworld"
+	  "planet_other_megacity"
     ],
     "tagSetSourceFile": ""
   },
@@ -51,8 +51,8 @@
   "Owner": "Steiner",
   "ContractEmployers": [
     "Locals",
-    "Steiner",
-    "ComStar"
+    "ComStar",
+    "MercenaryReviewBoard"
   ],
   "ContractTargets": [
     "AuriganDirectorate",

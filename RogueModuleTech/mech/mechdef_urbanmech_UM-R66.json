@@ -21,7 +21,7 @@
         "UIName": "UrbanMech UM-R66",
         "Id": "mechdef_urbanmech_UM-R66",
         "Name": "UrbanMech",
-        "Details": "Don't let the stubby 'Urbie' fool you\u2014it may look like a walking trash can, but it can mount heavy armor and a grown-up-sized Autocannon. R66's carry a RAC5.",
+        "Details": "Don't let the stubby 'Urbie' fool you\u2014it may look like a walking trash can, but it can mount heavy armor and a grown-up-sized Autocannon. R66's carry a RAC/2.",
         "Icon": "uixTxrIcon_urbanmech"
     },
     "simGameMechPartCost": 250000,

@@ -37,7 +37,7 @@
         "UIName" : "Medium Rifle",
         "Id" : "Weapon_Autocannon_AC10_MRIFLE",
         "Name" : "Medium Rifle",
-        "Details" : "The Medium Rifle is the middleweight of the 'Rifle' family. The precursor to the modern Autocannon, the Rifle was based on the main guns used by tanks on pre-spaceflight Terra. The Medium Rifle used heavier rounds and larger propellant loads to fire its shells. The Rifle was phased out of service with most major powers because it lacked stopping power against most battlefield units. Requires AC10 ammo.",
+        "Details" : "The Medium Rifle is the middleweight of the 'Rifle' family. The precursor to the modern Autocannon, the Rifle was based on the main guns used by tanks on pre-spaceflight Terra. The Medium Rifle used heavier rounds and larger propellant loads to fire its shells. It was phased out of service with most major powers because it lacked stopping power against most battlefield units. Requires AC10 ammo.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "",
