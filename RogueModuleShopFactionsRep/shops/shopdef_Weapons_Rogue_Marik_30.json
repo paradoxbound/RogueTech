@@ -1,0 +1,43 @@
+{
+    "ID": "shopdef_Weapons_Rogue_Marik",
+    "RequirementTags": {
+        "items": ["planet_faction_marik",
+		"rep_marik_30"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+        {
+            "ID": "Weapon_SRM_SRM4_STREAK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_SRM_SRM_HAYWIRE",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Weapon_SRM_SRM_NARC",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Gear_TargetingTrackingSystem_Hartford_F2400",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+        }		
+		
+    ],
+    "Specials": []
+}

@@ -139,6 +139,19 @@ If you want to change the time or reputation, just open the file and change the 
 "All these goodies brought to you by the Deadly Sins stable, enjoy your stay on Solaris"
 
 ---------
+0.986 Release patch1
+All chassis got at least 1 Support slot power arm (if they had real arms)
+
+0.986 Release
+Melee weapons restricted to arms only
+Added jk variants to random start, thanks Razunter
+Solaris Has been Liberated ;)
+Advanced melee Weapons and Solaris gear is being sold on Solaris
+The MRB will sell you advanced gear depending on your rep
+Updated Monthly Tech Adjustments from Don Zapp
+All factions reputation shops have been made more varied
+
+
 0.986 Alpha 5
 Fixed Wolverine DS internals
 Fixed damage taken multipliers

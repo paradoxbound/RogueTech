@@ -1,0 +1,62 @@
+{
+    "ID": "shopdef_Weapons_Rogue_Kurita",
+    "RequirementTags": {
+        "items": ["planet_faction_kurita",
+		"rep_kurita_30"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+
+		        {
+            "ID": "Weapon_PPC_PPC_HEAVY",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        }
+	  {
+         "ID" : "Gear_PPC_Capacitator",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_JumpJet_Improved_Heavy",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.1,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_PartialWing_Generic_Heavy",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_PartialWing_Generic_Heavy65",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_PartialWing_Generic_Heavy75",
+         "Type" : "JumpJet",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+        {
+            "ID": "Gear_TargetingTrackingSystem_I3F2",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+        }	  
+
+    ],
+    "Specials": []
+}

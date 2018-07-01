@@ -1,0 +1,31 @@
+{
+    "ID": "shopdef_Weapons_Rogue_Davion",
+    "RequirementTags": {
+        "items": ["planet_faction_davion",
+		"rep_davion_10"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+
+        {
+            "ID": "Weapon_LRM_Thunderbolt5",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {  
+		    "ID": "Weapon_Autocannon_AC2_0-Ultra",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        }	  
+    ],
+    "Specials": []
+}

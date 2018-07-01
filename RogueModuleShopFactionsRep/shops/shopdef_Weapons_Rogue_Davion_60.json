@@ -1,8 +1,8 @@
 {
-    "ID": "shopdef_Weapons_Rogue_Marik",
+    "ID": "shopdef_Weapons_Rogue_Davion",
     "RequirementTags": {
-        "items": ["planet_faction_marik",
-		"rep_marik_35"
+        "items": ["planet_faction_davion",
+		"rep_davion_60"
 		],
         "tagSetSourceFile": ""
     },
@@ -13,49 +13,37 @@
         "tagSetSourceFile": ""
     },
     "Inventory": [
+
         {
-            "ID": "Weapon_SRM_SRM2_STREAK",
+            "ID": "Weapon_LRM_Thunderbolt15",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count": 0
         },
         {
-            "ID": "Weapon_SRM_SRM4_STREAK",
+            "ID": "Weapon_LRM_Thunderbolt20",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count": 0
-        },
+        },	   
         {
-            "ID": "Weapon_SRM_SRM6_STREAK",
+            "ID": "Weapon_Autocannon_AC10_0-Ultra",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count": 0
-        },		
-        {
-            "ID": "Weapon_SRM_SRM_HAYWIRE",
+         },   
+         {
+            "ID": "Weapon_Autocannon_AC20_0-Ultra",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count": 0
-        },
+          }, 
         {
-            "ID": "Weapon_SRM_SRM_NARC",
+            "ID": "Weapon_Autocannon_RAC5_0-Mydron",
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count": 0
-        },	
-        {
-            "ID": "Weapon_Laser_TAG",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-        {
-            "ID": "Gear_TargetingTrackingSystem_I3F3",
-            "Type": "Upgrade",
-            "DiscountModifier": 1,
-            "Count": 0
-        }		
-		
+        }  
     ],
     "Specials": []
 }

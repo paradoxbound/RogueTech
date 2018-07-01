@@ -1,0 +1,57 @@
+{
+    "ID": "shopdef_Weapons_Rogue_Games",
+    "RequirementTags": {
+        "items": [      "rep_MercenaryReviewBoard_10"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+		{
+			 "ID" : "Gear_Actuator_HandyVac_Industrial_CargoGrip",
+			 "Type" : "Upgrade",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+		{
+			 "ID" : "Weapon_HandyVac_Industrial_Agro_0_Cultivator",
+			 "Type" : "Weapon",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+		{
+			 "ID" : "Weapon_HandyVac_Industrial_Construction_0_ArcWelder",
+			 "Type" : "Weapon",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+		{
+			 "ID" : "Gear_Actuator_HandyVac_Industrial_ExcavatorClaw",
+			 "Type" : "Upgrade",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+		{
+			 "ID" : "Weapon_HandyVac_Industrial_Mining_0_Jackhammer",
+			 "Type" : "Weapon",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+        {
+            "ID": "Gear_Cockpit_Spiked_Helmet",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+		
+        }  
+    ],
+    "Specials": [
+  	
+	
+	]
+}

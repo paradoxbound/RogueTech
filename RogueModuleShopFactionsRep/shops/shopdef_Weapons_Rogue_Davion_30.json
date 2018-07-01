@@ -1,0 +1,43 @@
+{
+    "ID": "shopdef_Weapons_Rogue_Davion",
+    "RequirementTags": {
+        "items": ["planet_faction_davion",
+		"rep_davion_30"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+
+        {
+            "ID": "Weapon_LRM_Thunderbolt10",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },  
+        {
+            "ID": "Weapon_Autocannon_AC5_0-Ultra",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },    
+        {  
+		    "ID": "Weapon_Autocannon_RAC2_0-Mydron",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },  
+      {
+         "ID" : "Gear_HeatSink_Generic_Double",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.3,
+         "Count" : 0
+      }	  
+    ],
+    "Specials": []
+}

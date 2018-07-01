@@ -64,13 +64,6 @@
 		
         },		
 	  {
-         "ID" : "Gear_TTS_AdvancedTC",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-	 
-      },
-	  {
          "ID" : "Gear_Cockpit_DNI",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.2,
@@ -81,34 +74,6 @@
          "ID" : "Gear_Supercharger",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.1,
-         "Count" : 0
-	 
-      },
-	  {
-         "ID" : "Gear_AdvancedMaterials1",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-	 
-      },
-	  {
-         "ID" : "Gear_AdvancedMaterials2",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-	 
-      },	
-	  {
-         "ID" : "Gear_AdvancedMaterials3",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-	 
-      },
-	  {
-         "ID" : "Gear_Cockpit_SLDF_Custom",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
          "Count" : 0
 	 
       },

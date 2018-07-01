@@ -48,11 +48,25 @@
   "MapExcludedTags": null,
   "FuelingStation": false,
   "JumpDistance": 7,
-  "Owner": "Steiner",
+  "Owner": "MercenaryReviewBoard",
   "ContractEmployers": [
     "Locals",
     "ComStar",
-    "MercenaryReviewBoard"
+    "MercenaryReviewBoard",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
+    "AuriganPirates",
+    "AuriganRestoration",
+    "Betrayers",
+    "Kurita",
+    "Liao",
+    "MagistracyOfCanopus",
+    "MajestyMetals",
+    "Marik",
+    "Nautilus",
+    "TaurianConcordat",
+	"Steiner",
+	"Davion"
   ],
   "ContractTargets": [
     "AuriganDirectorate",
@@ -66,7 +80,9 @@
     "MajestyMetals",
     "Marik",
     "Nautilus",
-    "TaurianConcordat"
+    "TaurianConcordat",
+	"Steiner",
+	"Davion"
   ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,

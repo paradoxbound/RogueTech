@@ -1,0 +1,37 @@
+{
+    "ID": "shopdef_Weapons_Rogue_Marik",
+    "RequirementTags": {
+        "items": ["planet_faction_marik",
+		"rep_marik_60"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+        {
+            "ID": "Weapon_SRM_SRM6_STREAK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Gear_TargetingTrackingSystem_I3F3",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+        },
+        {
+            "ID": "Gear_TargetingTrackingSystem_Hartford_F3000",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+        }		
+		
+    ],
+    "Specials": []
+}

@@ -1,0 +1,55 @@
+{
+    "ID": "shopdef_Weapons_Rogue_Games",
+    "RequirementTags": {
+        "items": [      "rep_MercenaryReviewBoard_50"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+        {
+            "ID": "Gear_Leg_Talons",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+		
+        },		
+	  {
+         "ID" : "Gear_TTS_AdvancedTC",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+	 
+      },
+	  {
+         "ID" : "Gear_Supercharger",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.1,
+         "Count" : 0
+	 
+      },	
+	  {
+         "ID" : "Gear_AdvancedMaterials2",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+	 
+      },
+	  {
+         "ID" : "Gear_Cockpit_SLDF_Custom",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+	 
+      }  
+    ],
+    "Specials": [
+  	
+	
+	]
+}

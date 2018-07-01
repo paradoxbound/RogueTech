@@ -1,0 +1,31 @@
+{
+    "ID": "shopdef_Weapons_Rogue_Steiner",
+    "RequirementTags": {
+        "items": ["planet_faction_steiner",
+		"rep_steiner_30"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+
+        {
+            "ID": "Weapon_Laser_MediumLaserER_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0
+        },
+        {
+            "ID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0
+        }
+    ],
+    "Specials": []
+}

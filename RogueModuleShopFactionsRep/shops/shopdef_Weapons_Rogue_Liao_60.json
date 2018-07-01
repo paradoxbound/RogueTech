@@ -1,0 +1,31 @@
+{
+    "ID": "shopdef_Weapons_Rogue_Liao",
+    "RequirementTags": {
+        "items": ["planet_faction_liao",
+		"rep_liao_60"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+
+	  {
+         "ID" : "Gear_NullSignatureSystem",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+      },
+	  {
+         "ID" : "Gear_ECM",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+      }	  
+    ],
+    "Specials": []
+}

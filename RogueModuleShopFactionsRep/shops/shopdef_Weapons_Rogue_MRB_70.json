@@ -1,0 +1,55 @@
+{
+    "ID": "shopdef_Weapons_Rogue_Games",
+    "RequirementTags": {
+        "items": [      "rep_MercenaryReviewBoard_70"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+       {
+            "ID": "Weapon_Elite_2_PlasmaTorch",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0		
+        },
+        {
+            "ID": "Weapon_Elite_2_Chainsword",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+		
+        },
+        {
+            "ID": "Gear_Combat_Shield",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+		
+        },	
+	  {
+         "ID" : "Gear_Cockpit_DNI",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+	 
+      },
+	  {
+         "ID" : "Gear_AdvancedMaterials3",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+	 
+      }
+  
+    ],
+    "Specials": [
+  	
+	
+	]
+}

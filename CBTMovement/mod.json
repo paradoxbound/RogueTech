@@ -12,6 +12,6 @@
 
     "Settings": {
         "ToHitSelfJumped": 3,
-        "OverrideAutoSelectNextUnit": true
+        "OverrideAutoSelectNextUnit": false
     }
 }

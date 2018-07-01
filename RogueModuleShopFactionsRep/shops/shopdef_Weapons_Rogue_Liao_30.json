@@ -1,0 +1,25 @@
+{
+    "ID": "shopdef_Weapons_Rogue_Liao",
+    "RequirementTags": {
+        "items": ["planet_faction_liao",
+		"rep_liao_30"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+
+        {
+            "ID": "Weapon_FLAMER_PLASMA",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+        }	  
+    ],
+    "Specials": []
+}
