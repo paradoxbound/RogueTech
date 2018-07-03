@@ -104,7 +104,7 @@
     ],
     "inventory": [
         {
-            "MountedLocation": "LeftArm",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
@@ -113,9 +113,20 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },	
+        },
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
+        {
+            "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
@@ -126,7 +137,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
@@ -197,17 +208,6 @@
             "SimGameUID": null,
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,

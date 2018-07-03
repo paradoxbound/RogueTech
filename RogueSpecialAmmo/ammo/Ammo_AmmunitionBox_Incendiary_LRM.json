@@ -13,7 +13,7 @@
         "Details" : "This Ammo bin contains incendiary ammo for LRM launchers, sacrificing most of the warhead's explosive charge to carry an incendiary payload not unlike inferno missiles. Carries 50 shots. Provides a buff to all your Ammo of the same type and doesnt stack.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
-    "BonusValueA" : "-50%Dmg",
+    "BonusValueA" : "-25%Dmg",
     "BonusValueB" : "+1Heat",
     "ComponentType" : "AmmunitionBox",
     "ComponentSubType" : "Ammunition",
@@ -60,7 +60,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Multiply",
-                "modValue" : "0.5",
+                "modValue" : "0.75",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",

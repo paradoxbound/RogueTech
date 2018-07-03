@@ -16,7 +16,7 @@
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 2,
-    "DamageVariance" : 0,
+    "DamageVariance" : 10,
     "HeatDamage" : 0,
     "AccuracyModifier" : -2,
     "CriticalChanceMultiplier" : 1,

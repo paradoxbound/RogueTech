@@ -19,7 +19,6 @@
 		"AssembleVariants" : true,
 		 "AssembleMostParts" : true,
         "VariantExceptions" : [
-		"mechdef_Mackie-6S",
 		"mechdef_blackknight_BL-S7",
 		"mechdef_catapult_CPLT-S7",
 		"mechdef_griffin_GRF-S7",
@@ -27,7 +26,6 @@
 		"mechdef_kingcrab_KGC-B",	
 		"mechdef_stalker_STK-3Hb",
 		"mechdef_thunderbolt_TDR-E5",
-		"mechdef_locust_LCT-LR",
 		"mechdef_atlas_AS7-D-HT",
 		"mechdef_blackknight_BL-6b-KNT",
 		"mechdef_griffin_GRF-4N",
@@ -35,6 +33,7 @@
 		"mechdef_commando_COM-MK2",
 		"mechdef_spider_SDR-AS",
 		"mechdef_EXPA",
-		"mechdef_shadowhawk_SHD-SX"
+		"mechdef_shadowhawk_SHD-SX",
+		"mechdef_atlas_AS-GSZ"
 		]
 }

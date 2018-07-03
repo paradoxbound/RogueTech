@@ -107,11 +107,11 @@
 		"chassisdef_vindicator_VND-1R": 0.97			
         },
     "mechSizeMultiplierVectors": {
-	"chassisdef_crab_CRB-20": { "x": 0.51, "y": 0.55, "z": 0.82 },
-	"chassisdef_crab_CRB-27b": { "x": 0.51, "y": 0.55, "z": 0.82 },
-	"chassisdef_crab_CRB-GI": { "x": 0.51, "y": 0.55, "z": 0.82 },
-	"chassisdef_atlas_AS-GSZ": { "x": 0.85, "y": 1.15, "z": 1.05 },
-	"chassisdef_catapult_CPLT-S7": { "x": 1.1, "y": 1, "z": 1.25 },
+	"chassisdef_crab_CRB-20": { "x": 0.525, "y": 0.56, "z": 0.82 },
+	"chassisdef_crab_CRB-27b": { "x": 0.525, "y": 0.56, "z": 0.82 },
+	"chassisdef_crab_CRB-GI": { "x": 0.525, "y": 0.56, "z": 0.82 },
+	"chassisdef_atlas_AS-GSZ": { "x": 0.83, "y": 1.1, "z": 1.05 },
+	"chassisdef_catapult_CPLT-S7": { "x": 1.1, "y": 1, "z": 1.27 },
 	"chassisdef_EXPA": { "x": 0.25, "y": 0.45, "z": 0.4 },
 	"chassisdef_locust_LCT-LR" : { "x": 1.1, "y": 1.15, "z": 1.3 },
 	"chassisdef_centurion_CN9-YLW": { "x": 0.85, "y": 1.1, "z": 0.98 },

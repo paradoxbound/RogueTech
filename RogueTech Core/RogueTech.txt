@@ -139,6 +139,13 @@ If you want to change the time or reputation, just open the file and change the 
 "All these goodies brought to you by the Deadly Sins stable, enjoy your stay on Solaris"
 
 ---------
+0.986 Release patch2
+Incendiary LRM tiny buff
+Pirate HMG fix
+Dirty stopgap fix for NaN bug
+Added early version of damage variance, affects pulse and pirate laser
+Fix to Firestarter 9T
+
 0.986 Release patch1
 All chassis got at least 1 Support slot power arm (if they had real arms)
 

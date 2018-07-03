@@ -193,7 +193,7 @@
             "k" : "Float_AcceptableHeatLevel",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 3.8
+		"floatVal" : 3.6
             }
 	},
 	{
@@ -214,7 +214,7 @@
             "k" : "Float_MeleeDamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2.0
+		"floatVal" : 3.0
             }
 	},
 	{
@@ -228,7 +228,7 @@
             "k" : "Float_DFADamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5
+		"floatVal" : 2.5
             }
 	},
 	{
