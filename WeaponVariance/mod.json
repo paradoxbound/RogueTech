@@ -1,8 +1,8 @@
-﻿{
+{
   "Name": "WeaponVariance",
-  "Enabled": true,
+  "Enabled": false,
 
-  "Version": "0.0.2",
+  "Version": "0.0.4",
 
   "Author": "janxious",
   "Website": "https://github.com/janxious/WeaponVariance",
@@ -13,6 +13,7 @@
   "ConflictsWith": [],
 
   "Settings": {
-    "debug": true
+    "debug": true,
+    "standardDeviationPercentOfVariance": 75
   }
 }

@@ -1,0 +1,41 @@
+{
+    "Name": "HotD-Warhammer",
+    "Enabled": true,
+
+    "Manifest": [
+        { "Type": "AssetBundle", "Path": "assetbundles" },
+		
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_leftarm_laser_eh1.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_leftarm_ppc_eh1.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_lefttorso_flamer_eh1.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_lefttorso_flamer_eh2.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_lefttorso_flamer_eh3.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_lefttorso_laser_eh1.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_lefttorso_laser_eh2.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_lefttorso_laser_eh3.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_lefttorso_mg_bh1.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_lefttorso_mg_bh2.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_lefttorso_mg_bh3.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_rightarm_laser_eh1.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_rightarm_ppc_eh1.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_righttorso_flamer_eh1.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_righttorso_flamer_eh2.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_righttorso_flamer_eh3.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_righttorso_laser_eh1.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_righttorso_laser_eh2.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_righttorso_laser_eh3.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_righttorso_mg_bh1.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_righttorso_mg_bh2.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_righttorso_mg_bh3.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Warhammer/chrPrfWeap_warhammer_righttorso_missile6_mh1.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Components/Warhammer/chrPrfComp_warhammer_simgame.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/chrPrfMech_warhammerHotD-001.prefab", "AssetBundleName": "chrprfmech_warhammerhotd-001" },
+
+        { "Type": "ChassisDef", "Path": "chassis" },
+        { "Type": "HardpointDataDef", "Path": "hardpoints" },
+        { "Type": "MechDef", "Path": "mech" },
+        { "Type": "MovementCapabilitiesDef", "Path": "movement" },
+        { "Type": "ShopDef", "Path": "shops" },
+        { "Type": "Sprite", "Path": "portraits" }
+    ]
+}

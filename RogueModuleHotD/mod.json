@@ -1,0 +1,19 @@
+{
+    "Name": "Rogue Variants HotD",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "A collection of chassis for solahmajoes mech's",
+    "Author": "LadyAlekto",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+
+    "Manifest": [
+        { "Type": "MechDef", "Path": "mech" },
+        { "Type": "ChassisDef", "Path": "chassis" }		
+    ],
+
+		
+
+	
+}

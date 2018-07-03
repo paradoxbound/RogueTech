@@ -139,6 +139,14 @@ If you want to change the time or reputation, just open the file and change the 
 "All these goodies brought to you by the Deadly Sins stable, enjoy your stay on Solaris"
 
 ---------
+0.986 Release patch3
+Difficulty menu now contains a couple starters
+Now includes Warhammer and Marauder, thank you SolahmaJoe
+Updated Damage Variance for a curve distribution
+Added a new Elite
+
+
+
 0.986 Release patch2
 Incendiary LRM tiny buff
 Pirate HMG fix

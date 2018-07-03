@@ -1,0 +1,42 @@
+{
+    "Name": "HotD-Marauder",
+    "Enabled": true,
+
+    "Manifest": [
+        { "Type": "AssetBundle", "Path": "assetbundles" },
+		
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_leftarm_flamer_eh1.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_leftarm_flamer_eh2.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_leftarm_laser_eh1.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_leftarm_laser_eh2.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_leftarm_ppc_eh1.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_leftarm_ppc_eh2.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_rightarm_flamer_eh1.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_rightarm_flamer_eh2.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_rightarm_laser_eh1.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_rightarm_laser_eh2.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_rightarm_ppc_eh1.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_rightarm_ppc_eh2.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_righttorso_flamer_eh1.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_righttorso_flamer_eh2.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_righttorso_laser_eh1.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_righttorso_laser_eh2.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_righttorso_ppc_eh1.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_righttorso_ppc_eh2.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_righttorso_ac2_bh1.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_righttorso_ac2_bh2.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_righttorso_ac5_bh1.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_righttorso_ac5_bh2.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_righttorso_ac10_bh1.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Weapons/Marauder/chrPrfWeap_marauder_righttorso_gauss_bh1.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/Components/Marauder/chrPrfComp_marauder_simgame.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+        { "Type": "Prefab", "Path": "Assets/Character/Mechs/Prefabs/chrPrfMech_marauderHotD-001.prefab", "AssetBundleName": "chrprfmech_marauderhotd-001" },
+		
+        { "Type": "ChassisDef", "Path": "chassis" },
+        { "Type": "HardpointDataDef", "Path": "hardpoints" },
+        { "Type": "MechDef", "Path": "mech" },
+        { "Type": "MovementCapabilitiesDef", "Path": "movement" },
+        { "Type": "ShopDef", "Path": "shops" },
+        { "Type": "Sprite", "Path": "portraits" }
+    ]
+}

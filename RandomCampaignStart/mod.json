@@ -8,7 +8,7 @@
     "Website": "www.github.com/mpstark/RandomCampaignStart",
     
      "Settings": {
-        "RemoveAncestralMech": true,
+        "RemoveAncestralMech": false,
         "NumberRandomRonin": 4,
         "NumberProceduralPilots": 0,
 		
@@ -16,7 +16,7 @@
         ],		
         
         "NumberLightMechs": 3,
-        "NumberMediumMechs": 2,
+        "NumberMediumMechs": 1,
         "NumberHeavyMechs": 0,
         "NumberAssaultMechs": 0,		
 

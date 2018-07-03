@@ -136,7 +136,7 @@
 				{
 					"ID": "diff_MC_med",
 					"Name": "7",
-					"DifficultyValue": 1,
+					"DifficultyValue": 2,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -306,7 +306,7 @@
 				{
 					"ID": "diff_CG_hard",
 					"Name": "6",
-					"DifficultyValue": 2,
+					"DifficultyValue": 1,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -318,7 +318,7 @@
 				{
 					"ID": "diff_CG_superhard",
 					"Name": "4",
-					"DifficultyValue": 4,
+					"DifficultyValue": 2,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -343,7 +343,7 @@
 				{
 					"ID": "diff_BC_supereasy2",
 					"Name": "7",
-					"DifficultyValue": -1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -355,7 +355,7 @@
 				{
 					"ID": "diff_BC_supereasy1",
 					"Name": "6",
-					"DifficultyValue": -1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -367,7 +367,7 @@
 				{
 					"ID": "diff_BC_supereasy",
 					"Name": "5",
-					"DifficultyValue": -1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -391,7 +391,7 @@
 				{
 					"ID": "diff_BC_medium",
 					"Name": "3",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -403,7 +403,7 @@
 				{
 					"ID": "diff_BC_superhard",
 					"Name": "2",
-					"DifficultyValue": 2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -428,7 +428,7 @@
 				{
 					"ID": "diff_DV_10",
 					"Name": "10",
-					"DifficultyValue": -4,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -440,7 +440,7 @@
 				{
 					"ID": "diff_DV_9",
 					"Name": "9",
-					"DifficultyValue": -3,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -452,7 +452,7 @@
 				{
 					"ID": "diff_DV_8",
 					"Name": "8",
-					"DifficultyValue": -2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -464,7 +464,7 @@
 				{
 					"ID": "diff_DV_7",
 					"Name": "7",
-					"DifficultyValue": -1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -488,7 +488,7 @@
 				{
 					"ID": "diff_DV_5",
 					"Name": "5",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -500,7 +500,7 @@
 				{
 					"ID": "diff_DV_4",
 					"Name": "4",
-					"DifficultyValue": 2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -512,7 +512,7 @@
 				{
 					"ID": "diff_DV_3",
 					"Name": "3",
-					"DifficultyValue": 3,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -524,7 +524,7 @@
 				{
 					"ID": "diff_DV_2",
 					"Name": "2",
-					"DifficultyValue": 4,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -536,7 +536,7 @@
 				{
 					"ID": "diff_DV_1",
 					"Name": "1",
-					"DifficultyValue": 5,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -829,7 +829,7 @@
 				{
 					"ID": "diff_PP_hard",
 					"Name": "Very Slow",
-					"DifficultyValue": 2,
+					"DifficultyValue": 1,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Pilot",
@@ -841,7 +841,7 @@
 				{
 					"ID": "diff_PP_superhard",
 					"Name": "UltraSlow",
-					"DifficultyValue": 3,
+					"DifficultyValue": 1,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Pilot",
@@ -902,7 +902,7 @@
 				{
 					"ID": "diff_PEXP_med",
 					"Name": "Slow",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Pilot",
@@ -914,7 +914,7 @@
 				{
 					"ID": "diff_PEXP_hard",
 					"Name": "Very Slow",
-					"DifficultyValue": 2,
+					"DifficultyValue": 1,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Pilot",
@@ -926,7 +926,7 @@
 				{
 					"ID": "diff_PEXP_superhard",
 					"Name": "UltraSlow",
-					"DifficultyValue": 3,
+					"DifficultyValue": 1,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Pilot",
@@ -987,7 +987,7 @@
 				{
 					"ID": "diff_PCMP_med",
 					"Name": "Slow",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Pilot",
@@ -999,7 +999,7 @@
 				{
 					"ID": "diff_PCMP_hard",
 					"Name": "Very Slow",
-					"DifficultyValue": 2,
+					"DifficultyValue": 1,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Pilot",
@@ -1011,7 +1011,7 @@
 				{
 					"ID": "diff_PCMP_superhard",
 					"Name": "UltraSlow",
-					"DifficultyValue": 3,
+					"DifficultyValue": 1,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Pilot",
@@ -1117,7 +1117,7 @@
 				{
 					"ID": "diff_SM_supereasy",
 					"Name": "3580000",
-					"DifficultyValue": -1,
+					"DifficultyValue": -2,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -1129,7 +1129,7 @@
 				{
 					"ID": "diff_SM_easy",
 					"Name": "2580000",
-					"DifficultyValue": 0,
+					"DifficultyValue": -1,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -1141,7 +1141,7 @@
 				{
 					"ID": "diff_SM_medium",
 					"Name": "1580000",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -1153,7 +1153,7 @@
 				{
 					"ID": "diff_SM_hard",
 					"Name": "780000",
-					"DifficultyValue": 2,
+					"DifficultyValue": 1,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -1165,7 +1165,7 @@
 				{
 					"ID": "diff_SM_veryhard",
 					"Name": "340000",
-					"DifficultyValue": 3,
+					"DifficultyValue": 2,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -1190,7 +1190,7 @@
 				{
 					"ID": "diff_MBAY_cheat",
 					"Name": "Cheat",
-					"DifficultyValue": -2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "MechLab",
@@ -1247,7 +1247,7 @@
 				{
 					"ID": "diff_MBAY_quick",
 					"Name": "Faster",
-					"DifficultyValue": -1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "MechLab",
@@ -1361,7 +1361,7 @@
 				{
 					"ID": "diff_MBAY_Hard",
 					"Name": "Hard",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "MechLab",
@@ -1418,7 +1418,7 @@
 				{
 					"ID": "diff_MBAY_VeryHard",
 					"Name": "VeryHard",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "MechLab",
@@ -1488,7 +1488,7 @@
 				{
 					"ID": "diff_MBAY_cheat",
 					"Name": "Cheat",
-					"DifficultyValue": -2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "MechLab",
@@ -1500,7 +1500,7 @@
 				{
 					"ID": "diff_MBAY_quick",
 					"Name": "Easy",
-					"DifficultyValue": -1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "MechLab",
@@ -1524,7 +1524,7 @@
 				{
 					"ID": "diff_MBAY_Hard",
 					"Name": "Normal",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "MechLab",
@@ -1536,7 +1536,7 @@
 				{
 					"ID": "diff_MBAY_VeryHard",
 					"Name": "VeryHard",
-					"DifficultyValue": 2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "MechLab",
@@ -1561,7 +1561,7 @@
 				{
 					"ID": "diff_MBAYC_cheat",
 					"Name": "Easy",
-					"DifficultyValue": -2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "MechLab",
@@ -1623,7 +1623,7 @@
 				{
 					"ID": "diff_MBAYC_quick",
 					"Name": "Cheap",
-					"DifficultyValue": -1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "MechLab",
@@ -1747,7 +1747,7 @@
 				{
 					"ID": "diff_MBAYC_Hard",
 					"Name": "Expensive",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "MechLab",
@@ -1822,7 +1822,7 @@
 				{
 					"ID": "diff_AM_supereasy",
 					"Name": "VeryEasy",
-					"DifficultyValue": -1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -1876,7 +1876,7 @@
 				{
 					"ID": "diff_AM_medium",
 					"Name": "Normal",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -1903,7 +1903,7 @@
 				{
 					"ID": "diff_AM_hard",
 					"Name": "Hard",
-					"DifficultyValue": 2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -1930,7 +1930,7 @@
 				{
 					"ID": "diff_AM_veryhard",
 					"Name": "VeryHard",
-					"DifficultyValue": 3,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -1970,7 +1970,7 @@
 				{
 					"ID": "diff_AMor_supereasy",
 					"Name": "VeryEasy",
-					"DifficultyValue": -1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -2024,7 +2024,7 @@
 				{
 					"ID": "diff_AMor_medium",
 					"Name": "Normal",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -2051,7 +2051,7 @@
 				{
 					"ID": "diff_AMor_hard",
 					"Name": "Hard",
-					"DifficultyValue": 2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -2078,7 +2078,7 @@
 				{
 					"ID": "diff_AMor_veryhard",
 					"Name": "VeryHard",
-					"DifficultyValue": 3,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -2118,7 +2118,7 @@
 				{
 					"ID": "diff_SS_15",
 					"Name": "15%",
-					"DifficultyValue": 3,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2130,7 +2130,7 @@
 				{
 					"ID": "diff_SS_16",
 					"Name": "16%",
-					"DifficultyValue": 2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2142,7 +2142,7 @@
 				{
 					"ID": "diff_SS_17",
 					"Name": "17%",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2166,7 +2166,7 @@
 				{
 					"ID": "diff_SS_19",
 					"Name": "19%",
-					"DifficultyValue": -1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2178,7 +2178,7 @@
 				{
 					"ID": "diff_SS_20",
 					"Name": "20%",
-					"DifficultyValue": -2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2190,7 +2190,7 @@
 				{
 					"ID": "diff_SS_21",
 					"Name": "21%",
-					"DifficultyValue": -3,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2202,7 +2202,7 @@
 				{
 					"ID": "diff_SS_22",
 					"Name": "22%",
-					"DifficultyValue": -3,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2214,7 +2214,7 @@
 				{
 					"ID": "diff_SS_23",
 					"Name": "23%",
-					"DifficultyValue": -5,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2226,7 +2226,7 @@
 				{
 					"ID": "diff_SS_24",
 					"Name": "24%",
-					"DifficultyValue": -6,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2238,7 +2238,7 @@
 				{
 					"ID": "diff_SS_25",
 					"Name": "25%",
-					"DifficultyValue": -7,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2263,7 +2263,7 @@
 				{
 					"ID": "diff_Scrap_15",
 					"Name": "15%",
-					"DifficultyValue": 3,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2275,7 +2275,7 @@
 				{
 					"ID": "diff_Scrap_16",
 					"Name": "16%",
-					"DifficultyValue": 2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2287,7 +2287,7 @@
 				{
 					"ID": "diff_Scrap_17",
 					"Name": "17%",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2311,7 +2311,7 @@
 				{
 					"ID": "diff_Scrap_19",
 					"Name": "19%",
-					"DifficultyValue": -1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2323,7 +2323,7 @@
 				{
 					"ID": "diff_Scrap_20",
 					"Name": "20%",
-					"DifficultyValue": -2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2335,7 +2335,7 @@
 				{
 					"ID": "diff_Scrap_21",
 					"Name": "21%",
-					"DifficultyValue": -3,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2347,7 +2347,7 @@
 				{
 					"ID": "diff_Scrap_22",
 					"Name": "22%",
-					"DifficultyValue": -4,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2359,7 +2359,7 @@
 				{
 					"ID": "diff_Scrap_23",
 					"Name": "23%",
-					"DifficultyValue": -5,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2371,7 +2371,7 @@
 				{
 					"ID": "diff_Scrap_24",
 					"Name": "24%",
-					"DifficultyValue": -6,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2383,7 +2383,7 @@
 				{
 					"ID": "diff_Scrap_25",
 					"Name": "25%",
-					"DifficultyValue": -7,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2408,7 +2408,7 @@
 				{
 					"ID": "diff_Mshop_10",
 					"Name": "10",
-					"DifficultyValue": 2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2420,7 +2420,7 @@
 				{
 					"ID": "diff_Mshop_20",
 					"Name": "20",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2444,7 +2444,7 @@
 				{
 					"ID": "diff_Mshop_40",
 					"Name": "40",
-					"DifficultyValue": -1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2456,7 +2456,7 @@
 				{
 					"ID": "diff_Mshop_50",
 					"Name": "50",
-					"DifficultyValue": -2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2468,7 +2468,7 @@
 				{
 					"ID": "diff_Mshop_60",
 					"Name": "60",
-					"DifficultyValue": -3,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2480,7 +2480,7 @@
 				{
 					"ID": "diff_Mshop_70",
 					"Name": "70",
-					"DifficultyValue": -4,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2492,7 +2492,7 @@
 				{
 					"ID": "diff_Mshop_80",
 					"Name": "80",
-					"DifficultyValue": -5,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2504,7 +2504,7 @@
 				{
 					"ID": "diff_Mshop_90",
 					"Name": "90",
-					"DifficultyValue": -6,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2516,7 +2516,7 @@
 				{
 					"ID": "diff_Mshop_100",
 					"Name": "100",
-					"DifficultyValue": -7,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2541,7 +2541,7 @@
 				{
 					"ID": "diff_Specials_0",
 					"Name": "0",
-					"DifficultyValue": 3,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2553,7 +2553,7 @@
 				{
 					"ID": "diff_Specials_2",
 					"Name": "2",
-					"DifficultyValue": 2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2565,7 +2565,7 @@
 				{
 					"ID": "diff_Specials_4",
 					"Name": "4",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2589,7 +2589,7 @@
 				{
 					"ID": "diff_Specials_8",
 					"Name": "8",
-					"DifficultyValue": -1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2601,7 +2601,7 @@
 				{
 					"ID": "diff_Specials_10",
 					"Name": "10",
-					"DifficultyValue": -2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2613,7 +2613,7 @@
 				{
 					"ID": "diff_Specials_12",
 					"Name": "12",
-					"DifficultyValue": -3,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2625,7 +2625,7 @@
 				{
 					"ID": "diff_Specials_14",
 					"Name": "14",
-					"DifficultyValue": -4,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2637,7 +2637,7 @@
 				{
 					"ID": "diff_Specials_16",
 					"Name": "16",
-					"DifficultyValue": -5,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2649,7 +2649,7 @@
 				{
 					"ID": "diff_Specials_18",
 					"Name": "18",
-					"DifficultyValue": -6,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2661,7 +2661,7 @@
 				{
 					"ID": "diff_Specials_20",
 					"Name": "20",
-					"DifficultyValue": -7,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
@@ -2670,6 +2670,116 @@
 						}
 					]
 				}				
+			]
+		},
+		{
+			"ID": "diff_Starter",
+			"Name": "Starter Mech",
+			"UIOrder": 4,
+			"Tooltip": "Select your starter Mech.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 4,
+			"Options": [
+				{
+					"ID": "diff_start_cheat",
+					"Name": "Cheat",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_atlas_AS7-D-HT"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_bjp",
+					"Name": "Pirate",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_blackjack_BJ-P"
+						}
+					]
+				},				
+				{
+					"ID": "diff_start_ylw",
+					"Name": "Brawler",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_centurion_CN9-YLW"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_tbt",
+					"Name": "Artillery",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_trebuchet_TBT-6X"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_bjg",
+					"Name": "Sniper",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_blackjack_BJ-G"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_c3t",
+					"Name": "Fast Tank",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_cicada_CDA-3T"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_eri",
+					"Name": "Erinya",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_commando_COM-MK2"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_gdrk",
+					"Name": "Heavy",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_granddragon_DRG-3K"
+						}
+					]
+				}				
+
 			]
 		}		
 	]

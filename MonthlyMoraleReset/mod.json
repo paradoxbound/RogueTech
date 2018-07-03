@@ -5,5 +5,5 @@
 	"Website": "https://github.com/Zathoth/MonthlyMoraleReset",
 
 	"DLL": "MonthlyMoraleReset.dll",
-	"DLLEntryPoint": "MonthlyMoraleReset.Control.Start",
+	"DLLEntryPoint": "MonthlyMoraleReset.Control.Start"
 }
