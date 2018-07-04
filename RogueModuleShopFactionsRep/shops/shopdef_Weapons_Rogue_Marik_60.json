@@ -1,5 +1,5 @@
 {
-    "ID": "shopdef_Weapons_Rogue_Marik",
+    "ID": "shopdef_Weapons_Rogue_Marik_60",
     "RequirementTags": {
         "items": ["planet_faction_marik",
 		"rep_marik_60"

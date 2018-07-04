@@ -1,5 +1,5 @@
 {
-    "ID": "shopdef_Weapons_Rogue_Davion",
+    "ID": "shopdef_Weapons_Rogue_Davion_60",
     "RequirementTags": {
         "items": ["planet_faction_davion",
 		"rep_davion_60"

@@ -11,7 +11,7 @@
         "UIName" : "UL Gyro",
         "Id" : "Gear_Gyro_Ultralight",
         "Name" : "Dragon Ultralight Gyro",
-        "Details" : "This Ultralight Gyro was developed to give a mech more possible tonnage at the cost of stability.",
+        "Details" : "This Ultralight Gyro was developed to give a ‘Mech more free tonnage, at the cost of some stability.",
         "Icon" : "uixSvgIcon_equipment_Gyro"
     },
     "BonusValueA" : "+ 20% Stability Damage taken",

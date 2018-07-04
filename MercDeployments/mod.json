@@ -2,7 +2,7 @@
     "Name": "MercDeployments",
     "Enabled": true,
 
-    "Version": "1.2-beta1",
+    "Version": "1.2.2",
     "Description": "Changes Travel contracts to Deployments.",
     "Author": "Morphyum",
     "Website": "https://github.com/Morphyum/MercDeployments",

@@ -1,5 +1,5 @@
 {
-    "ID": "shopdef_Weapons_Rogue_Liao",
+    "ID": "shopdef_Weapons_Rogue_Liao_60",
     "RequirementTags": {
         "items": ["planet_faction_liao",
 		"rep_liao_60"

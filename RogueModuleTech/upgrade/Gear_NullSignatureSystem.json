@@ -11,7 +11,7 @@
         "UIName" : "NSS",
         "Id" : "Gear_NullSignatureSystem",
         "Name" : "Null Signature System",
-        "Details" : "The Null Signature System is another Capellan endeavour to recreate lost Starleague ECM, it trades heat generation for a reduced sensor and target signature and best used with an EWS suite. Cannot stack.",
+        "Details" : "The Null Signature System is another Capellan endeavour to recreate lost Star League ECM. It trades heat generation for a reduced sensor and target signature and is best when coupled with an EWS. Does not stack.",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
     "BonusValueA" : "Bulwark. + 20% Heat",

@@ -139,6 +139,21 @@ If you want to change the time or reputation, just open the file and change the 
 "All these goodies brought to you by the Deadly Sins stable, enjoy your stay on Solaris"
 
 ---------
+
+0.986 Release patch5
+Added MarauderII
+Improved descriptions further
+Some AI Tweaks
+Reputation Shops fixed
+
+0.986 Release patch4
+Crab internals fixed
+Fix to CBT Movement removing experimental idten proofing
+Deployments patched to 1.2.2
+Added a Elite Warhammer
+
+
+
 0.986 Release patch3
 Difficulty menu now contains a couple starters
 Now includes Warhammer and Marauder, thank you SolahmaJoe

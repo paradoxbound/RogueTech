@@ -1,5 +1,5 @@
 {
-    "ID": "shopdef_Weapons_Rogue_Kurita",
+    "ID": "shopdef_Weapons_Rogue_Kurita_10",
     "RequirementTags": {
         "items": ["planet_faction_kurita",
 		"rep_kurita_10"

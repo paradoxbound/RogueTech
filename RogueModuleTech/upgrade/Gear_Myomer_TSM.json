@@ -11,7 +11,7 @@
         "UIName" : "TSM",
         "Id" : "Gear_Myomer_TSM",
         "Name" : "TripleStrengthMyomer  ",
-        "Details" : "TripleStrengthMyomer is a experimental Myomer that gains more strength and flexibility at higher temperatures, granting melee and movement boni. More than 6 pieces will not grant further boni.",
+        "Details" : "Triple Strength Myomer is an experimental structural material that grants a ‘Mech more physical strength and flexibility, granting melee and movement bonuses. Bonuses will not stack beyond six pieces. ",
         "Icon" : "uixSvgIcon_equipment_ActuatorArm"
     },
     "BonusValueA" : "+ 3% Melee Dmg.",

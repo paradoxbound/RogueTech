@@ -1,3 +1,77 @@
-{
+{"behaviorVariables" : [
+	{
+            "k" : "Float_MeleeDamageMultiplier",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 4.3
+            }
+	},
+	{
+            "k" : "Float_MeleeVsUnsteadyTargetDamageMultiplier",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 4.5
+            }
+	},
+	{
+            "k" : "Float_DFADamageMultiplier",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 4.5
+            }
+	},
+	{
+            "k" : "Float_PreferInsideMeleeRangeFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 1.8
+            }
+	},
+	{
+            "k" : "Float_SprintPreferInsideMeleeRangeFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 2.2
+            }
+	},
+	{
+            "k" : "Float_UnsteadyCausesDefensiveMovePercentage",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 10
+            }
+	},
+	{
+	    /* If a target is a melee revenge target, but the ratio of
+	       its expected melee damage to my expected melee damage
+	       is higher than this threshold, DO NOT MELEE! It'll all
+	       end in tears! */
+            "k" : "Float_MeleeDamageRatioCap",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 2.5,
+            }
+	},
+	{
+	    /* How much of expected melee damage to add in again as
+	       bonus damage when attacking evasive targets (0 - none,
+	       1 - 100% bonus damage) */
+            "k" : "Float_MeleeBonusMultiplierWhenAttackingEvasiveTargets",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 2.0,
+            }
+	},
+	{
+	    /* How much of expected melee damage to add in again as
+	       bonus damage when attacking braced targets (0 - none,
+	       1 - 100% bonus damage) */
+            "k" : "Float_MeleeBonusMultiplierWhenAttackingBracedTargets",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 2.3,
+            }
+	},	
+	]
 }
 

@@ -11,7 +11,7 @@
         "UIName" : "Samurai Gyro",
         "Id" : "Gear_Gyro_HeavyDuty",
         "Name" : "Samurai Heavy Gyro",
-        "Details" : "The Samurai Heavy Duty Gyro is an attempt to improve the stability of any 'Mech.",
+        "Details" : "The Samurai Heavy Duty Gyro provides an improvement in stability over standard Gyros, at the cost of some weight.",
         "Icon" : "uixSvgIcon_equipment_Gyro"
     },
     "BonusValueA" : "+20% Stability +2 Melee Defense",

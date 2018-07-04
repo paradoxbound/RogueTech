@@ -193,7 +193,7 @@
             "k" : "Float_AcceptableHeatLevel",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 3.6
+		"floatVal" : 3.2
             }
 	},
 	{
@@ -207,14 +207,14 @@
             "k" : "Float_ShootingDamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.5
+		"floatVal" : 1.3
             }
 	},
 	{
             "k" : "Float_MeleeDamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 3.0
+		"floatVal" : 2.3
             }
 	},
 	{
@@ -361,7 +361,7 @@
             "k" : "Float_HeatToDamageRatio",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 3.0
+		"floatVal" : 1.5
             }
 	},
 	{
@@ -396,7 +396,7 @@
             "k" : "Float_UnsteadyCausesDefensiveMovePercentage",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 60
+		"floatVal" : 50
             }
 	},
 	{
@@ -431,14 +431,14 @@
             "k" : "Float_MeleeBonusMultiplierWhenAttackingEvasiveTargets",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.7
+		"floatVal" : 1.1
             }
 	},
 	{
             "k" : "Float_MeleeBonusMultiplierWhenAttackingBracedTargets",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 1.9
+		"floatVal" : 1.4
             }
 	},
 	{

@@ -11,7 +11,7 @@
         "UIName" : "Adv. Materials T1",
         "Id" : "Gear_AdvancedMaterials1",
         "Name" : "Advanced Materials T1",
-        "Details" : "This is a collection of Advanced Materials, be it Ferro Fibrous, Endo Steel, or Ultralight Composite's, they all do effectively one thing, slightly reduce the tonnage of a mech's chassis.",
+        "Details" : "This is a collection of advanced materials (e.g. ferro-fibrous armour, endo steel structure, and ultralight composites) which provide the same degree of protection at a lighter weight, but at the cost of critical slots. ",
         "Icon" : "uixSvgIcon_equipment_Gyro"
     },
     "BonusValueA" : "-0.25t",

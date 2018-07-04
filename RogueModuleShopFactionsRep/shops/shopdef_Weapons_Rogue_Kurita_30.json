@@ -1,5 +1,5 @@
 {
-    "ID": "shopdef_Weapons_Rogue_Kurita",
+    "ID": "shopdef_Weapons_Rogue_Kurita_30",
     "RequirementTags": {
         "items": ["planet_faction_kurita",
 		"rep_kurita_30"
@@ -19,7 +19,7 @@
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count": 0
-        }
+        },
 	  {
          "ID" : "Gear_PPC_Capacitator",
          "Type" : "Upgrade",

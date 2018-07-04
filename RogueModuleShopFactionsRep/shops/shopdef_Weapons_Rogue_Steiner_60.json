@@ -1,5 +1,5 @@
 {
-    "ID": "shopdef_Weapons_Rogue_Steiner",
+    "ID": "shopdef_Weapons_Rogue_Steiner_60",
     "RequirementTags": {
         "items": ["planet_faction_steiner",
 		"rep_steiner_60"
