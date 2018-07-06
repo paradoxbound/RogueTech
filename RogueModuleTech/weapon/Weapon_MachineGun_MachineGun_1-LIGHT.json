@@ -3,7 +3,7 @@
     "Type" : "MachineGun",
     "WeaponSubType" : "MachineGun",
     "MinRange" : 0,
-    "MaxRange" : 360,
+    "MaxRange" : 440,
     "RangeSplit" : [
         120,
         240,
@@ -38,7 +38,7 @@
         "Id" : "Weapon_MachineGun_MachineGun_1-LIGHT",
         "Name" : "LMG",
         "Details" : "The Light Machine Gun fires smaller caliber shells, but boasts a higher rate of fire and increased range over a standard Machine Gun.",
-        "Icon" : "uixSvgIcon_weapon_Support"
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "",
     "BonusValueB" : "",

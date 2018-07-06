@@ -3,7 +3,7 @@
     "Type" : "PPC",
     "WeaponSubType" : "PPC",
     "MinRange" : 90,
-    "MaxRange" : 370,
+    "MaxRange" : 430,
     "RangeSplit" : [
         123,
         246,

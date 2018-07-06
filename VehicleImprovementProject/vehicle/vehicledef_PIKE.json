@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_PIKE",
+      "Id" : "vehicledef_PIKEcv",
       "Name" : "Pike Support Vehicle",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_PIKE",
+   "ChassisID" : "vehiclechassisdef_PIKEcv",
    "VehicleTags": {
       "items": [
          "unit_vehicle",

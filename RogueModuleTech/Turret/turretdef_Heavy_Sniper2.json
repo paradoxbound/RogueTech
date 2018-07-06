@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "turretdef_Heavy_Sniper",
+      "Id" : "turretdef_Heavy_Sniper2",
       "Name" : "Armored Sniper Turret",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "turretchassisdef_Heavy_sniper",
+   "ChassisID" : "turretchassisdef_Heavy_sniper2",
    "TurretTags": {
       "items": [
          "unit_turret",

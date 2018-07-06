@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_BRUTUSB",
+      "Id" : "vehicledef_BRUTUSBcv",
       "Name" : "Brutus-B Assault Tank",
       "Details" : "",
       "Icon" : "MANTICORE",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_BRUTUSB",
+   "ChassisID" : "vehiclechassisdef_BRUTUSBcv",
    "VehicleTags": {
       "items": [
          "unit_vehicle",

@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_CARRIER_AC2",
+      "Id" : "vehicledef_CARRIER_AC2cv",
       "Name" : "AC/2 Carrier",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_CARRIER_AC2",
+   "ChassisID" : "vehiclechassisdef_CARRIER_AC2cv",
    "VehicleTags": {
       "items": [
          "unit_vehicle",

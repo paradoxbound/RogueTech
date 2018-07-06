@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "turretdef_Light_LRM",
+      "Id" : "turretdef_Light_LRM2",
       "Name" : "Reinforced LRM Turret",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "turretchassisdef_Light_lrm",
+   "ChassisID" : "turretchassisdef_Light_lrm2",
    "TurretTags": {
       "items": [
          "unit_turret",

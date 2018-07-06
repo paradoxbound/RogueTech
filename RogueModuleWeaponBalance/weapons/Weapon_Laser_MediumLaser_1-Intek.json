@@ -3,7 +3,7 @@
     "Type" : "Laser",
     "WeaponSubType" : "MediumLaser",
     "MinRange" : 0,
-    "MaxRange" : 270,
+    "MaxRange" : 330,
     "RangeSplit" : [
         90,
         180,

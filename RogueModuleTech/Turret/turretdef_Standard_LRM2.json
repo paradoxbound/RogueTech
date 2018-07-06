@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "turretdef_Standard_LRM",
+      "Id" : "turretdef_Standard_LRM2",
       "Name" : "Hardened LRM Turret",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "turretchassisdef_Standard_LRM",
+   "ChassisID" : "turretchassisdef_Standard_LRM2",
    "TurretTags": {
       "items": [
          "unit_turret",

@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "turretdef_Light_Sniper",
+      "Id" : "turretdef_Light_Sniper2",
       "Name" : "Reinforced Sniper Turret",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "turretchassisdef_Light_sniper",
+   "ChassisID" : "turretchassisdef_Light_sniper2",
    "TurretTags": {
       "items": [
          "unit_turret",

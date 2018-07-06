@@ -1,85 +1,84 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_HUNTERA",
-      "Name" : "Hunter Light Support Tank",
+      "Id" : "vehicledef_SALADINcv",
+      "Name" : "Saladin",
       "Details" : "",
       "Icon" : "",
-      "Cost" : 564,
-      "Rarity" : 0,
+      "Cost" : 1993,
+      "Rarity" : 3,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_HUNTERA",
+   "ChassisID" : "vehiclechassisdef_SALADINcv",
    "VehicleTags": {
       "items": [
          "unit_vehicle",
          "unit_light",
-         "unit_tracked",
-		 "unit_release"
+         "unit_tracks"
       ],
       "tagSetSourceFile": ""
    },
    "Locations" : [
 		{
 			"Location" : "Front",
-			"CurrentArmor" : 100,
+			"CurrentArmor" : 85,
 			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 100,
+			"AssignedArmor" : 85,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Left",
-			"CurrentArmor" : 100,
+			"CurrentArmor" : 25,
 			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 100,
+			"AssignedArmor" : 25,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Right",
-			"CurrentArmor" : 100,
+			"CurrentArmor" : 25,
 			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 100,
+			"AssignedArmor" : 25,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Rear",
-			"CurrentArmor" : 100,
+			"CurrentArmor" : 25,
 			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 100,
+			"AssignedArmor" : 25,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Turret",
-			"CurrentArmor" : 100,
+			"CurrentArmor" : 25,
 			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 100,
+			"AssignedArmor" : 25,
 			"DamageLevel" : "Functional"
 		}
    ],
    "inventory" : [
       {
-         "ComponentDefID" : "Weapon_Flamer_Flamer_0-STOCK",
+         "ComponentDefID" : "Weapon_Autocannon_AC20_0-STOCK",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Rear",
+         "MountedLocation" : "Front",
 		 "HardpointSlot" : 0,
 		 "DamageLevel" : "Functional"
       },
       {
-         "ComponentDefID" : "Weapon_LRM_LRM20_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Turret",
-		 "HardpointSlot" : 0,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC20",
          "ComponentDefType" : "AmmunitionBox",
          "MountedLocation" : "Front",
 		 "HardpointSlot" : -1,
 		 "DamageLevel" : "Functional"
       },
       {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC20",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC20",
          "ComponentDefType" : "AmmunitionBox",
          "MountedLocation" : "Front",
 		 "HardpointSlot" : -1,

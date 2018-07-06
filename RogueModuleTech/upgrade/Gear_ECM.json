@@ -14,8 +14,8 @@
         "Details" : "This basic Electronics Warfare Suite is designed to mimic the more advanced Star League-era ECM, Active Probe and Targeting Computer. Cannot be stacked.",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
-    "BonusValueA" : "+ Evasion and Sight.",
-    "BonusValueB" : "+ Harder to Hit and Acc.",
+    "BonusValueA" : "+ Accuracy and Sight.",
+    "BonusValueB" : "+ Harder to Hit.",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",

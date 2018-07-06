@@ -3,7 +3,7 @@
     "Type" : "Laser",
     "WeaponSubType" : "LargeLaserPulse",
     "MinRange" : 0,
-    "MaxRange" : 450,
+    "MaxRange" : 510,
     "RangeSplit" : [
         150,
         300,
@@ -16,7 +16,7 @@
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 2,
-    "DamageVariance" : 10,
+    "DamageVariance" : 15,
     "HeatDamage" : 0,
     "AccuracyModifier" : -2,
     "CriticalChanceMultiplier" : 1,
@@ -40,8 +40,8 @@
         "Details" : "An improvement upon standard Large Lasers, Large Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. Like all Lasers, Large Pulse Lasers enjoy a baseline accuracy bonus over other weapons.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
-    "BonusValueA" : "+2Accuracy",
-    "BonusValueB" : "+2 Evasion Ignore",
+    "BonusValueA" : "15 Var.Dmg.",
+    "BonusValueB" : "Pulse Accuracy",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Laser",

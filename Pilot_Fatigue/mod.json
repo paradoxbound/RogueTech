@@ -1,0 +1,13 @@
+{
+    "Name": "Pilot Quirks",
+    "Enabled": true,
+    "Version": "0.1.alpha",
+    "Description": "Adds Fatigue and Pilot Quirks",
+    "Author": "don Zappo",
+    "Website": "",
+    "Contact": "",
+	
+	"ConflictsWith": [ "No Time To Bleed" ],
+
+    "DLL": "Pilot_Fatigue.dll",
+}

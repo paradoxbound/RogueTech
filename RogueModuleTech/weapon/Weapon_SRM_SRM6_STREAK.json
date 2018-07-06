@@ -3,7 +3,7 @@
     "Type" : "SRM",
     "WeaponSubType" : "SRM6",
     "MinRange" : 0,
-    "MaxRange" : 290,
+    "MaxRange" : 350,
     "RangeSplit" : [
         120,
         210,

@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_ZHUKOV",
+      "Id" : "vehicledef_ZHUKOVcv",
       "Name" : "Zhukov Heavy Tank",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_ZHUKOV",
+   "ChassisID" : "vehiclechassisdef_ZHUKOVcv",
    "VehicleTags": {
       "items": [
          "unit_vehicle",

@@ -1,7 +1,7 @@
 {
 	"Version": 1,
 	"Description": {
-		"Id": "vehicledef_SCHREK",
+		"Id": "vehicledef_SCHREKACcv",
 		"Name": "Schrek AC Carrier",
 		"Details": "",
 		"Icon": "",
@@ -9,7 +9,7 @@
 		"Rarity": 0,
 		"Purchasable": false
 	},
-	"ChassisID": "vehiclechassisdef_SCHREKAC",
+	"ChassisID": "vehiclechassisdef_SCHREKACcv",
 	"VehicleTags": {
 		"items": [
 			"unit_vehicle",

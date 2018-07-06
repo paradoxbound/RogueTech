@@ -9,7 +9,7 @@
     
      "Settings": {
         "RemoveAncestralMech": false,
-        "NumberRandomRonin": 4,
+        "NumberRandomRonin": 7,
         "NumberProceduralPilots": 0,
 		
         "StartingRonin": [

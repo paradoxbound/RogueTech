@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_DEMOLISHERD",
+      "Id" : "vehicledef_DEMOLISHERDcv",
       "Name" : "Demolisher-D",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_DEMOLISHERD",
+   "ChassisID" : "vehiclechassisdef_DEMOLISHERDcv",
    "VehicleTags": {
       "items": [
          "unit_vehicle",

@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_DRILLSON",
+      "Id" : "vehicledef_DRILLSONcv",
       "Name" : "Drillson Hover Tank",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_DRILLSON",
+   "ChassisID" : "vehiclechassisdef_DRILLSONcv",
    "VehicleTags": {
         "items" : [
          "unit_vehicle",

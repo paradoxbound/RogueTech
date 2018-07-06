@@ -12,7 +12,7 @@
         "Id" : "Gear_Leg_Talons",
         "Name" : "Talon Leg Actuators",
         "Details" : "This rare specialised set of Leg actuators enhance all Melee and DFA actions, why the engineer chose to mold them like the talons of a Bird of Prey is open to discussion.",
-        "Icon" : "uixSvgIcon_equipment_ActuatorLeg"
+        "Icon" : "uixSvgIcon_ability_angelofdeath"
     },
     "BonusValueA" : "+15 DFA&Melee Dmg.",
     "BonusValueB" : "+1 DFA&Melee Acc.",
@@ -53,7 +53,7 @@
                 "Id" : "StatusEffect-TalonsDFA",
                 "Name" : "Bird of Prey",
                 "Details" : "Mech has Talons.",
-                "Icon" : "uixSvgIcon_equipment_ActuatorLeg"
+                "Icon" : "uixSvgIcon_ability_angelofdeath"
             },
             "nature" : "Buff",
             "statisticData" : {

@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_ZEPHYR",
+      "Id" : "vehicledef_ZEPHYRcv",
       "Name" : "Zephyr",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_ZEPHYR",
+   "ChassisID" : "vehiclechassisdef_ZEPHYRcv",
    "VehicleTags": {
         "items" : [
          "unit_vehicle",

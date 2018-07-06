@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "turretdef_Standard_Laser",
+      "Id" : "turretdef_Standard_Laser2",
       "Name" : "Hardened Standard Turret",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "turretchassisdef_Standard_laser",
+   "ChassisID" : "turretchassisdef_Standard_laser2",
    "TurretTags": {
       "items": [
          "unit_turret",

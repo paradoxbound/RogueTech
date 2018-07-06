@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "turretdef_Standard_Shredder",
+      "Id" : "turretdef_Standard_Shredder2",
       "Name" : "Hardened Shredder Turret",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "turretchassisdef_Standard_shredder",
+   "ChassisID" : "turretchassisdef_Standard_shredder2",
    "TurretTags": {
       "items": [
          "unit_turret",

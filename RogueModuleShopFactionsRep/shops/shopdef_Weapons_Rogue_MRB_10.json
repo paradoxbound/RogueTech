@@ -1,7 +1,7 @@
 {
-    "ID": "shopdef_Weapons_Rogue_Games",
+    "ID": "shopdef_Weapons_Rogue_MRB_10",
     "RequirementTags": {
-        "items": [      "rep_MercenaryReviewBoard_10"
+        "items": [      "rep_mrb_100"
 		],
         "tagSetSourceFile": ""
     },

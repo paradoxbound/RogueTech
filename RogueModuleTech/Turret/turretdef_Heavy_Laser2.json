@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "turretdef_Heavy_Laser",
+      "Id" : "turretdef_Heavy_Laser2",
       "Name" : "Armored Laser Turret",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "turretchassisdef_Heavy_laser",
+   "ChassisID" : "turretchassisdef_Heavy_laser2",
    "TurretTags": {
       "items": [
          "unit_turret",

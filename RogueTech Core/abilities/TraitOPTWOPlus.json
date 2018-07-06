@@ -6,7 +6,7 @@
 		"Icon" : ""
 	},
 	"Type" : "CalledAccuracy",
-	"ShortDesc" : "+10% Range increase..",
+	"ShortDesc" : "+10% Range increase.",
     "DisplayParams" : "ShowInPilotToolTip",
 	"ActivationTime" : "Passive",
 	"EffectData" : [

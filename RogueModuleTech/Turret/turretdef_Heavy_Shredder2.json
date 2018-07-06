@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "turretdef_Heavy_Shredder",
+      "Id" : "turretdef_Heavy_Shredder2",
       "Name" : "Armored Shredder Turret",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "turretchassisdef_Heavy_shredder",
+   "ChassisID" : "turretchassisdef_Heavy_shredder2",
    "TurretTags": {
       "items": [
          "unit_turret",

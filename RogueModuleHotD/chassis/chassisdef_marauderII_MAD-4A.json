@@ -74,6 +74,7 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
+			
             ],
             "Tonnage": 0,
             "InventorySlots": 10,

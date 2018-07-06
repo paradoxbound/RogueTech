@@ -1,7 +1,7 @@
 {
 	"Version": 1,
 	"Description": {
-		"Id": "vehicledef_MARSDENIIA",
+		"Id": "vehicledef_MARSDENIIAcv",
 		"Name": "Marsden II-A MBT",
 		"Details": "",
 		"Icon": "",
@@ -9,7 +9,7 @@
 		"Rarity": 0,
 		"Purchasable": false
 	},
-	"ChassisID": "vehiclechassisdef_MARSDENIIA",
+	"ChassisID": "vehiclechassisdef_MARSDENIIAcv",
 	"VehicleTags": {
 		"items": [
 			"unit_vehicle",

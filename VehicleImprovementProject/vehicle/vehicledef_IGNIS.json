@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_IGNIS",
+      "Id" : "vehicledef_IGNIScv",
       "Name" : "Ignis",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_IGNIS",
+   "ChassisID" : "vehiclechassisdef_IGNIScv",
    "VehicleTags": {
       "items": [
          "unit_vehicle",

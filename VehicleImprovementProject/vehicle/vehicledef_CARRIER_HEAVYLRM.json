@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_CARRIER_HEAVYLRM",
+      "Id" : "vehicledef_CARRIER_HEAVYLRMcv",
       "Name" : "Heavy LRM Carrier",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_CARRIER_HEAVYLRM",
+   "ChassisID" : "vehiclechassisdef_CARRIER_HEAVYLRMcv",
    "VehicleTags": {
       "items": [
          "unit_vehicle",

@@ -3,7 +3,7 @@
     "Type" : "LRM",
     "WeaponSubType" : "LRM5",
     "MinRange" : 90,
-    "MaxRange" : 570,
+    "MaxRange" : 630,
     "RangeSplit" : [
         165,
         330,

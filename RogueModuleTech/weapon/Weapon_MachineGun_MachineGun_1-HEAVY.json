@@ -3,7 +3,7 @@
     "Type" : "MachineGun",
     "WeaponSubType" : "MachineGun",
     "MinRange" : 0,
-    "MaxRange" : 160,
+    "MaxRange" : 220,
     "RangeSplit" : [
         80,
         120,
@@ -38,7 +38,7 @@
         "Id" : "Weapon_MachineGun_MachineGun_1-HEAVY",
         "Name" : "HMG",
         "Details" : "As its name implies, the Heavy Machine Gun is a larger version of the standard Machine Gun. The HMG does more damage, a higher rate of fire, and has a better chance of penetrating and destroying critical components, but weighs twice as much, and suffers from recoil. ",
-        "Icon" : "uixSvgIcon_weapon_Support"
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "",
     "BonusValueB" : "",

@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_VEDETTE",
+      "Id" : "vehicledef_VEDETTEcv",
       "Name" : "Vedette Medium Tank",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_VEDETTE",
+   "ChassisID" : "vehiclechassisdef_VEDETTEcv",
    "VehicleTags": {
       "items": [
          "unit_vehicle",

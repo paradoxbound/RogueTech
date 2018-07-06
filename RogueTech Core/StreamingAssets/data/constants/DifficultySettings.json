@@ -1116,8 +1116,20 @@
 			"Options": [
 				{
 					"ID": "diff_SM_supereasy",
-					"Name": "3580000",
+					"Name": "5580000",
 					"DifficultyValue": -2,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingCBills",
+							"ConstantValue": "5580000"
+						}
+					]
+				},
+				{
+					"ID": "diff_SM_easy",
+					"Name": "3580000",
+					"DifficultyValue": -1,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -1127,50 +1139,38 @@
 					]
 				},
 				{
-					"ID": "diff_SM_easy",
-					"Name": "2580000",
-					"DifficultyValue": -1,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingCBills",
-							"ConstantValue": "2580000"
-						}
-					]
-				},
-				{
 					"ID": "diff_SM_medium",
-					"Name": "1580000",
+					"Name": "2880000",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingCBills",
-							"ConstantValue": "1580000"
+							"ConstantValue": "2880000"
 						}
 					]
 				},
 				{
 					"ID": "diff_SM_hard",
-					"Name": "780000",
+					"Name": "2000000",
 					"DifficultyValue": 1,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingCBills",
-							"ConstantValue": "780000"
+							"ConstantValue": "2000000"
 						}
 					]
 				},
 				{
 					"ID": "diff_SM_veryhard",
-					"Name": "340000",
+					"Name": "1340000",
 					"DifficultyValue": 2,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingCBills",
-							"ConstantValue": "340000"
+							"ConstantValue": "1340000"
 						}
 					]
 				}

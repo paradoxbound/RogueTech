@@ -3,7 +3,7 @@
     "Type" : "Laser",
     "WeaponSubType" : "LargeLaserPulse",
     "MinRange" : 0,
-    "MaxRange" : 330,
+    "MaxRange" : 430,
     "RangeSplit" : [
         120,
         210,
@@ -16,7 +16,7 @@
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 1,
-    "DamageVariance" : 20,
+    "DamageVariance" : 25,
     "HeatDamage" : 0,
     "AccuracyModifier" : -1,
     "CriticalChanceMultiplier" : 2.0,
@@ -41,7 +41,7 @@
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "Unknown",
-    "BonusValueB" : "",
+    "BonusValueB" : "25 Var.Dmg.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Laser",

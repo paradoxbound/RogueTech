@@ -3,7 +3,7 @@
     "Type" : "Autocannon",
     "WeaponSubType" : "AC10",
     "MinRange" : 0,
-    "MaxRange" : 470,
+    "MaxRange" : 530,
     "RangeSplit" : [
         160,
         310,

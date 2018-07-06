@@ -3,7 +3,7 @@
     "Type" : "Flamer",
     "WeaponSubType" : "Flamer",
     "MinRange" : 0,
-    "MaxRange" : 160,
+    "MaxRange" : 220,
     "RangeSplit" : [
         60,
         110,
@@ -38,7 +38,7 @@
         "Id" : "Weapon_Flamer_Flamer_2-Olympus",
         "Name" : "Flamer + +",
         "Details" : "Flamer weapons are unique in that they deal little physical damage but instead expel superheated plasma, applying substantial heat to their target. When done properly, this can hamper enemy return fire or even cause the targeted unit to shut down from overheating.",
-        "Icon" : "uixSvgIcon_weapon_Support"
+        "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "+ 5 Dmg. (H)",
     "BonusValueB" : "+ 2 Accuracy.",

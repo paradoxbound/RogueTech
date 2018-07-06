@@ -1,7 +1,7 @@
 {
 	"Version": 1,
 	"Description": {
-		"Id": "vehicledef_LIGHTSRM",
+		"Id": "vehicledef_LIGHTSRMcv",
 		"Name": "Light SRM Carrier",
 		"Details": "",
 		"Icon": "",
@@ -9,7 +9,7 @@
 		"Rarity": 0,
 		"Purchasable": false
 	},
-	"ChassisID": "vehiclechassisdef_LIGHTSRM",
+	"ChassisID": "vehiclechassisdef_LIGHTSRMcv",
 	"VehicleTags": {
 		"items": [
 			"unit_vehicle",

@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_APC_Turhan",
+      "Id" : "vehicledef_APC_TURHANcv",
       "Name" : "Turhan APC",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_APC_Turhan",
+   "ChassisID" : "vehiclechassisdef_APC_TURHANcv",
    "VehicleTags": {
       "items": [
          "unit_vehicle",

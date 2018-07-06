@@ -146,7 +146,7 @@
             "hasPrefabName": false
         },		
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
@@ -190,7 +190,7 @@
             "hasPrefabName": false
         },	
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Myomer_TSM",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
@@ -201,7 +201,7 @@
             "hasPrefabName": false
         },	
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Myomer_TSM",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
@@ -212,7 +212,7 @@
             "hasPrefabName": false
         },	
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Myomer_TSM",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
@@ -223,7 +223,7 @@
             "hasPrefabName": false
         },	
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Myomer_TSM",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",

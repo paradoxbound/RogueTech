@@ -139,6 +139,81 @@ If you want to change the time or reputation, just open the file and change the 
 "All these goodies brought to you by the Deadly Sins stable, enjoy your stay on Solaris"
 
 ---------
+0.987
+
+>!!New update raises difficulty of deployments. Finish your current deployment before updating if you don't have two or more battle-ready lances.!!<
+
+Changed several icons
+Hopefully fixed morphyum appearance for old saves
+Warlord buffed
+Added 2 new turrets
+Fixed couple typos
+Hopefully fixed not all turrets spawning
+Many tweaks to all weapons 
+Weapons now can fire at Extreme Ranges, usually 2hexes(60units) above long range, at a penalty of -8 to hit
+Skulls on drop now show what your lance is capable off instad of its (tooltip not changed yet)
+Spikes nerfed to 2% 
+Supercharger is now a CriticalComponent (if destroyed, destroys mech)
+Added a Pirate Marauder II
+Gladiator changed to account for Plasma nerf
+Plasma removed PPC Cap function
+
+Deployments updated to 1.3
+You will be warned that you should have power and mechs before tackling them
+
+
+New dll by Life (delete old armorpoints.dll)
+Armor Repair
+You now HAVE to repair your mechs armour and structure after each mission!
+This is scaled by tonnage, lighter mechs are easier repaired
+This is adjusted by the armour speed difficulty setting
+(this also means, early game, uparmouring is faster)
+
+Drop costs have been halfed to account for this
+They still simulate you paying for ammo and fuel
+
+Monthly maintenance cost cut in half to account for this as well
+
+Selection of starting funds has been increased to accomodate this early
+
+New dll by Don Zappo
+Pilot Fatigue
+
+After each mission a pilot gets fatigued, unable to be used for a small duration depending on their guts and tactics skills and you overall morale
+
+The Math for it
+Days Fatigued = 15 - (Guts Value) - (Tactics Value)/2 - (Current Morale - 10)/(5)
+
+Increased starting ronin to 7 to accomodate for this
+
+MRB shop rep raised to
+100-250-500-800 per tier of special and elite gear
+
+PReview patched several dll's and missing files
+
+
+0.986 Release patch7
+Added the Kraken Pirate Elite
+Buffed the Power Armour
+Further Reduced Camera Delays
+Raised mrb shop threshholds
+Moved crabs center torso energy slots to right torso, 27b gained missile hardpoints
+Damage Variance Updated for Melee and Gauss Weapons
+Pirate Gauss gained Variance
+Third new Melee Weapon and mech to carry it
+
+AI Tweaks
+If ai problems appear (crashes, lockups)
+Try to delete the role_lastmanstanding.json from RogueTechCore
+
+
+0.986 Release patch6
+Damage variance now includes ppc
+Fixed Solaris shops
+MRB shops now should properly grant gear at 10 60 150 250 mrb rep
+Changed Morphyums picture
+
+
 
 0.986 Release patch5
 Added MarauderII

@@ -1,7 +1,7 @@
 {
 	"Version": 1,
 	"Description": {
-		"Id": "vehicledef_BEHEMOTHA",
+		"Id": "vehicledef_BEHEMOTHAcv",
 		"Name": "Up-Armored Behemoth",
 		"Details": "",
 		"Icon": "",
@@ -9,7 +9,7 @@
 		"Rarity": 0,
 		"Purchasable": false
 	},
-	"ChassisID": "vehiclechassisdef_BEHEMOTHA",
+	"ChassisID": "vehiclechassisdef_BEHEMOTHAcv",
 	"VehicleTags": {
 		"items": [
 			"unit_vehicle",

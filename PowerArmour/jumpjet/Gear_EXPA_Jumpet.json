@@ -61,7 +61,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "ToHitThisActor",
                 "operation" : "Float_Add",
-                "modValue" : "2.0",
+                "modValue" : "3.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
@@ -155,7 +155,35 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
-        }
+        },
+		{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1,				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "AbilityDefEXPAEV",
+				"Name" : "EVASIVE MOVE",
+				"Details" : "PASSIVE: This unit generates an extra EVASIVE charge from movement actions (up to its maximum).",
+				"Icon" : "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData" : 
+			{
+				"statName" : "EvasivePipsGainedAdditional",
+				"operation" : "Int_Add",
+				"modValue" : "4",
+				"modType" : "System.Int32"
+			},
+			"nature" : "Buff"
+		},		
     ],
     "ComponentTags" : {
         "items" : [

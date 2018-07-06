@@ -41,7 +41,7 @@
     "PunchesWithLeftArm": false,
     "MeleeDamage": 80,
     "MeleeInstability": 55,
-    "MeleeToHitModifier": -1,
+    "MeleeToHitModifier": -2,
     "DFADamage": 65,
     "DFAToHitModifier": 0,
     "DFASelfDamage": 65,
@@ -95,14 +95,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-				{
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }			
+			
 			],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -113,6 +106,14 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+				{
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }			
             ],
             "Tonnage": 0,
             "InventorySlots": 10,

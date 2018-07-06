@@ -12,7 +12,7 @@
         "Id" : "Gear_Combat_Shield",
         "Name" : "Combat Shield",
         "Details" : "Introduced in the late 31st Century on Solaris VII, the Combat Shield is a movable piece of armor that can be mounted on BattleMechs. The shield was first introduced as a method to add protection for a MechWarrior fighting in the arenas of Solaris. Shields are primary defensive equipment used to protect a 'Mech from Weapons fire and some forms of physical attacks. Equipping more then 1 wont yield additional effects.",
-        "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+        "Icon" : "uixSvgIcon_ability_angelofdeath"
     },
     "BonusValueA" : "-15% Damage Taken.",
     "BonusValueB" : "-20% Jump Distance.",
@@ -53,7 +53,7 @@
                 "Id" : "StatusEffect-CombatShield",
                 "Name" : "REDUCED DAMAGE TAKEN",
                 "Details" : "All incoming damage reduced by 15% and 20% reduced jump distance.",
-                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+                "Icon" : "uixSvgIcon_ability_angelofdeath"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -88,7 +88,7 @@
 				"Id" : "ShieldJumpPenalty",
 				"Name" : "Jump Distance",
 				"Details" : "Jump distance decreased by 20%",
-				"Icon" : "uixSvgIcon_ability_mastertactician"
+				"Icon" : "uixSvgIcon_ability_angelofdeath"
 			},
 			"statisticData" : 
 			{

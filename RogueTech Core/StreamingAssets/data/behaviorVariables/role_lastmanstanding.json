@@ -1,1 +1,49 @@
-{}
+{"behaviorVariables" : [
+	{
+	    /* Optimal distance to nearest ally. (See
+	       PreferOptimalDistanceToAllyFactor.) */
+            "k" : "Float_OptimalAllyDistance",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 368.0,
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer locations close to
+	       optimal distance to other allies. */
+            "k" : "Float_PreferOptimalDistanceToAllyFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.2,
+            }
+	},
+	{
+	    /* Influence Factor Weight to prefer locations close to
+	       optimal distance to other allies WHEN SPRINTING. */
+            "k" : "Float_SprintPreferOptimalDistanceToAllyFactorWeight",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 0.1,
+            }
+	},
+	{
+	    /* The number of hostiles considered when evaluating
+	       influence maps. */
+            "k" : "Int_HostileInfluenceCount",
+            "v" : {
+		"type" : "Int",
+		"intVal" : 3,
+            }
+	},
+	{
+	    /* The number of allies considered when evaluating
+	       influence maps. */
+            "k" : "Int_AllyInfluenceCount",
+            "v" : {
+		"type" : "Int",
+		"intVal" : 0,
+            }
+	},	
+
+]
+}

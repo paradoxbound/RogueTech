@@ -2,8 +2,8 @@
 	"Description" : {
 		"Id" : "AbilityDefG8",
 		"Name" : "Warlord",
-		"Details" : "PASSIVE: Grants 10% Weapon damage and +1 all accuracy.",
-		"Icon" : "uixSvgIcon_ability_precisionstrike"
+		"Details" : "PASSIVE: Grants 15% Weapon damage and +2 all accuracy.",
+		"Icon" : "uixSvgIcon_skullAtlas"
 	},
     "DisplayParams" : "ShowInMWTRay",
 	"ReqSkill" : "Gunnery",
@@ -25,7 +25,7 @@
                 "Id" : "StatusEffect-WarlordDamage",
                 "Name" : "PPC Capacitator",
                 "Details" : "Increased PPC Damage.",
-                "Icon" : "uixSvgIcon_equipment_TTS"
+                "Icon" : "uixSvgIcon_skullAtlas"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -33,7 +33,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.10",
+                "modValue" : "1.15",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -76,7 +76,7 @@
                 "Id" : "Warlord-TO-HIT",
                 "Name" : "Targeting Computer",
                 "Details" : "Beaching Shot, Improved Accuracy/Called Shot.",
-                "Icon" : "uixSvgIcon_ability_precisionstrike"
+                "Icon" : "uixSvgIcon_skullAtlas"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -84,7 +84,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "AccuracyModifier",
                 "operation" : "Float_Add",
-                "modValue" : "-1",
+                "modValue" : "-2",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",

@@ -11,25 +11,25 @@
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 25,
+    "HeatGenerated" : 20,
     "Damage" : 55,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 1,
-    "DamageVariance" : 0,
+    "DamageVariance" : 20,
     "HeatDamage" : 25,
     "AccuracyModifier" : -1,
-    "CriticalChanceMultiplier" : 2,
+    "CriticalChanceMultiplier" : 1.5,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,
     "ShotsWhenFired" : 1,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 0,
-    "Instability" : 20,
+    "Instability" : 15,
     "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
     "Description" : {
-        "Cost" : 350000,
+        "Cost" : 950000,
         "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Deadly Sins",
@@ -38,10 +38,10 @@
         "Id" : "Weapon_Elite_2_PlasmaTorch",
         "Name" : "Plasma Lance",
         "Details" : "Construction and engineering mechs use Plasma Torches to cut and weld metal. This Specific Torch was actually redesigned for Military use to act like an energy Lance. Affected by PPC Cap.",
-        "Icon" : "uixSvgIcon_weapon_Support"
+        "Icon" : "uixSvgIcon_run_n_gun"
     },
-    "BonusValueA" : "+DMG.",
-    "BonusValueB" : "+10 Melee DMG.",
+    "BonusValueA" : "20 Var.Dmg.",
+    "BonusValueB" : "+10MeleeDMG+Var.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Flamer",
@@ -80,7 +80,7 @@
                 "Id" : "StatusEffect-EliteTorch",
                 "Name" : "Military Torch",
                 "Details" : "Melee attacks deal 10 more damage.",
-                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+                "Icon" : "uixSvgIcon_run_n_gun"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -103,7 +103,58 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
-        }	
+        },
+       {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : False
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-EliteTorchMeleeV",
+                "Name" : "Military Torch",
+                "Details" : "Melee attacks deal 10 more damage.",
+                "Icon" : "uixSvgIcon_run_n_gun"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamageVariance",
+                "operation" : "Float_Add",
+                "modValue" : "10.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "Melee"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }		
         
     ],
     "ComponentTags" : {

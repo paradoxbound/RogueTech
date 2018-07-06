@@ -12,10 +12,10 @@
         "Id" : "Gear_Solaris_Spikes",
         "Name" : "Spiked Plates",
         "Details" : "Spikes have been used as decoration on BattleMechs for centuries, but had no effect in combat. The Federated Commonwealth changed that when it introduced reinforced and strengthened Spikes capable of inflicting damage on enemy units in close combat. Based on the same engineering reports that gave birth to the Lyran Commonwealth's Hatchet, these experimental melee weapons have demonstrated their effectiveness in the Solaris arenas. Effect wont stack beyond 10.",
-        "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+        "Icon" : "uixSvgIcon_mwFury"
     },
-    "BonusValueA" : "-3% Damage Taken.",
-    "BonusValueB" : "+3% Melee Dmg.",
+    "BonusValueA" : "-2% Damage Taken.",
+    "BonusValueB" : "+2% Melee Dmg.",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
@@ -53,7 +53,7 @@
                 "Id" : "StatusEffect-SpikedPlates",
                 "Name" : "Spiked Armour Plates",
                 "Details" : "All incoming damage reduced by 5% and 5% extra Melee Damage.",
-                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+                "Icon" : "uixSvgIcon_mwFury"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -61,7 +61,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
                 "operation" : "Float_Add",
-                "modValue" : "-0.03",
+                "modValue" : "-0.02",
                 "modType" : "System.Single"
             },
             "tagData" : null,
@@ -96,7 +96,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.03",
+                "modValue" : "1.02",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",

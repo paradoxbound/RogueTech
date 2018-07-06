@@ -1,7 +1,7 @@
 {
-    "ID": "shopdef_Weapons_Rogue_Games",
+    "ID": "shopdef_Weapons_Rogue_MRB_70",
     "RequirementTags": {
-        "items": [      "rep_MercenaryReviewBoard_70"
+        "items": [      "rep_mrb_800"
 		],
         "tagSetSourceFile": ""
     },
@@ -25,6 +25,13 @@
             "Count": 0
 		
         },
+        {
+            "ID": "Weapon_Elite_2_Jackhammer",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0
+		
+        },		
         {
             "ID": "Gear_Combat_Shield",
             "Type": "Upgrade",

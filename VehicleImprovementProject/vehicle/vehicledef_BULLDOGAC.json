@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_BULLDOGAC",
+      "Id" : "vehicledef_BULLDOGACcv",
       "Name" : "Bulldog AC",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_BULLDOGAC",
+   "ChassisID" : "vehiclechassisdef_BULLDOGACcv",
    "VehicleTags": {
       "items": [
          "unit_vehicle",

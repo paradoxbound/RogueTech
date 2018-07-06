@@ -466,7 +466,7 @@
             "k" : "Float_BulwarkThresholdPercentage",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 40
+		"floatVal" : 10
             }
 	},
 	{
@@ -1009,7 +1009,7 @@
 	    "k" : "Float_PatrolRouteThrottlePercentage",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 80.0
+		"floatVal" : 90.0
 	    }
 	},
 	{

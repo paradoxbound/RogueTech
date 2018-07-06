@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_PO",
+      "Id" : "vehicledef_POcv",
       "Name" : "Po Heavy Tank",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_PO",
+   "ChassisID" : "vehiclechassisdef_POcv",
    "VehicleTags": {
       "items": [
          "unit_vehicle",

@@ -1,6 +1,6 @@
 {
 	"Description": {
-		"Id": "vehiclechassisdef_ZHUKOV",
+		"Id": "vehiclechassisdef_ZHUKOVcv",
 		"Name": "Zhukov Heavy Tank",
 		"Details": "",
 		"Icon": "MANTICORE",
@@ -61,9 +61,11 @@
 			"z": -4.5
 		}
 	],
-	"Locations": [{
+	"Locations": [
+            {
 			"Location": "Front",
-			"Hardpoints": [{
+			"Hardpoints": [
+            {
 				"WeaponMount": "Missile",
 				"Omni": false
 			}],
@@ -98,7 +100,8 @@
 		},
 		{
 			"Location": "Turret",
-			"Hardpoints": [{
+			"Hardpoints": [
+                {
 					"WeaponMount": "Ballistic",
 					"Omni": false
 				},

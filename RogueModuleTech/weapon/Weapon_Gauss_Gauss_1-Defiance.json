@@ -3,7 +3,7 @@
     "Type" : "Gauss",
     "WeaponSubType" : "Gauss",
     "MinRange" : 90,
-    "MaxRange" : 720,
+    "MaxRange" : 780,
     "RangeSplit" : [
         180,
         360,

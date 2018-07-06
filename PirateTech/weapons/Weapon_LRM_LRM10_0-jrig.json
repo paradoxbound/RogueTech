@@ -3,7 +3,7 @@
     "Type" : "LRM",
     "WeaponSubType" : "LRM10",
     "MinRange" : 0,
-    "MaxRange" : 460,
+    "MaxRange" : 540,
     "RangeSplit" : [
         100,
         180,
@@ -16,7 +16,7 @@
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 1,
-    "DamageVariance" : 0,
+    "DamageVariance" : 1,
     "HeatDamage" : 0,
     "AccuracyModifier" : 1,
     "CriticalChanceMultiplier" : 1,

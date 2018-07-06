@@ -13,7 +13,8 @@
         { "Type": "ChassisDef", "Path": "chassis" },
         { "Type": "MovementCapabilitiesDef", "Path": "move" },
 		{ "Type": "UpgradeDef", "Path": "upgrades" },
-        { "Type": "WeaponDef", "Path": "weapons" },					
+        { "Type": "WeaponDef", "Path": "weapons" },
+        { "Type": "HeatSinkDef", "Path": "heatsink" },		
     ]
 	
 	

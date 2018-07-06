@@ -1,7 +1,7 @@
 {
 	"Version": 1,
 	"Description": {
-		"Id": "vehicledef_BEHEMOTH",
+		"Id": "vehicledef_BEHEMOTHcv",
 		"Name": "Behemoth",
 		"Details": "",
 		"Icon": "",
@@ -9,7 +9,7 @@
 		"Rarity": 0,
 		"Purchasable": false
 	},
-	"ChassisID": "vehiclechassisdef_BEHEMOTH",
+	"ChassisID": "vehiclechassisdef_BEHEMOTHcv",
 	"VehicleTags": {
 		"items": [
 			"unit_vehicle",

@@ -1,7 +1,7 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "turretdef_Heavy_LRM",
+      "Id" : "turretdef_Heavy_LRM2",
       "Name" : "Armored LRM Turret",
       "Details" : "",
       "Icon" : "",
@@ -9,7 +9,7 @@
       "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "turretchassisdef_Heavy_lrm",
+   "ChassisID" : "turretchassisdef_Heavy_lrm2",
    "TurretTags": {
       "items": [
          "unit_turret",
