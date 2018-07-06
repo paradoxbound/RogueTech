@@ -35,13 +35,13 @@
 	  "DamageLevel" : "Functional"
     },
     {
-      "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 2,
 	  "DamageLevel" : "Functional"
     },
     {
-      "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 3,
 	  "DamageLevel" : "Functional"
@@ -64,6 +64,12 @@
       "HardpointSlot": -1,
 	  "DamageLevel" : "Functional"
     },
+    {
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+	  "DamageLevel" : "Functional"
+    },	
     {
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
       "ComponentDefType": "AmmunitionBox",
