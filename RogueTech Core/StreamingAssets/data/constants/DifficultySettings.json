@@ -423,7 +423,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 6,
+			"DefaultIndex": 8,
 			"Options": [
 				{
 					"ID": "diff_DV_10",
@@ -544,7 +544,19 @@
 							"ConstantValue": "1"
 						}
 					]
-				}
+				},
+				{
+					"ID": "diff_DV_0",
+					"Name": "0",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyVariance",
+							"ConstantValue": "0"
+						}
+					]
+				}				
 			]
 		},
 		{

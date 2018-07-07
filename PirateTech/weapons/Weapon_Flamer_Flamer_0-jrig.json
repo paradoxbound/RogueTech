@@ -29,11 +29,11 @@
     "Instability" : 0,
     "WeaponEffectID" : "WeaponEffect-Weapon_Flamer",
     "Description" : {
-        "Cost" : 2000,
+        "Cost" : 122000,
         "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "Skylight",
-        "Model" : "Heat Damage Flamethrower",
+        "Model" : "Long Range Flamethrower",
         "UIName" : "Pirate Flamer",
         "Id" : "Weapon_Flamer_Flamer_0-jrig",
         "Name" : "Pirate Flamer",

@@ -29,7 +29,7 @@
     "Instability" : 1.5,
     "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
     "Description" : {
-        "Cost" : 2500,
+        "Cost" : 322500,
         "Rarity" : 3,
         "Purchasable" : true,
         "Manufacturer" : "Another Idiot",

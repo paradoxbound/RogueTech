@@ -1,0 +1,65 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC10",
+    "MinRange" : 0,
+    "MaxRange" : 510,
+    "RangeSplit" : [
+        150,
+        300,
+        450
+    ],
+    "AmmoCategory" : "Flamer",
+    "StartingAmmoCapacity" : 8,
+    "HeatGenerated" : 12,
+    "Damage" : 35,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 20,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 10,
+    "ShotsWhenFired" : 4,
+    "ProjectilesPerShot" : 2,
+    "AttackRecoil" : 3,
+    "Instability" : 10,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Single",
+    "Description" : {
+        "Cost" : 100000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Cheapskate",
+        "Model" : "Blunderbuster",
+        "UIName" : "Pepperbox Rifle",
+        "Id" : "Weapon_Autocannon_AC10_PEPPERBOX",
+        "Name" : "Pepperbox Rifle",
+        "Details" : "I'm not sure who thought this was a good idea,but someone welded together a bunch rifle barrels and crude breach blocks together. Thank the gods they marked them because there are two different calibers. There's no ammo feed system, each one is single shot. There are wired to fire in two sets, because if they all went off at once it would probably put your mech on it's back.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "Unknown",
+    "BonusValueB" : "20 Var.Dmg.",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC20",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1",
+            "range_long"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

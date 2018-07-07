@@ -29,7 +29,7 @@
     "Instability" : 20,
     "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
     "Description" : {
-        "Cost" : 28000,
+        "Cost" : 528000,
         "Rarity" : 4,
         "Purchasable" : true,
         "Manufacturer" : "Magna",

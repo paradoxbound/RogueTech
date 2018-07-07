@@ -16,7 +16,7 @@
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 1,
-    "DamageVariance" : 25,
+    "DamageVariance" : 28,
     "HeatDamage" : 0,
     "AccuracyModifier" : -1,
     "CriticalChanceMultiplier" : 2.0,
@@ -29,7 +29,7 @@
     "Instability" : 8,
     "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Large",
     "Description" : {
-        "Cost" : 155000,
+        "Cost" : 1155000,
         "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "SCI",

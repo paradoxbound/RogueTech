@@ -12,6 +12,7 @@
         { "Type": "AbilityDef", "Path": "abilities" },
         { "Type": "PilotDef", "Path": "AIPilotsBuff" },
         { "Type": "PilotDef", "Path": "turretpilots" },	
+	    { "Type": "WeaponDef", "Path": "weapons" }		
     ],
 	
 	

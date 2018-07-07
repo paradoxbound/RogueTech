@@ -3,7 +3,7 @@
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
     "Description" : {
-        "Cost" : 320000,
+        "Cost" : 20000,
         "Rarity" : 3,
         "Purchasable" : true,
         "Manufacturer" : "Pirates",
@@ -14,7 +14,7 @@
         "Details" : "This looks like it once was a Ceres Metals Cockpit but someone made it look like a helm and added spikes to it!.",
         "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
-    "BonusValueA" : "+ 2 Injury Resist",
+    "BonusValueA" : "+ 1 Injury Resist",
     "BonusValueB" : "+5% Melee Damage.",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
@@ -52,7 +52,7 @@
             "Description" : {
                 "Id" : "StatusEffect-Spikedhelmet",
                 "Name" : "Spiked Helmet",
-                "Details" : "Prevents 2 Injuries and increases melee damage by 5%.",
+                "Details" : "Prevents 1 Injuries and increases melee damage by 5%.",
                 "Icon" : "uixSvgIcon_equipment_Cockpit"
             },
             "nature" : "Buff",
@@ -61,7 +61,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "BonusHealth",
                 "operation" : "Int_Add",
-                "modValue" : "2",
+                "modValue" : "1",
                 "modType" : "System.Int32",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Pilot",

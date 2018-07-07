@@ -1,7 +1,7 @@
 {
     "Category" : "AntiPersonnel",
     "Type" : "PPC",
-    "WeaponSubType" : "PPC",
+    "WeaponSubType" : "PPCER",
     "MinRange" : 0,
     "MaxRange" : 40,
     "RangeSplit" : [
@@ -29,7 +29,7 @@
     "Instability" : 15,
     "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
     "Description" : {
-        "Cost" : 950000,
+        "Cost" : 1150000,
         "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Deadly Sins",
@@ -37,7 +37,7 @@
         "UIName" : "Plasma Lance",
         "Id" : "Weapon_Elite_2_PlasmaTorch",
         "Name" : "Plasma Lance",
-        "Details" : "Construction and engineering mechs use Plasma Torches to cut and weld metal. This Specific Torch was actually redesigned for Military use to act like an energy Lance. Affected by PPC Cap.",
+        "Details" : "Construction and engineering mechs use Plasma Torches to cut and weld metal. This Specific Torch was actually redesigned for Military use to act like an energy Lance. Not affected by PPC Cap.",
         "Icon" : "uixSvgIcon_run_n_gun"
     },
     "BonusValueA" : "20 Var.Dmg.",

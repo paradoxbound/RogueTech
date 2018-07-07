@@ -29,7 +29,7 @@
     "Instability" : 15,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Single",
     "Description" : {
-        "Cost" : 15000,
+        "Cost" : 515000,
         "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "Western",

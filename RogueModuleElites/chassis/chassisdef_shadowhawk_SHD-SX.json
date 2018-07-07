@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 8400000,
+        "Cost": 14400000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "",
@@ -11,7 +11,7 @@
         "Details": "Strix, in the mythology of terran antiquity, was a bird of ill omen, the product of metamorphosis, that fed on human flesh and blood. It also referred to witches and related maleficent folkloric beings. Another typical Solaris 'Mech is it build as much for show as for efficiency.",
         "Icon": "uixTxrIcon_shadowhawk"
     },
-    "MovementCapDefID": "movedef_shadowhawk_SHD-2H",
+    "MovementCapDefID": "movedef_shadowhawk_SHD-SX",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_shadowhawk",
     "PrefabIdentifier": "chrPrfMech_shadowhawkBase-001",

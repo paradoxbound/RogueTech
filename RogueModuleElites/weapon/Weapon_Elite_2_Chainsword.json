@@ -29,7 +29,7 @@
     "Instability" : 7,
     "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
     "Description" : {
-        "Cost" : 850000,
+        "Cost" : 1150000,
         "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Deadly Sins",

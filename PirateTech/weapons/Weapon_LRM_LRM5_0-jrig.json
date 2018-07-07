@@ -11,7 +11,7 @@
     ],
     "AmmoCategory" : "LRM",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 6,
+    "HeatGenerated" : 10,
     "Damage" : 5,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
@@ -29,7 +29,7 @@
     "Instability" : 2,
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM5",
     "Description" : {
-        "Cost" : 12000,
+        "Cost" : 312000,
         "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "GM",
