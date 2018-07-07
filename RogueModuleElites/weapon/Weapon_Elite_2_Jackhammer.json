@@ -78,7 +78,7 @@
             "Description" : {
                 "Id" : "StatusEffect-EliteHammer",
                 "Name" : "Hydraulic Fists",
-                "Details" : "Melee attacks deal 15 more stability damage.",
+                "Details" : "Melee attacks deal 20 more stability damage.",
                 "Icon" : "uixSvgIcon_run_n_gun"
             },
             "nature" : "Buff",

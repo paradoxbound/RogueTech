@@ -1,15 +1,17 @@
 
 RogueTech
+=========
 
 RogueTech has as goal to provide new challenges and a harsher simgame experience. You have to survive by all means, the enemys will do their best to kill you and no one gives a rats ass about some merc dying
 
 The timeline for this mod is at the start of 4th Succesion and the War of 3039, when the the first technologies of the Helm Core appear around the sphere.
 
-THIS MOD IS NOT SUPPOSED TO BE EASY, ENEMIES ARE DEADLIER AND THAT'S INTENTIONAL!
+**THIS MOD IS NOT SUPPOSED TO BE EASY, ENEMIES ARE DEADLIER AND THAT'S INTENTIONAL!**
 
 I mean, how fair would it be to just have the player have all these fancy toys?
 
 Highlights
+----------
 
     Big, RogueLike, Sandbox Experience
     Rebalanced Sim and Combat game, to give you a harsher world.
@@ -18,46 +20,38 @@ Highlights
 
 
 Included Mods
-Check this Article ﻿for the mods included in this pack.
+-------------
+Check this Article for the mods included in this pack: https://www.nexusmods.com/battletech/articles/27
 
 Required Mods
-You WILL need MPStark's BattletechModLoader(BTML) and ModTek in the newest versions, since older one break the mod.
-UPGRADE TO MODTEK 0.2!
-
-    ModTek﻿
-    BattleTechModLoader
-
-    ﻿
+-------------
+MPStark's BattletechModLoader(BTML): https://github.com/Mpstark/BattleTechModLoader/releases
 
 Install
+-------
+*The All in One, this is the intended game experience. The AIO Package includes most required dll's.*
 
-The All in One, this is the intented game experience.
-The AIO Package includes most required dll's
-
-    Select your Battletech\mods\ folder and extract the files
-    Start your game
+1. Select your BATTLETECH\Mods\ folder and extract the files
+2. Start your game
 	
-	FIRST START TAKES A WHILE BE PATIENT
+**FIRST START TAKES A WHILE BE PATIENT**
 
-
-Optional:
-
+### Optional:
 You are also free to poke and prod each of the files to see what you can do.
 
 Update:
+-------
+To update, simply overwrite existing files.
 
-    To update, simply overwrite existing files.
-
+IF the changelog tells you to do a clean install, delete your mods folder before patching!
 
 IMPORTANT!
-
-If you had other mods installed, and the game doesnt start, delete all saves that uses these as the game may try to reference files from these and can crash on startup
-
-This is a hbs issue with internal databases on saves, not a RogueTech bug
-Changelog
-The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).
+----------
+If you had other mods installed, and the game doesnt start, delete all saves that uses these as the game may try to reference files from these and can crash on startup.
+This is a hbs issue with internal databases on saves, not a RogueTech bug.
 
 Special Thanks
+--------------
 I want to credit MPStark, Morphyum, RealityMachine and janxious for their dll's, which they have given me permission to be used for this mod pack.
 
 And credit where credit is due, everyone on the battletech discord modders channel, who gave input and who helps ironing out bugs, you are all great guys :)
@@ -65,80 +59,15 @@ And credit where credit is due, everyone on the battletech discord modders chann
 Thanks to Callyste for the gorgeous Header
 
 Notes
+-----
 Anyone may take this apart to figure out how modtek works, ill try to add as many different stuff as possible for this purpose. I will also answer about everything i learn and tell you how to use it.
 
 
-
-
-
-
-
-
-
-		
-
-Emblem Module
-Contains the emblems i use
-
-Black Widow, Green Goblin, Flaming skull
-
-
-Upgrade Tweak Module
-
-This Module will contain tweaks to all vanilla Gear upgrades
-
-Actuators reworked to give a Multiplier instead of fixed bonus (and slightly less bulkier) (instability dealing actuators dont like it, so theyre just smaller)
-TTS are normalized to 1slot/ton to make finding a greater one more meaningful	
-
-Faster Mech's Module
-
-Increases All mech's movementspeed by roughly 30-50% (not the distance, inspired by the faster vehicles)
-
-Weapon Rebalance Module
-
-Contains current vanilla Weapon tweaks
-
-        Weapon rebalance
-        
-        Short ranges(half of optimal range in mechbay) on everything, penalty for medium range
-        
-        Stability for every weapon 1 stab per 4 damage (doing fractions) lasers 1 per 5
-        Closer to tt for a "damage taken" piloting roll
-        
-        Removed LRM clustering reduced accuracy, this nerf's LRM slightly but you may remove heads with one salvo and tons of luck
-              
-        LL'S and PPC's increased damage
-        
-        PPC's recoil, so do pulse lasers(reflect difficulty to keep the damage on point)
-                
-        Pulse weapon ignore 2 pips
-        
-        Adds a tier3 PPC, ERPPC got the PPC debuff HBS forgot
-        
-        Gauss Improved range, damage, crit, min range and accuracy	
-		
-		Ac's got 20% reduced heat, accuracy boni replaced with increased range, and evasion ignore for higher tier
-		
-		+Stability modifiers are now a multiplier not a straight addition
-		
-		All flamers produce some heat instead of limited ammo
-		
-		ER Weapons gain a slight damage bonus and slightly reduced heat
-		
-		Lostech weapons are changed to be variants, to appear randomly on mech's (not gauss though)
-		
-		
-A selection of optional shop to gain access to the gear
-
-Choose the one youd like to have interact (or leave it out to be salvage only)
-
-If you want to change the time or reputation, just open the file and change the value to your liking
-
-
-
-"All these goodies brought to you by the Deadly Sins stable, enjoy your stay on Solaris"
-
+Changelog
 ---------
+*The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
+
+
 0.987
 
 >!!New update raises difficulty of deployments. Finish your current deployment before updating if you don't have two or more battle-ready lances.!!<
@@ -165,6 +94,7 @@ Added a proto Sha Yu
 MRB shop rep raised to
 100-250-500-800 per tier of special and elite gear
 Special Munitions are tied to MRB 
+TTS be sold by the MRB
 
 CompanyDifficulty Updated
 Skulls on drop now show what your lance is capable off instad of its (tooltip not changed yet)
@@ -201,8 +131,6 @@ A fatigued pilot can be fielded at reduced effectivity
 
 Increased starting ronin to 7 to accomodate for this
 
-Preview3 patched several dll's and missing files
-Fatigue and Damage variance updated, fixed couple typos
 
 
 0.986 Release patch7

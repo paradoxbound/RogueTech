@@ -1124,7 +1124,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 2,
+			"DefaultIndex": 3,
 			"Options": [
 				{
 					"ID": "diff_SM_supereasy",

@@ -62,7 +62,28 @@
          "Type" : "AmmunitionBox",
          "DiscountModifier" : 1.0,
          "Count" : 0
-      },		
+      },
+        {
+            "ID": "Gear_TargetingTrackingSystem_Hartford_F1800",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+		
+        },	
+	  {
+         "ID" : "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+	 
+      },
+	  {
+         "ID" : "Gear_TargetingTrackingSystem_Kallon_A-C-1000",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+	 
+      }	 	  
  
   
     ],

@@ -2,8 +2,11 @@
 
 <h1 style="float:left; margin-bottom: 1ex;">AIM: Attack Improvement Mod</h1>
 <p style="text-align: right">
-   Version 1.0.1 for BATTLETECH v1.1.1
+   Version 1.5 Beta for BATTLETECH v1.1.1
 </p>
+
+<h1> DOC OUTDATED </h1>
+<p> This documentation is outdated and is being updated. </p>
 
 <p style="clear: both">
    This mod fixes and tweak the BATTLETECH game's attack experience, such as fixing vehicle called shot and tune down roll correction.
@@ -17,6 +20,11 @@
 
 <details>
    <summary><h2>Change Log</h2></summary>
+   <dl>
+      <dt>2018-07-07 Version 1.5 Beta
+      <dd>Add log path setting. Override selection and target panel to show heat and stab number below jets count. Add melee and DFA destinations unlock. Add hit chance adjustment and diminishing modifier.
+      <dd>New mod setting: ShowHeatAndStab, IncreaseMeleePositionChoice, IncreaseDFAPositionChoice, UnlockMeleePositioning, LogFolder.
+   </dl>
    <dl>
       <dt>2018-06-28 Version 1.0.1
       <dd>Bug Fixes: Fix vehicle called shot no longer float mech location name. Autodetect Log directory. Cap accuracy between 0 and 100. Override called shot percent cap when ShowRealWeaponHitChance is true but ShowDecimalHitChance is false. Auto-bypass Hit Location bug fix on 1.1.1 and later.
@@ -69,7 +77,7 @@
          <li> Download and extact this mod to the Mods folder of the game.
          <li> i.e. BATTLETECH\Mods\AttackImprovementMod\ should contains "mod.json", "AttackImprovementMod.dll", and other files and folders
          <li> Exit and Re-launch the game and the mod should be loaded.  If it doesn't, BTModLoader.log will log why.
-         <li> This mod also keeps its own log of what it can or cannot try to modify in a log in the mod folder.
+         <li> This mod also keeps its own log of what it can or cannot try to modify in the mod folder.
       </ol>
    </details>
 </details>
@@ -97,7 +105,18 @@
          <p>Called shot have absolutely no effect on vehicles, probably because there isn't enough time to implement it.
          <p>In the code, Mech Locations and Vehicle Locations are two separate data type, meaning there are two set of states and methods to handle hit location.
          And vehicle's called shot handling is incomplete. You can pick a called shot location, but it never reach the hit location routine.
-         This can be verified by disabling this setting and enabling hit log (below).
+         This can be verified by disabling this setting and enabling attack log (below).
+      </details></li>
+
+      <li> <details>
+         <summary><h3>Precise Hit Location Distribution</h3></summary>
+         <p>Setting: <code>FixHitDistribution</code> (true/false, default true)<br>
+         <p>Game version 1.1 introduced degrading called shot effect for SRM and MG,
+         but because the code that determine hit distribution is not designed for fraction called shot weight,
+         the actual distribution is slightly bugged.
+         <p>This mod can replace the hit distribution routine with an improved version that has better precision.
+         On game version 1.1.0 and before, this would also fix the bug that cause abnormally high head hit chances.
+         <hr>
       </details></li>
 
       <li> <details>
@@ -135,28 +154,18 @@
       </details></li>
 
       <li> <details>
-         <summary><h3>Fix Mech Called Shot Popup</h3></summary>
+         <summary><h3>Fix Called Shot Popup</h3></summary>
          <p>Setting: <code>ShowRealMechCalledShotChance</code> (true/false, default true)<br>
-         <p>The percentages in called shot popup does not take into account of the hit location bug
-         (or, in older versions, the clustering effect and the headshot bug that causes).
-         When enabled, the popup will reflect true hit distribution depending on whether
-         distribution bug is unfixed, clustering is enabled, and other relevant settings of this mod.
-      </details></li>
-
-      <li> <details>
-         <summary><h3>Fix Vehicle Called Shot Popup</h3></summary>
          <p>Setting: <code>ShowRealVehicleCalledShotChance</code> (true/false, default true)<br>
-         <p>Since vehicle called shot does not work in vanilla game, the whole popup is meaningless.
-         When enabled, the popup will reflect true hit distribution depending on whether
-         vehicle called shot is fixed, whether distribution bug is unfixed,
-         and other relevant settings of this mod.
+         <p>When enabled, the popups will reflect modded hit distribution.
+         Also, if vehicle called shot fix is disabled, vehicle called shot chance will be updated to reflect disabled called shot.
       </details></li>
 
       <li> <details>
          <summary><h3>(Advanced) Show Hit Distribution in Decimal</h3></summary>
          <p>Setting: <code>ShowDecimalCalledChance</code> (true/false, default false)<br>
          <p>When enabled, called shot popup will show all percentages to one decimal point.
-         This option affects <i>only</i> fixed popups, since the rendering is not separated from display.
+         This option affects <i>only</i> fixed popups (above), since the rendering is not separated from display.
       </details></li>
 
       <li> <details>
@@ -193,7 +202,7 @@
          <p>Set this setting to a positive number to override the divider.  For example at threshold 0.5 and divider 3,
          a 95% miss result in (95%-0.5)/3 = 15% bonus to subsequence shots until hit.
          Default is 5 which is the game's default.
-         <p>Set this setting to zero or negative number to replace it with a constant value.
+         <p>Set this setting to zero or negative integer to replace it with a constant value.
          For example -5 means each triggering miss adds 5% bonus, and -100 will make sure the next shot always hit.
       </details></li>
 
@@ -214,30 +223,38 @@
       </details></li>
 
       <li> <details>
+         <summary><h3> Show Heat and Stability numbers </h3></summary>
+         <p>Setting: <code>ShowHeatAndStab</code> (true/false, default true)<br>
+         <p>When enabled, selection and target panel will show heat and stability damage number,
+         below unit class and number of jump jets.
+      </details></li>
+
+      <li> <details>
+         <summary><h3> Allow free Melee and DFA positioning </h3></summary>
+         <p>Setting: <code>IncreaseMeleePositionChoice</code> (true/false, default true)<br>
+         <p>Setting: <code>IncreaseDFAPositionChoice</code> (true/false, default true)<br>
+         <p>When enabled, melee and DFA can use all available positions, instead of nearest three.
+         <hr>
+         <p>Setting: <code>UnlockMeleePositioning</code> (true/false, default true)<br>
+         <p>When enabled, free player units from standing still when target is already in melee range.
+      </details></li>
+
+      <li> <details>
          <summary><h3>(Advanced) Attack Log</h3></summary>
          <p>Setting: <code>LogHitRolls</code> (true/false, default false)<br>
          <p>When enabled, the mod will keep an attack log in the mod's folder.
          <p>It'll log various attack resolution info such as attacker, attack roll, corrected roll,
          streak breaker, location roll, hit table, and other info.
          The log is cleared every time the game launches and load this mod.
-
+         <p>Because critical roll happens when playing weapon effect,
+         rather than when the hit/location rolls are rolled before firing,
+         adding critical roll requires an architecture change of this mod's log system.
          <hr>
          <p>Setting: <code>PersistentLog</code> (true/false, default false)<br>
          <p>When enabled, the attack log will not auto-clear on launch.
-      </details></li>
-
-      <li> <details>
-         <summary><h3>(Legacy) Fix Hit Location Distribution</h3></summary>
-         <p>Setting: <code>FixHitDistribution</code> (true/false, default true)<br>
-         <p>Before game version 1.1.1, you may have noticed abnormally high head shot chances from normal attack.
-         This is because the game's hit distribution is doing float to int conversion the wrong way.
-         This has two effects: First is it would "round up" headshot%, doubling the headshot chance of normal attacks.
-         Second is the chance is stolen from other location, typically Right Leg, causing a lower chance to hit it.
-         All attacks are affected, including called shots of all directions on all locations.
-         <p>This mod can replace the hit distribution routine with an improved version that has better precision.
-         Enabling this fix would lower global headshot chances to their intended level.
-         <p>The bug has been fixed in game ver 1.1.1, and the mod will automatically disregard this setting.
-         It should still work on old version, but since I only have Steam I can't test it on old versions.
+         <hr>
+         <p>Setting: <code>LogFolder</code> (string, default "")<br>
+         <p>Set path of log files. Default is empty which will use mod folder.
       </details></li>
    </ul>
 </details>
@@ -251,7 +268,7 @@
    <p>
       As a DLL mod that potentially overrides quite a few functions, this mod may or may not be compatible with other DLL mods.
       This section lists all programming functions that are patched by each settings.
-      The mod will also create a log of all settings and patched methods (depending on settings) in the mod's folder.
+      The mod will also log settings and all patched methods (which depends on settings).
    </p>
    <p>
       If two mods <b>overrides</b> the same function, it is almost certain the mods are not compatible.
@@ -269,19 +286,16 @@
       <dt><code>FixHitDistribution</code>
       <dd>If true AND game version is below 1.1.1: Override <code>HitLocation.GetHitLocation&lt;ArmorLocation&gt;</code> 
       and <code>HitLocation.GetHitLocation&lt;VehicleChassisLocations&gt;</code>.
-      Precision is increased by scaling up all integers in the calculation by 1024.</dd>
+         Precision is increased by scaling up all integers in the calculation by 1024.</dd>
 
       <dt><code>CalledShotUseClustering</code>
       <dd>If true: Prefix <code>HitLocation.GetHitLocation&lt;ArmorLocation&gt;</code>.
-      May be changed to prefix in future versions.
 
       <dt><code>MechCalledShotMultiplier</code>
       <dd>If != 1.0f: Prefix <code>HitLocation.GetHitLocation&lt;ArmorLocation&gt;</code>.
-      May be changed to prefix in future versions.
 
       <dt><code>VehicleCalledShotMultiplier</code>
       <dd>If != 1.0f: Prefix <code>HitLocation.GetHitLocation&lt;VehicleChassisLocations&gt;</code>.
-      May be changed to prefix in future versions.
 
       <dt><code>ShowRealMechCalledShotChance</code>
       <dd>If true: Postfix <code>CombatHUD.Init</code> and <code>CombatHUDCalledShotPopUp.set_ShownAttackDirection</code> for info,
@@ -292,8 +306,8 @@
       then override <code>CombatHUDCalledShotPopUp.GetHitPercent&lt;VehicleChassisLocations&gt;</code>.
 
       <dt><code>ShowDecimalCalledChance</code>
-      <dd>Depends on <code>ShowRealMechCalledShotChance</code>/<code>ShowRealVehicleCalledShotChance</code> and does not add any new patch. </dd>
-      
+      <dd>Depends on <code>ShowRealMechCalledShotChance</code>/<code>ShowRealVehicleCalledShotChance</code> and does not add any new patch.
+
       <dt><code>RollCorrectionStrength</code>
       <dd>If 0: Set <code>AttackDirector.AttackSequence.UseWeightedHitNumbers</code> to false and call it a day.
       <dd>If not 0 and not 1: Override <code>AttackDirector.AttackSequence.GetCorrectedRoll</code>.
@@ -312,9 +326,24 @@
       <dt><code>ShowDecimalHitChance</code>
       <dd>If true: Override <code>CombatHUDWeaponSlot.SetHitChance</code> to change the format.
 
+      <dt><code>ShowHeatAndStab</code>
+      <dd>If true: Postfix <code>CombatHUD.Init</code> for info,
+      then override <code>CombatHUDActorDetailsDisplay.RefreshInfo</code> to show heat and stability number.
+      Postfix <code>CombatHUDActorInfo.RefreshPredictedHeatInfo</code> and<code>CombatHUDActorInfo.RefreshPredictedStabilityInfo</code> to watch refresh,
+      and Postfix <code>CombatHUDMechTray.Update</code> to refresh when the numbers potentially change.
+
+      <dt><code>IncreaseMeleePositionChoice</code>
+      <dd>If true: Postfix <code>EncounterLayerParent.Start</code> to change <code>Combat.Constants.MoveConstants.NumMeleeDestinationChoices</code> to 6.
+
+      <dt><code>IncreaseDFAPositionChoice</code>
+      <dd>If true: Postfix <code>EncounterLayerParent.Start</code> to change <code>Combat.Constants.MoveConstants.NumDFADestinationChoices</code> to 6.
+
+      <dt><code>UnlockMeleePositioning</code>
+      <dd>If true: Override <code>Pathing.GetMeleeDestsForTarget</code> to skip melee lock for players.
+
       <dt><code>LogHitRolls</code>
-      <dd>If true: 
-      Prefix <code>AttackDirector.AttackSequence.GetIndividualHits</code>, <code>AttackDirector.AttackSequence.GetClusteredHits</code>, and 
+      <dd>If true:
+      Prefix <code>AttackDirector.AttackSequence.GetIndividualHits</code>, <code>AttackDirector.AttackSequence.GetClusteredHits</code>, and
       <code>AttackDirector.AttackSequence.GetCorrectedRoll</code> to get attack data.
       Postfix <code>HitLocation.GetHitLocation&lt;ArmorLocation&gt;</code>, <code>HitLocation.GetHitLocation&lt;VehicleChassisLocations&gt;</code>,
       and <code>AttackDirector.AttackSequence.GetCorrectedRoll</code> to do actual log.
