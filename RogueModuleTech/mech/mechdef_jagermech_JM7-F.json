@@ -20,7 +20,7 @@
         "UIName": "JagerMech JM7-F",
         "Id": "mechdef_jagermech_JM7-F",
         "Name": "JagerMech",
-        "Details": "The JagerMech 7F Refit was upgraded to carry 2 Rotary Autocannon 5 into the field, providing ranged fire support only surpassed by assault class Battlemech's.",
+        "Details": "The JagerMech 7F has been upgraded to carry twin Rotary Autocannon/5s, providing ranged fire support only surpassed by Assault class Battlemechs.",
         "Icon": "uixTxrIcon_jagermech"
     },
     "simGameMechPartCost": 790000,

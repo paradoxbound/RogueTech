@@ -8,7 +8,7 @@
         "UIName": "Blackjack",
         "Id": "chassisdef_blackjack_BJ-3T",
         "Name": "Blackjack",
-        "Details": "Blackjack 3T's replace their AC2's with Medium Rifles, which interestingly gives them a greater Hit at the cost of a proper Punch and replaces the Lasers with Heavy Machine Gunsat cost of 2 JumpJets but are less Heat efficient.",
+        "Details": "The Blackjack 3T replaces the standard AC/2s with Medium Rifles, providing greater punch at the cost of some range. It also mounts four Heavy Machine Guns in place of Medium Lasers.",
         "Icon": "uixTxrIcon_blackjack"
     },
     "MovementCapDefID": "movedef_blackjack_BJ-1",
@@ -184,5 +184,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support & Skirmisher",
-    "YangsThoughts": "Blackjack 3T's replace their AC2's with Medium Rifles, which interestingly gives them a greater Hit at the cost of a proper Punch, they still retain their Medium Lasers and JumpJets but are less Heat efficient."
+    "YangsThoughts": "The Blackjack 3T replaces the standard AC/2s with Medium Rifles, providing greater punch at the cost of some range. It also mounts four Heavy Machine Guns in place of Medium Lasers."
 }

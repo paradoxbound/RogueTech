@@ -22,7 +22,7 @@
         "UIName": "King Crab KGC-0001",
         "Id": "mechdef_kingcrab_KGC-0001",
         "Name": "King Crab",
-        "Details": "One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 0001 variant comes with Gauss rifles instead.",
+        "Details": "One of the most heavily armed and armored 'Mechs ever constructed, the King Crab 0001 variant mounts Gauss rifles instead of AC/20s. ",
         "Icon": "uixTxrIcon_kingcrab"
     },
     "simGameMechPartCost": 1370000,

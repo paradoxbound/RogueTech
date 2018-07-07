@@ -12,96 +12,15 @@
       "tagSetSourceFile" : ""
    },
    "Inventory" : [
-      {
-         "ID" : "Ammo_AmmunitionBox_Deadfire_LRM",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      },
-      {
-         "ID" : "Ammo_AmmunitionBox_Deadfire_SRM",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      },	  
-      {
-         "ID" : "Ammo_AmmunitionBox_Inferno_SRM",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      },
-      {
-         "ID" : "Ammo_AmmunitionBox_Incendiary_LRM",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      },	  
-      {
-         "ID" : "Ammo_AmmunitionBox_AP_AC2",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      },
-      {
-         "ID" : "Ammo_AmmunitionBox_AP_AC5",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      },
-      {
-         "ID" : "Ammo_AmmunitionBox_AP_AC10",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      },
-      {
-         "ID" : "Ammo_AmmunitionBox_AP_AC20",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      },
-      {
-         "ID" : "Ammo_AmmunitionBox_Precision_AC2",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      },
-      {
-         "ID" : "Ammo_AmmunitionBox_Precision_AC5",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      },
-      {
-         "ID" : "Ammo_AmmunitionBox_Precision_AC10",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      },
-      {
-         "ID" : "Ammo_AmmunitionBox_Precision_AC20",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      },
+	  
+
       {
          "ID" : "Ammo_AmmunitionBox_Generic_GAUSS",
          "Type" : "AmmunitionBox",
          "DiscountModifier" : 1.0,
          "Count" : 0
-      },
-      {
-         "ID" : "Ammo_AmmunitionBox_Light_GAUSS",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      },
-      {
-         "ID" : "Ammo_AmmunitionBox_Heavy_GAUSS",
-         "Type" : "AmmunitionBox",
-         "DiscountModifier" : 1.0,
-         "Count" : 0
-      }		  
+      }
+	  
 
    ],
    "Specials" : []

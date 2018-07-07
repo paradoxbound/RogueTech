@@ -8,7 +8,7 @@
         "UIName": "Yen Lo Wang",
         "Id": "chassisdef_centurion_CN9-YLW",
         "Name": "Yen Lo Wang",
-        "Details": "This Centurion may not be THE Yen-Lo-Wang, it certainly packs its punch while 4 Improved JumpJets let it close in rapidly.",
+        "Details": "This Centurion may not be THE Yen-Lo-Wang, but it certainly packs its punch, along with four upgraded Jump Jets that help it close the gap.",
         "Icon": "uixTxrIcon_centurion"
     },
     "MovementCapDefID": "movedef_centurion_CN9-A",
@@ -185,5 +185,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & General Assault",
-    "YangsThoughts": "This Centurion may not be THE Yen-Lo-Wang, it certainly packs its punch while 4 Improved JumpJets let it close in rapidly."
+    "YangsThoughts": "This Centurion may not be THE Yen-Lo-Wang, but it certainly packs its punch, along with four upgraded Jump Jets that help it close the gap."
 }

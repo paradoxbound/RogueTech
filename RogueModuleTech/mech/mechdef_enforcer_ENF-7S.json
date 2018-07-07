@@ -21,7 +21,7 @@
         "UIName": "Enforcer ENF-7S",
         "Id": "mechdef_enforcer_ENF-7S",
         "Name": "Enforcer",
-        "Details": "The Enforcer 7S is a NAIS prototype carrying a mostly functional Gauss rifle prototype, this one seems to be stolen.",
+        "Details": "The Enforcer 7S is an NAIS prototype carrying a mostly functional Gauss rifle prototype. This one seems to be stolen.",
         "Icon": "uixTxrIcon_enforcer"
     },
     "simGameMechPartCost": 520000,

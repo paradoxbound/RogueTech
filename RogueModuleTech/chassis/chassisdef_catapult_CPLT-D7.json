@@ -8,7 +8,7 @@
         "UIName": "Hwacha",
         "Id": "chassisdef_catapult_CPLT-D7",
         "Name": "Hwacha",
-        "Details": "The D7 Catapult 'Hwacha' is a stepping stone to Heavy S7 protoype Chassis, equipped for mobility and a brutal short range punch.",
+        "Details": "The D7 Catapult 'Hwacha' is a stepping stone to the heavy S7 prototype chassis, equipped for mobility and a brutal short range punch.",
         "Icon": "uixTxrIcon_catapult"
     },
     "MovementCapDefID": "movedef_catapult_CPLT-C1",
@@ -184,5 +184,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Ambusher",
-    "YangsThoughts": "The D7 Catapult 'Hwacha' is a stepping stone to Heavy S7 protoype Chassis, equipped for mobility and a brutal short range punch."
+    "YangsThoughts": "The D7 Catapult 'Hwacha' is a stepping stone to the heavy S7 prototype chassis, equipped for mobility and a brutal short range punch."
 }

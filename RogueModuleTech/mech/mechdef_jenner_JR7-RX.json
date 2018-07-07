@@ -23,7 +23,7 @@
         "UIName": "Jenner JR7-RX",
         "Id": "mechdef_jenner_JR7-RX",
         "Name": "Jenner",
-        "Details": "The Jenner RX is a variant of the thunderbolt carrying jenner, fielding cheaper racks of LRM5.",
+        "Details": "The Jenner JR7-RX is a more conservative variant of the Thunderbolt-carrying Jenner JR7-X, fielding cheaper LRM-5 launchers.",
         "Icon": "uixTxrIcon_jenner"
     },
     "simGameMechPartCost": 400000,

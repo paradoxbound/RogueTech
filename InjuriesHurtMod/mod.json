@@ -1,6 +1,6 @@
 {
     "Name": "InjuriesHurt",
-    "Enabled": true,
+    "Enabled": false,
 
     "Version": "1.1.1",
     "Description": "Makes injuries reduce a pilot's stats, until they're healed up.",

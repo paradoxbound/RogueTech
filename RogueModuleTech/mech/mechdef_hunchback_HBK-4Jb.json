@@ -21,7 +21,7 @@
         "UIName": "Hunchback HBK-4Jb",
         "Id": "mechdef_hunchback_HBK-4Jb",
         "Name": "Hunchback",
-        "Details": "Another Swayback 'Mech, this variant was first employed in 2856 and changes the 'Mech's focus from short range combat to fire support by removing the Autocannon/20 and replacing it with an LRM-20 launcher",
+        "Details": "Another Swayback 'Mech, this variant was first employed in 2856, and changed the Hunchback’s focus from short range combat to fire support by removing the AC/20 and replacing it with an LRM-20 launcher.",
         "Icon": "uixTxrIcon_hunchback"
     },
     "simGameMechPartCost": 530000,

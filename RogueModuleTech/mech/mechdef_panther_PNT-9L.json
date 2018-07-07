@@ -21,7 +21,7 @@
         "UIName": "Panther PNT-9L",
         "Id": "mechdef_panther_PNT-9L",
         "Name": "Panther",
-        "Details": "Panther 9L carry an experimental plasma cannon and a Haywire Launcher.",
+        "Details": "The Panther 9L carries an experimental Plasma Cannon and a Haywire Launcher, and is equipped with a supercharger and Triple Strength Myomer for enhanced mobility.",
         "Icon": "uixTxrIcon_panther"
     },
     "simGameMechPartCost": 360000,

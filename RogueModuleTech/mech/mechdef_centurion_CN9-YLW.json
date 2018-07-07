@@ -23,7 +23,7 @@
         "UIName": "Yen Lo Wang CN9-YLW",
         "Id": "mechdef_centurion_CN9-YLW",
         "Name": "Yen Lo Wang",
-        "Details": "This Centurion may not be THE Yen-Lo-Wang, it certainly packs its punch while 4 Improved JumpJets let it close in rapidly.",
+        "Details": "This Centurion may not be THE Yen-Lo-Wang, but it certainly packs its punch, along with four upgraded Jump Jets that help it close the gap.",
         "Icon": "uixTxrIcon_centurion"
     },
     "simGameMechPartCost": 710000,

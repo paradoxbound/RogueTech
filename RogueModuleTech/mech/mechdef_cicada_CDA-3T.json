@@ -20,7 +20,7 @@
         "UIName": "Porcupine CDA-3T",
         "Id": "mechdef_cicada_CDA-3T",
         "Name": "Porcupine",
-        "Details": "The Cicada 3T 'Porcupine' is a Solaris refit of the 3C Cicada, outfitted with Spiked Plating and Combat Shield.",
+        "Details": "The Cicada 3T 'Porcupine' is a Solaris refit of the 3C Cicada, outfitted with spiked plating and a combat shield.",
         "Icon": "uixTxrIcon_cicada"
     },
     "simGameMechPartCost": 380000,

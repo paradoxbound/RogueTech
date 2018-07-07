@@ -21,7 +21,7 @@
         "UIName": "Spider SDR-I1",
         "Id": "mechdef_spider_SDR-I1",
         "Name": "Spider",
-        "Details": "The Spider I1 is a cheap refit of the Frontier Worlds that comes with with a Plasma Cutter and 2 RL 10 and a tiny bit better Armour.",
+        "Details": "The Spider I1 is a cheap refit from the Frontier Worlds that comes with a Plasma Cutter and twin RL-10s, along with marginally improved armour.",
         "Icon": "uixTxrIcon_spider"
     },
     "simGameMechPartCost": 310000,
@@ -135,7 +135,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_HandyVac_Industrial_Construction_0_ArcWelder",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",

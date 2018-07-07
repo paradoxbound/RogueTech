@@ -8,7 +8,7 @@
         "UIName": "Anansi",
         "Id": "chassisdef_spider_SDR-AS",
         "Name": "Anansi",
-        "Details": "The Spider AS 'Anansi' retains most of its originals mobility while carrying a hefty payload of Rockets and 2 Plasma Cutters.",
+        "Details": "The Spider AS 'Anansi' retains most of its original mobility while carrying a hefty payload of four RL-10s, as well as twin Plasma Cutters for some melee carnage.",
         "Icon": "uixTxrIcon_spider"
     },
     "MovementCapDefID": "movedef_spider_SDR-AS",
@@ -186,5 +186,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Extremely Maneuverable Brawler",
-    "YangsThoughts": "The Spider AS 'Anansi' retains most of its originals mobility while carrying a hefty payload of Rockets and 2 Plasma Cutters."
+    "YangsThoughts": "The Spider AS 'Anansi' retains most of its original mobility while carrying a hefty payload of four RL-10s, as well as twin Plasma Cutters for some melee carnage."
 }

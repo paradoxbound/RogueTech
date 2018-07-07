@@ -8,7 +8,7 @@
         "UIName": "Catapult",
         "Id": "chassisdef_catapult_CPLT-K3",
         "Name": "Catapult",
-        "Details": "hough this design never reached full production, it was prototyped during the War of 3039. It upgraded the PPCs of the K2 to ER PPCs. ",
+        "Details": "Though this design never reached full production, it was prototyped during the War of 3039. It upgrades the PPCs of the K2 to ER PPCs.",
         "Icon": "uixTxrIcon_catapultk2"
     },
     "MovementCapDefID": "movedef_catapult_CPLT-C1",
@@ -214,5 +214,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Direct-Fire Support",
-    "YangsThoughts": "hough this design never reached full production, it was prototyped during the War of 3039. It upgraded the PPCs of the K2 to ER PPCs. "
+    "YangsThoughts": "Though this design never reached full production, it was prototyped during the War of 3039. It upgrades the PPCs of the K2 to ER PPCs."
 }

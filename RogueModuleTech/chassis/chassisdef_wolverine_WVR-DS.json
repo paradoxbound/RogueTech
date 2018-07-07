@@ -8,7 +8,7 @@
         "UIName": "Wolverine",
         "Id": "chassisdef_wolverine_WVR-DS",
         "Name": "Wolverine",
-        "Details": "Another Solaris custom, designed to deal massive damage in a short time, and have the mobility to get out safely.",
+        "Details": "Another Solaris custom, the Wolverine DS is designed to deal massive damage in a short time, and have the mobility to get out safely.",
         "Icon": "uixTxrIcon_wolverine"
     },
     "MovementCapDefID": "movedef_wolverine_WVR-6R",
@@ -186,5 +186,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Skirmisher & Cavalry",
-    "YangsThoughts": "Another Solaris custom, designed to deal massive damage in a short time, and have the mobility to get out safely."
+    "YangsThoughts": "Another Solaris custom, the Wolverine DS is designed to deal massive damage in a short time, and have the mobility to get out safely."
 }

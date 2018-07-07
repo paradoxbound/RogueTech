@@ -8,7 +8,7 @@
         "UIName": "Centurion",
         "Id": "chassisdef_centurion_CN9-A2",
         "Name": "Centurion",
-        "Details": "A sturdy and reliable 'Mech, the Centurion is good at both taking and giving a beating. CN9-A2 models are refitted with an UAC10 and usually carry Incdeniary LRM's.",
+        "Details": "A sturdy and reliable 'Mech, the Centurion is good at both taking and giving a beating. CN9-A2 models come with a UAC/10 and usually carry Incendiary LRMs.",
         "Icon": "uixTxrIcon_centurion"
     },
     "MovementCapDefID": "movedef_centurion_CN9-A",
@@ -199,5 +199,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & General Assault",
-    "YangsThoughts": "A sturdy and reliable 'Mech, the Centurion is good at both taking and giving a beating. CN9-A2 models are refitted with an UAC10 and usually carry Incdeniary LRM's."
+    "YangsThoughts": "A sturdy and reliable 'Mech, the Centurion is good at both taking and giving a beating. CN9-A2 models come with a UAC/10 and usually carry Incendiary LRMs."
 }

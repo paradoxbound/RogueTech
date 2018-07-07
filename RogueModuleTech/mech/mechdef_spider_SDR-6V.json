@@ -21,7 +21,7 @@
         "UIName": "Spider SDR-6V",
         "Id": "mechdef_spider_SDR-6V",
         "Name": "Spider",
-        "Details": "The Spider 6V got upgraded armour and jump jets as well as a Medium Pulse Laser, but is still one of the most fragile targets on the Battlefields.",
+        "Details": "The Spider 6V features upgraded armour and Jump Jets, as well as a Medium Pulse Laser, but it’s still one of the most fragile targets on the battlefield.",
         "Icon": "uixTxrIcon_spider"
     },
     "simGameMechPartCost": 310000,

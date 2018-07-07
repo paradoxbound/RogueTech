@@ -8,7 +8,7 @@
         "UIName": "Victor",
         "Id": "chassisdef_victor_VTR-10B",
         "Name": "Victor",
-        "Details": "Few assault 'Mechs mount Jump Jets, but the Victor 10B is one of 'em. With a Ultrac AC/20 and improved JumpJets, the 10B has even greater Mobility. Unfortunately, this comes at the cost of armor.",
+        "Details": "Few assault 'Mechs can really fly, but the Victor 10B is one of 'em. With an Ultra AC/20 and improved Jump Jets, the 10B boasts incredible mobility for its weight, at the cost of some durability.",
         "Icon": "uixTxrIcon_victor"
     },
     "MovementCapDefID": "movedef_victor_VTR-9B",
@@ -185,5 +185,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Cavalry",
-    "YangsThoughts": "Few assault 'Mechs mount Jump Jets, but the Victor 10B is one of 'em. With a Ultrac AC/20 and improved JumpJets, the 10B has even greater Mobility. Unfortunately, this comes at the cost of armor."
+    "YangsThoughts": "Few assault 'Mechs can really fly, but the Victor 10B is one of 'em. With an Ultra AC/20 and improved Jump Jets, the 10B boasts incredible mobility for its weight, at the cost of some durability."
 }

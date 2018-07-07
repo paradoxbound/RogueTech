@@ -160,9 +160,11 @@ Plasma removed PPC Cap function
 
 Added a Pirate Marauder II
 Gladiator changed to account for Plasma nerf
+Added a proto Sha Yu
 
 MRB shop rep raised to
 100-250-500-800 per tier of special and elite gear
+Special Munitions are tied to MRB 
 
 CompanyDifficulty Updated
 Skulls on drop now show what your lance is capable off instad of its (tooltip not changed yet)
@@ -189,14 +191,15 @@ New dll by Don Zappo
 Pilot Fatigue
 
 After each mission a pilot gets fatigued, unable to be used for a small duration depending on their guts and tactics skills and you overall morale
-
-The Math for it
-Days Fatigued = 15 - (Guts Value) - (Tactics Value)/2 - (Current Morale - 10)/(5)
+The minimum  time of fatigue is always 1 day
+High morale reduces these values
+A fatigued pilot can be fielded at reduced effectivity
 
 Increased starting ronin to 7 to accomodate for this
 
 
-Preview patched several dll's and missing files
+Preview3 patched several dll's and missing files
+Fatigue and Damage variance updated, fixed couple typos
 
 
 0.986 Release patch7

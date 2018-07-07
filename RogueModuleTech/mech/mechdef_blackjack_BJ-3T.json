@@ -21,7 +21,7 @@
         "UIName": "Blackjack BJ-3T",
         "Id": "mechdef_blackjack_BJ-3T",
         "Name": "Blackjack",
-        "Details": "Blackjack 3T's replace their AC2's with Medium Rifles, which interestingly gives them a greater Hit at the cost of a proper Punch and replaces the Lasers with Heavy Machine Gunsat cost of 2 JumpJets but are less Heat efficient.",
+        "Details": "The Blackjack 3T replaces the standard AC/2s with Medium Rifles, providing greater punch at the cost of some range. It also mounts four Heavy Machine Guns in place of Medium Lasers.",
         "Icon": "uixTxrIcon_blackjack"
     },
     "simGameMechPartCost": 440000,

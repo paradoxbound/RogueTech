@@ -22,7 +22,7 @@
         "UIName": "Grand Dragon DRG-3K",
         "Id": "mechdef_granddragon_DRG-3K",
         "Name": "Grand Dragon",
-        "Details": "The Grand Dragon 3k is a beefy machine that can take a serious beating and carries heavier weaponry then it's smaller cousin, designed to be a formidable stable weapons plattform.",
+        "Details": "The Grand Dragon 3K is a beefy machine that can take a serious beating and carries heavier weaponry than its smaller cousin. Equipped with a heavy-duty gyro, a PPC and Gauss rifle, this variant is a formidable heavy weapons platform.",
         "Icon": "uixTxrIcon_dragon"
     },
     "simGameMechPartCost": 690000,

@@ -20,7 +20,7 @@
         "UIName": "Catapult CPLT-K4",
         "Id": "mechdef_catapult_CPLT-K4",
         "Name": "Catapult",
-        "Details": "An upgrade of the prototype K3, this Kuritan variant carries twin Heavy PPCs and ER Medium Lasers, advanced electronics and structure.",
+        "Details": "An upgrade of the prototype K3, this Kuritan variant carries twin Heavy PPCs and ER Medium Lasers, along with advanced electronics and an upgraded structure.",
         "Icon": "uixTxrIcon_catapultk2"
     },
     "simGameMechPartCost": 720000,

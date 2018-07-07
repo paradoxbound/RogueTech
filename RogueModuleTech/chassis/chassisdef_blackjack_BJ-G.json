@@ -8,7 +8,7 @@
         "UIName": "Blackjack",
         "Id": "chassisdef_blackjack_BJ-G",
         "Name": "Blackjack",
-        "Details": "Blackjack G's, unlike the average variant, carries 2 Ultra AC/10.",
+        "Details": "The Blackjack G, unlike the average variant, carries twin Ultra AC/10s. This variant also features an advanced targeting computer, an ultra-light gyro, and a supercharger.",
         "Icon": "uixTxrIcon_blackjack"
     },
     "MovementCapDefID": "movedef_blackjack_BJ-G",
@@ -186,5 +186,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support & Skirmisher",
-    "YangsThoughts": "Blackjack G's, unlike the average variant, carries 2 Ultra AC/10."
+    "YangsThoughts": "The Blackjack G, unlike the average variant, carries twin Ultra AC/10s. This variant also features an advanced targeting computer, an ultra-light gyro, and a supercharger."
 }

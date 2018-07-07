@@ -21,7 +21,7 @@
         "UIName": "Commando COM-2I",
         "Id": "mechdef_commando_COM-2I",
         "Name": "Commando",
-        "Details": "The Commando 2I Replaces its SRM's with an Inferno payload, an harraser designed to deny Enemy's and a favourite among Pirates.",
+        "Details": "The Commando 2I features modified SRMs with an Inferno payload. This pirate favourite is notorious for its ability to harass and disable, while also packing a punch with its two RL-10s.",
         "Icon": "uixTxrIcon_commando"
     },
     "simGameMechPartCost": 250000,

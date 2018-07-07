@@ -21,7 +21,7 @@
         "UIName": "Cataphract CTF-1E",
         "Id": "mechdef_cataphract_CTF-1E",
         "Name": "Cataphract",
-        "Details": "We call the Cataphract a \"FrankenMech\" because it's got a little bit of everything stitched together on it. The 1E Model was upgraded to employ a EWS and Null Signature System",
+        "Details": "We call the Cataphract the \"FrankenMech\" because it's got a little bit of everything stitched together on it. The 1E variant was upgraded to employ an EWS and a Null Signature System.",
         "Icon": "uixTxrIcon_cataphract"
     },
     "simGameMechPartCost": 800000,

@@ -52,7 +52,19 @@
          "DiscountModifier" : 1.2,
          "Count" : 0
 	 
-      }
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_Inferno_SRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_Incendiary_LRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	 	  
   
     ],
     "Specials": [

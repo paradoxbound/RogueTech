@@ -8,7 +8,7 @@
         "UIName": "Spider",
         "Id": "chassisdef_spider_SDR-I1",
         "Name": "Spider",
-        "Details": "The Spider I1 is a cheap refit of the Frontier Worlds that comes with with a Plasma Cutter and 2 RL 10 and a tiny bit better Armour.",
+        "Details": "The Spider I1 is a cheap refit from the Frontier Worlds that comes with a Plasma Cutter and twin RL-10s, along with marginally improved armour.",
         "Icon": "uixTxrIcon_spider"
     },
     "MovementCapDefID": "movedef_spider_SDR-5V",
@@ -183,5 +183,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Cheap refit",
-    "YangsThoughts": "The Spider I1 is a cheap refit of the Frontier Worlds that comes with with a Plasma Cutter and 2 RL 10 and a tiny bit better Armour."
+    "YangsThoughts": "The Spider I1 is a cheap refit from the Frontier Worlds that comes with a Plasma Cutter and twin RL-10s, along with marginally improved armour."
 }

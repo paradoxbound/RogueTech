@@ -50,7 +50,19 @@
             "DiscountModifier": 1,
             "Count": 0
 		
-        }	  
+        },
+      {
+         "ID" : "Ammo_AmmunitionBox_Deadfire_LRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_Deadfire_SRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },		
  
   
     ],

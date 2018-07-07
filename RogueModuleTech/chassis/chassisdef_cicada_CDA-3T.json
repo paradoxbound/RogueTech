@@ -8,7 +8,7 @@
         "UIName": "Porcupine",
         "Id": "chassisdef_cicada_CDA-3T",
         "Name": "Porcupine",
-        "Details": "The Cicada 3T 'Porcupine' is a Solaris refit of the 3C Cicada, outfitted with Spiked Plating and Combat Shield.",
+        "Details": "The Cicada 3T 'Porcupine' is a Solaris refit of the 3C Cicada, outfitted with spiked plating and a combat shield.",
         "Icon": "uixTxrIcon_cicada"
     },
     "MovementCapDefID": "movedef_cicada_CDA-3C",
@@ -196,5 +196,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Sniper",
-    "YangsThoughts": "The Cicada 3T 'Porcupine' is a Solaris refit of the 3C Cicada, outfitted with Spiked Plating and Combat Shield."
+    "YangsThoughts": "The Cicada 3T 'Porcupine' is a Solaris refit of the 3C Cicada, outfitted with spiked plating and a combat shield."
 }

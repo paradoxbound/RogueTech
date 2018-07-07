@@ -8,7 +8,7 @@
         "UIName": "Catapult",
         "Id": "chassisdef_catapult_CPLT-K9",
         "Name": "Catapult",
-        "Details": "The Catapult K9 is a refit of the venerable K2 variant carrying 2 Gauss rifles instead of its PPC's and heavy armour.",
+        "Details": "The Catapult K9 is a refit of the venerable K2 variant, carrying twin Gauss rifles in place of PPCs, and featuring enhanced armour.",
         "Icon": "uixTxrIcon_catapultk2"
     },
     "MovementCapDefID": "movedef_catapult_CPLT-C1",
@@ -214,5 +214,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Direct-Fire Support",
-    "YangsThoughts": "The Catapult K9 is a refit of the venerable K2 variant carrying 2 Gauss rifles instead of its PPC's and heavy armour."
+    "YangsThoughts": "The Catapult K9 is a refit of the venerable K2 variant, carrying twin Gauss rifles in place of PPCs, and featuring enhanced armour."
 }

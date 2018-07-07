@@ -8,7 +8,7 @@
         "UIName": "Catapult",
         "Id": "chassisdef_catapult_CPLT-K4",
         "Name": "Catapult",
-        "Details": "An upgrade of the prototype K3, this Kuritan variant carries twin Heavy PPCs and ER Medium Lasers, advanced electronics and structure.",
+        "Details": "An upgrade of the prototype K3, this Kuritan variant carries twin Heavy PPCs and ER Medium Lasers, along with advanced electronics and an upgraded structure.",
         "Icon": "uixTxrIcon_catapultk2"
     },
     "MovementCapDefID": "movedef_catapult_CPLT-C1",
@@ -214,5 +214,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Direct-Fire Support",
-    "YangsThoughts": "An upgrade of the prototype K3, this Kuritan variant carries twin Heavy PPCs and ER Medium Lasers, advanced electronics and structure."
+    "YangsThoughts": "An upgrade of the prototype K3, this Kuritan variant carries twin Heavy PPCs and ER Medium Lasers, along with advanced electronics and an upgraded structure."
 }

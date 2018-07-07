@@ -8,7 +8,7 @@
         "UIName": "Kintaro",
         "Id": "chassisdef_kintaro_KTO-18S",
         "Name": "Kintaro",
-        "Details": "This Marik refit of the Kintaro was build in cooperation with Holly as a testbed for Streak and NARC Missiles.",
+        "Details": "This Marik refit of the Kintaro was built in cooperation with Holly as a testbed for Streak and NARC missiles.",
         "Icon": "uixTxrIcon_kintaro"
     },
     "MovementCapDefID": "movedef_kintaro_KTO-18S",
@@ -190,5 +190,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Juggernaut & Close Assault",
-    "YangsThoughts": "This Marik refit of the Kintaro was build in cooperation with Holly as a testbed for Streak and NARC Missiles."
+    "YangsThoughts": "This Marik refit of the Kintaro was built in cooperation with Holly as a testbed for Streak and NARC missiles."
 }

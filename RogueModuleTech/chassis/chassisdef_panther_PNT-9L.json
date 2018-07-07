@@ -8,7 +8,7 @@
         "UIName": "Panther",
         "Id": "chassisdef_panther_PNT-9L",
         "Name": "Panther",
-        "Details": "Panther 9L carry an experimental plasma cannon and a Haywire Launcher instead of their PPC.",
+        "Details": "The Panther 9L carries an experimental Plasma Cannon and a Haywire Launcher, and is equipped with a supercharger and Triple Strength Myomer for enhanced mobility.",
         "Icon": "uixTxrIcon_panther"
     },
     "MovementCapDefID": "movedef_panther_PNT-9R",
@@ -185,5 +185,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Sniper & Light Brawler",
-    "YangsThoughts": "Panther 9L carry an experimental plasma cannon and a Haywire Launcher instead of their PPC."
+    "YangsThoughts": "The Panther 9L carries an experimental Plasma Cannon and a Haywire Launcher, and is equipped with a supercharger and Triple Strength Myomer for enhanced mobility."
 }

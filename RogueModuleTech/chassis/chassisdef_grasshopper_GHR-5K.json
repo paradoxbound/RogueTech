@@ -8,7 +8,7 @@
         "UIName": "Grasshopper",
         "Id": "chassisdef_grasshopper_GHR-5K",
         "Name": "Grasshopper",
-        "Details": "Don't be fooled by its whimsical name\u2014the Grasshopper is a killer, this Kurita refit carries the newly developed Samurai Gyro and was upgraded with experimental Endo-Steel, Improved Jump Jets and Light PPC's.",
+        "Details": "Don't be fooled by its whimsical name\u2014the Grasshopper is a killer. This Kurita refit carries the newly developed Samurai Gyro and has been upgraded with experimental Endo-Steel, Improved Jump Jets, and four Light PPCs.",
         "Icon": "uixTxrIcon_grasshopper"
     },
     "MovementCapDefID": "movedef_grasshopper_GHR-5H",
@@ -187,5 +187,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Heavy Skirmisher & Cavalry",
-    "YangsThoughts": "Don't be fooled by its whimsical name\u2014the Grasshopper is a killer, this Kurita refit carries the newly developed Samurai Gyro and was upgraded with experimental Endo-Steel, Improved Jump Jets and Light PPC's."
+    "YangsThoughts": "Don't be fooled by its whimsical name\u2014the Grasshopper is a killer. This Kurita refit carries the newly developed Samurai Gyro and has been upgraded with experimental Endo-Steel, Improved Jump Jets, and four Light PPCs."
 }

@@ -5,10 +5,10 @@
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Katyushka",
+        "UIName": "Katyusha",
         "Id": "chassisdef_trebuchet_TBT-6X",
-        "Name": "Katyushka",
-        "Details": "The Katyushka is a slightly heavier trebuchet that carries enhanced LRM's and JumpJets.",
+        "Name": "Katyusha",
+        "Details": "The TBT-6X ‘Katyusha’ is a slightly heavier Trebuchet that carries enhanced LRMs and Jump Jets.",
         "Icon": "uixTxrIcon_trebuchet"
     },
     "MovementCapDefID": "movedef_trebuchet_TBT-6X",
@@ -185,5 +185,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Fire Support",
-    "YangsThoughts": "The Katyushka is a slightly heavier trebuchet that carries enhanced LRM's and JumpJets."
+    "YangsThoughts": "The TBT-6X ‘Katyusha’ is a slightly heavier Trebuchet that carries enhanced LRMs and Jump Jets."
 }

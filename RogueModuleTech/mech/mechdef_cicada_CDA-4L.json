@@ -20,7 +20,7 @@
         "UIName": "Cicada CDA-4L",
         "Id": "mechdef_cicada_CDA-4L",
         "Name": "Cicada",
-        "Details": "The Cicada 4L is another refit due to shortage of proper parts and carries 2 Light rifles with 2 Tons of Ammo.",
+        "Details": "The Cicada 4L is yet another refit born from a shortage of proper parts. It carries two Light Rifles with two tons of ammo.",
         "Icon": "uixTxrIcon_cicada"
     },
     "simGameMechPartCost": 380000,
