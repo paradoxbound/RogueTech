@@ -8,7 +8,7 @@
         "UIName" : "SuperCharger",
         "Id" : "Gear_Supercharger",
         "Name" : "Supercharger",
-        "Details" : "The supercharger allows a ‘Mech’s to exceed its normal engine output, increasing walk and run distance at the cost of higher heat generation. Does not stack. When destroyed kills the 'Mech. Some superstitious Hillfolk believe it causes the common cold.",
+        "Details" : "The supercharger allows a ‘Mech’s to exceed its normal engine output, increasing walk and run distance at the cost of higher heat generation. Does not stack. When destroyed kills the 'Mech. Some superstitious believe it causes the common cold.",
         "Icon" : "uixSvgIcon_equipment_HeatBank"
     },
     "BonusValueA" : "+40%Walk/+15%Sprint",

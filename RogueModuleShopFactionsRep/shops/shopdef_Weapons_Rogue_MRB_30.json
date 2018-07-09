@@ -83,7 +83,13 @@
          "DiscountModifier" : 1.2,
          "Count" : 0
 	 
-      }	 	  
+      },
+      {
+         "ID" : "Gear_HeatSink_Generic_Thermal-Exchanger-I",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      }	  
  
   
     ],

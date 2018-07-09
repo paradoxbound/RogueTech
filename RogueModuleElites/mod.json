@@ -11,9 +11,7 @@
     "Manifest": [
         { "Type": "MechDef", "Path": "mech" },
         { "Type": "ChassisDef", "Path": "chassis" },
-        { "Type": "MovementCapabilitiesDef", "Path": "move" },
-		{ "Type": "UpgradeDef", "Path": "upgrade" },
-        { "Type": "WeaponDef", "Path": "weapon" },			
+        { "Type": "MovementCapabilitiesDef", "Path": "move" }			
     ],
 
 		

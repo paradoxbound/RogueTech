@@ -103,7 +103,7 @@
     "inventory": [
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_Actuator_HandyVac_Industrial_CargoGrip",
+            "ComponentDefID": "Gear_Arm_Claws",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": 0,
@@ -114,7 +114,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Gear_Actuator_HandyVac_Industrial_CargoGrip",
+            "ComponentDefID": "Gear_Arm_Claws",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": 0,

@@ -19,8 +19,8 @@
     {
         "OverheatLevel": 0.41,
         "MaxHeat": 110,
-        "WalkHeat": 2.5,
-        "SprintHeat": 6,
+        "WalkHeat": 3,
+        "SprintHeat": 8,
         "JumpHeatUnitSize": 6.1,
         "JumpHeatPerUnit": 1.35,
         "JumpHeatMin": 5,
@@ -121,7 +121,7 @@
     "ToHit":
     {
         "FiringArcDegrees": 60.0,
-        "ToHitBaseFloor": 0.7,
+        "ToHitBaseFloor": 0.75,
         "ToHitGunneryDivisor": 50,
         "ToHitUseSteppedAlgorithm": false,
         "ToHitStepThresholds":
@@ -254,7 +254,7 @@
         ],
         "WeaponTypesGuaranteedEvasiveStrip":
         [
-            3
+
         ],
         "TacticsBaseFloor": 0.65,
         "TacticsDivisor": 20,
@@ -297,7 +297,7 @@
         "SolidDamageCountersGuarded": false,
         "SensorLockCountersGuarded": false,
         "UnsteadyCountersEvasive": true,
-        "MeleeCountersEvasive": true,
+        "MeleeCountersEvasive": false,
         "SolidDamageCountersEvasive": false,
         "SensorLockCountersEvasive": false,
         "VehiclesGetEvasive": true,
@@ -335,6 +335,7 @@
     "HitTables":
     {
         "CalledShotBonusMultiplier": 1.5,
+        "CalledShotBonusDegradeLerpFactor": 0.25,		
         "HitMechLocationFromFront": 
 		[
             {
@@ -706,7 +707,7 @@
     },
     "PilotingConstants":
     {
-        "PilotingBaseFloor": 0.8,
+        "PilotingBaseFloor": 0.7,
         "PilotingDivisor": 40,
         "PilotingModifierDivisor": 6.5,
         "PilotingDamageCTPenalizedModifier": 0.1,
@@ -1194,9 +1195,9 @@
         "TargetCamPosMultiplierBack" : 3.5, /* over-the-shoulder targeting cam - adjusts distance back from the firing mech */
         "TargetCamPosMultiplierHeight" : 1.1, /* over-the-shoulder targeting cam - adjusts distance up from the firing mech */
         "TargetCamTime" : 0.2, /* time to move into over-the-shoulder cam */
-        "RestorePlayerCamTime" : 0.1, /* time for camera to move back to player controlled cam */
+        "RestorePlayerCamTime" : 0.4, /* time for camera to move back to player controlled cam */
         "MovementCamTime" : 0.25, /* time to move into position to show enemy moves (high angle) */
-        "ShowAttackCamTime" : 1.5, /* for non-cinematic zoom, time to move camera into final position */
+        "ShowAttackCamTime" : 0.7, /* for non-cinematic zoom, time to move camera into final position */
         "ShakyCamTime" : 1.0, /* for cinematic zoom on enemy movements, minimum time for the whole sequence (note, sequence can still be shorter than this) */
         "ShakyCamOffset" : 0.5, /* max position change when showing "shaky" zoom-in cam */
         "ShakyMoveCamHeightMultiplier" : 2.6, /* controls height when showing follow cam, and "fancy" melee cam */

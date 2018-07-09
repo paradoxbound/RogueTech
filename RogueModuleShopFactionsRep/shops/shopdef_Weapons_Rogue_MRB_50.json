@@ -12,6 +12,12 @@
         "tagSetSourceFile": ""
     },
     "Inventory": [
+       {
+            "ID": "Weapon_Gauss_Magshot",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0		
+        },	
         {
             "ID": "Gear_Leg_Talons",
             "Type": "Upgrade",
@@ -97,6 +103,18 @@
          "DiscountModifier" : 1.2,
          "Count" : 0
 	 
+      },
+      {
+         "ID" : "Gear_HeatSink_Generic_Thermal-Exchanger-II",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_HeatSink_Generic_Improved-Bank",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
       }	  
     ],
     "Specials": [

@@ -16,7 +16,7 @@
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 5,
+    "DamageVariance" : 10,
     "HeatDamage" : 15,
     "AccuracyModifier" : 1,
     "CriticalChanceMultiplier" : 1,
@@ -40,7 +40,7 @@
         "Details" : "Construction and engineering mechs use Arc Welders to join metal parts. In an emergency these high-temperature electric arcs can be used against mechs in melee combat. Like all Industrial weapons, Arc Welders suffer a small inherant penalty to hit.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
-    "BonusValueA" : "5 Var.Dmg.",
+    "BonusValueA" : "10 Var.Dmg.",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",

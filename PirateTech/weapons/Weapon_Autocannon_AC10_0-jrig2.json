@@ -24,7 +24,7 @@
     "IndirectFireCapable" : false,
     "RefireModifier" : 2,
     "ShotsWhenFired" : 1,
-    "ProjectilesPerShot" : 4,
+    "ProjectilesPerShot" : 2,
     "AttackRecoil" : 3,
     "Instability" : 15,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC10_Single",

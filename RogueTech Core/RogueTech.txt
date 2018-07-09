@@ -95,6 +95,7 @@ MRB shop rep raised to
 100-250-500-800 per tier of special and elite gear
 Special Munitions are tied to MRB 
 TTS be sold by the MRB
+Exchangers and Heatbanks are now sold by MRB
 
 CompanyDifficulty Updated
 Skulls on drop now show what your lance is capable off instad of its (tooltip not changed yet)
@@ -103,9 +104,6 @@ Deployments updated to 1.3
 You will be warned that you should have power and mechs before tackling them
 
 Contract variance 0 as option now
-
-Removed evasion ignore from melee and dfa
-Piloting base floor and divider changed toa ccount for this
 
 New dll by Life (delete old armorpoints.dll)
 Armor Repair
@@ -118,6 +116,7 @@ Drop costs have been halfed to account for this
 They still simulate you paying for ammo and fuel
 
 Monthly maintenance cost cut in half to account for this as well
+Increased Argo MechTech'S from MechBays
 
 Selection of starting funds has been increased to accomodate this early
 
@@ -131,6 +130,10 @@ A fatigued pilot can be fielded at reduced effectivity
 
 Increased starting ronin to 7 to accomodate for this
 
+AIM Updated
+Replaces BTML colour los mod
+
+Added Replacement Mech Portraits
 
 
 0.986 Release patch7

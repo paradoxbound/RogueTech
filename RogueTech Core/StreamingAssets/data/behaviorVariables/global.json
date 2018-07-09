@@ -326,7 +326,7 @@
             "k" : "Float_ThreatDamageRatioThreshold",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.7
+		"floatVal" : 0.5
             }
 	},
 	{
@@ -1130,6 +1130,14 @@
 		"type": "Int",
                 "intVal" : "-1"
 	    }
-	}
+	},
+	{
+	    /* Whether the AI should always be in offensive mood. */
+            "k" : "Bool_AlwaysOffensiveMood",
+            "v" : {
+		"type" : "Bool",
+		"boolVal" : true,
+            }
+	}	
     ]
 }

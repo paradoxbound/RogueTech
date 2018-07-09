@@ -8,7 +8,7 @@
         "UIName": "Commando",
         "Id": "chassisdef_commando_COM-1B",
         "Name": "Commando",
-        "Details": "The Large Laser mounted by most IB models is nothing to sniff at, but it lacks the close-up impact of the SRMs it replaces. Best to keep these units at range for flanking and spotting.",
+        "Details": "The Large Laser mounted by most 1B models is nothing to sniff at, but it lacks the close-up impact of the SRMs it replaces. Best to keep these units at range for flanking and spotting.",
         "Icon": "uixTxrIcon_commando"
     },
     "MovementCapDefID": "movedef_commando_COM-2D",
@@ -52,7 +52,7 @@
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 30,
+            "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
         },
@@ -197,5 +197,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light Sniper & Scout",
-    "YangsThoughts": "The Large Laser mounted by most IB models is nothing to sniff at, but it lacks the close-up impact of the SRMs it replaces. Best to keep these units at range for flanking and spotting."
+    "YangsThoughts": "The Large Laser mounted by most 1B models is nothing to sniff at, but it lacks the close-up impact of the SRMs it replaces. Best to keep these units at range for flanking and spotting."
 }

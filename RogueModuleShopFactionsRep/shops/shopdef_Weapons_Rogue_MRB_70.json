@@ -38,7 +38,14 @@
             "DiscountModifier": 1,
             "Count": 0
 		
-        },	
+        },
+	  {
+         "ID" : "Gear_Arm_Claws",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+	 
+      },		
 	  {
          "ID" : "Gear_Cockpit_DNI",
          "Type" : "Upgrade",
@@ -85,6 +92,18 @@
          "DiscountModifier" : 1.2,
          "Count" : 0
 	 
+      },
+      {
+         "ID" : "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_HeatSink_Generic_Bulk-Bank",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
       }	  
   
     ],

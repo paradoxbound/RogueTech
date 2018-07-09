@@ -203,7 +203,7 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-TalonsMeleeACC",
+                "Id" : "StatusEffect-TalonsDFAACC",
                 "Name" : "MELEE HIT CHANCE DECREASED",
                 "Details" : "Melee attacks attempted have their hit decreased by 2.",
                 "Icon" : "uixSvgIcon_equipment_Gyro"

@@ -11,7 +11,6 @@
     "Manifest": [			
         { "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
         { "Type": "VehicleDef", "Path": "vehicle" },
-        { "Type": "MovementCapabilitiesDef", "Path": "movement" },
-		{ "Type": "AbilityDef", "Path": "newabilities" }
+        { "Type": "MovementCapabilitiesDef", "Path": "movement" }
     ]
 }

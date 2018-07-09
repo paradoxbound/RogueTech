@@ -1,10 +1,11 @@
 {
 	"FatigueTimeStart" : 7,
     "StartingMorale" : 10,
-	"FatigueMinimum" : 1,
+	"FatigueMinimum" : 0,
 	"MoralePositiveTierOne" : 5,
 	"MoralePostiveTierTwo" : 15,
 	"MoraleNegativeTierOne" : -5,
 	"MoraleNegativeTierTwo" : -15,
 	"FatigueFactor" : 2,
+	"InjuriesHurt" : true,
 }

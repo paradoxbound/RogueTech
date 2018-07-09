@@ -13,7 +13,7 @@ Once Fatigued, this pilot can still be used during this period. However, if they
 Values that can be changed in the settings.json:
 
 	"FatigueTimeStart" : 7, (How many days to start the fatigue calculation at)
-    	"StartingMorale" : 25, (enter starting morale here for MoraleTier determinations)
+	"StartingMorale" : 25, (enter starting morale here for MoraleTier determinations)
 	"FatigueMinimum" : 0, (minimum days that a pilot will be fatigued for after a mission)
 	"MoralePositiveTierOne" : 5, (Positive difference from StartingMorale to reduce fatigue by 1 day)
 	"MoralePostiveTierTwo" : 15, (Positive difference from StartingMorale to reduce fatigue by 2 day)

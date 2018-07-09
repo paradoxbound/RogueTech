@@ -11,6 +11,6 @@
 	"DLL": "CBTMovement.dll",
 
     "Settings": {
-        "ToHitSelfJumped": 2
+        "ToHitSelfJumped": 3
     }
 }

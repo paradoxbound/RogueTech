@@ -1,59 +1,32 @@
 {
-    "Category" : "AntiPersonnel",
-    "Type" : "PPC",
-    "WeaponSubType" : "PPCER",
-    "MinRange" : 0,
-    "MaxRange" : 40,
-    "RangeSplit" : [
-        25,
-        25,
-        40
-    ],
-    "AmmoCategory" : "NotSet",
-    "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 15,
-    "Damage" : 60,
-    "OverheatedDamageMultiplier" : 0,
-    "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 1,
-    "DamageVariance" : 20,
-    "HeatDamage" : 25,
-    "AccuracyModifier" : -1,
-    "CriticalChanceMultiplier" : 2,
-    "AOECapable" : false,
-    "IndirectFireCapable" : false,
-    "RefireModifier" : 0,
-    "ShotsWhenFired" : 1,
-    "ProjectilesPerShot" : 1,
-    "AttackRecoil" : 0,
-    "Instability" : 15,
-    "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 1150000,
-        "Rarity" : 0,
+        "Rarity" : 1,
         "Purchasable" : true,
-        "Manufacturer" : "Deadly Sins",
-        "Model" : "Anti Mech Lance",
-        "UIName" : "Plasma Lance",
-        "Id" : "Weapon_Elite_2_PlasmaTorch",
-        "Name" : "Plasma Lance",
-        "Details" : "Construction and engineering mechs use Plasma Torches to cut and weld metal. This Specific Torch was actually redesigned for Military use to act like an energy Lance. Not affected by PPC Cap.",
-        "Icon" : "uixSvgIcon_run_n_gun"
+        "Manufacturer" : "Dark Mirage",
+        "Model" : "Shredder",
+        "UIName" : "Claws",
+        "Id" : "Gear_Arm_Claws",
+        "Name" : "Claw Hand Actuators",
+        "Details" : "A BattleMech Claw is a melee weapon most frequently used in the arena fighting on Solaris. The Claw consists of a series of hardened steel blades mounted on reinforced tungsten frames. Mounted in place of a 'Mech’s hand actuator, the Claw is used to grab, twist, and otherwise shear off an opponent's armor plating.",
+        "Icon" : "uixSvgIcon_ability_angelofdeath"
     },
-    "BonusValueA" : "20 Var.Dmg.",
-    "BonusValueB" : "+10MeleeDMG+Var.",
-    "ComponentType" : "Weapon",
-    "ComponentSubType" : "Weapon",
-    "PrefabIdentifier" : "Flamer",
+    "BonusValueA" : "+20 Melee Dmg.",
+    "BonusValueB" : "+1 Melee Acc.",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 5,
-    "Tonnage" : 3,
+    "InventorySize" : 3,
+    "Tonnage" : 2,
     "AllowedLocations" : "Arms",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [
-	
-       {
+        {
             "durationData" : {
                 "duration" : -1,
                 "ticksOnActivations" : false,
@@ -77,10 +50,10 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-EliteTorch",
-                "Name" : "Military Torch",
-                "Details" : "Melee attacks deal 10 more damage.",
-                "Icon" : "uixSvgIcon_run_n_gun"
+                "Id" : "StatusEffect-ClawsMelee",
+                "Name" : "SHREDDER CLAWS",
+                "Details" : "Melee attacks deal 20 more damage and have +1 Accuracy.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -88,7 +61,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Add",
-                "modValue" : "10.0",
+                "modValue" : "20.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -104,7 +77,7 @@
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
         },
-       {
+		{
             "durationData" : {
                 "duration" : -1,
                 "ticksOnActivations" : false,
@@ -128,19 +101,19 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-EliteTorchMeleeV",
-                "Name" : "Military Torch",
-                "Details" : "Melee attacks deal 10 more damage.",
-                "Icon" : "uixSvgIcon_run_n_gun"
+                "Id" : "StatusEffect-ClawsMeleeACC",
+                "Name" : "MELEE HIT CHANCE DECREASED",
+                "Details" : "Melee attacks attempted have their hit decreased by 2.",
+                "Icon" : "uixSvgIcon_equipment_Gyro"
             },
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "DamageVariance",
-                "operation" : "Int_Add",
-                "modValue" : "10",
-                "modType" : "System.Int32",
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "NotSet",
@@ -154,13 +127,13 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
-        }		
-        
+        },		
+		
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock",
-            "range_close"
+            "component_type_variant",
+            "component_type_variant2"
         ],
         "tagSetSourceFile" : ""
     }

@@ -147,7 +147,7 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_Flamer_Flamer0-STOCK",
+			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Right",
 			"HardpointSlot": 1,
@@ -168,7 +168,7 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_Flamer_Flamer0-STOCK",
+			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Left",
 			"HardpointSlot": 1,

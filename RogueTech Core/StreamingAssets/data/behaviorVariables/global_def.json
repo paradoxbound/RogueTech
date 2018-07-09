@@ -186,7 +186,7 @@
          "k" : "Float_OptimalAllyDistance",
          "v" : {
             "type" : "Float",
-            "floatVal" : 36.0,
+            "floatVal" : 136.0,
          }
       },
       {
@@ -221,7 +221,7 @@
          "k" : "Float_ShootingDamageMultiplier",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.0,
+            "floatVal" : 2.0,
          }
       },
       {
@@ -235,7 +235,7 @@
          "k" : "Float_DFADamageMultiplier",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0,
+            "floatVal" : 1,
          }
       },
       {
@@ -270,7 +270,7 @@
          "k" : "Float_UnsteadyCausesBracePercentage",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.1,
+            "floatVal" : 0.0,
          }
       },
 	        {
@@ -298,7 +298,7 @@
          "k" : "Float_BraceWhenOverheatedPercentage",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.5,
+            "floatVal" : 0.5,
          }
       },
 	   {
