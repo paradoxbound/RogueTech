@@ -29,7 +29,7 @@
     "Instability" : 22.5,
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM20",
     "Description" : {
-        "Cost" : 760000,
+        "Cost" : 560000,
         "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "NAIS",

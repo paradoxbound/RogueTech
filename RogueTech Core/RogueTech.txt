@@ -139,6 +139,9 @@ Replaces BTML colour los mod
 Added Replacement Mech Portraits
 Uses colourcoded skulls for weight classes
 
+Mechsorter patched and updated
+Should now properly work in sorting your mechs by their approximate strength(cost)
+
 
 0.986 Release patch7
 Added the Kraken Pirate Elite
@@ -153,6 +156,8 @@ Third new Melee Weapon and mech to carry it
 AI Tweaks
 If ai problems appear (crashes, lockups)
 Try to delete the role_lastmanstanding.json from RogueTechCore
+
+
 
 
 0.986 Release patch6

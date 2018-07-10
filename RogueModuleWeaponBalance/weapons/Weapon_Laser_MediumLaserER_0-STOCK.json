@@ -29,7 +29,7 @@
     "Instability" : 4.6,
     "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Medium",
     "Description" : {
-        "Cost" : 400000,
+        "Cost" : 200000,
         "Rarity" : 5,
         "Purchasable" : false,
         "Manufacturer" : "SCI",

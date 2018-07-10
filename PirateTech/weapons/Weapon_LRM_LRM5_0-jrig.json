@@ -29,7 +29,7 @@
     "Instability" : 2,
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM5",
     "Description" : {
-        "Cost" : 312000,
+        "Cost" : 212000,
         "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "GM",

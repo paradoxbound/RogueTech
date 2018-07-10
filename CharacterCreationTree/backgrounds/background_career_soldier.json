@@ -51,7 +51,7 @@
     },
     "BackgroundSection" : 2,
     "UIOrdering" : 0,
-    "OptionName" : "Aurigan Coalition Soldier",
+    "OptionName" : "Soldier",
 	"OptionMusicTrigger" : "",
     "OptionDescription" : "Unsure of your prospects, you traveled to [[DM.BaseDescriptionDefs[LoreCoromodir],Coromodir]], the capital of the [[DM.BaseDescriptionDefs[LoreAuriganCoalition],Aurigan Coalition]], and enlisted in the Coalition military. You quickly rose through the ranks, distinguishing yourself as a reliable MechWarrior. Life as a soldier wasn't glamorous, but it suited you just fine.\r\n\r\n+1 [[DM.BaseDescriptionDefs[StatMechWarriorGunnery],Gunnery]]",
     "Intro" : "On an ill-fated mission, you were caught behind enemy lines and separated from your lance. Raju happened to be on patrol nearby, and he launched a daring rescue. Upon finding out it was you he had rescued, he brought you into the [[DM.BaseDescriptionDefs[LoreHouseArano],House Arano]] Royal Guard.\r\n\r\nSo it is that you find yourself reunited with your old mentor, preparing your ancestral [[DM.BaseDescriptionDefs[LoreAncestralBlackjack],Blackjack]] for guard duty on the coronation day of the [[DM.BaseDescriptionDefs[LoreKameaArano],Lady Kamea Arano]]…",

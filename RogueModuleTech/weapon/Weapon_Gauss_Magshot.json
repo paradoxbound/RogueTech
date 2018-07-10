@@ -29,7 +29,7 @@
     "Instability" : 5,
     "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
     "Description" : {
-        "Cost" : 975000,
+        "Cost" : 475000,
         "Rarity" : 10,
         "Purchasable" : true,
         "Manufacturer" : "Johnston",

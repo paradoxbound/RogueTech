@@ -29,7 +29,7 @@
     "Instability" : 1,
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM20",
     "Description" : {
-        "Cost" : 1134000,
+        "Cost" : 834000,
         "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "Jackson",

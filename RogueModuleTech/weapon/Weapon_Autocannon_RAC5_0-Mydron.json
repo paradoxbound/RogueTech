@@ -29,7 +29,7 @@
     "Instability" : 11.25,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
     "Description" : {
-        "Cost" : 670000,
+        "Cost" : 970000,
         "Rarity" : 4,
         "Purchasable" : true,
         "Manufacturer" : "Mydron",

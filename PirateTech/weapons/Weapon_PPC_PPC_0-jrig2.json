@@ -29,7 +29,7 @@
     "Instability" : 25,
     "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
     "Description" : {
-        "Cost" : 28000,
+        "Cost" : 328000,
         "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "Magna",
@@ -54,7 +54,7 @@
     "statusEffects" : [
         {
             "durationData" : {
-                "duration" : 1,
+                "duration" : 2,
                 "ticksOnActivations" : true,
                 "useActivationsOfTarget" : true,
                 "ticksOnEndOfRound" : false,
@@ -76,7 +76,7 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "AbilityDefPPC",
+                "Id" : "AbilityDefPPPC",
                 "Name" : "SENSORS IMPAIRED",
                 "Details" : "2 Difficulty to all of this unit's attacks until its next activation.",
                 "Icon" : "uixSvgIcon_status_sensorsImpaired"

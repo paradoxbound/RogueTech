@@ -12,11 +12,11 @@
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 5,
-    "Damage" : 7,
+    "Damage" : 5,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 5,
+    "DamageVariance" : 15,
     "HeatDamage" : 15,
     "AccuracyModifier" : 0,
     "CriticalChanceMultiplier" : 1,
@@ -159,7 +159,8 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock",
+            "component_type_variant",
+            "component_type_variant1",
             "range_close"
         ],
         "tagSetSourceFile" : ""
