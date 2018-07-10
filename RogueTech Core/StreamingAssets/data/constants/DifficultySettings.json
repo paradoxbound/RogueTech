@@ -2693,12 +2693,12 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 4,
+			"DefaultIndex": 2,
 			"Options": [
 				{
 					"ID": "diff_start_cheat",
 					"Name": "Cheat",
-					"DifficultyValue": 0,
+					"DifficultyValue": -10,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
@@ -2709,31 +2709,43 @@
 				},
 				{
 					"ID": "diff_start_bjp",
-					"Name": "Pirate",
+					"Name": "Pirate 'Pult",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_blackjack_BJ-P"
+							"ConstantValue": "mechdef_catapult_CPLT-P"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_basic",
+					"Name": "Basic Enforcer",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_enforcer_ENF-4R"
 						}
 					]
 				},				
 				{
-					"ID": "diff_start_ylw",
-					"Name": "Brawler",
+					"ID": "diff_start_cent",
+					"Name": "Centurion",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_centurion_CN9-YLW"
+							"ConstantValue": "mechdef_centurion_CN9-A2"
 						}
 					]
 				},
 				{
 					"ID": "diff_start_tbt",
-					"Name": "Artillery",
+					"Name": "Katyushka",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
@@ -2745,7 +2757,7 @@
 				},
 				{
 					"ID": "diff_start_bjg",
-					"Name": "Sniper",
+					"Name": "Blackjack-G",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
@@ -2757,13 +2769,61 @@
 				},
 				{
 					"ID": "diff_start_c3t",
-					"Name": "Fast Tank",
+					"Name": "Porcupine",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingPlayerMech",
 							"ConstantValue": "mechdef_cicada_CDA-3T"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_kinot",
+					"Name": "Kintaro",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_kintaro_KTO-18S"
+						}
+					]
+				},				
+				{
+					"ID": "diff_start_plasma",
+					"Name": "Stingray",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_stingray_SYU-1X"
+						}
+					]
+				},				
+				{
+					"ID": "diff_start_gdrk",
+					"Name": "Grand Dragon",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_granddragon_DRG-3K"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_kinot",
+					"Name": "Hwacha",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_catapult_CPLT-D7"
 						}
 					]
 				},
@@ -2780,17 +2840,17 @@
 					]
 				},
 				{
-					"ID": "diff_start_gdrk",
-					"Name": "Heavy",
+					"ID": "diff_start_gobl",
+					"Name": "Goblin",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_granddragon_DRG-3K"
+							"ConstantValue": "mechdef_firestarter_FS7-S"
 						}
 					]
-				}				
+				},				
 
 			]
 		}		

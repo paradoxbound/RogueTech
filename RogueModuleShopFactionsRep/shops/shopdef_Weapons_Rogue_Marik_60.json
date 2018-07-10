@@ -30,7 +30,13 @@
             "Type": "Upgrade",
             "DiscountModifier": 1,
             "Count": 0
-        }		
+        },
+        {
+            "ID": "Weapon_Gauss_Gauss_LIGHT",
+            "Type": "Weapon",
+            "DiscountModifier": 1.2,
+            "Count" : 0
+        },		
 		
     ],
     "Specials": []

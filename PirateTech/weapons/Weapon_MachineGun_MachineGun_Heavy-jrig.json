@@ -7,7 +7,7 @@
     "RangeSplit" : [
         60,
         120,
-        200
+        180
     ],
     "AmmoCategory" : "MG",
     "StartingAmmoCapacity" : 0,

@@ -55,13 +55,13 @@
         "PilotHealthMaxModifier": 10,
 
         "HeadDamageMaxModifier": 15,
-        "CTDamageMaxModifier": 10,
+        "CTDamageMaxModifier": 11,
         "SideTorsoInternalDamageMaxModifier": 10,
-        "LeggedMaxModifier": 10,
+        "LeggedMaxModifier": 15,
 
         "NextShotLikeThatCouldKill": 15,
         
-        "WeaponlessModifier": 20,
-        "AloneModifier": 20
+        "WeaponlessModifier": 25,
+        "AloneModifier": 10
     }
 }

@@ -11,7 +11,7 @@
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_marauderII_MAD-4A",
+    "ChassisID": "chassisdef_marauderII_MAD-4S",
     "HeraldryID": null,
     "Description": {
         "Cost": 14800000,
@@ -19,10 +19,10 @@
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Marauder II MAD-4A",
-        "Id": "mechdef_marauderII_MAD-4A",
+        "UIName": "Marauder II MAD-4S",
+        "Id": "mechdef_marauderII_MAD-4S",
         "Name": "Marauder II",
-        "Details": "The Marauder II was first built in 3012 in an attempt to take the firepower of the Marauder and combine it with the reliability and ruggedness of an assault chassis. This was achieved by generally upgrading the entire 'Mech's chassis to allow it to carry a much heavier armor and weapons load. The 'Mech was then armored with nineteen tons of armor, giving it protection that rivals that of the Atlas. Finally, to make up for the reduced mobility of the Marauder II, the 'Mech was outfitted with jump jets that give it a jumping capability of up to ninety meters. Blackwell Heavy Industries produced the design exclusively for Wolf's Dragoons until the end of the Fourth Succession War, when Jaime Wolf allowed them to sell to others. ",
+        "Details": "The Marauder II was first built in 3012 in an attempt to take the firepower of the Marauder and combine it with the reliability and ruggedness of an assault chassis.This Steiner variant was built to carry a Heavy Gauss Rifle.",
         "Icon": "uixTxrIcon_marauder"
     },
     "simGameMechPartCost": 880000,
@@ -102,20 +102,9 @@
         }
     ],
     "inventory": [
-	        {
-            "MountedLocation": "Head",
-            "ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-X",
-            "SimGameUID": "",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },	
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
+            "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -126,7 +115,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_PPC_PPC_2-Donal",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -137,7 +126,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
+            "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -148,7 +137,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_PPC_PPC_2-Donal",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -159,7 +148,29 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_LargeLaser_3-Magna",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Gauss_Gauss_HEAVY",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -181,94 +192,6 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },		
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },		
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Assault",
-            "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },		
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Assault",
-            "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Generic_Assault",
-            "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },		
-        {
-            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Improved-Bank",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
@@ -277,10 +200,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },
+        },				
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard-Bank",
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -290,8 +213,41 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-II",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,

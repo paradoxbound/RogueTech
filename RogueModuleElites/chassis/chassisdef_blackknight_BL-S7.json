@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_blackknightBase-001",
     "PrefabBase": "blackknight",
     "Tonnage": 75,
-    "InitialTonnage": 23,
+    "InitialTonnage": 22,
     "weightClass": "HEAVY",
     "BattleValue": 9124000,
     "Heatsinks": 0,
