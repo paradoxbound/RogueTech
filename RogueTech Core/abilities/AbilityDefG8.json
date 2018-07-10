@@ -2,7 +2,7 @@
 	"Description" : {
 		"Id" : "AbilityDefG8",
 		"Name" : "Warlord",
-		"Details" : "PASSIVE: Grants 15% Weapon damage and +2 all accuracy.",
+		"Details" : "PASSIVE: Grants 15% Weapon damage and +1 all accuracy.",
 		"Icon" : "uixSvgIcon_skullAtlas"
 	},
     "DisplayParams" : "ShowInMWTRay",
@@ -84,7 +84,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "AccuracyModifier",
                 "operation" : "Float_Add",
-                "modValue" : "-2",
+                "modValue" : "-1",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
