@@ -103,7 +103,7 @@ MRB shop rep raised to
 Special Munitions are tied to MRB 
 TTS be sold by the MRB
 Exchangers and Heatbanks are now sold by MRB
-Added more Ammo: Artemis SRM/LRM, ER LRM, Caseless AC, Tandem Charge SRM, Tracer MG, Hotloaded LRM, AC Training
+Added more Ammo: Artemis SRM/LRM, ER LRM, Caseless AC, Tandem Charge SRM, Tracer MG, Hotloaded LRM, LiveFireTraining
 
 Increased Max Shop items selection and default to account for MRB shop
 
