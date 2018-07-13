@@ -233,9 +233,178 @@
 			]
 		},
 		{
+			"ID": "diff_Starter",
+			"Name": "Starter Mech",
+			"UIOrder": 4,
+			"Tooltip": "Select your starter Mech.",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 2,
+			"Options": [
+				{
+					"ID": "diff_start_cheat",
+					"Name": "Cheat",
+					"DifficultyValue": -10,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_atlas_AS7-D-HT"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_bjp",
+					"Name": "Pirate 'Pult",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_catapult_CPLT-P"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_basic",
+					"Name": "Enforcer",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_enforcer_ENF-4R"
+						}
+					]
+				},				
+				{
+					"ID": "diff_start_cent",
+					"Name": "Centurion",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_centurion_CN9-A2"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_tbt",
+					"Name": "Katyushka",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_trebuchet_TBT-6X"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_bjg",
+					"Name": "Blackjack-G",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_blackjack_BJ-G"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_c3t",
+					"Name": "Porcupine",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_cicada_CDA-3T"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_kinto",
+					"Name": "Kintaro",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_kintaro_KTO-18S"
+						}
+					]
+				},				
+				{
+					"ID": "diff_start_plasma",
+					"Name": "Stingray",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_stingray_SYU-1X"
+						}
+					]
+				},				
+				{
+					"ID": "diff_start_gdrk",
+					"Name": "Grand Dragon",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_granddragon_DRG-3K"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_hwacha",
+					"Name": "Hwacha",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_catapult_CPLT-D7"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_eri",
+					"Name": "Erinya",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_commando_COM-MK2"
+						}
+					]
+				},
+				{
+					"ID": "diff_start_gobl",
+					"Name": "Goblin",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_firestarter_FS7-S"
+						}
+					]
+				}
+			]
+		},		
+		{
 			"ID": "diff_Contracts",
 			"Name": "Contracts generated",
-			"UIOrder": 4,
+			"UIOrder": 5,
 			"Tooltip": "Set your Choice of Maximum Contracts generated per system.",
 			"Enabled": true,
 			"Visible": true,
@@ -332,7 +501,7 @@
 		{
 			"ID": "diff_Breadcrums",
 			"Name": "Deployments generated",
-			"UIOrder": 5,
+			"UIOrder": 6,
 			"Tooltip": "Set your Choice of Deployments generated per system",
 			"Enabled": true,
 			"Visible": true,
@@ -417,7 +586,7 @@
 		{
 			"ID": "diff_DifficVariance",
 			"Name": "Contract Difficulty Variance",
-			"UIOrder": 6,
+			"UIOrder": 7,
 			"Tooltip": "Set your Choice of Maximum difficulty difference between generated contracts<color=#F79B26>Each number is a half skull difference to your global difficulty.</color>",
 			"Enabled": true,
 			"Visible": true,
@@ -562,7 +731,7 @@
 		{
 			"ID": "diff_contractPayment",
 			"Name": "Contract Payment",
-			"UIOrder": 7,
+			"UIOrder": 8,
 			"Tooltip": "This setting controls the amount of C-Bills paid by contracts across the entire game. Adjust this setting to make the economic gameplay more or less forgiving.",
 			"Enabled": true,
 			"Visible": true,
@@ -635,7 +804,7 @@
 		{
 			"ID": "diff_baseSalvage",
 			"Name": "Salvage",
-			"UIOrder": 8,
+			"UIOrder": 9,
 			"Tooltip": "This setting changes the amount of salvage you may obtain from negotiation. Adjust this setting to make the economic gameplay more or less forgiving.",
 			"Enabled": true,
 			"Visible": true,
@@ -684,7 +853,7 @@
 		{
 			"ID": "diff_CommanderEXP",
 			"Name": "Commander Experience Points",
-			"UIOrder": 9,
+			"UIOrder": 10,
 			"Tooltip": "Use this to decide for the starting Experience of your Commander",
 			"Enabled": true,
 			"Visible": true,
@@ -733,7 +902,7 @@
 		{
 			"ID": "diff_advancedPilots",
 			"Name": "Advanced MechWarriors",
-			"UIOrder": 10,
+			"UIOrder": 11,
 			"Tooltip": "In the later parts of the game, new MechWarriors in the Hiring Hall will often have better stats and skills than in the early parts of the game. Modify this setting to change the frequency of new MechWarriors having these improvements.",
 			"Enabled": true,
 			"Visible": true,
@@ -778,11 +947,289 @@
 					]
 				}
 			]
+		},
+		{
+			"ID": "diff_pilotRonin",
+			"Name": "Ronin Hire Chance",
+			"UIOrder": 11,
+			"Tooltip": "This setting controls the chance of hiring ronin",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 7,
+			"Options": [
+				{
+					"ID": "diff_Ronin_only",
+					"Name": "100%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultRoninHiringChance",
+							"ConstantValue": "1.0"
+						}
+					]
+				},
+				{
+					"ID": "diff_Ronin_90",
+					"Name": "90%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultRoninHiringChance",
+							"ConstantValue": "0.9"
+						}
+					]
+				},
+				{
+					"ID": "diff_Ronin_80",
+					"Name": "80%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultRoninHiringChance",
+							"ConstantValue": "0.8"
+						}
+					]
+				},
+				{
+					"ID": "diff_Ronin_70",
+					"Name": "70%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultRoninHiringChance",
+							"ConstantValue": "0.7"
+						}
+					]
+				},
+				{
+					"ID": "diff_Ronin_60",
+					"Name": "60%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultRoninHiringChance",
+							"ConstantValue": "0.6"
+						}
+					]
+				},
+				{
+					"ID": "diff_Ronin_50",
+					"Name": "50%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultRoninHiringChance",
+							"ConstantValue": "0.5"
+						}
+					]
+				},
+				{
+					"ID": "diff_Ronin_40",
+					"Name": "40%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultRoninHiringChance",
+							"ConstantValue": "0.4"
+						}
+					]
+				},	
+				{
+					"ID": "diff_Ronin_30",
+					"Name": "30%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultRoninHiringChance",
+							"ConstantValue": "0.3"
+						}
+					]
+				},
+				{
+					"ID": "diff_Ronin_20",
+					"Name": "20%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultRoninHiringChance",
+							"ConstantValue": "0.2"
+						}
+					]
+				},
+				{
+					"ID": "diff_Ronin_10",
+					"Name": "10%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultRoninHiringChance",
+							"ConstantValue": "0.1"
+						}
+					]
+				},	
+				{
+					"ID": "diff_Ronin_never",
+					"Name": "never",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultRoninHiringChance",
+							"ConstantValue": "0.0"
+						}
+					]
+				}				
+			]
+		},
+		{
+			"ID": "diff_pilotpersystem",
+			"Name": "Pilots per system",
+			"UIOrder": 13,
+			"Tooltip": "This setting controls the Pilots avaible per System",
+			"Enabled": true,
+			"Visible": true,
+			"Toggle": false,
+			"StartOnly": false,
+			"DefaultIndex": 7,
+			"Options": [
+				{
+					"ID": "diff_pilotssys_10",
+					"Name": "10",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultPilotsPerSystem",
+							"ConstantValue": "10"
+						}
+					]
+				},
+				{
+					"ID": "diff_pilotssys_9",
+					"Name": "9",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultPilotsPerSystem",
+							"ConstantValue": "9"
+						}
+					]
+				},
+				{
+					"ID": "diff_pilotssys_8",
+					"Name": "8",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultPilotsPerSystem",
+							"ConstantValue": "8"
+						}
+					]
+				},
+				{
+					"ID": "diff_pilotssys_7",
+					"Name": "7",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultPilotsPerSystem",
+							"ConstantValue": "7"
+						}
+					]
+				},
+				{
+					"ID": "diff_pilotssys_6",
+					"Name": "6",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultPilotsPerSystem",
+							"ConstantValue": "6"
+						}
+					]
+				},
+				{
+					"ID": "diff_pilotssys_5",
+					"Name": "5",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultPilotsPerSystem",
+							"ConstantValue": "5"
+						}
+					]
+				},
+				{
+					"ID": "diff_pilotssys_4",
+					"Name": "4",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultPilotsPerSystem",
+							"ConstantValue": "4"
+						}
+					]
+				},	
+				{
+					"ID": "diff_pilotssys_3",
+					"Name": "3",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultPilotsPerSystem",
+							"ConstantValue": "3"
+						}
+					]
+				},
+				{
+					"ID": "diff_pilotssys_2",
+					"Name": "2",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultPilotsPerSystem",
+							"ConstantValue": "2"
+						}
+					]
+				},
+				{
+					"ID": "diff_pilotssys_1",
+					"Name": "1",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "DefaultPilotsPerSystem",
+							"ConstantValue": "1"
+						}
+					]
+				}
+			]
 		},		
 		{
 			"ID": "diff_pilotProgression",
 			"Name": "MechWarrior Progression",
-			"UIOrder": 11,
+			"UIOrder": 14,
 			"Tooltip": "This setting controls the amount of experience MechWarriors gain after each mission. Change this setting to adjust the rate at which MechWarriors improve their stats and gain new skills.",
 			"Enabled": true,
 			"Visible": true,
@@ -867,7 +1314,7 @@
 		{
 			"ID": "diff_pilotExponent",
 			"Name": "MechWarrior Exponent",
-			"UIOrder": 12,
+			"UIOrder": 15,
 			"Tooltip": "This setting controls the exponent of raising XP Cost per Level",
 			"Enabled": true,
 			"Visible": true,
@@ -948,11 +1395,11 @@
 					]
 				}
 			]
-		},	
+		},		
 		{
 			"ID": "diff_pilotcostmultiplier",
 			"Name": "MechWarrior Multiplier",
-			"UIOrder": 13,
+			"UIOrder": 16,
 			"Tooltip": "This setting controls the multiplier of XP Cost per Level",
 			"Enabled": true,
 			"Visible": true,
@@ -1037,7 +1484,7 @@
 		{
 			"ID": "diff_lethality",
 			"Name": "Lethality",
-			"UIOrder": 14,
+			"UIOrder": 17,
 			"Tooltip": "Choose the chance of being KILLED IN ACTION from never to always.",
 			"Enabled": true,
 			"Visible": true,
@@ -1118,7 +1565,7 @@
 		{
 			"ID": "diff_money",
 			"Name": "Starting Money",
-			"UIOrder": 15,
+			"UIOrder": 18,
 			"Tooltip": "Select your starting capital.",
 			"Enabled": true,
 			"Visible": true,
@@ -1191,7 +1638,7 @@
 		{
 			"ID": "diff_MechBayTechCost",
 			"Name": "Mech Bay Speed",
-			"UIOrder": 16,
+			"UIOrder": 19,
 			"Tooltip": "Select Mech Bay construction Speeds",
 			"Enabled": true,
 			"Visible": true,
@@ -1489,7 +1936,7 @@
 		{
 			"ID": "diff_ArmourTechCost",
 			"Name": "Mech Bay Armour Speed",
-			"UIOrder": 17,
+			"UIOrder": 20,
 			"Tooltip": "Select the speed at which your armour is changed",
 			"Enabled": true,
 			"Visible": true,
@@ -1562,7 +2009,7 @@
 		{
 			"ID": "diff_MechBayBillsCost",
 			"Name": "Mech Bay CBILLS",
-			"UIOrder": 18,
+			"UIOrder": 21,
 			"Tooltip": "Select Mech Bay Cbill Cost",
 			"Enabled": true,
 			"Visible": true,
@@ -1823,7 +2270,7 @@
 		{
 			"ID": "diff_ArgoMaintenance",
 			"Name": "Argo Monthly Payment",
-			"UIOrder": 19,
+			"UIOrder": 22,
 			"Tooltip": "Select The modifer strength for Monthly Costs.",
 			"Enabled": true,
 			"Visible": true,
@@ -1965,13 +2412,13 @@
 							"ConstantValue": "2.1"
 						}
 					]
-				},
+				}
 			]
 		},
 		{
 			"ID": "diff_ArgoMorale",
 			"Name": "Argo Monthly Morale",
-			"UIOrder": 20,
+			"UIOrder": 23,
 			"Tooltip": "Select The modifer Argo Monthly Morale.",
 			"Enabled": true,
 			"Visible": true,
@@ -2119,7 +2566,7 @@
 		{
 			"ID": "diff_ShopSell",
 			"Name": "Shop Selling Prices",
-			"UIOrder": 21,
+			"UIOrder": 24,
 			"Tooltip": "Set your desired Selling Values.",
 			"Enabled": true,
 			"Visible": true,
@@ -2264,7 +2711,7 @@
 {
 			"ID": "diff_ShopScrap",
 			"Name": "Scrap Return Values",
-			"UIOrder": 22,
+			"UIOrder": 25,
 			"Tooltip": "Set your desired Scrapping Payouts.",
 			"Enabled": true,
 			"Visible": true,
@@ -2409,26 +2856,14 @@
 {
 			"ID": "diff_ShopSize",
 			"Name": "Max Shop Inventory",
-			"UIOrder": 23,
+			"UIOrder": 26,
 			"Tooltip": "Set your desired Max Shop Inventory.",
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 5,
+			"DefaultIndex": 3,
 			"Options": [
-				{
-					"ID": "diff_Mshop_10",
-					"Name": "10",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxInventory",
-							"ConstantValue": "10"
-						}
-					]
-				},
 				{
 					"ID": "diff_Mshop_20",
 					"Name": "20",
@@ -2438,18 +2873,6 @@
 							"ConstantType": "Finances",
 							"ConstantName": "DefaultShopMaxInventory",
 							"ConstantValue": "20"
-						}
-					]
-				},
-				{
-					"ID": "diff_Mshop_30",
-					"Name": "30",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxInventory",
-							"ConstantValue": "30"
 						}
 					]
 				},
@@ -2466,18 +2889,6 @@
 					]
 				},
 				{
-					"ID": "diff_Mshop_50",
-					"Name": "50",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxInventory",
-							"ConstantValue": "50"
-						}
-					]
-				},
-				{
 					"ID": "diff_Mshop_60",
 					"Name": "60",
 					"DifficultyValue": 0,
@@ -2486,18 +2897,6 @@
 							"ConstantType": "Finances",
 							"ConstantName": "DefaultShopMaxInventory",
 							"ConstantValue": "60"
-						}
-					]
-				},
-				{
-					"ID": "diff_Mshop_70",
-					"Name": "70",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxInventory",
-							"ConstantValue": "70"
 						}
 					]
 				},
@@ -2514,18 +2913,6 @@
 					]
 				},
 				{
-					"ID": "diff_Mshop_90",
-					"Name": "90",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxInventory",
-							"ConstantValue": "90"
-						}
-					]
-				},
-				{
 					"ID": "diff_Mshop_100",
 					"Name": "100",
 					"DifficultyValue": 0,
@@ -2536,13 +2923,73 @@
 							"ConstantValue": "100"
 						}
 					]
+				},
+				{
+					"ID": "diff_Mshop_120",
+					"Name": "120",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "120"
+						}
+					]
+				},
+				{
+					"ID": "diff_Mshop_140",
+					"Name": "140",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "140"
+						}
+					]
+				},
+				{
+					"ID": "diff_Mshop_160",
+					"Name": "160",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "160"
+						}
+					]
+				},
+				{
+					"ID": "diff_Mshop_180",
+					"Name": "180",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "180"
+						}
+					]
+				},
+				{
+					"ID": "diff_Mshop_200",
+					"Name": "200",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxInventory",
+							"ConstantValue": "200"
+						}
+					]
 				}				
 			]
 		},
 {
 			"ID": "diff_ShopSpecials",
 			"Name": "Max Specials per shop",
-			"UIOrder": 24,
+			"UIOrder": 27,
 			"Tooltip": "Set your desired Max Special Amount .",
 			"Enabled": true,
 			"Visible": true,
@@ -2682,176 +3129,6 @@
 						}
 					]
 				}				
-			]
-		},
-		{
-			"ID": "diff_Starter",
-			"Name": "Starter Mech",
-			"UIOrder": 4,
-			"Tooltip": "Select your starter Mech.",
-			"Enabled": true,
-			"Visible": true,
-			"Toggle": false,
-			"StartOnly": false,
-			"DefaultIndex": 2,
-			"Options": [
-				{
-					"ID": "diff_start_cheat",
-					"Name": "Cheat",
-					"DifficultyValue": -10,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_atlas_AS7-D-HT"
-						}
-					]
-				},
-				{
-					"ID": "diff_start_bjp",
-					"Name": "Pirate 'Pult",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_catapult_CPLT-P"
-						}
-					]
-				},
-				{
-					"ID": "diff_start_basic",
-					"Name": "Basic Enforcer",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_enforcer_ENF-4R"
-						}
-					]
-				},				
-				{
-					"ID": "diff_start_cent",
-					"Name": "Centurion",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_centurion_CN9-A2"
-						}
-					]
-				},
-				{
-					"ID": "diff_start_tbt",
-					"Name": "Katyushka",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_trebuchet_TBT-6X"
-						}
-					]
-				},
-				{
-					"ID": "diff_start_bjg",
-					"Name": "Blackjack-G",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_blackjack_BJ-G"
-						}
-					]
-				},
-				{
-					"ID": "diff_start_c3t",
-					"Name": "Porcupine",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_cicada_CDA-3T"
-						}
-					]
-				},
-				{
-					"ID": "diff_start_kinot",
-					"Name": "Kintaro",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_kintaro_KTO-18S"
-						}
-					]
-				},				
-				{
-					"ID": "diff_start_plasma",
-					"Name": "Stingray",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_stingray_SYU-1X"
-						}
-					]
-				},				
-				{
-					"ID": "diff_start_gdrk",
-					"Name": "Grand Dragon",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_granddragon_DRG-3K"
-						}
-					]
-				},
-				{
-					"ID": "diff_start_kinot",
-					"Name": "Hwacha",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_catapult_CPLT-D7"
-						}
-					]
-				},
-				{
-					"ID": "diff_start_eri",
-					"Name": "Erinya",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_commando_COM-MK2"
-						}
-					]
-				},
-				{
-					"ID": "diff_start_gobl",
-					"Name": "Goblin",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_firestarter_FS7-S"
-						}
-					]
-				},				
-
 			]
 		}		
 	]

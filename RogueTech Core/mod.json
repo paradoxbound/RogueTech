@@ -2,7 +2,7 @@
     "Name": "RogueTech Core",
     "Enabled": true,
 
-    "Version": "0.987 Preview 4",
+    "Version": "0.987 Preview 9",
     "Description": "Contains the basic rules of RogueTech - Core Module",
     "Author": "LadyAlekto",
     "Website": "",
@@ -12,11 +12,12 @@
         { "Type": "AbilityDef", "Path": "abilities" },
         { "Type": "PilotDef", "Path": "AIPilotsBuff" },
         { "Type": "PilotDef", "Path": "turretpilots" },	
-	    { "Type": "WeaponDef", "Path": "weapons" }		
+	    { "Type": "WeaponDef", "Path": "weapons" },
+        { "Type": "HeatSinkDef", "Path": "heatsink" }		
     ],
 	
 	
-			"DependsOn": [ "InnerSphereMap"],
+			"DependsOn": [ "InnerSphereMap", "CustomComponents"],	
 			
 			    "DLL": "RTVersion.dll",
 			

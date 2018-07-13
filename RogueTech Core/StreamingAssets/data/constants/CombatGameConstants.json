@@ -159,8 +159,8 @@
         "ToHitCoverObstructed": 2,
         "DamageResistanceObstructed": 0.9,
         "DamageResistanceIndirectFire": 0.8,
-        "ClusterChanceOriginalLocationMultiplier": 3,
-        "ClusterChanceAdjacentMultiplier": 2,
+        "ClusterChanceOriginalLocationMultiplier": 5,
+        "ClusterChanceAdjacentMultiplier": 3,
         "ClusterChanceNonadjacentMultiplier": 1,
         "ClusterChanceNeverMultiplyHead": false,
         "ClusterChanceNeverClusterHead" : false,
@@ -183,14 +183,14 @@
         "ToHitMovingTargetDistances": 
 		[
 			30,
-            60,
-            90,
-            120,
-			150,
-			180,
-			210,
-			230,
-			260
+            70,
+            100,
+            130,
+			160,
+			190,
+			220,
+			240,
+			270
 		],
         "EvasivePipsMovingTarget":
         [
@@ -708,12 +708,12 @@
     "PilotingConstants":
     {
         "PilotingBaseFloor": 0.7,
-        "PilotingDivisor": 40,
-        "PilotingModifierDivisor": 6.5,
+        "PilotingDivisor": 50,
+        "PilotingModifierDivisor": 8,
         "PilotingDamageCTPenalizedModifier": 0.1,
         "PilotingDamageLegPenalizedModifier": 0.2,
         "PilotingDamageLegNonfunctionalModifier": 0.3,
-        "PilotingDFAModifier": 6.5,
+        "PilotingDFAModifier": 8,
         "LocationDestroyedPermanentStabilityLoss": 0.15,
         "OnlyPermanentLossFromLegs": false,
         "SideTorsoBlackRelativeInstability": 0.02,

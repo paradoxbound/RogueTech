@@ -104,7 +104,7 @@
     "inventory": [
         {
             "MountedLocation": "Head",
-            "ComponentDefID": "Gear_TargetingTrackingSystem_I3F3",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F2400",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

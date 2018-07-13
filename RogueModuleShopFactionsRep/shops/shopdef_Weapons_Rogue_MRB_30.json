@@ -37,6 +37,13 @@
          "Count" : 0
 	 
       },
+        {
+            "ID": "Gear_Combat_Shield_Small",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+		
+        },	  
 	  {
          "ID" : "Gear_Myomer_TSM",
          "Type" : "Upgrade",
@@ -52,17 +59,47 @@
 		
         },
       {
-         "ID" : "Ammo_AmmunitionBox_Deadfire_LRM",
+         "ID" : "Ammo_AmmunitionBox_Tandem_SRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+      {
+         "ID" : "Ammo_AmmunitionBox_ER_LRM",
          "Type" : "AmmunitionBox",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Deadfire_SRM",
+         "ID" : "Ammo_AmmunitionBox_Tracer_MG",
          "Type" : "AmmunitionBox",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
+      {
+         "ID" : "Ammo_AmmunitionBox_AP_AC2",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_AP_AC5",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_AP_AC10",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_AP_AC20",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
         {
             "ID": "Gear_TargetingTrackingSystem_Hartford_F1800",
             "Type": "Upgrade",

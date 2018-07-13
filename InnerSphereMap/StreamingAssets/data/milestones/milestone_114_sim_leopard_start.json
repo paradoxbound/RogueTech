@@ -76,10 +76,16 @@
                 },
 				{
                     "typeString" : "System.Int32",
-                    "name" : "Item.WeaponDef.Weapon_Autocannon_AC2_0-Ultra",
+                    "name" : "Item.WeaponDef.Weapon_Autocannon_AC20_HRIFLE",
                     "value" : 1,
                     "valueConstant" : ""
                 },
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.WeaponDef.Weapon_Autocannon_AC10_MRIFLE",
+                    "value" : 1,
+                    "valueConstant" : ""
+                },				
 				{
                     "typeString" : "System.Int32",
                     "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_AC2",
@@ -88,13 +94,31 @@
                 },
 				{
                     "typeString" : "System.Int32",
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_MG",
+                    "value" : 1,
+                    "valueConstant" : ""
+                },	
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Tracer_MG",
+                    "value" : 1,
+                    "valueConstant" : ""
+                },				
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_MG_Half",
+                    "value" : 2,
+                    "valueConstant" : ""
+                },				
+				{
+                    "typeString" : "System.Int32",
                     "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Precision_AC2",
                     "value" : 1,
                     "valueConstant" : ""
                 },
 				{
                     "typeString" : "System.Int32",
-                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_AP_AC2",
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Caseless_AC2",
                     "value" : 1,
                     "valueConstant" : ""
                 },				
@@ -112,7 +136,7 @@
                 },
 				{
                     "typeString" : "System.Int32",
-                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_AP_AC5",
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Caseless_AC5",
                     "value" : 1,
                     "valueConstant" : ""
                 },				
@@ -142,7 +166,7 @@
                 },				
 				{
                     "typeString" : "System.Int32",
-                    "name" : "Item.WeaponDef.Weapon_Laser_MediumLaser_0-STOCK",
+                    "name" : "Item.WeaponDef.Weapon_Laser_MediumLaserPulse_0-STOCK",
                     "value" : 2,
                     "valueConstant" : ""
                 },
@@ -173,18 +197,30 @@
 				{
                     "typeString" : "System.Int32",
                     "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_LRM",
-                    "value" : 4,
+                    "value" : 2,
                     "valueConstant" : ""
                 },
 				{
                     "typeString" : "System.Int32",
-                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Deadfire_LRM",
-                    "value" : 2,
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Hotloaded_LRM",
+                    "value" : 1,
+                    "valueConstant" : ""
+                },				
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Artemis_LRM",
+                    "value" : 1,
                     "valueConstant" : ""
                 },				
 				{
                     "typeString" : "System.Int32",
                     "name" : "Item.WeaponDef.Weapon_Laser_LargeLaser_0-STOCK",
+                    "value" : 1,
+                    "valueConstant" : ""
+                },
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.WeaponDef.Weapon_Laser_TAG",
                     "value" : 1,
                     "valueConstant" : ""
                 },				
@@ -254,15 +290,22 @@
 				{
 					"Scope" : "Company",
 					"EventID" : "forcedevent_leopard_mechtechExpenses",
-					"MinDaysWait" : 3,
+					"MinDaysWait" : 1,
 					"MaxDaysWait" : 3,
 					"Probability" : 100
 				},
 				{
 					"Scope" : "Company",
+					"EventID" : "forcedevent_leopard_extension",
+					"MinDaysWait" : 6,
+					"MaxDaysWait" : 9,
+					"Probability" : 100
+				}				
+				{
+					"Scope" : "Company",
 					"EventID" : "forcedevent_leopard_medicalExpenses",
-					"MinDaysWait" : 18,
-					"MaxDaysWait" : 18,
+					"MinDaysWait" : 28,
+					"MaxDaysWait" : 28,
 					"Probability" : 100
 				}				
 				

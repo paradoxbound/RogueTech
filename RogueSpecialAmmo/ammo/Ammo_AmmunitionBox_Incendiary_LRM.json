@@ -1,6 +1,9 @@
 {
+
+	"Custom" :  {"Category" : { "CategoryID" : "LRMAmmo"}, "Tag" : "Incendiary" },
+
     "AmmoID" : "Ammunition_LRM",
-    "Capacity" : 50,
+    "Capacity" : 80,
     "Description" : {
         "Cost" : 60000,
         "Rarity" : 0,
@@ -10,11 +13,11 @@
         "UIName" : "LRM Incendiary Ammo",
         "Id" : "Ammo_AmmunitionBox_Incendiary_LRM",
         "Name" : "LRM Incendiary Ammo",
-        "Details" : "This Ammo bin contains incendiary ammo for LRM launchers, sacrificing most of the warhead's explosive charge to carry an incendiary payload not unlike inferno missiles. Carries 50 shots. Provides a buff to all your Ammo of the same type and doesnt stack.",
+        "Details" : "This Ammo bin contains incendiary ammo for LRM launchers, sacrificing most of the warhead's explosive charge to carry an incendiary payload not unlike inferno missiles. Carries 80 shots. Provides a buff to all your Ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
-    "BonusValueA" : "-25%Dmg",
-    "BonusValueB" : "+1Heat",
+    "BonusValueA" : "-25%Dmg&Stab|",
+    "BonusValueB" : "+1 Heat Dmg.",
     "ComponentType" : "AmmunitionBox",
     "ComponentSubType" : "Ammunition",
     "PrefabIdentifier" : "",
@@ -126,7 +129,58 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
-        }		
+        },
+	        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-ILRMSTAB",
+                "Name" : "Inferno Ammo",
+                "Details" : "This unit is equipped with inferno rounds",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "Instability",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.75",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "SRM",
+                "targetAmmoCategory" : "SRM",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }			
         
     ],
     "ComponentTags" : {

@@ -1,4 +1,7 @@
 {
+
+	"Custom" :  {"Category" : { "CategoryID" : "MissTTST1"} },
+
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,

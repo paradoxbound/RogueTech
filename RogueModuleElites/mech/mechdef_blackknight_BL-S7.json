@@ -15,7 +15,7 @@
     "ChassisID": "chassisdef_blackknight_BL-S7",
     "HeraldryID": null,
     "Description": {
-        "Cost": 11910000,
+        "Cost": 17910000,
         "Rarity": 10,
         "Purchasable": true,
         "Manufacturer": null,
@@ -190,7 +190,29 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },			
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_Myomer_TSM",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },	
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_Myomer_TSM",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_AdvancedMaterials1",
@@ -226,7 +248,7 @@
         },	
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Myomer_TSM",
+            "ComponentDefID": "Gear_AdvancedMaterials1",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -234,18 +256,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },			
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Myomer_TSM",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },	
+        },				
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_Myomer_TSM",

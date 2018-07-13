@@ -1,4 +1,8 @@
 {
+
+
+	"Custom" :  {"Category" : { "CategoryID" : "I3F2"} },
+
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,

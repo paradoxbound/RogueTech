@@ -1,4 +1,7 @@
 {
+
+	"Custom" :  {"Category" : { "CategoryID" : "AC10Ammo"}, "Tag" : "Precision" },
+
     "AmmoID" : "Ammunition_AC10",
     "Capacity" : 8,
     "Description" : {
@@ -13,8 +16,8 @@
         "Details" : "Precision AC Ammo carries selfguided gyrojet shells increasing accuracy at cost of damage. Carries 8 shots. Provides a buff to all your Ammo of the same type and doesnt stack.",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
-    "BonusValueA" : "+1Accuracy",
-    "BonusValueB" : "-10% DMG",
+    "BonusValueA" : "+1Accuracy|",
+    "BonusValueB" : "-10% DMG.",
     "ComponentType" : "AmmunitionBox",
     "ComponentSubType" : "Ammunition",
     "PrefabIdentifier" : "",

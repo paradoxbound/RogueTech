@@ -32,6 +32,13 @@
          "Count" : 0
 	 
       },
+        {
+            "ID": "Gear_Combat_Shield_Medium",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+		
+        },	  
 	  {
          "ID" : "Gear_Supercharger",
          "Type" : "Upgrade",
@@ -46,6 +53,18 @@
          "Count" : 0
 	 
       },
+      {
+         "ID" : "Ammo_AmmunitionBox_Deadfire_LRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_Deadfire_SRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
 	  {
          "ID" : "Gear_Cockpit_SLDF_Custom",
          "Type" : "Upgrade",
@@ -60,29 +79,29 @@
          "Count" : 0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Precision_AC2",
+         "ID" : "Ammo_AmmunitionBox_Caseless_AC2",
          "Type" : "AmmunitionBox",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Precision_AC5",
+         "ID" : "Ammo_AmmunitionBox_Caseless_AC5",
          "Type" : "AmmunitionBox",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Precision_AC10",
+         "ID" : "Ammo_AmmunitionBox_Caseless_AC10",
          "Type" : "AmmunitionBox",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_Precision_AC20",
+         "ID" : "Ammo_AmmunitionBox_Caseless_AC20",
          "Type" : "AmmunitionBox",
          "DiscountModifier" : 1.0,
          "Count" : 0
-      },
+      },	  
         {
             "ID": "Gear_TargetingTrackingSystem_Hartford_F2400",
             "Type": "Upgrade",

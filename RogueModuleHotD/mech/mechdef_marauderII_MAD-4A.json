@@ -7,7 +7,24 @@
             "unit_lance_tank",
             "unit_role_sniper",
             "unit_release",
-			"unit_legendary"			
+			"unit_legendary",
+			"NoFaction",
+			"Davion",
+			"Liao",
+			"Kurita",
+			"Marik",
+			"Steiner",
+			"TaurianConcordat",
+			"MagistracyOfCanopus",
+			"AuriganDirectorate",
+			"AuriganRestoration",
+			"ComStar",
+			"MercenaryReviewBoard",
+			"AuriganMercenaries",
+			"Betrayers",
+			"MagistracyCentrella",
+			"MajestyMetals",
+			"Nautilus"
         ],
         "tagSetSourceFile": ""
     },
@@ -85,19 +102,19 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 140,
+            "CurrentArmor": 180,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 105,
-            "AssignedArmor": 140,
+            "AssignedArmor": 180,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 140,
+            "CurrentArmor": 180,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 105,
-            "AssignedArmor": 140,
+            "AssignedArmor": 180,
             "AssignedRearArmor": -1
         }
     ],

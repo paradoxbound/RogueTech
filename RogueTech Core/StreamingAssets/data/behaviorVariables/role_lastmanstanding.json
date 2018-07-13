@@ -5,7 +5,7 @@
             "k" : "Float_OptimalAllyDistance",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 368.0,
+		"floatVal" : 3680.0,
             }
 	},
 	{
@@ -14,7 +14,7 @@
             "k" : "Float_PreferOptimalDistanceToAllyFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.2,
+		"floatVal" : 0.0,
             }
 	},
 	{
@@ -23,7 +23,7 @@
             "k" : "Float_SprintPreferOptimalDistanceToAllyFactorWeight",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 0.1,
+		"floatVal" : 0.0,
             }
 	},
 	{
@@ -32,7 +32,7 @@
             "k" : "Int_HostileInfluenceCount",
             "v" : {
 		"type" : "Int",
-		"intVal" : 3,
+		"intVal" : 10,
             }
 	},
 	{

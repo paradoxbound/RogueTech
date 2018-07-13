@@ -68,13 +68,14 @@ Changelog
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
 
-0.987
+0.987 Alpha preview
 
 >!!New update raises difficulty of deployments. Finish your current deployment before updating if you don't have two or more battle-ready lances.!!<
 
 Changed several icons
 Fixed couple typos
 Hopefully fixed morphyum appearance for old saves
+Yang's evil pirate twin now in the portrait loader
 
 Warlord buffed
 
@@ -83,26 +84,35 @@ Hopefully fixed not all turrets spawning
 
 Many tweaks to all weapons 
 Weapons now can fire at Extreme Ranges, usually 2hexes(60units) above long range, at a penalty of -8 to hit
-Spikes nerfed to 2% 
+Spikes nerfed to melee only 
 Supercharger is now a CriticalComponent (if destroyed, destroys mech)
 Plasma removed PPC Cap function
+Increased evasion distance required slightly
+Tactics Indirect fire abilities buffed
+LRM Clustering tweaked
 
 Added a Pirate Marauder II
 Gladiator changed to account for Plasma nerf
 Added a proto Sha Yu
 Added New Elite Firestarter Goblin
 Echidnae buffed to be on par to Royal Griffin
+Added several more "half improved" Mechs and new gear
 
 MRB shop rep raised to
 100-250-500-800 per tier of special and elite gear
 Special Munitions are tied to MRB 
 TTS be sold by the MRB
 Exchangers and Heatbanks are now sold by MRB
+Added more Ammo: Artemis SRM/LRM, ER LRM, Caseless AC, Tandem Charge SRM, Tracer MG, Hotloaded LRM, AC Training
+
+Increased Max Shop items selection and default to account for MRB shop
+
+Start inventory changed up, granting a selection of ammo and weapons
 
 CompanyDifficulty Updated
 Skulls on drop now show what your lance is capable off instad of its (tooltip not changed yet)
 
-Deployments updated to 1.3
+Deployments updated to 1.3.1
 You will be warned that you should have power and mechs before tackling them
 
 Contract variance 0 as option now
@@ -127,20 +137,33 @@ New dll by Don Zappo
 Pilot Fatigue
 
 After each mission a pilot gets fatigued, unable to be used for a small duration depending on their guts and tactics skills and you overall morale
-The minimum  time of fatigue is always 1 day
 High morale reduces these values
 A fatigued pilot can be fielded at reduced effectivity
 
-Increased starting ronin to 7 to accomodate for this
+Now granting you the vanilla team and 3 random ronin (you may get themt wice, dont know how to prevent it, yet)
 
 AIM Updated
 Replaces BTML colour los mod
+Now enables melee to be affected by more penaltys like evasion and stood up
+Melee is slightly more accurate then shooting still, but you shouldnt have free reign on the battlefield anymore
 
 Added Replacement Mech Portraits
-Uses colourcoded skulls for weight classes
+Uses colourcoded skulls for weight classes (some chassis dont have this)
 
 Mechsorter patched and updated
 Should now properly work in sorting your mechs by their approximate strength(cost)
+
+Added CustomComponents by Denaden (first step of mechengineer integration)
+Allows to refine and restrict items as intented
+Ammo cannot be more then 1 special bin (excpetion for caseless)
+Melee weapons are 1 per arm
+Shields autoreplace and restricted to 1
+Arm actuators limited to 1 per arm(damage and stab actuators treated differently)
+DFA Actuators buffed but limited to 1 per leg of a type
+Special single heatsinks limited to 1 per type
+TTS limited to 1 per tier
+LAMS,ECM,NSS,Supercharger Limited to 1
+
 
 
 0.986 Release patch7

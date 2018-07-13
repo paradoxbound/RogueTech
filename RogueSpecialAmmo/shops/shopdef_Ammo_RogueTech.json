@@ -19,7 +19,49 @@
          "Type" : "AmmunitionBox",
          "DiscountModifier" : 1.0,
          "Count" : 0
-      }
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_LFT_AC2",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_LFT_AC5",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_LFT_AC10",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_LFT_AC20",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_LFT_SRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_LFT_LRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_LFT_GAUSS",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
 	  
 
    ],

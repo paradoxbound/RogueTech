@@ -8,6 +8,8 @@
     "Website": "https://www.nexusmods.com/battletech/mods/79",
     "Contact": "fakeemail@fakeemail.com",
 	
+				"DependsOn": [ "CustomComponents"],	
+	
 	    "Manifest": [
 			{ "Type": "UpgradeDef", "Path": "actuators" },
 			{ "Type": "UpgradeDef", "Path": "targetTrackingSystem" },			

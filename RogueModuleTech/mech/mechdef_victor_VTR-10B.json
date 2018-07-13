@@ -169,7 +169,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+            "ComponentDefID": "Ammo_AmmunitionBox_Caseless_AC20",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
@@ -180,7 +180,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+            "ComponentDefID": "Ammo_AmmunitionBox_Caseless_AC20",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,

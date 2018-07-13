@@ -1,0 +1,121 @@
+{
+
+	"Custom" :  {"Category" : { "CategoryID" : "CombatShield"} },
+
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 1460000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "Deadly Sins",
+        "Model" : "Medium Combat Shield",
+        "UIName" : "Combat Shield (M)",
+        "Id" : "Gear_Combat_Shield_Medium",
+        "Name" : "Combat Shield (M)",
+        "Details" : "Introduced in the late 31st Century on Solaris VII, the Combat Shield is a movable piece of armor that can be mounted on BattleMechs. The shield was first introduced as a method to add protection for a MechWarrior fighting in the arenas of Solaris. Shields are primary defensive equipment used to protect a 'Mech from Weapons fire and some forms of physical attacks. Equipping more then 1 wont yield additional effects, does not stack with other combat shields.",
+        "Icon" : "uixSvgIcon_ability_angelofdeath"
+    },
+    "BonusValueA" : "-10% Damage Taken.",
+    "BonusValueB" : "-15% Jump Distance.",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 1.5,
+    "AllowedLocations" : "Arms",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-CombatShield",
+                "Name" : "REDUCED DAMAGE TAKEN",
+                "Details" : "All incoming damage reduced by 10% and 15% reduced jump distance.",
+                "Icon" : "uixSvgIcon_ability_angelofdeath"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamageReductionMultiplierAll",
+                "operation" : "Float_Add",
+                "modValue" : "-0.10",
+                "modType" : "System.Single"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+			{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "ShieldJumpPenalty",
+				"Name" : "Jump Distance",
+				"Details" : "Jump distance decreased by 20%",
+				"Icon" : "uixSvgIcon_ability_angelofdeath"
+			},
+			"statisticData" : 
+			{
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "JumpDistanceMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.85",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "NotSet",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+			},
+			"nature" : "Buff"
+		}		
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -148,7 +148,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Incendiary_LRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Hotloaded_LRM",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,

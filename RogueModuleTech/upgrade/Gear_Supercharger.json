@@ -1,4 +1,7 @@
 {
+
+	"Custom" :  {"Category" : { "CategoryID" : "Supercharger"} },
+
     "Description" : {
         "Cost" : 920000,
         "Rarity" : 5,

@@ -1,4 +1,7 @@
 {
+
+	"Custom" :  {"Category" : { "CategoryID" : "AC2Ammo"}, "Tag" : "AP" },
+
     "AmmoID" : "Ammunition_AC2",
     "Capacity" : 13,
     "Description" : {
@@ -10,10 +13,10 @@
         "UIName" : "AC/2 AP Ammo",
         "Id" : "Ammo_AmmunitionBox_AP_AC2",
         "Name" : "AC/2 AP Ammo",
-        "Details" : "Armour Piercing AC Ammo grants an increased chance for critical hits but carries only 13. Provides a buff to all your Ammo of the same type and doesnt stack.",
+        "Details" : "Armour Piercing AC Ammo grants an increased chance for critical hits but carries only 13. Provides a buff to all your Ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
-    "BonusValueA" : "+50% crit",
+    "BonusValueA" : "+100% Crit.",
     "BonusValueB" : "",
     "ComponentType" : "AmmunitionBox",
     "ComponentSubType" : "Ammunition",
@@ -49,7 +52,7 @@
 			{
                 "statName" : "CriticalChanceMultipler",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.5",
+                "modValue" : "2",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",

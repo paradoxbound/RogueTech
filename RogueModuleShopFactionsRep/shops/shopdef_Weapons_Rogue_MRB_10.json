@@ -50,29 +50,47 @@
 		
         },
       {
-         "ID" : "Ammo_AmmunitionBox_AP_AC2",
+         "ID" : "Ammo_AmmunitionBox_Precision_AC2",
          "Type" : "AmmunitionBox",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_AP_AC5",
+         "ID" : "Ammo_AmmunitionBox_Precision_AC5",
          "Type" : "AmmunitionBox",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_AP_AC10",
+         "ID" : "Ammo_AmmunitionBox_Precision_AC10",
          "Type" : "AmmunitionBox",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
       {
-         "ID" : "Ammo_AmmunitionBox_AP_AC20",
+         "ID" : "Ammo_AmmunitionBox_Precision_AC20",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+      {
+         "ID" : "Ammo_AmmunitionBox_Artemis_LRM",
          "Type" : "AmmunitionBox",
          "DiscountModifier" : 1.0,
          "Count" : 0
       },
+      {
+         "ID" : "Ammo_AmmunitionBox_Artemis_SRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_Hotloaded_LRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
       {
          "ID" : "Ammo_AmmunitionBox_Light_GAUSS",
          "Type" : "AmmunitionBox",

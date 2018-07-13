@@ -142,7 +142,7 @@
 			},
 			"statisticData" : 
 			{
-				"statName" : "DNISelfDamage",
+				"statName" : "DFASelfDamage",
 				"operation" : "Float_Multiply",
 				"modValue" : "0.9",
 				"modType" : "System.Single"
@@ -156,7 +156,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : 1,
+                "stackLimit" : -1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {

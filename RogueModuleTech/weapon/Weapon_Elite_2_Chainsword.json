@@ -1,4 +1,7 @@
 {
+
+	"Custom" :   { "Category" : { "CategoryID" : "MeleeWeapon"} },
+
     "Category" : "AntiPersonnel",
     "Type" : "MachineGun",
     "WeaponSubType" : "MachineGun",

@@ -1,4 +1,6 @@
 {
+	"Custom" :  {"Category" : { "CategoryID" : "NSS"} },
+
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,

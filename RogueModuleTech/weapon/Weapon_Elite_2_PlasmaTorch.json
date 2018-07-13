@@ -1,4 +1,7 @@
 {
+
+	"Custom" :   { "Category" : { "CategoryID" : "MeleeWeapon"} },
+
     "Category" : "AntiPersonnel",
     "Type" : "PPC",
     "WeaponSubType" : "PPCER",
@@ -46,7 +49,7 @@
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Flamer",
     "BattleValue" : 0,
-    "InventorySize" : 5,
+    "InventorySize" : 4,
     "Tonnage" : 3,
     "AllowedLocations" : "Arms",
     "DisallowedLocations" : "All",

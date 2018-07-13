@@ -6,8 +6,9 @@
             "unit_indirectFire",
             "unit_lance_tank",
             "unit_lance_vanguard",
-            "unit_role_brawler",
-            "unit_release"
+            "unit_role_flanker",
+            "unit_release",
+			"AuriganPirates"
         ],
         "tagSetSourceFile": ""
     },

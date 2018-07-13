@@ -10,4 +10,16 @@
 	"ConflictsWith": [ "No Time To Bleed" , "InjuriesHurt" ],
 
     "DLL": "Pilot_Fatigue.dll",
+	
+	"Settings": {
+		"FatigueTimeStart" : 7,
+		"StartingMorale" : 10,
+		"FatigueMinimum" : 0,
+		"MoralePositiveTierOne" : 5,
+		"MoralePostiveTierTwo" : 10,
+		"MoraleNegativeTierOne" : -3,
+		"MoraleNegativeTierTwo" : -8,
+		"FatigueFactor" : 2,
+		"InjuriesHurt" : true,
+	}
 }

@@ -29,7 +29,7 @@
     "Instability" : 32.5,
     "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
     "Description" : {
-        "Cost" : 560000,
+        "Cost" : 660000,
         "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "Defiance",
@@ -40,8 +40,8 @@
         "Details" : "Particle Projector Cannons\u2014PPCs\u2014fire streams of energized lightning at their target that deal substantial damage and stability impact. However, this comes with intense heat generation and bulkiness. PPCs also generate a mild EM field that degrades the firing capability of their target.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
-    "BonusValueA" : "+ 10 Damage. -1 Recoil",
-    "BonusValueB" : "X2 Stab Damage -5 Heat",
+    "BonusValueA" : "+10 Damage|-1 Recoil|",
+    "BonusValueB" : "X2Stab|-5 Heat",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "PPC",

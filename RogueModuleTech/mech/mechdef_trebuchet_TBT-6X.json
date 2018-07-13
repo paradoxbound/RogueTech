@@ -149,7 +149,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Deadfire_LRM",
+            "ComponentDefID": "Ammo_AmmunitionBox_Artemis_LRM",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,

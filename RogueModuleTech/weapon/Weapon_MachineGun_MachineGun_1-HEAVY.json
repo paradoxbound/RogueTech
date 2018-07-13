@@ -12,7 +12,7 @@
     "AmmoCategory" : "MG",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 10,
-    "Damage" : 8,
+    "Damage" : 6,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -26,7 +26,7 @@
     "ShotsWhenFired" : 5,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 0,
-    "Instability" : 1.5,
+    "Instability" : 2,
     "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
     "Description" : {
         "Cost" : 60000,
@@ -37,7 +37,7 @@
         "UIName" : "HMG",
         "Id" : "Weapon_MachineGun_MachineGun_1-HEAVY",
         "Name" : "HMG",
-        "Details" : "As its name implies, the Heavy Machine Gun is a larger version of the standard Machine Gun. The HMG does more damage, a higher rate of fire, and has a better chance of penetrating and destroying critical components, but weighs twice as much, and suffers from recoil. ",
+        "Details" : "As its name implies, the Heavy Machine Gun is less a Machine gun and more like and automated Grenade Launcher. The HMG does more damage and has a better chance of penetrating and destroying critical components, but weighs twice as much, and suffers from recoil. ",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "",

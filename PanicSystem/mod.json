@@ -1,67 +1,74 @@
 {
-    "Name": "BasicPanicSystem",
+    "Name": "RogueTechBasicPanicSystem",
+	
+	"Enabled" : true,
 
-    "Version": "1.0.4",
+    "Version": "2.0",
     "Description": "Adds basic panic system, based on mpstark's Punchin' Out.",
-    "Author": "RealityMachina, forked from mpstark's work",
+    "Author": "RealityMachina, forked from mpstark's work - Modified by donZappo and gnivler",
     "Website": "https://github.com/RealityMachina/PunchinOut",
 
-    "DLL": "PunchinOut.dll",
+    "DLL": "RogueTechPanicSystem.dll",
     
     "Settings": {
-        "PlayerCharacterAlwaysResists": false,
-        "PlayerTeamCanPanic": true,
-        "EnemiesCanPanic": true,
+		"PlayerCharacterAlwaysResists": false,
+		"PlayerTeamCanPanic": true,
+		"EnemiesCanPanic": true,
+			
+		"PlayerLightsConsiderEjectingEarly": false,
+		"EnemyLightsConsiderEjectingEarly": true,
+		"LightMechEarlyPanicThreshold": 2,
+
+		"PlayerMediumsConsiderEjectingEarly": false,
+		"EnemyMediumsConsiderEjectingEarly": false,
+		"MediumMechEarlyPanicThreshold": 2,
+
+		"PlayerHeaviesConsiderEjectingEarly": false,
+		"EnemyHeaviesConsiderEjectingEarly": false,
+		"HeavyMechEarlyPanicThreshold": 2,
+
+		"PlayerAssaultsConsiderEjectingEarly": false,
+		"EnemyAssaultsConsiderEjectingEarly": false,
+		"AssaultMechEarlyPanicThreshold": 2,
         
-        "PlayerLightsConsiderEjectingEarly": false,
-        "EnemyLightsConsiderEjectingEarly": true,
-        "LightMechEarlyPanicThreshold": 1,
-
-        "PlayerMediumsConsiderEjectingEarly": false,
-        "EnemyMediumsConsiderEjectingEarly": false,
-        "MediumMechEarlyPanicThreshold": 2,
-
-        "PlayerHeaviesConsiderEjectingEarly": false,
-        "EnemyHeaviesConsiderEjectingEarly": false,
-        "HeavyMechEarlyPanicThreshold": 2,
-
-        "PlayerAssaultsConsiderEjectingEarly": false,
-        "EnemyAssaultsConsiderEjectingEarly": false,
-        "AssaultMechEarlyPanicThreshold": 2,
-        "MaxEjectChanceWhenEarly": 10,
-        "MinimumArmourDamagePercentageRequired": 10,
-        "AtLeastOneChanceToPanic": true,
-        "AlwaysGatedChanges": true,
-        "MaxPanicResistTotal": 15,
-        "LosingLimbAlwaysPanics": false,
-        "FatiguedAimModifier": 1,
-        "StressedAimModifier": 2,
-        "StressedToHitModifier": -1,
-        "PanickedAimModifier": 4,
-        "PanickedToHitModifier": -2,
-
-        "MinimumHealthToAlwaysEjectRoll": 1,
-        "MaxEjectChance": 25,
-        "GutsTenAlwaysResists": false,
-        "ComboTenAlwaysResists": false,
-        "TacticsTenAlwaysResists": false,
-        "KnockedDownCannotEject": false,
-        "ConsiderEjectingWithNoWeaps": true,
-
-        "BaseEjectionResist": 10,
-        "GutsEjectionResistPerPoint": 1,
-        "TacticsEjectionResistPerPoint": 1,
-        "UnsteadyModifier": 5,
-        "PilotHealthMaxModifier": 10,
-
-        "HeadDamageMaxModifier": 15,
-        "CTDamageMaxModifier": 11,
-        "SideTorsoInternalDamageMaxModifier": 10,
-        "LeggedMaxModifier": 15,
-
-        "NextShotLikeThatCouldKill": 15,
+		"MaxEjectChanceWhenEarly": 10,
         
-        "WeaponlessModifier": 25,
-        "AloneModifier": 10
+		"MinimumArmourDamagePercentageRequired": 10,
+		"AtLeastOneChanceToPanic": true,
+		"AtLeastOneChanceToPanicPercentage" : 10,
+		"AlwaysGatedChanges": false,
+		"MaxPanicResistTotal": 100,
+		"LosingLimbAlwaysPanics": false,
+        
+		"UnsettledAttackModifier": 1,
+		"StressedAimModifier": 1,
+		"StressedToHitModifier": -1,
+		"PanickedAimModifier": 2,
+		"PanickedToHitModifier": -2,
+
+		"MinimumHealthToAlwaysEjectRoll": 1,
+		"MaxEjectChance": 25,
+		"EjectChanceMultiplier" : 1,
+		"GutsTenAlwaysResists": false,
+		"ComboTenAlwaysResists": false,
+		"TacticsTenAlwaysResists": false,
+		"KnockedDownCannotEject": false,
+			
+		"ConsiderEjectingWithNoWeaps": true,
+		"ConsiderEjectingWhenAlone" : false,
+
+		"BaseEjectionResist": 30,
+		"GutsEjectionResistPerPoint": 2,
+		"TacticsEjectionResistPerPoint": 0,
+		
+		"UnsteadyModifier": 10,
+		"PilotHealthMaxModifier": 15,
+		"HeadDamageMaxModifier": 15,
+		"CTDamageMaxModifier": 35,
+		"SideTorsoInternalDamageMaxModifier": 25,
+		"LeggedMaxModifier": 10,
+		"NextShotLikeThatCouldKill": 20,
+		"WeaponlessModifier": 15,
+		"AloneModifier": 10
     }
 }

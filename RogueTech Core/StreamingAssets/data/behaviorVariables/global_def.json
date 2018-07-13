@@ -4,28 +4,28 @@
          "k" : "Float_AccuracyNeededForOverheatAttack",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.75,
+            "floatVal" : 0.55,
          }
       },
       {
          "k" : "Float_ExistingTargetDamageForOverheatAttack",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.85,
+            "floatVal" : 0.75,
          }
       },
       {
          "k" : "Float_ExistingTargetDamageForDFAAttack",
          "v" : {
             "type" : "Float",
-			"floatVal" : 0.5,
+			"floatVal" : 0.4,
          }
       },
       {
          "k" : "Float_OwnMaxLegDamageForDFAAttack",
          "v" : {
             "type" : "Float",
-			"floatVal" : 0.4,
+			"floatVal" : 0.2,
          }
       },
       {
@@ -53,7 +53,7 @@
          "k" : "Int_RecentTargetThresholdPhases",
          "v" : {
             "type" : "Int",
-            "intVal" : 1,
+            "intVal" : 2,
          }
       },
       {
@@ -116,28 +116,28 @@
          "k" : "Float_PreferHigherExpectedDamageToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0,
+            "floatVal" : 3.0,
          }
       },
       {
          "k" : "Float_PreferAttackFromBehindHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0,
+            "floatVal" : 2.0,
          }
       },
       {
          "k" : "Float_PreferAttackFrom90DegreesToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0,
+            "floatVal" : 1.0,
          }
       },
       {
          "k" : "Float_PreferNoCloserThanMinDistToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.0,
+            "floatVal" : 1.0,
          }
       },
       {
@@ -200,7 +200,7 @@
          "k" : "Float_AcceptableHeatLevel",
          "v" : {
             "type" : "Float",
-            "floatVal" : 2.6,
+            "floatVal" : 2.1,
          }
       },
       {
@@ -221,7 +221,7 @@
          "k" : "Float_ShootingDamageMultiplier",
          "v" : {
             "type" : "Float",
-            "floatVal" : 2.0,
+            "floatVal" : 2.5,
          }
       },
       {
@@ -277,7 +277,7 @@
          "k" : "Float_PreferPresentingHigherArmorToHostileFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 1.7,
+            "floatVal" : 2.7,
          }
       },
 	        {
@@ -298,7 +298,7 @@
          "k" : "Float_BraceWhenOverheatedPercentage",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.5,
+            "floatVal" : 10,
          }
       },
 	   {
