@@ -1,0 +1,175 @@
+{
+
+	"Custom" :   { "Category" : { "CategoryID" : "Armour"}, "Tag" : "Reactive" },
+  
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 560000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "Luthien",
+        "Model" : "Reactive Plating",
+        "UIName" : "Reactive Plating",
+        "Id" : "Gear_Reactive_Plating",
+        "Name" : "Reactive Plating",
+        "Details" : "Spikes have been used as decoration on BattleMechs for centuries, but had no effect in combat. The Federated Commonwealth changed that when it introduced reinforced and strengthened Spikes capable of inflicting damage on enemy units in close combat. Based on the same engineering reports that gave birth to the Lyran Commonwealth's Hatchet, these experimental melee weapons have demonstrated their effectiveness in the Solaris arenas. Effect wont stack beyond 10 pieces.",
+        "Icon" : "uixSvgIcon_mwFury"
+    },
+    "BonusValueA" : "+2% Kinetic Protection|",
+    "BonusValueB" : "-1% Energy Protection.",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 10,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-ReactivePenalty",
+                "Name" : "Reactive Plating",
+                "Details" : "Takes less Kinetic Damage.",
+                "Icon" : "uixSvgIcon_mwFury"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamageReductionMultiplierEnergy",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.01",
+                "modType" : "System.Single"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 10,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-ReactiveBonus1",
+                "Name" : "Reflective Coating",
+                "Details" : "Takes less Energy Damage.",
+                "Icon" : "uixSvgIcon_mwFury"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamageReductionMultiplierBallistic",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.98",
+                "modType" : "System.Single"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },	
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : 10,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-ReactiveBonus2",
+                "Name" : "Reflective Coating",
+                "Details" : "Takes less Energy Damage.",
+                "Icon" : "uixSvgIcon_mwFury"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "DamageReductionMultiplierMissile",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.98",
+                "modType" : "System.Single"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },				
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant3"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

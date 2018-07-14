@@ -16,7 +16,7 @@
         "Details" : "Armour Piercing AC Ammo grants an increased chance for critical hits but carries onyl 3 shots. Provides a buff to all your Ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
-    "BonusValueA" : "+50% Crit.",
+    "BonusValueA" : "+100% Crit.",
     "BonusValueB" : "",
     "ComponentType" : "AmmunitionBox",
     "ComponentSubType" : "Ammunition",
@@ -52,7 +52,7 @@
 			{
                 "statName" : "CriticalChanceMultipler",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.5",
+                "modValue" : "2",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",

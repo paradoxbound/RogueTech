@@ -258,7 +258,7 @@
         },	
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_AP_AC10",
+            "ComponentDefID": "Ammo_AmmunitionBox_Caseless_AC10",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,

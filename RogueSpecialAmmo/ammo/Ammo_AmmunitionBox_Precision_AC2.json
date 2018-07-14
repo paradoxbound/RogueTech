@@ -13,11 +13,11 @@
         "UIName" : "AC/2 Precision Ammo",
         "Id" : "Ammo_AmmunitionBox_Precision_AC2",
         "Name" : "AC/2 Precision Ammo",
-        "Details" : "Precision AC Ammo carries selfguided gyrojet shells increasing accuracy at cost of damage. Carries 25 shots. Provides a buff to all your Ammo of the same type.",
+        "Details" : "Precision AC Ammo carries selfguided gyrojet shells increasing accuracy. Carries 25 shots. Provides a buff to all your Ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
-    "BonusValueA" : "+1Accuracy|",
-    "BonusValueB" : "-10% DMG.",
+    "BonusValueA" : "+1Accuracy",
+    "BonusValueB" : "",
     "ComponentType" : "AmmunitionBox",
     "ComponentSubType" : "Ammunition",
     "PrefabIdentifier" : "",
@@ -28,41 +28,6 @@
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [
-			{
-			"durationData" :
-			{
-				"duration" : -1,
-                "stackLimit" : 1				
-			},
-			"targetingData" : 
-			{
-				"effectTriggerType" : "Passive",
-				"effectTargetType" : "Creator",
-                "showInStatusPanel" : true				
-			},
-			"effectType" : "StatisticEffect",
-			"Description" :
-			{
-				"Id" : "Precision AC21",
-				"Name" : "Precision AC2",
-				"Details" : "This unit carries Precision Shells",
-				"Icon" : "uixSvgIcon_ability_mastertactician"
-			},
-			"statisticData" : 
-			{
-                "statName" : "DamagePerShot",
-                "operation" : "Float_Multiply",
-                "modValue" : "0.9",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "Autocannon",
-                "targetAmmoCategory" : "AC5",
-                "targetWeaponSubType" : "AC5"				
-			},		
-			"nature" : "Buff"
-		},
 			{
 			"durationData" :
 			{

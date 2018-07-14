@@ -182,7 +182,7 @@
         "SensorLockPipsStripped": 2,
         "ToHitMovingTargetDistances": 
 		[
-			30,
+			10,
             70,
             100,
             130,

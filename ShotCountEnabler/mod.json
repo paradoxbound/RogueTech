@@ -1,6 +1,6 @@
 {
     "Name": "ShotCountEnabler",
-    "Enabled": true,
+    "Enabled": false,
 
     "Version": "0.2",
     "Description": "Lets you configure Balistic weapon with multible shots.",

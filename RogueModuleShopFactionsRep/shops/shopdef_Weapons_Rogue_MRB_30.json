@@ -58,6 +58,20 @@
             "Count": 0
 		
         },
+        {
+            "ID": "Gear_Reflective_Coating",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+		
+        },
+        {
+            "ID": "Gear_Reactive_Plating",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+		
+        },		
       {
          "ID" : "Ammo_AmmunitionBox_Tandem_SRM",
          "Type" : "AmmunitionBox",

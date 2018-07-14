@@ -91,12 +91,14 @@ Increased evasion distance required slightly
 Tactics Indirect fire abilities buffed
 LRM Clustering tweaked
 
+
 Added a Pirate Marauder II
 Gladiator changed to account for Plasma nerf
 Added a proto Sha Yu
 Added New Elite Firestarter Goblin
 Echidnae buffed to be on par to Royal Griffin
 Added several more "half improved" Mechs and new gear
+Added a proto wolfhound
 
 MRB shop rep raised to
 100-250-500-800 per tier of special and elite gear
@@ -104,6 +106,8 @@ Special Munitions are tied to MRB
 TTS be sold by the MRB
 Exchangers and Heatbanks are now sold by MRB
 Added more Ammo: Artemis SRM/LRM, ER LRM, Caseless AC, Tandem Charge SRM, Tracer MG, Hotloaded LRM, LiveFireTraining
+
+Added Reactive and Reflective armour
 
 Increased Max Shop items selection and default to account for MRB shop
 
@@ -163,6 +167,8 @@ DFA Actuators buffed but limited to 1 per leg of a type
 Special single heatsinks limited to 1 per type
 TTS limited to 1 per tier
 LAMS,ECM,NSS,Supercharger Limited to 1
+
+DamageVariance replaces Shotcountenabler and now works for Multishot AC's properly
 
 
 

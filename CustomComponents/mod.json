@@ -11,6 +11,7 @@
 		"LogLevel": "Error",
 		"Categories": [ 
 		{  "Name": "Spikes",  "displayName": "Melee Spikes",  "MaxEquiped":  "10", "AutoReplace": "true"},
+		{  "Name": "Armour",  "displayName": "Armour System",  "MaxEquiped":  "10", "AutoReplace": "true", "AllowMixTags": "false"},		
 		{  "Name": "Supercharger",  "displayName": "Supercharger",  "MaxEquiped":  "1", "AutoReplace": "true"},
 		{  "Name": "MeleeWeapon",  "displayName": "Melee Weapon",  "MaxEquipedPerLocation":  "1", "AutoReplace": "true"},
 		{  "Name": "CombatShield",  "displayName": "Combat Shield",  "MaxEquiped":  "1", "AutoReplace": "true"},
