@@ -68,9 +68,11 @@ Changelog
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
 
-0.987 Alpha preview
+0.987
 
 >!!New update raises difficulty of deployments. Finish your current deployment before updating if you don't have two or more battle-ready lances.!!<
+
+Massively reworked filestructure do a clean install or break your in horrible and unpredictable ways!
 
 Changed several icons
 Fixed couple typos
@@ -167,7 +169,7 @@ Allows to refine and restrict items as intented
 Ammo cannot be more then 1 special bin (excpetion for caseless)
 Melee weapons are 1 per arm
 Shields autoreplace and restricted to 1
-Arm actuators limited to 1 per arm(damage and stab actuators treated differently)
+Arm actuators limited to 1 per arm(damage, acc and stab actuators treated differently)
 DFA Actuators buffed but limited to 1 per leg of a type
 Special single heatsinks limited to 1 per type
 TTS limited to 1 per tier
