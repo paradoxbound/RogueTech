@@ -44,7 +44,7 @@
         "Icon" : "uixSvgIcon_run_n_gun"
     },
     "BonusValueA" : "20 Var.Dmg.",
-    "BonusValueB" : "+10MeleeDMG+Var.",
+    "BonusValueB" : "+10MeleeDMG",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Flamer",
@@ -93,57 +93,6 @@
                 "operation" : "Float_Add",
                 "modValue" : "10.0",
                 "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "Melee"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
-        },
-       {
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : -1,
-                "clearedWhenAttacked" : false
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-EliteTorchMeleeV",
-                "Name" : "Military Torch",
-                "Details" : "Melee attacks deal 10 more damage.",
-                "Icon" : "uixSvgIcon_run_n_gun"
-            },
-            "nature" : "Buff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "DamageVariance",
-                "operation" : "Int_Add",
-                "modValue" : "10",
-                "modType" : "System.Int32",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "NotSet",

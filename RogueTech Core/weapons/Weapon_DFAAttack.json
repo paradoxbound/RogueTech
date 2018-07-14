@@ -14,7 +14,7 @@
    "HeatGenerated" : 0,
    "Damage" : 100,
    "OverheatedDamageMultiplier" : 1,
-   "EvasivePipsIgnored": 0.0,
+   "EvasivePipsIgnored": 1,
    "DamageVariance" : 0,
    "HeatDamage" : 0,
    "AccuracyModifier" : 0,

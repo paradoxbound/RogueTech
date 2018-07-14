@@ -55,7 +55,7 @@
             "Description" : {
                 "Id" : "StatusEffect-Attack_ToHitMissile-T1",
                 "Name" : "Missile WEAPON HIT CHANCE IMPROVED",
-                "Details" : "Missile weapon attacks have their hit improved by [AMT].",
+                "Details" : "Missile weapon attacks have their hit improved by 1.",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "nature" : "Buff",

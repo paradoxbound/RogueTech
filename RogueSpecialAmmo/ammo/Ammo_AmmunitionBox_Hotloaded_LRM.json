@@ -3,7 +3,7 @@
 	"Custom" :  {"Category" : { "CategoryID" : "LRMAmmo"}, "Tag" : "Hotloaded" },
 
     "AmmoID" : "Ammunition_LRM",
-    "Capacity" : 1000,
+    "Capacity" : 100,
     "Description" : {
         "Cost" : 30000,
         "Rarity" : 0,
@@ -16,8 +16,8 @@
         "Details" : "Hotloaded LRM reduce the minimum range of their launchers but makes them less reliable. Hotloaded LRM Ammo Bins each contain 100 rounds. Provides a buff to all your ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
-    "BonusValueA" : "-90MinRange|-1Dmg|",
-    "BonusValueB" : "2 Var.Dmg.",
+    "BonusValueA" : "-90MinRange|",
+    "BonusValueB" : "-1Accuracy",
     "ComponentType" : "AmmunitionBox",
     "ComponentSubType" : "Ammunition",
     "PrefabIdentifier" : "",
@@ -52,10 +52,10 @@
 			{
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "DamageVariance",
-                "operation" : "Int_Add",
-                "modValue" : "2",
-                "modType" : "System.Int32",
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "1.0",
+                "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "NotSet",
@@ -90,40 +90,6 @@
 				"operation" : "Float_Add",
 				"modValue" : "-90.0",
 				"modType" : "System.Single"
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "LRM",
-                "targetAmmoCategory" : "LRM",
-                "targetWeaponSubType" : "NotSet"				
-			},		
-			"nature" : "Buff"
-		},
-		{
-			"durationData" :
-			{
-				"duration" : -1,
-                "stackLimit" : 1				
-			},
-			"targetingData" : 
-			{
-				"effectTriggerType" : "Passive",
-				"effectTargetType" : "Creator"
-			},
-			"effectType" : "StatisticEffect",
-			"Description" :
-			{
-				"Id" : "HLLRMDMG",
-				"Name" : "HLLRMDMG",
-				"Details" : "DF Minrange by 50m",
-				"Icon" : "uixSvgIcon_ability_mastertactician"
-			},
-			"statisticData" : 
-			{
-                "statName" : "DamagePerShot",
-                "operation" : "Float_Add",
-                "modValue" : "-1.0",
-                "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "NotSet",

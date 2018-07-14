@@ -3,11 +3,11 @@
     "Type" : "Flamer",
     "WeaponSubType" : "Flamer",
     "MinRange" : 0,
-    "MaxRange" : 290,
+    "MaxRange" : 180,
     "RangeSplit" : [
-        75,
-        150,
-        230
+        60,
+        90,
+        120
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
@@ -15,7 +15,7 @@
     "Damage" : 15,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
+    "EvasivePipsIgnored" : 2,
     "DamageVariance" : 0,
     "HeatDamage" : 15,
     "AccuracyModifier" : 0,
@@ -37,7 +37,7 @@
         "UIName" : "Flamer +++",
         "Id" : "Weapon_Flamer_Flamer_3-Prometheus",
         "Name" : "Flamer +++",
-        "Details" : "This is the most powerful Fusion Powered Flamer known of, capable of producing a flame hot enough to melt even the toughest armour.",
+        "Details" : "This is the most powerful Fusion Powered Flamer known, capable of producing a flame hot enough to melt even the toughest armour.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "+ 5 Dmg.(H)",

@@ -22,7 +22,7 @@
     "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
-    "RefireModifier" : 5,
+    "RefireModifier" : 4,
     "ShotsWhenFired" : 2,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 4,

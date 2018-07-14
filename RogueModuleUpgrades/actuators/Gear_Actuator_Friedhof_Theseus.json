@@ -1,42 +1,42 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "MeleeSTAB"} },
+	"Custom" :  {"Category" : { "CategoryID" : "MeleeACC"} },
 
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
     "Description" : {
-        "Cost" : 30000,
+        "Cost" : 60000,
         "Rarity" : 1,
         "Purchasable" : true,
         "Manufacturer" : "Friedhof",
         "Model" : "Theseus",
-        "UIName" : "Arm Mod",
+        "UIName" : "Arm Acc Mod",
         "Id" : "Gear_Actuator_Friedhof_Theseus",
         "Name" : "Friedhof Theseus Arm Mod",
-        "Details" : "Actuators control a 'Mech\u2019s limbs and are used to perform Melee attacks at close quarters. All 'Mechs come equipped with stock Actuators, which can be upgraded for improved performance. Doesn't stack with same type but different tiers do.",
+        "Details" : "Actuators control a 'Mech\u2019s limbs and are used to perform Melee attacks at close quarters. All 'Mechs come equipped with stock Actuators, which can be upgraded for improved performance.",
         "Icon" : "uixSvgIcon_equipment_ActuatorArm"
     },
-    "BonusValueA" : "+ 5% Melee Stb.Dmg.",
+    "BonusValueA" : "+1 Accuracy.",
     "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 1,
-    "Tonnage" : 0.25,
+    "InventorySize" : 2,
+    "Tonnage" : 1,
     "AllowedLocations" : "Arms",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [
-        {
+       {
             "durationData" : {
                 "duration" : -1,
                 "ticksOnActivations" : false,
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : 1,
+                "stackLimit" : -1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -53,18 +53,18 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_DamageMelee-T1",
-                "Name" : "MELEE STABILITY DAMAGE INCREASED",
-                "Details" : "Melee attacks deal 5% more stability damage.",
+                "Id" : "StatusEffect-MACCACT1",
+                "Name" : "Articulate Actuators",
+                "Details" : "Melee attacks have +1 Accuracy.",
                 "Icon" : "uixSvgIcon_equipment_ActuatorArm"
             },
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "Instability",
-                "operation" : "Float_Multiply",
-                "modValue" : "1.05",
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -79,7 +79,7 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
-        }
+        }	
     ],
     "ComponentTags" : {
         "items" : [

@@ -1,0 +1,16 @@
+{
+    "Name": "PaperdollFlip",
+	"Enabled": true,
+
+    "Version": "0.1",
+    "Description": "Prevents the 'mech UI paperdoll from being flipped - so as per CBT, screen left is now 'mech left, screen right is now 'mech right.",
+    "Author": "Life",
+	"Website": "github.com/citizenSnippy/PaperdollFlip",
+	"PackagedOn": "2018-07-13T22:00:00.0000001-01:00",
+	
+	"Settings": {
+		"debug" : true,
+	},
+	
+	"DLL": "PaperdollFlip.dll"
+} 

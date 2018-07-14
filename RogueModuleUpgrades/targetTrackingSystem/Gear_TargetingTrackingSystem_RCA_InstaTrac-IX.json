@@ -55,7 +55,7 @@
             "Description" : {
                 "Id" : "StatusEffect-Attack_ToHitEnergy-T2",
                 "Name" : "ENERGY WEAPON HIT CHANCE IMPROVED",
-                "Details" : "Energy weapon attacks have their hit improved by [AMT].",
+                "Details" : "Energy weapon attacks have their hit improved by 2.",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "nature" : "Buff",

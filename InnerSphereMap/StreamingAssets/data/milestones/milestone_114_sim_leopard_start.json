@@ -244,7 +244,13 @@
                 },
 				{
                     "typeString" : "System.Int32",
-                    "name" : "Item.WeaponDef.Weapon_Flamer_Flamer_0-jrig",
+                    "name" : "Item.WeaponDef.Weapon_HandyVac_Industrial_Construction_0_ArcWelder",
+                    "value" : 2,
+                    "valueConstant" : ""
+                },				
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.UpgradeDef.Gear_Actuator_Friedhof_Theseus",
                     "value" : 2,
                     "valueConstant" : ""
                 }				

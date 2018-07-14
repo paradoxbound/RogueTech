@@ -102,6 +102,17 @@
     ],
     "inventory": [
         {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Spiked_Helmet",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },	
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_Arm_Claws",
             "SimGameUID": null,
@@ -123,6 +134,28 @@
             "prefabName": null,
             "hasPrefabName": false
         },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_Actuator_Friedhof_Heracles",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_Actuator_Friedhof_Heracles",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_HandyVac_Industrial_Construction_0_ArcWelder",

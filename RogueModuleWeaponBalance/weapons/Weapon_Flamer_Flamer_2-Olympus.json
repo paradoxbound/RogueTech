@@ -3,11 +3,11 @@
     "Type" : "Flamer",
     "WeaponSubType" : "Flamer",
     "MinRange" : 0,
-    "MaxRange" : 220,
+    "MaxRange" : 180,
     "RangeSplit" : [
         60,
-        110,
-        160
+        90,
+        120
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
@@ -15,10 +15,10 @@
     "Damage" : 10,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
+    "EvasivePipsIgnored" : 2,
     "DamageVariance" : 0,
     "HeatDamage" : 15,
-    "AccuracyModifier" : -2,
+    "AccuracyModifier" : -1,
     "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
@@ -41,7 +41,7 @@
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "+ 5 Dmg. (H)",
-    "BonusValueB" : "+ 2 Accuracy.",
+    "BonusValueB" : "+ 1 Accuracy.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Flamer",

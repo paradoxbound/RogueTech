@@ -41,7 +41,7 @@
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "+ 10 Dmg.",
-    "BonusValueB" : "+ 1 Acc. -1 Evasive Ignore",
+    "BonusValueB" : "+ 1 Acc. +1 Evasive Ignore",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Laser",

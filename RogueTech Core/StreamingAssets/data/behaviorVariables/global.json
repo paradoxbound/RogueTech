@@ -122,7 +122,7 @@
             "k" : "Float_PriorityAttackPercentage",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 100
+		"floatVal" : 90
             }
 	},
 	{
@@ -131,7 +131,7 @@
             "k" : "Float_PriorityMovePercentage",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 100
+		"floatVal" : 90
             }
 	},
 	{
@@ -483,7 +483,7 @@
             "k" : "Float_MajorDamageRatio",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 6.0
+		"floatVal" : 5.0
             }
 	},
 	{
@@ -540,7 +540,7 @@
             "k" : "Float_UnsteadyCausesDefensiveMovePercentage",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 20
+		"floatVal" : 10
             }
 	},
 	{
@@ -1525,14 +1525,6 @@
 		"type": "Int",
                 "intVal" : "-1"
 	    }
-	},
-	{
-	    /* Whether the AI should always be in offensive mood. */
-            "k" : "Bool_AlwaysOffensiveMood",
-            "v" : {
-		"type" : "Bool",
-		"boolVal" : true,
-            }
 	}	
     ]
 }

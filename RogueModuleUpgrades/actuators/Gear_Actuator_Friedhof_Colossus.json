@@ -24,7 +24,7 @@
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
     "InventorySize" : 3,
-    "Tonnage" : 2.5,
+    "Tonnage" : 2,
     "AllowedLocations" : "Arms",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,

@@ -1,0 +1,27 @@
+{
+    "Name": "RogueTanks",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "The Tanks of RogueTech - Core Module",
+    "Author": "LadyAlekto",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+	
+				"DependsOn": [ "RogueModuleTech"],
+
+    "Manifest": [
+	{ "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
+    { "Type": "VehicleDef", "Path": "vehicle" },
+	{ "Type": "MovementCapabilitiesDef", "Path": "move" },
+    ]
+	
+	
+	
+
+    
+
+		
+
+	
+}

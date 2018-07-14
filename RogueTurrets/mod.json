@@ -1,0 +1,26 @@
+{
+    "Name": "RogueTurrets",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "The Turrets of RogueTech - Core Module",
+    "Author": "LadyAlekto",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+	
+				"DependsOn": [ "RogueModuleTech"],
+
+    "Manifest": [
+        { "Type": "TurretChassisDef", "Path": "TurretChassis" },
+        { "Type": "TurretDef", "Path": "Turret" }		
+    ]
+	
+	
+	
+
+    
+
+		
+
+	
+}
