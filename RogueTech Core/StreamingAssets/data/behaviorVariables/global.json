@@ -765,7 +765,7 @@
 	       not reserve. */
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 80.0
+		"floatVal" : 70.0
 	    }
 	},
 	{

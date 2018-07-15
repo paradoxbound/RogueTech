@@ -67,6 +67,18 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+0.987 HF2
+Updated custom components in the hopes to fix duplicates issue
+Sory for morph just removing it entirely
+
+0.987 HF1
+Broken/destroyed Advanced Materials, gyros and tsm invalidate a mech until repaired/replaced
+Most items that cannot be stacked now will not replace itself anymore, giving a warning
+Melee accuracy actuator restricted to 1
+
+Alternative settings file with autoreplacealltrue is avaible
+
+
 
 0.987
 

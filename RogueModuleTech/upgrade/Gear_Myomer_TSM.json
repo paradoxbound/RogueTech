@@ -1,5 +1,7 @@
 {
 
+"Flags" : { "flags" : [ "not_broken" ] }
+
 	"Custom" :  {"Category" : { "CategoryID" : "TSM"} },
 
     "StatName" : null,

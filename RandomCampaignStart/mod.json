@@ -50,6 +50,7 @@
         "mechdef_urbanmech_UM-R60L",
         "mechdef_urbanmech_UM-R60X",
 		"mechdef_cicada_CDA-2B",
+		"mechdef_wolfhound_WLF-1X"
 			
         ],
         "MediumMechsPossible": [
@@ -96,7 +97,7 @@
         "mechdef_vindicator_VND-1AA",
         "mechdef_vindicator_VND-1X",
         "mechdef_wolverine_WVR-6M",
-		"chassisdef_stingray_SYU-1X"
+		"mechdef_stingray_SYU-1X"
         ],
         "HeavyMechsPossible": [
         ],
