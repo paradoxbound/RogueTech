@@ -1,6 +1,6 @@
 {
 
-"Flags" : { "flags" : [ "not_broken" ] }
+"Flags" : { "flags" : [ "not_broken" ] },
 
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -135,7 +135,7 @@
 			"durationData" :
 			{
 				"duration" : -1,
-                "stackLimit" : 1,				
+                "stackLimit" : 1				
 			},
 			"targetingData" : 
 			{
@@ -157,15 +157,14 @@
 				"statName" : "UnsteadyThreshold",
                 "operation" : "Float_Multiply",
                 "modValue" : "1.2",
-                "modType" : "System.Single",
+                "modType" : "System.Single"
 			},
 			"nature" : "Buff"
 		}			
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_variant",
-            "component_type_variant1"
+            "component_type_stock"
         ],
         "tagSetSourceFile" : ""
     }

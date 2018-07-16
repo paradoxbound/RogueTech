@@ -364,14 +364,14 @@
 					]
 				},
 				{
-					"ID": "diff_start_hwacha",
-					"Name": "Hwacha",
+					"ID": "diff_start_mara",
+					"Name": "Marauder",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_catapult_CPLT-D7"
+							"ConstantValue": "mechdef_marauder_MAD-3R"
 						}
 					]
 				},
@@ -1257,7 +1257,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "BaseXPGainPerMission",
-							"ConstantValue": "500"
+							"ConstantValue": "450"
 						}
 					]
 				},
@@ -1269,7 +1269,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "BaseXPGainPerMission",
-							"ConstantValue": "400"
+							"ConstantValue": "350"
 						}
 					]
 				},
@@ -1281,7 +1281,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "BaseXPGainPerMission",
-							"ConstantValue": "300"
+							"ConstantValue": "250"
 						}
 					]
 				},
@@ -1293,7 +1293,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "BaseXPGainPerMission",
-							"ConstantValue": "200"
+							"ConstantValue": "150"
 						}
 					]
 				},
@@ -1305,7 +1305,7 @@
 						{
 							"ConstantType": "Pilot",
 							"ConstantName": "BaseXPGainPerMission",
-							"ConstantValue": "100"
+							"ConstantValue": "50"
 						}
 					]
 				}
@@ -1576,24 +1576,24 @@
 				{
 					"ID": "diff_SM_supereasy",
 					"Name": "5580000",
-					"DifficultyValue": -2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingCBills",
-							"ConstantValue": "5580000"
+							"ConstantValue": "6580000"
 						}
 					]
 				},
 				{
 					"ID": "diff_SM_easy",
 					"Name": "3580000",
-					"DifficultyValue": -1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingCBills",
-							"ConstantValue": "3580000"
+							"ConstantValue": "4080000"
 						}
 					]
 				},
@@ -1605,31 +1605,31 @@
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingCBills",
-							"ConstantValue": "2880000"
+							"ConstantValue": "3210000"
 						}
 					]
 				},
 				{
 					"ID": "diff_SM_hard",
 					"Name": "2000000",
-					"DifficultyValue": 1,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingCBills",
-							"ConstantValue": "2000000"
+							"ConstantValue": "2500000"
 						}
 					]
 				},
 				{
 					"ID": "diff_SM_veryhard",
 					"Name": "1340000",
-					"DifficultyValue": 2,
+					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingCBills",
-							"ConstantValue": "1340000"
+							"ConstantValue": "180000"
 						}
 					]
 				}

@@ -50,10 +50,10 @@
                     "Type" : "System_ShowTitleCard",
                     "value" : "true",
 					"additionalValues" : [
-						"INNER SPHERE",
-						"Sandbox",
-						"5.0",
-						"3.0"
+						"GALATEA",
+						"Being a mercenary, though.. we just go wherever there's money and trouble, and everyone in the galaxy is a customer.",
+						"4.0",
+						"2.0"
 					]
                 }
             ],

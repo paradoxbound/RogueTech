@@ -11,7 +11,7 @@
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 5,
+    "HeatGenerated" : 8,
     "Damage" : 20,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
@@ -26,7 +26,7 @@
     "ShotsWhenFired" : 1,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 0,
-    "Instability" : 4.1,
+    "Instability" : 3.3,
     "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Small",
     "Description" : {
         "Cost" : 30000,

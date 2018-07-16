@@ -6,8 +6,8 @@
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
     "Description" : {
-        "Cost" : 1460000,
-        "Rarity" : 2,
+        "Cost" : 300000,
+        "Rarity" : 1,
         "Purchasable" : true,
         "Manufacturer" : "Deadly Sins",
         "Model" : "Small Combat Shield",
@@ -113,8 +113,7 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_variant",
-            "component_type_variant3"
+            "component_type_stock"
         ],
         "tagSetSourceFile" : ""
     }

@@ -67,6 +67,21 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+0.987Patch1
+Many Minor fixes
+Reduced costs of spikes, reflective and reactive
+Changed cost of combat shields
+Removed roguetech gear randomly showing up in salvage
+Mechsorter updated to also sort the lance drop by cost
+Added a marauder to the selection
+Deployments minor fixes patch
+2 New portraits by ChaoticTabris
+
+RandomStart updated to use fork by Don Zappo and Gnivler
+You now get your ancestral mech + 3-5 mechs between 100-130 tons up to 50 tons per mech
+You also gain less starting funds dependent on the 1% of the chassis cost
+
+
 0.987 HF2
 Updated custom components in the hopes to fix duplicates issue
 Sory for morph just removing it entirely

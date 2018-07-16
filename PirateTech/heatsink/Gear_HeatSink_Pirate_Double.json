@@ -12,8 +12,8 @@
         "Details" : "So Some gouzaizi thought he cracked how to make a Star League Grade Engine Shielding, if this doesn't blow up your mech when it breaks, it surely will boost the engine. There is a note etched into the main board that says ''Suck It Yang''.",
         "Icon" : "uixSvgIcon_equipment_Heatsink"
     },
-    "BonusValueA" : "- 22 Heat / Turn",
-    "BonusValueB" : "Unkown",
+    "BonusValueA" : "- 30 Heat / Turn",
+    "BonusValueB" : "Unknown",
     "ComponentType" : "HeatSink",
     "ComponentSubType" : "Heatsink",
     "PrefabIdentifier" : "",

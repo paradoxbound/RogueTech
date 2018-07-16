@@ -11,7 +11,7 @@
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 10,
+    "HeatGenerated" : 13,
     "Damage" : 25,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
@@ -26,7 +26,7 @@
     "ShotsWhenFired" : 1,
     "ProjectilesPerShot" : 3,
     "AttackRecoil" : 1,
-    "Instability" : 4.1,
+    "Instability" : 4,
     "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Small",
     "Description" : {
         "Cost" : 140000,

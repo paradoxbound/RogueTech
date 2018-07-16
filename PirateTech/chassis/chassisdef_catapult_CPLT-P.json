@@ -62,7 +62,11 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                }
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }				
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -78,7 +82,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -114,7 +118,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -130,7 +134,12 @@
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
-                }
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }				
+				
             ],
             "Tonnage": 0,
             "InventorySlots": 8,

@@ -6,7 +6,7 @@
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
     "Description" : {
-        "Cost" : 560000,
+        "Cost" : 60000,
         "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "Arc Royal",
@@ -18,7 +18,7 @@
         "Icon" : "uixSvgIcon_mwFury"
     },
     "BonusValueA" : "+2% Energy Protection|",
-    "BonusValueB" : "-1% Other Protection.",
+    "BonusValueB" : "-1% Kintetic Protection.",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
@@ -163,12 +163,11 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
-        },			
+        }			
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_variant",
-            "component_type_variant3"
+            "component_type_stock"
         ],
         "tagSetSourceFile" : ""
     }

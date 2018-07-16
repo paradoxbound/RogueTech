@@ -183,6 +183,22 @@
 		"XPFailureMod" : 0.2,
 		"XPBadFaithMod" : 0,
 		
+		"TargetRepSuccessMod" : -0.5,
+		"TargetRepGoodFaithMod" : -0.25,
+		"TargetRepBadFaithMod" : 0,
+		"EmployerRepSuccessMod" : 1.1,
+		"EmployerRepGoodFaithMod" : 0.6,
+		"EmployerRepBadFaithMod" : -2,
+		"StartingReputation" : 0,
+		
+		"LoathedMaxContractDifficulty": -2,
+        "HatedMaxContractDifficulty":-1,
+        "DislikedMaxContractDifficulty": 0,
+        "IndifferentMaxContractDifficulty": 0,
+        "LikedMaxContractDifficulty": 1,
+        "FriendlyMaxContractDifficulty": 2,
+        "AlliedMaxContractDifficulty": 4, 
+		
 		"MissionsForFirstBreadcrumb" : 0,		
 
 		"MaxContractsPerSystem": 8,

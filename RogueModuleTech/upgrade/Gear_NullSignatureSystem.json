@@ -16,8 +16,8 @@
         "Details" : "The Null Signature System is another Capellan endeavour to recreate lost Star League ECM. It trades heat generation for a reduced sensor and target signature and is best when coupled with an EWS. Does not stack.",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
-    "BonusValueA" : "Bulwark. + 20% Heat",
-    "BonusValueB" : "-45% Signature +1Defense",
+    "BonusValueA" : "Bulwark|+ 20% Heat|",
+    "BonusValueB" : "-45% Signature|+1 Defense.",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",

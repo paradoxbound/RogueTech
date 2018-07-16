@@ -1,6 +1,6 @@
 {
 
-"Flags" : { "flags" : [ "not_broken" ] }
+"Flags" : { "flags" : [ "not_broken" ] },
 
 	"Custom" :  {"Category" : { "CategoryID" : "TSM"} },
 
@@ -74,7 +74,7 @@
                 "targetAmmoCategory" : "NotSet",
                 "targetWeaponSubType" : "Melee"
             },
-			"nature" : "Buff",
+			"nature" : "Buff"
         },
 		{
 			"durationData" :
