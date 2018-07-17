@@ -135,7 +135,7 @@
 		"MaxMechsPerPod" : 6,
 		"StartingDropShip" : "argo",
 		"UpgradedDropShip" : "argo",
-		"StartingPlayerMech" : "mechdef_urbanmech_UM-R60",
+		"StartingPlayerMech" : "mechdef_blackjack_BJ-1",
 		"StartingArgoUpgrades" : [
 			"argoUpgrade_drive0",
 			"argoUpgrade_mechBay1",
@@ -191,13 +191,13 @@
 		"EmployerRepBadFaithMod" : -2,
 		"StartingReputation" : 0,
 		
-		"LoathedMaxContractDifficulty": -2,
-        "HatedMaxContractDifficulty":-1,
+		"LoathedMaxContractDifficulty": -4,
+        "HatedMaxContractDifficulty":-2,
         "DislikedMaxContractDifficulty": 0,
         "IndifferentMaxContractDifficulty": 0,
-        "LikedMaxContractDifficulty": 1,
-        "FriendlyMaxContractDifficulty": 2,
-        "AlliedMaxContractDifficulty": 4, 
+        "LikedMaxContractDifficulty": 2,
+        "FriendlyMaxContractDifficulty": 4,
+        "AlliedMaxContractDifficulty": 6, 
 		
 		"MissionsForFirstBreadcrumb" : 0,		
 

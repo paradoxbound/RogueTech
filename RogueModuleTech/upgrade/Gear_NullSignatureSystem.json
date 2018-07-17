@@ -1,5 +1,5 @@
 {
-	"Custom" :  {"Category" : { "CategoryID" : "NSS"} },
+	"Custom" :  {"Category" : { "CategoryID" : "NSS"}, "Flags" : { "flags" : [ "not_broken" ] } },
 
     "StatName" : null,
     "RelativeModifier" : 0,

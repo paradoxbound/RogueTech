@@ -1,6 +1,6 @@
 {
 
-	"Custom" :   { "Category" : { "CategoryID" : "Spikes"} },
+	"Custom" :   { "Category" : { "CategoryID" : "Spikes"}, "Flags" : { "flags" : [ "not_broken" ] } },
   
     "StatName" : null,
     "RelativeModifier" : 0,

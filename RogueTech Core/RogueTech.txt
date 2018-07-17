@@ -68,6 +68,22 @@ Changelog
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
 
+0.987Patch 3
+Added rt specific vehicles by cargo vroom
+Added new gear:
+ArtemisIV TTS - counts as tier 1 missiles tts
+AMS - is mutually exclusive to the LAMS
+Vehicle ECM - Cannot be salvaged
+
+Missile direct fire TTS gained a penalty to indirect fire
+Added the missing JK Variants
+
+Added a new locust
+
+Bugfix to prevent Advanced Materials exploit
+
+
+
 0.987Patch 2
 Updated randomstart again
 Should prevent some issues with wrong starters
