@@ -269,13 +269,13 @@
 				},
 				{
 					"ID": "diff_start_basic",
-					"Name": "Enforcer",
+					"Name": "Random",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_enforcer_ENF-4R"
+							"ConstantValue": "mechdef_centurion_TARGETDUMMY"
 						}
 					]
 				},				

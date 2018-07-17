@@ -67,6 +67,27 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+
+0.987Patch 2
+Updated randomstart again
+Should prevent some issues with wrong starters
+Now defaults to a Random start mech up to 50 tons
+You starting lance now includes 4-6 mechs random of up to 190-200 tons INCLUDING your starter choice
+
+Includes tiny patch to deployments
+
+WeaponVariance patched to 0.1.0
+Now affects burstfire weapons, notably hmg and pirate hmg
+
+Hellion is now an angry redhead
+
+0.987Patch1HF2
+Patched Denaden custom components 
+Some minor fixes
+
+0.987Patch1HF1
+Fixed typo in randomstart, now works properly
+
 0.987Patch1
 Many Minor fixes
 Reduced costs of spikes, reflective and reactive

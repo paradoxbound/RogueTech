@@ -32,7 +32,7 @@
 		{  "Name": "ENGTTST3",  "displayName": "Energy TTS 3",  "MaxEquiped":  "1", "AutoReplace": "false"},		
 		{  "Name": "MeleeActuator",  "displayName": "Melee Actuator",  "MaxEquipedPerLocation":  "1", "AutoReplace": "true"},
 		{  "Name": "MeleeSTAB",  "displayName": "Melee Stab DMG Actuator",  "MaxEquipedPerLocation":  "1", "AutoReplace": "true"},
-		{  "Name": "MeleeACC",  "displayName": "Melee Accuracy Actuator",  "MaxEquiped":  "1", "AutoReplace": "false"},		
+		{  "Name": "MeleeACC",  "displayName": "Melee Accuracy Actuator",  "MaxEquipedPerLocation":  "1", "AutoReplace": "false"},		
 		{  "Name": "DFASelfDamage",  "displayName": "DFA Self Dmg Actuator",  "MaxEquipedPerLocation":  "1", "AutoReplace": "true"},
 		{  "Name": "DFADamage",  "displayName": "DFA Dmg Actuator",  "MaxEquipedPerLocation":  "1", "AutoReplace": "true"},	
 		{  "Name": "LAMS",  "displayName": "Laser AMS",  "MaxEquiped":  "1", "AutoReplace": "false"},

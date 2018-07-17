@@ -13,12 +13,12 @@
   "Settings": {
     /* Global toggles that effect both types of randomizers. FullRandomMode: true for complete randomization, false for Original Method Randomization.*/	
 	"FullRandomMode": true,
-    "MinimumStartingWeight": 100,
-    "MaximumStartingWeight": 130,
+    "MinimumStartingWeight": 190,
+    "MaximumStartingWeight": 200,
     "NumberRandomRonin": 3,
     "NumberProceduralPilots": 0,
 	"MechPercentageStartingCost" : 1,
-	"IgnoreAncestralMech": true,"
+	"IgnoreAncestralMech": false,
 
 	/* Specify which Ronin you want to have in your game to start. NumberRoninFromList will specify how many Ronin will be randomly selected from amongst this list. */
 	"NumberRoninFromList" : 4,
@@ -30,31 +30,32 @@
 	],
 
     /* Settings for Full Random Mode. Maximum Lance Size = 6.*/
-    "MinimumLanceSize": 3,
-    "MaximumLanceSize": 5,
+    "MinimumLanceSize": 4,
+    "MaximumLanceSize": 6,
     "MaximumMechWeight": 50,
 	"AllowDuplicateChassis":  false,
 	"AllowCustomMechs": false,
 	/* Use mechdef name for this list. For example, "mechdef_locust_LCT-1M" to exclude the Locust-1M. */
 	"ExcludedMechs" : [
-	"mechdef_spider_SDR-6V",
-	"mechdef_spider_SDR-AS",
-	"mechdef_spider_SDR-I1",
-	"mechdef_cicada_CDA-2A",
-	"mechdef_spider_SDR-5V",
-	"mechdef_commando_COM-2D",
-	"mechdef_commando_COM-1B",
-	"mechdef_locust_LCT-1M",
-	"mechdef_locust_LCT-1S",
-	"mechdef_locust_LCT-1V",
-	"mechdef_cicada_CDA-2B",
+	"mechdef_commando_COM-2I",
 	"mechdef_commando_COM-1C",
 	"mechdef_commando_COM-1D",
 	"mechdef_commando_COM-3A",
+	"mechdef_commando_COM-2D",
+	"mechdef_commando_COM-1B",	
+	"mechdef_cicada_CDA-2A",
+	"mechdef_cicada_CDA-2B",
+	"mechdef_spider_SDR-5V",	
 	"mechdef_spider_SDR-5K",
 	"mechdef_spider_SDR-5D",
+	"mechdef_spider_SDR-6V",
+	"mechdef_spider_SDR-AS",
+	"mechdef_spider_SDR-I1",	
 	"mechdef_locust_LCT-1E",
 	"mechdef_locust_LCT-3V",
+	"mechdef_locust_LCT-1M",
+	"mechdef_locust_LCT-1S",
+	"mechdef_locust_LCT-1V",	
 	"mechdef_blackjack_BJ-P",
 	"mechdef_centurion_CN9-P",
 	"mechdef_commando_COM-P",
@@ -65,7 +66,7 @@
 	"mechdef_griffin_GRF-S7",
 	"mechdef_shadowhawk_SHD-SX",
 	"mechdef_urbanmech_UM-P",
-	"mechdef_EXPA"
+	"mechdef_EXPA"	
 	],
 	
     /* Settings for Original Method. Use this method to input specific mechs to be randomized amongst. Also, this allows precise control of mech weight classes. */
@@ -158,6 +159,7 @@
 		
 	/* Dev toggles */
 	"Debug": false,
-	"Loops":  1000
+	"Loops":  1,
+	"SpiderLoops" : 100
   }	
 }

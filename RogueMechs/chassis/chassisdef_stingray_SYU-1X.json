@@ -9,7 +9,7 @@
         "Id": "chassisdef_stingray_SYU-1X",
         "Name": "Stingray",
         "Details": "The Stingray is a Capellan prototype based on the Raven. Carrying advanced stealth gear and twin Plasma rifles, is it capable of delivering a deadly blow at short ranges.",
-        "Icon": "uixTxrIcon_jenner"
+        "Icon": "uixTxrIcon_cicada"
     },
     "MovementCapDefID": "movedef_jenner_JR7-D",
     "PathingCapDefID": "pathingdef_medium",
