@@ -13,7 +13,7 @@
     },
     "MovementCapDefID": "movedef_urbanmech_UM-R60",
     "PathingCapDefID": "pathingdef_light",
-    "HardpointDataDefID": "hardpointdatadef_urbanmech_X",
+    "HardpointDataDefID": "hardpointdatadef_urbanmech",
     "PrefabIdentifier": "chrPrfMech_urbanmechBase-001",
     "PrefabBase": "urbanmech",
     "Tonnage": 30,
@@ -74,7 +74,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {

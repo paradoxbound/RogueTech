@@ -82,6 +82,11 @@ Added a new locust
 
 Bugfix to prevent Advanced Materials exploit
 
+Raised resistance of buildings on defense slightly
+
+Removed hardpoint defs from jk's to prevent a possible simgame crash
+
+
 
 
 0.987Patch 2

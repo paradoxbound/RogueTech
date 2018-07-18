@@ -13,7 +13,7 @@
     },
     "MovementCapDefID": "movedef_zeus_ZEU-6S",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_zeus_6Y",
+    "HardpointDataDefID": "hardpointdatadef_zeus",
     "PrefabIdentifier": "chrPrfMech_zeusBase-001",
     "PrefabBase": "zeus",
     "Tonnage": 80,

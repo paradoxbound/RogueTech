@@ -13,7 +13,7 @@
     },
     "MovementCapDefID": "movedef_victor_VTR-9B",
     "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_victorLA1",
+    "HardpointDataDefID": "hardpointdatadef_victor",
     "PrefabIdentifier": "chrPrfMech_victorBase-001",
     "PrefabBase": "victor",
     "Tonnage": 80,

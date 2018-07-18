@@ -161,6 +161,6 @@
 	/* Dev toggles */
 	"Debug": false,
 	"Loops":  1,
-	"SpiderLoops" : 100
+	"SpiderLoops" : 1000
   }	
 }

@@ -12,7 +12,6 @@
 	"Manifest": [
 		{ "Type": "AmmunitionBoxDef", "Path": "ammunitionBox"},
 		{ "Type": "ChassisDef", "Path": "chassis" },
-		{ "Type": "HardpointDataDef", "Path": "hardpoints" },
 		{ "Type": "MechDef", "Path": "mech" },
 		{ "Type": "MovementCapabilitiesDef", "Path": "movement" },
 		{ "Type": "ShopDef", "Path": "shops" },
