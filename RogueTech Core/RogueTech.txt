@@ -78,6 +78,9 @@ Heavy Rifle got 3 Ton/15 Shots/2 Slots
 Added more new vehicles by Cargo_Vroom
 
 Patched Mech Asemmbly to hopefully fix marauderII making king crabs (and vice versa)
+Patched CustomComponents
+
+Added a MASC
 
 Hopefully last patch for 0.987
 
