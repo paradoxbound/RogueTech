@@ -15,7 +15,7 @@
     "Damage" : 5,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
+    "EvasivePipsIgnored" : 1,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
     "AccuracyModifier" : -1,
@@ -26,7 +26,7 @@
     "ShotsWhenFired" : 15,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 1,
-    "Instability" : 2.5,
+    "Instability" : 1.25,
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM15",
     "Description" : {
         "Cost" : 290000,
@@ -41,7 +41,7 @@
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "+1Accuracy . +1 Dmg",
-    "BonusValueB" : "X2 Stb.Dmg.",
+    "BonusValueB" : "+1 Evasion Ignore.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "lrm15",

@@ -67,6 +67,14 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+0.987Patch 4
+Paperdollfix toggled off by default
+Command Console cannot be salvaged anymore
+Rifles got internal ammo now and have been increased in size and weight
+Light Rifle got 1 Ton/15 Shots/1 Slots
+Medium Rifle got 2 Ton/16 Shots/2 Slots
+Heavy Rifle got 3 Ton/15 Shots/2 Slots
+1 Possible error with new vehicles 
 
 0.987Patch 3
 Added rt specific vehicles by cargo vroom

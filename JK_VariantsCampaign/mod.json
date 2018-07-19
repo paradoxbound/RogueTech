@@ -9,6 +9,8 @@
     "Website": "https://www.nexusmods.com/battletech/mods/18",
     "Contact": "message me at Nexus or Paradox sites",
 	
+				"DependsOn": [ "CustomComponents"],	
+	
 	"Manifest": [
 		{ "Type": "AmmunitionBoxDef", "Path": "ammunitionBox"},
 		{ "Type": "ChassisDef", "Path": "chassis" },

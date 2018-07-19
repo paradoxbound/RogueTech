@@ -77,20 +77,6 @@
          "MountedLocation" : "Turret",
 		 "HardpointSlot" : 2,
 		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC10",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : -1,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC10",
-         "ComponentDefType" : "AmmunitionBox",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : -1,
-		 "DamageLevel" : "Functional"
       },	  
       {
          "ComponentDefID" : "Ammo_AmmunitionBox_Generic_AC10",

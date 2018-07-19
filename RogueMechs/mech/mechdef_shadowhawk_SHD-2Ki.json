@@ -105,7 +105,7 @@
 
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_PPC_PPC_3-Defiance",
+            "ComponentDefID": "Weapon_PPC_PPC_2-Donal",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,

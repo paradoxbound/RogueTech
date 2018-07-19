@@ -3,9 +3,8 @@
         "items": [
             "unit_mech",
             "unit_medium",
-            "unit_indirectFire",
             "unit_lance_tank",
-            "unit_role_brawler",
+            "unit_role_flanker",
             "unit_release"
         ],
         "tagSetSourceFile": ""

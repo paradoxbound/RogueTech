@@ -14,11 +14,11 @@
         "UIName" : "Reflective Coating",
         "Id" : "Gear_Reflective_Coating",
         "Name" : "Reflective Coating",
-        "Details" : " Laser Reflective Armor dissipates energy weapon attacks more efficiently than other armor types, reducing the amount of damage taken by the 'Mech mounting it. Despite the name, Laser Reflective Armor is effective against all energy weapons, not just lasers. PPCs, Flamers, and Plasma Rifles and Cannons are all less effective against it. Effect wont stack beyond 10 pieces.",
+        "Details" : "Laser Reflective Armor dissipates energy weapon attacks more efficiently than other armor types, reducing the amount of damage taken by the 'Mech mounting it. Despite the name, Laser Reflective Armor is effective against all energy weapons, not just lasers. PPCs, Flamers, and Plasma Rifles and Cannons are all less effective against it. Effect wont stack beyond 10 pieces.",
         "Icon" : "uixSvgIcon_mwFury"
     },
     "BonusValueA" : "+2% Energy Protection|",
-    "BonusValueB" : "-1% Kintetic Protection.",
+    "BonusValueB" : "-1% Kinetic Protection.",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",

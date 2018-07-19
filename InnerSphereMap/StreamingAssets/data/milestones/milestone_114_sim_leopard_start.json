@@ -85,7 +85,13 @@
                     "name" : "Item.WeaponDef.Weapon_Autocannon_AC10_MRIFLE",
                     "value" : 1,
                     "valueConstant" : ""
-                },				
+                },	
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.WeaponDef.Weapon_Autocannon_AC5_LRIFLE",
+                    "value" : 1,
+                    "valueConstant" : ""
+                },					
 				{
                     "typeString" : "System.Int32",
                     "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_AC2",

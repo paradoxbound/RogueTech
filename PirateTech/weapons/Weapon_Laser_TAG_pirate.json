@@ -76,7 +76,7 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "TAG-Effect",
+                "Id" : "PTAG-Effect",
                 "Name" : "Pirate TAG",
                 "Details" : "TAG'ed yo ass for +2 Accuracy.",
                 "Icon" : "uixSvgIcon_artillery"

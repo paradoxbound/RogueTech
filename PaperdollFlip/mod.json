@@ -1,6 +1,6 @@
 {
     "Name": "PaperdollFlip",
-	"Enabled": true,
+	"Enabled": false,
 
     "Version": "0.1",
     "Description": "Prevents the 'mech UI paperdoll from being flipped - so as per CBT, screen left is now 'mech left, screen right is now 'mech right.",
