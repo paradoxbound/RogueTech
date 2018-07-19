@@ -1,18 +1,18 @@
 {
 	"Description" : {
 		"Id" : "vehiclechassisdef_MYRMIDONcv",
-		"Name" : "Myrmidon Medium Tank",
+		"Name" : "Myrmidon",
 		"Details" : "",
 		"Icon" : "MANTICORE",
 		"Cost" : 993,
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_MYRMIDON",
+	"MovementCapDefID" : "movedef_5-8cv",
    	"PathingCapDefID" : "pathingdef_medium_tracked",
-   	"HardpointDataDefID" : "hardpointdatadef_scorpion",
-	"PrefabIdentifier" : "chrPrfVhcl_scorpion",
-	"PrefabBase" : "scorpion",
+   	"HardpointDataDefID" : "hardpointdatadef_manticore",
+	"PrefabIdentifier" : "chrPrfVhcl_manticore",
+	"PrefabBase" : "manticore",
 	"Tonnage" : 40,
 	"weightClass" : "MEDIUM",
 	"BattleValue" : 993,

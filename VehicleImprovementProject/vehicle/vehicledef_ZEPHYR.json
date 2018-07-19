@@ -14,7 +14,8 @@
         "items" : [
          "unit_vehicle",
          "unit_medium",
-         "unit_tracks"
+         "unit_tracks",
+		 "unit_release"
         ],
         "tagSetSourceFile": ""
                   },

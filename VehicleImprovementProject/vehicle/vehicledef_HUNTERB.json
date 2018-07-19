@@ -2,7 +2,7 @@
    "Version" : 1,
    "Description" : {
       "Id" : "vehicledef_HUNTERBcv",
-      "Name" : "Hunter (LRM10)",
+      "Name" : "Hunter (Skirmisher)",
       "Details" : "",
       "Icon" : "",
       "Cost" : 564,
@@ -13,7 +13,7 @@
    "VehicleTags": {
       "items": [
          "unit_vehicle",
-         "unit_light",
+         "unit_medium",
          "unit_tracked",
 		 "unit_release"
       ],
@@ -47,13 +47,6 @@
 			"CurrentInternalStructure" : 20,
 			"AssignedArmor" : 80,
 			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Turret",
-			"CurrentArmor" : 120,
-			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 120,
-			"DamageLevel" : "Functional"
 		}
    ],
    "inventory" : [
@@ -67,13 +60,6 @@
       {
          "ComponentDefID" : "Weapon_LRM_LRM10_0-STOCK",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Turret",
-		 "HardpointSlot" : 0,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
-         "ComponentDefType" : "Weapon",
          "MountedLocation" : "Front",
 		 "HardpointSlot" : 0,
 		 "DamageLevel" : "Functional"
@@ -83,6 +69,13 @@
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Front",
 		 "HardpointSlot" : 1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : 2,
 		 "DamageLevel" : "Functional"
       },
       {

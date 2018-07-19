@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_IGNIS",
+	"MovementCapDefID" : "movedef_4-6cv",
 	"PathingCapDefID" : "pathingdef_light_tracked",
 	"HardpointDataDefID" : "hardpointdatadef_galleon",
 	"PrefabIdentifier" : "chrPrfVhcl_galleon",

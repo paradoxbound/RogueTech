@@ -2,7 +2,7 @@
 	"Version": 1,
 	"Description": {
 		"Id": "vehicledef_BEHEMOTHAcv",
-		"Name": "Up-Armored Behemoth",
+		"Name": "Behemoth (Up-Armored)",
 		"Details": "",
 		"Icon": "",
 		"Cost": 993,
@@ -14,7 +14,8 @@
 		"items": [
 			"unit_vehicle",
 			"unit_assault",
-			"unit_tracks"
+			"unit_tracks",
+			"unit_release"
 		],
 		"tagSetSourceFile": ""
 	},

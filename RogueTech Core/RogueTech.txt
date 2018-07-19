@@ -75,6 +75,7 @@ Light Rifle got 1 Ton/15 Shots/1 Slots
 Medium Rifle got 2 Ton/16 Shots/2 Slots
 Heavy Rifle got 3 Ton/15 Shots/2 Slots
 1 Possible error with new vehicles 
+Added more new vehicles by Cargo_Vroom
 
 0.987Patch 3
 Added rt specific vehicles by cargo vroom

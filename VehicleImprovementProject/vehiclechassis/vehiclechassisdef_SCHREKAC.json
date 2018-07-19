@@ -24,7 +24,8 @@
 	"SensorRangeMultiplier": 1,
 	"Signature": 0,
 	"Radius": 4,
-	"LOSSourcePositions": [{
+	"LOSSourcePositions": [
+		{
 			"x": 0,
 			"y": 3,
 			"z": -0.5
@@ -35,7 +36,8 @@
 			"z": 4
 		}
 	],
-	"LOSTargetPositions": [{
+	"LOSTargetPositions": [
+		{
 			"x": 0,
 			"y": 3,
 			"z": -0.5
@@ -63,14 +65,7 @@
 	],
 	"Locations": [{
 			"Location": "Front",
-			"Hardpoints": [{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				},
+			"Hardpoints": [
 				{
 					"WeaponMount": "AntiPersonnel",
 					"Omni": false
@@ -87,7 +82,12 @@
 		},
 		{
 			"Location": "Left",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
 			"Tonnage": 0,
 			"InventorySlots": 0,
 			"MaxArmor": 120,
@@ -95,7 +95,12 @@
 		},
 		{
 			"Location": "Right",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMount": "AntiPersonnel",
+					"Omni": false
+				}
+			],
 			"Tonnage": 0,
 			"InventorySlots": 0,
 			"MaxArmor": 120,
@@ -111,10 +116,7 @@
 		},
 		{
 			"Location": "Turret",
-			"Hardpoints": [{
-					"WeaponMount": "Ballistic",
-					"Omni": false
-				},
+			"Hardpoints": [
 				{
 					"WeaponMount": "Ballistic",
 					"Omni": false
@@ -124,19 +126,7 @@
 					"Omni": false
 				},
 				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "AntiPersonnel",
-					"Omni": false
-				},
-				{
-					"WeaponMount": "AntiPersonnel",
+					"WeaponMount": "Ballistic",
 					"Omni": false
 				},
 				{

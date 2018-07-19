@@ -8,7 +8,7 @@
 		"Rarity": 0,
 		"Purchasable": false
 	},
-	"MovementCapDefID": "movedef_BEHEMOTH",
+	"MovementCapDefID": "movedef_2-3cv",
 	"PathingCapDefID": "pathingdef_assault_tracked",
 	"HardpointDataDefID": "hardpointdatadef_demolisher",
 	"PrefabIdentifier": "chrPrfVhcl_demolisher",
@@ -24,7 +24,8 @@
 	"SensorRangeMultiplier": 1,
 	"Signature": 0,
 	"Radius": 4,
-	"LOSSourcePositions": [{
+	"LOSSourcePositions": [
+        {
 			"x": 0,
 			"y": 3.5,
 			"z": -0.5
@@ -35,7 +36,8 @@
 			"z": 4.5
 		}
 	],
-	"LOSTargetPositions": [{
+	"LOSTargetPositions": [
+        {
 			"x": 0,
 			"y": 3.5,
 			"z": -0.5
@@ -61,9 +63,11 @@
 			"z": -4.5
 		}
 	],
-	"Locations": [{
+	"Locations": [
+        {
 			"Location": "Front",
-			"Hardpoints": [{
+			"Hardpoints": [
+                {
 					"WeaponMount": "Missile",
 					"Omni": false
 				},
@@ -103,7 +107,8 @@
 		},
 		{
 			"Location": "Left",
-			"Hardpoints": [{
+			"Hardpoints": [
+                {
 					"WeaponMount": "Missile",
 					"Omni": false
 				},
@@ -119,7 +124,8 @@
 		},
 		{
 			"Location": "Right",
-			"Hardpoints": [{
+			"Hardpoints": [
+                {
 					"WeaponMount": "Missile",
 					"Omni": false
 				},
@@ -143,7 +149,8 @@
 		},
 		{
 			"Location": "Turret",
-			"Hardpoints": [{
+			"Hardpoints": [
+                {
 					"WeaponMount": "Ballistic",
 					"Omni": false
 				},

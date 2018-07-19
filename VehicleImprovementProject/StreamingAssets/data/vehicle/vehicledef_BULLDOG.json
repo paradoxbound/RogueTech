@@ -1,4 +1,12 @@
 {
+   "VehicleTags": {
+      "items": [
+         "unit_vehicle",
+         "unit_medium",
+         "unit_tracks",
+		 "unit_release"
+      ]
+		},
       "inventory" : [
       {
          "ComponentDefID" : "Weapon_Laser_LargeLaser_0-STOCK",

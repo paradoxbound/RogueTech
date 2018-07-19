@@ -14,7 +14,8 @@
       "items": [
          "unit_vehicle",
          "unit_light",
-         "unit_tracks"
+         "unit_tracks",
+		 "unit_release"
       ],
       "tagSetSourceFile": ""
    },
@@ -46,18 +47,11 @@
 			"CurrentInternalStructure" : 20,
 			"AssignedArmor" : 25,
 			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Turret",
-			"CurrentArmor" : 25,
-			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 25,
-			"DamageLevel" : "Functional"
 		}
    ],
    "inventory" : [
       {
-         "ComponentDefID" : "Weapon_Autocannon_AC20_0-STOCK",
+         "ComponentDefID" : "Weapon_Autocannon_AC20_1-Federated",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Front",
 		 "HardpointSlot" : 0,

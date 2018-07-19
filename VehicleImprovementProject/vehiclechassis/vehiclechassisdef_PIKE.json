@@ -8,7 +8,7 @@
 		"Rarity": 0,
 		"Purchasable": false
 	},
-	"MovementCapDefID": "movedef_PIKE",
+	"MovementCapDefID": "movedef_3-5cv",
 	"PathingCapDefID": "pathingdef_heavy_tracked",
 	"HardpointDataDefID": "hardpointdatadef_schreck",
 	"PrefabIdentifier": "chrPrfVhcl_schreck",
@@ -24,7 +24,8 @@
 	"SensorRangeMultiplier": 1,
 	"Signature": 0,
 	"Radius": 4,
-	"LOSSourcePositions": [{
+	"LOSSourcePositions": [
+        {
 			"x": 0,
 			"y": 3,
 			"z": -0.5
@@ -35,7 +36,8 @@
 			"z": 4
 		}
 	],
-	"LOSTargetPositions": [{
+	"LOSTargetPositions": [
+        {
 			"x": 0,
 			"y": 3,
 			"z": -0.5
@@ -61,9 +63,11 @@
 			"z": -4.5
 		}
 	],
-	"Locations": [{
+	"Locations": [
+        {
 			"Location": "Front",
-			"Hardpoints": [{
+			"Hardpoints": [
+                {
 					"WeaponMount": "Missile",
 					"Omni": false
 				},
@@ -103,7 +107,8 @@
 		},
 		{
 			"Location": "Turret",
-			"Hardpoints": [{
+			"Hardpoints": [
+                {
 					"WeaponMount": "Ballistic",
 					"Omni": false
 				},

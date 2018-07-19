@@ -8,7 +8,7 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_ZEPHYR",
+	"MovementCapDefID" : "movedef_9-14cv",
    	"PathingCapDefID" : "pathingdef_medium_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_sldfdrone",
 	"PrefabIdentifier" : "chrPrfVhcl_sldfdrone",

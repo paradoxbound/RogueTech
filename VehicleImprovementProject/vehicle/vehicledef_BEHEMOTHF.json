@@ -2,7 +2,7 @@
 	"Version": 1,
 	"Description": {
 		"Id": "vehicledef_BEHEMOTHFcv",
-		"Name": "Infantry Support Behemoth",
+		"Name": "Behemoth (Infantry Support)",
 		"Details": "",
 		"Icon": "",
 		"Cost": 993,
@@ -14,7 +14,8 @@
 		"items": [
 			"unit_vehicle",
 			"unit_assault",
-			"unit_tracks"
+			"unit_tracks",
+			"unit_release"
 		],
 		"tagSetSourceFile": ""
 	},

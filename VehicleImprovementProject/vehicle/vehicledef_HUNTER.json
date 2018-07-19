@@ -47,13 +47,6 @@
 			"CurrentInternalStructure" : 20,
 			"AssignedArmor" : 80,
 			"DamageLevel" : "Functional"
-		},
-		{
-			"Location" : "Turret",
-			"CurrentArmor" : 120,
-			"CurrentInternalStructure" : 20,
-			"AssignedArmor" : 120,
-			"DamageLevel" : "Functional"
 		}
    ],
    "inventory" : [
@@ -67,7 +60,7 @@
       {
          "ComponentDefID" : "Weapon_LRM_LRM20_0-STOCK",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Turret",
+         "MountedLocation" : "Front",
 		 "HardpointSlot" : 0,
 		 "DamageLevel" : "Functional"
       },

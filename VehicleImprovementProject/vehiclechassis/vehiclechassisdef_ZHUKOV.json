@@ -8,7 +8,7 @@
 		"Rarity": 0,
 		"Purchasable": false
 	},
-	"MovementCapDefID": "movedef_ZHUKOV",
+	"MovementCapDefID": "movedef_3-5cv",
 	"PathingCapDefID": "pathingdef_heavy_tracked",
 	"HardpointDataDefID": "hardpointdatadef_demolisher",
 	"PrefabIdentifier": "chrPrfVhcl_demolisher",
@@ -24,7 +24,8 @@
 	"SensorRangeMultiplier": 1,
 	"Signature": 0,
 	"Radius": 4,
-	"LOSSourcePositions": [{
+	"LOSSourcePositions": [
+        {
 			"x": 0,
 			"y": 3.5,
 			"z": -0.5
@@ -35,7 +36,8 @@
 			"z": 4.5
 		}
 	],
-	"LOSTargetPositions": [{
+	"LOSTargetPositions": [
+        {
 			"x": 0,
 			"y": 3.5,
 			"z": -0.5

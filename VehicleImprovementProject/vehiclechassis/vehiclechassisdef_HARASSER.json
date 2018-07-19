@@ -8,14 +8,14 @@
 		"Rarity" : 0,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_HARASSER",
+	"MovementCapDefID" : "movedef_10-15cv",
    	"PathingCapDefID" : "pathingdef_light_tracked",
-   	"HardpointDataDefID" : "hardpointdatadef_sldfdrone",
-	"PrefabIdentifier" : "chrPrfVhcl_sldfdrone",
-	"PrefabBase" : "sldfdrone",
+   	"HardpointDataDefID" : "hardpointdatadef_striker",
+	"PrefabIdentifier" : "chrPrfVhcl_striker",
+	"PrefabBase" : "striker",
 	"Tonnage" : 25,
 	"weightClass" : "LIGHT",
-	"BattleValue" : 1393,
+	"BattleValue" : 564,
 	"TopSpeed" : 195,
 	"TurnRadius" : 130,
 	"movementType" : "Tracked",
@@ -100,7 +100,7 @@
 			"MaxArmor" : 20,
 			"InternalStructure" : 15
 		},
-	  {
+	   {
 			"Location" : "Turret",
 			"Hardpoints" : [
 				{

@@ -4,18 +4,18 @@
 		"Name": "Saladin",
 		"Details": "",
 		"Icon": "MANTICORE",
-		"Cost": 1393,
+		"Cost": 564,
 		"Rarity": 0,
 		"Purchasable": false
 	},
-	"MovementCapDefID": "movedef_SALADIN",
+	"MovementCapDefID": "movedef_8-12cv",
 	"PathingCapDefID": "pathingdef_light_tracked",
 	"HardpointDataDefID": "hardpointdatadef_sldfdrone",
 	"PrefabIdentifier": "chrPrfVhcl_sldfdrone",
 	"PrefabBase": "sldfdrone",
 	"Tonnage": 35,
 	"weightClass": "LIGHT",
-	"BattleValue": 1393,
+	"BattleValue": 564,
 	"TopSpeed": 125,
 	"TurnRadius": 90,
 	"movementType": "Tracked",
@@ -24,7 +24,8 @@
 	"SensorRangeMultiplier": 1,
 	"Signature": 0,
 	"Radius": 4,
-	"LOSSourcePositions": [{
+	"LOSSourcePositions": [
+        {
 			"x": 0,
 			"y": 2.5,
 			"z": -0.5
@@ -35,7 +36,8 @@
 			"z": 3
 		}
 	],
-	"LOSTargetPositions": [{
+	"LOSTargetPositions": [
+        {
 			"x": 0,
 			"y": 2.5,
 			"z": -0.5
@@ -61,15 +63,18 @@
 			"z": -4.5
 		}
 	],
-	"Locations": [{
+	"Locations": [
+        {
 			"Location": "Front",
-			"Hardpoints": [{
-				"WeaponMount": "Ballistic",
-				"Omni": false
-			}],
+			"Hardpoints": [
+                {
+				    "WeaponMount": "Ballistic",
+				    "Omni": false
+			    }
+            ],
 			"Tonnage": 0,
 			"InventorySlots": 0,
-			"MaxArmor": 90,
+			"MaxArmor": 85,
 			"InternalStructure": 20
 		},
 		{
@@ -77,7 +82,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 0,
-			"MaxArmor": 50,
+			"MaxArmor": 25,
 			"InternalStructure": 20
 		},
 		{
@@ -85,7 +90,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 0,
-			"MaxArmor": 50,
+			"MaxArmor": 25,
 			"InternalStructure": 20
 		},
 		{
@@ -93,15 +98,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 0,
-			"MaxArmor": 50,
-			"InternalStructure": 20
-		},
-		{
-			"Location": "Turret",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 0,
-			"MaxArmor": 50,
+			"MaxArmor": 25,
 			"InternalStructure": 20
 		}
 	]

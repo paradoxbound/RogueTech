@@ -58,7 +58,7 @@
    ],
    "inventory" : [
       {
-         "ComponentDefID" : "Weapon_Autocannon_AC10_0-STOCK",
+         "ComponentDefID" : "Weapon_Autocannon_AC10_1-Defiance",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Turret",
 		 "HardpointSlot" : 0,
@@ -67,15 +67,15 @@
       {
          "ComponentDefID" : "Weapon_MachineGun_MachineGun_0-STOCK",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
+         "MountedLocation" : "Left",
 		 "HardpointSlot" : 0,
 		 "DamageLevel" : "Functional"
       },
       {
          "ComponentDefID" : "Weapon_MachineGun_MachineGun_0-STOCK",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
-		 "HardpointSlot" : 1,
+         "MountedLocation" : "Right",
+		 "HardpointSlot" : 0,
 		 "DamageLevel" : "Functional"
       },
       {
