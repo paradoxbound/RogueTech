@@ -7,11 +7,11 @@
     "Author": "Cargo_Vroom",
     "Website": "twitch.tv/cargo_vroom",
     "Contact": "fakeemail@fakeemail.com",
+	
 
     "Manifest": [			
 		{ "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
 		{ "Type": "VehicleDef", "Path": "vehicle" },
-		{ "Type": "MovementCapabilitiesDef", "Path": "movement" },
-		{ "Type": "UpgradeDef", "Path": "upgrade" }
+		{ "Type": "MovementCapabilitiesDef", "Path": "movement" }
     		]
 }
