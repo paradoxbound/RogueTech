@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_spiderBase-001",
     "PrefabBase": "spider",
     "Tonnage": 30,
-    "InitialTonnage": 20.5,
+    "InitialTonnage": 3.5,
     "weightClass": "LIGHT",
     "BattleValue": 3907000,
     "Heatsinks": 0,

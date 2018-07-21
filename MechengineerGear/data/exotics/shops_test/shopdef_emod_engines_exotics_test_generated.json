@@ -1,0 +1,15 @@
+{
+   "ID" : "shopdef_emod_engines_exotics_test_generated",
+   "RequirementTags" : {
+      "items" : [],
+      "tagSetSourceFile" : ""
+   },
+   "ExclusionTags" : {
+      "items" : [
+      ],
+      "tagSetSourceFile" : ""
+   },
+   "Inventory" : [
+   ],
+   "Specials" : []
+}

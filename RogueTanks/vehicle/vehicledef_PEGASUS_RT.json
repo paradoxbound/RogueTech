@@ -91,13 +91,6 @@
          "MountedLocation" : "Front",
 		 "HardpointSlot" : -1,
 		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID": "Gear_VehicleECMcv",
-         "ComponentDefType": "Upgrade",
-		 "MountedLocation": "Front",
-         "HardpointSlot": -1,
-         "DamageLevel": "Functional"
       }
    ]
 }

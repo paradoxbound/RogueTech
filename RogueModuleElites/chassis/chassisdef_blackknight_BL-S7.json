@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_blackknightBase-001",
     "PrefabBase": "blackknight",
     "Tonnage": 75,
-    "InitialTonnage": 22,
+    "InitialTonnage": 7.5,
     "weightClass": "HEAVY",
     "BattleValue": 9124000,
     "Heatsinks": 0,
@@ -53,13 +53,13 @@
 				{"WeaponMount": "Ballistic","Omni": false},
 				{"WeaponMount": "Energy","Omni": false},
 				{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false}
+				{"WeaponMount": "AntiPersonnel","Omni": false}		
             ],
             "Tonnage": 0,
             "InventorySlots": 1,
-            "MaxArmor": 65,
+            "MaxArmor": 45,
             "MaxRearArmor": -1,
-            "InternalStructure": 8
+            "InternalStructure": 16
         },
         {
             "Location": "LeftArm",
@@ -71,9 +71,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 180,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 30
+            "InternalStructure": 60
         },
         {
             "Location": "LeftTorso",
@@ -85,27 +85,22 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 220,
-            "MaxRearArmor": 110,
-            "InternalStructure": 40
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
         },
         {
             "Location": "CenterTorso",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 300,
-            "MaxRearArmor": 145,
-            "InternalStructure": 60
+            "MaxArmor": 230,
+            "MaxRearArmor": 115,
+            "InternalStructure": 115
         },
         {
             "Location": "RightTorso",
-             "Hardpoints": [
+            "Hardpoints": [
 				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
 				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
 				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
@@ -113,9 +108,9 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 220,
-            "MaxRearArmor": 110,
-            "InternalStructure": 40
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
         },
         {
             "Location": "RightArm",
@@ -127,29 +122,29 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 180,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 30
+            "InternalStructure": 60
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 210,
+            "MaxArmor": 160,
             "MaxRearArmor": -1,
-            "InternalStructure": 40
+            "InternalStructure": 80
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 210,
+            "MaxArmor": 160,
             "MaxRearArmor": -1,
-            "InternalStructure": 40
+            "InternalStructure": 80
         }
-    ],
+    ],	
     "LOSSourcePositions": [
         {
             "x": 0,

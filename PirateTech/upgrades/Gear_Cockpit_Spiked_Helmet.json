@@ -1,4 +1,11 @@
 {
+
+	"Custom": {
+		"Category" : { 
+			"CategoryID" : "Cockpit" 
+		}
+	},
+
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
@@ -11,7 +18,7 @@
         "UIName" : "Spiked Cockpit Mod",
         "Id" : "Gear_Cockpit_Spiked_Helmet",
         "Name" : "Pirates Spiked Helmet",
-        "Details" : "This looks like it once was a Ceres Metals Cockpit but someone made it look like a helm and added spikes to it!.",
+        "Details" : "This looks like it once was a Ceres Metals Compact Cockpit but someone made it look like a helm and added spikes to it!.",
         "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
     "BonusValueA" : "+ 1 Injury Resist",
@@ -21,7 +28,7 @@
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
     "InventorySize" : 1,
-    "Tonnage" : 0,
+    "Tonnage" : 2,
     "AllowedLocations" : "Head",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,

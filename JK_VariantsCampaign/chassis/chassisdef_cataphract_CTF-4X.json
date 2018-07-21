@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_cataphractBase-001",
     "PrefabBase": "cataphract",
     "Tonnage": 70,
-    "InitialTonnage": 22,
+    "InitialTonnage": 7,
     "weightClass": "HEAVY",
     "BattleValue": 6577000,
     "Heatsinks": 0,

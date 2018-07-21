@@ -8,25 +8,25 @@
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
     "Description" : {
-        "Cost" : 1000000,
+        "Cost" : 1300000,
         "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "NAIS",
-        "Model" : "Adv.Mat's.",
-        "UIName" : "Adv. Materials T3",
+        "Model" : "Patchwork T3",
+        "UIName" : "Patchwork Materials T3",
         "Id" : "Gear_AdvancedMaterials3",
-        "Name" : "Advanced Materials T3",
-        "Details" : "This is a collection of advanced materials (e.g. ferro-fibrous armour, endo steel structure, and ultralight composites) which provide the same degree of protection at a lighter weight, but at the cost of critical slots. ",
+        "Name" : "Patchwork Materials T3",
+        "Details" : "This is a collection of patchwork materials (e.g. ferro-fibrous armour, endo steel structure, or ultralight composites) which provide the same degree of protection at a lighter weight, but at the cost of critical slots. ",
         "Icon" : "uixSvgIcon_equipment_Gyro"
     },
-    "BonusValueA" : "-1t",
+    "BonusValueA" : "-0.75t",
     "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 4,
-    "Tonnage" : -1,
+    "InventorySize" : 3,
+    "Tonnage" : -0.75,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
@@ -34,8 +34,7 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_variant",
-            "component_type_variant1"
+            "component_type_stock"
         ],
         "tagSetSourceFile" : ""
     }

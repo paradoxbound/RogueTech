@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_grasshopperBase-001",
     "PrefabBase": "grasshopper",
     "Tonnage": 70,
-    "InitialTonnage": 29,
+    "InitialTonnage": 7,
     "weightClass": "HEAVY",
     "BattleValue": 7602000,
     "Heatsinks": 0,

@@ -13,7 +13,7 @@
     "ChassisID": "chassisdef_enforcer_ENF-7S",
     "HeraldryID": null,
     "Description": {
-        "Cost": 9660000,
+        "Cost": 660000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -113,16 +113,16 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
             "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },
+        },		
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
@@ -199,6 +199,72 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_225",
+            "SimGameUID": "/ihstype=Gear_HeatSink_Generic_Double&Gear_HeatSink_Generic_Double=0",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engineslots_std_center",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_structureslots_endosteel",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+		{
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_armorslots_ferrosfibrous",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }		
     ]
 }

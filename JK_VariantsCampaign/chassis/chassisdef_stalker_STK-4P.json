@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_stalkerBase-001",
     "PrefabBase": "stalker",
     "Tonnage": 75,
-    "InitialTonnage": 23.5,
+    "InitialTonnage": 5,
     "weightClass": "HEAVY",
     "BattleValue": 8821000,
     "Heatsinks": 0,

@@ -2,7 +2,7 @@
 
 	"Custom" :  {"Category" : { "CategoryID" : "HBBulk"} },
 
-    "DissipationCapacity" : 10,
+    "DissipationCapacity" : 5,
     "Description" : {
         "Cost" : 470000,
         "Rarity" : 3,
@@ -15,7 +15,7 @@
         "Details" : "Heat Banks are installed to allow for more thermal energy collection, increasing the threshold at which internal damage occurs from excess heat buildup and thus boosting sustained weapons fire capability. Doesn't stack with same type but different tiers do. Counts as single heat sink for Heat rules.",
         "Icon" : "uixSvgIcon_equipment_HeatBank"
     },
-    "BonusValueA" : "+ 40 Max Heat. -10 Heat/Turn",
+    "BonusValueA" : "+ 40 Max Heat|-5 Heat/Turn|",
     "BonusValueB" : "+ 20 Overheat Threshold",
     "ComponentType" : "HeatSink",
     "ComponentSubType" : "Heatsink",

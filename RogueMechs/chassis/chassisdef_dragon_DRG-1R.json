@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_dragonBase-001",
     "PrefabBase": "dragon",
     "Tonnage": 60,
-    "InitialTonnage": 31,
+    "InitialTonnage": 6,
     "weightClass": "HEAVY",
     "BattleValue": 5683000,
     "Heatsinks": 0,
@@ -73,8 +73,9 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
+				{"WeaponMount": "Energy","Omni": false},
+				{"WeaponMount": "AntiPersonnel","Omni": false}
+				{"WeaponMount": "Missile","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
@@ -85,7 +86,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false}
+				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -96,8 +97,9 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
+				{"WeaponMount": "Energy","Omni": false},
+				{"WeaponMount": "AntiPersonnel","Omni": false}
+				{"WeaponMount": "Missile","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 10,

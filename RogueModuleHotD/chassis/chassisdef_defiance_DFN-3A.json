@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 6700000,
+        "Cost": 2700000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_warhammerHotD-001",
     "PrefabBase": "warhammer",
     "Tonnage": 75,
-    "InitialTonnage": 27.5,
+    "InitialTonnage": 7.5,
     "weightClass": "HEAVY",
     "BattleValue": 6577000,
     "Heatsinks": 0,

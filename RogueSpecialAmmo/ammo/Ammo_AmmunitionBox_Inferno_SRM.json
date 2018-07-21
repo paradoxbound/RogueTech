@@ -3,7 +3,7 @@
 	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Inferno" },
 
     "AmmoID" : "Ammunition_SRM",
-    "Capacity" : 50,
+    "Capacity" : 80,
     "Description" : {
         "Cost" : 25000,
         "Rarity" : 0,
@@ -13,7 +13,7 @@
         "UIName" : "SRM Inferno Ammo",
         "Id" : "Ammo_AmmunitionBox_Inferno_SRM",
         "Name" : "SRM Inferno Ammo",
-        "Details" : "This SRM Ammo bin contains Inferno rounds, changing all your SRM launchers fo fire Inferno missiles but deal little to no damage. Carries 50 shots. Provides a buff to all your Ammo of the same type.",
+        "Details" : "This SRM Ammo bin contains Inferno rounds, changing all your SRM launchers fo fire Inferno missiles but deal little to no damage. Carries 80 shots. Provides a buff to all your Ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "-80% Dmg&Stab|",

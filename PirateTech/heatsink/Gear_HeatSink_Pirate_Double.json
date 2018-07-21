@@ -1,5 +1,5 @@
 {
-    "DissipationCapacity" : 30,
+    "DissipationCapacity" : 20,
     "Description" : {
         "Cost" : 2999999,
         "Rarity" : 10,
@@ -12,13 +12,13 @@
         "Details" : "So Some gouzaizi thought he cracked how to make a Star League Grade Engine Shielding, if this doesn't blow up your mech when it breaks, it surely will boost the engine. There is a note etched into the main board that says ''Suck It Yang''.",
         "Icon" : "uixSvgIcon_equipment_Heatsink"
     },
-    "BonusValueA" : "- 30 Heat / Turn",
+    "BonusValueA" : "- 20 Heat / Turn",
     "BonusValueB" : "Unknown",
     "ComponentType" : "HeatSink",
     "ComponentSubType" : "Heatsink",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 4,
+    "InventorySize" : 2,
     "Tonnage" : -3,
     "AllowedLocations" : "CenterTorso",
     "DisallowedLocations" : "All",

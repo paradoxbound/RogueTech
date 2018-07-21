@@ -3,17 +3,17 @@
 	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Artemis" },
 
     "AmmoID" : "Ammunition_SRM",
-    "Capacity" : 40,
+    "Capacity" : 60,
     "Description" : {
         "Cost" : 60000,
         "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
-        "Model" : "SRM DF",
-        "UIName" : "SRM DF Ammo",
+        "Model" : "SRM Artemis",
+        "UIName" : "SRM Artemis Ammo",
         "Id" : "Ammo_AmmunitionBox_Artemis_SRM",
-        "Name" : "SRM DeadFire Ammo",
-        "Details" : "Artemis LRM's carry an advanced target and tracking system increasing its accuracy on the battlefield. Carries 40 shots. Provides a buff to all your Ammo of the same type.",
+        "Name" : "SRM Artemis Ammo",
+        "Details" : "Artemis SRM's carry an advanced target and tracking system increasing its accuracy on the battlefield. Carries 60 shots. Provides a buff to all your Ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "+1 Accuracy.",

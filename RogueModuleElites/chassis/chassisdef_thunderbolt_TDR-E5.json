@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_thunderboltBase-001",
     "PrefabBase": "thunderbolt",
     "Tonnage": 70,
-    "InitialTonnage": 23,
+    "InitialTonnage": 7,
     "weightClass": "HEAVY",
     "BattleValue": 6057000,
     "Heatsinks": 0,
@@ -64,7 +64,7 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
+				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
 				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
 				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
 				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
@@ -79,7 +79,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [
 				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
+				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
 				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
 				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
@@ -94,7 +94,7 @@
             "Hardpoints": [
 				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
 				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
+				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
 				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
@@ -120,7 +120,7 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
+				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
 				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
 				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
 				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}

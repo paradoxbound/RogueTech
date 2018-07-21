@@ -1,0 +1,11 @@
+{
+	"Name": "MechEngineer",
+	"Author": "The Community",
+	"Website": "https://github.com/CptMoore/MechEngineer",
+
+	"Enabled": true,
+	"DependsOn": ["CustomComponents"],
+	"DLL": "MechEngineer.dll",
+	"DLLEntryPoint": "MechEngineer.Control.Start",
+
+}

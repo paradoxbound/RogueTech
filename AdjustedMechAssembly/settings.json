@@ -2,7 +2,7 @@
 		"HeadRepaired" : false,
         "LeftArmRepaired" : false,
         "RightArmRepaired" : false,
-        "CentralTorsoRepaired" : false,
+        "CentralTorsoRepaired" : true,
         "LeftTorsoRepaired" : false,
         "RightTorsoRepaired" : false,
         "LeftLegRepaired" : false,

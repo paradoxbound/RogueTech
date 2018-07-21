@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_kintaroBase-001",
     "PrefabBase": "kintaro",
     "Tonnage": 55,
-    "InitialTonnage": 23.5,
+    "InitialTonnage": 5.5,
     "weightClass": "MEDIUM",
     "BattleValue": 5668000,
     "Heatsinks": 0,

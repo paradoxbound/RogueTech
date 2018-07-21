@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_catapultBase-001",
     "PrefabBase": "catapult",
     "Tonnage": 75,
-    "InitialTonnage": 24,
+    "InitialTonnage": 7.5,
     "weightClass": "HEAVY",
     "BattleValue": 8144000,
     "Heatsinks": 0,

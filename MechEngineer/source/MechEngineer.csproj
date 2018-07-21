@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{599517CB-3973-4D93-8DAF-47AEF02209CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MechEngineer</RootNamespace>
+    <AssemblyName>MechEngineer</AssemblyName>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>embedded</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>default</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>default</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\BattleTech_Data\Managed\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\BattleTech_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CustomComponents">
+      <HintPath>..\..\CustomComponents\CustomComponents.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\BattleTech_Data\Managed\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\..\BattleTech_Data\Managed\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>..\..\..\BattleTech_Data\Managed\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\BattleTech_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\BattleTech_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Features\AutoFix\ArmorHandler.cs" />
+    <Compile Include="Features\AutoFix\ChassisHandler.cs" />
+    <Compile Include="Features\AutoFix\StructureHandler.cs" />
+    <Compile Include="Features\DynamicSlots\MechDefBuilder.cs" />
+    <Compile Include="Features\DynamicSlots\Patches\MechLabPanel_ValidateLoadout_Patch1.cs" />
+    <Compile Include="Features\HardpointFix\limits\ChassisDef_RefreshHardpointData_Patch.cs" />
+    <Compile Include="Features\RefreshSlotElement\RefreshSlotElementHandler.cs" />
+    <Compile Include="Features\RefreshSlotElement\Patches\MechLabPanel_ValidateLoadout_Patch2.cs" />
+    <Compile Include="Features\SaveMechToFile\MechLabPanel_DoConfirmRefit_Patch.cs" />
+    <Compile Include="Helper\MechLabLocationWidgetAdapter.cs" />
+    <Compile Include="Features\HardpointFix\limits\MechLabLocationWidgetPatch.cs" />
+    <Compile Include="Features\HardpointFix\limits\MechLabLocationWidgetPatchHelper.cs" />
+    <Compile Include="Features\HardpointFix\sorting\MechDefAdapter.cs" />
+    <Compile Include="Features\HardpointFix\sorting\MechDefRefreshInventoryPatch.cs" />
+    <Compile Include="Features\HardpointFix\sorting\MechHardpointRulesPatch.cs" />
+    <Compile Include="Features\HardpointFix\sorting\MechInitGameRepPatch.cs" />
+    <Compile Include="Features\HardpointFix\sorting\MechRepresentationSimGamePatch.cs" />
+    <Compile Include="Features\HardpointFix\utils\HardpointCounter.cs" />
+    <Compile Include="Features\HardpointFix\utils\VHLUtils.cs" />
+    <Compile Include="Features\HardpointFix\utils\WeaponComponentPrefabCalculator.cs" />
+    <Compile Include="Helper\ChassisExtensions.cs" />
+    <Compile Include="Helper\MechDefExtensions.cs" />
+    <Compile Include="Features\WorkOrderCosts\Patches\SimGameState_CreateComponentRepairWorkOrder_Patch.cs" />
+    <Compile Include="Features\WorkOrderCosts\WorkOrderCosts.cs" />
+    <Compile Include="Features\WorkOrderCosts\WorkOrderCostsHandler.cs" />
+    <Compile Include="Features\WorkOrderCosts\WorkOrderEntry_MechLabAdapter.cs" />
+    <Compile Include="Helper\MechLabItemSlotElementAdapter.cs" />
+    <Compile Include="Features\CriticalHitStates\CriticalHitStatesHandler.cs" />
+    <Compile Include="Features\DynamicSlots\DynamicSlotHandler.cs" />
+    <Compile Include="Features\DynamicSlots\DynamicSlots.cs" />
+    <Compile Include="Features\DynamicSlots\MechDefSlots.cs" />
+    <Compile Include="DynModLibCopy\Adapter.cs" />
+    <Compile Include="DynModLibCopy\Mod.cs" />
+    <Compile Include="DynModLibCopy\ModSettings.cs" />
+    <Compile Include="Engine\EngineHeatSinkKit.cs" />
+    <Compile Include="Engine\EngineHeatSink.cs" />
+    <Compile Include="Engine\Helper\EngineExtensions.cs" />
+    <Compile Include="Engine\Helper\EngineSearcher.cs" />
+    <Compile Include="Engine\Engine.cs" />
+    <Compile Include="Engine\Handler\EngineCoreRefHandler.cs" />
+    <Compile Include="Engine\Handler\EngineHandler.cs" />
+    <Compile Include="Features\CriticalHitStates\CriticalHitStates.cs" />
+    <Compile Include="Features\Weights\Weights.cs" />
+    <Compile Include="Misc\FormulaEvaluator.cs" />
+    <Compile Include="Helper\IdentityHelper.cs" />
+    <Compile Include="Helper\AdjustCompDefTonnageHelper.cs" />
+    <Compile Include="Helper\AdjustCompDefInvSizeHelper.cs" />
+    <Compile Include="Helper\AutoFixMechDefHelper.cs" />
+    <Compile Include="Features\Weights\WeightsHandler.cs" />
+    <Compile Include="Misc\DictionarySerializer.cs" />
+    <Compile Include="Engine\StaticHandler\EngineCrits.cs" />
+    <Compile Include="Engine\StaticHandler\EnginePersistence.cs" />
+    <Compile Include="Features\AutoFix\LegUpgradeHandler.cs" />
+    <Compile Include="Features\RefreshSlotElement\Patches\MechLabPanel_CreateMechComponentItem_Patch.cs" />
+    <Compile Include="Features\AutoFix\Patches\WeaponDef_FromJSON_Patch.cs" />
+    <Compile Include="Engine\Patches\MechBayPanel_OnGotoMechLab_Patch.cs" />
+    <Compile Include="Engine\Patches\MechBayPanel_OnRepairMech_Patch.cs" />
+    <Compile Include="Misc\Global.cs" />
+    <Compile Include="Features\DamageManipulation\Patches\Mech_GetComponentInSlot_Patch.cs" />
+    <Compile Include="Features\AutoFix\CockpitHandler.cs" />
+    <Compile Include="Features\AutoFix\MechDefAutoFixFacade.cs" />
+    <Compile Include="Engine\StaticHandler\EnginePersistanceItemStat.cs" />
+    <Compile Include="Engine\Patches\MechLabInventoryWidget_OnAddItem_Patch.cs" />
+    <Compile Include="Misc\Interfaces.cs" />
+    <Compile Include="Control.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Misc\MechLabSlotPatches.cs" />
+    <Compile Include="Engine\Patches\MechLabLocationWidget_OnMechLabDrop_Patch.cs" />
+    <Compile Include="Engine\EngineCoreRef.cs" />
+    <Compile Include="Features\InvalidInventory\Patches\MechLabPanel_GetCantSaveErrorString_Patch.cs" />
+    <Compile Include="Features\InvalidInventory\Patches\MechLabPanel_GetNonFieldableErrorString_Patch.cs" />
+    <Compile Include="Engine\Patches\SimGameStateML_RepairComponentPatch.cs" />
+    <Compile Include="Engine\Patches\SimGameState_MoveWorkOrderItemsToQueue_Patch.cs" />
+    <Compile Include="Features\AutoFix\Patches\SimGameState_InitCompanyStats_Patch.cs" />
+    <Compile Include="Features\AutoFix\Patches\SimGameState_Rehydrate_Patch.cs" />
+    <Compile Include="Engine\Patches\SimGameState_StripMech_Patch.cs" />
+    <Compile Include="Engine\Patches\SimGameState_ReturnWorkOrderItemsToInventory_Patch.cs" />
+    <Compile Include="Engine\Patches\SimGameStateML_InstallComponentPatch.cs" />
+    <Compile Include="Features\AutoFix\Patches\SkirmishMechBayPanel_LanceConfiguratorDataLoaded_Patch.cs" />
+    <Compile Include="Features\AutoFix\Patches\SkirmishSettings_Beta_LanceConfiguratorDataLoaded_Patch.cs" />
+    <Compile Include="Engine\BTLoadFix\SkirmishSettings_Beta_LoadLanceConfiguratorData_Patch.cs" />
+    <Compile Include="Engine\BTLoadFix\SkirmishMechBayPanel_RequestResources_Patch.cs" />
+    <Compile Include="Features\WorkOrderCosts\Patches\SimGameState_CreateComponentInstallWorkOrder_Patch.cs" />
+    <Compile Include="Features\AutoFix\Patches\SimGameState_RespondToDefsLoadComplete_Patch.cs" />
+    <Compile Include="Engine\Patches\StatTooltipData_SetHeatData_Patch.cs" />
+    <Compile Include="Engine\Patches\StatTooltipData_SetMovementData_Patch.cs" />
+    <Compile Include="Helper\TooltipPrefab_EquipmentAdapter.cs" />
+    <Compile Include="Features\Weights\Patches\TooltipPrefab_EquipmentSetData_Patch.cs" />
+    <Compile Include="Engine\StaticHandler\EngineMisc.cs" />
+    <Compile Include="Features\Weights\Patches\MechLabMechInfoWidget_CalculateTonnage_Patch.cs" />
+    <Compile Include="Features\Weights\Patches\MechStatisticsRules_CalculateTonnage_Patch.cs" />
+    <Compile Include="Engine\Patches\Mech_GetHeatSinkDissipation_Patch.cs" />
+    <Compile Include="Features\DamageManipulation\Patches\MechComponent_DamageComponent_Patch.cs" />
+    <Compile Include="Engine\Patches\Mech_InitEffectStats_Patch.cs" />
+    <Compile Include="Engine\Patches\MechLabInventoryWidget_RefreshJumpJetOptions_Patch.cs" />
+    <Compile Include="Engine\Patches\MechLabMechInfoWidget_GetTotalHardpoints_Patch.cs" />
+    <Compile Include="Engine\Patches\MechStatisticsRules_CalculateMovementStat_Patch.cs" />
+    <Compile Include="Engine\StaticHandler\EngineHeat.cs" />
+    <Compile Include="Engine\BTLoadFix\SimGameState_RequestDataManagerResources_Patch.cs" />
+    <Compile Include="Features\AutoFix\GyroHandler.cs" />
+    <Compile Include="Features\ShutdownInjuryProtection\Patches\MechShutdownSequence_CheckForHeatDamage_Patch.cs" />
+    <Compile Include="Features\AutoFix\Patches\UpgradeDef_FromJSON_Patch.cs" />
+    <Compile Include="Features\AutoFix\Patches\ChassisDef_FromJSON_Patch.cs" />
+    <Compile Include="Engine\EngineCoreDef.cs" />
+    <Compile Include="Engine\Helper\EngineMovement.cs" />
+    <Compile Include="MechEngineerSettings.cs" />
+    <Compile Include="Engine\Patches\MechStatisticsRules_CalculateHeatEfficiencyStat_Patch.cs" />
+    <Compile Include="Misc\Extensions.cs" />
+    <Compile Include="Misc\ValueChange.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\mod.json" />
+    <None Include="..\README.md" />
+    <None Include="..\Settings.json" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>REM copy /Y "$(TargetDir)$(TargetName).dll" "$(SolutionDir)..\$(TargetName).dll"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

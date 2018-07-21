@@ -104,6 +104,59 @@
     ],
     "inventory": [
         {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_armorslots_standard",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        },	
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_structureslots_endocomposite",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engineslots_std_center",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },	
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_285",
+            "SimGameUID": "/ihstype=Gear_HeatSink_Generic_Standard&Gear_HeatSink_Generic_Standard=0",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }	
+        {
             "MountedLocation": "Head",
             "ComponentDefID": "Gear_TTS_AdvancedTC",
             "SimGameUID": "",
@@ -259,6 +312,17 @@
         },
         {
             "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Improved-Bank",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
+        {
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
@@ -284,39 +348,6 @@
             "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-I",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_AdvancedMaterials3",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_AdvancedMaterials3",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },	
-        {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_AdvancedMaterials3",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",

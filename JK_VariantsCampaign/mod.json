@@ -9,7 +9,7 @@
     "Website": "https://www.nexusmods.com/battletech/mods/18",
     "Contact": "message me at Nexus or Paradox sites",
 	
-				"DependsOn": [ "CustomComponents"],	
+				"DependsOn": [ "CustomComponents", "MechEngineer"],	
 	
 	"Manifest": [
 		{ "Type": "AmmunitionBoxDef", "Path": "ammunitionBox"},
@@ -17,7 +17,6 @@
 		{ "Type": "MechDef", "Path": "mech" },
 		{ "Type": "MovementCapabilitiesDef", "Path": "movement" },
 		{ "Type": "ShopDef", "Path": "shops" },
-		{ "Type": "UpgradeDef", "Path": "upgrades" },
 		{ "Type": "VehicleDef", "Path": "vehicle" },
 		{ "Type": "VehicleChassisDef", "Path": "vehicleChassis" },
 		{ "Type": "WeaponDef", "Path": "weapon" }

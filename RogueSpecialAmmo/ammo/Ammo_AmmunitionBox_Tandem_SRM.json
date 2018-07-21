@@ -11,7 +11,7 @@
         "Manufacturer" : "Generic",
         "Model" : "SRM Tandem",
         "UIName" : "SRM TC Ammo",
-        "Id" : "Ammo_AmmunitionBox_Artemis_SRM",
+        "Id" : "Ammo_AmmunitionBox_Tandem_SRM",
         "Name" : "SRM TandemCharge Ammo",
         "Details" : "Tandem Charge SRM carry a double payload increasing their chance to destroy vital components at cost of raw damage. Carries 60 shots. Provides a buff to all your Ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"

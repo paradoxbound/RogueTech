@@ -1,6 +1,6 @@
 {
     "Description" : {
-        "Cost" : 36820000,
+        "Cost" : 6820000,
         "Rarity" : 10,
         "Purchasable" : true,
         "Manufacturer" : null,
@@ -63,6 +63,17 @@
             "hasPrefabName" : false
         },
         {
+            "MountedLocation" : "LeftArm",
+            "ComponentDefID" : "Weapon_Laser_LargeLaserER_0-STOCK",
+            "SimGameUID" : "",
+            "ComponentDefType" : "Weapon",
+            "HardpointSlot" : 0,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        },		
+        {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_SRM_SRM6_STREAK",
             "SimGameUID": null,
@@ -75,6 +86,17 @@
         },
         {
             "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_SRM_SRM6_STREAK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
+        {
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Artemis_SRM",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
@@ -83,76 +105,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
-        {
-            "MountedLocation" : "LeftTorso",
-            "ComponentDefID" : "Gear_HeatSink_Generic_Double",
-            "SimGameUID" : "",
-            "ComponentDefType" : "HeatSink",
-            "HardpointSlot" : -1,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
-        },
+        },			
         {
             "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_HeatSink_Generic_Double",
-            "SimGameUID" : "",
-            "ComponentDefType" : "HeatSink",
-            "HardpointSlot" : -1,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
-        },
-        {
-            "MountedLocation" : "RightTorso",
-            "ComponentDefID" : "Gear_HeatSink_Generic_Double",
-            "SimGameUID" : "",
-            "ComponentDefType" : "HeatSink",
-            "HardpointSlot" : -1,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_AdvancedMaterials3",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_AdvancedMaterials3",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_AdvancedMaterials3",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },		
-        {
-            "MountedLocation" : "CenterTorso",
-            "ComponentDefID" : "Gear_Supercharger",
+            "ComponentDefID" : "Gear_MASC",
             "SimGameUID" : "",
             "ComponentDefType" : "Upgrade",
             "HardpointSlot" : -1,
@@ -162,32 +118,76 @@
             "hasPrefabName" : false
         },
         {
-            "MountedLocation" : "CenterTorso",
-            "ComponentDefID" : "Weapon_MachineGun_MachineGun_1-HEAVY",
+            "MountedLocation" : "RightTorso",
+            "ComponentDefID" : "Gear_HeatSink_Generic_Double",
             "SimGameUID" : "",
-            "ComponentDefType" : "Weapon",
-            "HardpointSlot" : 0,
+            "ComponentDefType" : "HeatSink",
+            "HardpointSlot" : -1,
             "GUID" : null,
             "DamageLevel" : "Functional",
             "prefabName" : null,
             "hasPrefabName" : false
-        },
+        },		
         {
             "MountedLocation" : "CenterTorso",
-            "ComponentDefID" : "Weapon_MachineGun_MachineGun_1-HEAVY",
+            "ComponentDefID" : "emod_structureslots_endosteel",
             "SimGameUID" : "",
-            "ComponentDefType" : "Weapon",
-            "HardpointSlot" : 0,
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
             "GUID" : null,
             "DamageLevel" : "Functional",
             "prefabName" : null,
             "hasPrefabName" : false
+        },		
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "emod_engineslots_size3",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "emod_engineslots_size3",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engineslots_xl_center",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },	
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_380",
+            "SimGameUID": "/ihstype=Gear_HeatSink_Generic_Double&Gear_HeatSink_Generic_Double=5",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         },
         {
             "MountedLocation" : "CenterTorso",
-            "ComponentDefID" : "Ammo_AmmunitionBox_Tracer_MG",
+            "ComponentDefID" : "Gear_PartialWing_Generic_Assault95",
             "SimGameUID" : "",
-            "ComponentDefType" : "AmmunitionBox",
+            "ComponentDefType" : "JumpJet",
             "HardpointSlot" : -1,
             "GUID" : null,
             "DamageLevel" : "Functional",
@@ -221,28 +221,6 @@
             "ComponentDefID" : "Ammo_AmmunitionBox_Generic_GAUSS",
             "SimGameUID" : "",
             "ComponentDefType" : "AmmunitionBox",
-            "HardpointSlot" : -1,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
-        },
-        {
-            "MountedLocation" : "LeftLeg",
-            "ComponentDefID" : "Gear_JumpJet_Improved_Assault",
-            "SimGameUID" : "",
-            "ComponentDefType" : "JumpJet",
-            "HardpointSlot" : -1,
-            "GUID" : null,
-            "DamageLevel" : "Functional",
-            "prefabName" : null,
-            "hasPrefabName" : false
-        },
-        {
-            "MountedLocation" : "RightLeg",
-            "ComponentDefID" : "Gear_JumpJet_Improved_Assault",
-            "SimGameUID" : "",
-            "ComponentDefType" : "JumpJet",
             "HardpointSlot" : -1,
             "GUID" : null,
             "DamageLevel" : "Functional",

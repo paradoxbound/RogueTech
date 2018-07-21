@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_victorBase-001",
     "PrefabBase": "victor",
     "Tonnage": 80,
-    "InitialTonnage": 37.5,
+    "InitialTonnage": 8,
     "weightClass": "ASSAULT",
     "BattleValue": 9924000,
     "Heatsinks": 0,

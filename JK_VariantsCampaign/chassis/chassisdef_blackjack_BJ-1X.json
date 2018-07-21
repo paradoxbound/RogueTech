@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_blackjackBase-001",
     "PrefabBase": "blackjack",
     "Tonnage": 45,
-    "InitialTonnage": 20.5,
+    "InitialTonnage": 4.5,
     "weightClass": "MEDIUM",
     "BattleValue": 4067000,
     "Heatsinks": 0,

@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_griffinBase-001",
     "PrefabBase": "griffin",
     "Tonnage": 55,
-    "InitialTonnage": 22,
+    "InitialTonnage": 5.5,
     "weightClass": "MEDIUM",
     "BattleValue": 96688000,
     "Heatsinks": 0,

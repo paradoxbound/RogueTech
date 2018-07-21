@@ -8,10 +8,9 @@
 	"DLL": "CustomComponents.dll",
 	"DLLEntryPoint": "CustomComponents.Control.Init",
 	"Settings" : {
-		"LogLevel": "Error",
+		"LogLevel": "Debug",
 		"Categories": [ 
-		{  "Name": "Spikes",  "displayName": "Melee Spikes",  "MaxEquiped":  "10", "AutoReplace": "false"},
-		{  "Name": "Armour",  "displayName": "Armour System",  "MaxEquiped":  "10", "AutoReplace": "false", "AllowMixTags": "false"},		
+		{  "Name": "Spikes",  "displayName": "Melee Spikes",  "MaxEquiped":  "10", "AutoReplace": "false"},		
 		{  "Name": "Supercharger",  "displayName": "Supercharger",  "MaxEquiped":  "1", "AutoReplace": "false", "Forbidden": ["MASC"]},
 		{  "Name": "TSM",  "displayName": "Triple Strength Myomer",  "MaxEquiped":  "6", "AutoReplace": "true","AddMaximumReached": "Mech already has {1} of {0} installed", "Forbidden": ["MASC"]},
 		{  "Name": "MASC",  "displayName": "MASC",  "MaxEquiped":  "1", "AutoReplace": "false", "Forbidden": ["TSM","Supercharger"]},		

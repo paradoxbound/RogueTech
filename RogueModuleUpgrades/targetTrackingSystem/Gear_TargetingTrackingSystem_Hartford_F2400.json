@@ -18,7 +18,7 @@
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
     "BonusValueA" : "+ 2 Direct-Fire Missile Acc.",
-    "BonusValueB" : "- 2 Indirect-Fire Missile Acc.",
+    "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",

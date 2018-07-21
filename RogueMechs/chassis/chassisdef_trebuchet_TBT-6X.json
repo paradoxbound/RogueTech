@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_trebuchetBase-001",
     "PrefabBase": "trebuchet",
     "Tonnage": 55,
-    "InitialTonnage": 20,
+    "InitialTonnage": 5.5,
     "weightClass": "MEDIUM",
     "BattleValue": 5665000,
     "Heatsinks": 0,

@@ -8,7 +8,7 @@
     "Website": "",
     "Contact": "fakeemail@fakeemail.com",
 	
-				"DependsOn": [ "CustomComponents"],
+				"DependsOn": [ "CustomComponents", "MechEngineer"],
 
     "Manifest": [
 		{ "Type": "UpgradeDef", "Path": "upgrade" },

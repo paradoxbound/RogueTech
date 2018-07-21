@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_quickdrawBase-001",
     "PrefabBase": "quickdraw",
     "Tonnage": 60,
-    "InitialTonnage": 31,
+    "InitialTonnage": 6,
     "weightClass": "HEAVY",
     "BattleValue": 6922000,
     "Heatsinks": 0,

@@ -3,7 +3,7 @@
     "MinTonnage" : 90,
     "MaxTonnage" : 100,
     "Description" : {
-        "Cost" : 90000,
+        "Cost" : 270000,
         "Rarity" : 3,
         "Purchasable" : true,
         "Manufacturer" : "Generic",

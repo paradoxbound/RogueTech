@@ -1,0 +1,254 @@
+{
+
+    "SaveMechDefOnMechLabConfirm" : false,
+
+    "AllowMixingHeatSinkTypes" : true,
+    "FractionalAccounting" : false,
+    "AutoFixMechDefSkip" : [
+        "mechdef_EXPA"
+    ],
+	
+    "AutoFixChassisDefSkip" : [
+         "chassisdef_EXPA"
+    ],	
+	
+
+    "AllowMixingHeatSinkTypes" : true,
+    "FractionalAccounting" : false,
+    "AutoFixChassisDefInitialTonnage" : false,
+    "AutoFixChassisDefInitialToTotalTonnageFactor" : 0.1,
+    "AutoFixWeaponDefSlots" : false,	
+    "Categories" : [
+        {
+            "Name" : "Armor",
+            "DisplayName" : "Armor",
+            "Unique" : true,
+            "UniqueForLocation" : false,
+            "Required" : true,
+            "displayName" : "Armor",
+            "AllowMixTags" : true,
+            "AutoReplace" : true,
+            "MaxEquiped" : 1,
+            "MaxEquipedPerLocation" : -1,
+            "MinEquiped" : 1,
+            "DefaultCustoms" : {
+                "Sorter" : {
+                    "Order" : 0
+                },
+                "Replace" : {
+                    "ComponentDefId" : "emod_armorslots_standard"
+                }
+            },
+            "AddAlreadyEquiped" : "{0} already installed on mech",
+            "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
+            "AddMaximumReached" : "Mech already have {1} of {0} installed",
+            "AddMaximumLocationReached" : "Mech already have {1} of {0} installed at {2}",
+            "AddMixed" : "Mech can have only one type of {0}",
+            "ValidateRequred" : "MISSING {0}: This mech must mount a {1}",
+            "ValidateMinimum" : "MISSING {0}: This mech must mount at least {2} of {1}",
+            "ValidateMixed" : "WRONG {0}: Mech can have only one type of {1}",
+            "ValidateUnique" : "EXCESS {0}: This mech can't mount more then one {1}",
+            "ValidateMaximum" : "EXCESS {0}: This mech can't mount more then {2} of {1}",
+            "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
+            "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
+            "ValidateForbidden" : "Cannot use {0} and {1} together"
+        },
+        {
+            "Name" : "Structure",
+            "DisplayName" : "Structure",
+            "Unique" : true,
+            "UniqueForLocation" : false,
+            "Required" : true,
+            "displayName" : "Structure",
+            "AllowMixTags" : true,
+            "AutoReplace" : true,
+            "MaxEquiped" : 1,
+            "MaxEquipedPerLocation" : -1,
+            "MinEquiped" : 1,
+            "DefaultCustoms" : {
+                "Sorter" : {
+                    "Order" : 1
+                },
+                "Replace" : {
+                    "ComponentDefId" : "emod_structureslots_standard"
+                }
+            },
+            "AddAlreadyEquiped" : "{0} already installed on mech",
+            "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
+            "AddMaximumReached" : "Mech already have {1} of {0} installed",
+            "AddMaximumLocationReached" : "Mech already have {1} of {0} installed at {2}",
+            "AddMixed" : "Mech can have only one type of {0}",
+            "ValidateRequred" : "MISSING {0}: This mech must mount a {1}",
+            "ValidateMinimum" : "MISSING {0}: This mech must mount at least {2} of {1}",
+            "ValidateMixed" : "WRONG {0}: Mech can have only one type of {1}",
+            "ValidateUnique" : "EXCESS {0}: This mech can't mount more then one {1}",
+            "ValidateMaximum" : "EXCESS {0}: This mech can't mount more then {2} of {1}",
+            "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
+            "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
+            "ValidateForbidden" : "Cannot use {0} and {1} together"
+        },
+        {
+            "Name" : "Cockpit",
+            "DisplayName" : "Cockpit",
+            "Unique" : true,
+            "UniqueForLocation" : false,
+            "Required" : true,
+            "displayName" : "Cockpit",
+            "AllowMixTags" : true,
+            "AutoReplace" : true,
+            "MaxEquiped" : 1,
+            "MaxEquipedPerLocation" : -1,
+            "MinEquiped" : 1,
+            "DefaultCustoms" : {
+                "Sorter" : {
+                    "Order" : 0
+                },
+                "Replace" : {
+                    "ComponentDefId" : "Gear_Cockpit_Generic_Standard"
+                }
+            },
+            "AddAlreadyEquiped" : "{0} already installed on mech",
+            "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
+            "AddMaximumReached" : "Mech already have {1} of {0} installed",
+            "AddMaximumLocationReached" : "Mech already have {1} of {0} installed at {2}",
+            "AddMixed" : "Mech can have only one type of {0}",
+            "ValidateRequred" : "MISSING {0}: This mech must mount a {1}",
+            "ValidateMinimum" : "MISSING {0}: This mech must mount at least {2} of {1}",
+            "ValidateMixed" : "WRONG {0}: Mech can have only one type of {1}",
+            "ValidateUnique" : "EXCESS {0}: This mech can't mount more then one {1}",
+            "ValidateMaximum" : "EXCESS {0}: This mech can't mount more then {2} of {1}",
+            "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
+            "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
+            "ValidateForbidden" : "Cannot use {0} and {1} together"
+        },
+        {
+            "Name" : "Gyro",
+            "DisplayName" : "Gyro",
+            "Unique" : true,
+            "UniqueForLocation" : false,
+            "Required" : true,
+            "displayName" : "Gyro",
+            "AllowMixTags" : true,
+            "AutoReplace" : true,
+            "MaxEquiped" : 1,
+            "MaxEquipedPerLocation" : -1,
+            "MinEquiped" : 1,
+            "DefaultCustoms" : {
+                "Sorter" : {
+                    "Order" : 2
+                },
+                "Replace" : {
+                    "ComponentDefId" : "Gear_Gyro_Generic_Standard"
+                }
+            },
+            "AddAlreadyEquiped" : "{0} already installed on mech",
+            "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
+            "AddMaximumReached" : "Mech already have {1} of {0} installed",
+            "AddMaximumLocationReached" : "Mech already have {1} of {0} installed at {2}",
+            "AddMixed" : "Mech can have only one type of {0}",
+            "ValidateRequred" : "MISSING {0}: This mech must mount a {1}",
+            "ValidateMinimum" : "MISSING {0}: This mech must mount at least {2} of {1}",
+            "ValidateMixed" : "WRONG {0}: Mech can have only one type of {1}",
+            "ValidateUnique" : "EXCESS {0}: This mech can't mount more then one {1}",
+            "ValidateMaximum" : "EXCESS {0}: This mech can't mount more then {2} of {1}",
+            "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
+            "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
+            "ValidateForbidden" : "Cannot use {0} and {1} together"
+        },
+        {
+            "Name" : "EngineShield",
+            "DisplayName" : "Engine Shielding",
+            "Unique" : true,
+            "UniqueForLocation" : false,
+            "Required" : true,
+            "displayName" : "Engine Shielding",
+            "AllowMixTags" : true,
+            "AutoReplace" : true,
+            "MaxEquiped" : 1,
+            "MaxEquipedPerLocation" : -1,
+            "MinEquiped" : 1,
+            "DefaultCustoms" : {
+                "Sorter" : {
+                    "Order" : 3
+                },
+                "Replace" : {
+                    "ComponentDefId" : "emod_engineslots_std_center"
+                }
+            },
+            "AddAlreadyEquiped" : "{0} already installed on mech",
+            "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
+            "AddMaximumReached" : "Mech already have {1} of {0} installed",
+            "AddMaximumLocationReached" : "Mech already have {1} of {0} installed at {2}",
+            "AddMixed" : "Mech can have only one type of {0}",
+            "ValidateRequred" : "MISSING {0}: This mech must mount a {1}",
+            "ValidateMinimum" : "MISSING {0}: This mech must mount at least {2} of {1}",
+            "ValidateMixed" : "WRONG {0}: Mech can have only one type of {1}",
+            "ValidateUnique" : "EXCESS {0}: This mech can't mount more then one {1}",
+            "ValidateMaximum" : "EXCESS {0}: This mech can't mount more then {2} of {1}",
+            "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
+            "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
+            "ValidateForbidden" : "Cannot use {0} and {1} together"
+        },
+        {
+            "Name" : "EngineCore",
+            "DisplayName" : "Engine Core",
+            "Unique" : true,
+            "UniqueForLocation" : false,
+            "Required" : true,
+            "displayName" : "Engine Core",
+            "AllowMixTags" : true,
+            "AutoReplace" : true,
+            "MaxEquiped" : 1,
+            "MaxEquipedPerLocation" : -1,
+            "MinEquiped" : 1,
+            "DefaultCustoms" : {
+                "Sorter" : {
+                    "Order" : 4
+                },
+                "Replace" : {
+                    "ComponentDefId" : "emod_engine_dummy"
+                }
+            },
+            "AddAlreadyEquiped" : "{0} already installed on mech",
+            "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
+            "AddMaximumReached" : "Mech already have {1} of {0} installed",
+            "AddMaximumLocationReached" : "Mech already have {1} of {0} installed at {2}",
+            "AddMixed" : "Mech can have only one type of {0}",
+            "ValidateRequred" : "MISSING {0}: This mech must mount a {1}",
+            "ValidateMinimum" : "MISSING {0}: This mech must mount at least {2} of {1}",
+            "ValidateMixed" : "WRONG {0}: Mech can have only one type of {1}",
+            "ValidateUnique" : "EXCESS {0}: This mech can't mount more then one {1}",
+            "ValidateMaximum" : "EXCESS {0}: This mech can't mount more then {2} of {1}",
+            "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
+            "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
+            "ValidateForbidden" : "Cannot use {0} and {1} together"
+        },
+        {
+            "Name" : "LegUpgrade",
+            "DisplayName" : "Leg Upgrade",
+            "Unique" : true,
+            "UniqueForLocation" : false,
+            "Required" : false,
+            "displayName" : "Leg Upgrade",
+            "AllowMixTags" : true,
+            "AutoReplace" : true,
+            "MaxEquiped" : -1,
+            "MaxEquipedPerLocation" : 1,
+            "MinEquiped" : 0,
+            "AddAlreadyEquiped" : "{0} already installed on mech",
+            "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
+            "AddMaximumReached" : "Mech already have {1} of {0} installed",
+            "AddMaximumLocationReached" : "Mech already have {1} of {0} installed at {2}",
+            "AddMixed" : "Mech can have only one type of {0}",
+            "ValidateRequred" : "MISSING {0}: This mech must mount a {1}",
+            "ValidateMinimum" : "MISSING {0}: This mech must mount at least {2} of {1}",
+            "ValidateMixed" : "WRONG {0}: Mech can have only one type of {1}",
+            "ValidateUnique" : "EXCESS {0}: This mech can't mount more then one {1}",
+            "ValidateMaximum" : "EXCESS {0}: This mech can't mount more then {2} of {1}",
+            "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
+            "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
+            "ValidateForbidden" : "Cannot use {0} and {1} together"
+        }
+    ],		
+	"logLevel": "Debug"
+}

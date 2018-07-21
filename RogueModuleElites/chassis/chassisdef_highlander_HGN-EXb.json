@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 29800000,
+        "Cost": 6800000,
         "Rarity": 10,
         "Purchasable": false,
         "Manufacturer": "",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_highlander_SLDFBase-001",
     "PrefabBase": "highlander",
     "Tonnage": 95,
-    "InitialTonnage": 28,
+    "InitialTonnage": 9.5,
     "weightClass": "ASSAULT",
     "BattleValue": 9642000,
     "Heatsinks": 0,

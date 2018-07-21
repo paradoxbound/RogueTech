@@ -14,7 +14,7 @@
     "ChassisID": "chassisdef_atlas_AS7-D-DC",
     "HeraldryID": null,
     "Description": {
-        "Cost": 12200000,
+        "Cost": 2200000,
         "Rarity": 5,
         "Purchasable": false,
         "Manufacturer": null,
@@ -321,6 +321,39 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_300",
+            "SimGameUID": "/ihstype=Gear_HeatSink_Generic_Standard&Gear_HeatSink_Generic_Standard=0",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engineslots_std_center",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
     ]
 }

@@ -1,0 +1,426 @@
+{
+	"Custom": {
+		"Color": {
+			"UIColor": "Gold"
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "1",
+				"CBillCost": "[[Chassis.Tonnage]] * 2"
+			}
+		},
+		"Weights": {
+			"ArmorFactor": 2
+		},		
+		"Category" : { 
+			"CategoryID" : "Armor" 
+		},
+		"Flags" : { "flags" : [ "ignore_damage", "autorepair" ] }			
+	},
+
+  
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 60000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "NAIS",
+        "Model" : "Hardened",
+        "UIName" : "Hardened Armor",
+        "Id" : "Gear_armorslots_Hardened",
+        "Name" : "Hardened Armor",
+        "Details" : "Hardened Armor is a thicker armor type that uses multiple overlapping plates to provide additional protection against enemy fire. Though capable of diverting more damage than standard armor, the increased number of armor plates and their lack of flexibility makes any unit employing it more difficult to pilot, and can affect the speed as well. In fact, Hardened Armor is so heavy that it cannot be mounted on hovercraft, VTOLs, or WiGE vehicles.",
+        "Icon" : "uixSvgIcon_action_end"
+    },
+    "BonusValueA" : "X2 Armour Protection|",
+    "BonusValueB" : "X2 Armour Weight|-20% Movement",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "Hardened-Head",
+                "Name" : "Hardened Armor",
+                "Details" : "Doubled Armour Protection.",
+                "Icon" : "uixSvgIcon_action_end"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "Head.Armor",
+                "operation" : "Float_Multiply",
+                "modValue" : "2",
+                "modType" : "System.Single"
+            },
+        },	
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "Hardened-CT",
+                "Name" : "Hardened Armor",
+                "Details" : "Doubled Armour Protection.",
+                "Icon" : "uixSvgIcon_action_end"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "CenterTorso.Armor",
+                "operation" : "Float_Multiply",
+                "modValue" : "2",
+                "modType" : "System.Single"
+            },
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "Hardened-LT",
+                "Name" : "Hardened Armor",
+                "Details" : "Doubled Armour Protection.",
+                "Icon" : "uixSvgIcon_action_end"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "LeftTorso.Armor",
+                "operation" : "Float_Multiply",
+                "modValue" : "2",
+                "modType" : "System.Single"
+            },
+        },	
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "Hardened-RT",
+                "Name" : "Hardened Armor",
+                "Details" : "Doubled Armour Protection.",
+                "Icon" : "uixSvgIcon_action_end"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "RightTorso.Armor",
+                "operation" : "Float_Multiply",
+                "modValue" : "2",
+                "modType" : "System.Single"
+            },
+        },	
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "Hardened-LA",
+                "Name" : "Hardened Armor",
+                "Details" : "Doubled Armour Protection.",
+                "Icon" : "uixSvgIcon_action_end"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "LeftArm.Armor",
+                "operation" : "Float_Multiply",
+                "modValue" : "2",
+                "modType" : "System.Single"
+            },
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "Hardened-RA",
+                "Name" : "Hardened Armor",
+                "Details" : "Doubled Armour Protection.",
+                "Icon" : "uixSvgIcon_action_end"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "RightArm.Armor",
+                "operation" : "Float_Multiply",
+                "modValue" : "2",
+                "modType" : "System.Single"
+            },
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "Hardened-LL",
+                "Name" : "Hardened Armor",
+                "Details" : "Doubled Armour Protection.",
+                "Icon" : "uixSvgIcon_action_end"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "LeftLeg.Armor",
+                "operation" : "Float_Multiply",
+                "modValue" : "2",
+                "modType" : "System.Single"
+            },
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "Hardened-RL",
+                "Name" : "Hardened Armor",
+                "Details" : "Doubled Armour Protection.",
+                "Icon" : "uixSvgIcon_action_end"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "RightLeg.Armor",
+                "operation" : "Float_Multiply",
+                "modValue" : "2",
+                "modType" : "System.Single"
+            },
+        },
+			{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+                "showInStatusPanel" : false				
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "HardenedPenaltyRun",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_run_n_gun"
+			},
+			"statisticData" : 
+			{
+				"statName" : "RunSpeed",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.8",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		},
+			{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+                "showInStatusPanel" : false				
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "HardenedPenaltyWalk",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_run_n_gun"
+			},
+			"statisticData" : 
+			{
+				"statName" : "WalkSpeed",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.8",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		}		
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

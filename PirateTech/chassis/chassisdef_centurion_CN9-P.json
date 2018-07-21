@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_centurionBase-001",
     "PrefabBase": "centurion",
     "Tonnage": 50,
-    "InitialTonnage": 18.5,
+    "InitialTonnage": 5,
     "weightClass": "MEDIUM",
     "BattleValue": 4124000,
     "Heatsinks": 0,
@@ -77,7 +77,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -90,14 +90,7 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
+
             ],
             "Tonnage": 0,
             "InventorySlots": 4,
@@ -107,7 +100,12 @@
         },
         {
             "Location": "RightTorso",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }			
+			],
             "Tonnage": 0,
             "InventorySlots": 10,
             "MaxArmor": 120,

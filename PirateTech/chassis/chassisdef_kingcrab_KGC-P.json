@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 31900000,
+        "Cost": 6900000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
     "PrefabBase": "kingcrab",
     "Tonnage": 100,
-    "InitialTonnage": 29,
+    "InitialTonnage": 10,
     "weightClass": "ASSAULT",
     "BattleValue": 20206000,
     "Heatsinks": 0,

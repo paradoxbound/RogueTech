@@ -225,8 +225,8 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
-            "SimGameUID": null,
+            "ComponentDefID": "emod_engine_300",
+            "SimGameUID": "/ihstype=Gear_HeatSink_Generic_Standard&Gear_HeatSink_Generic_Standard=2",
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "GUID": null,
@@ -236,7 +236,18 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "ComponentDefID": "Gear_Gyro_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engineslots_std_center",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -245,6 +256,17 @@
             "prefabName": null,
             "hasPrefabName": false
         },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",

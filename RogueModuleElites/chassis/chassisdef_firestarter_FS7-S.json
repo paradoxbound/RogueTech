@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_firestarterBase-001",
     "PrefabBase": "firestarter",
     "Tonnage": 35,
-    "InitialTonnage": 16.5,
+    "InitialTonnage": 3.5,
     "weightClass": "LIGHT",
     "BattleValue": 3749000,
     "Heatsinks": 0,

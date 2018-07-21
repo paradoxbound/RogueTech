@@ -1,10 +1,19 @@
 {
+
+	"Custom": {
+		"EngineHeatSink": {
+			"FullName": "Double Heat Sinks",
+			"Abbreviation": "DHS",
+			"Tag": "DHS",
+		}
+	},
+
     "DissipationCapacity" : 6,
     "Description" : {
-        "Cost" : 999999,
+        "Cost" : 500000,
         "Rarity" : 10,
         "Purchasable" : false,
-        "Manufacturer" : "Generic",
+        "Manufacturer" : "SLDF",
         "Model" : "Double",
         "UIName" : "Heat Sink (D)",
         "Id" : "Gear_HeatSink_Generic_Double",

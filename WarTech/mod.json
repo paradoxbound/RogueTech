@@ -1,0 +1,12 @@
+{
+    "Name": "WarTech",
+    "Enabled": true,
+
+    "Version": "1.0-Beta2",
+    "Description": "Enables Factions to conquer Systems",
+    "Author": "Morphyum",
+    "Website": "https://github.com/Morphyum/WarTech",
+    "Contact": "",
+	"Settings": {},
+	"DLL": "WarTech.dll",
+}

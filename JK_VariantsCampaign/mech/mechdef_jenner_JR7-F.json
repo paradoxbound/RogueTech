@@ -15,7 +15,7 @@
     "ChassisID": "chassisdef_jenner_JR7-F",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3960000,
+        "Cost": 560000,
         "Rarity": 15,
         "Purchasable": true,
         "Manufacturer": null,
@@ -103,6 +103,61 @@
         }
     ],
     "inventory": [
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_245",
+            "SimGameUID": "/ihstype=Gear_HeatSink_Generic_Standard&Gear_HeatSink_Generic_Standard=0",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engineslots_std_center",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },	
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",

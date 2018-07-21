@@ -1,16 +1,17 @@
 {
-    "Name": "RogueTechBasicPanicSystem",
+    "Name": "PanicSystem",
 	
 	"Enabled" : true,
 
-    "Version": "2.0",
+    "Version": "2.1",
     "Description": "Adds basic panic system, based on mpstark's Punchin' Out.",
     "Author": "RealityMachina, forked from mpstark's work - Modified by donZappo and gnivler",
     "Website": "https://github.com/RealityMachina/PunchinOut",
 
-    "DLL": "RogueTechPanicSystem.dll",
+    "DLL": "PanicSystem.dll",
     
     "Settings": {
+		"Debug": false,
 		"PlayerCharacterAlwaysResists": false,
 		"PlayerTeamCanPanic": true,
 		"EnemiesCanPanic": true,
@@ -35,7 +36,7 @@
         
 		"MinimumArmourDamagePercentageRequired": 10,
 		"AtLeastOneChanceToPanic": true,
-		"AtLeastOneChanceToPanicPercentage" : 10,
+		"AtLeastOneChanceToPanicPercentage" : 25,
 		"AlwaysGatedChanges": false,
 		"MaxPanicResistTotal": 100,
 		"LosingLimbAlwaysPanics": false,
@@ -47,28 +48,28 @@
 		"PanickedToHitModifier": -2,
 
 		"MinimumHealthToAlwaysEjectRoll": 1,
-		"MaxEjectChance": 25,
+		"MaxEjectChance": 30,
 		"EjectChanceMultiplier" : 1,
 		"GutsTenAlwaysResists": false,
 		"ComboTenAlwaysResists": false,
 		"TacticsTenAlwaysResists": false,
 		"KnockedDownCannotEject": false,
 			
-		"ConsiderEjectingWithNoWeaps": true,
+		"ConsiderEjectingWithNoWeaps": false,
 		"ConsiderEjectingWhenAlone" : false,
 
-		"BaseEjectionResist": 30,
+		"BaseEjectionResist": 25,
 		"GutsEjectionResistPerPoint": 2,
 		"TacticsEjectionResistPerPoint": 0,
 		
 		"UnsteadyModifier": 10,
 		"PilotHealthMaxModifier": 15,
 		"HeadDamageMaxModifier": 15,
-		"CTDamageMaxModifier": 35,
-		"SideTorsoInternalDamageMaxModifier": 25,
+		"CTDamageMaxModifier": 45,
+		"SideTorsoInternalDamageMaxModifier": 20,
 		"LeggedMaxModifier": 10,
-		"NextShotLikeThatCouldKill": 20,
-		"WeaponlessModifier": 15,
+		"NextShotLikeThatCouldKill": 30,
+		"WeaponlessModifier": 20,
 		"AloneModifier": 10
     }
 }

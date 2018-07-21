@@ -1,0 +1,92 @@
+{
+	"Custom": {
+		"EngineHeatSinkKit": {
+			"HeatSinkDefId": "Gear_HeatSink_Generic_Double"
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "0",
+				"CBillCost": "0"
+			},
+			"Repair": {
+				"TechCost": "0",
+				"CBillCost": "0"
+			},
+			"RepairDestroyed": {
+				"TechCost": "0",
+				"CBillCost": "0"
+			},
+			"Remove": {
+				"TechCost": "0",
+				"CBillCost": "0"
+			},
+			"RemoveDestroyed": {
+				"TechCost": "0",
+				"CBillCost": "0"
+			}
+		},
+		"CriticalHitStates": {
+			"MaxStates" : 1,
+			"DeathMethod" : "GyroDestroyed",
+			"HitEffects" : [
+				{
+					"State" : 1,
+					"StatusEffect" : {
+						"durationData" : {
+						},
+						"targetingData" : {
+							"effectTargetsCreator" : true,
+							"effectTriggerType" : "Passive",
+							"effectTargetType" : "Creator"
+						},
+						"effectType" : "StatisticEffect",
+						"Description" : {
+							"Id" : "StatusEffect-Test12",
+							"Name" : "Engine Crit (1)",
+							"Details" : "Engine was hit, additional 15 Heat / Turn",
+							"Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+						},
+						"nature" : "Debuff",
+						"statisticData" : {
+							"statName" : "HeatSinkCapacity",
+							"operation" : "Int_Subtract",
+							"modValue" : "15",
+							"modType" : "System.Int32"
+						}
+					}
+				}
+			]
+		}
+	},
+    "DissipationCapacity" : 0,
+    "Description" : {
+        "Cost" : 6000000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Lostech",
+        "Model" : "Engine Kit",
+        "UIName" : "Heat Sink Kit (D)",
+        "Id" : "emod_kit_dhs",
+        "Name" : "DHS Engine Kit",
+        "Details" : "Converts an SHS engine to DHS. These specialized kits are used to replace the internal heat sinks of an engine.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

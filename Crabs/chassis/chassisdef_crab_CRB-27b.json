@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
     "PrefabBase": "kingcrab",
     "Tonnage": 50,
-    "InitialTonnage": 25,
+    "InitialTonnage": 5,
     "weightClass": "MEDIUM",
     "BattleValue": 10206000,
     "Heatsinks": 0,

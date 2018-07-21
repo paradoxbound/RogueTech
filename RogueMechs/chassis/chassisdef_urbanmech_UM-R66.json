@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_urbanmechBase-001",
     "PrefabBase": "urbanmech",
     "Tonnage": 35,
-    "InitialTonnage": 8,
+    "InitialTonnage": 3.5,
     "weightClass": "LIGHT",
     "BattleValue": 3892000,
     "Heatsinks": 0,

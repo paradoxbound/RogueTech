@@ -12,7 +12,7 @@
     "ChassisID": "chassisdef_jagermech_JM7-F",
     "HeraldryID": null,
     "Description": {
-        "Cost": 8910000,
+        "Cost": 910000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
@@ -101,6 +101,50 @@
     ],
     "inventory": [
         {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_255",
+            "SimGameUID": "/ihstype=Gear_HeatSink_Generic_Double&Gear_HeatSink_Generic_Double=0",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engineslots_std_center",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Ultralight",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }	
+        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Autocannon_RAC5_0-Mydron",
             "SimGameUID": null,
@@ -178,17 +222,6 @@
             "hasPrefabName": false
         },		
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Gyro_Ultralight",
-            "SimGameUID": "",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "SimGameUID": "",
@@ -222,7 +255,7 @@
             "hasPrefabName": false
         },			
         {
-            "MountedLocation": "LeftLeg",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "SimGameUID": "",
             "ComponentDefType": "HeatSink",
@@ -233,7 +266,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightLeg",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "SimGameUID": "",
             "ComponentDefType": "HeatSink",

@@ -14,7 +14,7 @@
     "ChassisID": "chassisdef_highlander_HGN-733C",
     "HeraldryID": null,
     "Description": {
-        "Cost": 10760000,
+        "Cost": 3760000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -102,6 +102,68 @@
         }
     ],
     "inventory": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_armorslots_standard",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        },
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_structureslots_standard",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        },		
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_270",
+            "SimGameUID": "/ihstype=Gear_HeatSink_Generic_Standard&Gear_HeatSink_Generic_Standard=0",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engineslots_std_center",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",

@@ -14,7 +14,7 @@
     "ChassisID": "chassisdef_atlas_AS-GSZ",
     "HeraldryID": null,
     "Description": {
-        "Cost": 32600000,
+        "Cost": 900000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "",
@@ -49,10 +49,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 160,
+            "CurrentArmor": 190,
             "CurrentRearArmor": 50,
             "CurrentInternalStructure": 105,
-            "AssignedArmor": 160,
+            "AssignedArmor": 190,
             "AssignedRearArmor": 50
         },
         {
@@ -67,10 +67,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 160,
+            "CurrentArmor": 190,
             "CurrentRearArmor": 50,
             "CurrentInternalStructure": 105,
-            "AssignedArmor": 160,
+            "AssignedArmor": 190,
             "AssignedRearArmor": 50
         },
         {
@@ -104,28 +104,6 @@
     "inventory": [
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },		
-        {
-            "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
@@ -137,28 +115,6 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },			
-        {
-            "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
@@ -168,28 +124,6 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },		
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
@@ -203,6 +137,61 @@
         },
         {
             "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },				
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },					
+        {
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
@@ -225,14 +214,92 @@
         },			
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
             "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },			
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "emod_engineslots_size3",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "emod_engineslots_size3",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engineslots_xl_center",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },	
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_200",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "emod_structureslots_endocomposite",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },	
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }		
+		
     ]
 }

@@ -1,0 +1,20 @@
+{
+"AttackPercentagePerPlayerMission" : 10,
+"WeightOfNeighbours" : 1,
+"priorityContactPayPercentage": 2,
+"FatiquePerLostAttack" : 0.5,
+"FatiqueLostPerMonth" : 3,
+"FatiqueRecoveredPerDay" : 0.5,
+"InlandPlanetDifficulty" : 0,
+"BorderPlanetDifficulty" : 2,
+"minMonthDuration" : 1,
+"maxMonthDuration" : -1,
+"excludedFactionNames" : [
+		"MercenaryReviewBoard",
+		"ComStar",
+		"Locals",
+		"AuriganPirates",
+		"NoFaction"
+],
+"debug" : false
+}

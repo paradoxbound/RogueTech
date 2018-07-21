@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_atlasBase-001",
     "PrefabBase": "atlas",
     "Tonnage": 100,
-    "InitialTonnage": 13,
+    "InitialTonnage": 10,
     "weightClass": "ASSAULT",
     "BattleValue": 20581000,
     "Heatsinks": 0,

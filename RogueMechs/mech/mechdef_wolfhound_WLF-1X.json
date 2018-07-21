@@ -124,7 +124,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
@@ -135,7 +135,7 @@
             "hasPrefabName": false
         },		
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "Head",
             "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
@@ -168,7 +168,7 @@
             "hasPrefabName": false
         },		
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Reflective_Coating",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
@@ -179,8 +179,41 @@
             "hasPrefabName": false
         },		
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Reflective_Coating",
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_210",
+            "SimGameUID": "/ihstype=Gear_HeatSink_Generic_Double&Gear_HeatSink_Generic_Double=0",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engineslots_std_center",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Generic_Standard",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -191,20 +224,9 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_Reflective_Coating",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },		
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Reflective_Coating",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
+            "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
@@ -212,70 +234,15 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_Reflective_Coating",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },		
-        {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Reflective_Coating",
+            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
             "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
+            "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_Reflective_Coating",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },		
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Reflective_Coating",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_Reflective_Coating",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },		
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Reflective_Coating",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },		
+        },			
     ]
 }
