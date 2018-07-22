@@ -20,11 +20,11 @@
         "UIName" : "Stealth Armor",
         "Id" : "emod_armorslots_stealth",
         "Name" : "Stealth Armor",
-        "Details" : "Developed by the Capellan Confederation, Stealth Armor is a modern day equivalent of the Star League era Null Signature System.",
+        "Details" : "Developed by the Capellan Confederation, Stealth Armor is a modern day equivalent of the Star League era Null Signature System. Reserves 6 slots",
         "Icon" : "uixSvgIcon_action_end"
     },
     "BonusValueA" : "+1 Difficulty to Hit|-50% Visbility|",
-    "BonusValueB" : "+10 Heat/turn",
+    "BonusValueB" : "+5 Heat/turn",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
@@ -54,7 +54,7 @@
                 "range" : 0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
+                "showInTargetPreview" : true,
                 "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
@@ -156,8 +156,8 @@
                 "range" : 0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
-                "showInTargetPreview" : true,
-                "showInStatusPanel" : true
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
             },
             "effectType" : "StatisticEffect",
             "Description" : {
@@ -172,7 +172,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "EndMoveHeat",
                 "operation" : "Int_Add",
-                "modValue" : "10",
+                "modValue" : "5",
                 "modType" : "System.Int32",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",

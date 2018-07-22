@@ -1,0 +1,45 @@
+{
+    "ID": "shopdef_Engine_Rogue_MRB_600",
+    "RequirementTags": {
+        "items": [      "rep_mrb_600"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+      {
+         "ID" : "emod_engineslots_xxl_center",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "emod_engineslots_light_center",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_armorslots_Hardened",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "emod_armorslots_stealth",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+  
+    ],
+    "Specials": [
+  	
+	
+	]
+}

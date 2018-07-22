@@ -31,7 +31,7 @@
         "UIName" : "Reactive Plating",
         "Id" : "Gear_Reactive_Plating",
         "Name" : "Reactive Plating",
-        "Details" : "Reactive Armor (sometimes called Blazer Armor) type of specialized armor that uses a series of microscopic explosions to reduce the effects of explosive weapons fire like missiles, artillery, and mortars. Effect wont stack beyond 10 pieces.",
+        "Details" : "Reactive Armor Plating (sometimes called Blazer Armor) is a type of specialized armor that uses a series of microscopic explosions to reduce the effects of explosive weapons fire like missiles, artillery, and mortars. Reserves 10 slots.",
         "Icon" : "uixSvgIcon_mwFury"
     },
     "BonusValueA" : "+20% Kinetic Protection|",

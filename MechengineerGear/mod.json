@@ -24,11 +24,6 @@
 			"ShouldMergeJSON": false
 		},
 		{
-			"Type": "ShopDef",
-			"Path": "data/basic/shops/",
-			"ShouldMergeJSON": false
-		},
-		{
 			"Type": "UpgradeDef",
 			"Path": "data/exotics/internals/",
 			"ShouldMergeJSON": false
@@ -47,11 +42,6 @@
 			"Type": "HeatSinkDef",
 			"Path": "data/exotics/engine_parts/",
 			"ShouldMergeJSON": false
-		},
-		{
-			"Type": "ShopDef",
-			"Path": "data/exotics/shops_test/",
-			"ShouldMergeJSON": false
-		},
+		}
 	]
 }

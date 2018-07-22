@@ -20,8 +20,8 @@
         "Details" : "The Compact Fusion Engine is mechanically similar to a Fusion Engine but uses much denser radiation shielding. The Compact fusion engine is 50% heavier for the same performance, but occupies less space in the center torso and is less likely to receive a critical hit.",
         "Icon" : "uixSvgIcon_equipment_Heatsink"
     },
-    "BonusValueA" : "- 0.25 x ETon",
-    "BonusValueB" : "- 4 Slots",
+    "BonusValueA" : "+ 50% Engine Weight",
+    "BonusValueB" : "- 3 Slots Required",
     "ComponentType" : "HeatSink",
     "ComponentSubType" : "Heatsink",
     "PrefabIdentifier" : "",

@@ -1,0 +1,53 @@
+# War Mechanics
+
+## Starting or joining a war
+- Factions have a chance each month to start or join a war. 
+- This chanced is based on their current war exhaustion. 
+- The more exhaustion they have the less likely they start or join a war.
+- If they decide to enter war state they pick a random faction that is neighbouring them.
+- If this faction is already in a war they join on the opponent side.
+- If this faction is not at war yet they start a new war.
+
+## Ending a war
+- Factions have a chance each month to leave a war.
+- This chanced is based on their current war exhaustion. 
+- The more exhaustion they have the more likely they leave a war.
+- If all faction on one side left the war, it ends.
+
+## Resources
+- Each month Factions get rewarded offensive and defensive resources based on the tags of the planets they hold.
+
+Offence:
+- planet_industry_poor = -1
+- planet_industry_mining = 1
+- planet_industry_rich = 2
+- planet_industry_manufacturing = 3
+- planet_industry_research = 4
+- planet_other_starleague = 5
+
+Defence:
+- planet_pop_none = -1
+- planet_pop_small = 1
+- planet_pop_medium = 2
+- planet_industry_aquaculture = 3
+- planet_industry_agriculture = 3
+- planet_pop_large = 4
+- planet_other_hub = 5
+- planet_other_megacity = 6
+- planet_other_capital = 7
+
+## Attacking a planet
+- Each day Factions start an attack on one or more planets they see as valuable.
+- A valuable planet is determined by the resources it has + how many own planets border him.
+- Both factions take up to 100 resources from their regarding pool(offence or defence) and make a random roll on that.
+- If the attacker wins he shifts the control percentage by the number he rolled higher then the defender.
+- If a player does a mission for a faction on a planet he shifts the control by the percentgae set in the settings for that faction.
+- Factions that like the player will offer priority missions going to the current important planets.
+
+## Switching owner
+- When a faction has more control over a planet then its current owner and also more then the percentage set in the settings the planet will flip over to that faction.
+
+
+## Difficulty
+- Planets on the border have a higher difficulty then the ones inland
+- Only border systems send you against another faction, inland contracts only let you deal with lcoals and pirates.

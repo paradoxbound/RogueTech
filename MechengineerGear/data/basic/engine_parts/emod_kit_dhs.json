@@ -25,42 +25,10 @@
 				"CBillCost": "0"
 			}
 		},
-		"CriticalHitStates": {
-			"MaxStates" : 1,
-			"DeathMethod" : "GyroDestroyed",
-			"HitEffects" : [
-				{
-					"State" : 1,
-					"StatusEffect" : {
-						"durationData" : {
-						},
-						"targetingData" : {
-							"effectTargetsCreator" : true,
-							"effectTriggerType" : "Passive",
-							"effectTargetType" : "Creator"
-						},
-						"effectType" : "StatisticEffect",
-						"Description" : {
-							"Id" : "StatusEffect-Test12",
-							"Name" : "Engine Crit (1)",
-							"Details" : "Engine was hit, additional 15 Heat / Turn",
-							"Icon" : "uixSvgIcon_equipment_ThermalExchanger"
-						},
-						"nature" : "Debuff",
-						"statisticData" : {
-							"statName" : "HeatSinkCapacity",
-							"operation" : "Int_Subtract",
-							"modValue" : "15",
-							"modType" : "System.Int32"
-						}
-					}
-				}
-			]
-		}
 	},
     "DissipationCapacity" : 0,
     "Description" : {
-        "Cost" : 6000000,
+        "Cost" : 5000000,
         "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Lostech",
@@ -68,7 +36,7 @@
         "UIName" : "Heat Sink Kit (D)",
         "Id" : "emod_kit_dhs",
         "Name" : "DHS Engine Kit",
-        "Details" : "Converts an SHS engine to DHS. These specialized kits are used to replace the internal heat sinks of an engine.",
+        "Details" : "Converts an SHS engine to DHS. These specialized kits are used to replace the internal heat sinks of an engine. Once used the cannot be retrieved",
         "Icon" : "uixSvgIcon_equipment_Heatsink"
     },
     "BonusValueA" : "",

@@ -1,0 +1,50 @@
+{
+    "ID": "shopdef_Engine_Rogue_MRB_350",
+    "RequirementTags": {
+        "items": [      "rep_mrb_350"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+      {
+         "ID" : "emod_engineslots_compact_center",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "emod_kit_dhs",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+      {
+         "ID" : "emod_armorslots_ferrosfibrous",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "emod_armorslots_lightferrosfibrous",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+      {
+         "ID" : "emod_structureslots_endosteel",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+    ],
+    "Specials": [
+  	
+	
+	]
+}

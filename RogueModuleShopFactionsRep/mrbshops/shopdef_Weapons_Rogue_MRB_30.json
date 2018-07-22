@@ -1,0 +1,130 @@
+{
+    "ID": "shopdef_Weapons_Rogue_MRB_30",
+    "RequirementTags": {
+        "items": [      "rep_mrb_250"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+		{
+			 "ID" : "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch",
+			 "Type" : "Weapon",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+		{
+			 "ID" : "Weapon_HandyVac_Industrial_Mining_1_MiningDrill",
+			 "Type" : "Weapon",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+		{
+			 "ID" : "Weapon_HandyVac_Industrial_Agro_1_Chainsaw",
+			 "Type" : "Weapon",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},		
+        {
+            "ID": "Gear_Combat_Shield_Small",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+		
+        },	  
+	  {
+         "ID" : "Gear_Myomer_TSM",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+	 
+      },
+        {
+            "ID": "Gear_Solaris_Spikes",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+		
+        },		
+      {
+         "ID" : "Ammo_AmmunitionBox_Tandem_SRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+      {
+         "ID" : "Ammo_AmmunitionBox_ER_LRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_Tracer_MG",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_AP_AC2",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_AP_AC5",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_AP_AC10",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_AP_AC20",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+        {
+            "ID": "Gear_TargetingTrackingSystem_Hartford_F1800",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+		
+        },	
+	  {
+         "ID" : "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+	 
+      },
+	  {
+         "ID" : "Gear_TargetingTrackingSystem_Kallon_A-C-1000",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+	 
+      },
+      {
+         "ID" : "Gear_HeatSink_Generic_Thermal-Exchanger-I",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      }	  
+ 
+  
+    ],
+    "Specials": [
+  	
+	
+	]
+}

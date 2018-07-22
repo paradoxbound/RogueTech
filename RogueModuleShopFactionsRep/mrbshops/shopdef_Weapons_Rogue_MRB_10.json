@@ -1,0 +1,104 @@
+{
+    "ID": "shopdef_Weapons_Rogue_MRB_10",
+    "RequirementTags": {
+        "items": [      "rep_mrb_100"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+		{
+			 "ID" : "Gear_Actuator_HandyVac_Industrial_CargoGrip",
+			 "Type" : "Upgrade",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+		{
+			 "ID" : "Weapon_HandyVac_Industrial_Agro_0_Cultivator",
+			 "Type" : "Weapon",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+		{
+			 "ID" : "Weapon_HandyVac_Industrial_Construction_0_ArcWelder",
+			 "Type" : "Weapon",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+		{
+			 "ID" : "Gear_Actuator_HandyVac_Industrial_ExcavatorClaw",
+			 "Type" : "Upgrade",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+		{
+			 "ID" : "Weapon_HandyVac_Industrial_Mining_0_Jackhammer",
+			 "Type" : "Weapon",
+			 "DiscountModifier" : 1.0,
+			 "Count" : 0
+		},
+      {
+         "ID" : "Ammo_AmmunitionBox_Precision_AC2",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_Precision_AC5",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_Precision_AC10",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_Precision_AC20",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+      {
+         "ID" : "Ammo_AmmunitionBox_Artemis_LRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_Artemis_SRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_Hotloaded_LRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+      {
+         "ID" : "Ammo_AmmunitionBox_Light_GAUSS",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_HeatSink_Generic_Standard-Bank",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      }	  
+    ],
+    "Specials": [
+  	
+	
+	]
+}

@@ -1,0 +1,45 @@
+{
+    "ID": "shopdef_Engine_Rogue_MRB_5",
+    "RequirementTags": {
+        "items": [      "rep_mrb_5"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+      {
+         "ID" : "Gear_Cockpit_Generic_Small",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Reactive_Plating",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_Reflective_Coating",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+      {
+         "ID" : "emod_structureslots_endocomposite",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+  
+    ],
+    "Specials": [
+  	
+	
+	]
+}

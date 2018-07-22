@@ -9,6 +9,9 @@
 "BorderPlanetDifficulty" : 2,
 "minMonthDuration" : 1,
 "maxMonthDuration" : -1,
+"attackercolor" : "#ff0000ff",
+"defendercolor" : "#008000ff",
+"planetcolor" : "#00ffffff",
 "excludedFactionNames" : [
 		"MercenaryReviewBoard",
 		"ComStar",

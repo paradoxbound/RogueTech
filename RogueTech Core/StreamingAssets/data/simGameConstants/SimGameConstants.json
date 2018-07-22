@@ -191,13 +191,13 @@
 		"EmployerRepBadFaithMod" : -2,
 		"StartingReputation" : 0,
 		
-		"LoathedMaxContractDifficulty": -4,
+		"LoathedMaxContractDifficulty": -3,
         "HatedMaxContractDifficulty":-2,
-        "DislikedMaxContractDifficulty": 0,
-        "IndifferentMaxContractDifficulty": 0,
-        "LikedMaxContractDifficulty": 2,
-        "FriendlyMaxContractDifficulty": 4,
-        "AlliedMaxContractDifficulty": 6, 
+        "DislikedMaxContractDifficulty": 1,
+        "IndifferentMaxContractDifficulty": 2,
+        "LikedMaxContractDifficulty": 4,
+        "FriendlyMaxContractDifficulty": 6,
+        "AlliedMaxContractDifficulty": 8, 
 		
 		"MissionsForFirstBreadcrumb" : 0,		
 

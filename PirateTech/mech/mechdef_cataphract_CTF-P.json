@@ -49,11 +49,11 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
-            "CurrentArmor": 90,
-            "CurrentRearArmor": 33,
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 35,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 90,
-            "AssignedRearArmor": 33
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 35
         },
         {
             "DamageLevel": "Functional",
@@ -67,11 +67,11 @@
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
-            "CurrentArmor": 90,
-            "CurrentRearArmor": 33,
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 35,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 90,
-            "AssignedRearArmor": 33
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 35
         },
         {
             "DamageLevel": "Functional",
@@ -102,6 +102,57 @@
         }
     ],
     "inventory": [
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_armorslots_standard",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        },
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_structureslots_standard",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        },		
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engine_270",
+            "SimGameUID": "/ihstype=Gear_HeatSink_Generic_Standard&Gear_HeatSink_Generic_Standard=0",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Generic_Standard",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_engineslots_std_center",
+            "SimGameUID": null,
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },	
         {
             "MountedLocation": "Head",
             "ComponentDefID": "Gear_Cockpit_Spiked_Helmet",

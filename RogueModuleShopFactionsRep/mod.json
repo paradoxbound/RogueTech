@@ -9,7 +9,9 @@
     "Contact": "fakeemail@fakeemail.com",
 
     "Manifest": [		
-        { "Type": "ShopDef", "Path": "shops" },		
+        { "Type": "ShopDef", "Path": "shops" },	
+        { "Type": "ShopDef", "Path": "engineshops" },
+        { "Type": "ShopDef", "Path": "mrbshops" },		
     ],
 	
 	

@@ -1,0 +1,40 @@
+{
+    "ID": "shopdef_Engine_Rogue_MRB_150",
+    "RequirementTags": {
+        "items": [      "rep_mrb_150"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+      {
+         "ID" : "emod_engineslots_xl_center",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "emod_armorslots_ferrosfibrous",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_armorslots_Composite",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+ 
+  
+    ],
+    "Specials": [
+  	
+	
+	]
+}
