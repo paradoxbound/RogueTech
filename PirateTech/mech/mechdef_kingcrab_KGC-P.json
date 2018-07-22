@@ -43,7 +43,7 @@
             "Location": "LeftArm",
             "CurrentArmor": 200,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 105,
+            "CurrentInternalStructure": 85,
             "AssignedArmor": 200,
             "AssignedRearArmor": -1
         },
@@ -52,7 +52,7 @@
             "Location": "LeftTorso",
             "CurrentArmor": 240,
             "CurrentRearArmor": 115,
-            "CurrentInternalStructure": 125,
+            "CurrentInternalStructure": 105,
             "AssignedArmor": 240,
             "AssignedRearArmor": 115
         },
@@ -61,7 +61,7 @@
             "Location": "CenterTorso",
             "CurrentArmor": 340,
             "CurrentRearArmor": 165,
-            "CurrentInternalStructure": 175,
+            "CurrentInternalStructure": 155,
             "AssignedArmor": 340,
             "AssignedRearArmor": 165
         },
@@ -70,7 +70,7 @@
             "Location": "RightTorso",
             "CurrentArmor": 240,
             "CurrentRearArmor": 115,
-            "CurrentInternalStructure": 125,
+            "CurrentInternalStructure": 105,
             "AssignedArmor": 240,
             "AssignedRearArmor": 115
         },
@@ -79,7 +79,7 @@
             "Location": "RightArm",
             "CurrentArmor": 200,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 105,
+            "CurrentInternalStructure": 85,
             "AssignedArmor": 200,
             "AssignedRearArmor": -1
         },
@@ -88,7 +88,7 @@
             "Location": "LeftLeg",
             "CurrentArmor": 240,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 135,
+            "CurrentInternalStructure": 105,
             "AssignedArmor": 240,
             "AssignedRearArmor": -1
         },
@@ -97,7 +97,7 @@
             "Location": "RightLeg",
             "CurrentArmor": 240,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 135,
+            "CurrentInternalStructure": 105,
             "AssignedArmor": 240,
             "AssignedRearArmor": -1
         }

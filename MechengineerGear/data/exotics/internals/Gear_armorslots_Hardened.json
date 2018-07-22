@@ -78,7 +78,7 @@
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
+                "effectsPersistAfterDestruction" : true,
                 "statName" : "Head.Armor",
                 "operation" : "Float_Multiply",
                 "modValue" : "2",
@@ -117,7 +117,7 @@
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
+                "effectsPersistAfterDestruction" : true,
                 "statName" : "CenterTorso.Armor",
                 "operation" : "Float_Multiply",
                 "modValue" : "2",
@@ -156,7 +156,7 @@
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
+                "effectsPersistAfterDestruction" : true,
                 "statName" : "LeftTorso.Armor",
                 "operation" : "Float_Multiply",
                 "modValue" : "2",
@@ -195,7 +195,7 @@
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
+                "effectsPersistAfterDestruction" : true,
                 "statName" : "RightTorso.Armor",
                 "operation" : "Float_Multiply",
                 "modValue" : "2",
@@ -234,7 +234,7 @@
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
+                "effectsPersistAfterDestruction" : true,
                 "statName" : "LeftArm.Armor",
                 "operation" : "Float_Multiply",
                 "modValue" : "2",
@@ -273,7 +273,7 @@
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
+                "effectsPersistAfterDestruction" : true,
                 "statName" : "RightArm.Armor",
                 "operation" : "Float_Multiply",
                 "modValue" : "2",
@@ -312,7 +312,7 @@
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
+                "effectsPersistAfterDestruction" : true,
                 "statName" : "LeftLeg.Armor",
                 "operation" : "Float_Multiply",
                 "modValue" : "2",
@@ -351,7 +351,7 @@
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
+                "effectsPersistAfterDestruction" : true,
                 "statName" : "RightLeg.Armor",
                 "operation" : "Float_Multiply",
                 "modValue" : "2",

@@ -25,7 +25,7 @@
          "Count" : 0
       },
       {
-         "ID" : "Gear_armorslots_Composite",
+         "ID" : "emod_structureslots_endocomposite",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0

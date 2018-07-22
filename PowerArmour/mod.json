@@ -15,7 +15,9 @@
         { "Type": "ChassisDef", "Path": "chassis" },
         { "Type": "MovementCapabilitiesDef", "Path": "move" },
 	    { "Type": "WeaponDef", "Path": "weapons" },	
-        { "Type": "JumpJetDef", "Path": "jumpjet" }		
+        { "Type": "JumpJetDef", "Path": "jumpjet" },
+        { "Type": "HeatSinkDef", "Path": "engine" },
+	    { "Type": "UpgradeDef", "Path": "internals" },		
     ],
 
 		

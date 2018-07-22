@@ -61,9 +61,9 @@
             "Hardpoints": [{"WeaponMount": "AntiPersonnel","Omni": false}],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 80,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 40
+            "InternalStructure": 50
         },
         {
             "Location": "LeftTorso",

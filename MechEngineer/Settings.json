@@ -4,14 +4,34 @@
 
     "AllowMixingHeatSinkTypes" : true,
     "FractionalAccounting" : false,
-    "AutoFixMechDefSkip" : [
-        "mechdef_EXPA"
-    ],
 	
-    "AutoFixChassisDefSkip" : [
-         "chassisdef_EXPA"
-    ],	
+    "AutoFixGyroSlotChange" : null,
 	
+	    "AutoFixMechDefEngine" : false,
+		
+    "MWOStyleDontAlowDropIfNotEnoughSpaceForDynamics" : true,		
+	
+    "AutoFixCockpitCategorizer" : {
+        "Prefix" : "Gear_Cockpit_",
+        "AllowedLocations" : "Head",
+        "ComponentType" : "Upgrade",
+        "CategoryId" : "Cockpit",
+        "AutoAddCategoryIdIfMissing" : true
+    },
+    "AutoFixMechDefCockpitAdder" : {
+        "ComponentDefId" : "Gear_Cockpit_Generic_Standard",
+        "ChassisLocation" : "Head",
+        "ComponentType" : "Upgrade"
+    },
+    "AutoFixCockpitTonnageChange" : null,
+	
+    "AutoFixLegUpgradesCategorizer" : {
+        "AllowedLocations" : "Legs",
+        "ComponentType" : "Upgrade",
+        "CategoryId" : "LegUpgrade",
+        "AutoAddCategoryIdIfMissing" : true
+    },
+    "AutoFixLegUpgradesSlotChange" : null,	
 
     "AllowMixingHeatSinkTypes" : true,
     "FractionalAccounting" : false,

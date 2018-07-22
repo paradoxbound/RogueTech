@@ -269,13 +269,13 @@
 				},
 				{
 					"ID": "diff_start_basic",
-					"Name": "Random",
+					"Name": "Wolfhound",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_centurion_TARGETDUMMY"
+							"ConstantValue": "mechdef_wolfhound_WLF-1X"
 						}
 					]
 				},				

@@ -11,6 +11,8 @@
     "DLL": "PanicSystem.dll",
     
     "Settings": {
+	
+		"QuirksEnabled" = false,
 		"Debug": false,
 		"PlayerCharacterAlwaysResists": false,
 		"PlayerTeamCanPanic": true,

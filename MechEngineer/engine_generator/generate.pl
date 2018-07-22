@@ -22,6 +22,7 @@ my %stockratings;
 {
 	my @ratings = get_lines_from_file("stock_std_ratings.txt");
 	push(@ratings, get_lines_from_file("lore_ratings.txt"));
+	push(@ratings, get_lines_from_file("special_ratings.txt"));
 	@stockratings{@ratings} = ();
 }
 
@@ -59,10 +60,8 @@ while (my $line = <$info>)  {
 	my $generate_engine_sub = sub {
 		my $prefix = shift;
 		my $engine_tonnage = shift;
-		my $engine_cost_per_rating = shift;
 		
-		my $engine_cost = $engine_cost_per_rating * $rating; # we assume 75 ton mech
-		$engine_cost = $engine_cost / 2; # this is only the cost of the core, shielding is an extra component
+		my $engine_cost = int($rating * $rating * $rating * $rating / 10000 / 10000) * 10000;
 		
 		my $engine = {
 			ID => "${prefix}_${rating_string}",
@@ -81,7 +80,7 @@ while (my $line = <$info>)  {
 		push(@$engines, $engine);
 	};
 	
-	$generate_engine_sub->("emod_engine", $cols[5], 5000);
+	$generate_engine_sub->("emod_engine", $cols[5]);
 }
 
 close $info;

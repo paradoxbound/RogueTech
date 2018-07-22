@@ -3,8 +3,7 @@
 	"Custom": {
 		"Category" : { 
 			"CategoryID" : "Gyro" 
-		},
-		"Replace" : { "ComponentDefId" : "Gear_Gyro_Generic_Standard" },		
+		},		
 	},
 
     "StatName" : null,

@@ -35,6 +35,12 @@
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
+      },
+      {
+         "ID" : "Gear_structureslots_Composite",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
       },	  
   
     ],

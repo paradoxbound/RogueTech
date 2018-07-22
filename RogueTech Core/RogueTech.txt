@@ -67,7 +67,7 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
-0.988 Preview 2fixes1
+0.988 Preview 3
 
 IF! not patching from a preview
 
@@ -86,9 +86,21 @@ Extented information removed due to incompatability
 
 LessHeadinjuries replaced with FewerHeadinjuries
 
-Panic system fixed
-
 Aim updated
+
+Fix2
+Reverted to mpstark randomstarter to prevent new game crash
+
+Preview3
+Couple mech's fixed, centurion p shield arm now baked into chassis
+updated panic system
+
+P3Fixes1
+2 New Power Armour
+Removed dynlib and excess files from mechengineer
+Wartech updated
+
+
 
 0.987Patch 4 HF2
 Wartechupdate

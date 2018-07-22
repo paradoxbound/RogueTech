@@ -1,6 +1,6 @@
 {
   "Name": "BurstBallisticAmmoChecker",
-  "Enabled": true,
+  "Enabled": false,
 
   "Version": "0.0.1",
 

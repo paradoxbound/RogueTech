@@ -14,7 +14,7 @@
         "Details" : "Jump jet and electronics suite for the Epxerimental power armour.",
         "Icon" : "uixSvgIcon_action_jump"
     },
-    "BonusValueA" : "250% Jump Jet Dist.",
+    "BonusValueA" : "350% Jump Jet Dist.",
     "BonusValueB" : "Bulwark/Stealth",
     "ComponentType" : "JumpJet",
     "ComponentSubType" : "Functionality",
@@ -140,7 +140,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "JumpDistanceMultiplier",
                 "operation" : "Float_Multiply",
-                "modValue" : "2.5",
+                "modValue" : "3.5",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",

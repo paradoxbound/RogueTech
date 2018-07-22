@@ -9,8 +9,8 @@
 "BorderPlanetDifficulty" : 2,
 "minMonthDuration" : 1,
 "maxMonthDuration" : -1,
-"attackercolor" : "#ff0000ff",
-"defendercolor" : "#008000ff",
+"attackercolor" : "#ee0000ff",
+"defendercolor" : "#00bb00ff",
 "planetcolor" : "#00ffffff",
 "excludedFactionNames" : [
 		"MercenaryReviewBoard",
@@ -21,3 +21,5 @@
 ],
 "debug" : false
 }
+
+

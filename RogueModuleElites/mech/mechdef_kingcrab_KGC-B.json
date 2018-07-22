@@ -115,7 +115,7 @@
         },	
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_armorslots_Composite",
+            "ComponentDefID": "Gear_structureslots_Composite",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

@@ -31,7 +31,7 @@
          "Count" : 0
       },	  
       {
-         "ID" : "emod_structureslots_endocomposite",
+         "ID" : "Gear_structureslots_Reinforced",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
