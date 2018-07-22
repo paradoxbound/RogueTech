@@ -67,7 +67,13 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
-0.988 Preview 2
+0.988 Preview 2fixes1
+
+IF! not patching from a preview
+
+ABSOLUTELY DO A CLEAN INSTALL
+
+
 Integration of MechEngineer by CptMooreB has begun
 Many Rules rewritten to account for the possibilities of MechEngineer
 Advanced materials got nerfed they now represent patchwork additions
@@ -77,6 +83,10 @@ Center torso is now always repaired
 Excess jump jets may be deleted on update
 
 Extented information removed due to incompatability
+
+LessHeadinjuries replaced with FewerHeadinjuries
+
+Panic system fixed
 
 Aim updated
 

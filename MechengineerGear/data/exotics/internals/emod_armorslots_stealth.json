@@ -110,7 +110,7 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StealthArmor",
+                "Id" : "StealthArmor-visi",
                 "Name" : "Active Stealth Armor",
                 "Details" : "Provides a +2 difficulty to hit bonus.",
                 "Icon" : "uixSvgIcon_equipment_Gyro"

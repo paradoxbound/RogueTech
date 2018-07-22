@@ -5,7 +5,7 @@
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "0",
+				"TechCost": "1",
 				"CBillCost": "285 * [[Chassis.Tonnage]]"
 			}
 		},
@@ -37,7 +37,7 @@
     "Tonnage" : 19.5,
     "AllowedLocations" : "CenterTorso",
     "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
+    "CriticalComponent" : true,
     "statusEffects" : null,
     "ComponentTags" : {
         "items" : [

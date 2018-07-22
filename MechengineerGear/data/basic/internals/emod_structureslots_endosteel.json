@@ -22,7 +22,7 @@
 	},
     "Description" : {
         "Cost" : 0,
-        "Rarity" : 0,
+        "Rarity" : 500000,
         "Purchasable" : true,
         "Manufacturer" : "Lostech",
         "Model" : "Structure",
