@@ -102,6 +102,24 @@
     ],
     "inventory": [
         {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_armorslots_standard",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        },
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_structureslots_standard",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        },	
+        {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "emod_engine_145",
             "SimGameUID": "/ihstype=Gear_HeatSink_Generic_Double&Gear_HeatSink_Generic_Double=0",

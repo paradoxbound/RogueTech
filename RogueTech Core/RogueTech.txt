@@ -105,6 +105,10 @@ Panic updated again
 p3fixes3
 linted broken gear
 
+p3fixes4
+Added defaults to every mech and disabled all autofixing
+JJ should now be properly linked to engine rating
+
 
 
 0.987Patch 4 HF2

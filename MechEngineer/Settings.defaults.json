@@ -113,76 +113,8 @@
     "AutoFixMechDefSkip" : [
         
     ],
-    "AutoFixMechDefEngine" : true,
+    "AutoFixMechDefEngine" : false,
     "AutoFixMechDefEngineTypeDef" : "emod_engineslots_std_center",
-    "AutoFixGyroCategorizer" : {
-        "Prefix" : "Gear_Gyro_",
-        "AllowedLocations" : "CenterTorso",
-        "ComponentType" : "Upgrade",
-        "CategoryId" : "Gyro",
-        "AutoAddCategoryIdIfMissing" : true
-    },
-    "AutoFixMechDefGyroAdder" : {
-        "ComponentDefId" : "Gear_Gyro_Generic_Standard",
-        "ChassisLocation" : "CenterTorso",
-        "ComponentType" : "Upgrade"
-    },
-    "AutoFixGyroSlotChange" : {
-        "From" : 3,
-        "By" : 1,
-        "FromIsMin" : false
-    },
-    "AutoFixCockpitCategorizer" : {
-        "Prefix" : "Gear_Cockpit_",
-        "AllowedLocations" : "Head",
-        "ComponentType" : "Upgrade",
-        "CategoryId" : "Cockpit",
-        "AutoAddCategoryIdIfMissing" : true
-    },
-    "AutoFixMechDefCockpitAdder" : {
-        "ComponentDefId" : "Gear_Cockpit_Generic_Standard",
-        "ChassisLocation" : "Head",
-        "ComponentType" : "Upgrade"
-    },
-    "AutoFixCockpitTonnageChange" : {
-        "From" : 0,
-        "By" : 3,
-        "FromIsMin" : false
-    },
-    "AutoFixLegUpgradesCategorizer" : {
-        "AllowedLocations" : "Legs",
-        "ComponentType" : "Upgrade",
-        "CategoryId" : "LegUpgrade",
-        "AutoAddCategoryIdIfMissing" : true
-    },
-    "AutoFixLegUpgradesSlotChange" : {
-        "From" : 3,
-        "By" : -2,
-        "FromIsMin" : true,
-        "NewMin" : 1
-    },
-    "AutoFixArmorCategorizer" : {
-        "AllowedLocations" : "None",
-        "ComponentType" : "NotSet",
-        "CategoryId" : "Armor",
-        "AutoAddCategoryIdIfMissing" : true
-    },
-    "AutoFixMechDefArmorAdder" : {
-        "ComponentDefId" : "emod_armorslots_standard",
-        "ChassisLocation" : "CenterTorso",
-        "ComponentType" : "Upgrade"
-    },
-    "AutoFixStructureCategorizer" : {
-        "AllowedLocations" : "None",
-        "ComponentType" : "NotSet",
-        "CategoryId" : "Structure",
-        "AutoAddCategoryIdIfMissing" : true
-    },
-    "AutoFixMechDefStructureAdder" : {
-        "ComponentDefId" : "emod_structureslots_standard",
-        "ChassisLocation" : "CenterTorso",
-        "ComponentType" : "Upgrade"
-    },
     "AutoFixChassisDefSkip" : [
         
     ],

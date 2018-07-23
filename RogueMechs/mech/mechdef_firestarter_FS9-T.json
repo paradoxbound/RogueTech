@@ -103,7 +103,24 @@
         }
     ],
     "inventory": [
-
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_armorslots_standard",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        },
+        {
+            "MountedLocation" : "CenterTorso",
+            "ComponentDefID" : "emod_structureslots_standard",
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : -1,
+            "DamageLevel" : "Functional",
+            "prefabName" : "",
+            "hasPrefabName" : true
+        },	
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "emod_engine_210",
@@ -126,6 +143,17 @@
             "prefabName": null,
             "hasPrefabName": false
         },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Ultralight",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
         {
             "MountedLocation": "Head",
             "ComponentDefID": "Gear_Cockpit_Generic_Standard",
@@ -269,17 +297,6 @@
             "prefabName": null,
             "hasPrefabName": false
         },	
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Gyro_Ultralight",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Supercharger",

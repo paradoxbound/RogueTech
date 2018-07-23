@@ -5,7 +5,20 @@
     "AllowMixingHeatSinkTypes" : true,
     "FractionalAccounting" : false,
 	
-	
+    "AutoFixMechDefEngine" : false,
+
+    "AutoFixGyroCategorizer" : null,
+    "AutoFixMechDefGyroAdder" : null,
+    "AutoFixGyroSlotChange" : null,
+    "AutoFixCockpitCategorizer" : null,
+    "AutoFixMechDefCockpitAdder" : null
+    "AutoFixCockpitTonnageChange" : null,
+    "AutoFixLegUpgradesCategorizer" : null,
+    "AutoFixLegUpgradesSlotChange" : null,
+    "AutoFixArmorCategorizer" : null,
+    "AutoFixMechDefArmorAdder" : null,
+    "AutoFixStructureCategorizer" : null,
+    "AutoFixMechDefStructureAdder" : null,	
 		
     "MWOStyleDontAlowDropIfNotEnoughSpaceForDynamics" : true,		
 		

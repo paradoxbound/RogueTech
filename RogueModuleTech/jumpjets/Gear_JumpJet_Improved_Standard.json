@@ -61,7 +61,7 @@
                 "targetWeaponSubType" : "NotSet"
 			},
 			"nature" : "Buff"
-		},
+		}
 	]	,
     "ComponentTags" : {
         "items" : [

@@ -3,7 +3,13 @@
 	"Custom": {
 		"Category" : { 
 			"CategoryID" : "Gyro" 
-		},		
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "1",
+				"CBillCost": "[[Chassis.Tonnage]]"
+			}
+		}		
 	},
 
     "StatName" : null,

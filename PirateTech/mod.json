@@ -8,7 +8,7 @@
     "Website": "",
     "Contact": "fakeemail@fakeemail.com",
 
-					"DependsOn": [ "CustomComponents"],
+				"DependsOn": [ "RogueModuleTech", "CustomComponents", "MechEngineer"],
 	
     "Manifest": [
         { "Type": "MechDef", "Path": "mech" },

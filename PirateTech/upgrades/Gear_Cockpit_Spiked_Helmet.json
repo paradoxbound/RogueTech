@@ -3,7 +3,13 @@
 	"Custom": {
 		"Category" : { 
 			"CategoryID" : "Cockpit" 
-		}
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "1",
+				"CBillCost": "[[Chassis.Tonnage]]"
+			}
+		}		
 	},
 
     "StatName" : null,
@@ -127,12 +133,12 @@
                 "targetAmmoCategory" : "NotSet",
                 "targetWeaponSubType" : "Melee"
             },
-			"nature" : "Buff",
-        },		
+			"nature" : "Buff"
+        }	
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock",
+            "component_type_stock"
         ],
         "tagSetSourceFile" : ""
     }
