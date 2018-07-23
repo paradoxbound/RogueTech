@@ -2,7 +2,13 @@
 	"Custom": {
 		"Category" : { 
 			"CategoryID" : "Cockpit" 
-		}
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "1",
+				"CBillCost": "[[Chassis.Tonnage]] * 0.9"
+			}
+		}	
 	},
     "Description" : {
         "Cost" : 240000,
@@ -78,7 +84,7 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
-        },
+        }
 		],
     "ComponentTags" : {
         "items" : [

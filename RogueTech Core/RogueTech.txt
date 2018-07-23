@@ -102,6 +102,9 @@ p3Fixes2
 Costs for Armour/internals fixed
 Panic updated again
 
+p3fixes3
+linted broken gear
+
 
 
 0.987Patch 4 HF2

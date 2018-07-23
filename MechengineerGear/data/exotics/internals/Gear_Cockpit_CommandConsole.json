@@ -3,7 +3,13 @@
 	"Custom": {
 		"Category" : { 
 			"CategoryID" : "Cockpit" 
-		},	
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "1",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
+			}
+		}		
 	},
 
     "StatName" : null,

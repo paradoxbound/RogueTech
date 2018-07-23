@@ -10,8 +10,9 @@
 		"WorkOrderCosts": {
 			"Install": {
 				"TechCost": "1",
-				"CBillCost": "[[Chassis.Tonnage]]"
-			}		
+				"CBillCost": "[[Chassis.Tonnage]] * 1.05"
+			}
+		},	
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		}			

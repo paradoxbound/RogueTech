@@ -3,14 +3,20 @@
 	"Custom": {
 		"Category" : { 
 			"CategoryID" : "Cockpit" 
-		}		
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "1",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
+			}
+		}	
 	},
 
     "StatName" : null,
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
     "Description" : {
-        "Cost" : 970000,
+        "Cost" : 870000,
         "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "SLDF",

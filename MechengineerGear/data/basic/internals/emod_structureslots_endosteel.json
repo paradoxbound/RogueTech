@@ -1,11 +1,11 @@
 {
 	"Custom": {
 		"Color": {
-			"UIColor": "OrangeHalf",
+			"UIColor": "OrangeHalf"
 		},
 		"DynamicSlots": {
 			"ReservedSlots": 14,
-			"ReservedSlotColor": "OrangeHalf",
+			"ReservedSlotColor": "OrangeHalf"
 		},
 		"Weights": {
 			"StructureFactor": 0.5

@@ -4,7 +4,11 @@
 		"Category" : { 
 			"CategoryID" : "Cockpit" 
 		},
-		"Replace" : { "ComponentDefId" : "Gear_Cockpit_Generic_Standard" },		
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "1"
+			}
+		}		
 	},
 
     "StatName" : null,

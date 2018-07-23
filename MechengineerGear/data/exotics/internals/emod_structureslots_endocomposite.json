@@ -11,7 +11,8 @@
 			"Install": {
 				"TechCost": "1",
 				"CBillCost": "[[Chassis.Tonnage]] * 1.05"
-			}		
+			}
+		},
 		"Weights": {
 			"StructureFactor": 0.75
 		},

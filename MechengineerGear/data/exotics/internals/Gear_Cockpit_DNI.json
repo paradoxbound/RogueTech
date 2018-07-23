@@ -3,6 +3,12 @@
 	"Custom": {
 		"Category" : { 
 			"CategoryID" : "Cockpit" 
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "1",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
+			}
 		}		
 	},
 
@@ -10,7 +16,7 @@
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
     "Description" : {
-        "Cost" : 1030000,
+        "Cost" : 830000,
         "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "NAIS",
