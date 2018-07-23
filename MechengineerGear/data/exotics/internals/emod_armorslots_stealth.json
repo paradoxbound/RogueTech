@@ -7,13 +7,18 @@
 			"ReservedSlots": 6,
 			"ReservedSlotColor": "GoldHalf",
 		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "1",
+				"CBillCost": "[[Chassis.Tonnage]]"
+			}		
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		}			
 	},
     "Description" : {
         "Cost" : 50000,
-        "Rarity" : 0,
+        "Rarity" : 6,
         "Purchasable" : true,
         "Manufacturer" : "Prototype",
         "Model" : "Armor Critical Slot",

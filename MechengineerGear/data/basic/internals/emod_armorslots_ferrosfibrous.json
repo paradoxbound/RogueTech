@@ -12,8 +12,8 @@
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "0",
-				"CBillCost": "[[Chassis.Tonnage]]"
+				"TechCost": "1",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
 			}
 		},
 		"Category" : { 
@@ -21,8 +21,8 @@
 		}				
 	},
     "Description" : {
-        "Cost" : 0,
-        "Rarity" : 400000,
+        "Cost" : 400000,
+        "Rarity" : 4,
         "Purchasable" : true,
         "Manufacturer" : "Lostech",
         "Model" : "Armor",

@@ -125,7 +125,7 @@
         },		
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_engine_275",
+            "ComponentDefID": "emod_engine_285",
             "SimGameUID": "/ihstype=Gear_HeatSink_Generic_Double&Gear_HeatSink_Generic_Double=1",
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -288,16 +288,5 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "SimGameUID": "",
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        }
     ]
 }

@@ -7,6 +7,11 @@
 			"ReservedSlots": 7,
 			"ReservedSlotColor": "OrangeHalf",
 		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "1",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.05"
+			}		
 		"Weights": {
 			"StructureFactor": 0.75
 		},
@@ -15,8 +20,8 @@
 		}		
 	},
     "Description" : {
-        "Cost" : 0,
-        "Rarity" : 0,
+        "Cost" : 300000,
+        "Rarity" : 4,
         "Purchasable" : true,
         "Manufacturer" : "Prototype",
         "Model" : "Structure Critical Slot",

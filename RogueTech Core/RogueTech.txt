@@ -69,10 +69,7 @@ Changelog
 
 0.988 Preview 3
 
-IF! not patching from a preview
-
-ABSOLUTELY DO A CLEAN INSTALL
-
+Please do a clean install
 
 Integration of MechEngineer by CptMooreB has begun
 Many Rules rewritten to account for the possibilities of MechEngineer
@@ -98,7 +95,12 @@ updated panic system
 P3Fixes1
 2 New Power Armour
 Removed dynlib and excess files from mechengineer
+Tweaked settings for ME to reduce overhead
 Wartech updated
+
+p3Fixes2
+Costs for Armour/internals fixed
+Panic updated again
 
 
 

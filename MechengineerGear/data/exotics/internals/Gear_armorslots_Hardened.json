@@ -10,7 +10,7 @@
 			}
 		},
 		"Weights": {
-			"ArmorFactor": 2
+			"ArmorFactor": 1.99850
 		},		
 		"Category" : { 
 			"CategoryID" : "Armor" 
@@ -23,7 +23,7 @@
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
     "Description" : {
-        "Cost" : 60000,
+        "Cost" : 90000,
         "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "NAIS",

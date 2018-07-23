@@ -170,7 +170,7 @@
         },	
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_3-Intek",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_2-Magna",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -180,7 +180,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightArm",
+            "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_SmallLaser_EXPA",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
@@ -191,7 +191,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightArm",
+            "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_SmallLaser_EXPA",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
