@@ -42,7 +42,7 @@
     "Median Morale": 20,
     
     /* Quirks compatibility */
-    "QuirksEnabled": false,
+    "QuirksEnabled": true,
     "BraveModifier": 5,
     "DependableModifier": 5,
 

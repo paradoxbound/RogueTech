@@ -334,7 +334,7 @@
     },
     "HitTables":
     {
-        "CalledShotBonusMultiplier": 1.5,
+        "CalledShotBonusMultiplier": 1.75,
         "CalledShotBonusDegradeLerpFactor": 0.25,		
         "HitMechLocationFromFront": 
 		[

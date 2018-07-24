@@ -1,4 +1,7 @@
 {
+
+	"Custom" :  {"Category" : { "CategoryID" : "PartialWing"}, "Flags" : { "flags" : [ "not_broken", "no_salvage" ] } },
+
     "JumpCapacity" : 1,
     "MinTonnage" : 10,
     "MaxTonnage" : 10,
@@ -8,10 +11,10 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "S",
-        "UIName" : "Phalanx Jets",
+        "UIName" : "Heavy PA Jets",
         "Id" : "Gear_Phalanx_Jumpet",
-        "Name" : "Phalanx Jump Jets",
-        "Details" : "Jump jet and electronics suite for the Phalanx power armour.",
+        "Name" : "Heavy PA Jump Jets",
+        "Details" : "Jump jet and electronics suite for Heavy Power Armour.",
         "Icon" : "uixSvgIcon_action_jump"
     },
     "BonusValueA" : "200% Jump Jet Dist.",

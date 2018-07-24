@@ -1,4 +1,7 @@
 {
+
+	"Custom" :  {"Category" : { "CategoryID" : "PartialWing"}, "Flags" : { "flags" : [ "not_broken", "no_salvage" ] } },
+
     "JumpCapacity" : 1,
     "MinTonnage" : 5,
     "MaxTonnage" : 5,
@@ -10,8 +13,8 @@
         "Model" : "S",
         "UIName" : "PA Jump Jets",
         "Id" : "Gear_EXPA_Jumpet",
-        "Name" : "Nightwing jump jets",
-        "Details" : "Jump jet and electronics suite for the Epxerimental power armour.",
+        "Name" : "PA jump jets",
+        "Details" : "Jump jet and electronics suite for the Medium Power Armour.",
         "Icon" : "uixSvgIcon_action_jump"
     },
     "BonusValueA" : "350% Jump Jet Dist.",

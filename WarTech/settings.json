@@ -5,6 +5,7 @@
 "FatiquePerLostAttack" : 0.5,
 "FatiqueLostPerMonth" : 3,
 "FatiqueRecoveredPerDay" : 0.5,
+"FatiqueRecoveredPerPlanetCapture" : 3,
 "InlandPlanetDifficulty" : 0,
 "BorderPlanetDifficulty" : 2,
 "minMonthDuration" : 1,

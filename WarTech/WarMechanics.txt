@@ -46,7 +46,7 @@ Defence:
 
 ## Switching owner
 - When a faction has more control over a planet then its current owner and also more then the percentage set in the settings the planet will flip over to that faction.
-
+- When a planet is taken, that Faction recovers some exhaustion.
 
 ## Difficulty
 - Planets on the border have a higher difficulty then the ones inland

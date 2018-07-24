@@ -9,7 +9,8 @@
 		"Category" : { 
 			"CategoryID" : "EngineShield" 
 		},
-		"TonnageLimit" : { "Min" : 5, "Max" : 10 }
+		"TonnageLimit" : { "Min" : 5, "Max" : 10 },
+		"Flags" : { "flags" : ["no_salvage"] }
 	},
     "Description" : {
         "Cost" : 0,

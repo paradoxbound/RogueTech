@@ -3,7 +3,8 @@
 		"Category" : { 
 			"CategoryID" : "Gyro" 
 		},
-		"TonnageLimit" : { "Min" : 5, "Max" : 10 }
+		"TonnageLimit" : { "Min" : 5, "Max" : 10 },
+		"Flags" : { "flags" : ["no_salvage"] }
 	},
     "Description" : {
         "Cost" : 120000,

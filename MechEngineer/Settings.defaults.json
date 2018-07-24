@@ -110,6 +110,9 @@
         ]
     },
     "MWOStyleDontAlowDropIfNotEnoughSpaceForDynamics" : true,
+    "LogLevels" : {
+        "MechEngineer" : "Debug"
+    },
     "AutoFixMechDefSkip" : [
         
     ],
@@ -153,6 +156,9 @@
     },
     "AutoFixChassisDefInitialTonnage" : false,
     "AutoFixChassisDefInitialToTotalTonnageFactor" : 0.1,
+    "AutoFixChassisDefMaxJumpjets" : true,
+    "AutoFixChassisDefMaxJumpjetsCount" : 8,
+    "AutoFixChassisDefMaxJumpjetsRating" : 400,
     "AutoFixWeaponDefSlots" : false,
     "AutoFixWeaponDefSlotsChanges" : {
         "AC5" : {
@@ -433,6 +439,5 @@
             "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
             "ValidateForbidden" : "Cannot use {0} and {1} together"
         }
-    ],
-    "logLevel" : "Debug"
+    ]
 }

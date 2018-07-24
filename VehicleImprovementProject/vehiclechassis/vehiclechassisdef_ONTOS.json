@@ -1,7 +1,7 @@
 {
 	"Description" : {
 		"Id" : "vehiclechassisdef_ONTOScv",
-		"Name" : "Ontos",
+		"Name" : "Ontos Mk.2",
 		"Details" : "",
 		"Icon" : "MANTICORE",
 		"Cost" : 993,
@@ -10,9 +10,9 @@
 	},
 	"MovementCapDefID" : "movedef_3-5cv",
    	"PathingCapDefID" : "pathingdef_assault_tracked",
-   	"HardpointDataDefID" : "hardpointdatadef_demolisher",
-	"PrefabIdentifier" : "chrPrfVhcl_demolisher",
-	"PrefabBase" : "demolisher",
+   	"HardpointDataDefID" : "hardpointdatadef_lrm",
+	"PrefabIdentifier" : "chrPrfVhcl_lrm",
+	"PrefabBase" : "lrm",
 	"Tonnage" : 95,
 	"weightClass" : "ASSAULT",
 	"BattleValue" : 993,
@@ -33,7 +33,7 @@
 		{
 		    "x" : 0,
 		    "y" : 1.5,
-		    "z" : 3
+		    "z" : 4.5
 	    }
 	],
 	"LOSTargetPositions" : [
@@ -45,22 +45,22 @@
 		{
 		    "x" : 0,
 		    "y" : 1.5,
-		    "z" : 3
+		    "z" : 4.5
 	    },
 		{
-		    "x" : -1.5,
-		    "y" : 4,
+		    "x" : -2,
+		    "y" : 3,
 		    "z" : 0
 	    },
 		{
-		    "x" : 1.5,
-		    "y" : 4,
+		    "x" : 2,
+		    "y" : 3,
 		    "z" : 0
 	    },
 		{
 		    "x" : 0,
-		    "y" : 1.5,
-		    "z" : -3.5
+		    "y" : 2,
+		    "z" : -4.5
 	    }
 	],
 	"Locations" : [
@@ -79,7 +79,7 @@
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 160,
+			"MaxArmor" : 175,
 			"InternalStructure" : 50
 		},
 		{
@@ -88,7 +88,7 @@
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 160,
+			"MaxArmor" : 175,
 			"InternalStructure" : 50
 		},
 		{
@@ -97,53 +97,12 @@
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 150,
+			"MaxArmor" : 170,
 			"InternalStructure" : 50
 		},
 		{
 			"Location" : "Turret",
-			"Hardpoints" : 
-			[
-				{
-					"WeaponMount" : "Energy",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Energy",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Energy",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Energy",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Energy",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Energy",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Energy",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Energy",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Energy",
-					"Omni" : false
-				},
-				{
-					"WeaponMount" : "Energy",
-					"Omni" : false
-				},
+			"Hardpoints" : [
 				{
 					"WeaponMount" : "Missile",
 					"Omni" : false
@@ -152,14 +111,50 @@
 					"WeaponMount" : "Missile",
 					"Omni" : false
 				},
-				{
-					"WeaponMount" : "Missile",
-					"Omni" : false
+                {
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+                {
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+                {
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+                {
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+                {
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+                {
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+                {
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+                {
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+                {
+					"WeaponMount": "Energy",
+					"Omni": false
+				},
+                {
+					"WeaponMount": "Energy",
+					"Omni": false
 				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 180,
+			"MaxArmor" : 200,
 			"InternalStructure" : 50
 		}
 	]

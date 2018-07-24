@@ -21,8 +21,8 @@
 		}			
 	},
     "Description" : {
-        "Cost" : 0,
-        "Rarity" : 80000,
+        "Cost" : 80000,
+        "Rarity" : 80,
         "Purchasable" : true,
         "Manufacturer" : "Prototype",
         "Model" : "Armor Critical Slot",

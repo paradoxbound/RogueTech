@@ -22,8 +22,8 @@
 		"Flags" : { "flags" : [ "engine_part" ] }
 	},
     "Description" : {
-        "Cost" : 0,
-        "Rarity" : 8000000,
+        "Cost" : 8000000,
+        "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Lostech",
         "Model" : "Extra-light",

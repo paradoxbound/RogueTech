@@ -12,7 +12,7 @@
 		"Category" : { 
 			"CategoryID" : "EngineCore" 
 		},
-		"Flags" : { "flags" : [ "engine_part" ] },
+		"Flags" : { "flags" : [ "engine_part", "no_salvage" ] },
 		"TonnageLimit" : { "Min" : 5, "Max" : 10 }
 	},
     "DissipationCapacity" : 0,
@@ -22,9 +22,9 @@
         "Purchasable" : true,
         "Manufacturer" : "Vlar",
         "Model" : "Fusion Core",
-        "UIName" : "Phalanx Core",
+        "UIName" : "Heavy PA Core",
         "Id" : "emod_engine_Phalanx",
-        "Name" : "Phalanx Core",
+        "Name" : "Heavy PA Core",
         "Details" : "Fusion engines function by harnessing the power of a fusion reaction, running on light hydrogen and protium.\r\nFusion engines are defined by their <b>engine rating</b>. For 'Mechs, the engine rating is the mathematical product of the mass of the vehicle and its desired maximum walking or cruising velocity.",
         "Icon" : "uixSvgIcon_equipment_Heatsink"
     },

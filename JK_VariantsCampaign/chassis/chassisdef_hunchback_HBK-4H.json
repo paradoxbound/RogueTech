@@ -51,9 +51,9 @@
             "Location": "Head",
             "Hardpoints": [
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
-                }
+                },
             ],
             "Tonnage": 0,
             "InventorySlots": 1,

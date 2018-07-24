@@ -13,7 +13,8 @@
     "Manifest": [
 	{ "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
     { "Type": "VehicleDef", "Path": "vehicle" },
-	{ "Type": "MovementCapabilitiesDef", "Path": "move" }
+	{ "Type": "MovementCapabilitiesDef", "Path": "move" },
+	{ "Type": "UpgradeDef", "Path": "upgrade" }	
     ]
 	
 	

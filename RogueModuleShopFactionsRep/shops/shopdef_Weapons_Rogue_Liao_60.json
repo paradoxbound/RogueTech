@@ -15,12 +15,6 @@
     "Inventory": [
 
 	  {
-         "ID" : "Gear_NullSignatureSystem",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-      },
-	  {
          "ID" : "Gear_ECM",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.2,

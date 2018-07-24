@@ -1,4 +1,5 @@
 {
 	"AdjustTechs" : true,
 	"MechTechScale" : 1,
+	"QuirksEnabled" : true,
 }

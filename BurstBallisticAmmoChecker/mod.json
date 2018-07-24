@@ -1,8 +1,8 @@
-{
+﻿{
   "Name": "BurstBallisticAmmoChecker",
-  "Enabled": false,
+  "Enabled": true,
 
-  "Version": "0.0.1",
+  "Version": "0.0.2",
 
   "Author": "janxious",
   "Website": "https://github.com/janxious/BT-BurstBallisticAmmoChecker",

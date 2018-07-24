@@ -18,7 +18,7 @@
 		}			
 	},
     "Description" : {
-        "Cost" : 50000,
+        "Cost" : 500000,
         "Rarity" : 6,
         "Purchasable" : true,
         "Manufacturer" : "Prototype",
@@ -30,7 +30,7 @@
         "Icon" : "uixSvgIcon_action_end"
     },
     "BonusValueA" : "+1 Difficulty to Hit|-50% Visbility|",
-    "BonusValueB" : "+5 Heat/turn",
+    "BonusValueB" : "+1 Evasion Gain&Max|+10 Heat/turn",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
@@ -178,7 +178,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "EndMoveHeat",
                 "operation" : "Int_Add",
-                "modValue" : "5",
+                "modValue" : "10",
                 "modType" : "System.Int32",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
@@ -193,7 +193,61 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
-        }
+        },
+{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "StealthEvastion",
+				"Name" : "EVASIVE MOVE",
+				"Details" : "This unit generates an extra EVASIVE charge from movement actions (up to its maximum).",
+				"Icon" : "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData" : 
+			{
+				"statName" : "EvasivePipsGainedAdditional",
+				"operation" : "Int_Add",
+				"modValue" : "1",
+				"modType" : "System.Int32"
+			},
+			"nature" : "Buff"
+		},
+{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "StealthEvastion2",
+				"Name" : "EVASIVE MOVE",
+				"Details" : "This unit generates an extra EVASIVE charge from movement actions (up to its maximum).",
+				"Icon" : "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData" : 
+			{
+				"statName" : "MaxEvasivePips",
+				"operation" : "Int_Add",
+				"modValue" : "1",
+				"modType" : "System.Int32"
+			},
+			"nature" : "Buff"
+		}		
 ],
     "ComponentTags" : {
         "items" : [

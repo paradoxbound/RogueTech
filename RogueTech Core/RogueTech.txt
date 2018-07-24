@@ -39,6 +39,9 @@ Install
 ### Optional:
 You are also free to poke and prod each of the files to see what you can do.
 
+For pilot quirks
+If you want the Tags to be updated to show you what each quirk does, you have to copy over the included Pilot_Quirks\MetadataDatabase.dbb file. This file goes in the following directory (at least for Steam Installs): BATTLETECH\BattleTech_Data\StreamingAssets\MDD. Back up the MetadataDatabase.dbb file in there before copying over the one from the mod! The mod is still functional without this optional file, but you will be missing out on some UI descriptions.
+
 Update:
 -------
 To update, simply overwrite existing files.
@@ -108,6 +111,42 @@ linted broken gear
 p3fixes4
 Added defaults to every mech and disabled all autofixing
 JJ should now be properly linked to engine rating
+
+Preview4
+Fixed Ontos Tanks
+Removed Emblems, Portrait Loader and Mech Icons and made them optional to reduce download size
+Added gear back to RogueTank by Cargo_Vroom
+Added new burstballisticchecker by Janxious
+
+Preview5
+Added Don Zappos Pilot quirks and its dependant mods
+
+Change the Pilot_Quirks mod.json to "IsSaveGame": true, if you use a old save (unsupported action)
+
+WarTech updated to 1.2
+
+CustomComponents patched for salvage and shop issues
+
+Added experimental buy/sell performance fix
+
+preview5hotfix1
+rollback for cc
+disabled performance fix temporarily
+fixed 2 mechs that had old NSS
+fixed missing partial wing category
+
+Preview5Fixes2
+Added 3 Venom's and SnubNose PPC
+Several fixes to all mechs
+Pilot Quirks pack updated
+ABSOLUTELY NOT SAVE COMPATIBLE DELETE BATTLETECH\ModSaves\WarTech WHEN INSTALLING
+Another patch for CC
+
+
+Known issue:
+New game without closing the game first will create a hard crash
+
+
 
 
 

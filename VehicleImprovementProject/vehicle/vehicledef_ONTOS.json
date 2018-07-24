@@ -2,7 +2,7 @@
    "Version" : 1,
    "Description" : {
       "Id" : "vehicledef_ONTOScv",
-      "Name" : "Ontos (Fusion)",
+      "Name" : "Ontos Fusion",
       "Details" : "",
       "Icon" : "",
       "Cost" : 993,
@@ -15,7 +15,7 @@
          "unit_vehicle",
          "unit_assault",
          "unit_tracks",
-         "unit_release"
+		 "unit_release"
       ],
       "tagSetSourceFile": ""
    },
@@ -52,20 +52,20 @@
 			"Location" : "Turret",
 			"CurrentArmor" : 200,
 			"CurrentInternalStructure" : 50,
-			"AssignArmor" : 200,
+			"AssignedArmor" : 200,
 			"DamageLevel" : "Functional"
 		}
    ],
    "inventory" : [
       {
-         "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
+         "ComponentDefID" : "Weapon_LRM_LRM10_0-STOCK",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Turret",
 		 "HardpointSlot" : 0,
 		 "DamageLevel" : "Functional"
       },
       {
-         "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
+         "ComponentDefID" : "Weapon_LRM_LRM10_0-STOCK",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Turret",
 		 "HardpointSlot" : 1,
@@ -113,7 +113,7 @@
 		 "HardpointSlot" : 7,
 		 "DamageLevel" : "Functional"
       },
-	        {
+      {
          "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Turret",
@@ -127,15 +127,15 @@
 		 "HardpointSlot" : 9,
 		 "DamageLevel" : "Functional"
       },
-	  {
-         "ComponentDefID" : "Weapon_LRM_LRM10_0-STOCK",
+      {
+         "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Turret",
 		 "HardpointSlot" : 10,
 		 "DamageLevel" : "Functional"
       },
-	  {
-         "ComponentDefID" : "Weapon_LRM_LRM10_0-STOCK",
+      {
+         "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Turret",
 		 "HardpointSlot" : 11,
@@ -148,13 +148,12 @@
 		 "HardpointSlot" : -1,
 		 "DamageLevel" : "Functional"
       },
-	        {
+      {
          "ComponentDefID" : "Ammo_AmmunitionBox_Generic_LRM",
          "ComponentDefType" : "AmmunitionBox",
          "MountedLocation" : "Front",
 		 "HardpointSlot" : -1,
 		 "DamageLevel" : "Functional"
       }
-
    ]
 }

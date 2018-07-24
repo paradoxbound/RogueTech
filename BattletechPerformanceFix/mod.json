@@ -1,0 +1,9 @@
+{
+	"Name": "BattletechPerformanceFix",
+	"Author": "",
+	"Website": "",
+	"Enabled": false,	
+
+	"DLL": "BattletechPerformanceFix.dll",
+	"DLLEntryPoint": "BattletechPerformanceFix.Control.Start"
+}

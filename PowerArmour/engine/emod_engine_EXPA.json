@@ -12,7 +12,7 @@
 		"Category" : { 
 			"CategoryID" : "EngineCore" 
 		},
-		"Flags" : { "flags" : [ "engine_part" ] },
+		"Flags" : { "flags" : [ "engine_part", "no_salvage" ] },
 		"TonnageLimit" : { "Min" : 5, "Max" : 10 }
 	},
     "DissipationCapacity" : 0,
