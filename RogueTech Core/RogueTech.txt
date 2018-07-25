@@ -70,9 +70,19 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
-0.988 Preview 3
+0.988 Public Alpha 1
 
 Please do a clean install
+
+Wartech note:
+ABSOLUTELY NOT SAVE COMPATIBLE DELETE BATTLETECH\ModSaves\WarTech WHEN INSTALLING
+
+Using on old saves is not advised as we have no idea what all can break
+
+Known issue:
+New game without closing the game first will create a hard crash
+Vanilla issue with caching and referencing files, is being worked on
+
 
 Integration of MechEngineer by CptMooreB has begun
 Many Rules rewritten to account for the possibilities of MechEngineer
@@ -80,78 +90,45 @@ Advanced materials got nerfed they now represent patchwork additions
 Command console can now be looted and installed, increased weight
 Center torso is now always repaired
 
-Excess jump jets may be deleted on update
+Excess jump jets may be deleted on old save
+
+Removed Emblems, Portrait Loader and Mech Icons and made them optional to reduce download size
 
 Extented information removed due to incompatability
 
-LessHeadinjuries replaced with FewerHeadinjuries
+LessHeadinjuries replaced with FewerHeadinjuries by gnivler
+
+Wartech updated to 1.2
+
+Added Don Zappos Pilot quirks and its dependant mods
+
+Change the Pilot_Quirks mod.json to "IsSaveGame": true, if you use a old save (unsupported action)
+Panic system reworked to use Gnivler and Don Zappo fork
 
 Aim updated
 
-Fix2
-Reverted to mpstark randomstarter to prevent new game crash
+Reverted to mpstark randomstarter to prevent 1 new game crash
 
-Preview3
-Couple mech's fixed, centurion p shield arm now baked into chassis
-updated panic system
+Ontos Tanks fixed
 
-P3Fixes1
-2 New Power Armour
-Removed dynlib and excess files from mechengineer
-Tweaked settings for ME to reduce overhead
-Wartech updated
+Changed salvage rules and defaults
 
-p3Fixes2
-Costs for Armour/internals fixed
-Panic updated again
+Added gear back to RogueTank by Cargo_Vroom
+Added new burstballisticchecker by Janxious
 
-p3fixes3
-linted broken gear
-
-p3fixes4
-Added defaults to every mech and disabled all autofixing
-JJ should now be properly linked to engine rating
-
-Preview4
 Fixed Ontos Tanks
 Removed Emblems, Portrait Loader and Mech Icons and made them optional to reduce download size
 Added gear back to RogueTank by Cargo_Vroom
 Added new burstballisticchecker by Janxious
 
-Preview5
-Added Don Zappos Pilot quirks and its dependant mods
 
-Change the Pilot_Quirks mod.json to "IsSaveGame": true, if you use a old save (unsupported action)
-
-WarTech updated to 1.2
-
-CustomComponents patched for salvage and shop issues
-
-Added experimental buy/sell performance fix
-
-preview5hotfix1
-rollback for cc
-disabled performance fix temporarily
-fixed 2 mechs that had old NSS
-fixed missing partial wing category
-
-Preview5Fixes2
-Added 3 Venom's and SnubNose PPC
-Several fixes to all mechs
-Pilot Quirks pack updated
-ABSOLUTELY NOT SAVE COMPATIBLE DELETE BATTLETECH\ModSaves\WarTech WHEN INSTALLING
-Another patch for CC
-
-Preview6
 Disabled Autofixer for chassis slots
 PLEASE CHECK THE CHASSIS SLOTS 
 H:2 LA/RA:8 LT/RT:12 CT:14 LL/RL:2
+We hope we found them all, but some may have slipped through
 
-Changed salvage rules and defaults
 
 
-Known issue:
-New game without closing the game first will create a hard crash
 
 
 

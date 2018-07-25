@@ -23,7 +23,7 @@
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
     "Description" : {
-        "Cost" : 50000,
+        "Cost" : 500000,
         "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "LIC",

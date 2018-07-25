@@ -121,7 +121,7 @@
     "AutoFixChassisDefSkip" : [
         
     ],
-    "AutoFixChassisDefSlots" : true,
+    "AutoFixChassisDefSlots" : false,
     "AutoFixChassisDefInitialTonnage" : false,
     "AutoFixChassisDefInitialToTotalTonnageFactor" : 0.1,
     "AutoFixChassisDefMaxJumpjets" : true,

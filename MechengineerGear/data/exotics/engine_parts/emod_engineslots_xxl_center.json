@@ -18,7 +18,7 @@
     "DissipationCapacity" : -15,
     "Description" : {
         "Cost" : 12500000,
-        "Rarity" : 0,
+        "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "Vlar XXL",

@@ -10,7 +10,7 @@
 	},
     "Description" : {
         "Cost" : 1250000,
-        "Rarity" : 0,
+        "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "Vlar Compact",

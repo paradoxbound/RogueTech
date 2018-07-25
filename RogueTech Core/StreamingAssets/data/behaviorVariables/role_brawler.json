@@ -71,6 +71,14 @@
 		"type" : "Float",
 		"floatVal" : 2.3,
             }
+	},
+	{
+	    /* Whether to use Bulwark actions*/
+            "k" : "Bool_UseBulwarkActions",
+            "v" : {
+		"type" : "Bool",
+		"boolVal" : false
+            }
 	},	
 	]
 }

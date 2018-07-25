@@ -11,7 +11,7 @@
     "AutoFixMechDefGyroAdder" : null,
     "AutoFixGyroSlotChange" : null,
     "AutoFixCockpitCategorizer" : null,
-    "AutoFixMechDefCockpitAdder" : null
+    "AutoFixMechDefCockpitAdder" : null,
     "AutoFixCockpitTonnageChange" : null,
     "AutoFixLegUpgradesCategorizer" : null,
     "AutoFixLegUpgradesSlotChange" : null,

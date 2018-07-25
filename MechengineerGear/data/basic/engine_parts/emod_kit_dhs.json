@@ -5,31 +5,31 @@
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "0",
-				"CBillCost": "0"
+				"TechCost": "1",
+				"CBillCost": "600"
 			},
 			"Repair": {
-				"TechCost": "0",
-				"CBillCost": "0"
+				"TechCost": "1",
+				"CBillCost": "400"
 			},
 			"RepairDestroyed": {
-				"TechCost": "0",
-				"CBillCost": "0"
+				"TechCost": "1",
+				"CBillCost": "800"
 			},
 			"Remove": {
-				"TechCost": "0",
-				"CBillCost": "0"
+				"TechCost": "1",
+				"CBillCost": "500"
 			},
 			"RemoveDestroyed": {
-				"TechCost": "0",
-				"CBillCost": "0"
+				"TechCost": "1",
+				"CBillCost": "250"
 			}
 		},
 	},
     "DissipationCapacity" : 0,
     "Description" : {
         "Cost" : 5000000,
-        "Rarity" : 0,
+        "Rarity" : 4,
         "Purchasable" : true,
         "Manufacturer" : "Lostech",
         "Model" : "Engine Kit",

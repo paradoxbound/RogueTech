@@ -11,14 +11,14 @@
          "k" : "Float_PreferLessTargetableLocationFactorWeight",
          "v" : {
             "type" : "Float",
-            "floatVal" : 0.7,
+            "floatVal" : 0.8,
          }
       },
       {
          "k" : "Float_ShootingDamageMultiplier",
          "v" : {
             "type" : "Float",
-            "floatVal" : 3.0,
+            "floatVal" : 3.5,
          }
       },
       {
@@ -70,9 +70,37 @@
 	    "k" : "Float_FenceRadius",
 	    "v" : {
 		"type" : "Float",
-		"floatVal" : 250,
+		"floatVal" : 280,
 	    }
 	},
+	{
+	    /* Distance (in meters) that the AI wants to keep between
+	       units.  Used by:
+	       - PreferNoCloserThanPersonalSpaceToAlly Influence Factor
+	       - Decrowding while following routes
+	    */
+            "k" : "Float_PersonalSpaceRadius",
+            "v" : {
+		"type" : "Float",
+		"floatVal" : 9
+            }
+	},	
+	{
+	    /* How long to tolerate being alone, in turns. */
+            "k" : "Int_AloneToleranceTurnCount",
+            "v" : {
+		"type" : "Int",
+		"floatVal" : 15
+            }
+	},
+	{
+	    /* How long to cool down after being alone, in turns. */
+            "k" : "Int_AloneCoolDownTurnCount",
+            "v" : {
+		"type" : "Int",
+		"floatVal" : 1
+            }
+	},	
 		{
 	    /* Weight for an influence factor that seeks to stay
 	       within a circular fence from the centerpoint of the
