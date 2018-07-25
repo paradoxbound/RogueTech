@@ -2132,7 +2132,7 @@
 						{
 							"ConstantType": "MechLab",
 							"ConstantName": "ArmorInstallCost",
-							"ConstantValue": "750"
+							"ConstantValue": "100"
 						},
 						{
 							"ConstantType": "MechLab",
@@ -2572,8 +2572,68 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 1,
+			"DefaultIndex": 0,
 			"Options": [
+				{
+					"ID": "diff_SS_10",
+					"Name": "10%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.1"
+						}
+					]
+				},			
+				{
+					"ID": "diff_SS_11",
+					"Name": "11%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.11"
+						}
+					]
+				},			
+				{
+					"ID": "diff_SS_12",
+					"Name": "12%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.12"
+						}
+					]
+				},			
+				{
+					"ID": "diff_SS_13",
+					"Name": "13%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.13"
+						}
+					]
+				},			
+				{
+					"ID": "diff_SS_14",
+					"Name": "14%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "ShopSellModifier",
+							"ConstantValue": "0.14"
+						}
+					]
+				},			
 				{
 					"ID": "diff_SS_15",
 					"Name": "15%",
@@ -2717,8 +2777,68 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 0,
+			"DefaultIndex": 2,
 			"Options": [
+				{
+					"ID": "diff_Scrap_10",
+					"Name": "10%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.10"
+						}
+					]
+				},			
+				{
+					"ID": "diff_Scrap_11",
+					"Name": "11%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.11"
+						}
+					]
+				},			
+				{
+					"ID": "diff_Scrap_12",
+					"Name": "12%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.12"
+						}
+					]
+				},			
+				{
+					"ID": "diff_Scrap_13",
+					"Name": "13%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.13"
+						}
+					]
+				},			
+				{
+					"ID": "diff_Scrap_14",
+					"Name": "14%",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "MechScrapModifier",
+							"ConstantValue": "0.14"
+						}
+					]
+				},			
 				{
 					"ID": "diff_Scrap_15",
 					"Name": "15%",

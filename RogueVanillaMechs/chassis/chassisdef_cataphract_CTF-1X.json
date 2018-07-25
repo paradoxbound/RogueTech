@@ -51,7 +51,7 @@
             "Location": "Head",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -87,7 +87,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 150,
             "MaxRearArmor": 75,
             "InternalStructure": 75
@@ -96,7 +96,7 @@
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 14,
             "MaxArmor": 220,
             "MaxRearArmor": 110,
             "InternalStructure": 110
@@ -114,7 +114,7 @@
                 }
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 150,
             "MaxRearArmor": 75,
             "InternalStructure": 75
@@ -141,7 +141,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 2,
             "MaxArmor": 150,
             "MaxRearArmor": -1,
             "InternalStructure": 75
@@ -150,7 +150,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 2,
             "MaxArmor": 150,
             "MaxRearArmor": -1,
             "InternalStructure": 75

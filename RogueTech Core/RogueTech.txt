@@ -142,6 +142,13 @@ Pilot Quirks pack updated
 ABSOLUTELY NOT SAVE COMPATIBLE DELETE BATTLETECH\ModSaves\WarTech WHEN INSTALLING
 Another patch for CC
 
+Preview6
+Disabled Autofixer for chassis slots
+PLEASE CHECK THE CHASSIS SLOTS 
+H:2 LA/RA:8 LT/RT:12 CT:14 LL/RL:2
+
+Changed salvage rules and defaults
+
 
 Known issue:
 New game without closing the game first will create a hard crash

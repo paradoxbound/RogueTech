@@ -29,7 +29,7 @@
         "Details" : "Developed by the Capellan Confederation, Stealth Armor is a modern day equivalent of the Star League era Null Signature System. Reserves 6 slots",
         "Icon" : "uixSvgIcon_action_end"
     },
-    "BonusValueA" : "+1 Difficulty to Hit|-50% Visbility|",
+    "BonusValueA" : "+1 Defense|-50% Visbility|",
     "BonusValueB" : "+1 Evasion Gain&Max|+10 Heat/turn",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",

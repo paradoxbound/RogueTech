@@ -86,10 +86,10 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 160,
+            "CurrentArmor": 155,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 80,
-            "AssignedArmor": 160,
+            "AssignedArmor": 155,
             "AssignedRearArmor": -1
         },
         {

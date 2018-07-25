@@ -18,7 +18,9 @@
     "AutoFixArmorCategorizer" : null,
     "AutoFixMechDefArmorAdder" : null,
     "AutoFixStructureCategorizer" : null,
-    "AutoFixMechDefStructureAdder" : null,	
+    "AutoFixMechDefStructureAdder" : null,
+    "AutoFixChassisDefSlots" : false,
+    "AutoFixChassisDefSlotsChanges" : null,	
 		
     "MWOStyleDontAlowDropIfNotEnoughSpaceForDynamics" : true,		
 		

@@ -1,17 +1,17 @@
 {
     "Description": {
-        "Cost": 28500000,
+        "Cost": 18500000,
         "Rarity": 5,
-        "Purchasable": true,
+        "Purchasable": false,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Gausszilla",
-        "Id": "chassisdef_atlas_AS-GSZ",
-        "Name": "Gausszilla",
-        "Details": "This Legendary variant is barely spoken of for fear it might appear, bringing 4 massive Gauss Rifles to the field on a very very slow plattform.",
+        "UIName": "Joermungandr",
+        "Id": "chassisdef_atlas_AS0-MG",
+        "Name": " Joermungandr",
+        "Details": "Joermungandr named for the great 'Midgard Serpent' that will herald Ragnarok and bring an end to the Gods, does this 'Mech herald a rain of Fire and Death.",
         "Icon": "uixTxrIcon_atlas"
     },
-    "MovementCapDefID": "movedef_atlas_AS-GSZ",
+    "MovementCapDefID": "movedef_atlas_AS7-D",
     "PathingCapDefID": "pathingdef_assault",
     "HardpointDataDefID": "hardpointdatadef_atlas",
     "PrefabIdentifier": "chrPrfMech_atlasBase-001",
@@ -19,9 +19,9 @@
     "Tonnage": 100,
     "InitialTonnage": 10,
     "weightClass": "ASSAULT",
-    "BattleValue": 20581000,
+    "BattleValue": 10581000,
     "Heatsinks": 0,
-    "TopSpeed": 40,
+    "TopSpeed": 60,
     "TurnRadius": 90,
     "MaxJumpjets": 3,
     "Stability": 100,
@@ -50,7 +50,11 @@
         {
             "Location": "Head",
             "Hardpoints": [
-            ],
+				{"WeaponMount": "Ballistic","Omni": false},
+				{"WeaponMount": "Energy","Omni": false},
+				{"WeaponMount": "Missile","Omni": false},
+				{"WeaponMount": "AntiPersonnel","Omni": false}			
+			],
             "Tonnage": 0,
             "InventorySlots": 2,
             "MaxArmor": 45,
@@ -60,8 +64,10 @@
         {
             "Location": "LeftArm",
             "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false}
+				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
+				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
+				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
+				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -72,8 +78,10 @@
         {
             "Location": "LeftTorso",
             "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false}
+				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
+				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
+				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
+				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
@@ -84,7 +92,10 @@
         {
             "Location": "CenterTorso",
             "Hardpoints": [
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
+				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
+				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
+				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
+				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 14,
@@ -95,8 +106,10 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false}
+				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
+				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
+				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
+				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 12,
@@ -107,8 +120,10 @@
         {
             "Location": "RightArm",
             "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false}
+				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
+				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
+				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
+				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
@@ -179,11 +194,11 @@
             "z": 1
         }
     ],
-    "VariantName": "AS-GSZ",
+    "VariantName": "AS0-MG",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Munchkin",
-    "YangsThoughts": "This Legendary variant is barely spoken of for fear it might appear, bringing 4 massive Gauss Rifles to the field on a very very slow plattform"
+    "StockRole": "Elite Battlemech",
+    "YangsThoughts": "Joermungandr named for the great 'Midgard Serpent' that will herald Ragnarok and bring an end to the Gods, does this 'Mech herald a rain of Fire and Death."
 }

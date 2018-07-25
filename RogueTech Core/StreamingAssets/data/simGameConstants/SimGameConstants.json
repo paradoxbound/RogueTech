@@ -86,14 +86,14 @@
 		"VictorySalvageLostPerMechDestroyed" : 0.0,
 		"RetreatSalvageLostPerMechDestroyed" : 0.20,
 		"DefeatSalvageLostPerMechDestroyed" : 0.25,
-		"DefaultChassisWeight" : 5,
-        "DefaultWeaponWeight" : 6,
-        "DefaultComponentWeight" : 3,
-		"DefaultMechPartWeight" : 6,
+		"DefaultChassisWeight" : 3,
+        "DefaultWeaponWeight" : 4,
+        "DefaultComponentWeight" : 1,
+		"DefaultMechPartWeight" : 5,
 		"RetreatRewardModifier" : 0.5,
 		"DefeatRewardModifier" : 0.2,
 		"PrioritySalvageModifier" : 0.25,
-		"DestroyedMechRecoveryChance" : 1,		
+		"DestroyedMechRecoveryChance" : 0.25,		
 		"VeryRareWeaponLevel" :[
 			4,
 			5
@@ -116,7 +116,7 @@
 			3
 		],
 		"RareUpgradeChance" : -4,
-		"UpgradeChanceDivisor" : 30,
+		"UpgradeChanceDivisor" : 100,
 		"ItemAutoCullLevel" : 40,		
    },
    "Story" : {

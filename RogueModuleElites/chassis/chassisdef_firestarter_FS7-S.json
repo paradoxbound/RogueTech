@@ -56,7 +56,7 @@
 				{"WeaponMount": "AntiPersonnel","Omni": false}			
 			],
             "Tonnage": 0,
-            "InventorySlots": 1,
+            "InventorySlots": 2,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16
@@ -84,7 +84,7 @@
 				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 80,
             "MaxRearArmor": 40,
             "InternalStructure": 40
@@ -98,7 +98,7 @@
 				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 14,
             "MaxArmor": 110,
             "MaxRearArmor": 55,
             "InternalStructure": 55
@@ -112,7 +112,7 @@
 				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
-            "InventorySlots": 10,
+            "InventorySlots": 12,
             "MaxArmor": 80,
             "MaxRearArmor": 40,
             "InternalStructure": 40
@@ -135,7 +135,7 @@
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 2,
             "MaxArmor": 80,
             "MaxRearArmor": -1,
             "InternalStructure": 40
@@ -144,7 +144,7 @@
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
-            "InventorySlots": 4,
+            "InventorySlots": 2,
             "MaxArmor": 80,
             "MaxRearArmor": -1,
             "InternalStructure": 40
