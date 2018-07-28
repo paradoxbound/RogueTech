@@ -70,6 +70,14 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+0988 PA1 Fixes6
+CC Patches
+Adds 3 more ECM
+Stealth and NSS require ECM installed
+Torso cockpit for every mech
+MechEngineer updated: minimum heatsinks count now required
+Charles b: Falling damage scaled by Tonnage
+
 0988 PA1 Fixes5
 Enabled fractional accounting
 Made some fixes because of it

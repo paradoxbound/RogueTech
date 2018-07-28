@@ -16,7 +16,8 @@
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},
-		"Flags" : { "flags" : [ "not_broken" ] }		
+		"Flags" : { "flags" : [ "not_broken" ] },
+		"RequiredCategory" : { "CategoryID" : "ECM"}		
 	},
     "Description" : {
         "Cost" : 500000,
@@ -27,11 +28,11 @@
         "UIName" : "Stealth Armor",
         "Id" : "emod_armorslots_stealth",
         "Name" : "Stealth Armor",
-        "Details" : "Developed by the Capellan Confederation, Stealth Armor is a modern day equivalent of the Star League era Null Signature System. Reserves 6 slots",
+        "Details" : "Developed by the Capellan Confederation, Stealth Armor is a modern day equivalent of the Star League era Null Signature System. Reserves 6 slots and requires an ECM.",
         "Icon" : "uixSvgIcon_action_end"
     },
-    "BonusValueA" : "+1 Defense|-30% Visbility|",
-    "BonusValueB" : "+1 Evasion Gain&Max|+10 Heat/turn",
+    "BonusValueA" : "+1 Evasion Gain&Max|",
+    "BonusValueB" : "-40% Visbility|+6 Heat/turn",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
@@ -61,66 +62,15 @@
                 "range" : 0,
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
-                "showInTargetPreview" : true,
-                "showInStatusPanel" : true
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StealthArmor",
-                "Name" : "Active Stealth Armor",
-                "Details" : "Provides a +1 difficulty to hit and reduced visibility.",
-                "Icon" : "uixSvgIcon_equipment_Gyro"
-            },
-            "nature" : "Buff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "ToHitThisActor",
-                "operation" : "Float_Add",
-                "modValue" : "1.0",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "NotSet",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
-        },
-        {
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : 1,
-                "clearedWhenAttacked" : false
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
                 "showInTargetPreview" : false,
-                "showInStatusPanel" : false
+                "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
                 "Id" : "StealthArmor-visi",
                 "Name" : "Active Stealth Armor",
-                "Details" : "Provides a +2 difficulty to hit bonus.",
-                "Icon" : "uixSvgIcon_equipment_Gyro"
+                "Details" : "Provides increased Evasive bonus and reduced Visibility.",
+                "Icon" : "uixSvgIcon_action_end"
             },
             "nature" : "Buff",
             "statisticData" : {
@@ -128,7 +78,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "SpottingVisibilityMultiplier",
                 "operation" : "Float_Multiply",
-                "modValue" : "0.7",
+                "modValue" : "0.6",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
@@ -179,7 +129,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "EndMoveHeat",
                 "operation" : "Int_Add",
-                "modValue" : "10",
+                "modValue" : "6",
                 "modType" : "System.Int32",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",

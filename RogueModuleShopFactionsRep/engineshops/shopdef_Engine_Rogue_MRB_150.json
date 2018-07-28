@@ -16,6 +16,13 @@
     ],
     "Specials": [
 		 {
+         "ID" : "Gear_Cockpit_Torsomount",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 8
+      },	
+		 {
          "ID" : "Gear_Gyro_Ultralight",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.2,

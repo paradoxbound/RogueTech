@@ -99,7 +99,7 @@
             "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
             "ValidateForbidden" : "Cannot use {0} and {1} together"
         },
-        {
+{
             "Name" : "Cockpit",
             "DisplayName" : "Cockpit",
             "Unique" : true,
@@ -108,6 +108,7 @@
             "displayName" : "Cockpit",
             "AllowMixTags" : true,
             "AutoReplace" : true,
+            "ReplaceAnyLocation" : true,
             "MaxEquiped" : 1,
             "MaxEquipedPerLocation" : -1,
             "MinEquiped" : 1,
@@ -116,7 +117,8 @@
                     "Order" : 0
                 },
                 "Replace" : {
-                    "ComponentDefId" : "Gear_Cockpit_Generic_Standard"
+                    "ComponentDefId" : "Gear_Cockpit_Generic_Standard",
+                    "Location" : "Head"
                 }
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",

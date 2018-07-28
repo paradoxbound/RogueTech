@@ -36,7 +36,7 @@
 		{  "Name": "DFASelfDamage",  "displayName": "DFA Self Dmg Actuator",  "MaxEquipedPerLocation":  "1", "AutoReplace": "true"},
 		{  "Name": "DFADamage",  "displayName": "DFA Dmg Actuator",  "MaxEquipedPerLocation":  "1", "AutoReplace": "true"},	
 		{  "Name": "AMS",  "displayName": "Anti Missile System",  "MaxEquiped":  "1", "AutoReplace": "false"},
-		{  "Name": "ECM",  "displayName": "Electronic Counter Measures",  "MaxEquiped":  "1", "AutoReplace": "false"},
+		{  "Name": "ECM",  "displayName": "Electronic Counter Measures",  "MaxEquiped":  "1", "AutoReplace": "false", "AllowMixTags": "false"},
 		{  "Name": "SRMAmmo",  "displayName": "SRM Special Ammo",  "MaxEquiped":  "1", "AutoReplace": "false", "AllowMixTags": "false"},
 		{  "Name": "LRMAmmo",  "displayName": "LRM Special Ammo",  "MaxEquiped":  "1", "AutoReplace": "false", "AllowMixTags": "false"},
 		{  "Name": "GaussAmmo",  "displayName": "Gauss Special Ammo",  "MaxEquiped":  "1", "AutoReplace": "false", "AllowMixTags": "false"},

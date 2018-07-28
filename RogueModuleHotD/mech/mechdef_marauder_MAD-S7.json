@@ -261,7 +261,7 @@
         },			
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_ECM",
+            "ComponentDefID": "Gear_EWS",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": 0,

@@ -1,6 +1,9 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "ECM"} },
+	"Custom" :  {"Category" : { "CategoryID" : "ECM"},
+		"TonnageLimit" : { "Min" : 5, "Max" : 10 },
+		"Flags" : { "flags" : ["no_salvage"] }
+	},
 
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -10,11 +13,11 @@
         "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "Ceres",
-        "Model" : "ECM",
-        "UIName" : "ECM",
-        "Id" : "Gear_ECM",
-        "Name" : "ECM",
-        "Details" : "This basic Electronics Counter Measures scrambles Enemy Targeting and Missile Systems and is a efficient upgrade to a 'Mech's standard ECM equipment.",
+        "Model" : "PA ECM",
+        "UIName" : "PA ECM",
+        "Id" : "Gear_PA_ECM",
+        "Name" : "PA ECM",
+        "Details" : "This basic Electronics Counter Measures scrambles Enemy Targeting and Missile Systems and is designed to work for BattleArmour.",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
     "BonusValueA" : "+1 Defense.",
@@ -24,7 +27,7 @@
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
     "InventorySize" : 1,
-    "Tonnage" : 1,
+    "Tonnage" : 0,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,

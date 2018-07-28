@@ -1,4 +1,5 @@
 {
+    "MinimumHeatSinksOnMech" : 10,
     "AllowMixingHeatSinkTypes" : true,
     "FractionalAccounting" : false,
     "SaveMechDefOnMechLabConfirm" : false,
@@ -186,6 +187,7 @@
             "displayName" : "Armor",
             "AllowMixTags" : true,
             "AutoReplace" : true,
+            "ReplaceAnyLocation" : false,
             "MaxEquiped" : 1,
             "MaxEquipedPerLocation" : -1,
             "MinEquiped" : 1,
@@ -220,6 +222,7 @@
             "displayName" : "Structure",
             "AllowMixTags" : true,
             "AutoReplace" : true,
+            "ReplaceAnyLocation" : false,
             "MaxEquiped" : 1,
             "MaxEquipedPerLocation" : -1,
             "MinEquiped" : 1,
@@ -254,6 +257,7 @@
             "displayName" : "Cockpit",
             "AllowMixTags" : true,
             "AutoReplace" : true,
+            "ReplaceAnyLocation" : true,
             "MaxEquiped" : 1,
             "MaxEquipedPerLocation" : -1,
             "MinEquiped" : 1,
@@ -262,7 +266,8 @@
                     "Order" : 0
                 },
                 "Replace" : {
-                    "ComponentDefId" : "Gear_Cockpit_Generic_Standard"
+                    "ComponentDefId" : "Gear_Cockpit_Generic_Standard",
+                    "Location" : "Head"
                 }
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
@@ -288,6 +293,7 @@
             "displayName" : "Gyro",
             "AllowMixTags" : true,
             "AutoReplace" : true,
+            "ReplaceAnyLocation" : false,
             "MaxEquiped" : 1,
             "MaxEquipedPerLocation" : -1,
             "MinEquiped" : 1,
@@ -322,6 +328,7 @@
             "displayName" : "Engine Shielding",
             "AllowMixTags" : true,
             "AutoReplace" : true,
+            "ReplaceAnyLocation" : false,
             "MaxEquiped" : 1,
             "MaxEquipedPerLocation" : -1,
             "MinEquiped" : 1,
@@ -356,6 +363,7 @@
             "displayName" : "Engine Core",
             "AllowMixTags" : true,
             "AutoReplace" : true,
+            "ReplaceAnyLocation" : false,
             "MaxEquiped" : 1,
             "MaxEquipedPerLocation" : -1,
             "MinEquiped" : 1,
@@ -390,6 +398,7 @@
             "displayName" : "Leg Upgrade",
             "AllowMixTags" : true,
             "AutoReplace" : true,
+            "ReplaceAnyLocation" : false,
             "MaxEquiped" : -1,
             "MaxEquipedPerLocation" : 1,
             "MinEquiped" : 0,
@@ -407,5 +416,6 @@
             "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
             "ValidateForbidden" : "Cannot use {0} and {1} together"
         }
-    ]
+    ],
+    "BlaErrorMessage" : ""
 }

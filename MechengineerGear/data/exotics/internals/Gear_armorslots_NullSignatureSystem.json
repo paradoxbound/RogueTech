@@ -15,7 +15,9 @@
 		},	
 		"Category" : { 
 			"CategoryID" : "Armor" 
-		}			
+		},
+		"Flags" : { "flags" : [ "not_broken" ] },		
+		"RequiredCategory" : { "CategoryID" : "ECM"}
 	},
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -29,72 +31,21 @@
         "UIName" : "NullSignatureSystem",
         "Id" : "Gear_armorslots_NullSignatureSystem",
         "Name" : "Null Signature System",
-        "Details" : "The Null Signature System is another Capellan endeavour to recreate lost Star League ECM. An upgraded Stealth Armour allows this to reduce incoming hits and trades heat generation for a reduced sensor and target signature, it comes with its own ecm suite.",
+        "Details" : "The Null Signature System is another Capellan endeavour to recreate lost Star League ECM. An upgraded Stealth Armour allows this to reduce incoming hits and trades heat generation for a reduced sensor and target signature.Reserves 6 slots and requires an ECM.",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
-    "BonusValueA" : "Bulwark|+10% Heat|+1 Defense|",
-    "BonusValueB" : "-25% Signature&Visibility.",
+    "BonusValueA" : "Bulwark|+10% Heat|",
+    "BonusValueB" : "-35% Signature&Visibility.",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
     "InventorySize" : 1,
-    "Tonnage" : 1,
+    "Tonnage" : 0,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [
-        {
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : 1,
-                "clearedWhenAttacked" : false
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : true
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "NullSigSystem",
-                "Name" : "Stealth Systems",
-                "Details" : "Active Null Signature Systems.",
-                "Icon" : "uixSvgIcon_equipment_Gyro"
-            },
-            "nature" : "Buff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "ToHitThisActor",
-                "operation" : "Float_Add",
-                "modValue" : "1.0",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "NotSet",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
-        },		
 		{
 			"durationData" :
 			{
@@ -143,13 +94,13 @@
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
                 "showInTargetPreview" : false,
-                "showInStatusPanel" : false
+                "showInStatusPanel" : true
             },
             "effectType" : "StatisticEffect",
             "Description" : {
                 "Id" : "NSS-Signature_Decrease_45",
-                "Name" : "REDUCED SENSOR SIGNATURE",
-                "Details" : "Sensor Signature reduced by 45%.",
+                "Name" : "Null Signature Systems",
+                "Details" : "Active Null Signature Systems reduce visibility and grant Bulwark.",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "nature" : "Buff",
@@ -157,8 +108,8 @@
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "SensorSignatureModifier",
-                "operation" : "Float_Add",
-                "modValue" : "-0.25",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.65",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
@@ -249,7 +200,7 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StealthArmor-visi",
+                "Id" : "NSS-visi",
                 "Name" : "Active Stealth Armor",
                 "Details" : "Provides a +2 difficulty to hit bonus.",
                 "Icon" : "uixSvgIcon_equipment_Gyro"
@@ -260,7 +211,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "SpottingVisibilityMultiplier",
                 "operation" : "Float_Multiply",
-                "modValue" : "0.75",
+                "modValue" : "0.65",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
