@@ -15,7 +15,7 @@
 		"Category" : { 
 			"CategoryID" : "Structure" 
 		},
-		"Flags" : { "flags" : [ "ignore_damage", "autorepair" ] }		
+		"Flags" : { "flags" : [ "ignore_damage", "autorepair", "not_broken" ] }		
 	},
 
   
@@ -24,7 +24,7 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 500000,
-        "Rarity" : 2,
+        "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "LIC",
         "Model" : "Reinforced",

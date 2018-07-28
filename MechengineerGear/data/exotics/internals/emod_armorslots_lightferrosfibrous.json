@@ -18,11 +18,12 @@
 		},		
 		"Category" : { 
 			"CategoryID" : "Armor" 
-		}			
+		},
+		"Flags" : { "flags" : [ "not_broken" ] }		
 	},
     "Description" : {
         "Cost" : 700000,
-        "Rarity" : 80,
+        "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "Prototype",
         "Model" : "Armor Critical Slot",

@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "LRMAmmo"}, "Tag" : "ER" },
+	"Custom" :  {"Category" : { "CategoryID" : "LRMAmmo"}, "Tag" : "ER", "Flags" : { "flags" : [ "not_broken" ] } },
 
     "AmmoID" : "Ammunition_LRM",
     "Capacity" : 100,
@@ -13,7 +13,7 @@
         "UIName" : "LRM Extreme Range Ammo",
         "Id" : "Ammo_AmmunitionBox_ER_LRM",
         "Name" : "LRM ER Ammo",
-        "Details" : "Extreme Range LRM Ammo utilizes more advanced flight computers and stabilizer to drastically increase their range. Carries 100 shots. Provides a buff to all your Ammo of the same type.",
+        "Details" : "Extreme Range LRM Ammo utilizes more advanced flight computers and stabilizer to drastically increase their range. Carries <b><color=#F79232>100 rounds</color></b>. Provides a buff to all your Ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "-25% Damage|",

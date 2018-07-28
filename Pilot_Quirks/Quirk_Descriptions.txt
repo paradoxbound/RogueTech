@@ -18,8 +18,8 @@ Naive: Less XP per mission.
 Military: Small bonus to starting XP. 
 Mechwarrior: Moderate bonus to starting XP. 
 Bookish: Decrease to Guts, Piloting, and Gunnery but has increased Tactics. 
-Command: Moderate boost to maximum XP. 
-Officer: Large boost to maximum XP. 
+Command: Moderate boost to XP gain. 
+Officer: Large boost to XP gain. 
 Unstable: Mood changes every day. 
 Jinxed: Easier for this pilot to-be-hit, harder for them to-hit. 
 Klutz: Reduced stability from piloting. 

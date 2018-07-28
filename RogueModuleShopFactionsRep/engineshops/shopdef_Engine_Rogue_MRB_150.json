@@ -12,34 +12,51 @@
         "tagSetSourceFile": ""
     },
     "Inventory": [
+  
+    ],
+    "Specials": [
+		 {
+         "ID" : "Gear_Gyro_Ultralight",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 12		 
+      },
+	  {
+         "ID" : "Gear_Gyro_HeavyDuty",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 13		 
+      },
       {
          "ID" : "emod_engineslots_xl_center",
          "Type" : "HeatSink",
          "DiscountModifier" : 1.0,
-         "Count" : 0
+         "Count" : 0,
+			"Weight" : 10		 
       },
       {
          "ID" : "emod_armorslots_ferrosfibrous",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
-         "Count" : 0
+         "Count" : 0,
+			"Weight" : 11		 
       },
       {
          "ID" : "emod_structureslots_endocomposite",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
-         "Count" : 0
-      },
+         "Count" : 0,
+			"Weight" : 7		 
+      },	  
       {
          "ID" : "emod_armorslots_stealth",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
-         "Count" : 0
-      }	  
- 
-  
-    ],
-    "Specials": [
+         "Count" : 0,
+			"Weight" : 6		 
+      },	  
   	
 	
 	]

@@ -58,7 +58,12 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [],
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }			
+			],
             "Tonnage": 0,
             "InventorySlots": 8,
             "MaxArmor": 130,
@@ -143,7 +148,11 @@
                 {
                     "WeaponMount": "Energy",
                     "Omni": false
-                }
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }				
             ],
             "Tonnage": 0,
             "InventorySlots": 12,

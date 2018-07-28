@@ -3,7 +3,7 @@
 
   "Enabled": true,
 
-  "Version": "2.4",
+  "Version": "2.6",
   "Description": "Adds basic panic system, based on mpstark's Punchin' Out.",
   "Author": "RealityMachina, forked from mpstark's work - Hard forked and Modified by donZappo and gnivler",
   "Website": "https://github.com/gnivler/PanicSystem",
@@ -12,7 +12,6 @@
 
   "Settings": {
     "Debug": false,
-    "EnableDebug": false, /* legacy compat */
     "PlayerCharacterAlwaysResists": false,
     "PlayerTeamCanPanic": true,
     "EnemiesCanPanic": true,

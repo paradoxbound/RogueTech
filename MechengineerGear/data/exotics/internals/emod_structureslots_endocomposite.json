@@ -18,11 +18,12 @@
 		},
 		"Category" : { 
 			"CategoryID" : "Structure" 
-		}		
+		},
+		"Flags" : { "flags" : [ "not_broken" ] }			
 	},
     "Description" : {
         "Cost" : 500000,
-        "Rarity" : 4,
+        "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "Prototype",
         "Model" : "Structure Critical Slot",

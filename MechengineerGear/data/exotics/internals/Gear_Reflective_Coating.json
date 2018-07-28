@@ -82,7 +82,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierEnergy",
                 "operation" : "Float_Multiply",
-                "modValue" : "0.98",
+                "modValue" : "0.8",
                 "modType" : "System.Single"
             },
             "tagData" : null,
@@ -127,7 +127,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierBallistic",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.01",
+                "modValue" : "1.1",
                 "modType" : "System.Single"
             },
             "tagData" : null,
@@ -172,7 +172,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierMissile",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.01",
+                "modValue" : "1.1",
                 "modType" : "System.Single"
             },
             "tagData" : null,

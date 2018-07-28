@@ -26,7 +26,7 @@
 			"CategoryID" : "EngineCore",
 			"Placeholder" : true
 		},
-		"Flags" : { "flags" : [ "default" ] }
+		"Flags" : { "flags" : [ "default", "invalid" ] }
 	},
     "DissipationCapacity" : 0,
     "Description" : {

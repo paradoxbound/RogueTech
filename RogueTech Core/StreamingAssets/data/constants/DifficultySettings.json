@@ -281,7 +281,7 @@
 				},				
 				{
 					"ID": "diff_start_cent",
-					"Name": "Centurion",
+					"Name": "Centurion-A2",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
@@ -329,7 +329,7 @@
 				},
 				{
 					"ID": "diff_start_kinto",
-					"Name": "Kintaro",
+					"Name": "Kintaro-18S",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
@@ -340,20 +340,20 @@
 					]
 				},				
 				{
-					"ID": "diff_start_plasma",
-					"Name": "Stingray",
+					"ID": "diff_start_melee",
+					"Name": "Gemji",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_stingray_SYU-1X"
+							"ConstantValue": "mechdef_crab_CRB-GI"
 						}
 					]
 				},				
 				{
 					"ID": "diff_start_gdrk",
-					"Name": "Grand Dragon",
+					"Name": "Grand Dragon-3K",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
@@ -365,7 +365,7 @@
 				},
 				{
 					"ID": "diff_start_mara",
-					"Name": "Marauder",
+					"Name": "Marauder-3R",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
@@ -1575,7 +1575,7 @@
 			"Options": [
 				{
 					"ID": "diff_SM_supereasy",
-					"Name": "5580000",
+					"Name": "6580000",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
@@ -1587,7 +1587,7 @@
 				},
 				{
 					"ID": "diff_SM_easy",
-					"Name": "3580000",
+					"Name": "4080000",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
@@ -1599,7 +1599,7 @@
 				},
 				{
 					"ID": "diff_SM_medium",
-					"Name": "2880000",
+					"Name": "3210000",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
@@ -1611,7 +1611,7 @@
 				},
 				{
 					"ID": "diff_SM_hard",
-					"Name": "2000000",
+					"Name": "2500000",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
@@ -1623,16 +1623,28 @@
 				},
 				{
 					"ID": "diff_SM_veryhard",
-					"Name": "1340000",
+					"Name": "1800000",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingCBills",
-							"ConstantValue": "180000"
+							"ConstantValue": "1800000"
 						}
 					]
-				}
+				},
+				{
+					"ID": "diff_SM_veryhard2",
+					"Name": "1000000",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingCBills",
+							"ConstantValue": "1000000"
+						}
+					]
+				}				
 			]
 		},
 		{
@@ -2572,7 +2584,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 0,
+			"DefaultIndex": 3,
 			"Options": [
 				{
 					"ID": "diff_SS_10",

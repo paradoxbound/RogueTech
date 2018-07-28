@@ -14,12 +14,6 @@
     },
     "Inventory": [
         {
-            "ID": "Weapon_SRM_SRM4_STREAK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-        {
             "ID": "Weapon_SRM_SRM_HAYWIRE",
             "Type": "Weapon",
             "DiscountModifier": 1,
@@ -39,5 +33,13 @@
         }		
 		
     ],
-    "Specials": []
+    "Specials": [
+        {
+            "ID": "Weapon_SRM_SRM4_STREAK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 20			
+        },	
+	]
 }

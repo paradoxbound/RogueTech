@@ -30,7 +30,7 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
     "Description" : {
         "Cost" : 780000,
-        "Rarity" : 0,
+        "Rarity" : 6,
         "Purchasable" : true,
         "Manufacturer" : "Fusigon",
         "Model" : "Heavy Particle Projector Cannon",
@@ -59,7 +59,7 @@
                 "useActivationsOfTarget" : true,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : -1,
+                "stackLimit" : 1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {

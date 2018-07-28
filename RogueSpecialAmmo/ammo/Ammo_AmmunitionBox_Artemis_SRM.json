@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Artemis" },
+	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Artemis", "Flags" : { "flags" : [ "not_broken" ] }	},
 
     "AmmoID" : "Ammunition_SRM",
     "Capacity" : 60,
@@ -13,7 +13,7 @@
         "UIName" : "SRM Artemis Ammo",
         "Id" : "Ammo_AmmunitionBox_Artemis_SRM",
         "Name" : "SRM Artemis Ammo",
-        "Details" : "Artemis SRM's carry an advanced target and tracking system increasing its accuracy on the battlefield. Carries 60 shots. Provides a buff to all your Ammo of the same type.",
+        "Details" : "Artemis SRM's carry an advanced target and tracking system increasing its accuracy on the battlefield. Carries <b><color=#F79232>60 rounds</color></b>. Provides a buff to all your Ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "+1 Accuracy.",

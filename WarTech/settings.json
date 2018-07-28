@@ -1,5 +1,6 @@
 {
 "AttackPercentagePerPlayerMission" : 10,
+"PercentageForControl" : 30,
 "WeightOfNeighbours" : 1,
 "priorityContactPayPercentage": 2,
 "FatiquePerLostAttack" : 0.5,

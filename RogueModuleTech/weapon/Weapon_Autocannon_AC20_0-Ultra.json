@@ -30,7 +30,7 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_AC20_Single",
     "Description" : {
         "Cost" : 1180000,
-        "Rarity" : 0,
+        "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "Kali Yama",
         "Model" : "Shredder Autocannon",

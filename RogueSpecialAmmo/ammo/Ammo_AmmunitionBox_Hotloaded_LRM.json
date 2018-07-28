@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "LRMAmmo"}, "Tag" : "Hotloaded" },
+	"Custom" :  {"Category" : { "CategoryID" : "LRMAmmo"}, "Tag" : "Hotloaded", "Flags" : { "flags" : [ "not_broken" ] } },
 
     "AmmoID" : "Ammunition_LRM",
     "Capacity" : 100,
@@ -13,7 +13,7 @@
         "UIName" : "LRM Hotloaded Ammo",
         "Id" : "Ammo_AmmunitionBox_Hotloaded_LRM",
         "Name" : "LRM Hotloaded Ammo",
-        "Details" : "Hotloaded LRM reduce the minimum range of their launchers but makes them less reliable. Hotloaded LRM Ammo Bins each contain 100 rounds. Provides a buff to all your ammo of the same type.",
+        "Details" : "Hotloaded LRM reduce the minimum range of their launchers but makes them less reliable. Hotloaded LRM Ammo Bins each contain <b><color=#F79232>100 rounds</color></b>. Provides a buff to all your ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "-90MinRange|",
@@ -89,7 +89,7 @@
 				"statName" : "MinRange",
 				"operation" : "Float_Add",
 				"modValue" : "-90.0",
-				"modType" : "System.Single"
+				"modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "NotSet",

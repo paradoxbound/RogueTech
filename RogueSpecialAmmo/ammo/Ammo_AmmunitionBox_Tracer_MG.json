@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "MGAmmo"}, "Tag" : "Tracer" },
+	"Custom" :  {"Category" : { "CategoryID" : "MGAmmo"}, "Tag" : "Tracer", "Flags" : { "flags" : [ "not_broken" ] } },
 
     "AmmoID" : "Ammunition_MG",
     "Capacity" : 150,
@@ -13,7 +13,7 @@
         "UIName" : "MG Tracer Ammo",
         "Id" : "Ammo_AmmunitionBox_Tracer_MG",
         "Name" : "MG Tracer Ammo",
-        "Details" : "Tracer ammunition are slug-firing rounds to aid in the targeting of rapid-firing weapons. Inserted at regular intervals with regular rounds, a small amount of pyrotechnical chemical at the base of the tracer produces a bright light as it moves through the air. The glowing effect shows the path of the weapon's shots so that the firer may easily adjust their aim for maximum effect. Contains 150 Shots.",
+        "Details" : "Tracer ammunition are slug-firing rounds to aid in the targeting of rapid-firing weapons. Inserted at regular intervals with regular rounds, a small amount of pyrotechnical chemical at the base of the tracer produces a bright light as it moves through the air. The glowing effect shows the path of the weapon's shots so that the firer may easily adjust their aim for maximum effect. Contains <b><color=#F79232>150 rounds</color></b>.",
         "Icon" : "uixSvgIcon_ammoBox_Support"
     },
     "BonusValueA" : "+1 Accuracy",

@@ -13,19 +13,6 @@
         "tagSetSourceFile": ""
     },
     "Inventory": [
-
-		        {
-            "ID": "Weapon_PPC_PPC_HEAVY",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-	  {
-         "ID" : "Gear_PPC_Capacitator",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-      },
       {
          "ID" : "Gear_JumpJet_Improved_Heavy",
          "Type" : "JumpJet",
@@ -58,5 +45,20 @@
         }	  
 
     ],
-    "Specials": []
+    "Specials": [
+        {
+            "ID": "Weapon_PPC_PPC_HEAVY",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+	  {
+         "ID" : "Gear_PPC_Capacitator",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 15		 
+      }	
+	]
 }

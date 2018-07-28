@@ -12,40 +12,7 @@
         "tagSetSourceFile": ""
     },
     "Inventory": [
-       {
-            "ID": "Weapon_Gauss_Magshot",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0		
-        },	
-        {
-            "ID": "Gear_Leg_Talons",
-            "Type": "Upgrade",
-            "DiscountModifier": 1,
-            "Count": 0
-		
-        },		
-	  {
-         "ID" : "Gear_TTS_AdvancedTC",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-	 
-      },
-        {
-            "ID": "Gear_Combat_Shield_Medium",
-            "Type": "Upgrade",
-            "DiscountModifier": 1,
-            "Count": 0
-		
-        },	  
-	  {
-         "ID" : "Gear_Supercharger",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.1,
-         "Count" : 0
-	 
-      },	
+
       {
          "ID" : "Ammo_AmmunitionBox_Deadfire_LRM",
          "Type" : "AmmunitionBox",
@@ -130,6 +97,41 @@
       }	  
     ],
     "Specials": [
+       {
+            "ID": "Weapon_Gauss_Magshot",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 5		
+        },			
+	  {
+         "ID" : "Gear_TTS_AdvancedTC",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 3	 
+      },
+        {
+            "ID": "Gear_Combat_Shield_Medium",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 6			
+        },	  
+	  {
+         "ID" : "Gear_Supercharger",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.1,
+         "Count" : 0,
+			"Weight" : 10		 
+      },
+	  {
+         "ID" : "Gear_MASC",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.1,
+         "Count" : 0,
+			"Weight" : 10		 
+      },	  
   	
 	
 	]

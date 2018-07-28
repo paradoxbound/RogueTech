@@ -18,7 +18,8 @@
 		},
 		"Category" : { 
 			"CategoryID" : "Armor" 
-		}				
+		},
+		"Flags" : { "flags" : [ "not_broken" ] }		
 	},
     "Description" : {
         "Cost" : 500000,

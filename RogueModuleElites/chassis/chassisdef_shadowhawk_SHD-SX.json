@@ -8,7 +8,7 @@
         "UIName": "Strix",
         "Id": "chassisdef_shadowhawk_SHD-SX",
         "Name": "Strix",
-        "Details": "Strix, in the mythology of terran antiquity, was a bird of ill omen, the product of metamorphosis, that fed on human flesh and blood. It also referred to witches and related maleficent folkloric beings. Another typical Solaris 'Mech is it build as much for show as for efficiency.",
+        "Details": "Strix, in the mythology of Terran antiquity, was a bird of ill omen, the product of metamorphosis, that fed on human flesh and blood. It also referred to witches and related maleficent folkloric beings. Another typical Solaris 'Mech is it build as much for show as for efficiency.",
         "Icon": "uixTxrIcon_shadowhawk"
     },
     "MovementCapDefID": "movedef_shadowhawk_SHD-SX",
@@ -200,5 +200,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Elite Battlemech",
-    "YangsThoughts": "Strix, in the mythology of terran antiquity, was a bird of ill omen, the product of metamorphosis, that fed on human flesh and blood. It also referred to witches and related maleficent folkloric beings. Another typical Solaris 'Mech is it build as much for show as for efficiency."
+    "YangsThoughts": "Strix, in the mythology of Terran antiquity, was a bird of ill omen, the product of metamorphosis, that fed on human flesh and blood. It also referred to witches and related maleficent folkloric beings. Another typical Solaris 'Mech is it build as much for show as for efficiency."
 }

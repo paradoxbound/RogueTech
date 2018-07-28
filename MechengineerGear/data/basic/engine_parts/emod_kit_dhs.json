@@ -29,7 +29,7 @@
     "DissipationCapacity" : 0,
     "Description" : {
         "Cost" : 5000000,
-        "Rarity" : 4,
+        "Rarity" : 7,
         "Purchasable" : true,
         "Manufacturer" : "Lostech",
         "Model" : "Engine Kit",

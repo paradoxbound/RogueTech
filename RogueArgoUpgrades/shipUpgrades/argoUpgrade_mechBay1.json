@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay1",
         "Name" : "Mech Bay 1",
-        "Details" : "The <i>Argo</i>'s Mech Bay is vast, spacious, and meant to be entirely managed by complex automation. Currently, six of the 18 total 'Mech cubicles are powered and in working order, and almost none of the automation.",
+        "Details" : "The <i>Argo</i>'s Mech Bay is vast, spacious, and meant to be entirely managed by complex automation. Currently, 6 of the 18 total 'Mech cubicles are powered and in working order, and almost none of the automation.",
         "Icon" : "uixSvgIcon_shipUpgrade_mechbay1"
     },
     "Illustration" : "uixTxrSpot_MechBay",

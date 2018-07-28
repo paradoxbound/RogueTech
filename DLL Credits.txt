@@ -119,3 +119,12 @@ Armor Repair
 
 By FlukeFiddler
 CHaracter screen replacer
+
+By CptMooreB
+MechEngineer
+
+By Denaden
+CustomComponents
+
+By vulture82
+The Icons

@@ -70,6 +70,43 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+0988 PA1 Fixes5
+Enabled fractional accounting
+Made some fixes because of it
+Knockdown now deals damage
+
+
+0988 PA1 Fixes4
+Ammo shot counts now coloured
+Added RogueTech Icons by Vulture82
+Linted couple more files
+Replaced stingray option with Gemji
+Removed couple advanced mechs from the randomstart
+Halfed Cbill workorder costs of composite structure
+Fixed some missing ap hardpoints
+AIM updated to 2.0 release
+Cockpit destruction destroys mech
+
+Possible crash fix in discord, needs proper testing
+https://discord.gg/PWbaqq9
+
+
+0988 PA1 Fixes 3
+Comstar Pilot fixed
+Increased moreisless values
+Engine cores can now randomly appear in shops
+Advanced gear is now tied to special chance, no more unlimited anything
+Panic system fixed to 2.6
+MoreIsLess tweak for RT
+No XP Cap but reduced xp gain, officers and commanders get more xp
+
+0988 PA1 Fixes 2
+Panic System patched
+Wartech patched
+Fixed engine placeholder not invalidating a mech
+Fixed Reactive/Reflective multipliers
+Added not_broken tag to every ammobox, improper munitions are a safety hazard
+
 0988 PA1 HF1
 Updated to correct wartech
 
@@ -91,7 +128,7 @@ Integration of MechEngineer by CptMooreB has begun
 Many Rules rewritten to account for the possibilities of MechEngineer
 Advanced materials got nerfed they now represent patchwork additions
 Command console can now be looted and installed, increased weight
-Center torso is now always repaired when assembling a mech
+
 
 Excess jump jets may be deleted on old save
 

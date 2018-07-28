@@ -13,19 +13,6 @@
         "tagSetSourceFile": ""
     },
     "Inventory": [
-
-        {
-            "ID": "Weapon_PPC_PPCER_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0
-        },
-		 {
-         "ID" : "Gear_Gyro_Ultralight",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-      },		
       {
          "ID" : "Gear_JumpJet_Improved_Assault",
          "Type" : "JumpJet",
@@ -52,5 +39,14 @@
       }	  
 
     ],
-    "Specials": []
+    "Specials": [
+        {
+            "ID": "Weapon_PPC_PPCER_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight" : 5			
+        }
+	
+	]
 }

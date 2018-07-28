@@ -18,7 +18,7 @@
     "MinTonnage" : 60,
     "MaxTonnage" : 100,
     "Description" : {
-        "Cost" : 500000,
+        "Cost" : 900000,
         "Rarity" : 5,
         "Purchasable" : false,
         "Manufacturer" : "Doering Electronics",
@@ -39,7 +39,7 @@
     "Tonnage" : 6,
     "AllowedLocations" : "Head",
     "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
+    "CriticalComponent" : true,
     "statusEffects" : [
         {
             "durationData" : {

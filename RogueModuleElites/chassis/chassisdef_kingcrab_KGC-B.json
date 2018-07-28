@@ -8,7 +8,7 @@
         "UIName": "Behemoth",
         "Id": "chassisdef_kingcrab_KGC-B",
         "Name": "Behemoth",
-        "Details": "The Behemoth, named after terran mythology, is this mech designed to withstand more Punishment than any other Mech Conceivable to bring its 2 UAC20 to bear.",
+        "Details": "The Behemoth, named after Terran mythology, this 'Mech is designed to withstand more punishment than any other 'Mech conceivable while bringing its 2 UAC20's to bear.",
         "Icon": "uixTxrIcon_kingcrab"
     },
     "MovementCapDefID": "movedef_kingcrab_KGC-0000",
@@ -200,5 +200,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Elite BattleMech",
-    "YangsThoughts": "The Behemoth, named after terran mythology, is this mech designed to withstand more Punishment than any other Mech Conceivable to bring its 2 UAC20 to bear."
+    "YangsThoughts": "The Behemoth, named after Terran mythology, this 'Mech is designed to withstand more punishment than any other 'Mech conceivable while bringing its 2 UAC20's to bear."
 }

@@ -19,31 +19,36 @@
             "Type": "Weapon",
             "DiscountModifier": 1,
             "Count": 0
-        },
+        } 
+    ],
+    "Specials": [
         {
             "ID": "Weapon_LRM_Thunderbolt20",
             "Type": "Weapon",
             "DiscountModifier": 1,
-            "Count": 0
+            "Count": 0,
+			"Weight" : 20			
         },	   
         {
             "ID": "Weapon_Autocannon_AC10_0-Ultra",
             "Type": "Weapon",
             "DiscountModifier": 1,
-            "Count": 0
+            "Count": 0,
+			"Weight" : 18			
          },   
          {
             "ID": "Weapon_Autocannon_AC20_0-Ultra",
             "Type": "Weapon",
             "DiscountModifier": 1,
-            "Count": 0
+            "Count": 0,
+			"Weight" : 16			
           }, 
         {
             "ID": "Weapon_Autocannon_RAC5_0-Mydron",
             "Type": "Weapon",
             "DiscountModifier": 1,
-            "Count": 0
-        }  
-    ],
-    "Specials": []
+            "Count": 0,
+			"Weight" : 14			
+        } 	
+	]
 }

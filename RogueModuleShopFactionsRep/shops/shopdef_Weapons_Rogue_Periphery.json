@@ -13,18 +13,6 @@
     },
     "Inventory": [
         {
-            "ID": "Weapon_MachineGun_MachineGun_1-HEAVY",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-        {
-            "ID": "Weapon_MachineGun_MachineGun_1-LIGHT",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },		
-        {
             "ID": "Weapon_LRM_ROCKETLAUNCHER5",
             "Type": "Weapon",
             "DiscountModifier": 1,
@@ -67,5 +55,20 @@
             "Count": 0
           }	  
     ],
-    "Specials": []
+    "Specials": [
+        {
+            "ID": "Weapon_MachineGun_MachineGun_1-HEAVY",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 9			
+        },
+        {
+            "ID": "Weapon_MachineGun_MachineGun_1-LIGHT",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 20			
+        }	
+	]
 }

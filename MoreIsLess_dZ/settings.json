@@ -1,8 +1,11 @@
 {
 	floatXPMulti : 0.9,
-	intPerXP : 10000,
-	XPMax : 60000,
-	pilot_commander_XPCeiling : 10000,
-	pilot_officer_XPCeiling : 12100,
+	intPerXP : 16000,
+	XPMax : 9999999,
+	pilot_commander_XPCeiling : 5000,
+	pilot_officer_XPCeiling : 8100,
 	QuirksEnabled : true,
+	XPCap : false,
+	pilot_commander_XPRateIncrease : 0.1,
+	pilot_officer_XPRateIncrease : 0.2
 }

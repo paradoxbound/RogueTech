@@ -3,7 +3,7 @@
     "SaveMechDefOnMechLabConfirm" : false,
 
     "AllowMixingHeatSinkTypes" : true,
-    "FractionalAccounting" : false,
+    "FractionalAccounting" : true,
 	
     "AutoFixMechDefEngine" : false,
 

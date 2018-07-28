@@ -12,33 +12,45 @@
         "tagSetSourceFile": ""
     },
     "Inventory": [
+  
+  
+    ],
+    "Specials": [
       {
          "ID" : "emod_engineslots_xxl_center",
          "Type" : "HeatSink",
          "DiscountModifier" : 1.0,
-         "Count" : 0
+         "Count" : 0,
+			"Weight" : 7		 
       },
       {
          "ID" : "emod_engineslots_light_center",
          "Type" : "HeatSink",
          "DiscountModifier" : 1.0,
-         "Count" : 0
+         "Count" : 0,
+			"Weight" : 9		 
       },
       {
-         "ID" : "Gear_armorslots_Hardened",
+         "ID" : "Gear_armorslots_NullSignatureSystem",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
-         "Count" : 0
-      },
+         "Count" : 0,
+			"Weight" : 8		 
+      }		  
       {
          "ID" : "Gear_structureslots_Composite",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
-         "Count" : 0
-      },	  
-  
-    ],
-    "Specials": [
+         "Count" : 0,
+			"Weight" : 10		 
+      },
+      {
+         "ID" : "Gear_Gyro_XL",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight" : 5		 
+      },	
   	
 	
 	]

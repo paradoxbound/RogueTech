@@ -126,7 +126,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierBallistic",
                 "operation" : "Float_Multiply",
-                "modValue" : "0.98",
+                "modValue" : "0.8",
                 "modType" : "System.Single"
             },
             "tagData" : null,

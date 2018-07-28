@@ -12,54 +12,6 @@
         "tagSetSourceFile": ""
     },
     "Inventory": [
-       {
-            "ID": "Weapon_Elite_2_PlasmaTorch",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0		
-        },
-        {
-            "ID": "Weapon_Elite_2_Chainsword",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-		
-        },
-        {
-            "ID": "Weapon_Elite_2_Jackhammer",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-		
-        },		
-        {
-            "ID": "Gear_Combat_Shield",
-            "Type": "Upgrade",
-            "DiscountModifier": 1,
-            "Count": 0
-		
-        },
-	  {
-         "ID" : "Gear_Arm_Claws",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-	 
-      },		
-	  {
-         "ID" : "Gear_Cockpit_DNI",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-	 
-      },
-	  {
-         "ID" : "Gear_LAMS",
-         "Type" : "Upgrade",
-         "DiscountModifier" : 1.2,
-         "Count" : 0
-	 
-      },		  
       {
          "ID" : "Ammo_AmmunitionBox_Inferno_SRM",
          "Type" : "AmmunitionBox",
@@ -108,6 +60,62 @@
   
     ],
     "Specials": [
+       {
+            "ID": "Weapon_Elite_2_PlasmaTorch",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 2			
+        },
+        {
+            "ID": "Weapon_Elite_2_Chainsword",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 2			
+        },
+        {
+            "ID": "Weapon_Elite_2_Jackhammer",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 2		
+        },		
+        {
+            "ID": "Gear_Combat_Shield",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 3		
+        },
+        {
+            "ID": "Gear_Leg_Talons",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 3	
+        },		
+	  {
+         "ID" : "Gear_Arm_Claws",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 3	 
+      },		
+	  {
+         "ID" : "Gear_Cockpit_DNI",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 4		 
+      },
+	  {
+         "ID" : "Gear_LAMS",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 5		 
+      },	
   	
 	
 	]

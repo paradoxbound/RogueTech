@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC20Ammo"}, "Tag" : "LFT" },
+	"Custom" :  {"Category" : { "CategoryID" : "AC20Ammo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] } },
 
     "AmmoID" : "Ammunition_AC20",
     "Capacity" : 5,
@@ -13,7 +13,7 @@
         "UIName" : "AC/20 LiveFire Training Ammo",
         "Id" : "Ammo_AmmunitionBox_LFT_AC20",
         "Name" : "AC/20 LFT Ammo",
-        "Details" : "LifeFire Training Rounds greatly reduced armor damage in exchange for massively increased stability damage. Carries 5 shots.",
+        "Details" : "LifeFire Training Rounds greatly reduced armor damage in exchange for massively increased stability damage. Carries <b><color=#F79232>5 rounds</color></b>.",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA" : "-75% Dmg|",
@@ -121,7 +121,6 @@
                 "statName" : "Instability",
                 "operation" : "Float_Multiply",
                 "modValue" : "2",
-                "modType" : "System.Single",			
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",

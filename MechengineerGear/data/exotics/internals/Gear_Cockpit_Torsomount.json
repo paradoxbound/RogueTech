@@ -32,7 +32,7 @@
     "Tonnage" : 4,
     "AllowedLocations" : "CenterTorso",
     "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
+    "CriticalComponent" : true,
     "statusEffects" : [
         {
             "durationData" : {

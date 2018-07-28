@@ -39,5 +39,20 @@
             "Count" : 0
         }	
     ],
-    "Specials": []
+    "Specials": [
+        {
+            "ID": "Weapon_Gauss_Gauss_0-STOCK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_Gauss_Gauss_HEAVY",
+            "Type": "Weapon",
+            "DiscountModifier": 1.2,
+            "Count" : 0,
+			"Weight" : 10			
+        }	
+	]
 }

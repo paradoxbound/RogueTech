@@ -32,7 +32,7 @@
     "Tonnage" : 2,
     "AllowedLocations" : "Head",
     "DisallowedLocations" : "All",
-    "CriticalComponent" : false,
+    "CriticalComponent" : true,
     "statusEffects" : [
         {
             "durationData" : {

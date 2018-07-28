@@ -1,6 +1,6 @@
 {
 	
-	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Tandem" },
+	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Tandem", "Flags" : { "flags" : [ "not_broken" ] } },
 
     "AmmoID" : "Ammunition_SRM",
     "Capacity" : 60,
@@ -13,7 +13,7 @@
         "UIName" : "SRM TC Ammo",
         "Id" : "Ammo_AmmunitionBox_Tandem_SRM",
         "Name" : "SRM TandemCharge Ammo",
-        "Details" : "Tandem Charge SRM carry a double payload increasing their chance to destroy vital components at cost of raw damage. Carries 60 shots. Provides a buff to all your Ammo of the same type.",
+        "Details" : "Tandem Charge SRM carry a double payload increasing their chance to destroy vital components at cost of raw damage. Carries <b><color=#F79232>60 rounds</color></b>. Provides a buff to all your Ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "+200% Crit|",

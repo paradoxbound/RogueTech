@@ -1,17 +1,28 @@
 {
     "ID": "shopdef_Weapons_Rogue_Games",
     "RequirementTags": {
-        "items": [      "planet_size_medium",
+        "items": [     
+		      "planet_name_solaris",
+      "planet_size_medium",
       "planet_climate_terran",
+      "planet_other_volcanic",
+      "planet_other_megaforest",
+      "planet_feature_asteroids",
+      "planet_feature_moon01",
+      "planet_other_moon",
+      "planet_pop_medium",
+      "planet_other_megacity",
       "planet_civ_innersphere",
-      "planet_other_hub",
-      "planet_pop_large",
-      "planet_other_starleague",
-      "planet_other_comstar",
-      "planet_industry_research",
       "planet_industry_rich",
       "planet_industry_recreation",
-	  "planet_other_megacity"
+      "planet_industry_research",
+      "planet_industry_manufacturing",
+      "planet_other_comstar",
+      "planet_other_starleague",
+      "planet_other_hub",
+      "planet_other_blackmarket",
+      "planet_other_pirate",
+      "planet_ruins"
 		],
         "tagSetSourceFile": ""
     },
@@ -21,73 +32,89 @@
         ],
         "tagSetSourceFile": ""
     },
-    "Inventory": [
+    "Inventory": [	
+ 
+  
+    ],
+    "Specials": [
+	
        {
             "ID": "Weapon_Elite_2_PlasmaTorch",
             "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0		
+            "DiscountModifier": 2,
+            "Count": 0,
+			"Weight" : 30			
         },
         {
             "ID": "Weapon_Elite_2_Chainsword",
             "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-		
+            "DiscountModifier": 2,
+            "Count": 0,
+			"Weight" : 30			
         },
         {
             "ID": "Gear_Leg_Talons",
             "Type": "Upgrade",
-            "DiscountModifier": 1,
-            "Count": 0
-		
+            "DiscountModifier": 2,
+            "Count": 0,
+			"Weight" : 27			
         },
         {
             "ID": "Gear_Cockpit_Spiked_Helmet",
             "Type": "Upgrade",
             "DiscountModifier": 1,
-            "Count": 0
-		
+            "Count": 0,
+			"Weight" : 10		
         },
         {
             "ID": "Gear_Combat_Shield",
             "Type": "Upgrade",
-            "DiscountModifier": 1,
-            "Count": 0
-		
+            "DiscountModifier": 1.5,
+            "Count": 0,
+			"Weight" : 15			
         },
+        {
+            "ID": "Gear_Combat_Shield_Medium",
+            "Type": "Upgrade",
+            "DiscountModifier": 1.3,
+            "Count": 0,
+			"Weight" : 12			
+        },
+        {
+            "ID": "Gear_Combat_Shield_Small",
+            "Type": "Upgrade",
+            "DiscountModifier": 1.1,
+            "Count": 0,
+			"Weight" : 11			
+        },		
         {
             "ID": "Gear_Solaris_Spikes",
             "Type": "Upgrade",
             "DiscountModifier": 1,
-            "Count": 0
-		
+            "Count": 0,
+			"Weight" : 16			
         },		
 	  {
          "ID" : "Gear_Cockpit_DNI",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.2,
-         "Count" : 0
-	 
+         "Count" : 0,
+		"Weight" : 28
       },
 	  {
          "ID" : "Gear_Supercharger",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.1,
-         "Count" : 0
-	 
+         "Count" : 0,
+		"Weight" : 22	 
       },
 	  {
          "ID" : "Gear_Myomer_TSM",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.2,
-         "Count" : 0
-	 
+         "Count" : 0,
+		"Weight" : 11	 
       }		
- 
-  
-    ],
-    "Specials": [
   	
 	
 	]

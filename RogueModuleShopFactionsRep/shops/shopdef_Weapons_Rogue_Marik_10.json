@@ -33,5 +33,13 @@
         }		
 		
     ],
-    "Specials": []
+    "Specials": [
+        {
+            "ID": "Weapon_SRM_SRM2_STREAK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 30
+        }	
+	]
 }

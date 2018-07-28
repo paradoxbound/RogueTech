@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Deadfire" },
+	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Deadfire", "Flags" : { "flags" : [ "not_broken" ] } },
 
     "AmmoID" : "Ammunition_SRM",
     "Capacity" : 80,
@@ -13,7 +13,7 @@
         "UIName" : "SRM DF Ammo",
         "Id" : "Ammo_AmmunitionBox_Deadfire_SRM",
         "Name" : "SRM DeadFire Ammo",
-        "Details" : "Deadfire SRM's, like their LRM counterparts, trade any advanced guidance system for a larger payload, decreasing accuracy and the already short range. Carries 80 shots. Provides a buff to all your Ammo of the same type.",
+        "Details" : "Deadfire SRM's, like their LRM counterparts, trade any advanced guidance system for a larger payload, decreasing accuracy and the already short range. Carries <b><color=#F79232>80 rounds</color></b>. Provides a buff to all your Ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "+35% Dmg&Stab|",

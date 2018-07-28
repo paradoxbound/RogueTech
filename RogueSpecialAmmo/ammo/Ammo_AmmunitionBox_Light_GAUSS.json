@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "GaussAmmo"}, "Tag" : "Light" },
+	"Custom" :  {"Category" : { "CategoryID" : "GaussAmmo"}, "Tag" : "Light", "Flags" : { "flags" : [ "not_broken" ] } },
 
     "AmmoID" : "Ammunition_GAUSS",
     "Capacity" : 10,
@@ -13,7 +13,7 @@
         "UIName" : "Gauss Light Ammo",
         "Id" : "Ammo_AmmunitionBox_Light_GAUSS",
         "Name" : "Gauss Light Ammo",
-        "Details" : "Light Gauss have a better ballistic profile allowing a slug to travel further but have reduced damage and a longer minimum range. Carries 10 shots. Provides a buff to all your Ammo of the same type.",
+        "Details" : "Light Gauss have a better ballistic profile allowing a slug to travel further but have reduced damage and a longer minimum range. Carries <b><color=#F79232>10 rounds</color></b>. Provides a buff to all your Ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA" : "-40% DMG|+1Accuracy|",

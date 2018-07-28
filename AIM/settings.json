@@ -15,7 +15,7 @@
 
   /* Show structural damage through armour.  i.e. When an armoured location is damaged, it will be displayed in a stripped pattern.  Default true. */
 
-  "PaperDollDivulgeUnderskinDamage": true,
+  "ShowUnderArmourDamage": true,
 
   /* Show tonnage in selection panel (bottom left) and target panel (top).  Mech class will be shortened.  Default false because it's too dense. */
 
@@ -33,7 +33,7 @@
   // Line of Sight
   //
 
-  /* Make lines wider or thinner.  Default 3, 2, and 1.5 times.  Set to 0 to use game default. */
+  /* Make lines wider or thinner.  Default 2 and 1.5 times of game default.  Set to 0 to not mess with it. */
 
   "LOSWidth": 2.0,
   "LOSWidthBlocked": 1.5,
@@ -43,12 +43,12 @@
 
   "LOSMarkerBlockedMultiplier": 3.0,
 
-  /* Controls whether indirect attack lines / can't attack lines are dotted. Default both true. */
+  /* Controls whether indirect attack lines / can't attack lines are dotted.  Default both true. */
 
   "LOSIndirectDotted": false,
   "LOSNoAttackDotted": true,
 
-  /* Controls whether other attack lines are dotted. Default all false. */
+  /* Controls whether other attack lines are dotted.  Default all false. */
 
   "LOSMeleeDotted": false,
   "LOSClearDotted": false,
@@ -65,7 +65,7 @@
   "LOSIndirectColor": "#22fa05",
   "LOSNoAttackColor": "",
 
-  /* Number of points of indirect attack lines and jump lines. Game uses 18. Default 48 for a smoother curve. */
+  /* Number of points of indirect attack lines and jump lines.  Game uses 18.  Default 48 for a smoother curve. */
 
   "ArcLinePoints": 48,
 
@@ -83,7 +83,7 @@
 
   "FixBossHeadCalledShotDisplay": true,
 
-  /* Enable clustering effect for called shots against mechs. Default true. */
+  /* Enable clustering effect for called shots against mechs.  Default true. */
 
   "CalledShotUseClustering": true,
 
@@ -118,12 +118,12 @@
 
   "AllowNetBonusModifier": true,
 
-  /* Allow attacks from low ground to high ground to incur accuracy penalty. */
+  /* Allow attacks from low ground to high ground to incur accuracy penalty.  Default true. */
 
   "AllowLowElevationPenalty": true,
 
-  /* Step of hit chance, range 0 to 0.2.  Game default is 0.05, or 5%.  Hit chance is always rounded down.
-   * Default 0 to remove hit chance step, so that odd piloting stat can enjoy their +2.5% hit chance. */
+  /* Step of hit chance.  Game default is 0.05, or 5%.  Hit chance is always rounded down.
+   * Default 0 to remove hit chance step, so that odd gunnery stats can enjoy their +2.5% hit chance. */
 
   "HitChanceStep": 0.0,
 
@@ -219,8 +219,8 @@
   "UnlockMeleePositioning": false,
 
   /* Specify set of hit modifiers of melee and DFA attacks. Leave empty to keep it unchanged.  Order will be followed, and letter case does not matter.
-   * Default "DFA,Height,Inspired,SelfChassis,SelfHeat,SelfStoodUp,SelfWalked,Sprint,TargetEffect,TargetEvasion,TargetProne,TargetShutdown,TargetSize,TargetTerrainMelee,WeaponAccuracy".
-   * Other options are "ArmMounted,Obstruction,Refire,SelfTerrain,SensorImpaired,TargetTerrain". */
+   * Default "DFA, Height, Inspired, SelfChassis, SelfHeat, SelfStoodUp, SelfWalked, Sprint, TargetEffect, TargetEvasion, TargetProne, TargetShutdown, TargetSize, TargetTerrainMelee, WeaponAccuracy".
+   * Other options are ArmMounted, Obstruction, Refire, SelfTerrain, SensorImpaired, TargetTerrain. */
 
   "MeleeAccuracyFactors": "DFA,ArmMounted,SelfTerrain,TargetTerrain,Inspired,SelfChassis,SelfHeat,SelfStoodUp,SelfWalked,Sprint,TargetEffect,TargetEvasion,TargetProne,TargetShutdown,TargetSize,TargetTerrainMelee,WeaponAccuracy",
 
@@ -228,10 +228,9 @@
   // Damage
   //
 
-  /* Fix the bug that damage may not be in integer, which causes other bugs.  Default true.
-   * Does not retroactively fix in-battle saves with partial damage, but will not break them or be broken by them either. */
+  /* If a location would become a zombie part with zero hp, make sure it is destroyed instead. Default true. */
 
-  "FixNonIntegerDamage": true,
+  "KillZeroHpLocation": true,
 
   //
   // Logging
@@ -242,6 +241,10 @@
    * "All" is currently same as "Critical", but more levels may be added in future.  Letter case does not matter. */
 
   "AttackLogLevel": "None",
+
+  /* Format of attack log.  Can be "csv", "tsv", or "txt" (same as tsv). Default "csv". */
+
+  "AttackLogFormat": "csv",
 
   /* If true, don't clear attack log when the game launches. */
 

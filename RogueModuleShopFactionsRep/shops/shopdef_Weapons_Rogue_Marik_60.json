@@ -14,12 +14,6 @@
     },
     "Inventory": [
         {
-            "ID": "Weapon_SRM_SRM6_STREAK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count": 0
-        },
-        {
             "ID": "Gear_TargetingTrackingSystem_I3F3",
             "Type": "Upgrade",
             "DiscountModifier": 1,
@@ -30,14 +24,23 @@
             "Type": "Upgrade",
             "DiscountModifier": 1,
             "Count": 0
-        },
+        }		
+		
+    ],
+    "Specials": [
         {
             "ID": "Weapon_Gauss_Gauss_LIGHT",
             "Type": "Weapon",
             "DiscountModifier": 1.2,
-            "Count" : 0
+            "Count" : 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_SRM_SRM6_STREAK",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 15			
         },		
-		
-    ],
-    "Specials": []
+	]
 }
