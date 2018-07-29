@@ -5,12 +5,24 @@
   "Demonym": "Hegemonian",
   "Government": "Absolute Monarchy",
   "Allies": [
-    "Marik",
-	"Liao"
   ],
   "Enemies": [
-    "MagistracyOfCanopus",
-	"TaurianConcordat"
+	"ComStar",
+	"Betrayers",
+	"AuriganMercenaries",
+	"AuriganPirates",
+	"AuriganRestoration",
+	"Davion",
+	"Kurita",
+	"Locals", 
+	"MagistracyCentrella",
+	"MagistracyOfCanopus",
+	"MajestyMetals", 
+	"Marik",
+	"Nautilus",
+	"Steiner",
+	"TaurianConcordat",
+	"Liao"
   ],
   "Presence": 1,
   "Faction": "AuriganDirectorate",

@@ -35,11 +35,11 @@
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 2,
+    "InventorySize" : 3,
     "Tonnage" : 6,
     "AllowedLocations" : "Head",
     "DisallowedLocations" : "All",
-    "CriticalComponent" : true,
+    "CriticalComponent" : false
     "statusEffects" : [
         {
             "durationData" : {

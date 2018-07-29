@@ -15,6 +15,13 @@
   
     ],
     "Specials": [
+      {
+         "ID" : "Gear_Guardian_ECM",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight" : 20		 
+      },	
 		 {
          "ID" : "Gear_Cockpit_Torsomount",
          "Type" : "Upgrade",

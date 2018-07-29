@@ -22,6 +22,13 @@
     ],
     "Specials": [
       {
+         "ID" : "Gear_ECM",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight" : 20		 
+      },	
+      {
          "ID" : "Gear_Reactive_Plating",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,

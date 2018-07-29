@@ -52,7 +52,7 @@
             "Hardpoints": [
             ],
             "Tonnage": 1,
-            "InventorySlots": 2,
+            "InventorySlots": 3,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16

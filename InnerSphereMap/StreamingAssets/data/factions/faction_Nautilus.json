@@ -6,10 +6,24 @@
   "Government": " Bandit Kingdom",
   "Allies": [
     "AuriganPirates",
-	"ComStar",
-	"AuriganDirectorate"
   ],
-  "Enemies": ["Steiner", "Marik"],
+  "Enemies": [
+	"ComStar",
+	"Betrayers",
+	"AuriganDirectorate",
+	"AuriganMercenaries",
+	"AuriganRestoration",
+	"Davion",
+	"Kurita",
+	"Locals", 
+	"MagistracyCentrella",
+	"MagistracyOfCanopus",
+	"MajestyMetals", 
+	"Marik",
+	"Steiner",
+	"TaurianConcordat",
+	"Liao"
+  ],
   "Presence": 0.1,
   "Faction": "Nautilus",
   "DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",

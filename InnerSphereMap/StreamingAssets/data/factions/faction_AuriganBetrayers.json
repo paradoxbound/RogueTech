@@ -5,11 +5,24 @@
   "Demonym": "Outworldish",
   "Government": "Alliance",
   "Allies": [
-  "Davion",
-  "ComStar"
   ],
   "Enemies": [
-  "Kurita"
+	"ComStar",
+	"AuriganDirectorate",
+	"AuriganMercenaries",
+	"AuriganPirates",
+	"AuriganRestoration",
+	"Davion",
+	"Kurita",
+	"Locals", 
+	"MagistracyCentrella",
+	"MagistracyOfCanopus",
+	"MajestyMetals", 
+	"Marik",
+	"Nautilus",
+	"Steiner",
+	"TaurianConcordat",
+	"Liao"
   ],
   "Presence": 1,
   "Faction": "Betrayers",

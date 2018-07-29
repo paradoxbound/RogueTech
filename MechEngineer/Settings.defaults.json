@@ -1,7 +1,7 @@
 {
     "MinimumHeatSinksOnMech" : 10,
     "AllowMixingHeatSinkTypes" : true,
-    "FractionalAccounting" : false,
+    "FractionalAccounting" : true,
     "SaveMechDefOnMechLabConfirm" : false,
     "PerformanceEnableAvailabilityChecks" : true,
     "DefaultEngineHeatSinkId" : "Gear_HeatSink_Generic_Standard",
@@ -268,6 +268,93 @@
                 "Replace" : {
                     "ComponentDefId" : "Gear_Cockpit_Generic_Standard",
                     "Location" : "Head"
+                },
+                "CriticalHitStates" : {
+                    "MaxStates" : 2,
+                    "DeathMethod" : "PilotKilled",
+                    "HitEffects" : [
+                        {
+                            "State" : 1,
+                            "StatusEffect" : {
+                                "durationData" : {
+                                    
+                                },
+                                "targetingData" : {
+                                    "effectTargetsCreator" : true,
+                                    "effectTriggerType" : "Passive",
+                                    "effectTargetType" : "Creator"
+                                },
+                                "effectType" : "StatisticEffect",
+                                "Description" : {
+                                    "Id" : "SesnorsDestroyed",
+                                    "Name" : "Sensors Destroyed",
+                                    "Details" : "-50% Sight and Sensor",
+                                    "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+                                },
+                                "nature" : "Debuff",
+                                "statisticData" : {
+                                    "statName" : "SensorDistanceAbsolute",
+                                    "operation" : "Float_Multiply",
+                                    "modValue" : "0.5",
+                                    "modType" : "System.Single"
+                                }
+                            }
+                        },
+                        {
+                            "State" : 1,
+                            "StatusEffect" : {
+                                "durationData" : {
+                                    
+                                },
+                                "targetingData" : {
+                                    "effectTargetsCreator" : true,
+                                    "effectTriggerType" : "Passive",
+                                    "effectTargetType" : "Creator"
+                                },
+                                "effectType" : "StatisticEffect",
+                                "Description" : {
+                                    "Id" : "SesnorsDestroyed2",
+                                    "Name" : "Sensors Destroyed",
+                                    "Details" : "-50% Sight and Sensor",
+                                    "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+                                },
+                                "nature" : "Debuff",
+                                "statisticData" : {
+                                    "statName" : "SpotterDistanceAbsolute",
+                                    "operation" : "Float_Multiply",
+                                    "modValue" : "0.5",
+                                    "modType" : "System.Single"
+                                }
+                            }
+                        },
+                        {
+                            "State" : 2,
+                            "StatusEffect" : {
+                                "durationData" : {
+                                    
+                                },
+                                "targetingData" : {
+                                    "effectTargetsCreator" : true,
+                                    "effectTriggerType" : "Passive",
+                                    "effectTargetType" : "Creator"
+                                },
+                                "effectType" : "StatisticEffect",
+                                "Description" : {
+                                    "Id" : "LifeSupportDestroyed",
+                                    "Name" : "Life Support Destroyed",
+                                    "Details" : "Take Damage on Shutdown",
+                                    "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+                                },
+                                "nature" : "Debuff",
+                                "statisticData" : {
+                                    "statName" : "ProtectsAgainstShutdownInjury",
+                                    "operation" : "Set",
+                                    "modValue" : "false",
+                                    "modType" : "System.Boolean"
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
@@ -303,6 +390,65 @@
                 },
                 "Replace" : {
                     "ComponentDefId" : "Gear_Gyro_Generic_Standard"
+                },
+                "CriticalHitStates" : {
+                    "MaxStates" : 2,
+                    "HitEffects" : [
+                        {
+                            "State" : 1,
+                            "StatusEffect" : {
+                                "durationData" : {
+                                    
+                                },
+                                "targetingData" : {
+                                    "effectTargetsCreator" : true,
+                                    "effectTriggerType" : "Passive",
+                                    "effectTargetType" : "Creator"
+                                },
+                                "effectType" : "StatisticEffect",
+                                "Description" : {
+                                    "Id" : "Gyro Critical",
+                                    "Name" : "More Stability Damage Taken",
+                                    "Details" : "Double Stability Damage taken",
+                                    "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+                                },
+                                "nature" : "Debuff",
+                                "statisticData" : {
+                                    "statName" : "ReceivedInstabilityMultiplier",
+                                    "operation" : "Float_Multiply",
+                                    "modValue" : "2.0",
+                                    "modType" : "System.Single"
+                                }
+                            }
+                        },
+                        {
+                            "State" : 2,
+                            "StatusEffect" : {
+                                "durationData" : {
+                                    
+                                },
+                                "targetingData" : {
+                                    "effectTargetsCreator" : true,
+                                    "effectTriggerType" : "Passive",
+                                    "effectTargetType" : "Creator"
+                                },
+                                "effectType" : "StatisticEffect",
+                                "Description" : {
+                                    "Id" : "Gyro Critical2",
+                                    "Name" : "Less Stability Threshhold",
+                                    "Details" : "-20 Stability Threshhold",
+                                    "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+                                },
+                                "nature" : "Debuff",
+                                "statisticData" : {
+                                    "statName" : "UnsteadyThreshold",
+                                    "operation" : "Float_Add",
+                                    "modValue" : "-20.0",
+                                    "modType" : "System.Single"
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",

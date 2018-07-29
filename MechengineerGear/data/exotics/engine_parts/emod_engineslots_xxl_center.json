@@ -16,7 +16,7 @@
 		"Flags" : { "flags" : ["engine_part"] }
 	},
     "Description" : {
-        "Cost" : 12500000,
+        "Cost" : 6250000,
         "Rarity" : 5,
         "Purchasable" : true,
         "Manufacturer" : "Generic",

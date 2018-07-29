@@ -29,7 +29,7 @@
     "Instability" : 20,
     "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
     "Description" : {
-        "Cost" : 1500000,
+        "Cost" : 1180000,
         "Rarity" : 10,
         "Purchasable" : true,
         "Manufacturer" : "Defiance",

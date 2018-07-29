@@ -17,6 +17,13 @@
     ],
     "Specials": [
       {
+         "ID" : "Gear_EWS",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight" : 20		 
+      },	
+      {
          "ID" : "emod_engineslots_xxl_center",
          "Type" : "HeatSink",
          "DiscountModifier" : 1.0,

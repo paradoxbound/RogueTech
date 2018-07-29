@@ -5,12 +5,24 @@
   "Demonym": "Confederationian",
   "Government": "Bandit Kingdom",
   "Allies": [
-    "AuriganPirates",
-    "Steiner",
-    "Kurita"
+    "AuriganPirates"
   ],
   "Enemies": [
-    "Marik"
+	"ComStar",
+	"Betrayers",
+	"AuriganDirectorate",
+	"AuriganMercenaries",
+	"AuriganRestoration",
+	"Davion",
+	"Kurita",
+	"Locals", 
+	"MagistracyOfCanopus",
+	"MajestyMetals", 
+	"Marik",
+	"Nautilus",
+	"Steiner",
+	"TaurianConcordat",
+	"Liao"
   ],
   "Presence": 1.5,
   "Faction": "MagistracyCentrella",

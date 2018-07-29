@@ -33,10 +33,10 @@
         "Rarity" : 1,
         "Purchasable" : true,
         "Manufacturer" : "Hell",
-        "Model" : "Medium Laser",
-        "UIName" : "Pirate Medium Laser",
+        "Model" : "P Medium Laser",
+        "UIName" : "Pirate M Laser",
         "Id" : "Weapon_Laser_MediumLaser_0-jrig",
-        "Name" : "Pirate Medium Laser",
+        "Name" : "Pirate M Laser",
         "Details" : "I am dumbfounded.  This dizzying array of components was jammed into a medium laser in an attempt to extract an ounce more accuracy out of an already accurate design. It’s just plain dumb, boss.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },

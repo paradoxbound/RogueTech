@@ -43,8 +43,8 @@
     "MeleeInstability": 90,
     "MeleeToHitModifier": 0,
     "DFADamage": 115,
-    "DFAToHitModifier": 0,
-    "DFASelfDamage": 115,
+    "DFAToHitModifier": -2,
+    "DFASelfDamage": 100,
     "DFAInstability": 115,
     "Locations": [
         {
@@ -56,7 +56,7 @@
 				{"WeaponMount": "AntiPersonnel","Omni": false}
             ],
             "Tonnage": 0,
-            "InventorySlots": 2,
+            "InventorySlots": 3,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16

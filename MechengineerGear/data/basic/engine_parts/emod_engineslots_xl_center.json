@@ -22,7 +22,7 @@
 		"Flags" : { "flags" : [ "engine_part" ] }
 	},
     "Description" : {
-        "Cost" : 8000000,
+        "Cost" : 4000000,
         "Rarity" : 3,
         "Purchasable" : true,
         "Manufacturer" : "Lostech",

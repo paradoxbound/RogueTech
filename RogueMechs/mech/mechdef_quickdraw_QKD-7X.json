@@ -50,28 +50,28 @@
             "DamageLevel": "Functional",
             "Location": "LeftTorso",
             "CurrentArmor": 140,
-            "CurrentRearArmor": 65,
+            "CurrentRearArmor": 55,
             "CurrentInternalStructure": 70,
             "AssignedArmor": 140,
-            "AssignedRearArmor": 65
+            "AssignedRearArmor": 55
         },
         {
             "DamageLevel": "Functional",
             "Location": "CenterTorso",
             "CurrentArmor": 200,
-            "CurrentRearArmor": 85,
+            "CurrentRearArmor": 75,
             "CurrentInternalStructure": 100,
             "AssignedArmor": 200,
-            "AssignedRearArmor": 85
+            "AssignedRearArmor": 75
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightTorso",
             "CurrentArmor": 140,
-            "CurrentRearArmor": 65,
+            "CurrentRearArmor": 55,
             "CurrentInternalStructure": 70,
             "AssignedArmor": 140,
-            "AssignedRearArmor": 65
+            "AssignedRearArmor": 55
         },
         {
             "DamageLevel": "Functional",
@@ -85,19 +85,19 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 95,
+            "CurrentArmor": 90,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 70,
-            "AssignedArmor": 95,
+            "AssignedArmor": 90,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 95,
+            "CurrentArmor": 90,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 70,
-            "AssignedArmor": 95,
+            "AssignedArmor": 90,
             "AssignedRearArmor": -1
         }
     ],
@@ -123,7 +123,7 @@
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "emod_engine_400",
-            "SimGameUID": "/ihstype=Gear_HeatSink_Generic_Double&Gear_HeatSink_Generic_Double=1",
+            "SimGameUID": "/ihstype=Gear_HeatSink_Generic_Double&Gear_HeatSink_Generic_Double=3",
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "GUID": null,

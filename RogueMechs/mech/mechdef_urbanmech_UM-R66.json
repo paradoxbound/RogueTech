@@ -241,7 +241,7 @@
             "hasPrefabName": false
         },		
         {
-            "MountedLocation": "LeftArm",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_Laser_TAG",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",

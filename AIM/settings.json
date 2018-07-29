@@ -9,6 +9,10 @@
 
   "FixMultiTargetBackout": true,
 
+  /* Fix the bug that once you attacked an headshot immune enemy, all mechs will be immune from headshots from the same direction until you load game. */
+
+  "FixGreyHeadDisease": true,
+
   /* Fix the bug that rear paper doll is incorrectly showing front structure.  Default true. */
 
   "FixPaperDollRearStructure": true,
@@ -28,6 +32,15 @@
   /* Fix the issue that walk / sprint does not project line of sight / fire at same height and may leads to different results. */
 
   "FixLosPreviewHeight": true,
+
+  /* Show remaining ammo in paper doll mouseover.  Default true. */
+
+  "ShowWeaponAmmo": true,
+  "ShowAmmoBoxAmmo": true,
+
+  /* Show remaining ammo in enemy paper doll mouseover.  Default false.  Requires ShowWeaponAmmo and/or ShowAmmoBoxAmmo. */
+
+  "ShowEnemyAmmo": false,
 
   //
   // Line of Sight
@@ -78,8 +91,7 @@
   "FixVehicleCalledShot": true,
 
   /* Did you know you can called shot the head of headshot immune boss?
-   * You can do that before any headshot immune unit has been attacked (not necessary an enemy).  And, surprise, it won't have any effect!
-   * Default true.  Disable to give yourself the false hope of headshoting the boss, provided FixGreyHeadDisease is true. */
+   * You can do that before any headshot immune unit has been attacked.  But it won't have any effect.  Default true. */
 
   "FixBossHeadCalledShotDisplay": true,
 
@@ -194,18 +206,6 @@
   "HitChanceFormat": "{0:0.0}%",
 
   //
-  // Hit Locations
-  //
-
-  /* Increase hit distribution precision for degrading called shots.  Default true.  Fix hit distribution bug on game ver 1.1.0 and below. */
-
-  "FixHitDistribution": true,
-
-  /* Fix the bug that once you attacked an headshot immune enemy, all mechs will be immune from headshots from the same direction until you load game. */
-
-  "FixGreyHeadDisease": true,
-
-  //
   // Melee and DFA
   //
 
@@ -225,12 +225,26 @@
   "MeleeAccuracyFactors": "DFA,ArmMounted,SelfTerrain,TargetTerrain,Inspired,SelfChassis,SelfHeat,SelfStoodUp,SelfWalked,Sprint,TargetEffect,TargetEvasion,TargetProne,TargetShutdown,TargetSize,TargetTerrainMelee,WeaponAccuracy",
 
   //
-  // Damage
+  // Hit Resolution
   //
+
+  /* Increase hit distribution precision for degrading called shots.  Default true.  Fix hit distribution bug on game ver 1.1.0 and below. */
+
+  "FixHitDistribution": true,
 
   /* If a location would become a zombie part with zero hp, make sure it is destroyed instead. Default true. */
 
   "KillZeroHpLocation": true,
+
+  /* Yang has improved autoloader's algorithm to balance ammo draw to minimise ammo explosion chance.  Default true for friends. */
+
+  "BalanceAmmoConsumption": true,
+  "BalanceEnemyAmmoConsumption": false,
+
+  /* When an ammo is useless, such as because the weapon is destroyed, eject the ammo at end of turn if not prone.  Default true for friends. */
+
+  "AutoJettisonAmmo": true,
+  "AutoJettisonEnemyAmmo": false,
 
   //
   // Logging

@@ -70,6 +70,21 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+0988 PA2
+
+ABSOLUTELY DEFINITELY DO CLEAN INSTALL
+
+Vehcile scalings by Cargo_Vroom
+halfed cost of engines
+Aim updated to 2.1 alpha
+Mechengineer upgraded
+Now has proper Composite&Reinforced Structure and Hardened Armour
+Cockpits and Gyros have critical states now
+Cockpits are base 2 slots 3 tons now
+All heads are 3 slots now
+IS Map updated to 3040
+Wartech updated for new map
+
 0988 PA1 Fixes6
 CC Patches
 Adds 3 more ECM
