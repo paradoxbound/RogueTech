@@ -19,14 +19,14 @@
     "AutoFixMechDefArmorAdder" : null,
     "AutoFixStructureCategorizer" : null,
     "AutoFixMechDefStructureAdder" : null,
-    "AutoFixChassisDefSlots" : false,
+    "AutoFixChassisDefSlots" : null,
     "AutoFixChassisDefSlotsChanges" : null,	
 		
     "MWOStyleDontAlowDropIfNotEnoughSpaceForDynamics" : true,		
 		
     "AutoFixChassisDefInitialTonnage" : false,
     "AutoFixChassisDefInitialToTotalTonnageFactor" : 0.1,
-    "AutoFixWeaponDefSlots" : false,	
+    "AutoFixWeaponDefSlots" : null,	
     "Categories" : [
         {
             "Name" : "Armor",
@@ -192,9 +192,9 @@
 						},
 						"nature" : "Debuff",
 						"statisticData" : {
-				"statName" : "ProtectsAgainstShutdownInjury",
+				"statName" : "ReceiveShutdownInjury",
 				"operation" : "Set",
-				"modValue" : "false",
+				"modValue" : "true",
 				"modType" : "System.Boolean"
 						}
 					}

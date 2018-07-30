@@ -1,7 +1,9 @@
 {
+    "HeatDamageInjuryEnabled" : true,
+    "ShutdownInjuryEnabled" : true,
     "MinimumHeatSinksOnMech" : 10,
     "AllowMixingHeatSinkTypes" : true,
-    "FractionalAccounting" : true,
+    "FractionalAccounting" : false,
     "SaveMechDefOnMechLabConfirm" : false,
     "PerformanceEnableAvailabilityChecks" : true,
     "DefaultEngineHeatSinkId" : "Gear_HeatSink_Generic_Standard",
@@ -111,9 +113,12 @@
         ]
     },
     "MWOStyleDontAlowDropIfNotEnoughSpaceForDynamics" : true,
-    "LogLevels" : {
-        "MechEngineer" : "Debug"
-    },
+    "LogLevels" : [
+        {
+            "Name" : "MechEngineer",
+            "Level" : "Debug"
+        }
+    ],
     "AutoFixMechDefSkip" : [
         
     ],
@@ -122,45 +127,61 @@
     "AutoFixChassisDefSkip" : [
         
     ],
-    "AutoFixChassisDefSlots" : false,
     "AutoFixChassisDefInitialTonnage" : false,
     "AutoFixChassisDefInitialToTotalTonnageFactor" : 0.1,
     "AutoFixChassisDefMaxJumpjets" : true,
     "AutoFixChassisDefMaxJumpjetsCount" : 8,
     "AutoFixChassisDefMaxJumpjetsRating" : 400,
-    "AutoFixWeaponDefSlots" : false,
-    "AutoFixWeaponDefSlotsChanges" : {
-        "AC5" : {
-            "From" : 2,
-            "By" : 2,
-            "FromIsMin" : false
+    "AutoFixWeaponDefSlotsChanges" : [
+        {
+            "Type" : "AC5",
+            "Change" : {
+                "From" : 2,
+                "By" : 2,
+                "FromIsMin" : false
+            }
         },
-        "AC10" : {
-            "From" : 3,
-            "By" : 4,
-            "FromIsMin" : false
+        {
+            "Type" : "AC10",
+            "Change" : {
+                "From" : 3,
+                "By" : 4,
+                "FromIsMin" : false
+            }
         },
-        "AC20" : {
-            "From" : 4,
-            "By" : 4,
-            "FromIsMin" : false
+        {
+            "Type" : "AC20",
+            "Change" : {
+                "From" : 4,
+                "By" : 4,
+                "FromIsMin" : false
+            }
         },
-        "Gauss" : {
-            "From" : 5,
-            "By" : 2,
-            "FromIsMin" : false
+        {
+            "Type" : "Gauss",
+            "Change" : {
+                "From" : 5,
+                "By" : 2,
+                "FromIsMin" : false
+            }
         },
-        "LargeLaserPulse" : {
-            "From" : 2,
-            "By" : 1,
-            "FromIsMin" : false
+        {
+            "Type" : "LargeLaserPulse",
+            "Change" : {
+                "From" : 2,
+                "By" : 1,
+                "FromIsMin" : false
+            }
         },
-        "LRM20" : {
-            "From" : 4,
-            "By" : 1,
-            "FromIsMin" : false
+        {
+            "Type" : "LRM20",
+            "Change" : {
+                "From" : 4,
+                "By" : 1,
+                "FromIsMin" : false
+            }
         }
-    },
+    ],
     "CBTMovement" : {
         "UseGameWalkValues" : true,
         "JJRoundUp" : false,
@@ -347,9 +368,9 @@
                                 },
                                 "nature" : "Debuff",
                                 "statisticData" : {
-                                    "statName" : "ProtectsAgainstShutdownInjury",
+                                    "statName" : "ReceiveShutdownInjury",
                                     "operation" : "Set",
-                                    "modValue" : "false",
+                                    "modValue" : "true",
                                     "modType" : "System.Boolean"
                                 }
                             }
@@ -562,6 +583,5 @@
             "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
             "ValidateForbidden" : "Cannot use {0} and {1} together"
         }
-    ],
-    "BlaErrorMessage" : ""
+    ]
 }
