@@ -1,50 +1,92 @@
 {
   "Description": {
-    "Id": "starsystemdef_Solaris",
-    "Name": "Solaris",
-    "Details": "Solaris VII is known across the galaxy for its 'Mech fights. Gamblers place exorbitant amounts of money on longshot bets, and fortunes are won and lost daily. Solaris City, in particular, hosts six major arenas and numerous MechWarrior stables.",
-    "Icon": "",
     "Cost": 0,
     "Rarity": 0,
-    "Purchasable": false
+    "Purchasable": false,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "",
+    "Id": "starsystemdef_Solaris",
+    "Name": "Solaris",
+    "Details": " "
   },
   "Position": {
-    "x": -122.316,
-    "y": -7.025,
+    "x": -122.31,
+    "y": -7.02,
     "z": 0
   },
   "Tags": {
     "items": [
-      "planet_name_solaris",
       "planet_size_medium",
       "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_feature_asteroids",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
       "planet_civ_innersphere",
+      "planet_other_hub",
+      "planet_pop_large",
+      "planet_other_starleague",
+      "planet_other_comstar",
+      "planet_industry_research",
       "planet_industry_rich",
       "planet_industry_recreation",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_pirate",
-      "planet_ruins"
+	  "planet_other_megacity"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 5,
-  "Owner": "Locals",
+  "SupportedBiomes": [
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "desertParched",
+    "badlandsParched",
+    "lowlandsCoastal",
+    "lunarVacuum",
+    "martianVacuum",
+    "polarFrozen",
+    "tundraFrozen"
+  ],
+  "MapRequiredTags": null,
+  "MapExcludedTags": null,
+  "FuelingStation": false,
+  "JumpDistance": 7,
+  "Owner": "MercenaryReviewBoard",
+  "ContractEmployers": [
+    "Locals",
+    "ComStar",
+    "MercenaryReviewBoard",
+    "AuriganDirectorate",
+    "AuriganMercenaries",
+    "AuriganPirates",
+    "AuriganRestoration",
+    "Betrayers",
+    "Kurita",
+    "Liao",
+    "MagistracyOfCanopus",
+    "MajestyMetals",
+    "Marik",
+    "Nautilus",
+    "TaurianConcordat",
+	"Steiner",
+	"Davion"
+  ],
+  "ContractTargets": [
+    "AuriganDirectorate",
+    "AuriganMercenaries",
+    "AuriganPirates",
+    "AuriganRestoration",
+    "Betrayers",
+    "Kurita",
+    "Liao",
+    "MagistracyOfCanopus",
+    "MajestyMetals",
+    "Marik",
+    "Nautilus",
+    "TaurianConcordat",
+	"Steiner",
+	"Davion"
+  ],
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
-  "ShopMaxSpecials": 9,
+  "ShopMaxSpecials": 1,
   "SystemInfluence": [
     {
       "Faction": "NoFaction",
@@ -108,9 +150,7 @@
     {
       "Scope": "Company",
       "RequirementTags": {
-        "items": [
-          "map_travel_2a"
-        ],
+        "items": [],
         "tagSetSourceFile": ""
       },
       "ExclusionTags": {
@@ -120,29 +160,12 @@
       "RequirementComparisons": []
     }
   ],
-  "MapRequiredTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "MapExcludedTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
-  ],
-  "StarType": "K",
-  "ContractEmployers": [
-    "Locals",
-    "Locals"
-  ],
-  "ContractTargets": [
-    "AuriganPirates",
-    "AuriganRestoration"
-  ]
+  "AlternateSystem": false,
+  "StarPosition": null,
+  "StarType": "G",
+  "Depletable": false,
+  "UseSystemRoninHiringChance": false,
+  "RoninHiringChance": 0,
+  "UseMaxContractOverride": false,
+  "MaxContractOverride": 0
 }

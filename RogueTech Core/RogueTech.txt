@@ -70,6 +70,22 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+0988 PA2 Fixes3
+Updated VIP
+Starting gear is now affected by background choices (given with a day delay each, would crash otherwise)
+Whirlwinds now have less penalty on lighter mechs
+MoreIsLess updated
+AIM Updated
+ME updated
+Rollback for panic system
+Reincluded updated Turbine - if crashes, we need its logs from the mods\ folder
+
+0988 PA2 Fixes2
+Made turbine a independent download (crashes reported with it)
+Several minor fixes and 1 major
+Pulse Laser Nerf
+
+
 0988 PA2 Fixes1
 Includes turbine DLL to improve loading times and prevent possible crash
 MechEngineer updated for performance

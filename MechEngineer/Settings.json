@@ -26,7 +26,7 @@
 		
     "AutoFixChassisDefInitialTonnage" : false,
     "AutoFixChassisDefInitialToTotalTonnageFactor" : 0.1,
-    "AutoFixWeaponDefSlots" : null,	
+    "AutoFixWeaponDefSlotsChanges" : null,	
     "Categories" : [
         {
             "Name" : "Armor",
@@ -251,8 +251,8 @@
 						},
 						"effectType" : "StatisticEffect",
 						"Description" : {
-							"Id" : "Gyro Critical",
-							"Name" : "More Stability Damage Taken",
+							"Id" : "Gyro_Critical",
+							"Name" : "Gyro Critical",
 							"Details" : "Double Stability Damage taken",
 							"Icon" : "uixSvgIcon_equipment_ThermalExchanger"
 						},
@@ -277,9 +277,9 @@
 						},
 						"effectType" : "StatisticEffect",
 						"Description" : {
-							"Id" : "Gyro Critical2",
-							"Name" : "Less Stability Threshhold",
-							"Details" : "-20 Stability Threshhold",
+							"Id" : "Gyro_Critical2",
+							"Name" : "Gyro Critical",
+							"Details" : "X2 Stability taken & -20 Threshhold",
 							"Icon" : "uixSvgIcon_equipment_ThermalExchanger"
 						},
 						"nature" : "Debuff",

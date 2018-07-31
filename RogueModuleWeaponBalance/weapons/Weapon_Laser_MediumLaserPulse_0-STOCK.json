@@ -3,11 +3,11 @@
     "Type" : "Laser",
     "WeaponSubType" : "MediumLaserPulse",
     "MinRange" : 0,
-    "MaxRange" : 330,
+    "MaxRange" : 280,
     "RangeSplit" : [
-        90,
-        180,
-        270
+        60,
+        120,
+        190
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,

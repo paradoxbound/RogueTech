@@ -1,6 +1,6 @@
 {
 	floatXPMulti : 0.9,
-	intPerXP : 16000,
+	intPerXP : 20000,
 	XPMax : 9999999,
 	pilot_commander_XPCeiling : 5000,
 	pilot_officer_XPCeiling : 8100,

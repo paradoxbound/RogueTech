@@ -1,5 +1,5 @@
 {
-   "ID" : "shopdef_Ammo_RogueTech",
+   "ID" : "shopdef_Ammo_RogueTech_LFTR",
    "RequirementTags" : {
       "items" : [
 		 "planet_civ_innersphere",

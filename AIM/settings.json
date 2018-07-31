@@ -33,14 +33,10 @@
 
   "FixLosPreviewHeight": true,
 
-  /* Show remaining ammo in paper doll mouseover.  Default true. */
+  /* Show ammo count in the list of components when you mouseover the paper doll.  Default true for friends. */
 
-  "ShowWeaponAmmo": true,
-  "ShowAmmoBoxAmmo": true,
-
-  /* Show remaining ammo in enemy paper doll mouseover.  Default false.  Requires ShowWeaponAmmo and/or ShowAmmoBoxAmmo. */
-
-  "ShowEnemyAmmo": false,
+  "ShowAmmoInTooltip": true,
+  "ShowEnemyAmmoInTooltip": false,
 
   //
   // Line of Sight
@@ -228,14 +224,6 @@
   // Hit Resolution
   //
 
-  /* Increase hit distribution precision for degrading called shots.  Default true.  Fix hit distribution bug on game ver 1.1.0 and below. */
-
-  "FixHitDistribution": true,
-
-  /* If a location would become a zombie part with zero hp, make sure it is destroyed instead. Default true. */
-
-  "KillZeroHpLocation": true,
-
   /* Yang has improved autoloader's algorithm to balance ammo draw to minimise ammo explosion chance.  Default true for friends. */
 
   "BalanceAmmoConsumption": true,
@@ -245,6 +233,14 @@
 
   "AutoJettisonAmmo": true,
   "AutoJettisonEnemyAmmo": false,
+
+  /* Increase hit distribution precision for degrading called shots.  Default true.  Fix hit distribution bug on game ver 1.1.0 and below. */
+
+  "FixHitDistribution": true,
+
+  /* If a location would become a zombie part with zero hp, make sure it is destroyed instead. Default true. */
+
+  "KillZeroHpLocation": true,
 
   //
   // Logging

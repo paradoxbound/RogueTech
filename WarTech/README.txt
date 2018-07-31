@@ -32,13 +32,14 @@ maxMonthDuration | int | default -1 | The maximal Number of month a war goes bef
 InlandPlanetDifficulty | int | default 0 | The Planet difficulty of inland planets.
 BorderPlanetDifficulty | int | default 0 | The Planet difficulty of border planets.
 priorityContactPayPercentage | float | default 2 | The multiplicator for the priority missions (normal payment * priorityContactPayPercentage )(normal salvage * priorityContactPayPercentage)
-FatiquePerLostAttack | float | default 0.5 | How much war exhaution each faction gets for a lost background battle.
+FatiquePerLostAttack | float | default 0.3 | How much war exhaution each faction gets for a lost background battle.
 FatiqueLostPerMonth | float | default 3 | How much war exhaution each faction gets each month at war.
-FatiqueRecoveredPerDay | float | default 0.5 | How much war exhaution each faction recovers each day when out of war.
-FatiquePerPlanetCapture | float | default 3 | How much war exhaution each faction recovers and the other faction loses when it conqueres a new planet.
+FatiqueRecoveredPerMonth | float | default 3 | How much war exhaution each faction recovers each month when out of war.
+FatiquePerPlanetCapture | float | default 1.5 | How much war exhaution each faction recovers and the other faction loses when it conqueres a new planet.
 attackercolor | string| default "#ff0000ff" | Text color for attacking factions in monthly report.
 defendercolor | string| default "#008000ff" | Text color for defending factions in monthly report.
 planetcolor | string| default "#00ffffff" | Text color for planets in monthly report.
+neutralcolor | string| default "#00ffffff" | Neutral color for factions in monthly report.
     
 ## Install
 - After installing BTML and ModTek, put  everything into \BATTLETECH\Mods\ folder.

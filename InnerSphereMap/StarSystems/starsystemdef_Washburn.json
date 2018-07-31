@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Washburn",
     "Name": "Washburn",
-    "Details": "NOT DONE",
+    "Details": "The Washburn system was settled during the First Exodus from Terra. Washburn II is the second planet in the Washburn system and has three moons named Cephas, Elihu and Israel. Washburn has been home to a refit facility operated by Irian Technologies.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,29 +16,27 @@
   "Tags": {
     "items": [
       "planet_name_washburn",
-      "planet_size_small",
-      "planet_climate_mars",
-      "planet_other_volcanic",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
+      "planet_size_large",
+      "planet_climate_arid",
+      "planet_other_storms",
       "planet_feature_asteroids",
       "planet_feature_moon03",
       "planet_other_moon",
-      "planet_pop_large",
+      "planet_pop_medium",
       "planet_other_megacity",
+      "planet_civ_innersphere",
       "planet_industry_rich",
+      "planet_industry_agriculture",
+      "planet_industry_research",
       "planet_industry_manufacturing",
-      "planet_other_hub",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_other_starleague",
       "planet_ruins",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -12,
+  "JumpDistance": 9,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +99,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
+  "Difficulty": 4,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,10 +125,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
+    "lowlandsCoastal",
     "badlandsParched"
   ],
-  "StarType": "A",
+  "StarType": "F",
   "ContractEmployers": [
     "Marik",
     "Locals"

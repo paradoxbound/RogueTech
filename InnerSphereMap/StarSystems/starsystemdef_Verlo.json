@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Verlo",
     "Name": "Verlo",
-    "Details": "NOT DONE",
+    "Details": "Constant earthquakes and volcanic eruptions shake the surface of Verlo, a highly volatile world. Rich mineral deposits exist here for those brave enough to endure the harsh climate.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,31 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_verlo",
-      "planet_size_large",
-      "planet_climate_terran",
+      "planet_size_medium",
+      "planet_climate_mars",
       "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_asteroids",
-      "planet_pop_none",
-      "planet_civ_primitive",
-      "planet_industry_recreation",
+      "planet_pop_small",
       "planet_industry_mining",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_prison",
-      "planet_ruins",
+      "planet_other_boreholes",
       "planet_faction_davion"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 14,
+  "JumpDistance": 11,
   "Owner": "Davion",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -6,
+  "Difficulty": 10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,14 +116,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "martianVacuum",
+    "badlandsParched"
   ],
-  "StarType": "G",
+  "StarType": "F",
   "ContractEmployers": [
     "Davion",
     "Locals"

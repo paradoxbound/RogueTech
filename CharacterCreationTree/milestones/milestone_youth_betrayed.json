@@ -1,0 +1,56 @@
+{
+  "Description": {
+    "Id": "milestone_youth_betrayed",
+    "Name": "sim",
+    "Details": "milestone_youth_betrayed",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Scope": "Company",
+  "Requirements": [
+    {
+      "Scope": "Commander",
+      "RequirementTags" : {
+            "items" : [
+                "commander_youth_betrayed"
+            ],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": null,
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": [
+        {
+          "obj": "Morale",
+          "op": "GreaterThanOrEqual",
+          "val": 0,
+          "valueConstant": null
+        }
+      ]
+    }
+  ],
+  "Results": [
+    {
+      "Scope": "Company",
+      "Requirements": null,
+      "AddedTags": {},
+      "RemovedTags": {},
+      "Stats": [
+				{
+                    "typeString" : "System.Int32",
+                    "name" : "Item.UpgradeDef.Gear_Cockpit_Ceres_Metals_Reinforced",
+                    "value" : 1,
+                    "valueConstant" : ""
+                }
+				],
+      "Actions": [],
+      "ForceEvents" : [],
+      "TemporaryResult": false,
+      "ResultDuration": 0
+    }
+  ],
+  "Repeatable": false
+}

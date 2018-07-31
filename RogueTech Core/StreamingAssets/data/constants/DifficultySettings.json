@@ -862,6 +862,18 @@
 			"DefaultIndex": 1,
 			"Options": [
 				{
+					"ID": "diff_CMDEXP_easy2",
+					"Name": "10000",
+					"DifficultyValue": -1,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "CommanderStartingExperience",
+							"ConstantValue": "10000"
+						}
+					]
+				},			
+				{
 					"ID": "diff_CMDEXP_easy",
 					"Name": "7000",
 					"DifficultyValue": -1,

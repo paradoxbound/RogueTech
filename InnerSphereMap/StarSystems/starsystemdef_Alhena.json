@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Alhena",
     "Name": "Alhena",
-    "Details": "NOT DONE",
+    "Details": "Alhena is a world that travels between two suns via an eccentric orbit, leading to long winters and short summers. The lack of arable land on the surface and a lack of free water on the surface meant that Alhena needs to import most of their food.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,36 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_alhena",
-      "planet_size_large",
-      "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_moon01",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_industry_rich",
+      "planet_size_small",
+      "planet_climate_desert",
+      "planet_pop_small",
+      "planet_other_megacity",
+      "planet_civ_innersphere",
+      "planet_industry_poor",
       "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_starleague",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_marik"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 9,
+  "FuelingStation": false,
+  "JumpDistance": 33,
   "Owner": "Marik",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -108,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -7,
+  "Difficulty": 1,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -134,14 +117,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "desertParched"
   ],
-  "StarType": "A",
+  "StarType": "G",
   "ContractEmployers": [
     "Marik",
     "Locals"

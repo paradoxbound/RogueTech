@@ -132,56 +132,6 @@
     "AutoFixChassisDefMaxJumpjets" : true,
     "AutoFixChassisDefMaxJumpjetsCount" : 8,
     "AutoFixChassisDefMaxJumpjetsRating" : 400,
-    "AutoFixWeaponDefSlotsChanges" : [
-        {
-            "Type" : "AC5",
-            "Change" : {
-                "From" : 2,
-                "By" : 2,
-                "FromIsMin" : false
-            }
-        },
-        {
-            "Type" : "AC10",
-            "Change" : {
-                "From" : 3,
-                "By" : 4,
-                "FromIsMin" : false
-            }
-        },
-        {
-            "Type" : "AC20",
-            "Change" : {
-                "From" : 4,
-                "By" : 4,
-                "FromIsMin" : false
-            }
-        },
-        {
-            "Type" : "Gauss",
-            "Change" : {
-                "From" : 5,
-                "By" : 2,
-                "FromIsMin" : false
-            }
-        },
-        {
-            "Type" : "LargeLaserPulse",
-            "Change" : {
-                "From" : 2,
-                "By" : 1,
-                "FromIsMin" : false
-            }
-        },
-        {
-            "Type" : "LRM20",
-            "Change" : {
-                "From" : 4,
-                "By" : 1,
-                "FromIsMin" : false
-            }
-        }
-    ],
     "CBTMovement" : {
         "UseGameWalkValues" : true,
         "JJRoundUp" : false,
@@ -428,8 +378,8 @@
                                 },
                                 "effectType" : "StatisticEffect",
                                 "Description" : {
-                                    "Id" : "Gyro Critical",
-                                    "Name" : "More Stability Damage Taken",
+                                    "Id" : "Gyro_Critical",
+                                    "Name" : "Gyro Critical",
                                     "Details" : "Double Stability Damage taken",
                                     "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
                                 },
@@ -455,9 +405,9 @@
                                 },
                                 "effectType" : "StatisticEffect",
                                 "Description" : {
-                                    "Id" : "Gyro Critical2",
-                                    "Name" : "Less Stability Threshhold",
-                                    "Details" : "-20 Stability Threshhold",
+                                    "Id" : "Gyro_Critical2",
+                                    "Name" : "Gyro Critical",
+                                    "Details" : "X2 Stability taken & -20 Threshhold",
                                     "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
                                 },
                                 "nature" : "Debuff",

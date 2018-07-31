@@ -5,23 +5,23 @@
 "priorityContactPayPercentage": 2,
 "FatiquePerLostAttack" : 0.3,
 "FatiqueLostPerMonth" : 3,
-"FatiqueRecoveredPerDay" : 0.5,
-"FatiquePerPlanetCapture" : 3,
+"FatiqueRecoveredPerMonth" : 5,
+"FatiquePerPlanetCapture" : 1.5,
 "InlandPlanetDifficulty" : 0,
 "BorderPlanetDifficulty" : 2,
 "minMonthDuration" : 1,
 "maxMonthDuration" : -1,
+"BaseAllyChance" : 50,
 "attackercolor" : "#ee0000ff",
 "defendercolor" : "#00bb00ff",
 "planetcolor" : "#00ffffff",
+"neutralcolor" : "#42f4a7ff",
 "excludedFactionNames" : [
 		"MercenaryReviewBoard",
-		"ComStar",
 		"Locals",
 		"AuriganPirates",
 		"NoFaction"
 ],
-"usePermaAllies" : true,
 "debug" : false
 }
 

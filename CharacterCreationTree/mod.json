@@ -11,7 +11,8 @@
         {
             "Type": "BackgroundDef",
             "Path": "backgrounds"
-        }
+        },
+		{ Type: "SimGameMilestoneDef", Path: "milestones" }		
     ],
     "Settings": {}
 

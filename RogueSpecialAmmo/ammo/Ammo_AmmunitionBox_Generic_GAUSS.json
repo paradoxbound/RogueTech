@@ -8,7 +8,7 @@
     "Capacity" : 8,
     "Description" : {
         "Cost" : 50000,
-        "Rarity" : 20,
+        "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "GAUSS",
