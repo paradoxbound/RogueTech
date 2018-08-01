@@ -19,7 +19,7 @@
     "BonusGuts": 0,
     "BaseTactics": "3",
     "BonusTactics": 0,
-    "ExperienceUnspent": 6000,
+    "ExperienceUnspent": 6500,
     "ExperienceSpent": 500,
     "Injuries": 0,
     "Health": 3,
@@ -37,8 +37,7 @@
             "pilot_mechwarrior",
             "pilot_gladiator",
             "pilot_innersphere",
-			"pilot_reckless",
-            "pilot_release_skirmish"			
+			"pilot_reckless"			
         ],
         "tagSetSourceFile": ""
     },

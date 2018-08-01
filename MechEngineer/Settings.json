@@ -133,10 +133,10 @@
 						},
 						"effectType" : "StatisticEffect",
 						"Description" : {
-							"Id" : "SesnorsDestroyed",
+							"Id" : "SensorsDestroyed",
 							"Name" : "Sensors Destroyed",
 							"Details" : "-50% Sight and Sensor",
-							"Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+							"Icon" : "uixSvgIcon_equipment_Cockpit"
 						},
 						"nature" : "Debuff",
 						"statisticData" : {
@@ -159,10 +159,10 @@
 						},
 						"effectType" : "StatisticEffect",
 						"Description" : {
-							"Id" : "SesnorsDestroyed2",
+							"Id" : "SensorsDestroyed2",
 							"Name" : "Sensors Destroyed",
 							"Details" : "-50% Sight and Sensor",
-							"Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+							"Icon" : "uixSvgIcon_equipment_Cockpit"
 						},
 						"nature" : "Debuff",
 						"statisticData" : {
@@ -188,7 +188,7 @@
 							"Id" : "LifeSupportDestroyed",
 							"Name" : "Life Support Destroyed",
 							"Details" : "Take Damage on Shutdown",
-							"Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+							"Icon" : "uixSvgIcon_equipment_Cockpit"
 						},
 						"nature" : "Debuff",
 						"statisticData" : {
@@ -254,7 +254,7 @@
 							"Id" : "Gyro_Critical",
 							"Name" : "Gyro Critical",
 							"Details" : "Double Stability Damage taken",
-							"Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+							"Icon" : "uixSvgIcon_equipment_Gyro"
 						},
 						"nature" : "Debuff",
 						"statisticData" : {
@@ -280,7 +280,7 @@
 							"Id" : "Gyro_Critical2",
 							"Name" : "Gyro Critical",
 							"Details" : "X2 Stability taken & -20 Threshhold",
-							"Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+							"Icon" : "uixSvgIcon_equipment_Gyro"
 						},
 						"nature" : "Debuff",
 						"statisticData" : {

@@ -40,7 +40,7 @@
         "UIName" : "Mining Drill",
         "Id" : "Weapon_HandyVac_Industrial_Mining_1_MiningDrill",
         "Name" : "Mining Drill",
-        "Details" : "Mining mechs use arm-mounted Drills to excavate tunnels and extract ore. In an emergency, these heavy-duty drills can be used against mechs in melee combat. Like all Industrial weapons the Mining Drill suffers a small inherant penalty to hit.",
+        "Details" : "Mining 'Mechs use arm-mounted Drills to excavate tunnels and extract ore. In an emergency, these heavy-duty drills can be used against 'Mechs in melee combat. Like all Industrial weapons the Mining Drill suffers a small inherent penalty to hit.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "",

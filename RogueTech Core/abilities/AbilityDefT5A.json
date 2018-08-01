@@ -1,8 +1,8 @@
 {
 	"Description" : {
 		"Id" : "AbilityDefT5A",
-		"Name" : "MASTER TACTICIAN",
-		"Details" : "PASSIVE: 'Mechs piloted by this MechWarrior gain +1 Initiative, and remove one bar of stability damage when Reserving.",
+		"Name" : "TACTICIAN",
+		"Details" : "PASSIVE: Remove one bar of stability damage when Reserving, +3 Morale Gain and -30% Critical hits taken.",
 		"Icon" : "uixSvgIcon_ability_mastertactician"
 	},
     "DisplayParams" : "ShowInMWTRay",
@@ -24,16 +24,16 @@
 			"effectType" : "StatisticEffect",
 			"Description" :
 			{
-				"Id" : "AbilityDefT5A",
+				"Id" : "AbilityDefT5A-morale",
 				"Name" : "MASTER TACTICIAN",
 				"Details" : "+1 to base Initiative",
 				"Icon" : "uixSvgIcon_ability_mastertactician"
 			},
 			"statisticData" : 
 			{
-				"statName" : "BaseInitiative",
+				"statName" : "MoraleBonusGain",
 				"operation" : "Int_Add",
-				"modValue" : "-1",
+				"modValue" : "3",
 				"modType" : "System.Int32"
 			},
 			"nature" : "Buff"
@@ -51,7 +51,7 @@
 			"effectType" : "StatisticEffect",
 			"Description" :
 			{
-				"Id" : "AbilityDefT8A",
+				"Id" : "AbilityDefT5A-reserve",
 				"Name" : "MASTER TACTICIAN",
 				"Details" : "DEFER ACTION CLEARS UNSTEADY",
 				"Icon" : "uixSvgIcon_ability_mastertactician"
@@ -64,7 +64,34 @@
 				"modType" : "System.Boolean"
 			},
 			"nature" : "Buff"
-		}
+		},
+		{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "AbilityDefT5A-immunity",
+				"Name" : "MASTER TACTICIAN",
+				"Details" : "DEFER ACTION CLEARS UNSTEADY",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"statName" : "CriticalHitChanceReceivedMultiplier",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.7",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		}		
 	],
 	"IsPrimaryAbility" : true
 }

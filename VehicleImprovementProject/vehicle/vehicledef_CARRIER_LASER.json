@@ -49,62 +49,69 @@
 			"CurrentInternalStructure" : 30,
 			"AssignedArmor" : 60,
 			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Turret",
+			"CurrentArmor" : 60,
+			"CurrentInternalStructure" : 30,
+			"AssignedArmor" : 60,
+			"DamageLevel" : "Functional"
 		}
    ],
    "inventory" : [
       {
          "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
+         "MountedLocation" : "Turret",
 		 "HardpointSlot" : 0,
 		 "DamageLevel" : "Functional"
       },
       {
          "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
+         "MountedLocation" : "Turret",
 		 "HardpointSlot" : 1,
 		 "DamageLevel" : "Functional"
       },
       {
          "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
+         "MountedLocation" : "Turret",
 		 "HardpointSlot" : 2,
 		 "DamageLevel" : "Functional"
       },
       {
          "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
+         "MountedLocation" : "Turret",
 		 "HardpointSlot" : 3,
 		 "DamageLevel" : "Functional"
       },
       {
          "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
+         "MountedLocation" : "Turret",
 		 "HardpointSlot" : 4,
 		 "DamageLevel" : "Functional"
       },
       {
          "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
+         "MountedLocation" : "Turret",
 		 "HardpointSlot" : 5,
 		 "DamageLevel" : "Functional"
       },
       {
          "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
+         "MountedLocation" : "Turret",
 		 "HardpointSlot" : 6,
 		 "DamageLevel" : "Functional"
       },
       {
          "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Front",
+         "MountedLocation" : "Turret",
 		 "HardpointSlot" : 7,
 		 "DamageLevel" : "Functional"
       },

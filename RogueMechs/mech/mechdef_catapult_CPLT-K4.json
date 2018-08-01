@@ -176,7 +176,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
@@ -187,7 +187,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "CenterTorso",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-II",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
@@ -297,7 +297,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Improved-Bank",
             "SimGameUID": "",
             "ComponentDefType": "HeatSink",

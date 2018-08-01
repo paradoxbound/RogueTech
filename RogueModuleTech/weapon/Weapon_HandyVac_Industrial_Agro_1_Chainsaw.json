@@ -40,7 +40,7 @@
         "UIName" : "Chainsaw",
         "Id" : "Weapon_HandyVac_Industrial_Agro_1_Chainsaw",
         "Name" : "Chainsaw",
-        "Details" : "Agricultural mechs use arm-mounted Chainsaws to fell trees and harvest timber. In an emergency these giant saws can be used against mechs in melee combat. Like all Industrial weapons, Chainsaws suffer a small inherant penalty to hit.",
+        "Details" : "Agricultural 'Mechs use arm-mounted Chainsaws to fell trees and harvest timber. In an emergency these giant saws can be used against 'Mechs in melee combat. Like all Industrial weapons, Chainsaws suffer a small inherent penalty to hit.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "",

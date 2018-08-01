@@ -8,7 +8,91 @@
 				"TechCost": "1",
 				"CBillCost": "[[Chassis.Tonnage]] * 0.9"
 			}
-		}	
+		},
+		"CriticalHitStates": {
+			"MaxStates" : 1,
+			"DeathMethod" : "PilotKilled",			
+			"HitEffects" : [
+				{
+					"State" : 1,
+					"StatusEffect" : {
+						"durationData" : {
+						},
+						"targetingData" : {
+							"effectTargetsCreator" : true,
+							"effectTriggerType" : "Passive",
+							"effectTargetType" : "Creator"
+						},
+						"effectType" : "StatisticEffect",
+						"Description" : {
+							"Id" : "SCSensorsDestroyed",
+							"Name" : "Sensors Destroyed",
+							"Details" : "-50% Sight and Sensor",
+							"Icon" : "uixSvgIcon_equipment_Cockpit"
+						},
+						"nature" : "Debuff",
+						"statisticData" : {
+						"statName" : "SensorDistanceAbsolute",
+						"operation" : "Float_Multiply",
+						"modValue" : "0.5",
+						"modType" : "System.Single"
+						}
+					}					
+				},
+				{
+					"State" : 1,				
+					"StatusEffect" : {
+						"durationData" : {
+						},
+						"targetingData" : {
+							"effectTargetsCreator" : true,
+							"effectTriggerType" : "Passive",
+							"effectTargetType" : "Creator"
+						},
+						"effectType" : "StatisticEffect",
+						"Description" : {
+							"Id" : "SCSensorsDestroyed2",
+							"Name" : "Sensors Destroyed",
+							"Details" : "-50% Sight and Sensor",
+							"Icon" : "uixSvgIcon_equipment_Cockpit"
+						},
+						"nature" : "Debuff",
+						"statisticData" : {
+						"statName" : "SpotterDistanceAbsolute",
+						"operation" : "Float_Multiply",
+						"modValue" : "0.5",
+						"modType" : "System.Single"
+						}
+					}
+				},
+				{
+					"State" : 1,				
+					"StatusEffect" : {
+						"durationData" : {
+						},
+						"targetingData" : {
+							"effectTargetsCreator" : true,
+							"effectTriggerType" : "Passive",
+							"effectTargetType" : "Creator"
+						},
+						"effectType" : "StatisticEffect",
+						"Description" : {
+							"Id" : "SCLifeSupportDestroyed",
+							"Name" : "Life Support Destroyed",
+							"Details" : "Take Damage on Overheat",
+							"Icon" : "uixSvgIcon_equipment_Cockpit"
+						},
+						"nature" : "Debuff",
+						"statisticData" : {
+				"statName" : "ReceiveHeatDamageInjury",
+				"operation" : "Set",
+				"modValue" : "true",
+				"modType" : "System.Boolean"
+						}
+					}
+				}				
+			]
+		}		
 	},
     "Description" : {
         "Cost" : 240000,
@@ -22,8 +106,8 @@
         "Details" : "The Small Cockpit weighs 2/3rds of the standard version, at the expense of being cramped. It includes built-in life support, which makes it more vulnerable to damage.",
         "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
-    "BonusValueA" : "-1 Accuracy",
-    "BonusValueB" : "",
+    "BonusValueA" : "-1 Accuracy|",
+    "BonusValueB" : "Injury on Shutdown.",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
@@ -32,7 +116,7 @@
     "Tonnage" : 2,
     "AllowedLocations" : "Head",
     "DisallowedLocations" : "All",
-    "CriticalComponent" : false
+    "CriticalComponent" : false,
     "statusEffects" : [
         {
             "durationData" : {
@@ -58,9 +142,9 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "TC-TO-HIT",
-                "Name" : "Targeting Computer",
-                "Details" : "Breaching Shot, Improved Accuracy/Called Shot.",
+                "Id" : "SC-TO-HIT",
+                "Name" : "Small Cockpit",
+                "Details" : "Small Cockpit incurs penalty to accuracy and injury on shutdown.",
                 "Icon" : "uixSvgIcon_ability_precisionstrike"
             },
             "nature" : "Buff",
@@ -84,7 +168,59 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
-        }
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "SC-Injury",
+                "Name" : "Small Cockpit",
+                "Details" : "Small Cockpit incurs penalty to accuracy and injury on shutdown.",
+                "Icon" : "uixSvgIcon_ability_precisionstrike"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+				"statName" : "ReceiveShutdownInjury",
+				"operation" : "Set",
+				"modValue" : "true",
+				"modType" : "System.Boolean",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }		
+		
 		],
     "ComponentTags" : {
         "items" : [

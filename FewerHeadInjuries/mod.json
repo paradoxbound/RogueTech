@@ -2,11 +2,20 @@
     "Name": "FewerHeadInjuries",
     "Enabled": true,
 
-    "Version": "1.0",
+    "Version": "1.1",
     "Description": "Head injuries based upon percent damage done to head.",
     "Author": "gnivler",
     "Website": "",
     "Contact": "",
 	
-	"DLL": "FewerHeadInjuries.dll",
+    "DLL": "FewerHeadInjuries.dll",
+    
+
+    /* formula is armour percent * (guts + pilot) * base */
+    "Settings": {
+        "Debug": false,
+        "GutsMultiplier": 1,
+        "PilotMultiplier": 1,
+        "BaseMultiplier": 1,
+    }
 }

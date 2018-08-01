@@ -2596,7 +2596,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 10,
+			"DefaultIndex": 8,
 			"Options": [
 				{
 					"ID": "diff_SS_5",
@@ -2861,7 +2861,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 9,
+			"DefaultIndex": 8,
 			"Options": [
 				{
 					"ID": "diff_Scrap_5",

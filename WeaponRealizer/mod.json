@@ -1,0 +1,23 @@
+﻿{
+  "Name": "WeaponRealizer",
+  "Enabled": true,
+
+  "Version": "0.0.3",
+
+  "Author": "janxious",
+  "Website": "https://github.com/janxious/WeaponRealizer",
+
+  "DLL": "WeaponRealizer.dll",
+  "DLLEntryPoint": "WeaponRealizer.Core.Init",
+  "DependsOn": [],
+  "ConflictsWith": [],
+
+  "Settings": {
+    "simpleVariance": false,
+    "standardDeviationPercentOfSimpleVariance": 75,
+    
+    "overheatModifier": true,
+
+    "debug": true
+  }
+}

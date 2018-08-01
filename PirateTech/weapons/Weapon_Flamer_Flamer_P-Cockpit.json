@@ -13,7 +13,7 @@
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 5,
     "Damage" : 10,
-    "OverheatedDamageMultiplier" : 0,
+    "OverheatedDamageMultiplier" : 0.3,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 3,
     "DamageVariance" : 10,

@@ -2,6 +2,8 @@ Vehicle Improvement Project
 By Cargo_Vroom
 twitch.tv/cargo_vroom
 
+----------------------------
+
 Battletech has a lot of really cool tanks and other combat vehicles. 
 They are not well represented in the base game.
 HBS included very few,in the game, and most of them are unusually weak.
@@ -16,6 +18,8 @@ But I've done my best to make the models chosen suggest what sort of vehicle you
 Also, it incorporates vehicle AI improvements based on work by LadyAlecko the co-developer of Roguetek. 
 They'll be less eager to get stepped on now, and overall do a better job of providing supporting fire for mechs.
 
+---------------------------------
+
 To Install:
 
 (A version of this mod is included in Roguetech.
@@ -28,6 +32,10 @@ Delete old version before upgrading.
 Place the VehicleImprovementProject folder in your Battletech/mods folder.
 Consult modtek's instructions if you have trouble.
 
+If you want VIP to take precidence over other mods that change vehicles move it to the end of your modtek load order.
+
+--------------------------------------
+
 Compatibility:
 
 Other mods that add vehicles may lead to both mod's version of that vehicle appearing.
@@ -35,72 +43,84 @@ Other mods that add vehicles may lead to both mod's version of that vehicle appe
 There may be conflicts with other mods that change global values for vehicles like armor multiplier or AI.
 Make sure whichever mod you want to get the last word is closer to the end of the load order.
 
+-----------------------------------
+
 Credits & Thanks:
 
 LadyAlecto for help, and honoring me by including this mod in her fantastic Roguetech project.
 All the folks at the BTGame modding discord for the many questions they answered.
 ContactWithTheEnemy for encouragement and testing.
-Everyone who has watched my Battletech streams.
+Everyone who has watches my Battletech streams.
 And of course HBS Studios for making this great game.
 
-Known Issues:
-
-Vehicles without a turret will occasionally get hit on the non-existant turret and not take damage. THIS IS A VANILLA BUG.
+----------------------------------
 
 Changelog:
 
-Version 0.7.5
+0.8.5
 
-Tried to make vehicles even more cautious.
-Vehicle armor multiplier 0.75 -> 0.8,
-Made vehicles inherently harder to hit; reason they are low slung and can go hull down.
-Vehicles now get fewer Evasion pips for moving to compensate.
+Gave Vanilla LRM/SRM Carriers a 'turret' hit location with stats.
+    This sidesteps a vanilla bug that causes damage to occasionally be ignored.
+    It was becoming more of a problem as I adjusted hit probabilities.
+    Reversed a previous change and gave roofs to all my Carriers, Hunters and Saladins.
+    Roof Armor is set to 80% of side armor.
+    Note that this doesn't actually make them more durable. It makes it possible for hits to register.
+    
+Added Patton and Rommel, a pair of relatively swift heavy tanks.
+Added Scimitar variant (LRM15)
+Added Pegasus variant (trades Mlaser for SRM6)
 
-Spawning Balance changes:
+0.7.9hf
+
+Squashed bug that caused Ontos to have no turret armor.
+Changed Ontos model from Demolisher to Carrier.
+
+Version 0.7.9
+
+*Tried to make vehicles even more cautious.
+*Vehicle armor multiplier 0.75 -> 0.8,
+*Made vehicles inherently 10% harder to hit; reason they are low slung and can go hull down.
+*Vehicles now get 20% fewer Evasion pips from movement to compensate because they are not as agile as mechs.
+*Spawning Balance changes:
 	Tagged Bulldogs as "Medium" vehicles instead of heavy.
 	Tagged Hunter B as "Medium" instead of light because they were murdering my light mechs in testing.
 	Tagged Demolisher-D as "Heavy" because it's fragile.
 	Added "Assault" tag to Brutus-B.
 	Added "Heavy" tag to Myrmidon
     Cloned the vanilla Manticore to make it spawn more often.
+*Corrected Shrek-AC armor and MG mount locations.
+*Removed "Turret" hit location from vehicles that shouldn't have one: Saladin, Hunter
+*Removed all individual movedefs, replaced with generic ones for the handful of different speed categories.
+*Gave minor equipment upgrades to a few units that are noticably weaker relative to category:
+	Ignis (Both), Vedette (Both), Saladin (most fragile one), Po Heavy Tank.
+*Gave Pike the advanced fire control system the fluff says it's supposed to have.
+*Changed Marsden model from scorpion to bulldog.
+*Changed Myrmidon model from scorption to manticore.
+*Changed Harasser model from sldfdrone to striker.
+*Changed Brutus-C model from demolisher to schrek.
+*Added missing "unit_release" tags that may have caused certain units to not spawn reliably.
+*Added same tag to 5 vanilla vehicles that were also missing it, just in case.
+*Tweaked vehicle section hit chances, now easier for shots to land on turrets.
+*Made it possible, but rare, to hit a vehicle's rear from side arc.
+*Took control of the "ToHitSelfWalkVehicle" setting.
+*Moved Light turrets to phase 3, medium to phase 4
 
+*Added Axel heavy tank (AC/20, 2 versions)
+*Added Scimitar light hovertank. (AC/5, SRM4)
+*Added Pegasus scout hovertank. (Mlas, SRM12)
+*Added Tiger T-12 medium tank. (AC/10, SRM4, 3 MG)
+*Added Laser Carrier. (8 Mlasers on a truck)
+*Added Sabaku Kaze. (top tier laser hovertank)
+*Added Ontos heavy tank. (Big boy laser carrier)
+*Added Maxim Transport (Missiles and MGs)
+*Added Scorpion variant. (Mlasers)
+*Added Hunter variant. (LRM15+MGs)
+*Added Vedette variant. (AC/2)
+*Added Harasser-F (Flamers)
 
-Fixed infinite loading bug caused by Flamer Behemoth. (Thanks LadyA)
+Version 0.2.9hf
 
-Removed "Turret" hit location from vehicles that shouldn't have one: Harasser, Saladin, Hunter
-***MAKE SURE THIS WORKS AND CHECK ARMOR VALUES OF ALL OF THESE.***
-
-Removed all individual movedefs, replaced with generic ones for the handful of different speed categories.
-
-Gave minor + weapon upgrades to a few units that are noticably weaker relative to category.
-Ignis (Both), Vedette (Both), Saladin (most fragile one), Po Heavy Tank.
-
-Gave Pike +Accuracy guns to represent it's advanced fire control system.
-
-Changed Marsden model from scorpion to bulldog.
-Changed Myrmidon model from scorption to manticore.
-Changed Harasser model from sldfdrone to missilecarrier.
-Changed Brutus-C model from demolisher to schrek.
-
-Added missing "unit_release" tags that may have caused certain units to not spawn reliably.
-Added same tag to 5 vanilla vehicles that were also missing it, just in case.
-
-Tweaked vehicle section hit chances, now easier for shots to land on turrets.
-Made it possible, but rare, to hit a vehicle's rear from side arc.
-Took control of the "ToHitSelfWalkVehicle" setting.
-Moved Light turrets to phase 3, medium to phase 4
-
-Added Axel heavy tank (AC/20, 2 versions)
-Added Scimitar light hovertank. (AC/5, SRM4)
-Added Pegasus scout hovertank. (Mlas, SRM12)
-Added Tiger T-12 medium tank. (AC/10, SRM4, 3 MG)
-Added Laser Carrier. (8 Mlasers on a truck)
-Added Sabaku Kaze. (top tier laser hovertank)
-Added Ontos heavy tank. (Big boy laser carrier)
-Added Maxim Transport (Missiles and MGs)
-Added Scorpion variant. (Mlasers)
-Added Hunter variant. (LRM15+MGs)
-Added Vedette variant. (AC/2)
+*Fixed infinite loading bug caused by Flamer Behemoth. (Thanks LadyA)
 
 Version 0.2.9:
 
@@ -146,7 +166,7 @@ Zhukov
 
 Implimented improved vehicle behavior variables from Roguetech 0.9859
 Adjusted vehicle base initiative and to-hit values.
-Vanilla Bulldog given the machine gun it's supposed to have, 
+Vanilla Bulldog given the machine gun it's supposed to have,
 Vanilla Wheeled APC turret armor corrected from 210 to 50,
 Vanilla Bulldog, Striker, Vargr given correct tonnage class,
 Vanilla Bulldog, Striker, Sleipnnir, Vargr given correct pathingdef.

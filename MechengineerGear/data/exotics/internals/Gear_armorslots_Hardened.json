@@ -32,7 +32,7 @@
         "UIName" : "Hardened Armor",
         "Id" : "Gear_armorslots_Hardened",
         "Name" : "Hardened Armor",
-        "Details" : "Hardened Armor is a thicker armor type that uses multiple overlapping plates to provide additional protection against enemy fire. Though capable of diverting more damage than standard armor, the increased number of armor plates and their lack of flexibility makes any unit employing it more difficult to pilot, and can affect the speed as well. In fact, Hardened Armor is so heavy that it cannot be mounted on hovercraft, VTOLs, or WiGE vehicles.",
+        "Details" : "Hardened Armor is a thicker armor type that uses multiple overlapping plates to provide additional protection against enemy fire. Though capable of diverting more damage than standard armor, the increased number of armor plates and their lack of flexibility makes any unit employing it more difficult to pilot, and can affect the speed as well. In fact, Hardened Armor is so heavy that it cannot be mounted on hovercraft, VTOLs, or WiGE vehicles. Reduces incoming Critical Hits.",
         "Icon" : "uixSvgIcon_action_end"
     },
     "BonusValueA" : "X2 Armour Protection|",
@@ -57,15 +57,15 @@
 			{
 				"effectTriggerType" : "Passive",
 				"effectTargetType" : "Creator",
-                "showInStatusPanel" : false				
+                "showInStatusPanel" : true				
 			},
 			"effectType" : "StatisticEffect",
 			"Description" :
 			{
 				"Id" : "HardenedPenaltyRun",
-				"Name" : "ChargerSprint",
-				"Details" : "MORE SPEED.",
-				"Icon" : "uixSvgIcon_run_n_gun"
+				"Name" : "Reduced Speed",
+				"Details" : "Hardened Armour reduces movement.",
+				"Icon" : "uixSvgIcon_equipment_ActuatorLeg"
 			},
 			"statisticData" : 
 			{
@@ -104,7 +104,36 @@
 				"modType" : "System.Single"
 			},
 			"nature" : "Buff"
-		}	
+		},
+			{
+			"durationData" :
+			{
+				"duration" : -1,
+                "stackLimit" : 1				
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+                "showInStatusPanel" : false				
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "HardenedCritImmune",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_run_n_gun"
+			},
+			"statisticData" : 
+			{
+				"statName" : "CriticalHitChanceReceivedMultiplier",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.5",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		}		
 
     ],
     "ComponentTags" : {

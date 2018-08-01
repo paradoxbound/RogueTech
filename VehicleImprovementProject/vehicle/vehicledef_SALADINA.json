@@ -5,7 +5,7 @@
       "Name" : "Up-Armored Saladin",
       "Details" : "",
       "Icon" : "",
-      "Cost" : 1993,
+      "Cost" : 564,
       "Rarity" : 3,
       "Purchasable" : false
    },
@@ -46,6 +46,13 @@
 			"CurrentArmor" : 50,
 			"CurrentInternalStructure" : 20,
 			"AssignedArmor" : 50,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Turret",
+			"CurrentArmor" : 40,
+			"CurrentInternalStructure" : 20,
+			"AssignedArmor" : 40,
 			"DamageLevel" : "Functional"
 		}
    ],

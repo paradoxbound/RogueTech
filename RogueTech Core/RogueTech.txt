@@ -70,6 +70,19 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+0988 PA2 Fixes4
+
+REQUIRES A CLEAN INSTALL!
+
+Turbine patched to release version
+Background gear milestones imrpoved thanks to Vulture82 doing the legwork
+You now get all your starting gear with 1 day delay (technical limitations)
+VIP patched
+Master tactician reworked
+Fewer Headhinjuries updated, new formula resists injuries dependant on guts and tactics
+Panic system updated
+
+
 0988 PA2 Fixes3
 Updated VIP
 Starting gear is now affected by background choices (given with a day delay each, would crash otherwise)
@@ -79,6 +92,10 @@ AIM Updated
 ME updated
 Rollback for panic system
 Reincluded updated Turbine - if crashes, we need its logs from the mods\ folder
+
+Aim now jettisons ammo when allw eapons are destroyed
+Improves ammo usage
+Shows an ammo Tooltip
 
 0988 PA2 Fixes2
 Made turbine a independent download (crashes reported with it)

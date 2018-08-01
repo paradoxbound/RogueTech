@@ -40,7 +40,7 @@
         "UIName" : "Plasma Torch",
         "Id" : "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch",
         "Name" : "Plasma Torch",
-        "Details" : "Construction and engineering mechs use Plasma Torches to cut and weld metal. In an emergency these high-temperature jets can be used against mechs in melee combat. Like all Industrial weapons, Plasma Cutters suffer a small inherant penalty to hit. Not affected by PPC Cap",
+        "Details" : "Construction and engineering 'Mechs use Plasma Torches to cut and weld metal. In an emergency these high-temperature jets can be used against 'Mechs in melee combat. Like all Industrial weapons, Plasma Cutters suffer a small inherent penalty to hit. Not affected by PPC Capacitors.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "10 Var.Dmg.",

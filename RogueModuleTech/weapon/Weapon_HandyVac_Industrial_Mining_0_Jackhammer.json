@@ -40,7 +40,7 @@
         "UIName" : "Jackhammer",
         "Id" : "Weapon_HandyVac_Industrial_Mining_0_Jackhammer",
         "Name" : "Jackhammer",
-        "Details" : "Mining and construction mechs use Jackhammers to break apart rock or concrete. In an emergency, these powered hammers can be used against mechs in melee combat. Like all Industrial weapons the Jackhammer suffers a small inherant penalty to hit.",
+        "Details" : "Mining and construction 'Mechs use Jackhammers to break apart rock or concrete. In an emergency, these powered hammers can be used against 'Mechs in melee combat. Like all Industrial weapons the Jackhammer suffers a small inherent penalty to hit.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "",
