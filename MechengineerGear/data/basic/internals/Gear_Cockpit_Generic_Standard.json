@@ -6,7 +6,7 @@
 		"Flags" : { "flags" : [ "default" ] }
 	},
     "Description" : {
-        "Cost" : 120000,
+        "Cost" : 0,
         "Rarity" : 0,
         "Purchasable" : false,
         "Manufacturer" : "Generic",

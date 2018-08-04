@@ -13,7 +13,7 @@
     "ChassisID": "chassisdef_urbanmech_UM-R60X",
     "HeraldryID": null,
     "Description": {
-        "Cost": 2500000,
+        "Cost": 250000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": null,

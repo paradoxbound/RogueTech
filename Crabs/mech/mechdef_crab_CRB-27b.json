@@ -12,7 +12,7 @@
     "ChassisID": "chassisdef_crab_CRB-27b",
     "HeraldryID": null,
     "Description": {
-        "Cost": 12720000,
+        "Cost": 327200,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": null,
@@ -76,7 +76,7 @@
             "Location": "RightArm",
             "CurrentArmor": 70,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 45,
+            "CurrentInternalStructure": 40,
             "AssignedArmor": 70,
             "AssignedRearArmor": -1
         },

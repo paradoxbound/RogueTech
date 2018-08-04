@@ -12,7 +12,7 @@
     "AmmoCategory" : "AC2",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 33,
-    "Damage" : 20,
+    "Damage" : 25,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -57,6 +57,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
+			"WR-variance_by_distance",			
             "range_long"
         ],
         "tagSetSourceFile" : ""

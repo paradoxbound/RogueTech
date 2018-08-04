@@ -1,31 +1,32 @@
 {
 	"Custom": {
 		"Color": {
-			"UIColor": "Gold",
+			"UIColor": "Gold"
 		},
 		"DynamicSlots": {
 			"ReservedSlots": 7,
-			"ReservedSlotColor": "GoldHalf",
+			"ReservedSlotColor": "GoldHalf"
 		},
 		"Weights": {
 			"ArmorFactor": 0.94340
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "1",
+				"TechCost": "[[Chassis.Tonnage]]/10",
 				"CBillCost": "[[Chassis.Tonnage]] * 1.05"
 			}
 		},		
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},
+		"ArmorRepair" : { "ArmorTPCost" : 1.3, "ArmorCBCost" : 1.4 },		
 		"Flags" : { "flags" : [ "not_broken" ] }		
 	},
     "Description" : {
-        "Cost" : 700000,
+        "Cost" : 400000,
         "Rarity" : 5,
         "Purchasable" : true,
-        "Manufacturer" : "Prototype",
+        "Manufacturer" : "Kallon",
         "Model" : "Armor Critical Slot",
         "UIName" : "Light Ferro",
         "Id" : "emod_armorslots_lightferrosfibrous",

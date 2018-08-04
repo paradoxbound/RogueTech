@@ -16,7 +16,9 @@
 			"unit_medium",
 			"unit_wheels",
 			"unit_release",
-			"unit_vehicle_carrier"
+			"unit_vehicle_carrier",
+            "unit_indirectFire",
+            "unit_lance_support"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -57,7 +59,8 @@
 			"DamageLevel": "Functional"
 		}
 	],
-	"inventory": [{
+	"inventory": [
+		{
 			"ComponentDefID": "Weapon_LRM_Thunderbolt5",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
@@ -90,6 +93,13 @@
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
 			"HardpointSlot": 4,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_TargetingTrackingSystem_I3F1",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Front",
+			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{

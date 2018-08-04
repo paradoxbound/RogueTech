@@ -9,7 +9,7 @@
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "1",
+				"TechCost": "[[Chassis.Tonnage]]/10",
 				"CBillCost": "[[Chassis.Tonnage]] * 1.05"
 			}
 		},
@@ -25,8 +25,8 @@
         "Cost" : 500000,
         "Rarity" : 5,
         "Purchasable" : true,
-        "Manufacturer" : "Prototype",
-        "Model" : "Structure Critical Slot",
+        "Manufacturer" : "Coventry",
+        "Model" : "Structure",
         "UIName" : "Endo-Composite",
         "Id" : "emod_structureslots_endocomposite",
         "Name" : "Endo-Steel Structure",

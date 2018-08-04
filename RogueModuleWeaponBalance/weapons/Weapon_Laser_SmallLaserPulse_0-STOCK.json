@@ -30,9 +30,9 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Small",
     "Description" : {
         "Cost" : 140000,
-        "Rarity" : 20,
-        "Purchasable" : false,
-        "Manufacturer" : "SCI",
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "Sunglow",
         "Model" : "Small Pulse Laser",
         "UIName" : "S Pulse",
         "Id" : "Weapon_Laser_SmallLaserPulse_0-STOCK",

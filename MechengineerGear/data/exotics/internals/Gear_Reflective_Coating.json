@@ -10,13 +10,14 @@
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "1",
+				"TechCost": "[[Chassis.Tonnage]]/20",
 				"CBillCost": "[[Chassis.Tonnage]]"
 			}
 		},
 		"Category" : { 
 			"CategoryID" : "Armor" 
-		}				
+		},
+		"ArmorRepair" : { "ArmorTPCost" : 1.1, "ArmorCBCost" : 1.2 }		
 	},
 
   

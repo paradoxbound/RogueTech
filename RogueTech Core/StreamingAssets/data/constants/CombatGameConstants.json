@@ -183,14 +183,14 @@
         "ToHitMovingTargetDistances": 
 		[
 			10,
-            70,
-            100,
+            60,
             130,
-			160,
+            170,
 			190,
 			220,
-			240,
-			270
+			250,
+			270,
+			310
 		],
         "EvasivePipsMovingTarget":
         [
@@ -755,9 +755,9 @@
         "OffensivePushLowMoraleCost": 20,
         "OffensivePushHighMoraleCost": 5,
         "UseDefensivePush": true,
-        "DefensivePushCost": 40,
+        "DefensivePushCost": 35,
         "DefensivePushLowMoraleCost": 50,
-        "DefensivePushHighMoraleCost": 20,
+        "DefensivePushHighMoraleCost": 25,
         "MoraleInitialDefault": 5,
         "UseBaselineMoraleGainEachRound": true,
         "MoraleBaselineGainPerRound": 1,
@@ -1034,7 +1034,7 @@
         "MoraleCostDefendDescription":
         {
             "Name": "VIGILANCE COST",
-            "Details": "Cost: 40 Morale"
+            "Details": "Cost: 35 Morale"
         },
         "MoraleCostDefendDescriptionLow":
         {
@@ -1044,7 +1044,7 @@
         "MoraleCostDefendDescriptionHigh":
         {
             "Name": "VIGILANCE COST HIGH",
-            "Details": "Cost: <color=#85DBF6FF>30 Morale (this MechWarrior has High Spirits)</color>"
+            "Details": "Cost: <color=#85DBF6FF>25 Morale (this MechWarrior has High Spirits)</color>"
         },
         "FireMultiDescription":
         {

@@ -2,7 +2,7 @@
 	"Description" : {
 		"Id" : "AbilityDefT5A",
 		"Name" : "TACTICIAN",
-		"Details" : "PASSIVE: Remove one bar of stability damage when Reserving, +3 Morale Gain and -30% Critical hits taken.",
+		"Details" : "PASSIVE: Remove one bar of stability damage when Reserving, +2 Morale Gain and -50% Critical hits taken.",
 		"Icon" : "uixSvgIcon_ability_mastertactician"
 	},
     "DisplayParams" : "ShowInMWTRay",
@@ -33,7 +33,7 @@
 			{
 				"statName" : "MoraleBonusGain",
 				"operation" : "Int_Add",
-				"modValue" : "3",
+				"modValue" : "2",
 				"modType" : "System.Int32"
 			},
 			"nature" : "Buff"
@@ -87,7 +87,7 @@
 			{
 				"statName" : "CriticalHitChanceReceivedMultiplier",
 				"operation" : "Float_Multiply",
-				"modValue" : "0.7",
+				"modValue" : "0.5",
 				"modType" : "System.Single"
 			},
 			"nature" : "Buff"

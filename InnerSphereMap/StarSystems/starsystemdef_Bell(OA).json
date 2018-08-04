@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Bell(OA)",
     "Name": "Bell (OA)",
-    "Details": "NOT DONE",
+    "Details": "Bell (OA) was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,30 +17,17 @@
     "items": [
       "planet_name_bell(oa)",
       "planet_size_large",
-      "planet_climate_water",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_stonedcaribou",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_feature_moon02",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_industry_recreation",
-      "planet_industry_research",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_pirate",
-      "planet_other_prison",
+      "planet_climate_desert",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_poor",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 4,
+  "JumpDistance": 11,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -103,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -3,
+  "Difficulty": -6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,10 +116,9 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "desertParched"
   ],
-  "StarType": "K",
+  "StarType": "B",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

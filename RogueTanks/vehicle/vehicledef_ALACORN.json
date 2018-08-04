@@ -14,14 +14,16 @@
       "items": [
          "unit_vehicle",
          "unit_assault",
-         "unit_tracks"
+         "unit_tracks",
+         "unit_lance_support",
+         "unit_lance_assassin"
       ],
       "tagSetSourceFile": ""
    },
    "Locations" : [
 		{
 			"Location" : "Front",
-			"CurrentArmor" :150,
+			"CurrentArmor" : 150,
 			"CurrentInternalStructure" : 40,
 			"AssignedArmor" : 150,
 			"DamageLevel" : "Functional"

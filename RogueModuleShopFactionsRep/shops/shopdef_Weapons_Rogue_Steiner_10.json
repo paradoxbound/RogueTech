@@ -27,5 +27,13 @@
             "Count" : 0
         }	
     ],
-    "Specials": []
+    "Specials": [
+        {
+            "ID": "Weapon_Laser_SmallLaserPulse_X",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count" : 0,
+			"Weight" : 10			
+        }	
+	]
 }

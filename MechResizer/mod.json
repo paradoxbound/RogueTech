@@ -23,6 +23,7 @@
 			"chassisdef_blackknight_BL-S7": 1.11,
 			"chassisdef_kingcrab_KGC-B": 1.11,
 			"chassisdef_kingcrab_KGC-0001": 0.95,
+			"chassisdef_cattlemaster-CM-H": 0.7,			
 		"chassisdef_awesome_AWS-8Q": 1.08,
 		"chassisdef_awesome_AWS-8T": 1.08,
 		"chassisdef_awesome_AWS-8R": 1.08,
@@ -116,11 +117,13 @@
 	"chassisdef_centurion_CN9-YLW": { "x": 0.85, "y": 1.1, "z": 0.98 },
 	"chassisdef_jenner_JR7-RX": { "x": 1.22, "y": 1.11, "z": 1.16 },
 	"chassisdef_jenner_JR7-X": { "x": 1.22, "y": 1.11, "z": 1.16 },
+	"chassisdef_dreka_DKA-1S": { "x": 1.61, "y": 1.38, "z": 1.48 },	
 	"chassisdef_urbanmech_UM-R66": { "x": 1.22, "y": 1.26, "z": 1.2 },
 	"chassisdef_atlas_AS7-D-HT": {"x": 0.87,"y": 1.05, "z": 1},
 	"chassisdef_atlas_AS7-D": {"x": 0.87,"y": 1.05, "z": 1},
 	"chassisdef_atlas_AS7-D-DC": {"x": 0.87,"y": 1.05, "z": 1},
-	"chassisdef_atlas_AS7-RS": {"x": 0.87,"y": 1.05, "z": 1},	
+	"chassisdef_atlas_AS7-RS": {"x": 0.87,"y": 1.05, "z": 1},
+	"chassisdef_hector_HOR-1B": {"x": 0.6,"y": 0.78, "z": 0.74},	
 	"chassisdef_marauder_MAD-3D": {"x": 0.76,"y": 0.9, "z": 0.93},
 	"chassisdef_marauder_MAD-3L": {"x": 0.76,"y": 0.9, "z": 0.93},
 	"chassisdef_marauder_MAD-3M": {"x": 0.76,"y": 0.9, "z": 0.93},
@@ -206,7 +209,9 @@
 			"vehiclechassisdef_PUMArtcv": 2.49,
 			"vehiclechassisdef_SALADINRTcv": 1.32,
 			"vehiclechassisdef_WINSTONRTcv": 1.51,
-			"vehiclechassisdef_ZEPHYRRTcv": 1.4
+			"vehiclechassisdef_ZEPHYRRTcv": 1.4,
+			"vehiclechassisdef_ROMMELRTcv": 2.25,
+			"vehiclechassisdef_PATTONRTcv": 2.25
 		},
     "vehicleSizeMultiplierVectors": {},
 	

@@ -37,7 +37,7 @@
         "UIName" : "Light Gauss Rifle",
         "Id" : "Weapon_Gauss_Gauss_LIGHT",
         "Name" : "Light Gauss Rifle",
-        "Details" : "The Light Gauss Rifle was introduced by the Free Worlds League. It functions identically to a Gauss Rifle, electromagnetically accelerating a slug to high speeds to cause massive damage at long range. As its name suggests, however, the Light Gauss Rifle is designed to be more compact, allowing Gauss Rifles to be mounted on smaller combat units. The slug and damage caused by the miniaturized rifle decreased in size, though the rifle is able to propel the smaller slug farther.",
+        "Details" : "The Light Gauss Rifle was introduced by the Free Worlds League. It functions identically to a Gauss Rifle, electromagnetically accelerating a slug to high speeds to cause massive damage at long range. As its name suggests, however, the Light Gauss Rifle is designed to be more compact, allowing Gauss Rifles to be mounted on smaller combat units.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "",

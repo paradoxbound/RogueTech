@@ -14,44 +14,46 @@
       "items": [
          "unit_vehicle",
          "unit_light",
-         "unit_tracks"
+         "unit_tracks",
+         "unit_indirectFire",
+         "unit_lance_support"
       ],
       "tagSetSourceFile": ""
    },
    "Locations" : [
 		{
 			"Location" : "Front",
-			"CurrentArmor" : 55,
-			"CurrentInternalStructure" : 15,
-			"AssignedArmor" : 55,
+			"CurrentArmor" : 160,
+			"CurrentInternalStructure" : 20,
+			"AssignedArmor" : 160,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Left",
-			"CurrentArmor" : 50,
-			"CurrentInternalStructure" : 15,
-			"AssignedArmor" : 50,
+			"CurrentArmor" : 120,
+			"CurrentInternalStructure" : 20,
+			"AssignedArmor" : 120,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Right",
-			"CurrentArmor" : 50,
-			"CurrentInternalStructure" : 15,
-			"AssignedArmor" : 50,
+			"CurrentArmor" : 120,
+			"CurrentInternalStructure" : 20,
+			"AssignedArmor" : 120,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Rear",
-			"CurrentArmor" : 55,
-			"CurrentInternalStructure" : 15,
-			"AssignedArmor" : 55,
+			"CurrentArmor" : 80,
+			"CurrentInternalStructure" : 20,
+			"AssignedArmor" : 80,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Turret",
-			"CurrentArmor" : 70,
-			"CurrentInternalStructure" : 15,
-			"AssignedArmor" : 70,
+			"CurrentArmor" : 100,
+			"CurrentInternalStructure" : 20,
+			"AssignedArmor" : 100,
 			"DamageLevel" : "Functional"
 		}
    ],
@@ -59,28 +61,21 @@
       {
          "ComponentDefID" : "Weapon_LRM_LRM20_0-STOCK",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Turret",
+         "MountedLocation" : "Front",
 		 "HardpointSlot" : 0,
 		 "DamageLevel" : "Functional"
       },
       {
          "ComponentDefID" : "Weapon_Laser_TAG",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Turret",
-		 "HardpointSlot" : 0,
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : 1,
 		 "DamageLevel" : "Functional"
       },	  
       {
-         "ComponentDefID" : "Weapon_Flamer_Flamer_0-STOCK",
+         "ComponentDefID" : "Weapon_Flamer_Heavy_Vehicle",
          "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Right",
-		 "HardpointSlot" : 0,
-		 "DamageLevel" : "Functional"
-      },
-      {
-         "ComponentDefID" : "Weapon_Flamer_Flamer_0-STOCK",
-         "ComponentDefType" : "Weapon",
-         "MountedLocation" : "Left",
+         "MountedLocation" : "Rear",
 		 "HardpointSlot" : 0,
 		 "DamageLevel" : "Functional"
       },

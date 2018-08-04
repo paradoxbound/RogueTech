@@ -19,11 +19,11 @@
     "PlayersCanPanic": true,
     "EnemiesCanPanic": true,
 	"KnockedDownCannotEject": false,
-    "ConsiderEjectingWithNoWeaps": false,
+    "ConsiderEjectingWithNoWeaps": true,
     "ConsiderEjectingWhenAlone": false,
 	"LosingLimbAlwaysPanics": false,
     "OneChangePerTurn": false,
-	"MinimumArmourDamagePercentageRequired": 5,
+	"MinimumArmourDamagePercentageRequired": 10,
 
 	/* Effect Modifiers */
     "UnsteadyModifier": 5,
@@ -38,9 +38,9 @@
     "MoraleMaxModifier": 10,
 
 	/* Ejection Bonuses and Limits */
-    "GutsEjectionResistPerPoint": 3,
-    "TacticsEjectionResistPerPoint": 0,	
-	"BaseEjectionResist": 75,
+    "GutsEjectionResistPerPoint": 1,
+    "TacticsEjectionResistPerPoint": 1,	
+	"BaseEjectionResist": 50,
 	"MaxEjectChance": 100,
     "EjectChanceMultiplier": 1,
     

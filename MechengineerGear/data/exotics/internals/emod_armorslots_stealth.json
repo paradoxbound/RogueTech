@@ -1,21 +1,22 @@
 {
 	"Custom": {
 		"Color": {
-			"UIColor": "Gold",
+			"UIColor": "Gold"
 		},
 		"DynamicSlots": {
 			"ReservedSlots": 6,
-			"ReservedSlotColor": "GoldHalf",
+			"ReservedSlotColor": "GoldHalf"
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "1",
+				"TechCost": "[[Chassis.Tonnage]]/10",
 				"CBillCost": "[[Chassis.Tonnage]] * 1.05"
 			}
 		},	
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},
+		"ArmorRepair" : { "ArmorTPCost" : 1.4, "ArmorCBCost" : 1.4 },		
 		"Flags" : { "flags" : [ "not_broken" ] },
 		"RequiredCategory" : { "CategoryID" : "ECM"}		
 	},
@@ -23,15 +24,15 @@
         "Cost" : 500000,
         "Rarity" : 5,
         "Purchasable" : true,
-        "Manufacturer" : "Prototype",
-        "Model" : "Armor Critical Slot",
+        "Manufacturer" : "Shengli Arms",
+        "Model" : "Armor",
         "UIName" : "Stealth Armor",
         "Id" : "emod_armorslots_stealth",
         "Name" : "Stealth Armor",
         "Details" : "Developed by the Capellan Confederation, Stealth Armor is a modern day equivalent of the Star League era Null Signature System. Reserves 6 slots and requires an ECM.",
         "Icon" : "uixSvgIcon_action_end"
     },
-    "BonusValueA" : "+1 Evasion Gain&Max|",
+    "BonusValueA" : "+1 Evasion Gain|",
     "BonusValueB" : "-40% Visbility|+6 Heat/turn",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
@@ -166,33 +167,6 @@
 			"statisticData" : 
 			{
 				"statName" : "EvasivePipsGainedAdditional",
-				"operation" : "Int_Add",
-				"modValue" : "1",
-				"modType" : "System.Int32"
-			},
-			"nature" : "Buff"
-		},
-{
-			"durationData" :
-			{
-				"duration" : -1
-			},
-			"targetingData" : 
-			{
-				"effectTriggerType" : "Passive",
-				"effectTargetType" : "Creator"
-			},
-			"effectType" : "StatisticEffect",
-			"Description" :
-			{
-				"Id" : "StealthEvastion2",
-				"Name" : "EVASIVE MOVE",
-				"Details" : "This unit generates an extra EVASIVE charge from movement actions (up to its maximum).",
-				"Icon" : "uixSvgIcon_action_evasivemove"
-			},
-			"statisticData" : 
-			{
-				"statName" : "MaxEvasivePips",
 				"operation" : "Int_Add",
 				"modValue" : "1",
 				"modType" : "System.Int32"

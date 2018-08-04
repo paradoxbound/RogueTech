@@ -257,7 +257,7 @@
                                 },
                                 "effectType" : "StatisticEffect",
                                 "Description" : {
-                                    "Id" : "SesnorsDestroyed",
+                                    "Id" : "SensorsDestroyed",
                                     "Name" : "Sensors Destroyed",
                                     "Details" : "-50% Sight and Sensor",
                                     "Icon" : "uixSvgIcon_equipment_Cockpit"
@@ -284,7 +284,7 @@
                                 },
                                 "effectType" : "StatisticEffect",
                                 "Description" : {
-                                    "Id" : "SesnorsDestroyed2",
+                                    "Id" : "SensorsDestroyed2",
                                     "Name" : "Sensors Destroyed",
                                     "Details" : "-50% Sight and Sensor",
                                     "Icon" : "uixSvgIcon_equipment_Cockpit"

@@ -13,7 +13,7 @@
     "ChassisID": "chassisdef_catapult_CPLT-S7",
     "HeraldryID": null,
     "Description": {
-        "Cost": 1890000,
+        "Cost": 389000,
         "Rarity": 10,
         "Purchasable": true,
         "Manufacturer": null,
@@ -32,7 +32,7 @@
             "Location": "Head",
             "CurrentArmor": 45,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 36,
+            "CurrentInternalStructure": 16,
             "AssignedArmor": 45,
             "AssignedRearArmor": -1
         },
@@ -41,7 +41,7 @@
             "Location": "LeftArm",
             "CurrentArmor": 100,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 90,
+            "CurrentInternalStructure": 60,
             "AssignedArmor": 100,
             "AssignedRearArmor": -1
         },
@@ -50,7 +50,7 @@
             "Location": "LeftTorso",
             "CurrentArmor": 150,
             "CurrentRearArmor": 75,
-            "CurrentInternalStructure": 115,
+            "CurrentInternalStructure": 80,
             "AssignedArmor": 150,
             "AssignedRearArmor": 75
         },
@@ -59,7 +59,7 @@
             "Location": "CenterTorso",
             "CurrentArmor": 210,
             "CurrentRearArmor": 95,
-            "CurrentInternalStructure": 145,
+            "CurrentInternalStructure": 115,
             "AssignedArmor": 210,
             "AssignedRearArmor": 95
         },
@@ -68,7 +68,7 @@
             "Location": "RightTorso",
             "CurrentArmor": 150,
             "CurrentRearArmor": 75,
-            "CurrentInternalStructure": 115,
+            "CurrentInternalStructure": 80,
             "AssignedArmor": 150,
             "AssignedRearArmor": 75
         },
@@ -77,7 +77,7 @@
             "Location": "RightArm",
             "CurrentArmor": 100,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 90,
+            "CurrentInternalStructure": 60,
             "AssignedArmor": 100,
             "AssignedRearArmor": -1
         },
@@ -86,7 +86,7 @@
             "Location": "LeftLeg",
             "CurrentArmor": 140,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 115,
+            "CurrentInternalStructure": 80,
             "AssignedArmor": 140,
             "AssignedRearArmor": -1
         },
@@ -95,7 +95,7 @@
             "Location": "RightLeg",
             "CurrentArmor": 140,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 115,
+            "CurrentInternalStructure": 80,
             "AssignedArmor": 140,
             "AssignedRearArmor": -1
         }

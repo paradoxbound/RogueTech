@@ -40,7 +40,7 @@
         "Details" : "A 'Mech sized version of the Infantry MagShot Gauss Rifle Prototype for testing in the sands of Solaris as an alternative to Medium Laser arrays. Unfortunately, this variant has a fixed capacity of 10 shots.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
-    "BonusValueA" : "5 Var.Dmg|+1 Acc.",
+    "BonusValueA" : "5 Var.Dmg|+1 Acc|",
     "BonusValueB" : "2 Recoil",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",

@@ -1,6 +1,6 @@
 {
     "Description": {
-        "Cost": 9900000,
+        "Cost": 990000,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": "",
@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_urbanmechBase-001",
     "PrefabBase": "urbanmech",
     "Tonnage": 100,
-    "InitialTonnage": 30,
+    "InitialTonnage": 10,
     "weightClass": "ASSAULT",
     "BattleValue": 1892000,
     "Heatsinks": 0,
@@ -56,7 +56,7 @@
 				{"WeaponMount": "AntiPersonnel","Omni": false},
             ],
             "Tonnage": 0,
-            "InventorySlots": 2,
+            "InventorySlots": 3,
             "MaxArmor": 45,
             "MaxRearArmor": -1,
             "InternalStructure": 16

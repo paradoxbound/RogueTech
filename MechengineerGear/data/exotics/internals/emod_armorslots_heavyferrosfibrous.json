@@ -1,15 +1,15 @@
 {
 	"Custom": {
 		"Color": {
-			"UIColor": "Gold",
+			"UIColor": "Gold"
 		},
 		"DynamicSlots": {
 			"ReservedSlots": 21,
-			"ReservedSlotColor": "GoldHalf",
+			"ReservedSlotColor": "GoldHalf"
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "1",
+				"TechCost": "[[Chassis.Tonnage]]/10",
 				"CBillCost": "[[Chassis.Tonnage]]"
 			}
 		},		
@@ -19,13 +19,14 @@
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},
+		"ArmorRepair" : { "ArmorTPCost" : 1.3, "ArmorCBCost" : 1.3 },		
 		"Flags" : { "flags" : [ "not_broken" ] }		
 	},
     "Description" : {
-        "Cost" : 500000,
+        "Cost" : 400000,
         "Rarity" : 5,
         "Purchasable" : true,
-        "Manufacturer" : "Prototype",
+        "Manufacturer" : "Durallex",
         "Model" : "Armor Critical Slot",
         "UIName" : "Heavy Ferro",
         "Id" : "emod_armorslots_heavyferrosfibrous",

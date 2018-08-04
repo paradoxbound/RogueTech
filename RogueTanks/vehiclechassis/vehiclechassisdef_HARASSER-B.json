@@ -10,9 +10,9 @@
 	},
 	"MovementCapDefID" : "movedef_HARASSER-B",
    	"PathingCapDefID" : "pathingdef_light_tracked",
-   	"HardpointDataDefID" : "hardpointdatadef_sldfdrone",
-	"PrefabIdentifier" : "chrPrfVhcl_sldfdrone",
-	"PrefabBase" : "sldfdrone",
+   	"HardpointDataDefID" : "hardpointdatadef_striker",
+	"PrefabIdentifier" : "chrPrfVhcl_striker",
+	"PrefabBase" : "striker",
 	"Tonnage" : 25,
 	"weightClass" : "LIGHT",
 	"BattleValue" : 1393,
@@ -27,7 +27,7 @@
 	"LOSSourcePositions" : [
 		{
 		    "x" : 0,
-		    "y" : 3.5,
+		    "y" : 3.25,
 		    "z" : -0.5
 	    },
 		{
@@ -39,7 +39,7 @@
 	"LOSTargetPositions" : [
 		{
 		    "x" : 0,
-		    "y" : 3.5,
+		    "y" : 3.25,
 		    "z" : -0.5
 	    },
 		{
@@ -59,13 +59,49 @@
 	    },
 		{
 		    "x" : 0,
-		    "y" : 1.5,
-		    "z" : -3.5
+		    "y" : 2.5,
+		    "z" : -4
 	    }
 	],
 	"Locations" : [
 		{
 			"Location" : "Front",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 40,
+			"InternalStructure" : 15
+		},
+		{
+			"Location" : "Left",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 40,
+			"InternalStructure" : 15
+		},
+		{
+			"Location" : "Right",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 40,
+			"InternalStructure" : 15
+		},
+		{
+			"Location" : "Rear",
+			"Hardpoints" : [
+			],
+			"Tonnage" : 0,
+			"InventorySlots" : 0,
+			"MaxArmor" : 40,
+			"InternalStructure" : 15
+		},
+	    {
+			"Location" : "Turret",
 			"Hardpoints" : [
 				{
 					"WeaponMount" : "Missile",
@@ -110,35 +146,8 @@
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
-			"MaxArmor" : 60,
-			"InternalStructure" : 30
-		},
-		{
-			"Location" : "Left",
-			"Hardpoints" : [
-			],
-			"Tonnage" : 0,
-			"InventorySlots" : 0,
-			"MaxArmor" : 60,
-			"InternalStructure" : 30
-		},
-		{
-			"Location" : "Right",
-			"Hardpoints" : [
-			],
-			"Tonnage" : 0,
-			"InventorySlots" : 0,
-			"MaxArmor" : 60,
-			"InternalStructure" : 30
-		},
-		{
-			"Location" : "Rear",
-			"Hardpoints" : [
-			],
-			"Tonnage" : 0,
-			"InventorySlots" : 0,
-			"MaxArmor" : 60,
-			"InternalStructure" : 30
+			"MaxArmor" : 40,
+			"InternalStructure" : 15
 		}
 	]
 }

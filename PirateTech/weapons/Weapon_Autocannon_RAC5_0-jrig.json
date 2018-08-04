@@ -3,16 +3,16 @@
     "Type" : "Autocannon",
     "WeaponSubType" : "AC20",
     "MinRange" : 0,
-    "MaxRange" : 510,
+    "MaxRange" : 480,
     "RangeSplit" : [
-        130,
-        260,
-        360
+        100,
+        200,
+        300
     ],
     "AmmoCategory" : "AC5",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 50,
-    "Damage" : 35,
+    "Damage" : 40,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -57,6 +57,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
+			"WR-variance_by_distance",			
             "range_long"
         ],
         "tagSetSourceFile" : ""

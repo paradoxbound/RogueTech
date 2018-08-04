@@ -4,6 +4,12 @@
 			"ReservedSlots": 4,
 			"EngineFactor": 0.75
 		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/4",
+				"CBillCost": "[[Chassis.Tonnage]]*2"
+			}
+		},		
 		"Category" : { 
 			"CategoryID" : "EngineShield" 
 		},		

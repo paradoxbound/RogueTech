@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_mechBay2",
         "Name" : "Mech Bay 2",
-        "Details" : "The repaired power conduits allow six more 'Mech cubicles to be powered up and made available. This also brings more of the Mech Bay's automated systems online, making Yang's job easier.",
+        "Details" : "The repaired power conduits allow six more 'Mech cubicles to be powered up and made available. This also brings more of the Mech Bay's automated systems online, making Yang's job easier.  <b><color=#F79232>Enables second Repair bay, allows work on 2 'Mech's at once.</color></b>.",
         "Icon" : "uixSvgIcon_shipUpgrade_mechbay2"
     },
     "Illustration" : "uixTxrSpot_MechBay",
@@ -25,8 +25,8 @@
         
     ],
     "TechCost" : 10,
-    "PurchaseCost" : 900000,
-    "AdditionalCost" : -2500,
+    "PurchaseCost" : 700000,
+    "AdditionalCost" : -1500,
     "Tags" : {
         "items" : [
             "argo_mechBay2"
@@ -51,7 +51,7 @@
  		{
 			"typeString" : "System.Int32",
 			"name" : "MechTechSkill",
-			"value" : 5,
+			"value" : 4,
 			"valueConstant" : ""
 		}       
     ]

@@ -269,6 +269,18 @@
 				},
 				{
 					"ID": "diff_start_basic",
+					"Name": "Random",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingPlayerMech",
+							"ConstantValue": "mechdef_centurion_TARGETDUMMY"
+						}
+					]
+				},				
+				{
+					"ID": "diff_start_wolfie",
 					"Name": "Wolfhound",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
@@ -353,7 +365,7 @@
 				},				
 				{
 					"ID": "diff_start_gdrk",
-					"Name": "Grand Dragon-3K",
+					"Name": "Gr. Dragon-3K",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{

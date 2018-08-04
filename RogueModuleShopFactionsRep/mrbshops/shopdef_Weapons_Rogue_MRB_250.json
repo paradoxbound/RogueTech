@@ -25,6 +25,18 @@
          "Count" : 0
       },
       {
+         "ID" : "Ammo_AmmunitionBox_Heatseeking_SRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+      {
+         "ID" : "Ammo_AmmunitionBox_Heatseeking_LRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },	  
+      {
          "ID" : "Ammo_AmmunitionBox_Tracer_MG",
          "Type" : "AmmunitionBox",
          "DiscountModifier" : 1.0,

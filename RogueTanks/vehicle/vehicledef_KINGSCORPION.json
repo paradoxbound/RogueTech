@@ -14,7 +14,9 @@
       "items": [
          "unit_vehicle",
          "unit_light",
-         "unit_tracks"
+         "unit_tracks",
+         "unit_lance_support",
+         "unit_lance_vanguard"
       ],
       "tagSetSourceFile": ""
    },

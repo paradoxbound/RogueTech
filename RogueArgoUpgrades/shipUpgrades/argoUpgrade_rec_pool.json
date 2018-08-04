@@ -16,14 +16,14 @@
     "AssignedCastDescription": "Commander. Come on. LOW-GRAVITY SWIMMING POOL. I don't know what there even is to discuss here.",
     "RequiredModules" : {
         "items" : [
-			"argoUpgrade_pod3"
+			"argoUpgrade_pod2"
         ],
         "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
     ],
-    "TechCost" : 20,
+    "TechCost" : 15,
     "PurchaseCost" : 450000,
     "AdditionalCost" : -2000,
     "Tags" : {

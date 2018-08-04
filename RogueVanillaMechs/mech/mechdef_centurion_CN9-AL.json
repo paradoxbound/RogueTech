@@ -13,7 +13,7 @@
     "ChassisID": "chassisdef_centurion_CN9-AL",
     "HeraldryID": null,
     "Description": {
-        "Cost": 5500000,
+        "Cost": 250000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": null,

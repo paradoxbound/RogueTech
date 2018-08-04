@@ -12,7 +12,7 @@
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "1",
+				"TechCost": "[[Chassis.Tonnage]]/10",
 				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
 			}
 		},
@@ -25,7 +25,7 @@
         "Cost" : 500000,
         "Rarity" : 5,
         "Purchasable" : true,
-        "Manufacturer" : "Lostech",
+        "Manufacturer" : "L.A.W.",
         "Model" : "Structure",
         "UIName" : "Endo-Steel",
         "Id" : "emod_structureslots_endosteel",

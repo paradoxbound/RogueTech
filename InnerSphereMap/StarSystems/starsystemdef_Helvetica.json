@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Helvetica",
     "Name": "Helvetica",
-    "Details": "NOT DONE",
+    "Details": "Helvetica was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_helvetica",
-      "planet_size_medium",
+      "planet_size_small",
       "planet_climate_arctic",
-      "planet_other_volcanic",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_comet",
       "planet_pop_none",
-      "planet_other_megacity",
       "planet_civ_primitive",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_other_comstar",
-      "planet_other_newcolony",
+      "planet_industry_poor",
       "planet_other_pirate",
-      "planet_other_prison",
       "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": -12,
+  "JumpDistance": 7,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +91,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -8,
+  "Difficulty": -3,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,7 +120,7 @@
     "polarFrozen",
     "tundraFrozen"
   ],
-  "StarType": "M",
+  "StarType": "B",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

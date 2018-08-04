@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Sardis",
     "Name": "Sardis",
-    "Details": "NOT DONE",
+    "Details": "Sardis was settled during the Star League era at some point after the end of the Reunification War but died out during the fighting in the Succession Wars.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,33 +16,18 @@
   "Tags": {
     "items": [
       "planet_name_sardis",
-      "planet_size_large",
-      "planet_climate_water",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_moon01",
-      "planet_other_moon",
+      "planet_size_small",
+      "planet_climate_arid",
       "planet_pop_none",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
+      "planet_civ_primitive",
       "planet_industry_poor",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_other_hub",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_other_prison",
+      "planet_ruins",
       " planet_other_empty"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 4,
+  "FuelingStation": false,
+  "JumpDistance": 9,
   "Owner": "NoFaction",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -132,9 +117,9 @@
   },
   "SupportedBiomes": [
     "lowlandsCoastal",
-    "highlandsSpring"
+    "badlandsParched"
   ],
-  "StarType": "B",
+  "StarType": "M",
   "ContractEmployers": [],
   "ContractTargets": [
     "AuriganPirates",

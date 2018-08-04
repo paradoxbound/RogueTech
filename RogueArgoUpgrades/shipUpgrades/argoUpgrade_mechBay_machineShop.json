@@ -23,7 +23,7 @@
     "Requirements" : [
         
     ],
-    "TechCost" : 20,
+    "TechCost" : 15,
     "PurchaseCost" : 450000,
     "AdditionalCost" : 8500,
     "Tags" : {
@@ -36,7 +36,7 @@
  		{
 			"typeString" : "System.Int32",
 			"name" : "MechTechSkill",
-			"value" : 4,
+			"value" : 3,
 			"valueConstant" : ""
 		}       
     ]

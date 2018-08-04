@@ -70,6 +70,136 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+
+
+0.988 Release
+
+Lots of new Tech avaible
+New Mechs
+New Argo Modules
+New Map
+Improved Economy
+Improved Start
+
+
+ABSOLUTELY DO A CLEAN INSTALL!
+
+Not savegame compatible to 0987!
+
+Wartech note:
+DELETE BATTLETECH\ModSaves\
+
+
+
+Integration of MechEngineer by CptMooreB
+Mechlab, Mech's and Gear rewritten to account for the possibilities of MechEngineer
+
+Engines, Structure and Armor can now be freely changed on every Mech
+
+Command console can now be looted and installed, increased weight
+Several tweaks to almost everything
+Completly reworked Shops
+
+Includes Turbine by Sheepy
+Improves all loading times and the games Datamanager
+
+Ammo shot counts now coloured
+Added RogueTech Icons by Vulture82
+
+Inner Sphere Map updated to 3040
+Includes every known System from Lore
+
+Includes Repair Bays fork by Don Zappo
+Upgrading Argo Mechbays allows simulataneous repairs
+
+Armor Repair updated for compatability to CC & ME
+
+LessHeadinjuries replaced with FewerHeadinjuries by gnivler
+HeadInjuries taken is now governed by Guts&Tactics
+
+Massive upgrades to RogueTank and VIP by Cargo_Vroom
+
+Wartech updated to 1.3
+
+Master Tactician replaced with Command Console
+Now grants crit resistance, bonus morale and reducing instability on reserve
+
+Aim updated
+Shows Ammo counts on paperdolls
+Ammo is jettisoned if its weapons are destroyed
+Smart ammo use system
+
+Panic system reworked to use Gnivler and Don Zappo fork
+
+Added new burstballisticchecker by Janxious
+Fixes race condition when emptying mg ammo 
+
+Now includes WeaponRealizer by Janxious
+Replaces Weaponvariance
+Allows weapons to deal variable damage by Range, notably Heavy Gauss Rifles and Snub Nose PPC
+Heat Weapons now deal a portion of their Heat Damage as bonus to vehicles, turrets and buildings
+
+Starter gear is dependent on Background choices
+Technical Limitations grant it all with 1 day delay
+
+
+Removed Emblems, Portrait Loader and Mech Icons and made them optional to reduce download size
+
+Extented information removed due to incompatability
+
+
+
+
+
+
+---------------
+Alpha changelog, ignore this for the stable
+0988 PA3 fixes1
+Updated Pilot Fatigue
+Patched missing IS map settings
+ArmorRepair fork by denaden
+Armors now have adjusted repair costs depending on their type
+EG: Primitive costs half to repair in terms of mechtechs and cbills
+
+
+0988 PA3
+
+DO A CLEAN INSTALL
+
+WeaponRealizer patched
+Now completly replaces weaponvariance
+
+Damage Variance by Range first implementation
+A couple weapons deal more damage the closer they get
+
+New weapon, X Pulse laser, slightly increased more damage and range, but generate more heat
+
+IS map updated (thanks Kodiak and the others)
+Another fixed starsystem will cause saves to break
+A new game is advised
+Json can be gotten on discord if you absolutely must play your old save
+
+Changing Engine shielding now has appropiate costs depending on chassis
+Changing Engine cores now have a tech cost appropiate to chassis
+Pirate Engine Upgrade is now Engine Shielding
+
+0988 PA2 Fixes5
+Tweaked empty cost of all mechs to account for engine costs
+Only affects newly aquired chassis
+Wartech updated to 1.3 release
+Added Repairbays fork by Don Zappo
+Argo upgrades tweaked - only apply fully on a new game
+MechTech upgrades tweaked to account for simultaneous repairs
+4 new Argo Morale Upgrades
+High G Argo drive Upgrade
+RT Tanks upgraded to make use of a Heavy Vehicle Flamer
+Turbine updated
+
+Primitive Tech Added
+Delete the old mackie folder, or do a clean install
+
+
+
 0988 PA2 Fixes4
 
 REQUIRES A CLEAN INSTALL!
@@ -81,6 +211,8 @@ VIP patched
 Master tactician reworked
 Fewer Headhinjuries updated, new formula resists injuries dependant on guts and tactics
 Panic system updated
+
+Flamers and plasma now deal bonus damage to overheating targets
 
 
 0988 PA2 Fixes3
@@ -173,56 +305,6 @@ Added not_broken tag to every ammobox, improper munitions are a safety hazard
 0988 PA1 HF1
 Updated to correct wartech
 
-0.988 Public Alpha 1
-
-Please do a clean install
-
-Wartech note:
-ABSOLUTELY NOT SAVE COMPATIBLE DELETE BATTLETECH\ModSaves\WarTech WHEN INSTALLING
-
-Using on old saves is not advised as we have no idea what all can break
-
-Known issue:
-New game without closing the game first will create a hard crash
-Vanilla issue with caching and referencing files, is being worked on
-
-
-Integration of MechEngineer by CptMooreB has begun
-Many Rules rewritten to account for the possibilities of MechEngineer
-Advanced materials got nerfed they now represent patchwork additions
-Command console can now be looted and installed, increased weight
-
-
-Excess jump jets may be deleted on old save
-
-Removed Emblems, Portrait Loader and Mech Icons and made them optional to reduce download size
-
-Extented information removed due to incompatability
-
-LessHeadinjuries replaced with FewerHeadinjuries by gnivler
-
-Wartech updated to 1.2
-
-Added Don Zappos Pilot quirks and its dependant mods
-
-Change the Pilot_Quirks mod.json to "IsSaveGame": true, if you use a old save (unsupported action)
-Panic system reworked to use Gnivler and Don Zappo fork
-
-Aim updated
-
-Reverted to mpstark randomstarter to prevent 1 new game crash
-
-Ontos Tanks fixed
-
-Changed salvage rules and defaults
-
-Added gear back to RogueTank by Cargo_Vroom
-Added new burstballisticchecker by Janxious
-
-Fixed Ontos Tanks
-Removed Emblems, Portrait Loader and Mech Icons and made them optional to reduce download size
-Added gear back to RogueTank by Cargo_Vroom
-Added new burstballisticchecker by Janxious
 
 
 Disabled Autofixer for chassis slots

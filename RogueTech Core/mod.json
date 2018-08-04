@@ -2,7 +2,7 @@
     "Name": "RogueTech Core",
     "Enabled": true,
 
-    "Version": "0.988 Alpha2 fixes4",
+    "Version": "0.988 Release",
     "Description": "Contains the basic rules of RogueTech - Core Module",
     "Author": "LadyAlekto",
     "Website": "",
@@ -17,7 +17,7 @@
     ],
 	
 	
-			"DependsOn": [ "InnerSphereMap", "CustomComponents", "ArmorRepair"],	
+			"DependsOn": [ "InnerSphereMap", "CustomComponents", "ArmorRepair", "RogueModuleTech"],	
 			
 			    "DLL": "RTVersion.dll",
 			

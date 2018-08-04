@@ -38,7 +38,7 @@
  		{
 			"typeString" : "System.Int32",
 			"name" : "MechTechSkill",
-			"value" : 4,
+			"value" : 3,
 			"valueConstant" : ""
 		}       
     ]

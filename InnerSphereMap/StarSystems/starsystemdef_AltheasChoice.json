@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_AltheasChoice",
     "Name": "Althea's Choice",
-    "Details": "NOT DONE",
+    "Details": "Althea’s Choice was named after the leader of the colonists had to make a choice between systems to settle. Some say she got it wrong.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -18,27 +18,16 @@
       "planet_name_althea'schoice",
       "planet_size_large",
       "planet_climate_desert",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_feature_asteroids",
-      "planet_feature_rings",
-      "planet_feature_moon03",
-      "planet_other_moon",
       "planet_pop_none",
-      "planet_industry_recreation",
-      "planet_industry_agriculture",
+      "planet_industry_poor",
       "planet_other_blackmarket",
-      "planet_other_newcolony",
       "planet_other_pirate",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_taurian"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 5,
+  "FuelingStation": false,
+  "JumpDistance": 12,
   "Owner": "TaurianConcordat",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +90,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -129,7 +118,7 @@
   "SupportedBiomes": [
     "desertParched"
   ],
-  "StarType": "0",
+  "StarType": "G",
   "ContractEmployers": [
     "TaurianConcordat",
     "Locals"

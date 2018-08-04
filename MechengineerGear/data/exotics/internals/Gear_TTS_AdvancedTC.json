@@ -6,7 +6,8 @@
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "1"
+				"TechCost": "[[Chassis.Tonnage]]/10",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.15"				
 			}
 		}		
 	},
@@ -91,7 +92,7 @@
             "Description" : {
                 "Id" : "TC-TO-HIT",
                 "Name" : "Targeting Computer",
-                "Details" : "Breaching Shot, Improved Accuracy/Called Shot.",
+                "Details" : "Breaching Shot, Improved Accuracy/Recoil.",
                 "Icon" : "uixSvgIcon_ability_precisionstrike"
             },
             "nature" : "Buff",

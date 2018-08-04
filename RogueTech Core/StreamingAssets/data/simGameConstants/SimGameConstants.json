@@ -136,6 +136,12 @@
 		"StartingDropShip" : "argo",
 		"UpgradedDropShip" : "argo",
 		"StartingPlayerMech" : "mechdef_blackjack_BJ-1",
+		"StartingLance" : [
+			"mechdef_vindicator_VND-1R",
+			"mechdef_trebuchet_TBT-4M",
+			"mechdef_venom_SDR-9K",
+			"mechdef_locust_LCT-LR"
+		],		
 		"StartingArgoUpgrades" : [
 			"argoUpgrade_drive0",
 			"argoUpgrade_mechBay1",

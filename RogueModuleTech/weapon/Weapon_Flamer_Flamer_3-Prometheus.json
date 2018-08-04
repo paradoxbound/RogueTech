@@ -41,7 +41,7 @@
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "+ 5 Dmg(H)|",
-    "BonusValueB" : "X3 Overheat Damage.",
+    "BonusValueB" : "X3 Bonus vs Overheat.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Flamer",

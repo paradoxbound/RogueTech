@@ -86,7 +86,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],
@@ -121,7 +121,7 @@
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 }
             ],

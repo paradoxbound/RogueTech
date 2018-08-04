@@ -1,31 +1,32 @@
 {
 	"Custom": {
 		"Color": {
-			"UIColor": "Gold",
+			"UIColor": "Gold"
 		},
 		"DynamicSlots": {
 			"ReservedSlots": 14,
-			"ReservedSlotColor": "GoldHalf",
+			"ReservedSlotColor": "GoldHalf"
 		},
 		"Weights": {
 			"ArmorFactor": 0.89286
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "1",
+				"TechCost": "[[Chassis.Tonnage]]/10",
 				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
 			}
 		},
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},
+		"ArmorRepair" : { "ArmorTPCost" : 1.2, "ArmorCBCost" : 1.2 },
 		"Flags" : { "flags" : [ "not_broken" ] }		
 	},
     "Description" : {
-        "Cost" : 500000,
+        "Cost" : 250000,
         "Rarity" : 4,
         "Purchasable" : true,
-        "Manufacturer" : "Lostech",
+        "Manufacturer" : "L.A.W.",
         "Model" : "Armor",
         "UIName" : "Ferro-Fibrous",
         "Id" : "emod_armorslots_ferrosfibrous",

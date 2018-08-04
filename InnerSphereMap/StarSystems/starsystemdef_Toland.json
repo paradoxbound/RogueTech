@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Toland",
     "Name": "Toland",
-    "Details": "NOT DONE",
+    "Details": "Toland was settled by a mixture of artists and craftsmen fleeing from the First Succession War. Toland has three moons, expanses of jungle and natural resources that include rare minerals.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,32 +16,20 @@
   "Tags": {
     "items": [
       "planet_name_toland",
-      "planet_size_small",
-      "planet_climate_rocky",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_other_storms",
-      "planet_other_taintedair",
-      "planet_feature_asteroids",
-      "planet_feature_gasgiant",
-      "planet_pop_small",
-      "planet_other_megacity",
-      "planet_civ_primitive",
-      "planet_industry_recreation",
+      "planet_size_large",
+      "planet_climate_tropical",
+      "planet_feature_moon02",
+      "planet_other_moon",
+      "planet_pop_medium",
+      "planet_civ_innersphere",
+      "planet_industry_poor",
       "planet_industry_mining",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
-      "planet_other_prison",
-      "planet_ruins",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": 15,
+  "FuelingStation": false,
+  "JumpDistance": 10,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +92,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 0,
+  "Difficulty": 5,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,10 +118,11 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall"
+    "lowlandsCoastal",
+    "lowlandsSpring",
+    "lowlandsFall"
   ],
-  "StarType": "K",
+  "StarType": "F",
   "ContractEmployers": [
     "Steiner",
     "Locals"

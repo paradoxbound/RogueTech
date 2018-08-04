@@ -3,11 +3,11 @@
     "Type" : "Laser",
     "WeaponSubType" : "LargeLaserPulse",
     "MinRange" : 0,
-    "MaxRange" : 400,
+    "MaxRange" : 370,
     "RangeSplit" : [
-        120,
-        240,
-        310
+        90,
+        210,
+        280
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
@@ -32,7 +32,7 @@
         "Cost" : 710000,
         "Rarity" : 5,
         "Purchasable" : true,
-        "Manufacturer" : "SCI",
+        "Manufacturer" : "Blankenburg",
         "Model" : "Large Pulse Laser",
         "UIName" : "L Pulse",
         "Id" : "Weapon_Laser_LargeLaserPulse_0-STOCK",

@@ -13,7 +13,7 @@
     "ChassisID": "chassisdef_wolfhound_WLF-1X",
     "HeraldryID": null,
     "Description": {
-        "Cost": 3590000,
+        "Cost": 159000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -221,10 +221,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },
+        },		
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -235,7 +235,7 @@
         },		
         {
             "MountedLocation": "Head",
-            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-II",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,

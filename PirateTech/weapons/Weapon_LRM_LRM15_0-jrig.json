@@ -16,13 +16,13 @@
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 1,
+    "DamageVariance" : 0,
     "HeatDamage" : 0,
     "AccuracyModifier" : 2,
     "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
-    "RefireModifier" : 2,
+    "RefireModifier" : 0,
     "ShotsWhenFired" : 15,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 1,
@@ -57,6 +57,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
+			"WR-variance_by_distance",			
             "range_extreme"
         ],
         "tagSetSourceFile" : ""

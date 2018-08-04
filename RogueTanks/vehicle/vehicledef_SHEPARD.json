@@ -14,7 +14,8 @@
       "items": [
          "unit_vehicle",
          "unit_heavy",
-         "unit_tracks"
+         "unit_tracks",
+         "unit_lance_vanguard"
       ],
       "tagSetSourceFile": ""
    },
@@ -57,7 +58,7 @@
    ],
    "inventory" : [
       {
-         "ComponentDefID" : "Weapon_Flamer_Flamer_0-STOCK",
+         "ComponentDefID" : "Weapon_Flamer_Heavy_Vehicle",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Front",
 		 "HardpointSlot" : 0,

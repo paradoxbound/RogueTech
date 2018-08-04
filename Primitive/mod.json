@@ -1,0 +1,25 @@
+{
+	"Name": "Primitive Tech",
+	"Author": "The Community",
+	"Website": "https://github.com/CptMoore/MechEngineer",
+
+	"Enabled": true,
+	"DependsOn": ["CustomComponents", "MechEngineer"],
+
+
+	"Manifest": [
+		{
+			"Type": "UpgradeDef",
+			"Path": "gear",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "HeatSinkDef",
+			"Path": "engines",
+			"ShouldMergeJSON": false
+		},
+        { "Type": "MechDef", "Path": "mech" },
+        { "Type": "ChassisDef", "Path": "chassis" },
+        { "Type": "MovementCapabilitiesDef", "Path": "move" },		
+	]
+}

@@ -53,6 +53,13 @@
             "DiscountModifier": 1.2,
             "Count" : 0,
 			"Weight" : 10			
-        }	
+        },
+        {
+            "ID": "Weapon_Laser_LargeLaserPulse_X",
+            "Type": "Weapon",
+            "DiscountModifier": 1.2,
+            "Count" : 0,
+			"Weight" : 10			
+        }		
 	]
 }
