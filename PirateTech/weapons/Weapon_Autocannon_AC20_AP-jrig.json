@@ -1,6 +1,6 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamage": 150 } }
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 150 } },
 
     "Category" : "AntiPersonnel",
     "Type" : "Autocannon",
@@ -40,7 +40,7 @@
         "UIName" : "Pirate AC/20",
         "Id" : "Weapon_Autocannon_AC20_AP-jrig",
         "Name" : "Pirate AC/20",
-        "Details" : "The king of the battlefield, absolutely ruined by pirates. They’ve cut off half the barrel, made it hot-load two slugs at a time, and scratched obscenities all over it. They’ve basically turned this AC/20 into a sawed-off shotgun.",
+        "Details" : "The king of the battlefield, absolutely ruined by pirates. They’ve cut off half the barrel, made it hot-load two slugs at a time, and scratched obscenities all over it. They’ve basically turned this AC/20 into a sawed-off shotgun. <b><color=#0099ff2>VOLATILE!</color></b>",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "Unknown",

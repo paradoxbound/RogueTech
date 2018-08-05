@@ -41,7 +41,7 @@
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "Unknown",
-    "BonusValueB" : "Less range",
+    "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "lrm5",

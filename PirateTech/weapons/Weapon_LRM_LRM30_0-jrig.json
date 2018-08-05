@@ -1,8 +1,11 @@
 {
+
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 80 } },
+
     "Category" : "Missile",
     "Type" : "LRM",
     "WeaponSubType" : "LRM20",
-    "MinRange" : 60,
+    "MinRange" : 66,
     "MaxRange" : 666,
     "RangeSplit" : [
         210,
@@ -37,7 +40,7 @@
         "UIName" : "Pirate LRM30",
         "Id" : "Weapon_LRM_LRM30_0-jrig",
         "Name" : "Pirate LRM30",
-        "Details" : "This WAS an LRM20, they somehow managed to override any safety's, removed the guidance computer and sped up the feeding mechanism, if this explodes and sends you after Kerensky don't ask me to fix it.",
+        "Details" : "This WAS an LRM20, they somehow managed to override any safety's, removed the guidance computer and sped up the feeding mechanism, if this explodes and sends you after Kerensky don't ask me to fix it. <b><color=#0099ff2>VOLATILE!</color></b>",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "Unknown",

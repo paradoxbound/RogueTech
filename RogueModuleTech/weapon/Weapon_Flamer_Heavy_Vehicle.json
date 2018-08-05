@@ -40,7 +40,7 @@
         "UIName" : "Vehicle Flamer",
         "Id" : "Weapon_Flamer_Heavy_Vehicle",
         "Name" : "Vehicle Flamer",
-        "Details" : "The Vehicle Flamer performs the same as a 'Mech-mounted Flamer, venting superheated gases at a target to cause it to overheat/burn up. As most non-'Mech combat units lack expensive nuclear fusion reactors, Vehicle Flamers instead draw from a pool of combusting ''ammunition'' and use that to generate the stream of hot gas.",
+        "Details" : "The Vehicle Flamer performs the same as a 'Mech-mounted Flamer, venting superheated gases at a target to cause it to overheat/burn up. As most non-'Mech combat units lack expensive nuclear fusion reactors, Vehicle Flamers instead draw from a pool of combusting ''ammunition'' and use that to generate the stream of hot gas. <b><color=#0099ff2>VOLATILE!</color></b>",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "+Dmg|+Range|",

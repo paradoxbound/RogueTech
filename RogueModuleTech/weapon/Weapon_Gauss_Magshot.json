@@ -40,7 +40,7 @@
         "UIName" : "MagShot Rifle",
         "Id" : "Weapon_Gauss_Magshot",
         "Name" : "MagShot Rifle",
-        "Details" : "A 'Mech sized version of the Infantry MagShot Gauss Rifle Prototype for testing in the sands of Solaris as an alternative to Medium Laser arrays. Unfortunately, this variant has a fixed capacity of 10 shots.",
+        "Details" : "A 'Mech sized version of the Infantry MagShot Gauss Rifle Prototype for testing in the sands of Solaris as an alternative to Medium Laser arrays. Unfortunately, this variant has a fixed capacity of 10 shots. <b><color=#0099ff2>VOLATILE!</color></b>",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "Range Variance|",

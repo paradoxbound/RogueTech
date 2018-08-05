@@ -16,7 +16,7 @@
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},
-		"ArmorRepair" : { "ArmorTPCost" : 1.4, "ArmorCBCost" : 1.4 },		
+		"ArmorRepair" : { "ArmorTPCost" : 1.2, "ArmorCBCost" : 1.4 },		
 		"Flags" : { "flags" : [ "not_broken" ] },
 		"RequiredCategory" : { "CategoryID" : "ECM"}		
 	},

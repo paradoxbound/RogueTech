@@ -85,7 +85,16 @@ PPC cap will explode
 Weapons with internal Ammo can explode
 CASE and CASEII will prevent ammo and equipment explosions
 
-Basic case is cheap and sold everywhere
+CASE 
+-can only be installed in torso 
+-prevents Ammo\Component explosions propagating to CT
+
+CASEII
+-can be installed anywhere
+-reduces Ammo\Component explosions to just 3 internal damage
+-Torso Explosions destroy rear armor
+
+Basic CASE is cheap and sold everywhere
 CASEII is rare and cost 10 times
 
 Several Mech's received CASE

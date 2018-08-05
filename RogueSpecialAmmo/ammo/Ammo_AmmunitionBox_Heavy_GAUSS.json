@@ -13,7 +13,7 @@
         "UIName" : "Gauss Heavy Ammo",
         "Id" : "Ammo_AmmunitionBox_Heavy_GAUSS",
         "Name" : "Gauss Heavy Ammo",
-        "Details" : "Heavy Gauss ammo fires a heavier projectile drastically reducing range but increasing the damage profile. Carries <b><color=#F79232>4 rounds</color></b>. Provides a buff to all your Ammo of the same type.",
+        "Details" : "Heavy Gauss ammo fires a heavier projectile drastically reducing range but increasing the damage profile. Carries <b><color=#F79232>4 rounds</color></b>. Provides a buff to all your Ammo of the same type. <b><color=#0099ff2>Does not explode.</color></b>",
         "Icon" : "uixSvgIcon_ammoBox_Ballistic"
     },
     "BonusValueA" : "+25% DMG|-1Accuracy|",

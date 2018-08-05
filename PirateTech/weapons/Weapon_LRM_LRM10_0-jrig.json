@@ -1,4 +1,7 @@
 {
+
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 40 } },
+
     "Category" : "Missile",
     "Type" : "LRM",
     "WeaponSubType" : "LRM10",
@@ -37,7 +40,7 @@
         "UIName" : "Pirate LRM10",
         "Id" : "Weapon_LRM_LRM10_0-jrig",
         "Name" : "Pirate LRM10",
-        "Details" : "Some shǎzi rewired the Guidance system so poorly, and so many times, that I’m pretty sure it would just hit whatever’s closest, including yourself.",
+        "Details" : "Some shǎzi rewired the Guidance system so poorly, and so many times, that I’m pretty sure it would just hit whatever’s closest, including yourself. <b><color=#0099ff2>VOLATILE!</color></b>",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "Unknown",

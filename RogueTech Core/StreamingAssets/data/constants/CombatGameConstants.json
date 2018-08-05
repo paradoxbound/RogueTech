@@ -211,10 +211,10 @@
             5,
             7,
             9,
-            11,
+            10,
+			11,
 			12,
-			13,
-			14
+			13
 		],
         "ToHitMovingTargetStrings": 
 		[
@@ -314,7 +314,7 @@
         "StabilityDumpAbilityDefer": 1,
         "StabilityDumpDFA": -0.5,
         "SearchForValidCritSlot": true,
-        "MinCritChance": 0.35,
+        "MinCritChance": 0.5,
         "AllowTotalNegativeModifier": true
     },
     "CombatValueMultipliers":

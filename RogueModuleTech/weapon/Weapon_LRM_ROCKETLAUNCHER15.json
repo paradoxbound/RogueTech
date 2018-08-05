@@ -40,7 +40,7 @@
         "UIName" : "RL15",
         "Id" : "Weapon_LRM_ROCKETLAUNCHER15",
         "Name" : "RL15",
-        "Details" : "Rocket Launchers are cheap, unguided, one-shot missile launchers. Developed by the Marian Hegemony, they often replace more sophisticated equipment that the Periphery nation cannot afford or is unable to repair. Since their introduction, Rocket Launchers have proliferated across the Periphery. ",
+        "Details" : "Rocket Launchers are cheap, unguided, one-shot missile launchers. Developed by the Marian Hegemony, they often replace more sophisticated equipment that the Periphery nation cannot afford or is unable to repair. <b><color=#0099ff2>VOLATILE!</color></b>",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",
