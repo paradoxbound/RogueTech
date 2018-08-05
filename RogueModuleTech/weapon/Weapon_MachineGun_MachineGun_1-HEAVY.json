@@ -12,21 +12,21 @@
     "AmmoCategory" : "MG",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 8,
-    "Damage" : 5,
+    "Damage" : 6,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 2,
+    "DamageVariance" : 0,
     "HeatDamage" : 0,
     "AccuracyModifier" : 0,
-    "CriticalChanceMultiplier" : 1,
+    "CriticalChanceMultiplier" : 2,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
-    "RefireModifier" : 0,
-    "ShotsWhenFired" : 5,
+    "RefireModifier" : 2,
+    "ShotsWhenFired" : 6,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 0,
-    "Instability" : 1.25,
+    "Instability" : 1.5,
     "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
     "Description" : {
         "Cost" : 60000,
@@ -40,7 +40,7 @@
         "Details" : "As its name implies, the Heavy Machine Gun is less a Machine gun and more like and automated Grenade Launcher. The HMG does more damage and has a better chance of penetrating and destroying critical components, but weighs twice as much, and suffers from recoil. ",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
-    "BonusValueA" : "2 Var.Dmg.",
+    "BonusValueA" : "Range Variance.",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
@@ -57,6 +57,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
+			"WR-variance_by_distance-33",			
             "range_close"
         ],
         "tagSetSourceFile" : ""

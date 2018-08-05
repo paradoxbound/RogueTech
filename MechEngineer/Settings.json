@@ -401,7 +401,84 @@
             "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
             "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
             "ValidateForbidden" : "Cannot use {0} and {1} together"
-        }
+        },
+        {
+            "Name" : "CASE",
+            "DisplayName" : "CASE",
+            "Unique" : false,
+            "UniqueForLocation" : true,
+            "Required" : false,
+            "displayName" : "CASE",
+            "AllowMixTags" : false,
+            "AutoReplace" : false,
+            "ReplaceAnyLocation" : false,
+            "MaxEquiped" : -1,
+            "MaxEquipedPerLocation" : 1,
+            "MinEquiped" : 0,
+            "Forbidden" : [
+                "CASE2"
+            ],
+            "DefaultCustoms" : {
+                "Flags" : {
+                    "Flags" : [
+                        "ignore_damage",
+                        "no_explosion_passthrough"
+                    ]
+                }
+            },
+            "AddAlreadyEquiped" : "{0} already installed on mech",
+            "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
+            "AddMaximumReached" : "Mech already have {1} of {0} installed",
+            "AddMaximumLocationReached" : "Mech already have {1} of {0} installed at {2}",
+            "AddMixed" : "Mech can have only one type of {0}",
+            "ValidateRequred" : "MISSING {0}: This mech must mount a {1}",
+            "ValidateMinimum" : "MISSING {0}: This mech must mount at least {2} of {1}",
+            "ValidateMixed" : "WRONG {0}: Mech can have only one type of {1}",
+            "ValidateUnique" : "EXCESS {0}: This mech can't mount more then one {1}",
+            "ValidateMaximum" : "EXCESS {0}: This mech can't mount more then {2} of {1}",
+            "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
+            "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
+            "ValidateForbidden" : "Cannot use {0} and {1} together"
+        },
+        {
+            "Name" : "CASE2",
+            "DisplayName" : "CASE II",
+            "Unique" : false,
+            "UniqueForLocation" : true,
+            "Required" : false,
+            "displayName" : "CASE II",
+            "AllowMixTags" : false,
+            "AutoReplace" : false,
+            "ReplaceAnyLocation" : false,
+            "MaxEquiped" : -1,
+            "MaxEquipedPerLocation" : 1,
+            "MinEquiped" : 0,
+            "Forbidden" : [
+                "CASE"
+            ],
+            "DefaultCustoms" : {
+                "Flags" : {
+                    "Flags" : [
+                        "ignore_damage",
+                        "no_explosion_passthrough",
+                        "rear_armor_blowout"
+                    ]
+                }
+            },
+            "AddAlreadyEquiped" : "{0} already installed on mech",
+            "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
+            "AddMaximumReached" : "Mech already have {1} of {0} installed",
+            "AddMaximumLocationReached" : "Mech already have {1} of {0} installed at {2}",
+            "AddMixed" : "Mech can have only one type of {0}",
+            "ValidateRequred" : "MISSING {0}: This mech must mount a {1}",
+            "ValidateMinimum" : "MISSING {0}: This mech must mount at least {2} of {1}",
+            "ValidateMixed" : "WRONG {0}: Mech can have only one type of {1}",
+            "ValidateUnique" : "EXCESS {0}: This mech can't mount more then one {1}",
+            "ValidateMaximum" : "EXCESS {0}: This mech can't mount more then {2} of {1}",
+            "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
+            "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
+            "ValidateForbidden" : "Cannot use {0} and {1} together"
+        }		
     ],		
 	"logLevel": "Debug"
 }

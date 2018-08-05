@@ -1,4 +1,7 @@
 {
+
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 25 }},
+
     "Category" : "Energy",
     "Type" : "PPC",
     "WeaponSubType" : "PPCER",
@@ -12,12 +15,12 @@
     "AmmoCategory" : "GAUSS",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 25,
-    "Damage" : 30,
-    "OverheatedDamageMultiplier" : 2.5,
+    "Damage" : 60,
+    "OverheatedDamageMultiplier" : 1.5,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 1,
-    "DamageVariance" : 10,
-    "HeatDamage" : 30,
+    "DamageVariance" : 5,
+    "HeatDamage" : 25,
     "AccuracyModifier" : 0,
     "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
@@ -41,7 +44,7 @@
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "Bonus vs Overheat|",
-    "BonusValueB" : "X2 Stab. Dmg.",
+    "BonusValueB" : "Range Variance.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "PPC",
@@ -109,6 +112,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
+			"WR-variance_by_distance-25",			
             "range_standard"
         ],
         "tagSetSourceFile" : ""

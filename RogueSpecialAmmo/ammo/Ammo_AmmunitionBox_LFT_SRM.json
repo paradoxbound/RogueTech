@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "SLRMAmmo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] } },
+	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 2 } },
 
     "AmmoID" : "Ammunition_SRM",
     "Capacity" : 100,
@@ -98,7 +98,7 @@
 			},
 			"nature" : "Buff"
         }
-	]
+	],
     "ComponentTags" : {
         "items" : [
             "component_type_stock"

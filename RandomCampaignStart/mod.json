@@ -30,7 +30,7 @@
 	],
 
     /* Settings for Full Random Mode. Maximum Lance Size = 6.*/
-    "MinimumLanceSize": 3,
+    "MinimumLanceSize": 4,
     "MaximumLanceSize": 6,
     "MaximumMechWeight": 50,
 	"AllowDuplicateChassis":  false,
@@ -46,6 +46,8 @@
 	"mechdef_commando_COM-1A",	
 	"mechdef_cicada_CDA-2A",
 	"mechdef_cicada_CDA-2B",
+	"mechdef_cicada_CDA-4L",
+	"mechdef_cicada_CDA-3T",
 	"mechdef_spider_SDR-5V",	
 	"mechdef_spider_SDR-5K",
 	"mechdef_spider_SDR-5D",
@@ -60,7 +62,12 @@
 	"mechdef_locust_LCT-2V",
 	"mechdef_locust_LCT-0P",
 	"mechdef_blackjack_BJ-P",
+	"mechdef_blackjack_BJ-G",
+	"mechdef_blackjack_BJ-0",
+	"mechdef_hunchback_HBK-1G",	
+	"mechdef_wolfhound_WLF-1X",
 	"mechdef_centurion_CN9-P",
+	"mechdef_centurion_CN3-A",
 	"mechdef_commando_COM-P",
 	"mechdef_locust_LCT-P",
 	"mechdef_vindicator_VND-P",
@@ -73,7 +80,12 @@
 	"mechdef_cattlemaster-CM-3R2",
 	"mechdef_shadowhawk_SHD-1R",
 	"mechdef_firestarter_FS1-H",
-	"mechdef_centurion_CN3-A"
+	"mechdef_panther_PNT-9R_Tanaka",
+	"mechdef_vindicator_VND-1R_Vong",
+	"mechdef_stingray_SYU-1X",
+	"mechdef_kintaro_KTO-19b",
+	"mechdef_kintaro_KTO-18S",
+	
 	],
 	
     /* Settings for Original Method. Use this method to input specific mechs to be randomized amongst. Also, this allows precise control of mech weight classes. */

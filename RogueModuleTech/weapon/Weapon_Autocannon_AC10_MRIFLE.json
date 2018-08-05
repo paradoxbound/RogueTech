@@ -1,4 +1,7 @@
 {
+
+"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 40 } },
+
     "Category" : "Ballistic",
     "Type" : "Autocannon",
     "WeaponSubType" : "AC10",

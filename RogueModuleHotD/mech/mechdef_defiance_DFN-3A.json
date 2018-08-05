@@ -115,7 +115,7 @@
         },
 		{
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "emod_armorslots_lightferrosfibrous",
+            "ComponentDefID": "emod_armorslots_standard",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -181,7 +181,7 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Gyro_Generic_Standard",
+            "ComponentDefID": "Gear_Gyro_XL",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -247,7 +247,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_X",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -255,7 +255,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
+        },	
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
@@ -269,7 +269,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_X",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
@@ -343,6 +343,28 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }	
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "emod_case",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },	
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "emod_case",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
     ]
 }

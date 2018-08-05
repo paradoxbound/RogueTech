@@ -1,6 +1,8 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "Supercharger"} },
+	"Custom" :  {"Category" : { "CategoryID" : "Supercharger"} ,
+	"ComponentExplosion": { "ExplosionDamage": 25}},
+
 
     "Description" : {
         "Cost" : 420000,
@@ -11,7 +13,7 @@
         "UIName" : "SuperCharger",
         "Id" : "Gear_Supercharger",
         "Name" : "Supercharger",
-        "Details" : "The supercharger allows a 'Mech to exceed its normal engine output, increasing walk and run distance at the cost of higher heat generation. Does not stack. When destroyed kills the 'Mech. Some superstitious believe it causes the common cold.",
+        "Details" : "The supercharger allows a 'Mech to exceed its normal engine output, increasing walk and run distance at the cost of higher heat generation. Does not stack. When destroyed explodes. Some superstitious believe it causes the common cold.",
         "Icon" : "uixSvgIcon_equipment_HeatBank"
     },
     "BonusValueA" : "+30%Walk|+10%Sprint|",
@@ -24,7 +26,7 @@
     "Tonnage" : 1,
     "AllowedLocations" : "CenterTorso",
     "DisallowedLocations" : "All",
-    "CriticalComponent" : true,
+    "CriticalComponent" : false,
     "statusEffects" : [
 	         {
             "durationData" : {

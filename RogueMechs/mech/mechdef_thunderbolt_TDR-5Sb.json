@@ -84,19 +84,19 @@
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
-            "CurrentArmor": 125,
+            "CurrentArmor": 105,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 125,
+            "AssignedArmor": 105,
             "AssignedRearArmor": -1
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
-            "CurrentArmor": 125,
+            "CurrentArmor": 105,
             "CurrentRearArmor": -1,
             "CurrentInternalStructure": 75,
-            "AssignedArmor": 125,
+            "AssignedArmor": 105,
             "AssignedRearArmor": -1
         }
     ],
@@ -219,28 +219,6 @@
             "hasPrefabName": false
         },		
         {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
             "SimGameUID": null,
@@ -285,6 +263,39 @@
             "hasPrefabName": false
         },
         {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "emod_case",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },		
+        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
             "SimGameUID": null,
@@ -307,7 +318,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",

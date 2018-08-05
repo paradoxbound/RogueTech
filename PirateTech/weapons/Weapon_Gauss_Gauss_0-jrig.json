@@ -1,4 +1,7 @@
 {
+
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 70 } }
+
     "Category" : "Ballistic",
     "Type" : "Gauss",
     "WeaponSubType" : "Gauss",
@@ -12,17 +15,17 @@
     "AmmoCategory" : "GAUSS",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 10,
-    "Damage" : 45,
+    "Damage" : 55,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 40,
+    "DamageVariance" : 30,
     "HeatDamage" : 0,
     "AccuracyModifier" : 2,
     "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
-    "RefireModifier" : 4,
+    "RefireModifier" : 3,
     "ShotsWhenFired" : 1,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 4,
@@ -41,7 +44,7 @@
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "Unknown",
-    "BonusValueB" : "40 Var.Dmg.",
+    "BonusValueB" : "30 Var.Dmg.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Gauss",

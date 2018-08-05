@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC20Ammo"}, "Tag" : "Precision", "Flags" : { "flags" : [ "not_broken" ] } },
+	"Custom" :  {"Category" : { "CategoryID" : "AC20Ammo"}, "Tag" : "Precision", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 100 } },
 	
     "AmmoID" : "Ammunition_AC20",
     "Capacity" : 5,

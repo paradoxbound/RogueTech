@@ -1,4 +1,7 @@
 {
+
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 150 } }
+
     "Category" : "AntiPersonnel",
     "Type" : "Autocannon",
     "WeaponSubType" : "AC20",

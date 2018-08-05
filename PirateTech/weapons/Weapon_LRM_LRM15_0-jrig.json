@@ -57,7 +57,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-			"WR-variance_by_distance",			
+			"WR-variance_by_distance-40",			
             "range_extreme"
         ],
         "tagSetSourceFile" : ""

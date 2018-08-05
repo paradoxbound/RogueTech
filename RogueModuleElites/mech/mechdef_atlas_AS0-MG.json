@@ -193,17 +193,6 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_TargetingTrackingSystem_I3F1",
-            "SimGameUID": "",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_TargetingTrackingSystem_I3F2",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
@@ -216,17 +205,6 @@
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_TargetingTrackingSystem_I3F3",
-            "SimGameUID": "",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_TargetingTrackingSystem_Hartford_F1800",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -256,6 +234,28 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "emod_case2",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "emod_case2",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
         },		
         {
             "MountedLocation": "LeftArm",
@@ -280,7 +280,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftArm",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_LRM_LRM20_3-Zeus",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
@@ -291,7 +291,7 @@
             "hasPrefabName": false
         },	
         {
-            "MountedLocation": "RightArm",
+            "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_LRM_LRM20_3-Zeus",
             "SimGameUID": "",
             "ComponentDefType": "Weapon",
@@ -335,7 +335,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "RightArm",
             "ComponentDefID": "Ammo_AmmunitionBox_ER_LRM",
             "SimGameUID": "",
             "ComponentDefType": "AmmunitionBox",
@@ -346,7 +346,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "LeftArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "SimGameUID": "",
             "ComponentDefType": "AmmunitionBox",
@@ -357,7 +357,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "RightArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "SimGameUID": "",
             "ComponentDefType": "AmmunitionBox",
@@ -368,7 +368,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "LeftArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "SimGameUID": "",
             "ComponentDefType": "AmmunitionBox",
@@ -379,7 +379,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "RightArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "SimGameUID": "",
             "ComponentDefType": "AmmunitionBox",
@@ -390,7 +390,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "LeftArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
             "SimGameUID": "",
             "ComponentDefType": "AmmunitionBox",

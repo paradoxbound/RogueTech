@@ -15,7 +15,6 @@
         { "Type": "ChassisDef", "Path": "chassis" },
 		{ "Type": "UpgradeDef", "Path": "upgrades" },
         { "Type": "WeaponDef", "Path": "weapons" },
-        { "Type": "HeatSinkDef", "Path": "heatsink" },
         { "Type": "HeatSinkDef", "Path": "engine" }		
     ]
 	

@@ -12,11 +12,11 @@
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 4,
-    "Damage" : 4,
+    "Damage" : 8,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 1,
-    "DamageVariance" : 4,
+    "DamageVariance" : 0,
     "HeatDamage" : 0,
     "AccuracyModifier" : -1,
     "CriticalChanceMultiplier" : 0,
@@ -40,8 +40,8 @@
         "Details" : "Captain, this piece is either from a genius or a moron. The Maniac put a filter on the output to essentially ''brand'' the target, even worse, they wrote a random generator to always 'paint' something else ... eff these punks!",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
-    "BonusValueA" : "Unknown.",
-    "BonusValueB" : "4 Var.Dmg.",
+    "BonusValueA" : "Target Painter|",
+    "BonusValueB" : "Range Variance.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Laser",
@@ -106,6 +106,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
+			"WR-variance_by_distance-25",			
             "range_long"
         ],
         "tagSetSourceFile" : ""

@@ -1,7 +1,7 @@
 {
 
 	"Custom" : {
-		"Flags" : { "flags" : [ "not_broken" ] }
+		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { }
 	},
 
     "AmmoID" : "Ammunition_GAUSS",

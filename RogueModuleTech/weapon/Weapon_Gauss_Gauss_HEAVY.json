@@ -1,4 +1,7 @@
 {
+
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 130 } },
+
     "Category" : "Ballistic",
     "Type" : "Gauss",
     "WeaponSubType" : "Gauss",
@@ -12,7 +15,7 @@
     "AmmoCategory" : "GAUSS",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 10,
-    "Damage" : 150,
+    "Damage" : 130,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -26,7 +29,7 @@
     "ShotsWhenFired" : 1,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 18,
-    "Instability" : 37.5,
+    "Instability" : 30,
     "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
     "Description" : {
         "Cost" : 1480000,
@@ -40,7 +43,7 @@
         "Details" : "The Heavy Gauss Rifle is a new, deadly innovation by Lyran Alliance scientists in conjunction with a manufacturing cooperation between Defiance Industries and TharHes. Applying their ''bigger is better'' philosophy to Gauss technology, the Heavy Gauss Rifle is one of the heaviest battlefield weapons in existence, and has a correspondingly high damage potential. Indeed, the recoil from the weapon is so great that the rifle cannot be mounted in a vehicle's turret or 'Mech's arms, as firing the rifle would essentially rip it off.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
-    "BonusValueA" : "Damage varies by range",
+    "BonusValueA" : "Range Variance",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
@@ -57,7 +60,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-			"WR-variance_by_distance",
+			"WR-variance_by_distance-35",
             "range_standard"
         ],
         "tagSetSourceFile" : ""

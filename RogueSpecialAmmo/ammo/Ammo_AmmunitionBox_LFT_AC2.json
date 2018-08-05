@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC2Ammo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] } },
+	"Custom" :  {"Category" : { "CategoryID" : "AC2Ammo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 7 } },
 
     "AmmoID" : "Ammunition_AC2",
     "Capacity" : 25,

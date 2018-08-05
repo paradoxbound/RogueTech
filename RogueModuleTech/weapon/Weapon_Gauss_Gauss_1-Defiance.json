@@ -1,4 +1,7 @@
 {
+
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 80 } },
+
     "Category" : "Ballistic",
     "Type" : "Gauss",
     "WeaponSubType" : "Gauss",

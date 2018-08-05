@@ -350,19 +350,7 @@
 							"ConstantValue": "mechdef_kintaro_KTO-18S"
 						}
 					]
-				},				
-				{
-					"ID": "diff_start_melee",
-					"Name": "Gemji",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_crab_CRB-GI"
-						}
-					]
-				},				
+				},								
 				{
 					"ID": "diff_start_gdrk",
 					"Name": "Gr. Dragon-3K",

@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC10Ammo"}, "Tag" : "AP", "Flags" : { "flags" : [ "not_broken" ] }	},
+	"Custom" :  {"Category" : { "CategoryID" : "AC10Ammo"}, "Tag" : "AP", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 60 }	},
 
     "AmmoID" : "Ammunition_AC10",
     "Capacity" : 4,

@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Artemis", "Flags" : { "flags" : [ "not_broken" ] }	},
+	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Artemis", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 8 }	},
 
     "AmmoID" : "Ammunition_SRM",
     "Capacity" : 60,

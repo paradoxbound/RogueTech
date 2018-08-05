@@ -12,8 +12,12 @@
       "tagSetSourceFile" : ""
    },
    "Inventory" : [
-	  
-
+      {
+         "ID" : "emod_case",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 2.0,
+         "Count" : 0
+      },
       {
          "ID" : "Ammo_AmmunitionBox_Generic_GAUSS",
          "Type" : "AmmunitionBox",
@@ -23,5 +27,14 @@
 	  
 
    ],
-   "Specials" : []
+   "Specials" : [
+        {
+            "ID": "emod_case2",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 20			
+        },   
+   
+   ]
 }

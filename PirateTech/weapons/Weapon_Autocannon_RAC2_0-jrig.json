@@ -40,11 +40,11 @@
         "Details" : "Technically, its not a RAC2, but some junkhead welded a couple AC2 together, linked their triggers and added additional feeding belts ....and i have no idea what *that* does.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
-    "BonusValueA" : "Unkown.",
+    "BonusValueA" : "Unkown|",
     "BonusValueB" : "DAKKA",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
-    "PrefabIdentifier": "AC10",
+    "PrefabIdentifier": "UAC5",
     "BattleValue" : 0,
     "InventorySize" : 6,
     "Tonnage" : 12,
@@ -57,7 +57,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-			"WR-variance_by_distance",			
+			"WR-variance_by_distance-30",			
             "range_long"
         ],
         "tagSetSourceFile" : ""

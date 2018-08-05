@@ -70,7 +70,34 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+0.988 Patch1 preview2
+Now includes QuietDarius
 
+Weaponrealizer updated
+Some weapons now have unique damage by range modifiers
+
+MechEngineer updated for real ammo explosions - No more free Clan Case for everyone
+Ammo now explodes properly depending on its remaining shots
+Gauss rifles can explode
+Gauss ammo CANT explode anymore
+MASC and Supercharger will explode on crit
+PPC cap will explode
+Weapons with internal Ammo can explode
+CASE and CASEII will prevent ammo and equipment explosions
+
+Basic case is cheap and sold everywhere
+CASEII is rare and cost 10 times
+
+Several Mech's received CASE
+
+Some More Primitive Mechs
+
+Randomstart fixed to be always a minimum of 4 mechs
+Restricted Randomstart further
+
+Deleted obsolete file (pirate heatsink if you want to delete it)
+Fixed medusas bio
+UAC and RAC got lbx/uac prefab assigned
 
 0.988 Release
 

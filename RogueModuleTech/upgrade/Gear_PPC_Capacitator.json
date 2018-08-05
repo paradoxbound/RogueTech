@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "PPCCAP"} },
+	"Custom" :  {"Category" : { "CategoryID" : "PPCCAP"}, "ComponentExplosion": { "ExplosionDamage": 25} },
 
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -14,7 +14,7 @@
         "UIName" : "PPC Capacitator",
         "Id" : "Gear_PPC_Capacitator",
         "Name" : "PPC CAP",
-        "Details" : "The PPC Capacitor is an extra component that can be added to any type of Projector Cannon. It enhances a PPC’s damage capabilities at the cost of higher heat generation. Does not stack.",
+        "Details" : "The PPC Capacitor is an extra component that can be added to any type of Projector Cannon. It enhances a PPC’s damage capabilities at the cost of higher heat generation. When Destroyed Explodes.",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
     "BonusValueA" : "+ 15% PPC Damage",

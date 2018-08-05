@@ -1,4 +1,7 @@
 {
+
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 30 } }
+
     "Category" : "Energy",
     "Type" : "PPC",
     "WeaponSubType" : "PPC",
@@ -12,11 +15,11 @@
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 45,
-    "Damage" : 60,
+    "Damage" : 70,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 1,
-    "DamageVariance" : 25,
+    "DamageVariance" : 15,
     "HeatDamage" : 0,
     "AccuracyModifier" : 1,
     "CriticalChanceMultiplier" : 1,
@@ -41,7 +44,7 @@
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "Unknown",
-    "BonusValueB" : " 25 Var.Dmg.",
+    "BonusValueB" : "Range Variance.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "PPC",
@@ -78,7 +81,7 @@
             "Description" : {
                 "Id" : "AbilityDefPPC",
                 "Name" : "SENSORS IMPAIRED",
-                "Details" : "1 Difficulty to all of this unit's attacks until its next activation.",
+                "Details" : "1 Difficulty to all of this unit's attacks.",
                 "Icon" : "uixSvgIcon_status_sensorsImpaired"
             },
             "nature" : "Debuff",
@@ -107,6 +110,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
+			"WR-variance_by_distance-40",			
             "range_extreme"
         ],
         "tagSetSourceFile" : ""
