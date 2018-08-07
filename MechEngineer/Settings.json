@@ -422,7 +422,7 @@
                 "Flags" : {
                     "Flags" : [
                         "ignore_damage",
-                        "no_explosion_passthrough"
+                        "explosion_containment"
                     ]
                 }
             },
@@ -460,8 +460,7 @@
                 "Flags" : {
                     "Flags" : [
                         "ignore_damage",
-                        "no_explosion_passthrough",
-                        "rear_armor_blowout"
+                        "explosion_redirection"
                     ]
                 }
             },

@@ -13,7 +13,7 @@
         "UIName" : "SuperCharger",
         "Id" : "Gear_Supercharger",
         "Name" : "Supercharger",
-        "Details" : "The supercharger allows a 'Mech to exceed its normal engine output, increasing walk and run distance at the cost of higher heat generation. <b><color=#0099ff2>VOLATILE!</color></b> Some superstitious believe it causes the common cold.",
+        "Details" : "The supercharger allows a 'Mech to exceed its normal engine output, increasing walk and run distance at the cost of higher heat generation. <b><color=#099ff2>VOLATILE!</color></b> Some superstitious believe it causes the common cold.",
         "Icon" : "uixSvgIcon_equipment_HeatBank"
     },
     "BonusValueA" : "+30%Walk|+10%Sprint|",

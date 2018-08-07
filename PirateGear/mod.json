@@ -1,0 +1,27 @@
+{
+    "Name": "PirateGear",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "Contains teh gear for PirateMech's",
+    "Author": "LadyAlekto",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+
+				"DependsOn": [ "RogueModuleTech", "CustomComponents", "MechEngineer"],
+	
+    "Manifest": [
+		{ "Type": "UpgradeDef", "Path": "upgrades" },
+        { "Type": "WeaponDef", "Path": "weapons" },
+        { "Type": "HeatSinkDef", "Path": "engine" }		
+    ]
+	
+	
+	
+
+    
+
+		
+
+	
+}

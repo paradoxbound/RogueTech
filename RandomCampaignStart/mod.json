@@ -8,7 +8,7 @@
   "Website": "www.github.com/mpstark/RandomCampaignStart",
 
   
-	"DependsOn": [ "RogueModuleTech", "RogueTech Core", "RogueMechs", "Rogue Elite BattleMechs", "PirateTech", "JK_VariantsCampaign" ],  
+	"DependsOn": [ "RogueModuleTech", "RogueTech Core" ],  
 
   "Settings": {
     /* Global toggles that effect both types of randomizers. FullRandomMode: true for complete randomization, false for Original Method Randomization.*/	
@@ -85,6 +85,8 @@
 	"mechdef_stingray_SYU-1X",
 	"mechdef_kintaro_KTO-19b",
 	"mechdef_kintaro_KTO-18S",
+	"mechdef_crab_CRB-GI",
+	"mechdef_crab_CRB-27b"
 	
 	],
 	

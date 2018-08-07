@@ -1,0 +1,26 @@
+{
+    "Name": "PirateMech",
+    "Enabled": true,
+
+    "Version": "0.1.0",
+    "Description": "Contains PirateMechs",
+    "Author": "LadyAlekto",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+
+				"DependsOn": [ "RogueModuleTech", "CustomComponents", "MechEngineer", "PirateGear"],
+	
+    "Manifest": [
+        { "Type": "MechDef", "Path": "mech" },
+        { "Type": "ChassisDef", "Path": "chassis" }	
+    ]
+	
+	
+	
+
+    
+
+		
+
+	
+}

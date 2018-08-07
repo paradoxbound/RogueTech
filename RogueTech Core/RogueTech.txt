@@ -70,7 +70,48 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
-0.988 Patch1 preview2
+Patch3HF3
+Fixed ArmourRepair toggle breaking the game
+
+Patch3HF2
+Fixed general.txt incorrect path
+
+Patch3HF1
+Missing patched CBT Heat now properly exploding Ammo
+
+0988 Patch3
+
+Filestructure reworked to accomodate installer!
+USE CLEAN INSTALL OPTION!
+
+Improved the Installer
+TONS of options
+Majority of the mod can now be freely toggled
+
+Majority of additional Mech's are optional now
+
+Soundmod Included for Full Install!
+CrystalClear&Scorched Earth Optional installs
+Armour repair can be toggled!
+
+Filestructure reworked to accomodate installer
+USE CLEAN INSTALL OPTION
+
+Patched IS Map
+Patched MoreIsLess
+Several minor fixes
+
+0988 Patch2
+Release for new installer by Razunter
+
+Increased MRB Rating gives increased chances for fusion cores to appear as specials
+Few minor fixes
+Default shop specials raised and more options
+
+0.988 Patch1HF
+Fixed display error for VOLATILE!
+
+0.988 Patch1 
 Now includes QuietDarius
 
 Weaponrealizer updated
@@ -80,9 +121,7 @@ MechEngineer updated for real ammo explosions - No more free Clan Case for every
 Ammo now explodes properly depending on its remaining shots
 Gauss rifles can explode
 Gauss ammo CANT explode anymore
-MASC and Supercharger will explode on crit
-PPC cap will explode
-Weapons with internal Ammo can explode
+Weapons that can explode got the VOLATILE tag
 CASE and CASEII will prevent ammo and equipment explosions
 
 CASE 

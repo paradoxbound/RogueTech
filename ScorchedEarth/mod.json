@@ -1,0 +1,8 @@
+﻿{
+    "Name": "ScorchedEarth",
+    "Version": "0.1",
+    "Enabled": true,
+
+    "DLL": "ScorchedEarth.dll",
+    "Debug" : true
+}

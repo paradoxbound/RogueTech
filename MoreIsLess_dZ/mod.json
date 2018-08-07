@@ -8,5 +8,18 @@
     "Website": "https://www.nexusmods.com/battletech/mods/156?tab=description",
     "Contact": "",
 
-    "DLL": "MoreIsLess_dZ.dll"
+    "DLL": "MoreIsLess_dZ.dll",
+	
+		"Settings": {
+		floatXPMulti : 0.9,
+		intPerXP : 25000,
+		"XPMax" : 6000000,
+		"pilot_commander_XPCeiling" : 50000,
+		"pilot_officer_XPCeiling" : 81000,
+		QuirksEnabled : true,
+		XPCap : false,
+		pilot_commander_XPRateIncrease : 0.1,
+		pilot_officer_XPRateIncrease : 0.2
+	}
+	
 }

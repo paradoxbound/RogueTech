@@ -256,14 +256,14 @@
 					]
 				},
 				{
-					"ID": "diff_start_bjp",
-					"Name": "Pirate 'Pult",
+					"ID": "diff_start_cata",
+					"Name": "Thunderbolt 5Sb",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_catapult_CPLT-P"
+							"ConstantValue": "mechdef_thunderbolt_TDR-5Sb"
 						}
 					]
 				},
@@ -353,7 +353,7 @@
 				},								
 				{
 					"ID": "diff_start_gdrk",
-					"Name": "Gr. Dragon-3K",
+					"Name": "Gr.Dragon-3K",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
@@ -364,41 +364,29 @@
 					]
 				},
 				{
-					"ID": "diff_start_mara",
-					"Name": "Marauder-3R",
+					"ID": "diff_start_k3",
+					"Name": "Katapult-3",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_marauder_MAD-3R"
+							"ConstantValue": "mechdef_catapult_CPLT-K3"
 						}
 					]
 				},
 				{
-					"ID": "diff_start_eri",
-					"Name": "Erinya",
+					"ID": "diff_start_melee",
+					"Name": "Butcher",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Story",
 							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_commando_COM-MK2"
+							"ConstantValue": "mechdef_butcher_VND-BR"
 						}
 					]
-				},
-				{
-					"ID": "diff_start_gobl",
-					"Name": "Goblin",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "StartingPlayerMech",
-							"ConstantValue": "mechdef_firestarter_FS7-S"
-						}
-					]
-				}
+				}				
 			]
 		},		
 		{
@@ -3259,7 +3247,7 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 3,
+			"DefaultIndex": 6,
 			"Options": [
 				{
 					"ID": "diff_Specials_0",
@@ -3390,6 +3378,66 @@
 							"ConstantType": "Finances",
 							"ConstantName": "DefaultShopMaxSpecials",
 							"ConstantValue": "20"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_22",
+					"Name": "22",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "22"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_24",
+					"Name": "24",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "24"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_26",
+					"Name": "26",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "26"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_28",
+					"Name": "28",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "28"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_30",
+					"Name": "30",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "30"
 						}
 					]
 				}				

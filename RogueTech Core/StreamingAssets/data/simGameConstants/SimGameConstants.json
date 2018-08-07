@@ -207,8 +207,6 @@
 		
 		"MissionsForFirstBreadcrumb" : 0,		
 
-		"MaxContractsPerSystem": 8,
-		"MaxBreadcrumbsPerSystem": 3,
 		"ContractRenewalPerWeek" : 0.5,
 		"ContractSuccessReduction" : 1.0,
 		"StartingPassiveXPGainCap" : 10000,
