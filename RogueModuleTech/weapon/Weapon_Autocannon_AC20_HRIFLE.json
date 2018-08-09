@@ -1,6 +1,6 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 66 } },
+"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 60, "StabilityDamagePerAmmo": 15 } },
 
     "Category" : "Ballistic",
     "Type" : "Autocannon",
@@ -15,7 +15,7 @@
     "AmmoCategory" : "Flamer",
     "StartingAmmoCapacity" : 15,
     "HeatGenerated" : 10,
-    "Damage" : 66,
+    "Damage" : 60,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
@@ -29,7 +29,7 @@
     "ShotsWhenFired" : 1,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 4,
-    "Instability" : 16,
+    "Instability" : 15,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC20_Single",
     "Description" : {
         "Cost" : 150000,

@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "LRMAmmo"}, "Tag" : "Hotloaded", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 5 } },
+	"Custom" :  {"Category" : { "CategoryID" : "LRMAmmo"}, "Tag" : "Hotloaded", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 5, "StabilityDamagePerAmmo": 1 } },
 
     "AmmoID" : "Ammunition_LRM",
     "Capacity" : 100,

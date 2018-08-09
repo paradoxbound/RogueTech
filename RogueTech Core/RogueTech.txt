@@ -70,6 +70,50 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+Patch5HF4
+Patched AIM to fix missing modifiers
+
+Patch5HF3
+Missing values for combatspeedup added
+
+Patch5HF2
+Fixed ever loading issue with patch5
+Contract error still being searched for
+
+Patch5
+A few minor fixes
+Now includes BAttletechPerformanceFix 1.0.1
+Single and Double HS destruction penalty removed
+Destruction penalty for heatbanks/exchanger reduced
+Improvement to installer
+Should prevent improper installation of BTML
+Directional to hit Modifiers (semi wip)
+Hitting Rear and side improves hit chance
+
+0988 Patch4
+
+Includes alpha release of new btml and modtek
+WITH LOADING BAR - requires BTML reinjectd
+Just check the option when you get there!
+
+Further Improvements to the installer
+
+First version of the vanilla enabler
+IS Map Patched
+
+Heatsinks now "explode", generating heat when destroyed
+Basic D/HS 1x Their dissipation rate
+Banks 2x their dissipation rate
+Exchangers 3x their dissipation rate
+
+Inferno Ammo explodes dealing heatdamagepershot
+
+Equipment explosions reworked to include a variety of stability and heat damage
+
+New RNGesus Emblem in RogueEmblems
+
+
+
 Patch3HF3
 Fixed ArmourRepair toggle breaking the game
 

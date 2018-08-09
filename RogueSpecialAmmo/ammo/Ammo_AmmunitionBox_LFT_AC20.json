@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC20Ammo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 25 } },
+	"Custom" :  {"Category" : { "CategoryID" : "AC20Ammo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 25, "StabilityDamagePerAmmo": 75 } },
 
     "AmmoID" : "Ammunition_AC20",
     "Capacity" : 5,

@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"Sorter" : { "Order" : 0 },
-		"Flags" : { "flags" : [ "engine_part", "default" ] }
+		"Flags" : { "flags" : [ "engine_part", "default", "not_broken" ] }
 	},
     "DissipationCapacity" : 0,
     "Description" : {

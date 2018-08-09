@@ -393,7 +393,7 @@
 			"ID": "diff_Contracts",
 			"Name": "Contracts generated",
 			"UIOrder": 5,
-			"Tooltip": "Set your Choice of Maximum Contracts generated per system.",
+			"Tooltip": "Set your Choice of Maximum Contracts generated per system. <color=#ff0000>Requires Saving and Reload to take effect!.</color>",
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
@@ -490,12 +490,12 @@
 			"ID": "diff_Breadcrums",
 			"Name": "Deployments generated",
 			"UIOrder": 6,
-			"Tooltip": "Set your Choice of Deployments generated per system",
+			"Tooltip": "Set your Choice of Deployments generated per system. <color=#ff0000>Requires Saving and Reload to take effect!.</color>",
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 2,
+			"DefaultIndex": 4,
 			"Options": [
 				{
 					"ID": "diff_BC_supereasy2",

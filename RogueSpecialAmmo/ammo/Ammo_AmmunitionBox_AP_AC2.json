@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC2Ammo"}, "Tag" : "AP", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 25 } },
+	"Custom" :  {"Category" : { "CategoryID" : "AC2Ammo"}, "Tag" : "AP", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 25,"StabilityDamagePerAmmo": 6 } },
 
     "AmmoID" : "Ammunition_AC2",
     "Capacity" : 13,

@@ -161,7 +161,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }	
+        },	
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Autocannon_RAC5_0-Mydron",

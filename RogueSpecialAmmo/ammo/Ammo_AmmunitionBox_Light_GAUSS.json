@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "GaussAmmo"}, "Tag" : "Light", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { } },
+	"Custom" :  {"Category" : { "CategoryID" : "GaussAmmo"}, "Tag" : "Light", "Flags" : { "flags" : [ "not_broken" ] } },
 
     "AmmoID" : "Ammunition_GAUSS",
     "Capacity" : 10,

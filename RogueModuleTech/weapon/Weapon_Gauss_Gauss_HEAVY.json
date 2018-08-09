@@ -1,6 +1,6 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamage": 130 } },
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 100, "HeatDamage": 50, "StabilityDamage": 40 } },
 
     "Category" : "Ballistic",
     "Type" : "Gauss",

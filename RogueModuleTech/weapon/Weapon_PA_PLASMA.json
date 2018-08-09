@@ -1,6 +1,6 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamage": 30 }},
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 5, "HeatDamage": 8, "StabilityDamage": 6 }},
 
     "Category" : "Energy",
     "Type" : "PPC",

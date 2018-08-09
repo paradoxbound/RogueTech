@@ -113,7 +113,7 @@
 	"chassisdef_Phalanx": { "x": 0.22, "y": 0.4, "z": 0.3 },
 	"chassisdef_Kanazuchi": { "x": 0.31, "y": 0.44, "z": 0.5 },	
 	"chassisdef_FASHIH": { "x": 0.25, "y": 0.38, "z": 0.34 },		
-	"chassisdef_locust_LCT-LR" : { "x": 1.1, "y": 1.15, "z": 1.3 },
+	"chassisdef_locust_LCT-LR" : { "x": 1.15, "y": 1.2, "z": 1.38 },
 	"chassisdef_centurion_CN9-YLW": { "x": 0.85, "y": 1.1, "z": 0.98 },
 	"chassisdef_jenner_JR7-RX": { "x": 1.22, "y": 1.11, "z": 1.16 },
 	"chassisdef_jenner_JR7-X": { "x": 1.22, "y": 1.11, "z": 1.16 },

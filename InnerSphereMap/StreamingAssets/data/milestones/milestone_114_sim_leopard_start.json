@@ -171,14 +171,11 @@
                     "value" : "POST_CAMPAIGN",
                     "valueConstant" : null
                 },
-				/* set in 111, repeated here for debug purposes */
 				{
                     "Type" : "System_SetDropship",
                     "value" : "Argo",
                     "valueConstant" : null
                 },
-				
-				/* set in 111, repeated here for debug purposes */
 				{
 					"Type" : "System_SimGameCharacterVisible",
 					"value" : false,
@@ -187,15 +184,11 @@
 						"Alexander"
 					]
 				},
-
-				/* set in 000, repeated here for debug purposes */
                 {
                     "Type" : "System_SetTargetBreadcrumbSystem",
                     "value" : "starsystemdef_Galatea",
                     "valueConstant" : null
                 },
-				
-				/* This is a WORK AROUND for an Itrom bug at the beginning of the game */
 				{
 					"Type" : "System_ResetContracts",
 					"value" : "",
@@ -216,7 +209,7 @@
 					"MinDaysWait" : 6,
 					"MaxDaysWait" : 9,
 					"Probability" : 100
-				}				
+				},				
 				{
 					"Scope" : "Company",
 					"EventID" : "forcedevent_leopard_medicalExpenses",

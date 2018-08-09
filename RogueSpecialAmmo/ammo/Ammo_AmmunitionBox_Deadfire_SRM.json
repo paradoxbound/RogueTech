@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Deadfire", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 11 } },
+	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Deadfire", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 12,"StabilityDamagePerAmmo": 3 } },
 
     "AmmoID" : "Ammunition_SRM",
     "Capacity" : 80,
@@ -16,8 +16,8 @@
         "Details" : "Deadfire SRM's, like their LRM counterparts, trade any advanced guidance system for a larger payload, decreasing accuracy and the already short range. Carries <b><color=#F79232>80 rounds</color></b>. Provides a buff to all your Ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
-    "BonusValueA" : "+40% Dmg&Stab|",
-    "BonusValueB" : "-30% Range|-1 Accuracy.",
+    "BonusValueA" : "+50% Dmg&Stab|",
+    "BonusValueB" : "-30% Range|-2 Accuracy.",
     "ComponentType" : "AmmunitionBox",
     "ComponentSubType" : "Ammunition",
     "PrefabIdentifier" : "",
@@ -63,7 +63,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "AccuracyModifier",
                 "operation" : "Float_Add",
-                "modValue" : "1.0",
+                "modValue" : "2.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -239,7 +239,7 @@
 			{
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.4",
+                "modValue" : "1.5",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -285,7 +285,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "Instability",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.4",
+                "modValue" : "1.5",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",

@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "MGAmmo"}, "Tag" : "Tracer", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 4 } },
+	"Custom" :  {"Category" : { "CategoryID" : "MGAmmo"}, "Tag" : "Tracer", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 4,"StabilityDamagePerAmmo": 1 } },
 
     "AmmoID" : "Ammunition_MG",
     "Capacity" : 150,

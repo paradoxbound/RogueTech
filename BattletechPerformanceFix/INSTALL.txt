@@ -1,0 +1,11 @@
+Install:
+- https://github.com/Mpstark/BattleTechModLoader
+- https://github.com/Mpstark/ModTek
+
+Place this directory in your Battletech/Mods folder.
+It should look like this after copying
+Mods/
+  BattletechPerformanceFix/
+    BattletechPerformanceFix.dll
+    mod.json
+    Settings.json

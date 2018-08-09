@@ -6,7 +6,7 @@
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "[[Chassis.Tonnage]]/2",
+				"TechCost": "[[Chassis.Tonnage]]/4",
 				"CBillCost": "[[Chassis.Tonnage]]*2"
 			}
 		},		
@@ -19,7 +19,7 @@
 				{ "ComponentDefId" : "emod_engineslots_size6", "Location": "RightTorso" }
 			]
 		},
-		"Flags" : { "flags" : ["engine_part"] }
+		"Flags" : { "flags" : ["engine_part", "not_broken"] }
 	},
     "Description" : {
         "Cost" : 6250000,

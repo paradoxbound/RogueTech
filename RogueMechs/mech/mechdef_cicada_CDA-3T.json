@@ -242,7 +242,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }
+        },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_Solaris_Spikes",
@@ -297,7 +297,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        }
+        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Gear_Solaris_Spikes",

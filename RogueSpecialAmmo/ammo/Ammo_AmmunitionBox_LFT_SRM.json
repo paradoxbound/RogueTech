@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 2 } },
+	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 2, "StabilityDamagePerAmmo": 6 } },
 
     "AmmoID" : "Ammunition_SRM",
     "Capacity" : 100,

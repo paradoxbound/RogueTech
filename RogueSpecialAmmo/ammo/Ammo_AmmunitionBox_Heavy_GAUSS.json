@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "GaussAmmo"}, "Tag" : "Heavy", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { } },
+	"Custom" :  {"Category" : { "CategoryID" : "GaussAmmo"}, "Tag" : "Heavy", "Flags" : { "flags" : [ "not_broken" ] } },
 
     "AmmoID" : "Ammunition_GAUSS",
     "Capacity" : 4,

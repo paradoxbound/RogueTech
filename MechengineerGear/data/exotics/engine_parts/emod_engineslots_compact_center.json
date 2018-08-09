@@ -12,7 +12,7 @@
 		"Category" : { 
 			"CategoryID" : "EngineShield" 
 		},
-		"Flags" : { "flags" : [ "engine_part" ] }
+		"Flags" : { "flags" : [ "engine_part", "not_broken" ] }
 	},
     "Description" : {
         "Cost" : 625000,

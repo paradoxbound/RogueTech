@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "HBStandard"} },
+	"Custom" :  {"Category" : { "CategoryID" : "HBStandard"}, "ComponentExplosion": { "HeatDamage": 2 } },
 
     "DissipationCapacity" : 1,
     "Description" : {

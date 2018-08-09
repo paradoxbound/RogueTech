@@ -2,7 +2,7 @@
     "Name": "RogueTech Core",
     "Enabled": true,
 
-    "Version": "0.988 Patch3HF3",
+    "Version": "0.988 Patch5hf4",
     "Description": "Contains the basic rules of RogueTech - Core Module",
     "Author": "LadyAlekto",
     "Website": "",
@@ -13,11 +13,13 @@
         { "Type": "PilotDef", "Path": "AIPilotsBuff" },
         { "Type": "PilotDef", "Path": "turretpilots" },	
 	    { "Type": "WeaponDef", "Path": "weapons" },
-        { "Type": "HeatSinkDef", "Path": "heatsink" }		
+        { "Type": "HeatSinkDef", "Path": "heatsink" },
+        { "Type": "SimGameDifficultySettingList", "Path": "difficulty" },
+        { "Type": "CombatGameConstants", "Path": "combat" }		
     ],
 	
 	
-			"DependsOn": [ "InnerSphereMap", "CustomComponents", "RogueModuleTech"],	
+			"DependsOn": [ "CustomComponents", "RogueModuleTech"],	
 			
 			    "DLL": "RTVersion.dll",
 			

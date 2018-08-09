@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "HBBulk"} },
+	"Custom" :  {"Category" : { "CategoryID" : "HBBulk"},"ComponentExplosion": { "HeatDamage": 10 } },
 
     "DissipationCapacity" : 5,
     "Description" : {

@@ -1,6 +1,6 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 4 } },
+"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 4, "StabilityDamagePerAmmo": 1 } },
 
     "Category" : "Missile",
     "Type" : "LRM",

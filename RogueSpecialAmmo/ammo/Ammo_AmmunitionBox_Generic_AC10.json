@@ -1,7 +1,7 @@
 {
 
 	"Custom" : {
-		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 60 }
+		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 60,"StabilityDamagePerAmmo": 15 }
 	},
 
     "AmmoID" : "Ammunition_AC10",

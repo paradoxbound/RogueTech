@@ -19,7 +19,7 @@
 				{ "ComponentDefId" : "emod_engineslots_size2", "Location" : "RightTorso" }
 			]
 		},
-		"Flags" : { "flags" : [ "engine_part" ] }
+		"Flags" : { "flags" : [ "engine_part", "not_broken" ] }
 	},
     "Description" : {
         "Cost" : 937500,

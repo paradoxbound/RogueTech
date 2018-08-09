@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "TE2"} },
+	"Custom" :  {"Category" : { "CategoryID" : "TE2"}, "ComponentExplosion": { "HeatDamage": 12 } },
 
     "DissipationCapacity" : 6,
     "Description" : {

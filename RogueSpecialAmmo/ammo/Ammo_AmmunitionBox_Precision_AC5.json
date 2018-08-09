@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC5Ammo"}, "Tag" : "Precision", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 45 } },
+	"Custom" :  {"Category" : { "CategoryID" : "AC5Ammo"}, "Tag" : "Precision", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 45, "StabilityDamagePerAmmo": 12 } },
 
     "AmmoID" : "Ammunition_AC5",
     "Capacity" : 15,

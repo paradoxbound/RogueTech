@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Inferno", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 8 } },
+	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Inferno", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 1, "HeatDamagePerAmmo": 6, "StabilityDamagePerAmmo": 1 } },
 
     "AmmoID" : "Ammunition_SRM",
     "Capacity" : 80,

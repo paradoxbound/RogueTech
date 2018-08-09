@@ -40,7 +40,7 @@
                 {
 					"typeString" : "System.Int32",
                     "name" : "NextStoryMilestone",
-                    "value" : 003,
+                    "value" : "003",
 					"set" : "true",
                     "valueConstant" : ""
 				}

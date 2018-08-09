@@ -550,10 +550,12 @@
                 "CASE2"
             ],
             "DefaultCustoms" : {
+                "CASE" : {
+                    
+                },
                 "Flags" : {
                     "Flags" : [
-                        "ignore_damage",
-                        "explosion_containment"
+                        "ignore_damage"
                     ]
                 }
             },
@@ -588,10 +590,12 @@
                 "CASE"
             ],
             "DefaultCustoms" : {
+                "CASE" : {
+                    "MaximumDamage" : 3
+                },
                 "Flags" : {
                     "Flags" : [
-                        "ignore_damage",
-                        "explosion_redirection"
+                        "ignore_damage"
                     ]
                 }
             },

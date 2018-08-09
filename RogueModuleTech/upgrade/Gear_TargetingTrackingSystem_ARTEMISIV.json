@@ -14,11 +14,11 @@
         "UIName" : "Artemis IV",
         "Id" : "Gear_TargetingTrackingSystem_ARTIVcv",
         "Name" : "Artemis IV FCS",
-        "Details" : "The Artemis IV Fire Control System is a guidance system that utilizes an infrared laser designator and tight-beam microwave transmitter which improves the accuracy of missiles fired in direct line of sight. Counts as tier 1 TTS. Does not improve indirect fire.",
+        "Details" : "The Artemis IV Fire Control System is a guidance system that utilizes an infrared laser designator and tight-beam microwave transmitter which improves the accuracy of missiles fired in direct line of sight. Counts as tier 1 Missile TTS. Does not improve indirect fire.",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
-    "BonusValueA" : "+ 2 Direct-Fire Missile Acc.",
-    "BonusValueB" : "",
+    "BonusValueA" : "+ 2 Direct-Fire Missile Acc|",
+    "BonusValueB" : "+ 1 Indirect Missile Acc.",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
@@ -63,7 +63,7 @@
 			{
 				"statName" : "ToHitIndirectModifier",
 				"operation" : "Float_Add",
-				"modValue" : "2.0",
+				"modValue" : "1.0",
 				"modType" : "System.Single"
             },
             "tagData" : null,

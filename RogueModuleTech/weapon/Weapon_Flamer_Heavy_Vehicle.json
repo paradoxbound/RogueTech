@@ -1,6 +1,6 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 20 } },
+"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 10, "HeatDamagePerAmmo": 20 } },
 
     "Category" : "Energy",
     "Type" : "Flamer",

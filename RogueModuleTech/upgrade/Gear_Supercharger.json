@@ -1,7 +1,7 @@
 {
 
 	"Custom" :  {"Category" : { "CategoryID" : "Supercharger"} ,
-	"ComponentExplosion": { "ExplosionDamage": 25}},
+	"ComponentExplosion": { "StabilityDamage": 100}},
 
 
     "Description" : {
@@ -13,10 +13,10 @@
         "UIName" : "SuperCharger",
         "Id" : "Gear_Supercharger",
         "Name" : "Supercharger",
-        "Details" : "The supercharger allows a 'Mech to exceed its normal engine output, increasing walk and run distance at the cost of higher heat generation. <b><color=#099ff2>VOLATILE!</color></b> Some superstitious believe it causes the common cold.",
+        "Details" : "The supercharger allows a 'Mech to exceed its normal engine output, increasing walk and run distance at the cost of higher heat generation. <b><color=#099ff2>INSTABILITY WHEN DESTROYED!</color></b> Some superstitious believe it causes the common cold.",
         "Icon" : "uixSvgIcon_equipment_HeatBank"
     },
-    "BonusValueA" : "+30%Walk|+10%Sprint|",
+    "BonusValueA" : "+40%Walk|+10%Sprint|",
     "BonusValueB" : "+15% Heat Generated",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
@@ -62,7 +62,7 @@
 			{
 				"statName" : "WalkSpeed",
 				"operation" : "Float_Multiply",
-				"modValue" : "1.3",
+				"modValue" : "1.4",
 				"modType" : "System.Single"
 			},
 			"nature" : "Buff"

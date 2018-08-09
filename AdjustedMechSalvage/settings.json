@@ -1,6 +1,6 @@
 {
 	"ownMechsForFree" : false,
 	"ejectRecoveryBonus" : 0.75,
-   "incapacitatedRecoveryBonus" : 0.5,
+   "incapacitatedRecoveryBonus" : 0.25,
    "centerTorsoSalvageValue" : 1
 }

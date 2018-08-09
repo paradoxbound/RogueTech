@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "HBImproved"} },
+	"Custom" :  {"Category" : { "CategoryID" : "HBImproved"}, "ComponentExplosion": { "HeatDamage": 6 } },
 
     "DissipationCapacity" : 3,
     "Description" : {
