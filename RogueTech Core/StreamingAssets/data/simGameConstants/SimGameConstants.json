@@ -205,7 +205,8 @@
         "FriendlyMaxContractDifficulty": 6,
         "AlliedMaxContractDifficulty": 8, 
 		
-		"MissionsForFirstBreadcrumb" : 0,		
+		"MissionsForFirstBreadcrumb" : 0,
+		"MaxContractsPerSystem": 16
 
 		"ContractRenewalPerWeek" : 0.5,
 		"ContractSuccessReduction" : 1.0,

@@ -1,0 +1,27 @@
+{
+	"Name": "ClanTech Module",
+	"Author": "The Community",
+	"Website": "https://github.com/CptMoore/MechEngineer",
+
+	"Enabled": true,
+	"DependsOn": ["CustomComponents", "MechEngineer"],
+
+
+	"Manifest": [
+		{
+			"Type": "UpgradeDef",
+			"Path": "internals"
+		},
+		{
+			"Type": "HeatSinkDef",
+			"Path": "engines"
+		},
+		{
+			"Type": "HeatSinkDef",
+			"Path": "engines"
+		},
+        { "Type": "WeaponDef", "Path": "weapons" },
+        { "Type": "MechDef", "Path": "mech" },
+        { "Type": "ChassisDef", "Path": "chassis" }		
+	]
+}

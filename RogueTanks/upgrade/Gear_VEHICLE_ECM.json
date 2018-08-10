@@ -14,7 +14,7 @@
         "UIName" : "Vehicle ECM",
         "Id" : "Gear_VehicleECMcv",
         "Name" : "Vehicle",
-        "Details" : "Rudementary ECM and targeting gear specific to tanks.",
+        "Details" : "Rudimentary ECM and targeting gear specific to tanks.",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
     "BonusValueA" : "+1 Accuracy",

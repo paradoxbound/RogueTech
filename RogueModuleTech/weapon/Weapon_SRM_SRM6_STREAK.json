@@ -34,9 +34,9 @@
         "Purchasable" : true,
         "Manufacturer" : "Holly",
         "Model" : "STREAK Missile Launcher",
-        "UIName" : "SSRM6",
+        "UIName" : "Streak SRM6",
         "Id" : "Weapon_SRM_SRM6_STREAK",
-        "Name" : "SSRM6",
+        "Name" : "Streak SRM6",
         "Details" : "The Steak SRM-6 launcher is a prototype SRM that uses an advanced active guidance system to track targets, but at the cost of 50% increased weight and heat generation.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },

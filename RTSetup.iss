@@ -60,13 +60,17 @@ BackColor=clRed
 BackColor2=clBlack
 
 [Files]
-Source: "/RogueTech Core/RogueTech.txt"; DestDir: "{app}/Mods/RogueTech Core"; Flags: isreadme ignoreversion
-Source: "/*"; Excludes: ".modtek,.git,log.txt,Log_Turbine.txt,RTsetup.iss,*.log,PirateMechs,RogueModuleElites,CommanderPortraitLoader,ArmorRepair,ArmorPoints,Pilot_Quirks,StabilePiloting,Pilot_Fatigue,MoreIsLess_dZ,RogueEmblems,All 3025 Mercs,Capellan Emblems,Replacement_MechPortraits,SkipIntro,RogueTanks,VehicleImprovementProject,Gausszilla,PowerArmour,Primitive,JK_VariantsCampaign,JK_VariantsSkirmish,Crabs,OnePointArmorStep,fastsavedelete,CamZoom,WarTech,CrystalClear,ScorchedEarth,SkimishEquipmentUnlock" ; DestDir: "{app}/Mods"; Flags: recursesubdirs ignoreversion
+;Source: "/RogueTech Core/RogueTech.txt"; DestDir: "{app}/Mods/RogueTech Core"; Flags: isreadme ignoreversion
+Source: "/*"; Excludes: ".modtek,.git,log.txt,Log_Turbine.txt,RTsetup.iss,*.log,BattletechPerformanceFix,PirateMechs,RogueModuleElites,VanillaEnabler,MercDeployments,RandomTravelContracts,CommanderPortraitLoader,ArmorRepair,ArmorPoints,Pilot_Quirks,StabilePiloting,Pilot_Fatigue,MoreIsLess_dZ,RogueEmblems,All 3025 Mercs,Capellan Emblems,Replacement_MechPortraits,SkipIntro,RogueTanks,VehicleImprovementProject,Gausszilla,PowerArmour,Primitive,JK_VariantsCampaign,JK_VariantsSkirmish,Crabs,OnePointArmorStep,fastsavedelete,CamZoom,InnerSphereMap,WarTech,CrystalClear,ScorchedEarth,SkimishEquipmentUnlock" ; DestDir: "{app}/Mods"; Flags: recursesubdirs ignoreversion
 Source: "{#SourcePath}Optionals\Battletech Sound Replacement Pack\*"; DestDir: "{app}"; Flags: recursesubdirs ignoreversion uninsneveruninstall; Components: gfx\soundmod
 Source: "{#SourcePath}Optionals\Enable Debug\*"; DestDir: "{app}"; Flags: recursesubdirs ignoreversion uninsneveruninstall; Components: debugjson
 Source: "{#SourcePath}Optionals\RogueGenerals\*"; DestDir: "{app}"; Flags: recursesubdirs ignoreversion uninsneveruninstall; Components: gametips
-Source: "/CommanderPortraitLoader/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/CommanderPortraitLoader"; Flags: recursesubdirs ignoreversion; Components: portraitloader;
-Source: "/WarTech/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/WarTech"; Flags: recursesubdirs ignoreversion; Components: wartech;
+Source: "/CommanderPortraitLoader/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/CommanderPortraitLoader"; Flags: recursesubdirs ignoreversion; Components: gfx\portraitloader;
+Source: "/VanillaEnabler/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/VanillaEnabler"; Flags: recursesubdirs ignoreversion; Components: map\VanillaEnabler;
+Source: "/InnerSphereMap/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/InnerSphereMap"; Flags: recursesubdirs ignoreversion; Components: map\wartech;
+Source: "/WarTech/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/WarTech"; Flags: recursesubdirs ignoreversion; Components: map\wartech;
+Source: "/RandomTravelContracts/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/RandomTravelContracts"; Flags: recursesubdirs ignoreversion; Components: map\wartech;
+Source: "/MercDeployments/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/MercDeployments"; Flags: recursesubdirs ignoreversion; Components: map\deployments;
 Source: "/Pilot_Quirks/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/Pilot_Quirks"; Flags: recursesubdirs ignoreversion; Components: dz\quirks;
 Source: "/StabilePiloting/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/StabilePiloting"; Flags: recursesubdirs ignoreversion; Components: dz\quirks;
 Source: "/Pilot_Fatigue/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/Pilot_Fatigue"; Flags: recursesubdirs ignoreversion; Components: dz\fatigue;
@@ -85,6 +89,7 @@ Source: "/JK_VariantsCampaign/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/JK_V
 Source: "/JK_VariantsSkirmish/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/JK_VariantsSkirmish"; Flags: recursesubdirs ignoreversion; Components: tech\jkhero;
 Source: "/Crabs/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/Crabs"; Flags: recursesubdirs ignoreversion; Components: tech\crabs;
 Source: "/SkipIntro/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/SkipIntro"; Flags: recursesubdirs ignoreversion; Components: qol\skipintro;
+Source: "/BattletechPerformanceFix/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/BattletechPerformanceFix"; Flags: recursesubdirs ignoreversion; Components: qol\perfixer;
 Source: "/OnePointArmorStep/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/OnePointArmorStep"; Flags: recursesubdirs ignoreversion; Components: qol\onepointarmor;
 Source: "/fastsavedelete/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/fastsavedelete"; Flags: recursesubdirs ignoreversion; Components: qol\fastsavedelete;
 Source: "/CamZoom/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/CamZoom"; Flags: recursesubdirs ignoreversion; Components: qol\camzoom;
@@ -94,6 +99,10 @@ Source: "/ScorchedEarth/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/ScorchedEa
 Source: "/Replacement_MechPortraits/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/Replacement_MechPortraits"; Flags: recursesubdirs ignoreversion; Components: gfx\mechportraits;
 Source: "/ArmorRepair/*"; Excludes: "log.txt"; DestDir: "{app}/Mods/ArmorRepair"; Flags: recursesubdirs ignoreversion; Components: repair\on;
 Source: "/ArmorPoints/*"; DestDir: "{app}/Mods/ArmorPoints"; Flags: ignoreversion; Components: repair\off;
+Source: "{#SourcePath}Optionals\BTML\0Harmony.dll"; DestDir: "{app}\BattleTech_Data\Managed\"; Flags: ignoreversion; Tasks: BTML
+Source: "{#SourcePath}Optionals\BTML\BattleTechModLoader.dll"; DestDir: "{app}\BattleTech_Data\Managed\"; Flags: ignoreversion; Tasks: BTML
+Source: "{#SourcePath}Optionals\BTML\BattleTechModLoaderInjector.exe"; DestDir: "{app}\BattleTech_Data\Managed\"; Flags: ignoreversion; Tasks: BTML
+
 
 [Messages]
 SetupAppRunningError=Setup has detected that another RT setup or BATTLETECH game is currently running.%n%nPlease close all instances of it now, then click OK to continue, or Cancel to exit.
@@ -105,8 +114,10 @@ WizardPreparing=Preparing for Drop, Brace yourself
 WelcomeLabel1=Welcome to the [name] Setup, Commander
 
 [Components]
-Name: "portraitloader"; Description: "Commander Portrait Loader"; Types: full;
-Name: "wartech"; Description: "WarTech"; Types: full compact;
+Name: "map"; Description: "Map Type Selector"; Types: full custom compact; Flags: fixed dontinheritcheck
+Name: "map\wartech"; Description: "Inner Sphere Sandbox Package"; Types: full compact; Flags: exclusive
+Name: "map\VanillaEnabler"; Description: "Vanilla Campaign with RT-REQUIRES ALL UNITS!"; Types: custom; Flags: exclusive
+Name: "map\deployments"; Description: "Deployments- replaces travel contracts"; Types: full compact
 Name: "dz"; Description: "Pilot Mods"; Types: full compact;
 Name: "dz\quirks"; Description: "Pilot Quirks"; Types: full compact;
 Name: "dz\fatigue"; Description: "Pilot Fatigue"; Types: full compact;
@@ -126,12 +137,14 @@ Name: "qol\camzoom"; Description: "CamZoom mod"; Types: full compact;
 Name: "qol\skirmishbay"; Description: "All Gear in Skirmish"; Types: full compact;
 Name: "qol\onepointarmor"; Description: "Shift+Click to change armour by 1"; Types: full compact;
 Name: "qol\fastsavedelete"; Description: "Delete Saves without Confirmation"; Types: full compact;
+Name: "qol\perfixer"; Description: "Performance Fixer, improves UI performance"; Types: full compact;
 Name: "qol\skipintro"; Description: "Skip Intro"; Types: full compact;
 Name: "emblems"; Description: "Emblem Options"; Types: custom;
 Name: "emblems\rogueemblems"; Description: "RogueTech Emblems"; Types: custom;
 Name: "emblems\mercemblems"; Description: "3025 Mercenary Emblems"; Types: custom;
 Name: "emblems\capellaemblems"; Description: "Capellan Emblems"; Types: custom;
 Name: "gfx"; Description: "FX Options"; Types: custom;
+Name: "gfx\portraitloader"; Description: "Commander Portrait Loader"; Types: full;
 Name: "gfx\soundmod"; Description: "Battletech Sound Replacement Pack by Highwayleopard"; Types: full compact;
 Name: "gfx\crystal"; Description: "Crystal Clear - Drastically reduce Postprocessing"; Types: custom;
 Name: "gfx\scorched"; Description: "Scorched Earth - Leave more Craters "; Types: custom;
@@ -148,6 +161,7 @@ Name: "compact"; Description: "Compact installation";
 Name: "Custom"; Description: "Custom installation"; Flags: iscustom
 
 [Tasks]
+Name: "BTML"; Description: "Install BTML (Required for new install)";
 Name: cleanup; Description: "Clean previous install"; GroupDescription: "Additional options:";
 Name: cleanup\mods; Description: "Remove Mods folder (RECOMMENDED!)";
 Name: cleanup\skirmish; Description: "Remove skirmish saves and game settings"; Flags: unchecked
@@ -155,9 +169,14 @@ Name: cleanup\WarTech; Description: "Remove WarTech saves"; Flags: unchecked
 Name: cleanup\MercDeployments; Description: "Remove MercDeployments saves"; Flags: unchecked
 
 [Run]
-Filename: "https://www.nexusmods.com/battletech/mods/79?tab=articles"; Description: "Open Readme Articles on NexusMods"; Flags: postinstall nowait shellexec skipifsilent unchecked
-Filename: "{app}/BattleTech.exe"; Description: "Launch BATTLETECH"; Flags: postinstall skipifsilent unchecked
-;Filename: "{app}/Mods/RogueTech Core/RogueTech.txt"; Description: "View the README file"; Flags: postinstall nowait shellexec skipifsilent unchecked
+Filename: "https://www.nexusmods.com/battletech/mods/79?tab=articles"; Description: "Open NexusMods Articles. THOSE ARTICLES ARE THE MANUAL!"; Flags: postinstall nowait shellexec skipifsilent
+;Filename: "{app}/BattleTech.exe"; Description: "Launch BATTLETECH"; Flags: postinstall skipifsilent unchecked
+;Filename: "{app}/Mods/RogueTech Core/RogueTech.txt"; Description: "View the Changelog file"; Flags: postinstall nowait shellexec skipifsilent unchecked
+Filename: "{app}\BattleTech_Data\Managed\BattleTechModLoaderInjector.exe"; Parameters: /restore /nokeypress; Tasks: BTML
+Filename: "{app}\BattleTech_Data\Managed\BattleTechModLoaderInjector.exe"; Parameters: /nokeypress; Tasks: BTML
+
+[UninstallRun]
+Filename: "{app}\BattleTech_Data\Managed\BattleTechModLoaderInjector.exe"; Parameters: /restore /nokeypress
 
 [InstallDelete]
 Type: filesandordirs; Name: "{app}\Mods\.modtek"

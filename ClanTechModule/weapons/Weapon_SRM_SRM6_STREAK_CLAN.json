@@ -1,0 +1,64 @@
+{
+    "Category" : "Missile",
+    "Type" : "SRM",
+    "WeaponSubType" : "SRM6",
+    "MinRange" : 0,
+    "MaxRange" : 420,
+    "RangeSplit" : [
+        150,
+        270,
+        360
+    ],
+    "AmmoCategory" : "SRM",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 21,
+    "Damage" : 8,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 2,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -2,
+    "CriticalChanceMultiplier" : 2,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 6,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 2.25,
+    "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
+    "Description" : {
+        "Cost" : 1860000,
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "Holly",
+        "Model" : "STREAK Missile Launcher",
+        "UIName" : "Streak SRM6 (C)",
+        "Id" : "Weapon_SRM_SRM6_STREAK_CLAN",
+        "Name" : "Streak SRM6 (C)",
+        "Details" : "The Steak SRM-6 launcher is a prototype SRM that uses an advanced active guidance system to track targets, but at the cost of 50% increased weight and heat generation.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "+2Accuracy",
+    "BonusValueB" : "+2 Evasion Ignore",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "srm6",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 3,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_standard"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

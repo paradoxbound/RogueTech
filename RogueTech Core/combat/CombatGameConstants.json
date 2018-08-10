@@ -17,18 +17,18 @@
     },
     "Skills":
     {
-        "MechDefaultGunnery": 1,
-        "MechDefaultGuts": 1,
-        "MechDefaultPiloting": 1,
-        "MechDefaultTactics": 1,
-        "VehicleDefaultGunnery": 1,
-        "VehicleDefaultGuts": 1,
-        "VehicleDefaultPiloting": 1,
-        "VehicleDefaultTactics": 1,
-        "TurretDefaultGunnery": 1,
-        "TurretDefaultGuts": 1,
-        "TurretDefaultPiloting": 1,
-        "TurretDefaultTactics": 1
+        "MechDefaultGunnery": 5,
+        "MechDefaultGuts": 5,
+        "MechDefaultPiloting": 5,
+        "MechDefaultTactics": 5,
+        "VehicleDefaultGunnery": 4,
+        "VehicleDefaultGuts": 4,
+        "VehicleDefaultPiloting": 4,
+        "VehicleDefaultTactics": 4,
+        "TurretDefaultGunnery": 3,
+        "TurretDefaultGuts": 3,
+        "TurretDefaultPiloting": 3,
+        "TurretDefaultTactics": 3
     },
     "Heat":
     {

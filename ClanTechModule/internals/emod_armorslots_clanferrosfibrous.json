@@ -1,0 +1,57 @@
+{
+	"Custom": {
+		"Color": {
+			"UIColor": "Gold"
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]] / 4",
+				"CBillCost": "[[Chassis.Tonnage]] * 5"
+			}
+		},		
+		"Category" : { 
+			"CategoryID" : "Armor" 
+		},
+		"DynamicSlots": {
+			"ReservedSlots": 7
+		},
+		"Weights": {
+			"ArmorFactor": 0.89286
+		},
+        "CASE": {
+            "AllLocations": true
+        },		
+		"ArmorRepair" : { "ArmorTPCost" : 1.5, "ArmorCBCost" : 1.8 },		
+		"Flags" : { "flags" : [ "ignore_damage", "autorepair", "not_broken" ] }		
+	},
+    "Description" : {
+        "Cost" : 100000,
+        "Rarity" : 10,
+        "Purchasable" : true,
+        "Manufacturer" : "Clan",
+        "Model" : "Armor Critical Slot",
+        "UIName" : "Ferro-Fibrous (C)",
+        "Id" : "emod_armorslots_clanferrosfibrous",
+        "Name" : "Ferro-Fibrous Armor (C)",
+        "Details" : "Clan Ferro-Fibrous armor (cFF) is a special type of armor used by vehicles and BattleMechs. Utilizing a weave of ferro-steel, ferro-titanium, and diamond weave fibers which boosts the tensile strength of the plating, it provides more protection per ton than standard armor, but takes up more space on the 'Mech or vehicle.<b><color=#00ff00>CASE Enabled</color></b>",
+        "Icon" : "uixSvgIcon_action_end"
+    },
+    "BonusValueA" : "-12% Armor Weight|",
+    "BonusValueB" : "7 Slots Slots",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

@@ -70,6 +70,13 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+Patch6
+Performance fixer updated to 1.0.2
+PRevents random rare loading bug
+
+Clan Tech Module
+Optional! module to spawn Clan Upgraded Mechs as Enemys
+
 Patch5HF4
 Patched AIM to fix missing modifiers
 

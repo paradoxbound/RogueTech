@@ -1,0 +1,51 @@
+{
+	"Custom": {
+		"Color": {
+			"UIColor": "Gold"
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]] / 15",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.5"
+			}
+		},
+        "CASE": {
+            "AllLocations": true
+        }		
+		"Category" : { 
+			"CategoryID" : "Armor" 
+		},
+		"ArmorRepair" : { "ArmorTPCost" : 1.2, "ArmorCBCost" : 1.4 },		
+		"Flags" : { "flags" : [ "ignore_damage" ] }
+	},
+    "Description" : {
+        "Cost" : 60000,
+        "Rarity" : 5,
+        "Purchasable" : false,
+        "Manufacturer" : "Generic",
+        "Model" : "Clan Standard",
+        "UIName" : "Armor (C)",
+        "Id" : "emod_armorslots_clstandard",
+        "Name" : "Standard Armor (C)",
+        "Details" : "Virtually identical to Standard BattleMech Armor does Clan Standard Armor equip any chassis with C.A.S.E. <b><color=#00ff00>CASE Enabled</color></b>",
+        "Icon" : "uixSvgIcon_action_end"
+    },
+    "BonusValueA" : "CASE ENABLED!",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
