@@ -34,7 +34,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Mydron",
         "Model" : "RAC5",
-        "UIName" : "RAC5",
+        "UIName" : "AC/5 Rotary",
         "Id" : "Weapon_Autocannon_RAC5_0-Mydron",
         "Name" : "RAC5",
         "Details" : "The experimental Rotary Autocannon is fixed at 4 shots per trigger pull to prevent jamming. The sheer volume of fire makes it easier to hit moving targets.",

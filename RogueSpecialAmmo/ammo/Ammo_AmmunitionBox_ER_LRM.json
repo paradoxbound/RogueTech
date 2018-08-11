@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "LRM ER",
-        "UIName" : "LRM Extreme Range Ammo",
+        "UIName" : "Ammo LRM [ER]",
         "Id" : "Ammo_AmmunitionBox_ER_LRM",
         "Name" : "LRM ER Ammo",
         "Details" : "Extreme Range LRM Ammo utilizes more advanced flight computers and stabilizer to drastically increase their range. Carries <b><color=#F79232>100 rounds</color></b>. Provides a buff to all your Ammo of the same type.",

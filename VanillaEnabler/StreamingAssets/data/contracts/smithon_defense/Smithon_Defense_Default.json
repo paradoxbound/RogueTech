@@ -2014,7 +2014,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_jenner_JR7-D",
+                        "unitDefId" : "mechdef_jenner_JR1-R",
                         "unitTagSet" : {
                             "items" : [
                                 "unit_lance_vanguard",
@@ -2059,7 +2059,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_battlemaster_BLR-1G",
+                        "unitDefId" : "mechdef_battlemaster_BLR-1CX",
                         "unitTagSet" : {
                             "items" : [
                                 "unit_lance_tank",
@@ -2306,7 +2306,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_spider_SDR-5V",
+                        "unitDefId" : "mechdef_spider_SDR-6V",
                         "unitTagSet" : {
                             "items" : [
                                 "unit_mech",

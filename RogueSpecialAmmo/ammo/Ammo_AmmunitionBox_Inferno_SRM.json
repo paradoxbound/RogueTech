@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "SRM-I",
-        "UIName" : "SRM Inferno Ammo",
+        "UIName" : "Ammo SRM [INF]",
         "Id" : "Ammo_AmmunitionBox_Inferno_SRM",
         "Name" : "SRM Inferno Ammo",
         "Details" : "This SRM Ammo bin contains Inferno rounds, changing all your SRM launchers fo fire Inferno missiles but deal little to no damage. Carries <b><color=#F79232>80 rounds</color></b>. Provides a buff to all your Ammo of the same type.",

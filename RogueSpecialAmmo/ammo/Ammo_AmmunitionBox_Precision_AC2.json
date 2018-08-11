@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "AC2 Precision",
-        "UIName" : "AC/2 Precision Ammo",
+        "UIName" : "Ammo AC/2 [PRE]",
         "Id" : "Ammo_AmmunitionBox_Precision_AC2",
         "Name" : "AC/2 Precision Ammo",
         "Details" : "Precision AC Ammo carries self-guided gyrojet shells increasing accuracy. Carries <b><color=#F79232>25 rounds</color></b>. Provides a buff to all your Ammo of the same type.",

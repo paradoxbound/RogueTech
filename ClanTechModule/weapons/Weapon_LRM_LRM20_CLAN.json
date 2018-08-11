@@ -30,9 +30,9 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM20",
     "Description" : {
         "Cost" : 870000,
-        "Rarity" : 0,
+        "Rarity" : 10,
         "Purchasable" : true,
-        "Manufacturer" : "Jackson",
+        "Manufacturer" : "CLAN",
         "Model" : "Long-Range Missile Launcher",
         "UIName" : "LRM20 (C)",
         "Id" : "Weapon_LRM_LRM20_CLAN",

@@ -71,7 +71,7 @@
   "LOSClearColors": "#FF0000FF,#0FF,#0FF,#0F8,#F00",
   "LOSBlockedPreColors": "#ff6215,#D8F,#D8F,#DF8,#D0F",
   "LOSBlockedPostColors": "#e6e600,#BBF,#BBF,#BFB,#D0F",
-  "LOSIndirectColors": "#22fa05,#0FF,#0FF,#0F8,#F00",
+  "LOSIndirectColors": "#3333cc,#2c88d3,#2c88d3,#2cd3cb,#24a8a2",
   "LOSNoAttackColors": "",
 
   /* Number of points of indirect attack lines and jump lines.  Game uses 18.  Default 48 for a smoother curve. */

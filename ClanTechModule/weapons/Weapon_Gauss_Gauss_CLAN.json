@@ -35,7 +35,7 @@
         "Cost" : 2240000,
         "Rarity" : 10,
         "Purchasable" : true,
-        "Manufacturer" : "SCI",
+        "Manufacturer" : "CLAN",
         "Model" : "Magnetic Cannon",
         "UIName" : "Gauss Rifle (C)",
         "Id" : "Weapon_Gauss_Gauss_CLAN",

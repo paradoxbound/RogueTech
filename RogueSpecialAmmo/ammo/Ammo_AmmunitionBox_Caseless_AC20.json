@@ -12,7 +12,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "AC20 Caseless",
-        "UIName" : "AC/20 Caseless Ammo",
+        "UIName" : "Ammo AC/20 [CLS]",
         "Id" : "Ammo_AmmunitionBox_Caseless_AC20",
         "Name" : "AC/20 Caseless Ammo",
         "Details" : "Caseless autocannon ammunition was developed by the Federated Commonwealth to provide more ammunition. Instead of a standard metal or plastic shell casing filled with propellant, the caseless autocannon round had the propellant 'packed' around the projectile. Carries <b><color=#F79232>8 rounds</color></b>.  Can be quipped multiple times without additional penalty.",

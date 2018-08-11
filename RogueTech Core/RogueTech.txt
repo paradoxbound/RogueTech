@@ -70,9 +70,35 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+Patch6fixes4
+Improved sorting of nerly every item
+Will be further improved
+
+Patch6fixes3
+Perffixer is default again
+Added Bindable ESC key as option
+Use Mouse4 to "go back"
+Couple tiny fixes
+Fixed Vanilla Enabler Planet Difficulty scaling
+Replaced all Vanilla Story missions with a selection fo RT Mechs
+
+
+Patch6fixes2
+Added missing comma to vanilla enabler
+It should work now
+
+Patch6fixes1
+Updated PerfFixer to 104
+Debug settings made default
+Performancer Fixer made optional
+Moved combatgameconstants and difficulty menu back to be a merger
+Either randomly failed to load
+
+Couple additions to the Clan Module
+
 Patch6
 Performance fixer updated to 1.0.2
-PRevents random rare loading bug
+Prevents random rare loading bug
 
 Clan Tech Module
 Optional! module to spawn Clan Upgraded Mechs as Enemys

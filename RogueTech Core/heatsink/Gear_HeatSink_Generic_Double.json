@@ -4,8 +4,9 @@
 		"EngineHeatSink": {
 			"FullName": "Double Heat Sinks",
 			"Abbreviation": "DHS",
-			"Tag": "DHS",
-		}
+			"Tag": "DHS"
+		},
+		"Category" : { "CategoryID" : "DHS"}
 	},
 
     "DissipationCapacity" : 6,
@@ -15,7 +16,7 @@
         "Purchasable" : false,
         "Manufacturer" : "SLDF",
         "Model" : "Double",
-        "UIName" : "Heat Sink (D)",
+        "UIName" : "Heat Sink Double",
         "Id" : "Gear_HeatSink_Generic_Double",
         "Name" : "Double Heat Sink (D)",
         "Details" : "Double Heat Sinks provide twice the efficiency of standard Heat Sinks, though with increased bulkiness. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",

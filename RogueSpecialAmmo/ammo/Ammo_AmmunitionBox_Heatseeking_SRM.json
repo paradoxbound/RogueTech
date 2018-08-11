@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "SRM",
-        "UIName" : "SRM Heatseeker Ammo",
+        "UIName" : "Ammo SRM [HS]",
         "Id" : "Ammo_AmmunitionBox_Heatseeking_SRM",
         "Name" : "SRM Heatseeker Ammo",
         "Details" : "Though based on technology used from the Pre-Spaceflight era, Heat Seeking Warheads didn't enter service in the Terran Hegemony until 2340. Though very effective against very hot targets, the sensors used by Heat Seeking Warheads were so large that the traditional guidance systems had to be removed. SRM Ammo Bins each contain <b><color=#F79232>100 rounds</color></b>.",

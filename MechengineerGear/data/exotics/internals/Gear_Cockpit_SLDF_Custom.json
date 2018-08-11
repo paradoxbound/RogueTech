@@ -21,7 +21,7 @@
         "Purchasable" : true,
         "Manufacturer" : "SLDF",
         "Model" : "Advanced",
-        "UIName" : "SLIC Suite",
+        "UIName" : "Cockpit SLIC",
         "Id" : "Gear_Cockpit_SLDF_Custom",
         "Name" : "SLDF SpecOps Cockpit  ",
         "Details" : "This SpecOps tactical upgrade includes a high-grade ballistic cooling vest, an integrated C3 command helmet, and advanced onboard systems, providing both improved sensor capability as well as protection for the pilot. ",

@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "AC/20 LFT",
-        "UIName" : "AC/20 LiveFire Training Ammo",
+        "UIName" : "Ammo AC/20 [LFT]",
         "Id" : "Ammo_AmmunitionBox_LFT_AC20",
         "Name" : "AC/20 LFT Ammo",
         "Details" : "LifeFire Training Rounds greatly reduced armor damage in exchange for massively increased stability damage. Carries <b><color=#F79232>5 rounds</color></b>.",

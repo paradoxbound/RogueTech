@@ -1,0 +1,70 @@
+{
+    "ID": "shopdef_Weapons_Rogue_CLAN_200",
+    "RequirementTags": {
+        "items": [      "rep_mrb_200"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+	  
+    ],
+    "Specials": [
+        {
+            "ID": "Weapon_Flamer_Flamer_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_MachineGun_MachineGun_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },		
+        {
+            "ID": "Weapon_Laser_SmallLaserER_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },		
+        {
+            "ID": "Weapon_Autocannon_AC2_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_LRM_ATM3_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_LRM_LRM5_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_SRM_SRM2_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },		
+  	
+	
+	]
+}

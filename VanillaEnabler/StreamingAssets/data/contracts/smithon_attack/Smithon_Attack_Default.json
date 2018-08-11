@@ -1377,7 +1377,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_locust_LCT-1V",
+                        "unitDefId" : "mechdef_locust_LCT-2V",
                         "unitTagSet" : {
                             "items" : [
                                 "unit_lance_vanguard",
@@ -1422,7 +1422,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_firestarter_FS9-H",
+                        "unitDefId" : "mechdef_firestarter_FS1-H",
                         "unitTagSet" : {
                             "items" : [
                                 "unit_lance_vanguard",
@@ -1831,7 +1831,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_dragon_DRG-1N",
+                        "unitDefId" : "mechdef_Mackie-6S",
                         "unitTagSet" : {
                             "items" : [
                                 "unit_medium",
@@ -1875,7 +1875,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_griffin_GRF-1N",
+                        "unitDefId" : "mechdef_griffin_GRF-2N-X",
                         "unitTagSet" : {
                             "items" : [
                                 "unit_lance_tank",
@@ -1919,7 +1919,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_cicada_CDA-3C",
+                        "unitDefId" : "mechdef_cicada_CDA-4L",
                         "unitTagSet" : {
                             "items" : [
                                 "unit_lance_support",

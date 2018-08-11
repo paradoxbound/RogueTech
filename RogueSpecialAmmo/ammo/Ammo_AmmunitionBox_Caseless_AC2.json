@@ -13,7 +13,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "AC2 Caseless",
-        "UIName" : "AC/2 Caseless Ammo",
+        "UIName" : "Ammo AC/2 [CLS]",
         "Id" : "Ammo_AmmunitionBox_Caseless_AC2",
         "Name" : "AC/2 Caseless Ammo",
         "Details" : "Caseless autocannon ammunition was developed by the Federated Commonwealth to provide more ammunition. Instead of a standard metal or plastic shell casing filled with propellant, the caseless autocannon round had the propellant 'packed' around the projectile. Carries <b><color=#F79232>38 rounds</color></b>. Can be quipped multiple times without additional penalty.",

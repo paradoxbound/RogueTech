@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "GAUSS",
-        "UIName" : "Gauss Light Ammo",
+        "UIName" : "Ammo Gauss [LGT]",
         "Id" : "Ammo_AmmunitionBox_Light_GAUSS",
         "Name" : "Gauss Light Ammo",
         "Details" : "Light Gauss have a better ballistic profile allowing a slug to travel further but have reduced damage and a longer minimum range. Carries <b><color=#F79232>10 rounds</color></b>. Provides a buff to all your Ammo of the same type. <b><color=#099ff2>Does not explode.</color></b>",

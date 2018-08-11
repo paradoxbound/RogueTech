@@ -6,12 +6,12 @@
 	},
     "Description" : {
         "Cost" : 500000,
-        "Rarity" : 5,
+        "Rarity" : 10,
         "Purchasable" : true,
         "Manufacturer" : "Trellshire",
         "Model" : "Advanced Prototype",
         "Id" : "emod_clancase2",
-        "UIName" : "CASE II (C)",
+        "UIName" : "C.A.S.E. II (C)",
         "Name" : "C.A.S.E. II (C)",
         "Details" : "CLAN CASE II is functional similar to the experimental FIS CASEII projects but only weights half as much.",
         "Icon" : "uixSvgIcon_action_end"

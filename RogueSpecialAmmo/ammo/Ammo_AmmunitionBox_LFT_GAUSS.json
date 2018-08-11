@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "GAUSS LFT",
-        "UIName" : "Gauss Livefire Training Ammo",
+        "UIName" : "Ammo Gauss [LFT]",
         "Id" : "Ammo_AmmunitionBox_LFT_GAUSS",
         "Name" : "Gauss LFT Ammo",
         "Details" : "LiveFire Training ammo for the Gauss Rifle, using a modified projectile made of soft metal for greatly reduced armor damage, but increased stability damage. Contains <b><color=#F79232>8 rounds</color></b>.",

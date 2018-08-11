@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "SRM DF",
-        "UIName" : "SRM DF Ammo",
+        "UIName" : "Ammo SRM [DF]",
         "Id" : "Ammo_AmmunitionBox_Deadfire_SRM",
         "Name" : "SRM DeadFire Ammo",
         "Details" : "Deadfire SRM's, like their LRM counterparts, trade any advanced guidance system for a larger payload, decreasing accuracy and the already short range. Carries <b><color=#F79232>80 rounds</color></b>. Provides a buff to all your Ammo of the same type.",

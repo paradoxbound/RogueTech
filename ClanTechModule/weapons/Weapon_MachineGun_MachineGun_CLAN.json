@@ -30,9 +30,9 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_MachineGun",
     "Description" : {
         "Cost" : 40000,
-        "Rarity" : 0,
+        "Rarity" : 10,
         "Purchasable" : true,
-        "Manufacturer" : "Sperry Browning",
+        "Manufacturer" : "CLAN",
         "Model" : "Machine Gun",
         "UIName" : "MG (C)",
         "Id" : "Weapon_MachineGun_MachineGun_CLAN",

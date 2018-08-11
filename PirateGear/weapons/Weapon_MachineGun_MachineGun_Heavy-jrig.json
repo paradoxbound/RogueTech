@@ -34,7 +34,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Another Idiot",
         "Model" : "Machine Gun",
-        "UIName" : "Pirate HMG",
+        "UIName" : "MG Hvy (PRT)",
         "Id" : "Weapon_MachineGun_MachineGun_Heavy-jrig",
         "Name" : "Pirate HMG Array",
         "Details" : "The second and third barrels on this machine gun have been arc welded together and somehow jammed into the frame here. The feeding mechanism has been looped around to feed the additional breaches as well. This entire rat’s nest weighs twice what it would take to mount a couple more machine guns in the first place.",

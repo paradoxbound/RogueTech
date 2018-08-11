@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "LRM Hotloaded",
-        "UIName" : "LRM Hotloaded Ammo",
+        "UIName" : "Ammo LRM [HOL]",
         "Id" : "Ammo_AmmunitionBox_Hotloaded_LRM",
         "Name" : "LRM Hotloaded Ammo",
         "Details" : "Hotloaded LRM reduce the minimum range of their launchers but makes them less reliable. Hotloaded LRM Ammo Bins each contain <b><color=#F79232>100 rounds</color></b>. Provides a buff to all your ammo of the same type.",

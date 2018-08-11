@@ -1880,7 +1880,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_dragon_DRG-1N",
+                        "unitDefId" : "mechdef_marauder_MAD-3R",
                         "unitTagSet" : {
                             "items" : [
                                 "unit_lance_tank",
@@ -1924,7 +1924,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_trebuchet_TBT-5N",
+                        "unitDefId" : "mechdef_trebuchet_TBT-6X",
                         "unitTagSet" : {
                             "items" : [
                                 "unit_lance_support",
@@ -1969,7 +1969,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_jenner_JR7-D",
+                        "unitDefId" : "mechdef_locust_LCT-LR",
                         "unitTagSet" : {
                             "items" : [
                                 
@@ -2012,7 +2012,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_hunchback_HBK-4G",
+                        "unitDefId" : "mechdef_hunchback_HBK-4GG",
                         "unitTagSet" : {
                             "items" : [
                                 

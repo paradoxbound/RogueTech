@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "LRM DF",
-        "UIName" : "LRM DeadFire Ammo",
+        "UIName" : "Ammo LRM [DF]",
         "Id" : "Ammo_AmmunitionBox_Deadfire_LRM",
         "Name" : "LRM Deadfire Ammo",
         "Details" : "Deadfire LRM's trade any advanced guidance system, reducing range and accuracy, for a bigger payload and reduced minimum range. Carries <b><color=#F79232>100 rounds</color></b>. Provides a buff to all your Ammo of the same type.",

@@ -9,7 +9,64 @@
 				"TechCost": "[[Chassis.Tonnage]]/10",
 				"CBillCost": "[[Chassis.Tonnage]] * 1.05"
 			}
-		}		
+		},
+			"CriticalHitStates": {
+				"MaxStates" : 1,			
+				"HitEffects" : [
+				{
+					"State" : 1,
+					"StatusEffect" : {
+						"durationData" : {
+						},
+						"targetingData" : {
+							"effectTargetsCreator" : true,
+							"effectTriggerType" : "Passive",
+							"effectTargetType" : "Creator"
+						},
+						"effectType" : "StatisticEffect",
+						"Description" : {
+							"Id" : "UL_Gyro_Critical",
+							"Name" : "Gyro Critical",
+							"Details" : "Triple Stability Damage taken",
+							"Icon" : "uixSvgIcon_equipment_Gyro"
+						},
+						"nature" : "Debuff",
+						"statisticData" : {
+                "statName" : "ReceivedInstabilityMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "3.0",
+                "modType" : "System.Single"
+						}
+					}					
+				},
+				{
+					"State" : 1,
+					"StatusEffect" : {
+						"durationData" : {
+						},
+						"targetingData" : {
+							"effectTargetsCreator" : true,
+							"effectTriggerType" : "Passive",
+							"effectTargetType" : "Creator"
+						},
+						"effectType" : "StatisticEffect",
+						"Description" : {
+							"Id" : "UL_Gyro_Critical2",
+							"Name" : "Gyro Critical",
+							"Details" : "-15 Threshhold",
+							"Icon" : "uixSvgIcon_equipment_Gyro"
+						},
+						"nature" : "Debuff",
+						"statisticData" : {
+                "statName" : "UnsteadyThreshold",
+                "operation" : "Float_Add",
+                "modValue" : "-15.0",
+                "modType" : "System.Single"
+						}
+					}					
+				 }				
+				]
+			  }		
 	},
 
     "StatName" : null,
@@ -21,7 +78,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Luthien",
         "Model" : "Dragon",
-        "UIName" : "UL Gyro",
+        "UIName" : "Gyro UL",
         "Id" : "Gear_Gyro_Ultralight",
         "Name" : "Dragon Ultralight Gyro",
         "Details" : "This Ultralight Gyro was developed to give a ‘Mech more free tonnage, at the cost of some stability.",

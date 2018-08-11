@@ -47,10 +47,13 @@
 		{  "Name": "AC20Ammo",  "displayName": "AC20 Special Ammo",  "MaxEquiped":  "1", "AutoReplace": "false", "AllowMixTags": "false"},
 		{  "Name": "HBStandard",  "displayName": "Heatbank Standard",  "MaxEquiped":  "1", "AutoReplace": "false"},
 		{  "Name": "HBImproved",  "displayName": "Heatbank Improved",  "MaxEquiped":  "1", "AutoReplace": "false"},
-		{  "Name": "HBBulk",  "displayName": "Heatbank Bulk",  "MaxEquiped":  "1", "AutoReplace": "false"},
-		{  "Name": "TE1",  "displayName": "Thermal Exchanger I",  "MaxEquiped":  "1", "AutoReplace": "false"},
-		{  "Name": "TE2",  "displayName": "Thermal Exchanger II",  "MaxEquiped":  "1", "AutoReplace": "false"},
-		{  "Name": "TE3",  "displayName": "Thermal Exchanger III",  "MaxEquiped":  "1", "AutoReplace": "false"},		
+		{  "Name": "HBBulk",  "displayName": "Heatbank Bulk", "MaxEquiped":  "1", "AutoReplace": "false"},
+		{  "Name": "TE1",  "displayName": "Thermal Exchanger I", "MaxEquiped":  "1", "AutoReplace": "false"},
+		{  "Name": "TE2",  "displayName": "Thermal Exchanger II", "MaxEquiped":  "1", "AutoReplace": "false"},
+		{  "Name": "TE3",  "displayName": "Thermal Exchanger III", "MaxEquiped":  "1", "AutoReplace": "false"},
+		{  "Name": "SHS",  "displayName": "Standard Heat Sink"},
+		{  "Name": "DHS",  "displayName": "Double Heat Sink"},		
+		{  "Name": "CDHS",  "displayName": "Clan Double Heat Sink", "Forbidden": ["TE1", "TE2", "TE3", "HBStandard", "HBImproved", "HBBulk"]},		
 ]
 	}	
 		

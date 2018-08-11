@@ -17,11 +17,11 @@
     "AbsoluteModifier" : 0,
     "Description" : {
         "Cost" : 830000,
-        "Rarity" : 5,
+        "Rarity" : 10,
         "Purchasable" : true,
         "Manufacturer" : "Clan",
         "Model" : "EI Cockpit",
-        "UIName" : "Enhanced Imaging Cockpit",
+        "UIName" : "Cockpit EI (C)",
         "Id" : "Gear_Cockpit_CLAN_EI",
         "Name" : "Enhanced Imaging Cockpit",
         "Details" : "This cockpit mod allows for the use of a Direct Neural Interface, granting improved control of a ‘Mech at the risk of injury.",

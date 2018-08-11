@@ -12,7 +12,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "AC5 Caseless",
-        "UIName" : "AC/5 Caseless Ammo",
+        "UIName" : "Ammo AC/5 [CLS]",
         "Id" : "Ammo_AmmunitionBox_Caseless_AC5",
         "Name" : "AC/5 Caseless Ammo",
         "Details" : "Caseless autocannon ammunition was developed by the Federated Commonwealth to provide more ammunition. Instead of a standard metal or plastic shell casing filled with propellant, the caseless autocannon round had the propellant 'packed' around the projectile. Carries <b><color=#F79232>23 rounds</color></b>.  Can be quipped multiple times without additional penalty..",

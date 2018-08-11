@@ -2,7 +2,7 @@
     "Name": "RogueTech Core",
     "Enabled": true,
 
-    "Version": "0.988 Patch6",
+    "Version": "0.988 Patch6fixes4",
     "Description": "Contains the basic rules of RogueTech - Core Module",
     "Author": "LadyAlekto",
     "Website": "",
@@ -13,9 +13,7 @@
         { "Type": "PilotDef", "Path": "AIPilotsBuff" },
         { "Type": "PilotDef", "Path": "turretpilots" },	
 	    { "Type": "WeaponDef", "Path": "weapons" },
-        { "Type": "HeatSinkDef", "Path": "heatsink" },
-        { "Type": "SimGameDifficultySettingList", "Path": "difficulty" },
-        { "Type": "CombatGameConstants", "Path": "combat" }		
+        { "Type": "HeatSinkDef", "Path": "heatsink" },	
     ],
 	
 	

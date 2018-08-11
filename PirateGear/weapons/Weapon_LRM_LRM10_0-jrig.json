@@ -37,7 +37,7 @@
         "Purchasable" : true,
         "Manufacturer" : "GM",
         "Model" : "Long-Range Missile Launcher",
-        "UIName" : "Pirate LRM10",
+        "UIName" : "LRM10 (PRT)",
         "Id" : "Weapon_LRM_LRM10_0-jrig",
         "Name" : "Pirate LRM10",
         "Details" : "Some shǎzi rewired the Guidance system so poorly, and so many times, that I’m pretty sure it would just hit whatever’s closest, including yourself. <b><color=#099ff2>VOLATILE!</color></b>",

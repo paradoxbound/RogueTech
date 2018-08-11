@@ -34,7 +34,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Intek",
         "Model" : "Large Laser",
-        "UIName" : "L Laser + +",
+        "UIName" : "Laser L + +",
         "Id" : "Weapon_Laser_LargeLaser_2-Intek",
         "Name" : "L Laser + +",
         "Details" : "Large Lasers exhibit a powerful combination of damage, range, and compactness but generate a substantial amount of heat. Like all Lasers, Large Lasers enjoy a baseline accuracy bonus over other weapons.",

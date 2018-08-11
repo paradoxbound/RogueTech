@@ -17,7 +17,7 @@
         "Purchasable" : false,
         "Manufacturer" : "Dark Mirage",
         "Model" : "Torso Cockpit",
-        "UIName" : "Torso Cockpit",
+        "UIName" : "Cockpit Torso",
         "Id" : "Gear_Cockpit_Torsomount",
         "Name" : "Torso Cockpit",
         "Details" : "The Torso Cockpit has long been a dream of BattleMech designers. By moving the MechWarrior to a more heavily protected area, an army would be able to keep its more experienced soldiers in the fight a lot longer. The idea remained a dream until the unlocking of the Helm Memory Core provided a jump-start to many technological projects.",

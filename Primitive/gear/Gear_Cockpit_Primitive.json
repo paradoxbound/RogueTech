@@ -15,7 +15,7 @@
         "Purchasable" : false,
         "Manufacturer" : "Generic",
         "Model" : "Primitive",
-        "UIName" : "Primitive Cockpit",
+        "UIName" : "Cockpit Primitive",
         "Id" : "Gear_Cockpit_Primitive",
         "Name" : "Primitive Cockpit",
         "Details" : "The Primitive Cockpit is functionally similar to the modern BattleMech cockpit, but due to the bulkier components, it weighs five tons instead of three.  It lacks an ejection seat and the sensors are even worse than that of a standard IndustrialMech's",

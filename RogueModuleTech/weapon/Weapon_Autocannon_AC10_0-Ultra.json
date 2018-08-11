@@ -34,7 +34,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Western",
         "Model" : "Heavy Autocannon",
-        "UIName" : "UAC/10",
+        "UIName" : "AC/10 Ultra",
         "Id" : "Weapon_Autocannon_AC10_0-Ultra",
         "Name" : "UAC/10",
         "Details" : "Ultra Autocannons boast double the rate of fire of a regular Autocannon, with only moderate increases in weight, size, and heat. The UAC/10 is your standard heavy gun, with all-around good damage, range, and heat efficiency.",

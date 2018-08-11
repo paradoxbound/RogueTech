@@ -1,6 +1,8 @@
 {
   "Name": "FullRandomCampaignStart",
   "DLL": "RandomCampaignStart.dll",
+  
+  	"Enabled": true,
 
   "Version": "1.0",
   "Description": "Randomizes the starting mechwarriors and mechs.",
@@ -13,8 +15,8 @@
   "Settings": {
     /* Global toggles that effect both types of randomizers. FullRandomMode: true for complete randomization, false for Original Method Randomization.*/	
 	"FullRandomMode": true,
-    "MinimumStartingWeight": 175,
-    "MaximumStartingWeight": 190,
+    "MinimumStartingWeight": 185,
+    "MaximumStartingWeight": 200,
     "NumberRandomRonin": 3,
     "NumberProceduralPilots": 0,
 	"MechPercentageStartingCost" : 1,
@@ -30,7 +32,7 @@
 	],
 
     /* Settings for Full Random Mode. Maximum Lance Size = 6.*/
-    "MinimumLanceSize": 4,
+    "MinimumLanceSize": 5,
     "MaximumLanceSize": 6,
     "MaximumMechWeight": 50,
 	"AllowDuplicateChassis":  false,

@@ -30,9 +30,9 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_SRM2",
     "Description" : {
         "Cost" : 60000,
-        "Rarity" : 0,
+        "Rarity" : 10,
         "Purchasable" : true,
-        "Manufacturer" : "Holly",
+        "Manufacturer" : "CLAN",
         "Model" : "Short-Range Missile Launcher",
         "UIName" : "SRM2 (C)",
         "Id" : "Weapon_SRM_SRM2_CLAN",

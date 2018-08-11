@@ -1,0 +1,199 @@
+{
+    "ID": "shopdef_Weapons_Rogue_CLAN_900",
+    "RequirementTags": {
+        "items": [      "rep_mrb_900"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+      {
+         "ID" : "Ammo_AmmunitionBox_Inferno_SRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_Incendiary_LRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+        {
+            "ID": "Gear_TargetingTrackingSystem_Hartford_F3000",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0
+		
+        },	
+	  {
+         "ID" : "Gear_TargetingTrackingSystem_RCA_InstaTrac-X",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+	 
+      },
+	  {
+         "ID" : "Gear_TargetingTrackingSystem_Kallon_A-C-P150+",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0
+	 
+      },
+      {
+         "ID" : "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "Gear_HeatSink_Generic_Bulk-Bank",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      }	  
+  
+    ],
+    "Specials": [
+        {
+            "ID": "Weapon_Gauss_Gauss_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },	
+        {
+            "ID": "Weapon_Laser_MediumLaserPulse_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_Laser_LargeLaserPulse_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },		
+        {
+            "ID": "Weapon_Autocannon_AC20_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_LRM_ATM12_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_LRM_LRM20_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_SRM_SRM6_STREAK_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },			
+        {
+            "ID": "emod_armorslots_clstandard",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 20		
+        },
+        {
+            "ID": "Gear_MASC_CLAN",
+            "Type": "Upgrade",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10	
+        },		
+	  {
+         "ID" : "Gear_Cockpit_CLAN_Standard",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 10	 
+      },
+	  {
+         "ID" : "emod_clancase2",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 10	 
+      },
+	  {
+         "ID" : "emod_engineslots_cxl_center",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 10	 
+      },
+	  {
+         "ID" : "Gear_HeatSink_Generic_Double_Clan",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 10	 
+      },
+	  {
+         "ID" : "emod_engineslots_cxxl_center",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 8	 
+      },
+	  {
+         "ID" : "emod_kit_cdhs",
+         "Type" : "HeatSink",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 8	 
+      },	  
+	  {
+         "ID" : "Gear_Cockpit_CLAN_EI",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 8		 
+      },
+	  {
+         "ID" : "emod_structureslots_clanendosteel",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 8		 
+      },
+	  {
+         "ID" : "emod_armorslots_clanferrosfibrous",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 8		 
+      },
+	  {
+         "ID" : "emod_armorslots_clanferrolamellor",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.2,
+         "Count" : 0,
+			"Weight" : 6		 
+      }	  
+  	
+	
+	]
+}

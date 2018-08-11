@@ -30,10 +30,10 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_Flamer",
     "Description" : {
         "Cost" : 80000,
-        "Rarity" : 0,
+        "Rarity" : 10,
         "Purchasable" : true,
-        "Manufacturer" : "Skylight",
-        "Model" : "Heat Damage Flamethrower",
+        "Manufacturer" : "CLAN",
+        "Model" : "Fusion Flamethrower",
         "UIName" : "Flamer (C)",
         "Id" : "Weapon_Flamer_Flamer_CLAN",
         "Name" : "Flamer (C)",

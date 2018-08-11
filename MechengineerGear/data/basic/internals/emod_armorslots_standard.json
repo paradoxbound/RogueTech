@@ -3,6 +3,7 @@
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},
+		"ArmorRepair" : { "ArmorTPCost" : 0.8, "ArmorCBCost" : 0.9 },		
 		"Flags" : { "flags" : [ "ignore_damage", "default" ] }
 	},
     "Description" : {
@@ -18,7 +19,7 @@
         "Icon" : "uixSvgIcon_action_end"
     },
     "BonusValueA" : "",
-    "BonusValueB" : "",
+    "BonusValueB" : "Easier to Repair",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",

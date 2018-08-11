@@ -34,7 +34,7 @@
         "Purchasable" : false,
         "Manufacturer" : "SCI",
         "Model" : "Extended-Range Small Laser",
-        "UIName" : "ER S Laser",
+        "UIName" : "Laser S ER",
         "Id" : "Weapon_Laser_SmallLaserER_0-STOCK",
         "Name" : "ER S Laser",
         "Details" : "An improvement upon standard Small Lasers, Extended-Range Small Lasers extend their effective range at the cost of more heat generation. Like all Lasers, ER Small Lasers enjoy a baseline accuracy bonus over other weapons.",

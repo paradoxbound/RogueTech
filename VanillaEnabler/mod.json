@@ -1,6 +1,6 @@
 {
     "Name": "RogueTech Vanilla Enabler",
-    "Enabled": true
+    "Enabled": true,
 	
 				"DependsOn": [ "RogueTech Core" ],
 }

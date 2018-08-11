@@ -21,7 +21,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Ceres Metals",
         "Model" : "Hardened",
-        "UIName" : "Cockpit Mod + +",
+        "UIName" : "Cockpit +3 Injury",
         "Id" : "Gear_Cockpit_Ceres_Metals_Hardened",
         "Name" : "Ceres Metals Hardened Cockpit Mod",
         "Details" : "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. Cockpit Mods upgrade the structure of the area the MechWarrior occupies during combat, granting increased protection from mortal injuries.",

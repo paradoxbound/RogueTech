@@ -21,7 +21,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Luthien",
         "Model" : "Samurai",
-        "UIName" : "Samurai Gyro",
+        "UIName" : "Gyro Heavy",
         "Id" : "Gear_Gyro_HeavyDuty",
         "Name" : "Samurai Heavy Gyro",
         "Details" : "The Samurai Heavy Duty Gyro provides an improvement in stability over standard Gyros, at the cost of some weight.",

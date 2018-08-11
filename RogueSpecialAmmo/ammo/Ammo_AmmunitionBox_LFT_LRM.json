@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "LRM-LFT",
-        "UIName" : "LRM Livefire Training Ammo",
+        "UIName" : "Ammo LRM [LFT]",
         "Id" : "Ammo_AmmunitionBox_LFT_LRM",
         "Name" : "LRM LFT Ammo",
         "Details" : "Livefire Training missiles, essentially normal LRM missiles with the shaped charge removed from the head and replaced with a dummy weight.  Causes minimal damage to Mech armor, but increased stability damage. Contains <b><color=#F79232>120 rounds</color></b>.",

@@ -1,0 +1,77 @@
+{
+    "ID": "shopdef_Weapons_Rogue_CLAN_600",
+    "RequirementTags": {
+        "items": [      "rep_mrb_600"
+		],
+        "tagSetSourceFile": ""
+    },
+    "ExclusionTags": {
+        "items": [
+            "planet_other_empty"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "Inventory": [
+  
+    ],
+    "Specials": [
+        {
+            "ID": "Weapon_Laser_HeavyMediumLaser_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_Laser_HeavyLargeLaser_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_Laser_SmallLaserPulse_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },		
+        {
+            "ID": "Weapon_Autocannon_AC10_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_LRM_ATM9_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_LRM_LRM15_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_SRM_SRM6_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },
+        {
+            "ID": "Weapon_SRM_SRM4_STREAK_CLAN",
+            "Type": "Weapon",
+            "DiscountModifier": 1,
+            "Count": 0,
+			"Weight" : 10			
+        },	  
+  	
+	
+	]
+}

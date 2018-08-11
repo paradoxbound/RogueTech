@@ -16,12 +16,9 @@
 			"Type": "HeatSinkDef",
 			"Path": "engines"
 		},
-		{
-			"Type": "HeatSinkDef",
-			"Path": "engines"
-		},
         { "Type": "WeaponDef", "Path": "weapons" },
         { "Type": "MechDef", "Path": "mech" },
-        { "Type": "ChassisDef", "Path": "chassis" }		
+        { "Type": "ChassisDef", "Path": "chassis" },
+		{ "Type": "ShopDef", "Path": "clanshops" }
 	]
 }

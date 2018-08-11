@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "GAUSS",
-        "UIName" : "Gauss Heavy Ammo",
+        "UIName" : "Ammo Gauss [HVY]",
         "Id" : "Ammo_AmmunitionBox_Heavy_GAUSS",
         "Name" : "Gauss Heavy Ammo",
         "Details" : "Heavy Gauss ammo fires a heavier projectile drastically reducing range but increasing the damage profile. Carries <b><color=#F79232>4 rounds</color></b>. Provides a buff to all your Ammo of the same type. <b><color=#099ff2>Does not explode.</color></b>",

@@ -2,7 +2,7 @@
 	"Description" : {
 		"Id" : "AbilityDefGu5",
 		"Name" : "JUGGERNAUT",
-		"Details" : "PASSIVE: Successful Melee attacks knock your target back one Initiative Phase.Increases Melee Damage by 15%.",
+		"Details" : "PASSIVE: Successful Melee attacks knock your target back one Initiative Phase. Increases Melee Damage by 15%.",
 		"Icon" : "uixSvgIcon_juggernaut"
 	},
     "DisplayParams" : "ShowInMWTRay",

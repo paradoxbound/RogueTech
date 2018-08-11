@@ -5,7 +5,8 @@
 			"FullName": "Standard Heat Sinks",
 			"Abbreviation": "SHS",
 			"Tag": "SHS"
-		}
+		},
+		"Category" : { "CategoryID" : "SHS"}
 	},
 
     "DissipationCapacity" : 3,

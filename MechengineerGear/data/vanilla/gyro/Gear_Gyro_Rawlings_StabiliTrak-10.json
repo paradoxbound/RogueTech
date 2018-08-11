@@ -21,7 +21,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Rawlings",
         "Model" : "StabiliTrak 10",
-        "UIName" : "Gyro +",
+        "UIName" : "Gyro -20.Stb.Dmg.",
         "Id" : "Gear_Gyro_Rawlings_StabiliTrak-10",
         "Name" : "Rawlings StabiliTrak 10 Gyro",
         "Details" : "Gyros counteract the massive amounts of momentum generated from 'Mech engines and allow for precision maneuvering and recovery from stability-impacting attacks. All 'Mechs come equipped with a stock Gyro, which can be upgraded for improved performance.",

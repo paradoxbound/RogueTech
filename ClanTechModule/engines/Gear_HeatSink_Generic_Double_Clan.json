@@ -4,7 +4,8 @@
 			"FullName": "Clan Double Heat Sinks",
 			"Abbreviation": "CDHS",
 			"Tag": "CDHS",
-		}
+		},
+		"Category" : { "CategoryID" : "CDHS"}
 	},
     "DissipationCapacity" : 6,
     "Description" : {
@@ -13,9 +14,9 @@
         "Purchasable" : false,
         "Manufacturer" : "Clan",
         "Model" : "Clan Double",
-        "UIName" : "Heat Sink (C)",
+        "UIName" : "Heat Sink Double (C)",
         "Id" : "Gear_HeatSink_Generic_Double_Clan",
-        "Name" : "Heat Sink Kit (C)",
+        "Name" : "Heat Sink (C)",
         "Details" : "Double Heat Sinks provide twice the efficiency of standard Heat Sinks, though with increased bulkiness. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
         "Icon" : "uixSvgIcon_equipment_Heatsink"
     },

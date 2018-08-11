@@ -20,9 +20,9 @@
 	},
     "Description" : {
         "Cost" : 60000,
-        "Rarity" : 5,
+        "Rarity" : 8,
         "Purchasable" : false,
-        "Manufacturer" : "Generic",
+        "Manufacturer" : "Clan",
         "Model" : "Clan Standard",
         "UIName" : "Armor (C)",
         "Id" : "emod_armorslots_clstandard",

@@ -12,7 +12,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "AC2",
-        "UIName" : "AC/2 Ammo",
+        "UIName" : "Ammo AC/2 [STD]",
         "Id" : "Ammo_AmmunitionBox_Generic_AC2",
         "Name" : "AC/2 Ammo",
         "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. AC/2 Ammo Bins each contain <b><color=#F79232>25 rounds</color></b> and may feed multiple weapons.",

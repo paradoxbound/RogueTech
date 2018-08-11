@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "AC5 Precision",
-        "UIName" : "AC/5 Precision Ammo",
+        "UIName" : "Ammo AC/5 [PRE]",
         "Id" : "Ammo_AmmunitionBox_Precision_AC5",
         "Name" : "AC/5 Precision Ammo",
         "Details" : "Precision AC Ammo carries self-guided gyrojet shells increasing accuracy. Carries <b><color=#F79232>15 rounds</color></b>. Provides a buff to all your Ammo of the same type and doesnt stack.",

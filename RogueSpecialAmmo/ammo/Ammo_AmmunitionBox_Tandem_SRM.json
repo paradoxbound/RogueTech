@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "SRM Tandem",
-        "UIName" : "SRM TC Ammo",
+        "UIName" : "Ammo SRM [TDM]",
         "Id" : "Ammo_AmmunitionBox_Tandem_SRM",
         "Name" : "SRM TandemCharge Ammo",
         "Details" : "Tandem Charge SRM carry a double payload increasing their chance to destroy vital components at cost of raw damage. Carries <b><color=#F79232>60 rounds</color></b>. Provides a buff to all your Ammo of the same type.",

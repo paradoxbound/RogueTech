@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "SRM Artemis",
-        "UIName" : "SRM Artemis Ammo",
+        "UIName" : "Ammo SRM [ART]",
         "Id" : "Ammo_AmmunitionBox_Artemis_SRM",
         "Name" : "SRM Artemis Ammo",
         "Details" : "Artemis SRM's carry an advanced target and tracking system increasing its accuracy on the battlefield. Carries <b><color=#F79232>60 rounds</color></b>. Provides a buff to all your Ammo of the same type.",

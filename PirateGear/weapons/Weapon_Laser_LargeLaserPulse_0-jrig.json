@@ -34,7 +34,7 @@
         "Purchasable" : true,
         "Manufacturer" : "SCI",
         "Model" : "P Large Pulse Laser",
-        "UIName" : "Pirate L Pulse",
+        "UIName" : "Laser L PLS (PRT)",
         "Id" : "Weapon_Laser_LargeLaserPulse_0-jrig",
         "Name" : "Pirate L Pulse",
         "Details" : "This is terrible. A pirate finds pulse technology, and in an effort to improve it, cracks open the focusing chamber and hotwires the capacitors into a feedback loop. You’ve got to stop bringing me this crap.",

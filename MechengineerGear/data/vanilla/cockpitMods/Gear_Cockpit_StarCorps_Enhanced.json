@@ -21,7 +21,7 @@
         "Purchasable" : true,
         "Manufacturer" : "StarCorps",
         "Model" : "Enhanced",
-        "UIName" : "Comms System +",
+        "UIName" : "Cockpit +2 Morale",
         "Id" : "Gear_Cockpit_StarCorps_Enhanced",
         "Name" : "StarCorps Enhanced Comms System",
         "Details" : "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. Comms System upgrades allow for better lance cohesion during combat, increasing the Morale generated.",

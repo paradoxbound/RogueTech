@@ -30,9 +30,9 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_SRM4",
     "Description" : {
         "Cost" : 180000,
-        "Rarity" : 0,
+        "Rarity" : 10,
         "Purchasable" : true,
-        "Manufacturer" : "TharHes",
+        "Manufacturer" : "CLAN",
         "Model" : "Short-Range Missile Launcher",
         "UIName" : "SRM4 (C)",
         "Id" : "Weapon_SRM_SRM4_CLAN",

@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "LRM-I",
-        "UIName" : "LRM Incendiary Ammo",
+        "UIName" : "Ammo LRM [INC]",
         "Id" : "Ammo_AmmunitionBox_Incendiary_LRM",
         "Name" : "LRM Incendiary Ammo",
         "Details" : "This Ammo bin contains incendiary ammo for LRM launchers, sacrificing most of the warhead's explosive charge to carry an incendiary payload not unlike inferno missiles. Carries <b><color=#F79232>80 rounds</color></b>. Provides a buff to all your Ammo of the same type.",

@@ -34,7 +34,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Skylight",
         "Model" : "Long Range Flamethrower",
-        "UIName" : "Pirate Flamer",
+        "UIName" : "Flamer (PRT)",
         "Id" : "Weapon_Flamer_Flamer_0-jrig",
         "Name" : "Pirate Flamer",
         "Details" : "The barrel of this flamer has been crimped at the end, probably in some moronic attempt to make it shoot farther.  You’ll be lucky if it doesn't just blow up in your face.",

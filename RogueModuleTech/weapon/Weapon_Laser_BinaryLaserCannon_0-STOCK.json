@@ -34,7 +34,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Defiance",
         "Model" : "Binary Laser Cannon",
-        "UIName" : "B Laser",
+        "UIName" : "Laser Binary",
         "Id" : "Weapon_Laser_BinaryLaserCannon_0-STOCK",
         "Name" : "B Laser",
         "Details" : "Considered a dead end technology, Binary Laser (nicknamed 'Blazers') fused two Large Laser cores together, allowing them to be fired together.  While this increased penetration, the damage was still lower than firing two Large Lasers separately.",

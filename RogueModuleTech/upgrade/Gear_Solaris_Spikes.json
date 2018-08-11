@@ -55,7 +55,7 @@
             "Description" : {
                 "Id" : "StatusEffect-SpikedPlates",
                 "Name" : "Spiked Armour Plates",
-                "Details" : "All incoming damage reduced by 5% and 5% extra Melee Damage.",
+                "Details" : "All incoming Melee damage reduced extra Melee Damage.",
                 "Icon" : "uixSvgIcon_mwFury"
             },
             "nature" : "Buff",

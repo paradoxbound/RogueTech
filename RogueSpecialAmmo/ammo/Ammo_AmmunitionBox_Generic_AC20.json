@@ -12,7 +12,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "AC20",
-        "UIName" : "AC/20 Ammo",
+        "UIName" : "Ammo AC/20 [STD]",
         "Id" : "Ammo_AmmunitionBox_Generic_AC20",
         "Name" : "AC/20 Ammo",
         "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Ammo Bins will explode and destroy their installed location when they receive a Critical Hit. AC/20 Ammo Bins each contain <b><color=#F79232>5 rounds</color></b> and may feed multiple weapons.",

@@ -37,7 +37,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Defiance",
         "Model" : "Heavy Magnetic Cannon",
-        "UIName" : "Heavy Gauss Rifle",
+        "UIName" : "Gauss Rifle Heavy",
         "Id" : "Weapon_Gauss_Gauss_HEAVY",
         "Name" : "Heavy Gauss Rifle",
         "Details" : "The Heavy Gauss Rifle is a new, deadly innovation by Lyran Alliance scientists in conjunction with a manufacturing cooperation between Defiance Industries and TharHes. Applying their ''bigger is better'' philosophy to Gauss technology, the Heavy Gauss Rifle is one of the heaviest battlefield weapons in existence. <b><color=#099ff2>VOLATILE!</color></b>",

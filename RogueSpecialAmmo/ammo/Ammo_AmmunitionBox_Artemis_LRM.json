@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "LRM Artemis",
-        "UIName" : "LRM Artemis Ammo",
+        "UIName" : "Ammo LRM [ART]",
         "Id" : "Ammo_AmmunitionBox_Artemis_LRM",
         "Name" : "LRM Artemis Ammo",
         "Details" : "Artemis LRM's carry an advanced target and tracking system increasing its accuracy on the battlefield. Carries <b><color=#F79232>80 rounds</color></b>. Provides a buff to all your Ammo of the same type.",
