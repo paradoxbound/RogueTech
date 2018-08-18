@@ -11,7 +11,7 @@
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 40,
+    "HeatGenerated" : 35,
     "Damage" : 60,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
@@ -40,7 +40,7 @@
         "Details" : "The Snub-Nose PPC is to a Particle Projector Cannon as a sawed-off shotgun is to a shotgun. This version of the PPC is slightly lighter than a standard PPC, but its energy discharge trails off considerably faster, leading to shorter range and reduced damage capacity over range. An interesting side benefit is the dramatically increased short range, longer than almost any other weapon.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
-    "BonusValueA" : "Damage varies by range",
+    "BonusValueA" : "Damage Falloff",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",

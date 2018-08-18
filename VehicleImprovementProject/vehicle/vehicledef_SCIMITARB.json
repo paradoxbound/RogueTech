@@ -15,7 +15,10 @@
          "unit_vehicle",
          "unit_light",
          "unit_tracks",
-         "unit_release"
+         "unit_release",
+         "unit_indirectFire",
+         "unit_lance_support",
+         "unit_hover"
       ],
       "tagSetSourceFile": ""
    },
@@ -58,7 +61,7 @@
    ],
    "inventory" : [
       {
-         "ComponentDefID" : "Weapon_LRM_LRM15_0-STOCK",
+         "ComponentDefID" : "Weapon_LRM_LRM15_1-Telos",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Turret",
 		 "HardpointSlot" : 0,

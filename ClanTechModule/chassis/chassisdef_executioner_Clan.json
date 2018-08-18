@@ -1,204 +1,414 @@
 {
-    "Description": {
-        "Cost": 6800000,
-        "Rarity": 10,
-        "Purchasable": false,
-        "Manufacturer": "",
-        "Model": "",
-        "UIName": "Executioner",
-        "Id": "chassisdef_executioner_Clan",
-        "Name": "Executioner",
-        "Details": "The Executioner is ClanFront Line BattleMech.",
-        "Icon": "uixTxrIcon_highlander"
+"Custom": {
+  "ArmActuatorSupport": {
+		"LeftLimit": "Lower",
+		"RightLimit": "Lower"
     },
-    "MovementCapDefID": "movedef_highlander_HGN-EXb",
-    "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_highlander",
-    "PrefabIdentifier": "chrPrfMech_highlander_SLDFBase-001",
-    "PrefabBase": "highlander",
-    "Tonnage": 95,
-    "InitialTonnage": 9.5,
-    "weightClass": "ASSAULT",
-    "BattleValue": 9642000,
-    "Heatsinks": 0,
-    "TopSpeed": 105,
-    "TurnRadius": 90,
-    "MaxJumpjets": 4,
-    "Stability": 100,
-    "StabilityDefenses": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-    ],
-    "SpotterDistanceMultiplier": 1,
-    "VisibilityMultiplier": 1,
-    "SensorRangeMultiplier": 1,
-    "Signature": 0,
-    "Radius": 8,
-    "PunchesWithLeftArm": false,
-    "MeleeDamage": 115,
-    "MeleeInstability": 90,
-    "MeleeToHitModifier": 1,
-    "DFADamage": 115,
-    "DFAToHitModifier": 1,
-    "DFASelfDamage": 100,
-    "DFAInstability": 115,
-    "Locations": [
+  "ChassisQuirks": {
+      "statusEffects": [
         {
-            "Location": "Head",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 3,
-            "MaxArmor": 45,
-            "MaxRearArmor": -1,
-            "InternalStructure": 16
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : true,
+				"showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "ClanBattleMech",
+                "Name" : "Clan BattleMech",
+                "Details" : "Chassis has +1 Accuracy and restricted Melee",
+                "Icon" : "uixSvgIcon_skullAtlas"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+            }
+        },		
+    ]
+  }
+},	
+  "Description": {
+    "Cost": 20627460,
+    "Rarity": 10,
+    "Purchasable": false,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Executioner",
+    "Id": "chassisdef_executioner_Clan",
+    "Name": "Executioner",
+    "Details": "The Executioner is ClanFront Line BattleMech.",
+    "Icon": "uixTxrIcon_highlander"
+  },
+  "MovementCapDefID": "movedef_highlander_HGN-EXb",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_highlander",
+  "PrefabIdentifier": "chrPrfMech_highlander_SLDFBase-001",
+  "PrefabBase": "highlander",
+  "Tonnage": 95,
+  "InitialTonnage": 9.5,
+  "weightClass": "ASSAULT",
+  "BattleValue": 9642000,
+  "Heatsinks": 0,
+  "TopSpeed": 105,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1.2,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1.2,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 115,
+  "MeleeInstability": 90,
+  "MeleeToHitModifier": 1,
+  "DFADamage": 115,
+  "DFAToHitModifier": 1,
+  "DFASelfDamage": 100,
+  "DFAInstability": 115,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
         },
         {
-            "Location": "LeftArm",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 150,
-            "MaxRearArmor": -1,
-            "InternalStructure": 75
+          "WeaponMount": "Energy",
+          "Omni": false
         },
         {
-            "Location": "LeftTorso",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 190,
-            "MaxRearArmor": 95,
-            "InternalStructure": 95
+          "WeaponMount": "Missile",
+          "Omni": false
         },
         {
-            "Location": "CenterTorso",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 14,
-            "MaxArmor": 290,
-            "MaxRearArmor": 145,
-            "InternalStructure": 145
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 190,
-            "MaxRearArmor": 95,
-            "InternalStructure": 95
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 150,
-            "MaxRearArmor": -1,
-            "InternalStructure": 75
-        },
-        {
-            "Location": "LeftLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 190,
-            "MaxRearArmor": -1,
-            "InternalStructure": 95
-        },
-        {
-            "Location": "RightLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 190,
-            "MaxRearArmor": -1,
-            "InternalStructure": 95
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
-    ],
-    "LOSSourcePositions": [
-        {
-            "x": 0,
-            "y": 17,
-            "z": 0
-        },
-        {
-            "x": 5,
-            "y": 16,
-            "z": -1
-        },
-        {
-            "x": -5,
-            "y": 16,
-            "z": -1
-        }
-    ],
-    "LOSTargetPositions": [
-        {
-            "x": 0,
-            "y": 17,
-            "z": 0
-        },
-        {
-            "x": 5,
-            "y": 16,
-            "z": -1
-        },
-        {
-            "x": -5,
-            "y": 16,
-            "z": -1
-        },
-        {
-            "x": 3.5,
-            "y": 5.5,
-            "z": 1
-        },
-        {
-            "x": -3.5,
-            "y": 5.5,
-            "z": 1
-        }
-    ],
-    "VariantName": "EX-C",
-    "ChassisTags": {
-        "items": [],
-        "tagSetSourceFile": ""
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 3,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
     },
-    "StockRole": "Clan BattleMech",
-    "YangsThoughts": "The Executioner is ClanFront Line BattleMech."
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 14,
+      "MaxArmor": 290,
+      "MaxRearArmor": 145,
+      "InternalStructure": 145
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "EX-C",
+  "ChassisTags": {
+    "items": [
+	"NoMelee"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Clan BattleMech",
+  "YangsThoughts": "The Executioner is ClanFront Line BattleMech."
 }

@@ -42,6 +42,6 @@
 			"Type": "HeatSinkDef",
 			"Path": "data/exotics/engine_parts/",
 			"ShouldMergeJSON": false
-		}
+		}		
 	]
 }

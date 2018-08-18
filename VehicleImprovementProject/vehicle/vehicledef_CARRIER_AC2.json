@@ -16,7 +16,8 @@
          "unit_heavy",
          "unit_tracks",
          "unit_release",
-         "unit_vehicle_carrier"
+         "unit_vehicle_carrier",
+         "unit_lance_support"
       ],
       "tagSetSourceFile": ""
    },

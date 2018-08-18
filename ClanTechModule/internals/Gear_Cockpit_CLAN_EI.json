@@ -24,11 +24,11 @@
         "UIName" : "Cockpit EI (C)",
         "Id" : "Gear_Cockpit_CLAN_EI",
         "Name" : "Enhanced Imaging Cockpit",
-        "Details" : "This cockpit mod allows for the use of a Direct Neural Interface, granting improved control of a ‘Mech at the risk of injury.",
+        "Details" : "Developed by the Clans, Enhanced Imaging is an advanced targeting and piloting system for use with humanoid shaped combat vehicles such as BattleMechs. While offering considerable advantages, EI inflicts serious side effects on the user, including possible mental instability, nerve damage and death.",
         "Icon" : "uixSvgIcon_equipment_Cockpit"
     },
-    "BonusValueA" : "-15%DmgTaken.|+1Acc.|",
-    "BonusValueB" : "+ 10% Weapon Damage",
+    "BonusValueA" : "-10% Dmg Taken|",
+    "BonusValueB" : "+ 5% Weapon Damage",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
@@ -74,59 +74,8 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
                 "operation" : "Float_Add",
-                "modValue" : "-0.15",
+                "modValue" : "-0.1",
                 "modType" : "System.Single"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
-        },
-        {
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : -1,
-                "clearedWhenAttacked" : false
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : true
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "EI-StatusEffect-Attack_ToHit",
-                "Name" : "Man Machine Interface",
-                "Details" : "Enhanced Imaging Systems Active.",
-                "Icon" : "uixSvgIcon_equipment_TTS"
-            },
-            "nature" : "Buff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "-1.0",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
             },
             "tagData" : null,
             "floatieData" : null,
@@ -157,7 +106,7 @@
 			{
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.1",
+                "modValue" : "1.05",
                 "modType" : "System.Single",
 			},
 			"nature" : "Buff"

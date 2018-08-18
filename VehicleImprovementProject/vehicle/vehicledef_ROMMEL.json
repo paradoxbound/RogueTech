@@ -15,7 +15,10 @@
 			"unit_vehicle",
 			"unit_heavy",
 			"unit_tracks",
-			"unit_release"
+			"unit_release",
+            "unit_lance_vanguard",
+            "unit_lance_tank",
+            "unit_lance_assassin"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -57,7 +60,7 @@
 	],
 	"inventory": [
 		{
-			"ComponentDefID": "Weapon_Autocannon_AC20_0-STOCK",
+			"ComponentDefID": "Weapon_Autocannon_AC20_1-Defiance",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
 			"HardpointSlot": 0,

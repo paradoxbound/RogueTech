@@ -13,7 +13,12 @@
 			"CategoryID" : "Armor" 
 		},
 		"DynamicSlots": {
-			"ReservedSlots": 7
+			"ReservedSlots": 7,
+			"BackgroundColor": "GoldHalf",			
+			"ShowIcon": false
+			"NameText": "Dynamic Slot"
+			"BonusAText": "Dynamic Slot"
+			"BonusAText": " "			
 		},
 		"Weights": {
 			"ArmorFactor": 0.89286

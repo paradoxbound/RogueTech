@@ -1,6 +1,14 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "MeleeActuator"} },
+	"Custom": {
+		"Category" : { 
+			"CategoryID" : "ArmActuator" 
+		},
+		"ArmActuator" : {
+			"AccuracyBonus" : -3,
+			"Type" : "Lower"
+		}
+	},
 
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -11,32 +19,32 @@
         "Purchasable" : true,
         "Manufacturer" : "Coventry",
         "Model" : "X75 Standard",
-        "UIName" : "Arm Mod + +",
+        "UIName" : "Arm Weapon + + +",
         "Id" : "Gear_Actuator_Coventry_X75-Standard",
         "Name" : "Coventry X75 Standard Arm Mod  ",
-        "Details" : "Actuators control a 'Mech\u2019s limbs and are used to perform Melee attacks at close quarters. All 'Mechs come equipped with stock Actuators, which can be upgraded for improved performance. Doesn't stack with same type but different tiers do.",
+        "Details" : "Weapon Actuators are a collection of specialised Servos and Compensators allowing a BattleMech's Arm mounted Weapons to Fire with greater Accuracy. <b><color=#800080>WEAPON LOWER ARM ACTUATOR.</color></b> Reduces Melee, Improves Arm Mounted Weapons.",
         "Icon" : "uixSvgIcon_equipment_ActuatorArm"
-    },
-    "BonusValueA" : "+ 15% Melee Dmg.",
-    "BonusValueB" : "",
+    },    
+    "BonusValueA" : "+3 Arm Mounted Accuracy|",
+    "BonusValueB" : "-2 Recoil|-2 Melee Accuracy.",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
     "InventorySize" : 2,
-    "Tonnage" : 1.5,
+    "Tonnage" : 1,
     "AllowedLocations" : "Arms",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [
-        {
+		{
             "durationData" : {
                 "duration" : -1,
                 "ticksOnActivations" : false,
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : 1,
+                "stackLimit" : -1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -49,22 +57,22 @@
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
                 "showInTargetPreview" : false,
-                "showInStatusPanel" : true
+                "showInStatusPanel" : false
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_DamageMelee-T3",
-                "Name" : "MELEE DAMAGE INCREASED",
-                "Details" : "Melee attacks deal 15% more damage.",
-                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+                "Id" : "StatusEffect-WeaponShoulderACC",
+                "Name" : "MELEE HIT CHANCE DECREASED",
+                "Details" : "Melee attacks attempted have their hit decreased by 2.",
+                "Icon" : "uixSvgIcon_equipment_Gyro"
             },
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "DamagePerShot",
-                "operation" : "Float_Multiply",
-                "modValue" : "1.15",
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "2.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -79,7 +87,38 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
-        }
+        },
+		{
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "ARMRecoil",
+				"Name" : "Improved Called Shot",
+				"Details" : "Called Shots twice as reliable",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"statName" : "RefireModifier",
+				"operation" : "Int_Add",
+				"modValue" : "-2",
+				"modType" : "System.Int32"
+			}
+			}		
     ],
     "ComponentTags" : {
         "items" : [

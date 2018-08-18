@@ -27,7 +27,7 @@
         "Details" : "A Clan Spec Standard Cockpit, fully equipped with Advanced sensors and Targeting systems.",
         "Icon" : "uixSvgIcon_equipment_Comms"
     },
-    "BonusValueA" : "+1 Accuracy|Breaching Shot|",
+    "BonusValueA" : "Breaching Shot|",
     "BonusValueB" : "+20% Sensors/Sight",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
@@ -66,57 +66,6 @@
 			},
 			"nature" : "Buff"
 		},	
-        {
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : -1,
-                "clearedWhenAttacked" : false
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "SLIC-Morale_Gain-T1",
-                "Name" : "Clan Cockpit",
-                "Details" : "Clan Spec Cockpit.",
-                "Icon" : "uixSvgIcon_equipment_Cockpit"
-            },
-            "nature" : "Buff",
-            "statisticData" : {
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "-1.0",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "NotSet",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
-        },	
         {
             "durationData" : {
                 "duration" : -1,

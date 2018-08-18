@@ -18,7 +18,7 @@
     "EvasivePipsIgnored" : 0,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
-    "AccuracyModifier" : 1,
+    "AccuracyModifier" : -1,
     "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
@@ -40,7 +40,7 @@
         "Details" : "The Light Machine Gun fires smaller caliber shells, but boasts a higher rate of fire and increased range over a standard Machine Gun.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
-    "BonusValueA" : "",
+    "BonusValueA" : "+1 Accuracy",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",

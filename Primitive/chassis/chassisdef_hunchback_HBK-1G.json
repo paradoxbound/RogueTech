@@ -1,205 +1,286 @@
 {
-    "Description": {
-        "Cost": 4100000,
-        "Rarity": 1,
-        "Purchasable": true,
-        "Manufacturer": "",
-        "Model": "",
-        "UIName": "Hunchback",
-        "Id": "chassisdef_hunchback_HBK-1G",
-        "Name": "Hunchback",
-        "Details": "The Hunchback 1G is a primitive refit trying to retain the 4G's impressive firepower by replacing the weapons with a Medium and Heavy Rifle inplace of the AC/20.",
-        "Icon": "uixTxrIcon_hunchback"
+
+"Custom": {
+  "ChassisQuirks": {
+    "statusEffects": [
+      	         {
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : true,
+				"showInStatusPanel" : true
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Primitive1",
+				"Name" : "Primitive",
+				"Details" : "Primitive Chassis are slower",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+				"statName" : "WalkSpeed",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.8",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		},
+		{
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Primitive2",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+				"statName" : "RunSpeed",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.8",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		},			
+    ]
+  }
+  },
+  
+  "Description": {
+    "Cost": 3765080,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Hunchback",
+    "Id": "chassisdef_hunchback_HBK-1G",
+    "Name": "Hunchback",
+    "Details": "The Hunchback 1G is a primitive refit trying to retain the 4G's impressive firepower by replacing the weapons with a Medium and Heavy Rifle inplace of the AC/20.",
+    "Icon": "uixTxrIcon_hunchback"
+  },
+  "MovementCapDefID": "movedef_hunchback_HBK-4G",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_hunchback",
+  "PrefabIdentifier": "chrPrfMech_hunchbackBase-001",
+  "PrefabBase": "hunchback",
+  "Tonnage": 50,
+  "InitialTonnage": 5,
+  "weightClass": "MEDIUM",
+  "BattleValue": 4048000,
+  "Heatsinks": 0,
+  "TopSpeed": 65,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 80,
+  "MeleeInstability": 50,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 65,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 65,
+  "DFAInstability": 65,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 3,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
     },
-    "MovementCapDefID": "movedef_hunchback_HBK-4G",
-    "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_hunchback",
-    "PrefabIdentifier": "chrPrfMech_hunchbackBase-001",
-    "PrefabBase": "hunchback",
-    "Tonnage": 50,
-    "InitialTonnage": 5,
-    "weightClass": "MEDIUM",
-    "BattleValue": 4048000,
-    "Heatsinks": 0,
-    "TopSpeed": 65,
-    "TurnRadius": 90,
-    "MaxJumpjets": 4,
-    "Stability": 100,
-    "StabilityDefenses": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-    ],
-    "SpotterDistanceMultiplier": 1,
-    "VisibilityMultiplier": 1,
-    "SensorRangeMultiplier": 1,
-    "Signature": 0,
-    "Radius": 5,
-    "PunchesWithLeftArm": false,
-    "MeleeDamage": 80,
-    "MeleeInstability": 50,
-    "MeleeToHitModifier": 0,
-    "DFADamage": 65,
-    "DFAToHitModifier": 0,
-    "DFASelfDamage": 65,
-    "DFAInstability": 65,
-    "Locations": [
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
         {
-            "Location": "Head",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-				{"WeaponMount": "Energy","Omni": false}				
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 3,
-            "MaxArmor": 45,
-            "MaxRearArmor": -1,
-            "InternalStructure": 16
+          "WeaponMount": "Energy",
+          "Omni": false
         },
         {
-            "Location": "LeftArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-				{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 80,
-            "MaxRearArmor": -1,
-            "InternalStructure": 40
-        },
-        {
-            "Location": "LeftTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 120,
-            "MaxRearArmor": 60,
-            "InternalStructure": 60
-        },
-        {
-            "Location": "CenterTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 14,
-            "MaxArmor": 160,
-            "MaxRearArmor": 80,
-            "InternalStructure": 80
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 120,
-            "MaxRearArmor": 60,
-            "InternalStructure": 60
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-				{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 80,
-            "MaxRearArmor": -1,
-            "InternalStructure": 40
-        },
-        {
-            "Location": "LeftLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 120,
-            "MaxRearArmor": -1,
-            "InternalStructure": 60
-        },
-        {
-            "Location": "RightLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 120,
-            "MaxRearArmor": -1,
-            "InternalStructure": 60
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
-    ],
-    "LOSSourcePositions": [
-        {
-            "x": 0,
-            "y": 12.5,
-            "z": 1
-        },
-        {
-            "x": 3,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": -3,
-            "y": 13,
-            "z": 0
-        }
-    ],
-    "LOSTargetPositions": [
-        {
-            "x": 0,
-            "y": 12.5,
-            "z": 1
-        },
-        {
-            "x": 3,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": -3,
-            "y": 13,
-            "z": 0
-        },
-        {
-            "x": 2.5,
-            "y": 4.5,
-            "z": 2
-        },
-        {
-            "x": -2.5,
-            "y": 4.5,
-            "z": 2
-        }
-    ],
-    "VariantName": "HBK-1G",
-    "ChassisTags": {
-        "items": [],
-        "tagSetSourceFile": ""
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
     },
-    "StockRole": "Juggernaut & Close Assault",
-    "YangsThoughts": "The Hunchback 1G is a primitive refit trying to retain the 4G's impressive firepower by replacing the weapons with a Medium and Heavy Rifle inplace of the AC/20."
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 14,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 1
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 13,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 1
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": 2.5,
+      "y": 4.5,
+      "z": 2
+    },
+    {
+      "x": -2.5,
+      "y": 4.5,
+      "z": 2
+    }
+  ],
+  "VariantName": "HBK-1G",
+  "ChassisTags": {
+    "items": [
+
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Close Assault",
+  "YangsThoughts": "The Hunchback 1G is a primitive refit trying to retain the 4G's impressive firepower by replacing the weapons with a Medium and Heavy Rifle inplace of the AC/20."
 }

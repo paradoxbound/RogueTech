@@ -1,204 +1,415 @@
 {
-    "Description": {
-        "Cost": 30900000,
-        "Rarity": 5,
-        "Purchasable": true,
-        "Manufacturer": "",
-        "Model": "",
-        "UIName": "Stone Rhino",
-        "Id": "chassisdef_kingcrab_KGC-IIC",
-        "Name": "Stone Rhino",
-        "Details": "A Clan redesign of 'Amaris Folly'.",
-        "Icon": "uixTxrIcon_kingcrab"
+"Custom": {
+  "ArmActuatorSupport": {
+		"LeftLimit": "Lower",
+		"RightLimit": "Lower"
     },
-    "MovementCapDefID": "movedef_kingcrab_KGC-0000",
-    "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_kingcrab",
-    "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
-    "PrefabBase": "kingcrab",
-    "Tonnage": 100,
-    "InitialTonnage": 10,
-    "weightClass": "ASSAULT",
-    "BattleValue": 20206000,
-    "Heatsinks": 0,
-    "TopSpeed": 105,
-    "TurnRadius": 130,
-    "MaxJumpjets": 3,
-    "Stability": 110,
-    "StabilityDefenses": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-    ],
-    "SpotterDistanceMultiplier": 1,
-    "VisibilityMultiplier": 1,
-    "SensorRangeMultiplier": 1,
-    "Signature": 0,
-    "Radius": 8,
-    "PunchesWithLeftArm": false,
-    "MeleeDamage": 125,
-    "MeleeInstability": 100,
-    "MeleeToHitModifier": 1,
-    "DFADamage": 125,
-    "DFAToHitModifier": 1,
-    "DFASelfDamage": 100,
-    "DFAInstability": 125,
-    "Locations": [
+  "ChassisQuirks": {
+      "statusEffects": [
         {
-            "Location": "Head",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 3,
-            "MaxArmor": 45,
-            "MaxRearArmor": -1,
-            "InternalStructure": 26
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : true,
+				"showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "ClanBattleMech",
+                "Name" : "Clan BattleMech",
+                "Details" : "Chassis has +1 Accuracy and restricted Melee",
+                "Icon" : "uixSvgIcon_skullAtlas"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+            }
+        },		
+    ]
+  }
+},	
+  "Description": {
+    "Cost": 21576460,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Stone Rhino",
+    "Id": "chassisdef_kingcrab_KGC-IIC",
+    "Name": "Stone Rhino",
+    "Details": "A Clan redesign of 'Amaris Folly'.",
+    "Icon": "uixTxrIcon_kingcrab"
+  },
+  "MovementCapDefID": "movedef_kingcrab_KGC-0000",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_kingcrab",
+  "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
+  "PrefabBase": "kingcrab",
+  "Tonnage": 100,
+  "InitialTonnage": 10,
+  "weightClass": "ASSAULT",
+  "BattleValue": 20206000,
+  "Heatsinks": 0,
+  "TopSpeed": 105,
+  "TurnRadius": 130,
+  "MaxJumpjets": 3,
+  "Stability": 110,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1.2,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1.2,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 125,
+  "MeleeInstability": 100,
+  "MeleeToHitModifier": 1,
+  "DFADamage": 125,
+  "DFAToHitModifier": 1,
+  "DFASelfDamage": 100,
+  "DFAInstability": 125,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
         },
         {
-            "Location": "LeftArm",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 200,
-            "MaxRearArmor": -1,
-            "InternalStructure": 105
+          "WeaponMount": "Energy",
+          "Omni": false
         },
         {
-            "Location": "LeftTorso",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 240,
-            "MaxRearArmor": 115,
-            "InternalStructure": 125
+          "WeaponMount": "Missile",
+          "Omni": false
         },
         {
-            "Location": "CenterTorso",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 14,
-            "MaxArmor": 340,
-            "MaxRearArmor": 165,
-            "InternalStructure": 175
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 240,
-            "MaxRearArmor": 115,
-            "InternalStructure": 125
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 200,
-            "MaxRearArmor": -1,
-            "InternalStructure": 105
-        },
-        {
-            "Location": "LeftLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 240,
-            "MaxRearArmor": -1,
-            "InternalStructure": 135
-        },
-        {
-            "Location": "RightLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 240,
-            "MaxRearArmor": -1,
-            "InternalStructure": 135
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
-    ],
-    "LOSSourcePositions": [
-        {
-            "x": 0,
-            "y": 14.5,
-            "z": 0
-        },
-        {
-            "x": 4,
-            "y": 15,
-            "z": -1
-        },
-        {
-            "x": -4,
-            "y": 15,
-            "z": -1
-        }
-    ],
-    "LOSTargetPositions": [
-        {
-            "x": 0,
-            "y": 14.5,
-            "z": 0
-        },
-        {
-            "x": 4,
-            "y": 15,
-            "z": -1
-        },
-        {
-            "x": -4,
-            "y": 15,
-            "z": -1
-        },
-        {
-            "x": 3.5,
-            "y": 5.5,
-            "z": -1
-        },
-        {
-            "x": -3.5,
-            "y": 5.5,
-            "z": -1
-        }
-    ],
-    "VariantName": "KGC-IIC",
-    "ChassisTags": {
-        "items": [],
-        "tagSetSourceFile": ""
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 3,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 26
     },
-    "StockRole": "Clan BattleMech",
-    "YangsThoughts": "A Clan redesign of 'Amaris Folly'."
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 200,
+      "MaxRearArmor": -1,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 240,
+      "MaxRearArmor": 115,
+      "InternalStructure": 125
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 14,
+      "MaxArmor": 340,
+      "MaxRearArmor": 165,
+      "InternalStructure": 175
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 240,
+      "MaxRearArmor": 115,
+      "InternalStructure": 125
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 200,
+      "MaxRearArmor": -1,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 240,
+      "MaxRearArmor": -1,
+      "InternalStructure": 135
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 240,
+      "MaxRearArmor": -1,
+      "InternalStructure": 135
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14.5,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14.5,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": -1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": -1
+    }
+  ],
+  "VariantName": "KGC-IIC",
+  "ChassisTags": {
+    "items": [
+	"NoMelee"
+
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Clan BattleMech",
+  "YangsThoughts": "A Clan redesign of 'Amaris Folly'."
 }

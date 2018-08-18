@@ -3,7 +3,7 @@
 		"Id" : "AbilityDefG8",
 		"Name" : "Warlord",
 		"Details" : "PASSIVE: Grants +10% Weapon damage, +40% Firing Arc and +1 all accuracy.",
-		"Icon" : "uixSvgIcon_skullAtlas"
+		"Icon" : "uixSvgIcon_ability_precisionstrike"
 	},
     "DisplayParams" : "ShowInMWTRay",
 	"ReqSkill" : "Gunnery",
@@ -25,7 +25,7 @@
                 "Id" : "StatusEffect-WarlordDamage",
                 "Name" : "PPC Capacitator",
                 "Details" : "Increased PPC Damage.",
-                "Icon" : "uixSvgIcon_skullAtlas"
+                "Icon" : "uixSvgIcon_ability_precisionstrike"
             },
             "nature" : "Buff",
             "statisticData" : {

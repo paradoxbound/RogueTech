@@ -5,12 +5,16 @@
 		},
 		"DynamicSlots": {
 			"ReservedSlots": 6,
-			"ReservedSlotColor": "GoldHalf"
+			"BackgroundColor": "GoldHalf",
+			"ShowIcon": false
+			"NameText": "Dynamic Slot"
+			"BonusAText": "Dynamic Slot"
+			"BonusAText": " "			
 		},
 		"WorkOrderCosts": {
 			"Install": {
 				"TechCost": "[[Chassis.Tonnage]]/6",
-				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
+				"CBillCost": "[[Chassis.Tonnage]] * 1.6"
 			}
 		},	
 		"Category" : { 
@@ -29,7 +33,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Prototype",
         "Model" : "NSS",
-        "UIName" : "Armo NSS",
+        "UIName" : "Armor NSS",
         "Id" : "Gear_armorslots_NullSignatureSystem",
         "Name" : "Null Signature System",
         "Details" : "The Null Signature System is another Capelan endeavour to recreate lost Star League ECM. An upgraded Stealth Armour allows this to reduce incoming hits and trades heat generation for a reduced sensor and target signature. Reserves 6 slots and requires an ECM.",

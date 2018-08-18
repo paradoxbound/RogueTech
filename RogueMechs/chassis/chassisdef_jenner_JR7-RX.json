@@ -1,186 +1,233 @@
 {
-    "Description": {
-        "Cost": 3500000,
-        "Rarity": 2,
-        "Purchasable": true,
-        "Manufacturer": "",
-        "Model": "",
-        "UIName": "Jenner",
-        "Id": "chassisdef_jenner_JR7-RX",
-        "Name": "Jenner",
-        "Details": "The Jenner JR7-RX is a more conservative variant of the Thunderbolt-carrying Jenner JR7-X, fielding cheaper LRM-5 launchers.",
-        "Icon": "uixTxrIcon_jenner"
+  "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Upper",
+      "RightLimit": "Upper"
+    }
+  },
+  "Description": {
+    "Cost": 2102100,
+    "Rarity": 2,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Jenner",
+    "Id": "chassisdef_jenner_JR7-RX",
+    "Name": "Jenner",
+    "Details": "The Jenner JR7-RX is a more conservative variant of the Thunderbolt-carrying Jenner JR7-X, fielding cheaper LRM-5 launchers.",
+    "Icon": "uixTxrIcon_jenner"
+  },
+  "MovementCapDefID": "movedef_jenner_JR7-X",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_jenner",
+  "PrefabIdentifier": "chrPrfMech_jennerBase-001",
+  "PrefabBase": "jenner",
+  "Tonnage": 35,
+  "InitialTonnage": 3.5,
+  "weightClass": "LIGHT",
+  "BattleValue": 4362000,
+  "Heatsinks": 0,
+  "TopSpeed": 65,
+  "TurnRadius": 90,
+  "MaxJumpjets": 6,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 35,
+  "MeleeInstability": 35,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 45,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 45,
+  "DFAInstability": 45,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 3,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
     },
-    "MovementCapDefID": "movedef_jenner_JR7-X",
-    "PathingCapDefID": "pathingdef_light",
-    "HardpointDataDefID": "hardpointdatadef_jenner",
-    "PrefabIdentifier": "chrPrfMech_jennerBase-001",
-    "PrefabBase": "jenner",
-    "Tonnage": 35,
-    "InitialTonnage": 3.5,
-    "weightClass": "LIGHT",
-    "BattleValue": 4362000,
-    "Heatsinks": 0,
-    "TopSpeed": 65,
-    "TurnRadius": 90,
-    "MaxJumpjets": 6,
-    "Stability": 100,
-    "StabilityDefenses": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-    ],
-    "SpotterDistanceMultiplier": 1,
-    "VisibilityMultiplier": 1,
-    "SensorRangeMultiplier": 1,
-    "Signature": 0,
-    "Radius": 4,
-    "PunchesWithLeftArm": false,
-    "MeleeDamage": 35,
-    "MeleeInstability": 35,
-    "MeleeToHitModifier": 0,
-    "DFADamage": 45,
-    "DFAToHitModifier": 0,
-    "DFASelfDamage": 45,
-    "DFAInstability": 45,
-    "Locations": [
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
         {
-            "Location": "Head",
-            "Hardpoints": [
-				
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 3,
-            "MaxArmor": 45,
-            "MaxRearArmor": -1,
-            "InternalStructure": 16
+          "WeaponMount": "Missile",
+          "Omni": false
         },
         {
-            "Location": "LeftArm",
-            "Hardpoints": [
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 60,
-            "MaxRearArmor": -1,
-            "InternalStructure": 30
+          "WeaponMount": "Missile",
+          "Omni": false
         },
         {
-            "Location": "LeftTorso",
-            "Hardpoints": [
-				{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 80,
-            "MaxRearArmor": 40,
-            "InternalStructure": 40
-        },
-        {
-            "Location": "CenterTorso",
-            "Hardpoints": [
-				{"WeaponMount": "AntiPersonnel","Omni": false},{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 14,
-            "MaxArmor": 110,
-            "MaxRearArmor": 55,
-            "InternalStructure": 55
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [
-				{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 80,
-            "MaxRearArmor": 40,
-            "InternalStructure": 40
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 60,
-            "MaxRearArmor": -1,
-            "InternalStructure": 30
-        },
-        {
-            "Location": "LeftLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 80,
-            "MaxRearArmor": -1,
-            "InternalStructure": 40
-        },
-        {
-            "Location": "RightLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 80,
-            "MaxRearArmor": -1,
-            "InternalStructure": 40
+          "WeaponMount": "Missile",
+          "Omni": false
         }
-    ],
-    "LOSSourcePositions": [
-        {
-            "x": 0,
-            "y": 10,
-            "z": 0.5
-        },
-        {
-            "x": -3,
-            "y": 9,
-            "z": -0.5
-        },
-        {
-            "x": 3,
-            "y": 9,
-            "z": -0.5
-        }
-    ],
-    "LOSTargetPositions": [
-        {
-            "x": 0,
-            "y": 10,
-            "z": 0.5
-        },
-        {
-            "x": -3,
-            "y": 9,
-            "z": -0.5
-        },
-        {
-            "x": 3,
-            "y": 9,
-            "z": -0.5
-        },
-        {
-            "x": -2.5,
-            "y": 3,
-            "z": 0.5
-        },
-        {
-            "x": 2.5,
-            "y": 3,
-            "z": 0.5
-        }
-    ],
-    "VariantName": "JR7-RX",
-    "ChassisTags": {
-        "items": [],
-        "tagSetSourceFile": ""
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
     },
-    "StockRole": "Fast Striker Cavalry",
-    "YangsThoughts": "The Jenner JR7-RX is a more conservative variant of the Thunderbolt-carrying Jenner JR7-X, fielding cheaper LRM-5 launchers."
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 14,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 10,
+      "z": 0.5
+    },
+    {
+      "x": -3,
+      "y": 9,
+      "z": -0.5
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 10,
+      "z": 0.5
+    },
+    {
+      "x": -3,
+      "y": 9,
+      "z": -0.5
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": -0.5
+    },
+    {
+      "x": -2.5,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2.5,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "JR7-RX",
+  "ChassisTags": {
+    "items": [
+
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fast Striker Cavalry",
+  "YangsThoughts": "The Jenner JR7-RX is a more conservative variant of the Thunderbolt-carrying Jenner JR7-X, fielding cheaper LRM-5 launchers."
 }

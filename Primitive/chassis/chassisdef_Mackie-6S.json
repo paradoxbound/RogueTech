@@ -1,202 +1,398 @@
 {
-    "Description": {
-        "Cost": 990000,
-        "Rarity": 0,
-        "Purchasable": true,
-        "Manufacturer": "",
-        "Model": "",
-        "UIName": "Mackie",
-        "Id": "chassisdef_Mackie-6S",
-        "Name": "Mackie",
-        "Details": "Developed by the Terran Hegemony in the 25th century, the Mackie was the first true BattleMech. Based on advanced technology that the Hegemony Armed Forces (HAF) had been developing for decades under Director-General Jacob Cameron, the Mackie was the ultimate manifestation of Hegemony military might.",
-        "Icon": "uixTxrIcon_urbanmech"
+"Custom": {
+	"ArmActuatorSupport": {
+      "LeftLimit": "Upper",
+      "RightLimit": "Upper"
+    }
+  "ChassisQuirks": {
+    "statusEffects": [
+      	         {
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : true,
+				"showInStatusPanel" : true
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Primitive1",
+				"Name" : "Primitive",
+				"Details" : "Primitive Chassis are slower",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+				"statName" : "WalkSpeed",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.8",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		},
+		{
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Primitive2",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+				"statName" : "RunSpeed",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.8",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		},			
+    ]
+  }
+  },
+  "Description": {
+    "Cost": 14701740,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Mackie",
+    "Id": "chassisdef_Mackie-6S",
+    "Name": "Mackie",
+    "Details": "Developed by the Terran Hegemony in the 25th century, the Mackie was the first true BattleMech. Based on advanced technology that the Hegemony Armed Forces (HAF) had been developing for decades under Director-General Jacob Cameron, the Mackie was the ultimate manifestation of Hegemony military might.",
+    "Icon": "uixTxrIcon_urbanmech"
+  },
+  "MovementCapDefID": "movedef_Mackie-6S",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_urbanmech",
+  "PrefabIdentifier": "chrPrfMech_urbanmechBase-001",
+  "PrefabBase": "urbanmech",
+  "Tonnage": 100,
+  "InitialTonnage": 10,
+  "weightClass": "ASSAULT",
+  "BattleValue": 1892000,
+  "Heatsinks": 0,
+  "TopSpeed": 65,
+  "TurnRadius": 120,
+  "MaxJumpjets": 3,
+  "Stability": 80,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 100,
+  "MeleeInstability": 50,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 70,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 100,
+  "DFAInstability": 40,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 3,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
     },
-    "MovementCapDefID": "movedef_Mackie-6S",
-    "PathingCapDefID": "pathingdef_light",
-    "HardpointDataDefID": "hardpointdatadef_urbanmech",
-    "PrefabIdentifier": "chrPrfMech_urbanmechBase-001",
-    "PrefabBase": "urbanmech",
-    "Tonnage": 100,
-    "InitialTonnage": 10,
-    "weightClass": "ASSAULT",
-    "BattleValue": 1892000,
-    "Heatsinks": 0,
-    "TopSpeed": 65,
-    "TurnRadius": 120,
-    "MaxJumpjets": 3,
-    "Stability": 80,
-    "StabilityDefenses": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-    ],
-    "SpotterDistanceMultiplier": 1,
-    "VisibilityMultiplier": 1,
-    "SensorRangeMultiplier": 1,
-    "Signature": 0,
-    "Radius": 4,
-    "PunchesWithLeftArm": false,
-    "MeleeDamage": 100,
-    "MeleeInstability": 50,
-    "MeleeToHitModifier": 0,
-    "DFADamage": 70,
-    "DFAToHitModifier": 0,
-    "DFASelfDamage": 100,
-    "DFAInstability": 40,
-    "Locations": [
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
         {
-            "Location": "Head",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false},
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 3,
-            "MaxArmor": 45,
-            "MaxRearArmor": -1,
-            "InternalStructure": 16
+          "WeaponMount": "Ballistic",
+          "Omni": false
         },
         {
-            "Location": "LeftArm",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 170,
-            "MaxRearArmor": -1,
-            "InternalStructure": 85
+          "WeaponMount": "Ballistic",
+          "Omni": false
         },
         {
-            "Location": "LeftTorso",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 210,
-            "MaxRearArmor": 105,
-            "InternalStructure": 105
+          "WeaponMount": "Energy",
+          "Omni": false
         },
         {
-            "Location": "CenterTorso",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 14,
-            "MaxArmor": 320,
-            "MaxRearArmor": 160,
-            "InternalStructure": 160
+          "WeaponMount": "Energy",
+          "Omni": false
         },
         {
-            "Location": "RightTorso",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-				{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 210,
-            "MaxRearArmor": 105,
-            "InternalStructure": 105
+          "WeaponMount": "Missile",
+          "Omni": false
         },
         {
-            "Location": "RightArm",
-            "Hardpoints": [
-				{"WeaponMount": "Ballistic","Omni": false},{"WeaponMount": "Ballistic","Omni": false},
-				{"WeaponMount": "Energy","Omni": false},{"WeaponMount": "Energy","Omni": false},
-				{"WeaponMount": "Missile","Omni": false},{"WeaponMount": "Missile","Omni": false},
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 170,
-            "MaxRearArmor": -1,
-            "InternalStructure": 85
-        },
-        {
-            "Location": "LeftLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 210,
-            "MaxRearArmor": -1,
-            "InternalStructure": 105
-        },
-        {
-            "Location": "RightLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 210,
-            "MaxRearArmor": -1,
-            "InternalStructure": 105
+          "WeaponMount": "Missile",
+          "Omni": false
         }
-    ],
-    "LOSSourcePositions": [
-        {
-            "x": 0,
-            "y": 9.5,
-            "z": 0.5
-        },
-        {
-            "x": -2.5,
-            "y": 8.5,
-            "z": -0.5
-        },
-        {
-            "x": 2.5,
-            "y": 8.5,
-            "z": -0.5
-        }
-    ],
-    "LOSTargetPositions": [
-        {
-            "x": 0,
-            "y": 9.5,
-            "z": 0.5
-        },
-        {
-            "x": -2.5,
-            "y": 8.5,
-            "z": -0.5
-        },
-        {
-            "x": 2.5,
-            "y": 8.5,
-            "z": -0.5
-        },
-        {
-            "x": -1.5,
-            "y": 3,
-            "z": 0.5
-        },
-        {
-            "x": 1.5,
-            "y": 3,
-            "z": 0.5
-        }
-    ],
-    "VariantName": "MSK-6S",
-    "ChassisTags": {
-        "items": [],
-        "tagSetSourceFile": ""
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
     },
-    "StockRole": "Granddady Mech",
-    "YangsThoughts": "Developed by the Terran Hegemony in the 25th century, the Mackie was the first true BattleMech. Based on advanced technology that the Hegemony Armed Forces (HAF) had been developing for decades under Director-General Jacob Cameron, the Mackie was the ultimate manifestation of Hegemony military might."
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 14,
+      "MaxArmor": 320,
+      "MaxRearArmor": 160,
+      "InternalStructure": 160
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 210,
+      "MaxRearArmor": -1,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 210,
+      "MaxRearArmor": -1,
+      "InternalStructure": 105
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 9.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 9.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": -1.5,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 1.5,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "MSK-6S",
+  "ChassisTags": {
+    "items": [
+
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Granddady Mech",
+  "YangsThoughts": "Developed by the Terran Hegemony in the 25th century, the Mackie was the first true BattleMech. Based on advanced technology that the Hegemony Armed Forces (HAF) had been developing for decades under Director-General Jacob Cameron, the Mackie was the ultimate manifestation of Hegemony military might."
 }

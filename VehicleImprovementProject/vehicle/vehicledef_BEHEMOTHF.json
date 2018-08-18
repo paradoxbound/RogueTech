@@ -15,7 +15,9 @@
 			"unit_vehicle",
 			"unit_assault",
 			"unit_tracks",
-			"unit_release"
+			"unit_release",
+            "unit_lance_support",
+            "unit_lance_tank"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -113,14 +115,14 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+			"ComponentDefID": "Weapon_Flamer_Heavy_Vehicle",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Front",
 			"HardpointSlot": 4,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Front",
 			"HardpointSlot": 5,
@@ -134,52 +136,31 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"MountedLocation": "Front",
-			"HardpointSlot": 7,
-			"DamageLevel": "Functional"
-		},
-		{
-			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+			"ComponentDefID": "Weapon_Flamer_Heavy_Vehicle",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Right",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"MountedLocation": "Right",
-			"HardpointSlot": 1,
-			"DamageLevel": "Functional"
-		},
-		{
 			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Right",
-			"HardpointSlot": 2,
+			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
 		},
 				{
-			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+			"ComponentDefID": "Weapon_Flamer_Heavy_Vehicle",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Left",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"MountedLocation": "Left",
-			"HardpointSlot": 1,
-			"DamageLevel": "Functional"
-		},
-		{
 			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Left",
-			"HardpointSlot": 2,
+			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
 		},
 		{

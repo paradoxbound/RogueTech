@@ -1,6 +1,9 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "MeleeACC"} },
+	"Custom" :  {
+	"Category" : { "CategoryID" : "ArmActuator"},
+	"ArmActuator" : {"AccuracyBonus" : 0, "Type" : "Lower" }
+	},
 
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -11,10 +14,10 @@
         "Purchasable" : true,
         "Manufacturer" : "Friedhof",
         "Model" : "Heracles",
-        "UIName" : "Arm Acc Mod + +",
+        "UIName" : "Arm Melee +3Acc",
         "Id" : "Gear_Actuator_Friedhof_Heracles",
         "Name" : "Friedhof Heracles Arm Mod  ",
-        "Details" : "Actuators control a 'Mech\u2019s limbs and are used to perform Melee attacks at close quarters. All 'Mechs come equipped with stock Actuators, which can be upgraded for improved performance.",
+        "Details" : "Actuators control a 'Mech\u2019s limbs and are used to perform Melee attacks at close quarters. All 'Mechs come equipped with stock Actuators, which can be upgraded for improved performance. <b><color=#800080>MELEE LOWER ARM ACTUATOR.</color></b> Disables Arm Mounted Weapon Bonus.",
         "Icon" : "uixSvgIcon_equipment_ActuatorArm"
     },
     "BonusValueA" : "+3 Melee Accuracy.",

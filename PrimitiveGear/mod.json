@@ -1,0 +1,22 @@
+{
+	"Name": "PrimitiveGear",
+	"Author": "The Community",
+	"Website": "https://github.com/CptMoore/MechEngineer",
+
+	"Enabled": true,
+	"DependsOn": ["CustomComponents", "MechEngineer"],
+
+
+	"Manifest": [
+		{
+			"Type": "HeatSinkDef",
+			"Path": "engine_parts",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "internals",
+			"ShouldMergeJSON": false
+		}		
+	]
+}

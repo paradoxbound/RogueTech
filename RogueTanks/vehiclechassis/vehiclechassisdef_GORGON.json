@@ -8,7 +8,7 @@
 		"Rarity" : 2,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_MANTICORE",
+	"MovementCapDefID" : "movedef_4-6cv",
    	"PathingCapDefID" : "pathingdef_heavy_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_manticore",
 	"PrefabIdentifier" : "chrPrfVhcl_manticore",
@@ -104,7 +104,7 @@
 			"MaxArmor" : 52,
 			"InternalStructure" : 12
 		},
-	  {
+	    {
 			"Location" : "Turret",
 			"Hardpoints" : [
 				{

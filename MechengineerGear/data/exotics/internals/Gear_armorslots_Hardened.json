@@ -5,8 +5,8 @@
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "[[Chassis.Tonnage]]/8",
-				"CBillCost": "[[Chassis.Tonnage]] * 2"
+				"TechCost": "[[Chassis.Tonnage]]/7",
+				"CBillCost": "[[Chassis.Tonnage]] * 20"
 			}
 		},
 		"Weights": {

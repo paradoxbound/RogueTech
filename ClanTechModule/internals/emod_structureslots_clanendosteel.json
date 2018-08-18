@@ -4,11 +4,15 @@
 			"CategoryID" : "Structure" 
 		},
 		"Color": {
-			"UIColor": "OrangeHalf"
+			"UIColor": "Orange"
 		},
 		"DynamicSlots": {
 			"ReservedSlots": 7,
-			"ReservedSlotColor": "OrangeHalf"
+			"BackgroundColor": "OrangeHalf",
+			"ShowIcon": false
+			"NameText": "Dynamic Slot"
+			"BonusAText": "Dynamic Slot"
+			"BonusAText": " "			
 		},
 		"Weights": {
 			"StructureFactor": 0.5

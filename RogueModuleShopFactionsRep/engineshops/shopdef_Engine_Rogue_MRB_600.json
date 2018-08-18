@@ -17,6 +17,13 @@
     ],
     "Specials": [
       {
+         "ID" : "Gear_Coolantpod",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight" : 30		 
+      },	
+      {
          "ID" : "Gear_EWS",
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Swartklip",
     "Name": "Swartklip",
-    "Details": "NOT DONE",
+    "Details": "Do you like Swartklips? Well come on down to Swartklip, home of the universe's only Swartklips! ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,23 @@
   "Tags": {
     "items": [
       "planet_name_swartklip",
-      "planet_size_medium",
-      "planet_climate_lunar",
-      "planet_other_volcanic",
+      "planet_size_large",
+      "planet_climate_arctic",
+      "planet_other_mudflats",
       "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_feature_asteroids",
+      "planet_feature_moon03",
+      "planet_other_moon",
       "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_civ_primitive",
+      "planet_civ_innersphere",
       "planet_industry_poor",
       "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_manufacturing",
-      "planet_other_comstar",
-      "planet_other_hub",
-      "planet_other_boreholes",
-      "planet_other_prison",
-      "planet_ruins",
+      "planet_other_alienvegetation",
       "planet_faction_steiner"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 14,
+  "JumpDistance": 11,
   "Owner": "Steiner",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -102,7 +95,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -5,
+  "Difficulty": -6,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -128,10 +121,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lunarVacuum",
-    "martianVacuum"
+    "polarFrozen",
+    "tundraFrozen"
   ],
-  "StarType": "M",
+  "StarType": "B",
   "ContractEmployers": [
     "Steiner",
     "Locals"

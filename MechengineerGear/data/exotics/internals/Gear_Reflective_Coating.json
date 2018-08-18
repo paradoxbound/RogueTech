@@ -6,7 +6,11 @@
 		},
 		"DynamicSlots": {
 			"ReservedSlots": 10,
-			"ReservedSlotColor": "GoldHalf"
+			"BackgroundColor": "GoldHalf"
+			"ShowIcon": false
+			"NameText": "Dynamic Slot"
+			"BonusAText": "Dynamic Slot"
+			"BonusAText": " "			
 		},
 		"WorkOrderCosts": {
 			"Install": {

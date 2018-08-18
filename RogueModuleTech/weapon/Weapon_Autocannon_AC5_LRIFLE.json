@@ -40,7 +40,7 @@
         "UIName" : "Rifle Light",
         "Id" : "Weapon_Autocannon_AC5_LRIFLE",
         "Name" : "Light Rifle",
-        "Details" : "The Light Rifle is the smallest of the ''Rifle'' family. The precursor to the modern Autocannon, the Rifle is based on the main guns used by tanks on pre-spaceflight Terra. The Light Rifle uses heavier rounds and larger propellant loads to fire its shells. The Heavy rifle carries 1 ton of ammo, 15 shots. <b><color=#099ff2>VOLATILE!</color></b>",
+        "Details" : "The Light Rifle is the smallest of the ''Rifle'' family. The precursor to the modern Autocannon, the Rifle is based on the main guns used by tanks on pre-spaceflight Terra. The Heavy rifle carries 1 ton of ammo with <b><color=#F79232>15 rounds.</color></b>. <b><color=#099ff2>VOLATILE!</color></b>",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "",

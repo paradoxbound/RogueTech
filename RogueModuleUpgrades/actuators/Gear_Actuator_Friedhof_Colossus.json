@@ -1,6 +1,13 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "MeleeSTAB"} },
+	"Custom": {
+		"Category" : { 
+			"CategoryID" : "ArmActuator" 
+		},
+		"ArmActuator" : {
+			"Type" : "Upper"
+		}
+	},
 
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -11,20 +18,20 @@
         "Purchasable" : true,
         "Manufacturer" : "Friedhof",
         "Model" : "Colossus",
-        "UIName" : "Arm Mod + +",
+        "UIName" : "Arm Shoulder Missile",
         "Id" : "Gear_Actuator_Friedhof_Colossus",
         "Name" : "Friedhof Colossus Arm Mod  ",
-        "Details" : "Actuators control a 'Mech\u2019s limbs and are used to perform Melee attacks at close quarters. All 'Mechs come equipped with stock Actuators, which can be upgraded for improved performance. Doesn't stack with same type but different tiers do.",
+        "Details" : "Upper Arm Actuators usually are barely more then a connector for a limb. <b><color=#800080>WEAPON SHOULDER ACTUATOR.</color></b> Grants only bonus to 1 weapon type.",
         "Icon" : "uixSvgIcon_equipment_ActuatorArm"
     },
-    "BonusValueA" : "+ 30% Melee Stb.Dmg.",
+    "BonusValueA" : "+ 1 Acc. (Missile)",
     "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 3,
-    "Tonnage" : 2,
+    "InventorySize" : 2,
+    "Tonnage" : 1,
     "AllowedLocations" : "Arms",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
@@ -36,7 +43,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : 1,
+                "stackLimit" : -1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -49,29 +56,29 @@
                 "forcePathRebuild" : false,
                 "forceVisRebuild" : false,
                 "showInTargetPreview" : false,
-                "showInStatusPanel" : true
+                "showInStatusPanel" : false
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_DamageMelee-T6",
-                "Name" : "MELEE STABILITY DAMAGE INCREASED",
-                "Details" : "Melee attacks deal 30% more stability damage.",
-                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+                "Id" : "StatusEffect-Attack_ToHitMissile-Shoulder",
+                "Name" : "Missile WEAPON HIT CHANCE IMPROVED",
+                "Details" : "Missile weapon attacks have their hit improved by 1.",
+                "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "nature" : "Buff",
             "statisticData" : {
                 "appliesEachTick" : false,
                 "effectsPersistAfterDestruction" : false,
-                "statName" : "Instability",
-                "operation" : "Float_Multiply",
-                "modValue" : "1.3",
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
+                "targetWeaponCategory" : "Missile",
                 "targetWeaponType" : "NotSet",
                 "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "Melee"
+                "targetWeaponSubType" : "NotSet"
             },
             "tagData" : null,
             "floatieData" : null,

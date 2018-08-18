@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Navarre",
     "Name": "Navarre",
-    "Details": "NOT DONE",
+    "Details": "Navarre is one of the worlds that formed a part of the Deep Periphery region known as Nueva Castile, and is the headquarters of Quixote Industries.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,28 +17,20 @@
     "items": [
       "planet_name_navarre",
       "planet_size_medium",
-      "planet_climate_terran",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_fungus",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_moon03",
+      "planet_climate_arid",
+      "planet_feature_moon01",
       "planet_other_moon",
-      "planet_pop_none",
+      "planet_pop_small",
       "planet_civ_primitive",
-      "planet_industry_rich",
-      "planet_industry_recreation",
+      "planet_industry_poor",
       "planet_industry_agriculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket"
+      "planet_industry_manufacturing",
+      "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 5,
+  "JumpDistance": 12,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +93,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": -2,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,14 +119,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "highlandsSpring",
-    "highlandsFall",
-    "lowlandsSpring",
-    "lowlandsFall",
-    "badlandsParched",
-    "lowlandsCoastal"
+    "lowlandsCoastal",
+    "badlandsParched"
   ],
-  "StarType": "0",
+  "StarType": "G",
   "ContractEmployers": [
     "Locals",
     "Locals"

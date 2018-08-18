@@ -5,7 +5,11 @@
 		},
 		"DynamicSlots": {
 			"ReservedSlots": 14,
-			"ReservedSlotColor": "GoldHalf"
+			"BackgroundColor": "GoldHalf"
+			"ShowIcon": false
+			"NameText": "Dynamic Slot"
+			"BonusAText": "Dynamic Slot"
+			"BonusAText": " "			
 		},
 		"Weights": {
 			"ArmorFactor": 0.89286
@@ -13,7 +17,7 @@
 		"WorkOrderCosts": {
 			"Install": {
 				"TechCost": "[[Chassis.Tonnage]]/10",
-				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
+				"CBillCost": "[[Chassis.Tonnage]] * 4"
 			}
 		},
 		"Category" : { 

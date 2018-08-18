@@ -16,32 +16,29 @@
   "Tags": {
     "items": [
       "planet_name_maximillian",
-      "planet_size_medium",
+      "planet_size_small",
       "planet_climate_ice",
       "planet_other_megaforest",
       "planet_other_mudflats",
       "planet_other_fungus",
       "planet_other_stonedcaribou",
       "planet_other_storms",
-      "planet_feature_comet",
-      "planet_feature_moon03",
-      "planet_other_moon",
+      "planet_feature_asteroids",
       "planet_pop_none",
-      "planet_other_megacity",
-      "planet_civ_innersphere",
+      "planet_civ_primitive",
+      "planet_industry_poor",
       "planet_industry_recreation",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_blackmarket",
-      "planet_other_boreholes",
+      "planet_industry_agriculture",
+      "planet_industry_manufacturing",
       "planet_other_newcolony",
-      "planet_other_prison",
+      "planet_other_pirate",
+      "planet_ruins",
       "planet_faction_circinus"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": false,
-  "JumpDistance": 3,
+  "FuelingStation": true,
+  "JumpDistance": -3,
   "Owner": "Nautilus",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +101,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 2,
+  "Difficulty": 10,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -133,7 +130,7 @@
     "polarFrozen",
     "tundraFrozen"
   ],
-  "StarType": "B",
+  "StarType": "0",
   "ContractEmployers": [
     "Nautilus",
     "Locals"

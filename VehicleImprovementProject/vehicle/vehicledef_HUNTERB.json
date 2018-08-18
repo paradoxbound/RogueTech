@@ -15,7 +15,10 @@
          "unit_vehicle",
          "unit_medium",
          "unit_tracked",
-		 "unit_release"
+		 "unit_release",
+         "unit_lance_vanguard",
+         "unit_lance_tank",
+         "unit_lance_assassin"
       ],
       "tagSetSourceFile": ""
    },
@@ -58,7 +61,7 @@
    ],
    "inventory" : [
       {
-         "ComponentDefID" : "Weapon_Flamer_Flamer_0-STOCK",
+         "ComponentDefID" : "Weapon_Flamer_Heavy_Vehicle",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Rear",
 		 "HardpointSlot" : 0,

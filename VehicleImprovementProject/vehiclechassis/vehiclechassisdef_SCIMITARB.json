@@ -19,9 +19,9 @@
 	"TopSpeed": 125,
 	"TurnRadius": 90,
 	"movementType": "Tracked",
-	"SpotterDistanceMultiplier": 1,
-	"VisibilityMultiplier": 1,
-	"SensorRangeMultiplier": 1,
+	"SpotterDistanceMultiplier": 1.1,
+	"VisibilityMultiplier": 0.9,
+	"SensorRangeMultiplier": 1.25,
 	"Signature": 0,
 	"Radius": 4,
 	"LOSSourcePositions": [

@@ -5,7 +5,7 @@
       "Name" : "Scimitar",
       "Details" : "",
       "Icon" : "",
-      "Cost" : 1993,
+      "Cost" : 993,
       "Rarity" : 3,
       "Purchasable" : false
    },
@@ -15,7 +15,10 @@
          "unit_vehicle",
          "unit_light",
          "unit_tracks",
-         "unit_release"
+         "unit_release",
+         "unit_lance_vanguard",
+         "unit_lance_tank",
+         "unit_hover"
       ],
       "tagSetSourceFile": ""
    },

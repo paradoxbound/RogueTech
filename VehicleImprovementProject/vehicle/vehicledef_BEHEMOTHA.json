@@ -15,7 +15,9 @@
 			"unit_vehicle",
 			"unit_assault",
 			"unit_tracks",
-			"unit_release"
+			"unit_release",
+            "unit_lance_support",
+            "unit_lance_tank"
 		],
 		"tagSetSourceFile": ""
 	},

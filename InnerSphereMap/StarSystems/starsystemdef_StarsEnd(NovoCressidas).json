@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_StarsEnd(NovoCressidas)",
     "Name": "Star's End (Novo Cressidas)",
-    "Details": "NOT DONE",
+    "Details": "A former mining system, Star's End has only one planetary body, Novo Cressidas, and several large asteroid belts that make navigation in the system extremely hazardous without intimate knowledge of the system.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,26 +16,21 @@
   "Tags": {
     "items": [
       "planet_name_star'send(novocressidas)",
-      "planet_size_large",
-      "planet_climate_desert",
-      "planet_other_taintedair",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon02",
+      "planet_size_small",
+      "planet_climate_lunar",
+      "planet_feature_asteroids",
+      "planet_feature_moon01",
       "planet_other_moon",
       "planet_pop_none",
-      "planet_other_megacity",
-      "planet_industry_mining",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_other_comstar",
-      "planet_other_starleague",
-      "planet_other_blackmarket"
+      "planet_civ_primitive",
+      "planet_industry_rich",
+      "planet_other_pirate",
+      "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": true,
-  "JumpDistance": -4,
+  "JumpDistance": 3,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -124,9 +119,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "G",
+  "StarType": "M",
   "ContractEmployers": [
     "Locals",
     "Locals"

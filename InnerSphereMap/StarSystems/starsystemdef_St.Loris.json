@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_St.Loris",
     "Name": "St. Loris",
-    "Details": "NOT DONE",
+    "Details": "St. Loris is an important agricultural center. In 3010 the 2nd St. Ives Lancers fought the Ceti Hussars there and much of the planet's vital wheat crop was destroyed, which caused a mighty famine. The crop has recovered, but the population has not. ",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -16,30 +16,19 @@
   "Tags": {
     "items": [
       "planet_name_st.loris",
-      "planet_size_large",
-      "planet_climate_desert",
-      "planet_other_megaforest",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_fungus",
-      "planet_feature_asteroids",
-      "planet_feature_comet",
-      "planet_feature_rings",
-      "planet_pop_none",
-      "planet_industry_rich",
-      "planet_industry_mining",
+      "planet_size_medium",
+      "planet_climate_terran",
+      "planet_feature_moon02",
+      "planet_other_moon",
+      "planet_pop_medium",
+      "planet_civ_innersphere",
       "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_other_alienvegetation",
-      "planet_other_blackmarket",
-      "planet_other_newcolony",
-      "planet_other_pirate",
-      "planet_other_prison"
+      "planet_industry_aquaculture"
     ],
     "tagSetSourceFile": ""
   },
-  "FuelingStation": true,
-  "JumpDistance": -3,
+  "FuelingStation": false,
+  "JumpDistance": 13,
   "Owner": "ComStar",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -128,9 +117,14 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "desertParched"
+    "highlandsSpring",
+    "highlandsFall",
+    "lowlandsSpring",
+    "lowlandsFall",
+    "badlandsParched",
+    "lowlandsCoastal"
   ],
-  "StarType": "F",
+  "StarType": "G",
   "ContractEmployers": [
     "ComStar",
     "Locals"

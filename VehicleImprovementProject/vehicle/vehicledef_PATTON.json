@@ -15,7 +15,9 @@
          "unit_vehicle",
          "unit_heavy",
          "unit_tracks",
-		 "unit_release"
+		 "unit_release",
+         "unit_lance_vanguard",
+         "unit_lance_tank"
       ],
       "tagSetSourceFile": ""
    },
@@ -58,7 +60,7 @@
    ],
    "inventory" : [
       {
-         "ComponentDefID" : "Weapon_Autocannon_AC10_0-STOCK",
+         "ComponentDefID" : "Weapon_Autocannon_AC10_1-Defiance",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Turret",
 		 "HardpointSlot" : 0,
@@ -72,7 +74,7 @@
 		 "DamageLevel" : "Functional"
       },
       {
-         "ComponentDefID" : "Weapon_Flamer_Flamer_0-STOCK",
+         "ComponentDefID" : "Weapon_Flamer_Heavy_Vehicle",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Rear",
 		 "HardpointSlot" : 0,

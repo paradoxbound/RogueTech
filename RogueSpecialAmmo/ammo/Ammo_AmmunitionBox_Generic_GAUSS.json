@@ -12,7 +12,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Generic",
         "Model" : "GAUSS",
-        "UIName" : "Ammo LRM [STD]",
+        "UIName" : "Ammo Gauss",
         "Id" : "Ammo_AmmunitionBox_Generic_GAUSS",
         "Name" : "Gauss Ammo",
         "Details" : "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Gauss Ammo Bins each contain <b><color=#F79232>8 rounds</color></b>. <b><color=#099ff2>Does not explode.</color></b>",

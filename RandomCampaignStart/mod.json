@@ -32,7 +32,7 @@
 	],
 
     /* Settings for Full Random Mode. Maximum Lance Size = 6.*/
-    "MinimumLanceSize": 5,
+    "MinimumLanceSize": 3,
     "MaximumLanceSize": 6,
     "MaximumMechWeight": 50,
 	"AllowDuplicateChassis":  false,
@@ -95,7 +95,13 @@
 	"mechdef_urbanmech_UM-R10",
 	"mechdef_urbanmech_UM-R60C",
 	"mechdef_urbanmech_UM-R60X",
-	"mechdef_jenner_JR1-R"
+	"mechdef_jenner_JR1-R",
+	"mechdef_commando_COM-IIC",
+	"mechdef_enforcer_ENF-IIC",
+	"mechdef_firestarter_FS-IIC",
+	"mechdef_shadowhawk_SHD-IIC",
+	"mechdef_kintaro_KTO-IIC",
+	"mechdef_griffin_GRF-IIC"
 	
 	],
 	

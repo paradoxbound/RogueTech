@@ -4,8 +4,7 @@
 			"FullName": "Clan Double Heat Sinks",
 			"Abbreviation": "CDHS",
 			"Tag": "CDHS",
-		},
-		"Category" : { "CategoryID" : "CDHS"}
+		}
 	},
     "DissipationCapacity" : 6,
     "Description" : {

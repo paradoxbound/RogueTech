@@ -1,189 +1,201 @@
 {
-    "Description": {
-        "Cost": 2100000,
-        "Rarity": 1,
-        "Purchasable": true,
-        "Manufacturer": "",
-        "Model": "",
-        "UIName": "Power Armour",
-        "Id": "chassisdef_EXPA",
-        "Name": "Power Armour",
-        "Details": "This NAIS Prototype is based upon the Starleague Nighthawk armour and was distributed to the Grey Death Legion for testing, how it came to be used against you remains a mystery",
-        "Icon": "uixTxrIcon_firestarter"
+  "Description": {
+    "Cost": 812000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Power Armour",
+    "Id": "chassisdef_EXPA",
+    "Name": "Power Armour",
+    "Details": "This NAIS Prototype is based upon the Starleague Nighthawk armour and was distributed to the Grey Death Legion for testing, how it came to be used against you remains a mystery",
+    "Icon": "uixTxrIcon_firestarter"
+  },
+  "MovementCapDefID": "movedef_EXPA",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_firestarter",
+  "PrefabIdentifier": "chrPrfMech_firestarterBase-001",
+  "PrefabBase": "firestarter",
+  "Tonnage": 5,
+  "InitialTonnage": 0.5,
+  "weightClass": "LIGHT",
+  "BattleValue": 2061000,
+  "Heatsinks": 0,
+  "TopSpeed": 65,
+  "TurnRadius": 360,
+  "MaxJumpjets": 1,
+  "Stability": 50,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 0.5,
+  "SensorRangeMultiplier": 1,
+  "Signature": -0.8,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 65,
+  "MeleeInstability": 15,
+  "MeleeToHitModifier": -3,
+  "DFADamage": 45,
+  "DFAToHitModifier": -3,
+  "DFASelfDamage": 0,
+  "DFAInstability": 5,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 5,
+      "MaxRearArmor": -1,
+      "InternalStructure": 2
     },
-    "MovementCapDefID": "movedef_EXPA",
-    "PathingCapDefID": "pathingdef_light",
-    "HardpointDataDefID": "hardpointdatadef_firestarter",
-    "PrefabIdentifier": "chrPrfMech_firestarterBase-001",
-    "PrefabBase": "firestarter",
-    "Tonnage": 5,
-    "InitialTonnage": 0.5,
-    "weightClass": "LIGHT",
-    "BattleValue": 2061000,
-    "Heatsinks": 0,
-    "TopSpeed": 65,
-    "TurnRadius": 360,
-    "MaxJumpjets": 1,
-    "Stability": 50,
-    "StabilityDefenses": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-    ],
-    "SpotterDistanceMultiplier": 1,
-    "VisibilityMultiplier": 0.5,
-    "SensorRangeMultiplier": 1,
-    "Signature": -0.8,
-    "Radius": 4,
-    "PunchesWithLeftArm": false,
-    "MeleeDamage": 65,
-    "MeleeInstability": 15,
-    "MeleeToHitModifier": -3,
-    "DFADamage": 45,
-    "DFAToHitModifier": -3,
-    "DFASelfDamage": 0,
-    "DFAInstability": 5,
-    "Locations": [
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
         {
-            "Location": "Head",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 5,
-            "MaxRearArmor": -1,
-            "InternalStructure": 2
-        },
-        {
-            "Location": "LeftArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 10,
-            "MaxRearArmor": -1,
-            "InternalStructure": 10
-        },
-        {
-            "Location": "LeftTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 20,
-            "MaxRearArmor": 5,
-            "InternalStructure": 10
-        },
-        {
-            "Location": "CenterTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 14,
-            "MaxArmor": 25,
-            "MaxRearArmor": 10,
-            "InternalStructure": 15
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 20,
-            "MaxRearArmor": 5,
-            "InternalStructure": 10
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 10,
-            "MaxRearArmor": -1,
-            "InternalStructure": 10
-        },
-        {
-            "Location": "LeftLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 15,
-            "MaxRearArmor": -1,
-            "InternalStructure": 12
-        },
-        {
-            "Location": "RightLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 15,
-            "MaxRearArmor": -1,
-            "InternalStructure": 12
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
-    ],
-    "LOSSourcePositions": [
-        {
-            "x": 0,
-            "y": 9.5,
-            "z": 0.5
-        },
-        {
-            "x": -2.5,
-            "y": 8.5,
-            "z": -0.5
-        },
-        {
-            "x": 2.5,
-            "y": 8.5,
-            "z": -0.5
-        }
-    ],
-    "LOSTargetPositions": [
-        {
-            "x": 0,
-            "y": 9.5,
-            "z": 0.5
-        },
-        {
-            "x": -2.5,
-            "y": 8.5,
-            "z": -0.5
-        },
-        {
-            "x": 2.5,
-            "y": 8.5,
-            "z": -0.5
-        },
-        {
-            "x": -1.5,
-            "y": 3,
-            "z": 0.5
-        },
-        {
-            "x": 1.5,
-            "y": 3,
-            "z": 0.5
-        }
-    ],
-    "VariantName": "EX-PA",
-    "ChassisTags": {
-        "items": [],
-        "tagSetSourceFile": ""
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 10,
+      "MaxRearArmor": -1,
+      "InternalStructure": 10
     },
-    "StockRole": "Powered Infantry",
-    "YangsThoughts": "This NAIS Prototype is based upon the Starleague Nighthawk armour and was distributed to the Grey Death Legion for testing, how it came to be used against you remains a mystery."
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 20,
+      "MaxRearArmor": 5,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 14,
+      "MaxArmor": 25,
+      "MaxRearArmor": 10,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 20,
+      "MaxRearArmor": 5,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 10,
+      "MaxRearArmor": -1,
+      "InternalStructure": 10
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 15,
+      "MaxRearArmor": -1,
+      "InternalStructure": 12
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 15,
+      "MaxRearArmor": -1,
+      "InternalStructure": 12
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 9.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 9.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": -1.5,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 1.5,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "EX-PA",
+  "ChassisTags": {
+    "items": [
+
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Powered Infantry",
+  "YangsThoughts": "This NAIS Prototype is based upon the Starleague Nighthawk armour and was distributed to the Grey Death Legion for testing, how it came to be used against you remains a mystery."
 }

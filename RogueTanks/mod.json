@@ -2,7 +2,7 @@
     "Name": "RogueTanks",
     "Enabled": true,
 
-    "Version": "0.1.0",
+    "Version": "1.2.1",
     "Description": "The Tanks of RogueTech - Core Module",
     "Author": "LadyAlekto special thanks Cargo Vroom",
     "Website": "",
@@ -12,9 +12,7 @@
 
     "Manifest": [
 	{ "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
-    { "Type": "VehicleDef", "Path": "vehicle" },
-	{ "Type": "MovementCapabilitiesDef", "Path": "move" },
-	{ "Type": "UpgradeDef", "Path": "upgrade" }	
+    	{ "Type": "VehicleDef", "Path": "vehicle" }
     ]
 	
 	

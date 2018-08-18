@@ -13,7 +13,7 @@
    "VehicleTags": {
       "items": [
          "unit_vehicle",
-         "unit_light",
+         "unit_medium",
          "unit_tracks",
 		 "unit_release",
          "unit_lance_assassin",
@@ -49,6 +49,13 @@
 			"CurrentArmor" : 25,
 			"CurrentInternalStructure" : 20,
 			"AssignedArmor" : 25,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Turret",
+			"CurrentArmor" : 30,
+			"CurrentInternalStructure" : 20,
+			"AssignedArmor" : 30,
 			"DamageLevel" : "Functional"
 		}
    ],

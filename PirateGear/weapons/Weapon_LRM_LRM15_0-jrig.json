@@ -41,7 +41,7 @@
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "Unknown",
-    "BonusValueB" : "",
+    "BonusValueB" : "Damage Falloff",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "lrm15",
@@ -57,7 +57,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-			"WR-variance_by_distance-40",			
+			"WR-variance_by_distance-20",			
             "range_extreme"
         ],
         "tagSetSourceFile" : ""

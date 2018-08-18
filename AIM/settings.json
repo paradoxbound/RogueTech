@@ -38,6 +38,12 @@
   "ShowAmmoInTooltip": true,
   "ShowEnemyAmmoInTooltip": true,
 
+  /* Set armour colour of floating bar of Player / Enemy / Ally.  Default "cyan" for player, "teal" for ally.  Set to empty to not change. */
+
+  "FloatingArmorColourPlayer": "cyan",
+  "FloatingArmorColourEnemy": "",
+  "FloatingArmorColourAlly": "teal",
+
   //
   // Line of Sight
   //
@@ -50,11 +56,11 @@
   /* Make obstruction marker bigger or smaller by multiplying its height and width.  Default 1.5.
    * Set to 1 to use game default, or 0 to hide the marker. */
 
-  "LOSMarkerBlockedMultiplier": 3.0,
+  "LOSMarkerBlockedMultiplier": 2.0,
 
   /* Controls whether indirect attack lines / can't attack lines are dotted.  Default both true. */
 
-  "LOSIndirectDotted": false,
+  "LOSIndirectDotted": true,
   "LOSNoAttackDotted": true,
 
   /* Controls whether other attack lines are dotted.  Default all false. */
@@ -125,20 +131,20 @@
   "CalledChanceFormat": "{0:0.0}%",
 
   //
-  // To Hit Modifier List
+  // To Hit Modifiers
   //
 
   /* Specify set of hit modifiers of ranged attacks. Leave empty to keep it unchanged.  Order and letter case does not matter.
-   * Default "ArmMounted, Direction, Height, Indirect, Inspired, LocationDamage, Obstruction, Precision, Range, Refire, SelfHeat, SelfStoodUp, SelfTerrain, SensorImpaired, SensorLock, Sprint, TargetEffect, TargetEvasion, TargetProne, TargetShutdown, TargetSize, TargetTerrain, Walked, WeaponAccuracy, WeaponDamage".
+   * Default "ArmMounted, Direction, Height, Indirect, Inspired, Jumped, LocationDamage, Obstruction, Precision, Range, Refire, SelfHeat, SelfStoodUp, SelfTerrain, SensorImpaired, SensorLock, Sprint, TargetEffect, TargetEvasion, TargetProne, TargetShutdown, TargetSize, TargetTerrain, Walked, WeaponAccuracy, WeaponDamage".
    * You can remove some options or replace SelfTerrain and TargetTerrain with SelfTerrainMelee and TargetTerrainMelee. */
 
-  "RangedAccuracyFactors": "ArmMounted, Direction, Height, Indirect, Inspired, Obstruction, Precision, Range, Refire, SelfHeat, SelfStoodUp, SelfTerrain, SensorImpaired, Sprint, TargetEffect, TargetEvasion, TargetProne, TargetShutdown, TargetSize, TargetTerrain, Walked, WeaponAccuracy, WeaponDamage",
+  "RangedAccuracyFactors": "ArmMounted, Direction, Height, Indirect, Inspired, Jumped, Obstruction, Precision, Range, Refire, SelfHeat, SelfStoodUp, SelfTerrain, SensorImpaired, SensorLock, Sprint, TargetEffect, TargetEvasion, TargetProne, TargetShutdown, TargetSize, TargetTerrain, Walked, WeaponAccuracy, WeaponDamage",
 
   /* Specify set of hit modifiers of melee and DFA attacks. Leave empty to keep it unchanged.  Order and letter case does not matter.
-   * Default "Direction, DFA, Height, Inspired, SelfChassis, SelfHeat, SelfStoodUp, SelfTerrainMelee, Sprint, TargetEffect, TargetEvasion, TargetProne, TargetShutdown, TargetSize, TargetTerrainMelee, Walked, WeaponAccuracy".
+   * Default "Direction, DFA, Height, Inspired, Jumped, SelfChassis, SelfHeat, SelfStoodUp, SelfTerrainMelee, Sprint, TargetEffect, TargetEvasion, TargetProne, TargetShutdown, TargetSize, TargetTerrainMelee, Walked, WeaponAccuracy".
    * Other options are ArmMounted, Obstruction, Refire, SelfTerrain, SensorImpaired, TargetTerrain. */
 
-  "MeleeAccuracyFactors": "DFA,ArmMounted,SelfTerrain,TargetTerrain,Inspired,SelfChassis,SelfHeat,SelfStoodUp,Walked,Sprint,TargetEffect,TargetEvasion,TargetProne,TargetShutdown,TargetSize,TargetTerrainMelee,WeaponAccuracy",
+  "MeleeAccuracyFactors": "DFA,SelfTerrain,TargetTerrain,Inspired,SelfChassis,SelfHeat,SelfStoodUp,Walked,Sprint,TargetEffect,TargetEvasion,TargetProne,TargetShutdown,TargetSize,TargetTerrainMelee,WeaponAccuracy",
 
   /* Directional to hit modifiers.  Effective only if "Direction" is in the modifier factor list(s).  Default front 0, side -1, back -2. */
 
@@ -149,8 +155,12 @@
   "ToHitVehicleFromSide": -1,
   "ToHitVehicleFromRear": -2,
 
+  /* Hit modifier after jumping, added on top of movement modifier (if any).  Effective only if "Jumped" is in the modifier factor list(s).  Default 0. */
+
+  "ToHitSelfJumped": 3,
+
   //
-  // To Hit Modifiers
+  // Net To Hit Modifiers
   //
 
   /* Allow bonus total modifier to increase hit chance.  Default true. */
@@ -187,15 +197,15 @@
   /* Diminishing Bonus: 2-Base^(Bonus/Divisor).  Default 2-0.8^(Bonus/6) and caps at +16.
    * Example: +3 Bonus @ 80% Base ToHit == 1.1 x 0.8 == 88% Hit */
 
-  "DiminishingBonusPowerBase": 0.8,
+  "DiminishingBonusPowerBase": 0.800000011920929,
   "DiminishingBonusPowerDivisor": 6.0,
   "DiminishingBonusMax": 16,
 
   /* Diminishing Penalty: Base^(Penalty/Divisor).  Default 0.8^(Penalty/3.3) and caps at +32.
    * Example: +6 Penalty @ 80% Base ToHit == 67% x 0.8 == 53% Hit */
 
-  "DiminishingPenaltyPowerBase": 0.8,
-  "DiminishingPenaltyPowerDivisor": 3.3,
+  "DiminishingPenaltyPowerBase": 0.800000011920929,
+  "DiminishingPenaltyPowerDivisor": 3.2999999523162842,
   "DiminishingPenaltyMax": 32,
 
   //
@@ -218,9 +228,17 @@
 
   "MissStreakBreakerDivider": 0.0,
 
+  //
+  // Modifiers Preview
+  //
+
   /* Display base hit chance in weapon mouseover hint.  Default true. */
 
   "ShowBaseHitchance": true,
+
+  /* Apply self moved modifier during preview, before the move actually take place.  Default true. */
+
+  "FixSelfSpeedModifierPreview": true,
 
   /* Show corrected hit chance in weapon panel, instead of original (fake) hit chance, before streak breaker.  Default false. */
 
@@ -249,6 +267,10 @@
   // Hit Resolution
   //
 
+  /* Skip critical checks if target is dead.  Default true. */
+
+  "SkipCritingDeadMech": true,
+
   /* Yang has improved autoloader's algorithm to balance ammo draw to minimise ammo explosion chance.  Default true for friends. */
 
   "BalanceAmmoConsumption": true,
@@ -275,7 +297,7 @@
    * Setting can be "None", "Attack", "Shot", "Location", "Damage", "Critical", or "All", from simplest to heaviest.  Default "None".
    * "All" is currently same as "Critical", but more levels may be added in future.  Letter case does not matter. */
 
-  "AttackLogLevel": "None",
+  "AttackLogLevel": "All",
 
   /* Format of attack log.  Can be "csv", "tsv", or "txt" (same as tsv). Default "csv". */
 

@@ -1,216 +1,259 @@
 {
-    "Description": {
-        "Cost": 900000,
-        "Rarity": 5,
-        "Purchasable": true,
-        "Manufacturer": "",
-        "Model": "",
-        "UIName": "Gemji",
-        "Id": "chassisdef_crab_CRB-GI",
-        "Name": "Gemji",
-        "Details": "The Gemji CRB-GI has opened its claws, bringing Industrial table flipping to a mech fight.",
-        "Icon": "uixTxrIcon_kingcrab"
+
+"Custom": {
+  "ChassisQuirks": {
+    "statusEffects": [
+      	         {
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : true,
+				"showInStatusPanel" : true
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Gemji",
+				"Name" : "Melee Crab",
+				"Details" : "Chassis is harder to hit and has Melee Bonus",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+                "statName" : "ToHitThisActor",
+                "operation" : "Float_Add",
+                "modValue" : "1.0",
+                "modType" : "System.Single",
+			},
+			"nature" : "Buff"
+		},			
+    ]
+  }
+},
+
+  "Description": {
+    "Cost": 4654000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Gemji",
+    "Id": "chassisdef_crab_CRB-GI",
+    "Name": "Gemji",
+    "Details": "The Gemji CRB-GI has opened its claws, bringing Industrial table flipping to a mech fight.",
+    "Icon": "uixTxrIcon_kingcrab"
+  },
+  "MovementCapDefID": "movedef_crab_CRB-20",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_kingcrab",
+  "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
+  "PrefabBase": "kingcrab",
+  "Tonnage": 50,
+  "InitialTonnage": 5,
+  "weightClass": "MEDIUM",
+  "BattleValue": 10206000,
+  "Heatsinks": 0,
+  "TopSpeed": 80,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 80,
+  "MeleeInstability": 55,
+  "MeleeToHitModifier": -2,
+  "DFADamage": 65,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 65,
+  "DFAInstability": 65,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 3,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
     },
-    "MovementCapDefID": "movedef_crab_CRB-20",
-    "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_kingcrab",
-    "PrefabIdentifier": "chrPrfMech_kingcrabBase-001",
-    "PrefabBase": "kingcrab",
-    "Tonnage": 50,
-    "InitialTonnage": 5,
-    "weightClass": "MEDIUM",
-    "BattleValue": 10206000,
-    "Heatsinks": 0,
-    "TopSpeed": 80,
-    "TurnRadius": 90,
-    "MaxJumpjets": 4,
-    "Stability": 100,
-    "StabilityDefenses": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-    ],
-    "SpotterDistanceMultiplier": 1,
-    "VisibilityMultiplier": 1,
-    "SensorRangeMultiplier": 1,
-    "Signature": 0,
-    "Radius": 8,
-    "PunchesWithLeftArm": false,
-    "MeleeDamage": 80,
-    "MeleeInstability": 55,
-    "MeleeToHitModifier": -2,
-    "DFADamage": 65,
-    "DFAToHitModifier": 0,
-    "DFASelfDamage": 65,
-    "DFAInstability": 65,
-    "Locations": [
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
         {
-            "Location": "Head",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },			
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 3,
-            "MaxArmor": 45,
-            "MaxRearArmor": -1,
-            "InternalStructure": 16
+          "WeaponMount": "Energy",
+          "Omni": false
         },
         {
-            "Location": "LeftArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },				
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }			
-			],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 80,
-            "MaxRearArmor": -1,
-            "InternalStructure": 40
+          "WeaponMount": "Energy",
+          "Omni": false
         },
         {
-            "Location": "LeftTorso",
-            "Hardpoints": [            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 120,
-            "MaxRearArmor": 60,
-            "InternalStructure": 60
-        },
-        {
-            "Location": "CenterTorso",
-            "Hardpoints": [
-			
-			],
-            "Tonnage": 0,
-            "InventorySlots": 14,
-            "MaxArmor": 160,
-            "MaxRearArmor": 80,
-            "InternalStructure": 80
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-				{
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }			
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 120,
-            "MaxRearArmor": 60,
-            "InternalStructure": 60
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },				
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 80,
-            "MaxRearArmor": -1,
-            "InternalStructure": 40
-        },
-        {
-            "Location": "LeftLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 120,
-            "MaxRearArmor": -1,
-            "InternalStructure": 60
-        },
-        {
-            "Location": "RightLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 120,
-            "MaxRearArmor": -1,
-            "InternalStructure": 60
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
-    ],
-    "LOSSourcePositions": [
-        {
-            "x": 0,
-            "y": 14.5,
-            "z": 0
-        },
-        {
-            "x": 4,
-            "y": 15,
-            "z": -1
-        },
-        {
-            "x": -4,
-            "y": 15,
-            "z": -1
-        }
-    ],
-    "LOSTargetPositions": [
-        {
-            "x": 0,
-            "y": 14.5,
-            "z": 0
-        },
-        {
-            "x": 4,
-            "y": 15,
-            "z": -1
-        },
-        {
-            "x": -4,
-            "y": 15,
-            "z": -1
-        },
-        {
-            "x": 3.5,
-            "y": 5.5,
-            "z": -1
-        },
-        {
-            "x": -3.5,
-            "y": 5.5,
-            "z": -1
-        }
-    ],
-    "VariantName": "CRB-GI",
-    "ChassisTags": {
-        "items": [],
-        "tagSetSourceFile": ""
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
     },
-    "StockRole": "Tableflipper",
-    "YangsThoughts": "The Gemji CRB-GI has opened its claws, bringing Industrial table flipping to a mech fight."
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 14,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14.5,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14.5,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": -1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": -1
+    }
+  ],
+  "VariantName": "CRB-GI",
+  "ChassisTags": {
+    "items": [
+
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Tableflipper",
+  "YangsThoughts": "The Gemji CRB-GI has opened its claws, bringing Industrial table flipping to a mech fight."
 }

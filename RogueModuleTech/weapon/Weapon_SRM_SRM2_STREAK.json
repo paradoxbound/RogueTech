@@ -40,8 +40,8 @@
         "Details" : "The Steak SRM-2 launcher is a prototype SRM that uses an advanced active guidance system to track targets, but at the cost of 50% increased weight and heat generation.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
-    "BonusValueA" : "+2Accuracy",
-    "BonusValueB" : "+2 Evasion Ignore",
+    "BonusValueA" : "Streak!",
+    "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "srm2",

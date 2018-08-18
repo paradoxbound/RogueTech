@@ -1,16 +1,20 @@
 {
 	"Custom": {
 		"Color": {
-			"UIColor": "OrangeHalf",
+			"UIColor": "Orange",
 		},
 		"DynamicSlots": {
 			"ReservedSlots": 7,
 			"ReservedSlotColor": "OrangeHalf",
+			"ShowIcon": false
+			"NameText": "Dynamic Slot"
+			"BonusAText": "Dynamic Slot"
+			"BonusAText": " "			
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "[[Chassis.Tonnage]]/10",
-				"CBillCost": "[[Chassis.Tonnage]] * 1.05"
+				"TechCost": "[[Chassis.Tonnage]]/7",
+				"CBillCost": "[[Chassis.Tonnage]] * 20"
 			}
 		},
 		"Weights": {

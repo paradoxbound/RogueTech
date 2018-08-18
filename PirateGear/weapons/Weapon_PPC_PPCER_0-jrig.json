@@ -44,7 +44,7 @@
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "Unknown",
-    "BonusValueB" : "Range Variance.",
+    "BonusValueB" : "Damage Falloff",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "PPC",

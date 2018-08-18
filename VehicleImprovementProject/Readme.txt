@@ -22,8 +22,6 @@ They'll be less eager to get stepped on now, and overall do a better job of prov
 
 To Install:
 
-(A version of this mod is included in Roguetech.
-That one has been tweaked to fit into RT's balance.)
 
 Requires BTML and Modtek!!!
 
@@ -33,6 +31,9 @@ Place the VehicleImprovementProject folder in your Battletech/mods folder.
 Consult modtek's instructions if you have trouble.
 
 If you want VIP to take precidence over other mods that change vehicles move it to the end of your modtek load order.
+
+(A version of this mod is included in Roguetech. But it's balanced a little differently.
+If you want to use this one for the additional features overwrite the files, then move VIP to the bottom of your load order.)
 
 --------------------------------------
 
@@ -57,14 +58,46 @@ And of course HBS Studios for making this great game.
 
 Changelog:
 
+1.0.0
+
+Added Puma assault tank (With lore-appropriate + weapons. Scariest vehicle in the mod probably).
+Added Rhino assault class fire support tank.
+Added Ontos (LRM)
+Added two version of Von Luckner heavy tank.
+
+Dynamic Lances rebalanced to account for increased vehicle lethality, heavier vehicles appear 0.5-1 skull later than before.
+Implemented MechResizer to scale the new vehicles properly.
+
+Added Heavy Vehicle Flamer (Contributed by LadyAlecto)
+Replaced most vanilla vehicle flamers with the new one. (Happy looting)
+All Convoys now contain one tank instead of being all APCs.
+Introduced custom unit_hover tag to get more control over when fast units spawn.
+Gave all VIP and vanilla vehicles lance role tags.
+Added lance defs for Mixed Diff 3.
+High difficulty Assassination targets will now sometimes have light hovertank buddies instead of a light mech.
+
+Pathingdef change: tracked vehicles now move as easily backward as forward.
+Buffed the generic pilot used in friendly convoy vehicles.
+Buffed fallback pilots used if spawner derps. (Something of a general fix)
+Removed "Heavy" tag from Turhan APC (Too fragile to spawn in late-game escort missions).
+Corrected Striker's structure values.
+Corrected Zyphyr armor and redesignated "Zephyr (SRM2)"
+Boosted Pegasus sensor range as a standin for BAP.
+Gave Patton and Rommel the Defiance brand cannons specified in their fluff.
+Gave Scimitar (LRM) a + weapon because it's BV is half what's normal for that bracket.
+Vehicle evasion result 0.8 to 0.85 because of minor rounding issue.
+    
+This version number breaks my conventional incrementation method, but we're going to have a version that's exactly 1.0 darn it.
+
 0.8.5
 
 Gave Vanilla LRM/SRM Carriers a 'turret' hit location with stats.
-    This sidesteps a vanilla bug that causes damage to occasionally be ignored.
-    It was becoming more of a problem as I adjusted hit probabilities.
-    Reversed a previous change and gave roofs to all my Carriers, Hunters and Saladins.
-    Roof Armor is set to 80% of side armor.
-    Note that this doesn't actually make them more durable. It makes it possible for hits to register.
+    This sidesteps a vanilla bug that causes damage to occasionally be ignored becaue it can roll to hit the non existant turret.
+    It was becoming more of a problem as I adjusted hit probabilities and turret hits became more common.
+    "Roof" Armor is set to 80% of side armor.
+    Note that while this makes total armor go up they aren't tougher.
+    It makes it possible for hits that in vanilla would do nothing to cause damage.
+Reversed a previous change and gave roofs/turrets to all my Carriers, Hunters and Saladins.
     
 Added Patton and Rommel, a pair of relatively swift heavy tanks.
 Added Scimitar variant (LRM15)

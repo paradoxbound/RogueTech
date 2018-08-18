@@ -1,6 +1,9 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "MeleeActuator"} },
+	"Custom" :  {
+	"Category" : { "CategoryID" : "ArmActuator"},
+	"ArmActuator" : {"AccuracyBonus" : 0, "Type" : "Hand" }
+	},
 
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -11,20 +14,20 @@
         "Purchasable" : true,
         "Manufacturer" : "Coventry",
         "Model" : "B20 Extended",
-        "UIName" : "Arm Mod",
+        "UIName" : "Arm Melee 20%Dmg",
         "Id" : "Gear_Actuator_Coventry_B20-Extended",
         "Name" : "Coventry B20 Extended Arm Mod",
-        "Details" : "Actuators control a 'Mech\u2019s limbs and are used to perform Melee attacks at close quarters. All 'Mechs come equipped with stock Actuators, which can be upgraded for improved performance. Doesn't stack with same type but different tiers do.",
+        "Details" : "Actuators control a 'Mech\u2019s limbs and are used to perform Melee attacks at close quarters. All 'Mechs come equipped with stock Actuators, which can be upgraded for improved performance. <b><color=#800080>MELEE HAND ACTUATOR.</color></b> Disables Arm Mounted Weapon Bonus.",
         "Icon" : "uixSvgIcon_equipment_ActuatorArm"
     },
     "BonusValueA" : "+ 20% Melee Dmg.",
-    "BonusValueB" : "",
+    "BonusValueB" : "+1 Melee Acc.",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 2,
-    "Tonnage" : 2,
+    "InventorySize" : 5,
+    "Tonnage" : 1,
     "AllowedLocations" : "Arms",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
@@ -79,7 +82,58 @@
             "vfxData" : null,
             "instantModData" : null,
             "poorlyMaintainedEffectData" : null
-        }
+        },
+       {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-MACCACT1",
+                "Name" : "Articulate Actuators",
+                "Details" : "Melee attacks have +1 Accuracy.",
+                "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-1.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "Melee"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }			
     ],
     "ComponentTags" : {
         "items" : [

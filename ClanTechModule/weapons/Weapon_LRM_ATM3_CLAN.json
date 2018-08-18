@@ -40,7 +40,7 @@
         "Details" : "The Advanced Tactical Missile system (ATM) was developed by Clan Coyote and allows its users to choose between three different types of ammunition. ATMs also include an integral Artemis IV Fire Control System. Uses LRM Ammo bins.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
-    "BonusValueA" : "Range Variance",
+    "BonusValueA" : "Damage Falloff",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
@@ -57,7 +57,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-			"WR-variance_by_distance",
+			"WR-variance_by_distance-02",
             "range_extreme"
         ],
         "tagSetSourceFile" : ""

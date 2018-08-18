@@ -17,10 +17,29 @@
          "Type" : "Upgrade",
          "DiscountModifier" : 1.0,
          "Count" : 0
+      },
+      {
+         "ID" : "emod_arm_lower",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
+      },
+      {
+         "ID" : "emod_arm_hand",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0
       },	  
   
     ],
     "Specials": [
+      {
+         "ID" : "Gear_Coolantpod",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight" : 10		 
+      },	
       {
          "ID" : "Gear_ECM",
          "Type" : "Upgrade",

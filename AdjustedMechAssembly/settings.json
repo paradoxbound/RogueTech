@@ -19,6 +19,7 @@
 		"AssembleVariants" : true,
 		 "AssembleMostParts" : true,
         "VariantExceptions" : [
+		"mechdef_firestarter_FS7-S",		
 		"mechdef_blackknight_BL-S7",
 		"mechdef_catapult_CPLT-S7",
 		"mechdef_griffin_GRF-S7",
@@ -37,6 +38,21 @@
 		"mechdef_marauder_MAD-S7",
 		"mechdef_kingcrab_KGC-P",
 		"mechdef_wolfhound_WLF-1X",
-		"mechdef_atlas_AS0-MG"		
+		"mechdef_atlas_AS0-MG",
+		"mechdef_atlas_AS-IIC",
+		"mechdef_blackknight_BL-IIC",
+		"mechdef_catapult_CPLT-IIC",
+		"mechdef_commando_COM-IIC",
+		"mechdef_enforcer_ENF-IIC",
+		"mechdef_executioner_Clan",
+		"mechdef_firestarter_FS-IIC",
+		"mechdef_griffin_GRF-IIC",
+		"mechdef_jagermech_JM-IIC",
+		"mechdef_kingcrab_KGC-IIC",
+		"mechdef_kintaro_KTO-IIC",
+		"mechdef_marauder_MAD-IIC",
+		"mechdef_shadowhawk_SHD-IIC",
+		"mechdef_thunderbolt_TDR-IIC",
+		"mechdef_wolverine_WVR-C"
 		]
 }

@@ -3,21 +3,21 @@
             "k" : "Float_MeleeDamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 4.3
+		"floatVal" : 6.3
             }
 	},
 	{
             "k" : "Float_MeleeVsUnsteadyTargetDamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 4.5
+		"floatVal" : 5.5
             }
 	},
 	{
             "k" : "Float_DFADamageMultiplier",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 4.5
+		"floatVal" : 5.5
             }
 	},
 	{
@@ -38,7 +38,7 @@
             "k" : "Float_UnsteadyCausesDefensiveMovePercentage",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 10
+		"floatVal" : 1
             }
 	},
 	{
@@ -49,7 +49,7 @@
             "k" : "Float_MeleeDamageRatioCap",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2.5,
+		"floatVal" : 140
             }
 	},
 	{
@@ -59,7 +59,7 @@
             "k" : "Float_MeleeBonusMultiplierWhenAttackingEvasiveTargets",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2.0,
+		"floatVal" : 1.0
             }
 	},
 	{
@@ -69,7 +69,7 @@
             "k" : "Float_MeleeBonusMultiplierWhenAttackingBracedTargets",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 2.3,
+		"floatVal" : 1.0
             }
 	},
 	{

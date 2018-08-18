@@ -1,209 +1,227 @@
 {
-    "Description": {
-        "Cost": 1400000,
-        "Rarity": 3,
-        "Purchasable": true,
-        "Manufacturer": "",
-        "Model": "",
-        "UIName": "Marauder",
-        "Id": "chassisdef_marauder_MAD-5L",
-        "Name": "Marauder",
-        "Details": "Built for House Liao the 5L attempted to make the reliable Marauder chassis work alongside their modernized Stealth Forces.",
-        "Icon": "uixTxrIcon_marauder"
+  "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Lower",
+      "RightLimit": "Lower"
+    }
+  },
+  "Description": {
+    "Cost": 7765630,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Marauder",
+    "Id": "chassisdef_marauder_MAD-5L",
+    "Name": "Marauder",
+    "Details": "Built for House Liao the 5L attempted to make the reliable Marauder chassis work alongside their modernized Stealth Forces.",
+    "Icon": "uixTxrIcon_marauder"
+  },
+  "MovementCapDefID": "movedef_marauder_MAD-3R",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_marauder",
+  "PrefabIdentifier": "chrPrfMech_marauderHotD-001",
+  "PrefabBase": "kingcrab",
+  "Tonnage": 75,
+  "InitialTonnage": 7.5,
+  "weightClass": "HEAVY",
+  "BattleValue": 7124000,
+  "Heatsinks": 0,
+  "TopSpeed": 64,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 95,
+  "MeleeInstability": 75,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 95,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 95,
+  "DFAInstability": 95,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 3,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
     },
-    "MovementCapDefID": "movedef_marauder_MAD-3R",
-    "PathingCapDefID": "pathingdef_heavy",
-    "HardpointDataDefID": "hardpointdatadef_marauder",
-    "PrefabIdentifier": "chrPrfMech_marauderHotD-001",
-    "PrefabBase": "kingcrab",
-    "Tonnage": 75,
-    "InitialTonnage": 7.5,
-    "weightClass": "HEAVY",
-    "BattleValue": 7124000,
-    "Heatsinks": 0,
-    "TopSpeed": 64,
-    "TurnRadius": 90,
-    "MaxJumpjets": 4,
-    "Stability": 100,
-    "StabilityDefenses": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-    ],
-    "SpotterDistanceMultiplier": 1,
-    "VisibilityMultiplier": 1,
-    "SensorRangeMultiplier": 1,
-    "Signature": 0,
-    "Radius": 8,
-    "PunchesWithLeftArm": false,
-    "MeleeDamage": 95,
-    "MeleeInstability": 75,
-    "MeleeToHitModifier": 0,
-    "DFADamage": 95,
-    "DFAToHitModifier": 0,
-    "DFASelfDamage": 95,
-    "DFAInstability": 95,
-    "Locations": [
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
         {
-            "Location": "Head",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 3,
-            "MaxArmor": 45,
-            "MaxRearArmor": -1,
-            "InternalStructure": 16
+          "WeaponMount": "Energy",
+          "Omni": false
         },
         {
-            "Location": "LeftArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }				
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 120,
-            "MaxRearArmor": -1,
-            "InternalStructure": 60
+          "WeaponMount": "Energy",
+          "Omni": false
         },
         {
-            "Location": "LeftTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 160,
-            "MaxRearArmor": 80,
-            "InternalStructure": 80
-        },
-        {
-            "Location": "CenterTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 14,
-            "MaxArmor": 230,
-            "MaxRearArmor": 115,
-            "InternalStructure": 115
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Ballistic",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 160,
-            "MaxRearArmor": 80,
-            "InternalStructure": 80
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }				
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 120,
-            "MaxRearArmor": -1,
-            "InternalStructure": 60
-        },
-        {
-            "Location": "LeftLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 160,
-            "MaxRearArmor": -1,
-            "InternalStructure": 80
-        },
-        {
-            "Location": "RightLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 160,
-            "MaxRearArmor": -1,
-            "InternalStructure": 80
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
-    ],
-    "LOSSourcePositions": [
-        {
-            "x": 0,
-            "y": 18,
-            "z": 1
-        },
-        {
-            "x": 4,
-            "y": 16,
-            "z": 0
-        },
-        {
-            "x": -4,
-            "y": 16,
-            "z": 0
-        }
-    ],
-    "LOSTargetPositions": [
-        {
-            "x": 0,
-            "y": 18,
-            "z": 1
-        },
-        {
-            "x": 4,
-            "y": 16,
-            "z": 0
-        },
-        {
-            "x": -4,
-            "y": 16,
-            "z": 0
-        },
-        {
-            "x": 3,
-            "y": 6,
-            "z": 0
-        },
-        {
-            "x": -3,
-            "y": 6,
-            "z": 0
-        }
-    ],
-    "VariantName": "MAD-5L",
-    "ChassisTags": {
-        "items": [],
-        "tagSetSourceFile": ""
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
     },
-    "StockRole": "Stealth & Ranged Assault",
-    "YangsThoughts": "Built for House Liao the 5L attempted to make the reliable Marauder chassis work alongside their modernized Stealth Forces."
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 14,
+      "MaxArmor": 230,
+      "MaxRearArmor": 115,
+      "InternalStructure": 115
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 18,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 16,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 18,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 16,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 6,
+      "z": 0
+    }
+  ],
+  "VariantName": "MAD-5L",
+  "ChassisTags": {
+    "items": [
+
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Stealth & Ranged Assault",
+  "YangsThoughts": "Built for House Liao the 5L attempted to make the reliable Marauder chassis work alongside their modernized Stealth Forces."
 }

@@ -70,6 +70,91 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+0989 Public alpha1
+Fixed wrong actuator restrictions on gemji
+
+0989 Public alpha1
+Removed turbine because of free heatsink bug
+Few minor fixes
+
+Preview3+2
+Patched Don Zappos mods
+Machine gun arrays
+M,A,B Pods added
+JK hero Quirks
+Patched Scorched Earth
+Patched Panic System
+2 more clan tanks
+
+
+Preview3+1
+Additional Chassis quirks finished
+Some mech's redesigned
+
+Preview3
+Doubled cost of mechdefs
+Added first Batch of Chassis Quirks
+GlobalDifficulty Patched
+patched Scorched Earth
+
+If min heatsink bug appears - remove turbine
+
+Preview2HF3
+Patched Armor Repair
+Should fix mechbay issues
+
+Preview2HF2
+All chassis cost multiplied by 10
+
+Preview2HF1
+Fixed Several typos
+
+Preview2
+Updated Scorched Earth
+Updated Panic System
+Updated ME
+
+Added new actuators to mrb shop and specials
+Set restrictions to all chassis
+Added default actuators to all mechs
+
+0989 Preview1
+Adjusted costs of all mechs
+Started implementation of arm actuators
+
+Testing required:
+All mechs get actuators
+All actuators work as intented
+Changed cost of chassis and mechs
+
+Patch7HF4
+Fixed 2 vehicles incorrect movedefs
+
+Patch7HF3
+Several minor fixes
+FS-IIC fixed
+
+Patch7HF2
+Fixed 3 missing values among cargos scales
+
+Patch7HF1
+Fixed missing comma in mechresizer
+Fixed missing primitive gear
+
+Patch7
+Update for more tanks by Cargo_Vroom
+Changed starting lance sizes again to prevent spider failstate
+
+Requires mods folder deleted during install
+
+Patch6fixes5
+Another try to fix the reported contract issues
+Improvements to the sorter
+Fixed Gauss Ammo named LRM
+Performance Fixer patched to 105
+Turbine Patched to 1.1 maybe incompatible with PerfFixer
+Will be rolled back if issues arise
+
 Patch6fixes4
 Improved sorting of nerly every item
 Will be further improved

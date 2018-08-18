@@ -16,6 +16,8 @@
 			"Type": "HeatSinkDef",
 			"Path": "engines"
 		},
+	{ "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
+    	{ "Type": "VehicleDef", "Path": "vehicle" },		
         { "Type": "WeaponDef", "Path": "weapons" },
         { "Type": "MechDef", "Path": "mech" },
         { "Type": "ChassisDef", "Path": "chassis" },

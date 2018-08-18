@@ -16,7 +16,8 @@
 			"unit_medium",
 			"unit_wheels",
 			"unit_release",
-			"unit_vehicle_carrier"
+			"unit_vehicle_carrier",
+            "unit_lance_assassin"
 		],
 		"tagSetSourceFile": ""
 	},

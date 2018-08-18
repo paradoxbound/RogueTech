@@ -1,3 +1,0 @@
-This folder is for Turbine documentation only and is deletable.
-
-Do not move the dll here.

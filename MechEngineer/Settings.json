@@ -1,5 +1,42 @@
 {
 
+    "TagRestrictionsValidateDropEnabled" : true,
+
+	"TagRestrictions": [
+	{
+		"Tag": "Gladiator",
+		"IncompatibleTags": ["Gear_MASC", "Gear_Supercharger"]
+	},
+	{
+		"Tag": "Strix",
+		"IncompatibleTags": ["Gear_Combat_Shield_Small", "Gear_Combat_Shield_Medium", "Gear_Combat_Shield"]
+	},
+	{
+		"Tag": "Echidnae",
+		"IncompatibleTags": ["Gear_PartialWing_Generic_Standard55"]
+	},
+	{
+		"Tag": "Wolfhound",
+		"IncompatibleTags": ["Gear_LAMS", "Gear_AMS"]
+	},
+	{
+		"Tag": "Catapult-K4",
+		"IncompatibleTags": ["Gear_PPC_Capacitator"]
+	},	
+	{
+		"Tag": "Joermungandr",
+		"IncompatibleTags": ["Gear_TargetingTrackingSystem_Hartford_F2400", "Gear_TargetingTrackingSystem_RCA_InstaTrac-X", "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII", "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX", "Gear_TargetingTrackingSystem_Kallon_A-C-P150+", "Gear_TargetingTrackingSystem_Kallon_A-C-1500", "Gear_TargetingTrackingSystem_Kallon_A-C-1000", "Gear_TargetingTrackingSystem_Hartford_F3000", "Gear_TargetingTrackingSystem_Hartford_F1800", "Gear_TargetingTrackingSystem_ARTIVcv"]
+	},	
+	{
+		"Tag": "ClanMech",
+		"IncompatibleTags": ["Weapon_HandyVac_Industrial_Construction_1_LaserCutter", "Weapon_HandyVac_Industrial_Construction_0_ArcWelder", "Weapon_HandyVac_Industrial_Agro_1_Chainsaw", "Weapon_HandyVac_Industrial_Agro_0_Cultivator", "Weapon_Elite_2_PlasmaTorch", "Weapon_Elite_2_LaserDrill", "Weapon_Elite_2_Jackhammer", "Weapon_Elite_2_Chainsword", "Weapon_HandyVac_Industrial_Mining_1_MiningDrill", "Weapon_HandyVac_Industrial_Mining_0_Jackhammer", "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch"]
+	},
+	{
+		"Tag": "Eris",
+		"IncompatibleTags": ["Weapon_HandyVac_Industrial_Construction_1_LaserCutter", "Weapon_HandyVac_Industrial_Construction_0_ArcWelder", "Weapon_HandyVac_Industrial_Agro_1_Chainsaw", "Weapon_HandyVac_Industrial_Agro_0_Cultivator", "Weapon_Elite_2_PlasmaTorch", "Weapon_Elite_2_LaserDrill", "Weapon_Elite_2_Jackhammer", "Weapon_Elite_2_Chainsword", "Weapon_HandyVac_Industrial_Mining_1_MiningDrill", "Weapon_HandyVac_Industrial_Mining_0_Jackhammer", "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch"]
+	}	
+	],
+
     "SaveMechDefOnMechLabConfirm" : false,
 
     "AllowMixingHeatSinkTypes" : true,
@@ -20,9 +57,20 @@
     "AutoFixStructureCategorizer" : null,
     "AutoFixMechDefStructureAdder" : null,
     "AutoFixChassisDefSlots" : null,
-    "AutoFixChassisDefSlotsChanges" : null,	
+	"AutoFixMechDefArmActuator": true,
+	"AutoFixArmActuatorCategorizer" : null,
+    "AutoFixArmActuatorSlotChange" : null,
+	"AutoFixCockpitSlotChange" : null,
+	
+    "AutoFixChassisDefSlotsChanges" :null,
 		
-    "MWOStyleDontAlowDropIfNotEnoughSpaceForDynamics" : true,		
+    "DynamicSlotsValidateDropEnabled" : true,
+    "CBTMovement" : {
+        "UseGameWalkValues" : true,
+        "JJRoundUp" : false,
+        "TTWalkMultiplier" : 25,
+        "TTSprintMultiplier" : 38
+    },	
 		
     "AutoFixChassisDefInitialTonnage" : false,
     "AutoFixChassisDefInitialToTotalTonnageFactor" : 0.1,
@@ -46,7 +94,12 @@
                 },
                 "Replace" : {
                     "ComponentDefId" : "emod_armorslots_standard"
-                }
+                },
+                "Flags" : {
+                    "Flags" : [
+                        "not_broken"
+                    ]
+                }				
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
             "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
@@ -80,7 +133,12 @@
                 },
                 "Replace" : {
                     "ComponentDefId" : "emod_structureslots_standard"
-                }
+                },
+                "Flags" : {
+                    "Flags" : [
+                        "not_broken"
+                    ]
+                }				
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
             "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
@@ -200,7 +258,12 @@
 					}
 				}				
 			]
-				}
+				},
+                "Flags" : {
+                    "Flags" : [
+                        "not_broken"
+                    ]
+                }				
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
             "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
@@ -292,7 +355,12 @@
 					}					
 				 }				
 				]
-			  }
+			  },
+                "Flags" : {
+                    "Flags" : [
+                        "not_broken"
+                    ]
+                }			  
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
             "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
@@ -359,7 +427,14 @@
                     "Order" : 4
                 },
                 "Replace" : {
-                    "ComponentDefId" : "emod_engine_dummy"
+                    "ComponentDefId" : "emod_engine_dummy",
+                    "Location" : "CenterTorso"
+                },
+                "Flags" : {
+                    "Flags" : [
+                        "engine_part",
+                        "not_broken"
+                    ]
                 }
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
@@ -376,6 +451,84 @@
             "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
             "ValidateForbidden" : "Cannot use {0} and {1} together"
         },
+        {
+            "Name" : "EngineSlots",
+            "DisplayName" : "Engine Slots",
+            "Unique" : false,
+            "UniqueForLocation" : false,
+            "Required" : false,
+            "displayName" : "Engine Slots",
+            "AllowMixTags" : true,
+            "AutoReplace" : false,
+            "ReplaceAnyLocation" : false,
+            "MaxEquiped" : -1,
+            "MaxEquipedPerLocation" : -1,
+            "MinEquiped" : 0,
+            "DefaultCustoms" : {
+                "Sorter" : {
+                    "Order" : 0
+                },
+                "Flags" : {
+                    "Flags" : [
+                        "engine_part",
+                        "not_broken",
+                        "default"
+                    ]
+                }
+            },
+            "AddAlreadyEquiped" : "{0} already installed on mech",
+            "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
+            "AddMaximumReached" : "Mech already have {1} of {0} installed",
+            "AddMaximumLocationReached" : "Mech already have {1} of {0} installed at {2}",
+            "AddMixed" : "Mech can have only one type of {0}",
+            "ValidateRequred" : "MISSING {0}: This mech must mount a {1}",
+            "ValidateMinimum" : "MISSING {0}: This mech must mount at least {2} of {1}",
+            "ValidateMixed" : "WRONG {0}: Mech can have only one type of {1}",
+            "ValidateUnique" : "EXCESS {0}: This mech can't mount more then one {1}",
+            "ValidateMaximum" : "EXCESS {0}: This mech can't mount more then {2} of {1}",
+            "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
+            "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
+            "ValidateForbidden" : "Cannot use {0} and {1} together"
+        },	
+        {
+            "Name" : "ArmActuator",
+            "DisplayName" : "Arm Actuator",
+            "Unique" : false,
+            "UniqueForLocation" : true,
+            "Required" : false,
+            "displayName" : "Arm Actuator",
+            "AllowMixTags" : true,
+            "AutoReplace" : true,
+            "ReplaceAnyLocation" : false,
+            "MaxEquiped" : -1,
+            "MaxEquipedPerLocation" : 1,
+            "MinEquiped" : 0,
+            "DefaultCustoms" : {
+                "Sorter" : {
+                    "Order" : 0
+                },
+                "Replace" : {
+                    "ComponentDefId" : "emod_arm_upper"
+                },
+                "ArmActuator" : {
+                    "AccuracyBonus" : -1,
+                    "Type" : "Hand"
+                }
+            },
+            "AddAlreadyEquiped" : "{0} already installed on mech",
+            "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
+            "AddMaximumReached" : "Mech already have {1} of {0} installed",
+            "AddMaximumLocationReached" : "Mech already have {1} of {0} installed at {2}",
+            "AddMixed" : "Mech can have only one type of {0}",
+            "ValidateRequred" : "MISSING {0}: This mech must mount a {1}",
+            "ValidateMinimum" : "MISSING {0}: This mech must mount at least {2} of {1}",
+            "ValidateMixed" : "WRONG {0}: Mech can have only one type of {1}",
+            "ValidateUnique" : "EXCESS {0}: This mech can't mount more then one {1}",
+            "ValidateMaximum" : "EXCESS {0}: This mech can't mount more then {2} of {1}",
+            "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
+            "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
+            "ValidateForbidden" : "Cannot use {0} and {1} together"
+        },		
         {
             "Name" : "LegUpgrade",
             "DisplayName" : "Leg Upgrade",

@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_Melidron",
     "Name": "Melidron",
-    "Details": "NOT DONE",
+    "Details": "Melidron is located in the rimward region of the Deep Periphery, close to the Flying Bat Nebula and the Perses-Cepherus Cloud Complex. It is uninhabited.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,28 +17,15 @@
     "items": [
       "planet_name_melidron",
       "planet_size_large",
-      "planet_climate_mars",
-      "planet_other_megaforest",
-      "planet_other_stonedcaribou",
-      "planet_other_storms",
-      "planet_feature_gasgiant",
-      "planet_feature_rings",
-      "planet_feature_moon03",
-      "planet_other_moon",
-      "planet_pop_medium",
-      "planet_other_megacity",
-      "planet_industry_poor",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_starleague",
-      "planet_other_hub",
-      "planet_other_blackmarket",
-      "planet_other_prison"
+      "planet_climate_arid",
+      "planet_pop_none",
+      "planet_civ_primitive",
+      "planet_industry_rich"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 11,
+  "JumpDistance": 12,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -101,7 +88,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 10,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -127,7 +114,7 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "martianVacuum",
+    "lowlandsCoastal",
     "badlandsParched"
   ],
   "StarType": "A",

@@ -2,7 +2,7 @@
     "Name": "VehicleImprovementProject",
     "Enabled": true,
 
-    "Version": "0.7.9",
+    "Version": "1.0.0",
     "Description": "Adds many new canon combat vehicles and variants.",
     "Author": "Cargo_Vroom",
     "Website": "twitch.tv/cargo_vroom",
@@ -12,6 +12,6 @@
 		{ "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
 		{ "Type": "VehicleDef", "Path": "vehicle" },
 		{ "Type": "MovementCapabilitiesDef", "Path": "movement" },
-		{ "Type": "AbilityDef", "Path": "newabilities" }
-    		]
+        	{ "Type": "LanceDef", "Path": "lances" }
+    	]
 }

@@ -41,7 +41,7 @@
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "Target Painter|",
-    "BonusValueB" : "Range Variance.",
+    "BonusValueB" : "Damage Falloff.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Laser",

@@ -15,7 +15,8 @@
          "unit_vehicle",
          "unit_heavy",
          "unit_tracks",
-		 "unit_release"
+		 "unit_release",
+         "unit_lance_support"
       ],
       "tagSetSourceFile": ""
    },
@@ -98,7 +99,7 @@
          "MountedLocation" : "Front",
 		 "HardpointSlot" : -1,
 		 "DamageLevel" : "Functional"
-      }
+      },
       {
          "ComponentDefID" : "Ammo_AmmunitionBox_Generic_SRM",
          "ComponentDefType" : "AmmunitionBox",

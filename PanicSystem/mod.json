@@ -55,6 +55,10 @@
     "StressedToHitModifier": -1,
     "PanickedAimModifier": 2,
     "PanickedToHitModifier": -2,
+	
+	"UnsettledPanicModifier": 1,
+	"StressedPanicModifier" : 1.2,
+	"PanickedPanicModifier" : 1.5,
 
 	/* Critical Panic */
 	"MechHealthAlone": 25,     /* minimum health for 'Alone' last straw */

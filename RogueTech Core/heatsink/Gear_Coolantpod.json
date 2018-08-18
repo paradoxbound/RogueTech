@@ -1,0 +1,90 @@
+{
+
+	"Custom": {
+		"ComponentExplosion": { "HeatDamage": 20, "ExplosionDamage": 15, "StabilityDamage": 15 }
+	},
+
+    "DissipationCapacity" : 4,
+    "Description" : {
+        "Cost" : 80000,
+        "Rarity" : 5,
+        "Purchasable" : true,
+        "Manufacturer" : "Achernar",
+        "Model" : "Prototype Coolant",
+        "UIName" : "Heat Sink Cooling Pod",
+        "Id" : "Gear_Coolantpod",
+        "Name" : "Coolant Pod",
+        "Details" : "Virtually a self-contained emergency Coolant Truck, the Coolant Pod contains a reserve of compressed freon which can be flushed directly into the attached 'Mechs coolant system. Coolant pods are highly susceptible to weapons fire and explode if struck. <b><color=#099ff2>VOLATILE!</color></b>. Does Stack.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 4 Heat / Turn",
+    "BonusValueB" : "- 3% heat generated",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Heat_Coolant",
+                "Name" : "HEAT GENERATION DECREASED",
+                "Details" : "Cooland Pod Active",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "HeatGenerated",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.97",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }		
+	],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

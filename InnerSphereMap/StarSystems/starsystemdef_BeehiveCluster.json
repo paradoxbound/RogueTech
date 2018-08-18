@@ -2,7 +2,7 @@
   "Description": {
     "Id": "starsystemdef_BeehiveCluster",
     "Name": "Beehive Cluster",
-    "Details": "NOT DONE",
+    "Details": "The Beehive Cluster is a stellar cluster containing hundreds of stars and is located a little over 800 light-years from Terra. The Beehive Cluster lies on theborder of the huge Perseus-Cepherus Cloud Complex and is still largely unexplored.",
     "Icon": "",
     "Cost": 0,
     "Rarity": 0,
@@ -17,31 +17,16 @@
     "items": [
       "planet_name_beehivecluster",
       "planet_size_large",
-      "planet_climate_water",
-      "planet_other_volcanic",
-      "planet_other_mudflats",
-      "planet_other_floatingworld",
-      "planet_other_stonedcaribou",
-      "planet_feature_moon03",
-      "planet_other_moon",
+      "planet_climate_lunar",
       "planet_pop_none",
-      "planet_other_megacity",
       "planet_civ_primitive",
       "planet_industry_rich",
-      "planet_industry_recreation",
-      "planet_industry_mining",
-      "planet_industry_agriculture",
-      "planet_industry_aquaculture",
-      "planet_industry_research",
-      "planet_industry_manufacturing",
-      "planet_other_hub",
-      "planet_other_newcolony",
-      "planet_other_prison"
+      "planet_ruins"
     ],
     "tagSetSourceFile": ""
   },
   "FuelingStation": false,
-  "JumpDistance": 8,
+  "JumpDistance": 12,
   "Owner": "Locals",
   "ShopRefreshRate": 0,
   "ShopMaxInventory": 0,
@@ -104,7 +89,7 @@
       "Influence": 0
     }
   ],
-  "Difficulty": 7,
+  "Difficulty": 2,
   "TravelRequirements": [
     {
       "Scope": "Company",
@@ -130,10 +115,10 @@
     "tagSetSourceFile": ""
   },
   "SupportedBiomes": [
-    "lowlandsCoastal",
-    "highlandsSpring"
+    "lunarVacuum",
+    "martianVacuum"
   ],
-  "StarType": "G",
+  "StarType": "A",
   "ContractEmployers": [
     "Locals",
     "Locals"

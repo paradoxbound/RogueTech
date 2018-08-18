@@ -8,7 +8,7 @@
 		"Rarity" : 3,
 		"Purchasable" : false
 	},
-	"MovementCapDefID" : "movedef_HARASSER-B",
+	"MovementCapDefID" : "movedef_10-15cv",
    	"PathingCapDefID" : "pathingdef_light_tracked",
    	"HardpointDataDefID" : "hardpointdatadef_striker",
 	"PrefabIdentifier" : "chrPrfVhcl_striker",

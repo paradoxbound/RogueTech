@@ -96,7 +96,7 @@
 		 "DamageLevel" : "Functional"
       },
       {
-         "ComponentDefID": "Gear_VehicleECMcv",
+         "ComponentDefID": "Gear_Guardian_ECM",
          "ComponentDefType": "Upgrade",
 		 "MountedLocation": "Front",
          "HardpointSlot": -1,

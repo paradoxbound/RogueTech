@@ -1,217 +1,294 @@
 {
-    "Description": {
-        "Cost": 780000,
-        "Rarity": 4,
-        "Purchasable": true,
-        "Manufacturer": "",
-        "Model": "",
-        "UIName": "Awesome",
-        "Id": "chassisdef_awesome_AWS-8Qb",
-        "Name": "Awesome",
-        "Details": "A barely known prototype upgrade for the SLDF Royal forces, the 8Qb features 4 ER PPC and advanced targeting system's able to deliver a precise blow at maximum ranges.",
-        "Icon": "uixTxrIcon_awesome"
+"Custom": {
+	"ArmActuatorSupport": {
+      "RightLimit": "Lower"
     },
-    "MovementCapDefID": "movedef_awesome_AWS-8Q",
-    "PathingCapDefID": "pathingdef_assault",
-    "HardpointDataDefID": "hardpointdatadef_awesome",
-    "PrefabIdentifier": "chrPrfMech_awesomeBase-001",
-    "PrefabBase": "awesome",
-    "Tonnage": 80,
-    "InitialTonnage": 8,
-    "weightClass": "ASSAULT",
-    "BattleValue": 7718000,
-    "Heatsinks": 0,
-    "TopSpeed": 105,
-    "TurnRadius": 90,
-    "MaxJumpjets": 3,
-    "Stability": 100,
-    "StabilityDefenses": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-    ],
-    "SpotterDistanceMultiplier": 1,
-    "VisibilityMultiplier": 1,
-    "SensorRangeMultiplier": 1,
-    "Signature": 0,
-    "Radius": 8,
-    "PunchesWithLeftArm": true,
-    "MeleeDamage": 120,
-    "MeleeInstability": 80,
-    "MeleeToHitModifier": 0,
-    "DFADamage": 100,
-    "DFAToHitModifier": 0,
-    "DFASelfDamage": 100,
-    "DFAInstability": 100,
-    "Locations": [
+  "ChassisQuirks": {
+    "statusEffects": [
+      	         {
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : true,
+				"showInStatusPanel" : true
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Royal1",
+				"Name" : "SLDF Royal",
+				"Details" : "Royal BattleMech's have improved Heat Management",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+            "statName": "EndMoveHeat",
+            "operation": "Int_Subtract",
+            "modValue": "6",
+            "modType": "System.Int32"
+			},
+			"nature" : "Buff"
+		},
+		{
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Royal2",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+                "statName" : "HeatGenerated",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.95",
+                "modType" : "System.Single",
+			},
+			"nature" : "Buff"
+		},			
+    ]
+  }
+},
+  "Description": {
+    "Cost": 10592060,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Awesome",
+    "Id": "chassisdef_awesome_AWS-8Qb",
+    "Name": "Awesome",
+    "Details": "A barely known prototype upgrade for the SLDF Royal forces, the 8Qb features 4 ER PPC and advanced targeting system's able to deliver a precise blow at maximum ranges.",
+    "Icon": "uixTxrIcon_awesome"
+  },
+  "MovementCapDefID": "movedef_awesome_AWS-8Q",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_awesome",
+  "PrefabIdentifier": "chrPrfMech_awesomeBase-001",
+  "PrefabBase": "awesome",
+  "Tonnage": 80,
+  "InitialTonnage": 8,
+  "weightClass": "ASSAULT",
+  "BattleValue": 7718000,
+  "Heatsinks": 0,
+  "TopSpeed": 105,
+  "TurnRadius": 90,
+  "MaxJumpjets": 3,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 120,
+  "MeleeInstability": 80,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 100,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 100,
+  "DFAInstability": 100,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
         {
-            "Location": "Head",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 3,
-            "MaxArmor": 45,
-            "MaxRearArmor": -1,
-            "InternalStructure": 16
-        },
-        {
-            "Location": "LeftArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-				{"WeaponMount": "AntiPersonnel","Omni": false}
-			],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 130,
-            "MaxRearArmor": -1,
-            "InternalStructure": 65
-        },
-        {
-            "Location": "LeftTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 170,
-            "MaxRearArmor": 85,
-            "InternalStructure": 85
-        },
-        {
-            "Location": "CenterTorso",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 14,
-            "MaxArmor": 250,
-            "MaxRearArmor": 125,
-            "InternalStructure": 125
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 12,
-            "MaxArmor": 170,
-            "MaxRearArmor": 85,
-            "InternalStructure": 85
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-				{"WeaponMount": "AntiPersonnel","Omni": false}
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 130,
-            "MaxRearArmor": -1,
-            "InternalStructure": 65
-        },
-        {
-            "Location": "LeftLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 170,
-            "MaxRearArmor": -1,
-            "InternalStructure": 85
-        },
-        {
-            "Location": "RightLeg",
-            "Hardpoints": [],
-            "Tonnage": 0,
-            "InventorySlots": 2,
-            "MaxArmor": 170,
-            "MaxRearArmor": -1,
-            "InternalStructure": 85
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
-    ],
-    "LOSSourcePositions": [
-        {
-            "x": 0,
-            "y": 14,
-            "z": 0
-        },
-        {
-            "x": 4,
-            "y": 15,
-            "z": -1
-        },
-        {
-            "x": -4,
-            "y": 15,
-            "z": -1
-        }
-    ],
-    "LOSTargetPositions": [
-        {
-            "x": 0,
-            "y": 14,
-            "z": 0
-        },
-        {
-            "x": 4,
-            "y": 15,
-            "z": -1
-        },
-        {
-            "x": -4,
-            "y": 15,
-            "z": -1
-        },
-        {
-            "x": 3.5,
-            "y": 5.5,
-            "z": 1
-        },
-        {
-            "x": -3.5,
-            "y": 5.5,
-            "z": 1
-        }
-    ],
-    "VariantName": "AWS-8Qb",
-    "ChassisTags": {
-        "items": [],
-        "tagSetSourceFile": ""
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 3,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
     },
-    "StockRole": "Heavy Sniper & Defender",
-    "YangsThoughts": "A barely known prototype upgrade for the SLDF Royal forces, the 8Qb features 4 ER PPC and advanced targeting system's able to deliver a precise blow at maximum ranges."
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 130,
+      "MaxRearArmor": -1,
+      "InternalStructure": 65
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 170,
+      "MaxRearArmor": 85,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 14,
+      "MaxArmor": 250,
+      "MaxRearArmor": 125,
+      "InternalStructure": 125
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 170,
+      "MaxRearArmor": 85,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 11,
+      "MaxArmor": 130,
+      "MaxRearArmor": -1,
+      "InternalStructure": 65
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [
+
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 2,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "AWS-8Qb",
+  "ChassisTags": {
+    "items": [
+
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Sniper & Defender",
+  "YangsThoughts": "A barely known prototype upgrade for the SLDF Royal forces, the 8Qb features 4 ER PPC and advanced targeting system's able to deliver a precise blow at maximum ranges."
 }
