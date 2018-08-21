@@ -22,7 +22,7 @@
     "UIName": "Thunderbolt TDR-IIC",
     "Id": "mechdef_thunderbolt_TDR-IIC",
     "Name": "Thunderbolt",
-    "Details": "A ClanTech Thunderbolt bringing barrages of Thunder and Lighting.",
+    "Details": "A ClanTech Thunderbolt bringing barrages of Thunder and Lighting. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_thunderbolt"
   },
   "simGameMechPartCost": 760000,

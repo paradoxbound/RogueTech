@@ -1,6 +1,6 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamage": 80 } },
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 60 } },
 
     "Category" : "Missile",
     "Type" : "LRM",
@@ -27,7 +27,7 @@
     "IndirectFireCapable" : true,
     "RefireModifier" : 2,
     "ShotsWhenFired" : 30,
-    "ProjectilesPerShot" : 1,
+    "ProjectilesPerShot" : 2,
     "AttackRecoil" : 1,
     "Instability" : 1,
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM20",

@@ -1,19 +1,29 @@
 ﻿{
     "Name": "CrystalClear",
-    "Version": "1.1",
+    "Version": "1.3",
     "Enabled": true,
 
     "DLL": "CrystalClear.dll",
 
     "Settings": {
-        "Grain": false,
-        "Dithering": false,
-        "Bloom": false,
-        "Shadows": true,
-        "ChromaticAberration": false,
-        "EyeAdaptation": false,
-        "Fog": false,
-        "ColorGrading": false,
-		"HDR": true
+        "Grain": false,                 /* reduces clarity when enabled */
+        "Dithering": false,             /* reduces clarity when enabled */
+        "Vignette": true,               /* darkens the edges of the scene */
+        "Bloom": false,                  /* makes light sources overblown when enabled */
+        "Shadows": true,                /* can fully disable */
+        "ChromaticAberration": false,    /* unsure if used.  it should appear as green/purple edge tinting */
+        "EyeAdaptation": false,          /* simulates pupil dilation response */
+        "Fog": false,                   /* setting to true makes everywhere foggy */
+        "ColorGrading": false,           /* unsure */
+        "AmbientOcclusion": true,       /* looks so good I wouldn't disable it */
+        "Taa": true,                    /* temporal antialiasing aka MFAA - good fidelity */
+        "DepthOfField": false,           /* stuff at different distances is focused differently (blurred) */
+        "Fxaa": true,                   /* almost-free light anti-aliasing */
+        "HDR": true,                    /* renderer is expecting this to be on but works without */
+        "Grunge": false,                 /* dirty UI */
+        "Scanlines": false,              /* scanline animation on UI */
+
     }
 }
+
+

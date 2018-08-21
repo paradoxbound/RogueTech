@@ -23,7 +23,7 @@
     "UIName": "Stingray SYU-1X",
     "Id": "mechdef_stingray_SYU-1X",
     "Name": "Stingray",
-    "Details": "The Stingray is a Capellan prototype based on the Raven. Carrying advanced stealth gear and twin Plasma rifles, is it capable of delivering a deadly blow at short ranges.",
+    "Details": "The Stingray is a Capellan prototype based on the Raven. Carrying advanced stealth gear and twin Plasma rifles, is it capable of delivering a deadly blow at short ranges. <b><color=#009933>Quirk: Harasser</color></b>",
     "Icon": "uixTxrIcon_jenner"
   },
   "simGameMechPartCost": 400000,

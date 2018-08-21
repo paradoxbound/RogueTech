@@ -1,0 +1,14 @@
+{
+	"Name": "Clan Tank Module",
+	"Author": "Cargo_Vroom",
+	"Website": "",
+
+	"Enabled": true,
+	"DependsOn": ["CustomComponents", "MechEngineer", "ClanTech Module"],
+
+
+	"Manifest": [
+		{ "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
+    	{ "Type": "VehicleDef", "Path": "vehicle" }
+	]
+}

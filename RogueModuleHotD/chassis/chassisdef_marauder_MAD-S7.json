@@ -21,14 +21,14 @@
 			{
 				"Id" : "Champion",
 				"Name" : "Solaris Champion",
-				"Details" : "Chassis has experimental Gauss support",
+				"Details" : "Chassis has experimental Gauss & PPC Capacitators",
 				"Icon" : "uixSvgIcon_skullAtlas"
 			},
 			"statisticData" : 
 			{
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.1",
+                "modValue" : "1.2",
                 "modType" : "System.Single",			
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -68,7 +68,7 @@
 			},
 			"nature" : "Buff"
 		},
-		{
+      	         {
             "durationData" : {
             },
             "targetingData" : {
@@ -81,21 +81,19 @@
 			"effectType" : "StatisticEffect",
 			"Description" :
 			{
-				"Id" : "ghostback2",
-				"Name" : "ChargerSprint",
-				"Details" : "MORE SPEED.",
+				"Id" : "champion3",
+				"Name" : "Field Refit",
+				"Details" : "Chassis has improper fitted Prototype Gauss",
 				"Icon" : "uixSvgIcon_skullAtlas"
 			},
 			"statisticData" : 
 			{
-                "statName" : "DamagePerShot",
-                "operation" : "Float_Multiply",
-                "modValue" : "1.1",
-                "modType" : "System.Single",
+                "statName" : "AccuracyModifier",
+                "operation" : "Int_Add",
+                "modValue" : "-2",
+                "modType" : "System.Int32",
                 "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Ballistic",
-                "targetWeaponType" : "Gauss",
-                "targetWeaponSubType" : "Gauss"				
+                "targetWeaponSubType" : "PPC"
 			},
 			"nature" : "Buff"
 		},
@@ -112,21 +110,46 @@
 			"effectType" : "StatisticEffect",
 			"Description" :
 			{
-				"Id" : "ghostback2",
+				"Id" : "champion4",
 				"Name" : "ChargerSprint",
 				"Details" : "MORE SPEED.",
 				"Icon" : "uixSvgIcon_skullAtlas"
 			},
 			"statisticData" : 
 			{
-                "statName" : "Instability",
+                "statName" : "DamagePerShot",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.1",
+                "modValue" : "1.2",
                 "modType" : "System.Single",
                 "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Ballistic",
-                "targetWeaponType" : "Gauss",
-                "targetWeaponSubType" : "Gauss"				
+                "targetWeaponSubType" : "PPC"
+			},
+			"nature" : "Buff"
+		},
+		{
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "champion5",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+                "statName" : "DamageReductionMultiplierAll",
+                "operation" : "Float_Add",
+                "modValue" : "-0.15",
+                "modType" : "System.Single"
 			},
 			"nature" : "Buff"
 		}		
@@ -142,7 +165,7 @@
     "UIName": "Marauder",
     "Id": "chassisdef_marauder_MAD-S7",
     "Name": "Marauder",
-    "Details": "Mad... MAD I tell you! This Marauder Variant was exclusively designed for the Deadly Sins stable on Solaris VII and has specialised support systems for Gauss Weapons.",
+    "Details": "MAD-ness! This Marauder Variant was exclusively designed for the Deadly Sins stable on Solaris VII and has specialised support systems for Gauss & PPC Weapons. <b><color=#009933>Quirk: Solaris Champion - Improved Gauss&PPC</color></b>",
     "Icon": "uixTxrIcon_marauder"
   },
   "MovementCapDefID": "movedef_marauder_MAD-3R",
@@ -503,10 +526,10 @@
   "VariantName": "MAD-S7",
   "ChassisTags": {
     "items": [
-
+	"Marauder-S7"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Elite Battlemech",
-  "YangsThoughts": "Mad... MAD I tell you! This Marauder Variant was exclusively designed for the Deadly Sins stable on Solaris VII and has specialised support systems for Gauss Weapons."
+  "YangsThoughts": "MAD-ness! This Marauder Variant was exclusively designed for the Deadly Sins stable on Solaris VII and has specialised support systems for Gauss & PPC Weapons. <b><color=#009933>Quirk: Solaris Champion - Improved Gauss&PPC</color></b>"
 }

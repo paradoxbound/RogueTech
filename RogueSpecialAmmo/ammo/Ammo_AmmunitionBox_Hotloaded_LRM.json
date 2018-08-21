@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "LRMAmmo"}, "Tag" : "Hotloaded", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 5, "StabilityDamagePerAmmo": 1 } },
+	"Custom" :  {"Category" : { "CategoryID" : "LRMAmmo"}, "Tag" : "Hotloaded", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 5, "StabilityDamagePerAmmo": 2 } },
 
     "AmmoID" : "Ammunition_LRM",
     "Capacity" : 100,
@@ -16,8 +16,8 @@
         "Details" : "Hotloaded LRM reduce the minimum range of their launchers but makes them less reliable. Hotloaded LRM Ammo Bins each contain <b><color=#F79232>100 rounds</color></b>. Provides a buff to all your ammo of the same type.",
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
-    "BonusValueA" : "-90MinRange|",
-    "BonusValueB" : "-1Accuracy",
+    "BonusValueA" : "-180MinRange",
+    "BonusValueB" : "",
     "ComponentType" : "AmmunitionBox",
     "ComponentSubType" : "Ammunition",
     "PrefabIdentifier" : "",
@@ -28,43 +28,6 @@
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [
-			{
-			"durationData" :
-			{
-				"duration" : -1,
-                "stackLimit" : 1				
-			},
-			"targetingData" : 
-			{
-				"effectTriggerType" : "Passive",
-				"effectTargetType" : "Creator",
-                "showInStatusPanel" : true				
-			},
-			"effectType" : "StatisticEffect",
-			"Description" :
-			{
-				"Id" : "HLLRM1",
-				"Name" : "Hotloaded LRM",
-				"Details" : "This unit fires Hotloaded LRM's.",
-				"Icon" : "uixSvgIcon_action_evasivemove"
-			},
-			"statisticData" : 
-			{
-                "appliesEachTick" : false,
-                "effectsPersistAfterDestruction" : false,
-                "statName" : "AccuracyModifier",
-                "operation" : "Float_Add",
-                "modValue" : "1.0",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "LRM",
-                "targetAmmoCategory" : "LRM",
-                "targetWeaponSubType" : "NotSet"				
-			},		
-			"nature" : "Buff"
-		},
 		{
 			"durationData" :
 			{
@@ -88,7 +51,7 @@
 			{
 				"statName" : "MinRange",
 				"operation" : "Float_Add",
-				"modValue" : "-90.0",
+				"modValue" : "-180.0",
 				"modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",

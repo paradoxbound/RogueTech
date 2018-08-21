@@ -20,7 +20,7 @@
     "UIName": "JagerMech JM7-F",
     "Id": "mechdef_jagermech_JM7-F",
     "Name": "JagerMech",
-    "Details": "The JagerMech 7F has been upgraded to carry twin Rotary Autocannon/5s, providing ranged fire support only surpassed by Assault class Battlemechs.",
+    "Details": "The JagerMech 7F has been upgraded to carry twin Rotary Autocannon/5s, providing ranged fire support only surpassed by Assault class Battlemechs. <b><color=#009933>Quirk: FLAK AC</color></b>",
     "Icon": "uixTxrIcon_jagermech"
   },
   "simGameMechPartCost": 790000,

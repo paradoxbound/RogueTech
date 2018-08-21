@@ -1,0 +1,27 @@
+{
+    "Name": "RogueTanks Core",
+    "Enabled": true,
+
+    "Version": "1.2.1",
+    "Description": "Basic Tanks and vanilla fixers - Core Module",
+    "Author": "LadyAlekto and Cargo Vroom",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+	
+				"DependsOn": [ "RogueModuleTech", "CustomComponents"],
+
+    "Manifest": [
+		{ "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
+    	{ "Type": "VehicleDef", "Path": "vehicle" },
+		{ "Type": "MovementCapabilitiesDef", "Path": "tankmovement" },		
+    ]
+	
+	
+	
+
+    
+
+		
+
+	
+}

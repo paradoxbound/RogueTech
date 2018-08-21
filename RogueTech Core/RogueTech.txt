@@ -70,7 +70,115 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
-0989 Public alpha1
+0989 Patch4fix1
+Fixed roguetankscore issues
+a few upgrades to quirks descriptions on chassis
+(early because of bugfix)
+
+0989 Patch4
+Butterbee quirk changed to 20% damage
+Ultra and Rotary AC's got ammo restricted except for Caseless
+Caseless bug fixed to apply penalty to RAC's
+Heavy/Light/HA Gauss restrict ammo
+HAGR's buffed
+Pirate Locust quirk switched to 50% Dmg instead of RoF
+Panic System patched to 3.0
+
+Now finished the ammo restrictions released too early alongside gamebreaker fixes
+
+
+0989 Patch3hf1
+Fixed Artemis IV appearance in shops
+Fixed Some Stability Values
+
+0989 Patch3
+ATM disallow equipping spcial LRM ammo and TTS
+Fixed typo for new lances preventing load
+
+0989 Patch2
+Gave the A5-HAT its hands back (oops)
+Improvements to filestructure
+Merged LadyAlektos and Cargo_Vrooms lances into a new core module
+Made a Tanks core module combining Cargo_Vrooms and JK's vanilla fixes and base tank additions
+Made New Tanks Options for the Installer
+
+0989 Patch1
+Indirect fire Damage Penalty removed
+Added ArtemisIV Ammo, exclusively working with Artemis IV TTS
+Streaks disable using Alternate SRM Ammo and TTS
+Joergumandr reduced to +3 Missiles Accuracy
+May use Artemis System now
+
+Gamebreaker bugfix:
+Fixed convoy mission lance generation not properly importing
+
+0989 Release
+Updated Mechenginner
+
+Mechs now have Chassis Quirks
+Mechs now have Arm Actuators and some are restricted
+
+
+JK Variants tanks fixed
+includes Cargo_Vrooms Better defense missions
+Tanks added to the Clan Module
+New Weapons
+New Gear
+Reworked Chassis and Mech Costs
+Some small balance changes
+Increased Amount of Shop Specials by default and in options
+
+Patched:
+Panic System
+Vehicle Improvement Project
+Pilot Quirks and its parts
+Turbine
+Performance Fixer
+Scorched Earth
+Crystal Clear
+GlobalDifficulty
+
+Now autoenables debug menu
+
+
+0989 Public alpha2+3
+Finished Quirks and descriptions
+Changed Quirk description Colour
+JK Variants tanks fixed
+
+
+0989 Public alpha2+2
+Vastly increased Choice for ShopSpecials
+Gives more chances to generate special items like fusion cores or special gear
+VIP Patched
+Patched Panic system
+Updated QuietDarius to use Janxious new version
+Next Batch Quirks Finished: "Prototypes"
+Fixed Size of Arm Weapon Actuators
+Tweaked ArtemisIV: Exclusive missile TTS without indirect Penalty
+
+
+
+0989 Public alpha2+1
+Patched Performance Fixer
+More Quirks added to chassis descriptions
+Another ClanTank
+
+0989 Public alpha2
+Mechengineer now displays ui names on restrictions
+
+Aim Patched to 2.1 release
+
+Re-included turbine
+Patched CC to circumvent Heatsink bug
+
+Patched Crystal Clear to 1.4
+
+Half of all Mechs received "Quirk:QuirkID" in description
+
+Now includes BetterBaseDefense by Cargo_Vroom
+
+0989 Public alpha1 hf1
 Fixed wrong actuator restrictions on gemji
 
 0989 Public alpha1

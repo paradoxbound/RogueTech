@@ -72,7 +72,7 @@
     "UIName": "Catapult",
     "Id": "chassisdef_catapult_CPLT-1R",
     "Name": "Catapult",
-    "Details": "The Catapult 1R retrofit arose from a shortage of Materials and proper factories, it still carries 2 impressive Thunderbolt 15 Cruise Missiles, though.",
+    "Details": "The Catapult 1R retrofit arose from a shortage of Materials and proper factories, it still carries 2 impressive Thunderbolt 15 Cruise Missiles, though. <b><color=#009933>Quirk: Primitive - Impaired Movement</color></b>",
     "Icon": "uixTxrIcon_catapult"
   },
   "MovementCapDefID": "movedef_catapult_CPLT-C1",
@@ -279,5 +279,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Fire Support",
-  "YangsThoughts": "The Catapult 1R retrofit arose from a shortage of Materials and proper factories, it still carries 2 impressive Thunderbolt 15 Cruise Missiles, though."
+  "YangsThoughts": "The Catapult 1R retrofit arose from a shortage of Materials and proper factories, it still carries 2 impressive Thunderbolt 15 Cruise Missiles, though. <b><color=#009933>Quirk: Primitive - Impaired Movement</color></b>"
 }

@@ -1,1 +1,0 @@
-[Visual only] - Some items will stop being dragged early, upon releasing the mouse they will be correctly added at the location pointed to.

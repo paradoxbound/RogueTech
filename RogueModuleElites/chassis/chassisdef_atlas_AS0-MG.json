@@ -21,19 +21,19 @@
             "Description" : {
                 "Id" : "Jormungandr",
                 "Name" : "Artemis V",
-                "Details" : "Chassis has +5 Missile Accuracy",
+                "Details" : "Chassis has +3 Missile Accuracy",
                 "Icon" : "uixSvgIcon_skullAtlas"
             },
             "nature" : "Buff",
             "statisticData" : {
                 "statName" : "AccuracyModifier",
                 "operation" : "Float_Add",
-                "modValue" : "-5.0",
+                "modValue" : "-3.0",
                 "modType" : "System.Single",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Missile"
             }
-        },		
+        }		
     ]
   }
 },
@@ -47,7 +47,7 @@
     "UIName": "Joermungandr",
     "Id": "chassisdef_atlas_AS0-MG",
     "Name": " Joermungandr",
-    "Details": "Joermungandr named for the great 'Midgard Serpent' that will herald Ragnarok and bring an end to the Gods, does this 'Mech herald a rain of Fire and Death.",
+    "Details": "Joermungandr named for the great 'Midgard Serpent' that will herald Ragnarok and bring an end to the Gods, does this 'Mech herald a rain of Fire and Death. <b><color=#009933>Quirk: Artemis V - Improved Missile Accuracy</color></b>",
     "Icon": "uixTxrIcon_atlas"
   },
   "MovementCapDefID": "movedef_atlas_AS7-D",
@@ -397,5 +397,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Elite Battlemech",
-  "YangsThoughts": "Joermungandr named for the great 'Midgard Serpent' that will herald Ragnarok and bring an end to the Gods, does this 'Mech herald a rain of Fire and Death."
+  "YangsThoughts": "Joermungandr named for the great 'Midgard Serpent' that will herald Ragnarok and bring an end to the Gods, does this 'Mech herald a rain of Fire and Death. <b><color=#009933>Quirk: Artemis V - Improved Missile Accuracy</color></b>"
 }

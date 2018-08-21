@@ -72,7 +72,7 @@
     "UIName": "Hector",
     "Id": "chassisdef_hector_HOR-1B",
     "Name": "Hector",
-    "Details": "The Marauder was first built by General Motors in 2612 for use as an attack and direct fire support BattleMech. The first 'Mech to diverge from the traditional humanoid shape of previous machines, the Marauder was one of the most well-known 'Mechs in existence and originally meant to usher in a new generation of 'Mechs. Unfortunately, with the fall of the Star League, this new generation never quite materialized. On its own merits though, the Marauder was a devastatingly powerful 'Mech, outclassed only by larger machines like the Stalker and BattleMaster.",
+    "Details": "The second BattleMech model introduced by the Free Worlds League, the Hector entered service in 2471, only one year after the original Icarus. Built by Corean Enterprises on Stewart, it used a simple design suited for mass production and quickly became the workhorse of the Free Worlds League. <b><color=#009933>Quirk: Primitive - Impaired Movement</color></b>",
     "Icon": "uixTxrIcon_marauder"
   },
   "MovementCapDefID": "movedef_marauder_MAD-3R",
@@ -280,5 +280,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Sniper & Ranged Assault",
-  "YangsThoughts": "Mad... MAD I tell you!"
+  "YangsThoughts": "The second BattleMech model introduced by the Free Worlds League, the Hector entered service in 2471, only one year after the original Icarus. Built by Corean Enterprises on Stewart, it used a simple design suited for mass production and quickly became the workhorse of the Free Worlds League. <b><color=#009933>Quirk: Primitive - Impaired Movement</color></b>"
 }

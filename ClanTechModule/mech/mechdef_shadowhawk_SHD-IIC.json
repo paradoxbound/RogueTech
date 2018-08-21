@@ -23,7 +23,7 @@
     "UIName": "Shadowhawk SHD-IIC",
     "Id": "mechdef_shadowhawk_SHD-IIC",
     "Name": "Shadowhawk",
-    "Details": "A Clan Tech Shadowhawk.",
+    "Details": "A Clan Tech Shadowhawk. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_shadowhawk"
   },
   "simGameMechPartCost": 620000,

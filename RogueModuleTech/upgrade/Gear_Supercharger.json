@@ -10,7 +10,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Deadly Sins",
         "Model" : "Supercharger",
-        "UIName" : "SuperCharger",
+        "UIName" : "Supercharger",
         "Id" : "Gear_Supercharger",
         "Name" : "Supercharger",
         "Details" : "The supercharger allows a 'Mech to exceed its normal engine output, increasing walk and run distance at the cost of higher heat generation. <b><color=#099ff2>INSTABILITY WHEN DESTROYED!</color></b> Some superstitious believe it causes the common cold.",

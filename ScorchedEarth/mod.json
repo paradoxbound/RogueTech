@@ -1,7 +1,8 @@
 ﻿{
     "Name": "ScorchedEarth",
-    "Version": "1.432",
+    "Version": "1.52",
     "Enabled": true,
+    "Author": "gnivler",
 
     "DLL": "ScorchedEarth.dll",
 }

@@ -309,8 +309,8 @@
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "SRM",
-                "targetAmmoCategory" : "SRM",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",
                 "targetWeaponSubType" : "NotSet"
             },
             "tagData" : null,

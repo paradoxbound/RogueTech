@@ -70,7 +70,7 @@
   "LOSBlockedPreDotted": false,
   "LOSBlockedPostDotted": false,
 
-  /* Change fire line colour (html syntax). "#FF0000" is red, "#00FF00" is green etc.  Set to null to leave alone.
+  /* Change fire line colour (html syntax). "#FF0000" is red, "#00FF00" is green etc.  Set to empty to leave alone.
    * The colour orders are Front, Left, Right, Back, Prone.  Set to empty string to use game default. */
 
   "LOSMeleeColors": ",#0FF,#0FF,#0F8,#F00",
@@ -131,20 +131,20 @@
   "CalledChanceFormat": "{0:0.0}%",
 
   //
-  // To Hit Modifiers
+  // Individual To Hit Modifiers
   //
 
-  /* Specify set of hit modifiers of ranged attacks. Leave empty to keep it unchanged.  Order and letter case does not matter.
-   * Default "ArmMounted, Direction, Height, Indirect, Inspired, Jumped, LocationDamage, Obstruction, Precision, Range, Refire, SelfHeat, SelfStoodUp, SelfTerrain, SensorImpaired, SensorLock, Sprint, TargetEffect, TargetEvasion, TargetProne, TargetShutdown, TargetSize, TargetTerrain, Walked, WeaponAccuracy, WeaponDamage".
-   * You can remove some options or replace SelfTerrain and TargetTerrain with SelfTerrainMelee and TargetTerrainMelee. */
+  /* Modify base weapon hit chance.  -0.05 to make all base accuracy -5%, 0.1 to make them +10% etc.  Default 0. */
 
-  "RangedAccuracyFactors": "ArmMounted, Direction, Height, Indirect, Inspired, Jumped, Obstruction, Precision, Range, Refire, SelfHeat, SelfStoodUp, SelfTerrain, SensorImpaired, SensorLock, Sprint, TargetEffect, TargetEvasion, TargetProne, TargetShutdown, TargetSize, TargetTerrain, Walked, WeaponAccuracy, WeaponDamage",
+  "BaseHitChanceModifier": 0.0,
 
-  /* Specify set of hit modifiers of melee and DFA attacks. Leave empty to keep it unchanged.  Order and letter case does not matter.
-   * Default "Direction, DFA, Height, Inspired, Jumped, SelfChassis, SelfHeat, SelfStoodUp, SelfTerrainMelee, Sprint, TargetEffect, TargetEvasion, TargetProne, TargetShutdown, TargetSize, TargetTerrainMelee, Walked, WeaponAccuracy".
-   * Other options are ArmMounted, Obstruction, Refire, SelfTerrain, SensorImpaired, TargetTerrain. */
+  /* Modify base melee hit chance.  -0.05 to make all melee and DFA accuracy -5%, 0.1 to make them +10% etc.  Default 0. */
 
-  "MeleeAccuracyFactors": "DFA,SelfTerrain,TargetTerrain,Inspired,SelfChassis,SelfHeat,SelfStoodUp,Walked,Sprint,TargetEffect,TargetEvasion,TargetProne,TargetShutdown,TargetSize,TargetTerrainMelee,WeaponAccuracy",
+  "MeleeHitChanceModifier": 0.0,
+
+  /* Allow attacks from low ground to high ground to incur accuracy penalty.  Default true. */
+
+  "AllowLowElevationPenalty": true,
 
   /* Directional to hit modifiers.  Effective only if "Direction" is in the modifier factor list(s).  Default front 0, side -1, back -2. */
 
@@ -167,22 +167,10 @@
 
   "AllowNetBonusModifier": true,
 
-  /* Allow attacks from low ground to high ground to incur accuracy penalty.  Default true. */
-
-  "AllowLowElevationPenalty": true,
-
   /* Step of hit chance.  Game default is 0.05, or 5%.  Hit chance is always rounded down.
    * Default 0 to remove hit chance step, so that odd gunnery stats can enjoy their +2.5% hit chance. */
 
   "HitChanceStep": 0.0,
-
-  /* Modify base weapon hit chance.  -0.05 to make all base accuracy -5%, 0.1 to make them +10% etc.  Default 0. */
-
-  "BaseHitChanceModifier": 0.0,
-
-  /* Modify base melee hit chance.  -0.05 to make all melee and DFA accuracy -5%, 0.1 to make them +10% etc.  Default 0. */
-
-  "MeleeHitChanceModifier": 0.0,
 
   /* Max and min hit chance after all modifiers but before roll correction. Default 0.95 and 0.05, same as game default.
    * Note that 100% hit chance (max) may still miss if roll correction is enabled. */
@@ -197,16 +185,28 @@
   /* Diminishing Bonus: 2-Base^(Bonus/Divisor).  Default 2-0.8^(Bonus/6) and caps at +16.
    * Example: +3 Bonus @ 80% Base ToHit == 1.1 x 0.8 == 88% Hit */
 
-  "DiminishingBonusPowerBase": 0.800000011920929,
+  "DiminishingBonusPowerBase": 0.8,
   "DiminishingBonusPowerDivisor": 6.0,
   "DiminishingBonusMax": 16,
 
   /* Diminishing Penalty: Base^(Penalty/Divisor).  Default 0.8^(Penalty/3.3) and caps at +32.
    * Example: +6 Penalty @ 80% Base ToHit == 67% x 0.8 == 53% Hit */
 
-  "DiminishingPenaltyPowerBase": 0.800000011920929,
-  "DiminishingPenaltyPowerDivisor": 3.2999999523162842,
+  "DiminishingPenaltyPowerBase": 0.8,
+  "DiminishingPenaltyPowerDivisor": 3.3,
   "DiminishingPenaltyMax": 32,
+
+  /* Specify set of hit modifiers of ranged attacks. Leave empty to keep it unchanged.  Order and letter case does not matter.
+   * Default "ArmMounted, Direction, Height, Indirect, Inspired, Jumped, LocationDamage, Obstruction, Precision, Range, Refire, SelfHeat, SelfStoodUp, SelfTerrain, SensorImpaired, SensorLock, Sprint, TargetEffect, TargetEvasion, TargetProne, TargetShutdown, TargetSize, TargetTerrain, Walked, WeaponAccuracy, WeaponDamage".
+   * You can remove some options or replace SelfTerrain and TargetTerrain with SelfTerrainMelee and TargetTerrainMelee. */
+
+  "RangedAccuracyFactors": "ArmMounted, Direction, Height, Indirect, Inspired, Jumped, Obstruction, Precision, Range, Refire, SelfHeat, SelfStoodUp, SelfTerrain, SensorImpaired, SensorLock, Sprint, TargetEffect, TargetEvasion, TargetProne, TargetShutdown, TargetSize, TargetTerrain, Walked, WeaponAccuracy, WeaponDamage",
+
+  /* Specify set of hit modifiers of melee and DFA attacks. Leave empty to keep it unchanged.  Order and letter case does not matter.
+   * Default "DFA, Direction, Height, Inspired, Jumped, SelfChassis, SelfHeat, SelfStoodUp, SelfTerrainMelee, Sprint, TargetEffect, TargetEvasion, TargetProne, TargetShutdown, TargetSize, TargetTerrainMelee, Walked, WeaponAccuracy".
+   * Other options are ArmMounted, Obstruction, Refire, SelfTerrain, SensorImpaired, TargetTerrain. */
+
+  "MeleeAccuracyFactors": "DFA,SelfTerrain,TargetTerrain,Inspired,SelfChassis,SelfHeat,SelfStoodUp,Walked,Sprint,TargetEffect,TargetEvasion,TargetProne,TargetShutdown,TargetSize,TargetTerrainMelee,WeaponAccuracy, Direction, Jumped, SelfTerrainMelee",
 
   //
   // To Hit Rolls
@@ -309,5 +309,9 @@
 
   /* Location of mod log and roll log.  Default is "" to put them in mod folder.  Relative path would be relative to BATTLETECH exe. */
 
-  "LogFolder": ""
+  "LogFolder": "",
+
+  /* Used to determine which settings should be updated and how.  Please do not change. */
+
+  "SettingVersion": 2001000
 }

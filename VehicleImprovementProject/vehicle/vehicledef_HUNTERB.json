@@ -13,6 +13,7 @@
    "VehicleTags": {
       "items": [
          "unit_vehicle",
+         "unit_light",
          "unit_medium",
          "unit_tracked",
 		 "unit_release",

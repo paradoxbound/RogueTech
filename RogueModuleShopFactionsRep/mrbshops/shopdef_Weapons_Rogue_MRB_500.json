@@ -94,9 +94,30 @@
          "Type" : "HeatSink",
          "DiscountModifier" : 1.0,
          "Count" : 0
-      }	  
+      }  
     ],
     "Specials": [
+      {
+         "ID" : "Gear_TargetingTrackingSystem_ARTIVcv",
+         "Type" : "Upgrade",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight" : 30		 
+      },	
+      {
+         "ID" : "Ammo_AmmunitionBox_ArtemisIV_LRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight" : 30		 
+      },
+      {
+         "ID" : "Ammo_AmmunitionBox_ArtemisIV_SRM",
+         "Type" : "AmmunitionBox",
+         "DiscountModifier" : 1.0,
+         "Count" : 0,
+			"Weight" : 30		 
+      },	
 		{
 			 "ID" : "Weapon_POD_M",
 			 "Type" : "Weapon",

@@ -43,7 +43,7 @@
     "UIName": "Gemji",
     "Id": "chassisdef_crab_CRB-GI",
     "Name": "Gemji",
-    "Details": "The Gemji CRB-GI has opened its claws, bringing Industrial table flipping to a mech fight.",
+    "Details": "The Gemji CRB-GI has opened its claws, bringing Industrial table flipping to a mech fight. <b><color=#009933>Quirk: Melee Crab - +Defense&Melee</color></b>",
     "Icon": "uixTxrIcon_kingcrab"
   },
   "MovementCapDefID": "movedef_crab_CRB-20",
@@ -255,5 +255,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Tableflipper",
-  "YangsThoughts": "The Gemji CRB-GI has opened its claws, bringing Industrial table flipping to a mech fight."
+  "YangsThoughts": "The Gemji CRB-GI has opened its claws, bringing Industrial table flipping to a mech fight. <b><color=#009933>Quirk: Melee Crab - +Defense&Melee</color></b>"
 }

@@ -72,7 +72,7 @@
     "UIName": "Locust",
     "Id": "chassisdef_locust_LCT-0P",
     "Name": "Locust",
-    "Details": "The Locust 0P is a primitive downgrade, favored among Bandits and Local Security forces for it's easy to maintain Internal Combustion Engine.",
+    "Details": "The Locust 0P is a primitive downgrade, favored among Bandits and Local Security forces for it's easy to maintain Internal Combustion Engine. <b><color=#009933>Quirk: Primitive - Impaired Movement</color></b>",
     "Icon": "uixTxrIcon_locust"
   },
   "MovementCapDefID": "movedef_locust_LCT-1V",
@@ -258,5 +258,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Light Fire Support",
-  "YangsThoughts": "The Locust 0P is a primitive downgrade, favored among Bandits and Local Security forces for it's easy to maintain Internal Combustion Engine."
+  "YangsThoughts": "The Locust 0P is a primitive downgrade, favored among Bandits and Local Security forces for it's easy to maintain Internal Combustion Engine. <b><color=#009933>Quirk: Primitive - Impaired Movement</color></b>"
 }

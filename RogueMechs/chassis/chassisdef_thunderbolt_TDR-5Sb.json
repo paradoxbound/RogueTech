@@ -1,4 +1,66 @@
 {
+
+"Custom": {
+  "ChassisQuirks": {
+    "statusEffects": [
+      	         {
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : true,
+				"showInStatusPanel" : true
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Royal1",
+				"Name" : "SLDF Royal",
+				"Details" : "Royal BattleMech's have improved Heat Management",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+            "statName": "EndMoveHeat",
+            "operation": "Int_Subtract",
+            "modValue": "6",
+            "modType": "System.Int32"
+			},
+			"nature" : "Buff"
+		},
+		{
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Royal2",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+                "statName" : "HeatGenerated",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.95",
+                "modType" : "System.Single",
+			},
+			"nature" : "Buff"
+		}			
+    ]
+  }
+},
+
   "Description": {
     "Cost": 6999300,
     "Rarity": 3,
@@ -8,7 +70,7 @@
     "UIName": "Thunderbolt",
     "Id": "chassisdef_thunderbolt_TDR-5Sb",
     "Name": "Thunderbolt",
-    "Details": "This SLDF Royal variant of the Thunderbolt was introduced in 2753 and uses Star League technology. An Endo Steel chassis provides more space for an updated weapon mix.",
+    "Details": "This SLDF Royal variant of the Thunderbolt was introduced in 2753 and uses Star League technology. An Endo Steel chassis provides more space for an updated weapon mix. <b><color=#009933>Quirk: SLDF Royal - Improved Cooling</color></b>",
     "Icon": "uixTxrIcon_thunderbolt"
   },
   "MovementCapDefID": "movedef_thunderbolt_TDR-5S",
@@ -224,5 +286,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher & Brawler",
-  "YangsThoughts": "This SLDF Royal variant of the Thunderbolt was introduced in 2753 and uses Star League technology. An Endo Steel chassis provides more space for an updated weapon mix."
+  "YangsThoughts": "This SLDF Royal variant of the Thunderbolt was introduced in 2753 and uses Star League technology. An Endo Steel chassis provides more space for an updated weapon mix. <b><color=#009933>Quirk: SLDF Royal - Improved Cooling</color></b>"
 }

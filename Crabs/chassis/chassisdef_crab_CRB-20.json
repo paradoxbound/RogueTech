@@ -43,7 +43,7 @@
     "UIName": "Crab",
     "Id": "chassisdef_crab_CRB-20",
     "Name": "Crab",
-    "Details": "Designed in 2719 during the last days of the Star League, the Crab was built as a medium-weight raider and guerrilla fighter for the Star League Defense Force. Although lacking hand actuators or jump jets, it possessed good overland speed and its all-energy weapons payload was suitable for long-range missions without the prospect for resupply.",
+    "Details": "Designed in 2719 during the last days of the Star League, the Crab was built as a medium-weight raider and guerrilla fighter for the Star League Defense Force. Although lacking hand actuators or jump jets, it possessed good overland speed and its all-energy weapons payload was suitable for long-range missions without the prospect for resupply. <b><color=#009933>Quirk: Low Profile - +Defense </color></b>",
     "Icon": "uixTxrIcon_kingcrab"
   },
   "MovementCapDefID": "movedef_crab_CRB-20",
@@ -255,5 +255,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Raider",
-  "YangsThoughts": "Designed in 2719 during the last days of the Star League, the Crab was built as a medium-weight raider and guerrilla fighter for the Star League Defense Force. Although lacking hand actuators or jump jets, it possessed good overland speed and its all-energy weapons payload was suitable for long-range missions without the prospect for resupply."
+  "YangsThoughts": "Designed in 2719 during the last days of the Star League, the Crab was built as a medium-weight raider and guerrilla fighter for the Star League Defense Force. Although lacking hand actuators or jump jets, it possessed good overland speed and its all-energy weapons payload was suitable for long-range missions without the prospect for resupply. <b><color=#009933>Quirk: Low Profile - +Defense </color></b>"
 }

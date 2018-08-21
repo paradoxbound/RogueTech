@@ -46,7 +46,7 @@
     "UIName": "Enforcer",
     "Id": "chassisdef_enforcer_ENF-IIC",
     "Name": "Enforcer",
-    "Details": "A ClanTech upgraded Enforcer.",
+    "Details": "A ClanTech upgraded Enforcer. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_enforcer"
   },
   "MovementCapDefID": "movedef_enforcer_ENF-4R",
@@ -71,18 +71,18 @@
     0,
     0
   ],
-  "SpotterDistanceMultiplier": 1.2,
+  "SpotterDistanceMultiplier": 1.25,
   "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1.2,
+  "SensorRangeMultiplier": 1.25,
   "Signature": 0,
   "Radius": 5,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 75,
+  "MeleeDamage": 65,
   "MeleeInstability": 50,
-  "MeleeToHitModifier": 1,
-  "DFADamage": 85,
-  "DFAToHitModifier": 1,
-  "DFASelfDamage": 55,
+  "MeleeToHitModifier": 2,
+  "DFADamage": 65,
+  "DFAToHitModifier": 2,
+  "DFASelfDamage": 65,
   "DFAInstability": 65,
   "Locations": [
     {
@@ -399,10 +399,10 @@
   "VariantName": "ENF-IIC",
   "ChassisTags": {
     "items": [
-	"NoMelee"
+	"ClanMech"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Clan Battlemech",
-  "YangsThoughts": "A ClanTech upgraded Enforcer."
+  "YangsThoughts": "A ClanTech upgraded Enforcer. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>"
 }

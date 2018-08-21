@@ -23,7 +23,7 @@
     "UIName": "Echidnae GRF-S7",
     "Id": "mechdef_griffin_GRF-S7",
     "Name": "Echidnae",
-    "Details": "The Echidnae is one of the rare and powerfull Elite Battlemech's, equipped with carefully preserved LosTech is it capable to quickly strike hard and suppress the opposition",
+    "Details": "The Echidnae is one of the rare and powerfull Elite Battlemech's, equipped with carefully preserved LosTech is it capable to quickly strike hard and suppress the opposition. <b><color=#009933>Quirk: LAM - Jump Distance</color></b>",
     "Icon": "uixTxrIcon_griffin"
   },
   "simGameMechPartCost": 960000,

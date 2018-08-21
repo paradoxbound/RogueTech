@@ -1,10 +1,6 @@
 {
 
 "Custom": {
-	"ArmActuatorSupport": {
-      "LeftLimit": "Upper",
-      "RightLimit": "Upper"
-    }
   "ChassisQuirks": {
     "statusEffects": [
       	         {
@@ -74,7 +70,7 @@
     "UIName": "Banshee",
     "Id": "chassisdef_banshee_BNC-1E",
     "Name": "Banshee",
-    "Details": "The original design first produced in 2445, this Banshee variant carries the PPC, Autocannon/5, and Small Laser of the later 3E, as well as a pair of Medium Lasers. As one of the largest 'Mechs produced with primitive technology, the engine was restricted to a top speed of 54km/h.",
+    "Details": "The original design first produced in 2445, this Banshee variant carries the PPC, Autocannon/5, and Small Laser of the later 3E, as well as a pair of Medium Lasers. <b><color=#009933>Quirk: Primitive - Impaired Movement</color></b>",
     "Icon": "uixTxrIcon_banshee"
   },
   "MovementCapDefID": "movedef_banshee_BNC-3E",
@@ -285,5 +281,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Brawler & Sniper",
-  "YangsThoughts": "The original design first produced in 2445, this Banshee variant carries the PPC, Autocannon/5, and Small Laser of the later 3E, as well as a pair of Medium Lasers. As one of the largest 'Mechs produced with primitive technology, the engine was restricted to a top speed of 54km/h."
+  "YangsThoughts": "The original design first produced in 2445, this Banshee variant carries the PPC, Autocannon/5, and Small Laser of the later 3E, as well as a pair of Medium Lasers. <b><color=#009933>Quirk: Primitive - Impaired Movement</color></b>"
 }

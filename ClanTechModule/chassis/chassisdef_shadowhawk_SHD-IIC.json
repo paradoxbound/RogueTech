@@ -44,7 +44,7 @@
     "UIName": "Shadowhawk",
     "Id": "chassisdef_shadowhawk_SHD-IIC",
     "Name": "Shadowhawk",
-    "Details": "A Clan Tech Shadowhawk.",
+    "Details": "A Clan Tech Shadowhawk. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_shadowhawk"
   },
   "MovementCapDefID": "movedef_shadowhawk_SHD-SX",
@@ -60,7 +60,7 @@
   "TopSpeed": 80,
   "TurnRadius": 90,
   "MaxJumpjets": 5,
-  "Stability": 110,
+  "Stability": 100,
   "StabilityDefenses": [
     0,
     0,
@@ -69,19 +69,19 @@
     0,
     0
   ],
-  "SpotterDistanceMultiplier": 1.2,
+  "SpotterDistanceMultiplier": 1.25,
   "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1.2,
+  "SensorRangeMultiplier": 1.25,
   "Signature": 0,
   "Radius": 5,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 85,
   "MeleeInstability": 55,
-  "MeleeToHitModifier": 1,
-  "DFADamage": 60,
-  "DFAToHitModifier": 1,
-  "DFASelfDamage": 50,
-  "DFAInstability": 60,
+  "MeleeToHitModifier": 2,
+  "DFADamage": 70,
+  "DFAToHitModifier": 2,
+  "DFASelfDamage": 70,
+  "DFAInstability": 70,
   "Locations": [
     {
       "Location": "Head",
@@ -405,10 +405,10 @@
   "VariantName": "SHD-IIC",
   "ChassisTags": {
     "items": [
-	"NoMelee"
+	"ClanMech"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Clan Battlemech",
-  "YangsThoughts": "A Clan Tech Shadowhawk."
+  "YangsThoughts": "A Clan Tech Shadowhawk. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>"
 }

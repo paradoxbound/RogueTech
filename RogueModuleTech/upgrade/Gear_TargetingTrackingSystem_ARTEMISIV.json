@@ -1,6 +1,6 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "MissTTST1"} },
+	"Custom" :  {"Category" : { "CategoryID" : "MissTTSART"} },
 
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -14,11 +14,11 @@
         "UIName" : "TTS Artemis IV",
         "Id" : "Gear_TargetingTrackingSystem_ARTIVcv",
         "Name" : "Artemis IV FCS",
-        "Details" : "The Artemis IV Fire Control System is a guidance system that utilizes an infrared laser designator and tight-beam microwave transmitter which improves the accuracy of missiles fired in direct line of sight. Counts as tier 1 Missile TTS. Does not improve indirect fire.",
+        "Details" : "The Artemis IV Fire Control System is a guidance system that utilizes an infrared laser designator and tight-beam microwave transmitter which improves the accuracy of missiles fired in direct line of sight. <b><color=#F79232>Cannot be used with other Missile TTS and enables using Artemis IV Ammo.</color></b>",
         "Icon" : "uixSvgIcon_equipment_TTS"
     },
-    "BonusValueA" : "+ 2 Direct-Fire Missile Acc|",
-    "BonusValueB" : "+ 1 Indirect Missile Acc.",
+    "BonusValueA" : "+ 2 Missile Acc",
+    "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
@@ -29,50 +29,6 @@
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
     "statusEffects" : [
-        {
-            "durationData" : {
-                "duration" : -1,
-                "ticksOnActivations" : false,
-                "useActivationsOfTarget" : false,
-                "ticksOnEndOfRound" : false,
-                "ticksOnMovements" : false,
-                "stackLimit" : 1,
-                "clearedWhenAttacked" : false
-            },
-            "targetingData" : {
-                "effectTriggerType" : "Passive",
-                "triggerLimit" : 0,
-                "extendDurationOnTrigger" : 0,
-                "specialRules" : "NotSet",
-                "effectTargetType" : "Creator",
-                "range" : 0,
-                "forcePathRebuild" : false,
-                "forceVisRebuild" : false,
-                "showInTargetPreview" : false,
-                "showInStatusPanel" : false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "Artemis IV Correction",
-                "Name" : "Indirect Fire Malus",
-                "Details" : "Indirect Missiles Attacks lose 2 accuracy so only direct ones get the +2 bonus from Artemis.",
-                "Icon" : "uixSvgIcon_equipment_TTS"
-            },
-            "nature" : "Buff",
-            "statisticData" : 
-			{
-				"statName" : "ToHitIndirectModifier",
-				"operation" : "Float_Add",
-				"modValue" : "1.0",
-				"modType" : "System.Single"
-            },
-            "tagData" : null,
-            "floatieData" : null,
-            "actorBurningData" : null,
-            "vfxData" : null,
-            "instantModData" : null,
-            "poorlyMaintainedEffectData" : null
-        },
 		{
             "durationData" : 
 			{
@@ -101,8 +57,8 @@
             "Description" : 
 			{
                 "Id" : "StatusEffect-ARTEMIS-BONUS",
-                "Name" : "Missile WEAPON HIT CHANCE IMPROVED",
-                "Details" : "Direct Missile weapon attacks have their hit improved by +2.",
+                "Name" : "Artemis IV System",
+                "Details" : "Missile weapon attacks have their hit improved by +2.",
                 "Icon" : "uixSvgIcon_equipment_TTS"
             },
             "nature" : "Buff",

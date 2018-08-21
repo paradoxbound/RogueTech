@@ -20,7 +20,7 @@
     "UIName": "JagerMech JM6-DD",
     "Id": "mechdef_jagermech_JM6-DD",
     "Name": "JagerMech",
-    "Details": "The precursor to the finalized JagerMech JM6-DD and the testbed for the UAC5, this very expensive and somewhat fragile prototype carries lots of firepower but can't withstand prolonged fighting. Its cost prevents it from entering full scale production and maintenance is a chore.",
+    "Details": "The precursor to the finalized JagerMech JM6-DD and the testbed for the UAC5, this very expensive and somewhat fragile prototype carries lots of firepower but can't withstand prolonged fighting. Its cost prevents it from entering full scale production and maintenance is a chore. <b><color=#009933>Quirk: UAC5 Testbed</color></b>",
     "Icon": "uixTxrIcon_jagermech"
   },
   "simGameMechPartCost": 670000,
@@ -146,7 +146,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Ammo_AmmunitionBox_Precision_AC5",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
       "SimGameUID": null,
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
@@ -157,7 +157,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2",
+      "ComponentDefID": "Ammo_AmmunitionBox_Precision_AC2",
       "SimGameUID": null,
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,

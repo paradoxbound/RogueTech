@@ -21,7 +21,7 @@
     "UIName": "Panther PNT-9L",
     "Id": "mechdef_panther_PNT-9L",
     "Name": "Panther",
-    "Details": "The Panther 9L carries an experimental Plasma Cannon on a improved Weapons mount and is supported by a Haywire Launcher and Flamer.",
+    "Details": "The Panther 9L carries an experimental Plasma Cannon on a improved Weapons mount and is supported by a Haywire Launcher and Flamer. <b><color=#009933>Quirk: Prototype Plasma Cannon</color></b>",
     "Icon": "uixTxrIcon_panther"
   },
   "simGameMechPartCost": 360000,

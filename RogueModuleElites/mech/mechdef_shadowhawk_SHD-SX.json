@@ -23,7 +23,7 @@
     "UIName": "Strix SHD-SX",
     "Id": "mechdef_shadowhawk_SHD-SX",
     "Name": "Strix",
-    "Details": "Strix, in the mythology of Terran antiquity, was a bird of ill omen, the product of metamorphosis, that fed on human flesh and blood. It also referred to witches and related maleficent folkloric beings. Another typical Solaris 'Mech is it build as much for show as for efficiency.",
+    "Details": "Strix, in the mythology of Terran antiquity, was a bird of ill omen, the product of metamorphosis, that fed on human flesh and blood. It also referred to witches and related maleficent folkloric beings. Another typical Solaris 'Mech is it build as much for show as for efficiency. <b><color=#009933>Quirk: Cutthroat - Integrated Combat Shield</color></b>",
     "Icon": "uixTxrIcon_shadowhawk"
   },
   "simGameMechPartCost": 620000,
@@ -290,9 +290,9 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Deadfire_SRM",
+      "ComponentDefID": "Weapon_Flamer_Flamer_3-Prometheus",
       "SimGameUID": null,
-      "ComponentDefType": "AmmunitionBox",
+      "ComponentDefType": "Weapon",
       "HardpointSlot": -1,
       "GUID": null,
       "DamageLevel": "Functional",

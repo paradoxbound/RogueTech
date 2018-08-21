@@ -1,6 +1,6 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamage": 100 } },
+"Custom": {"Category" : { "CategoryID" : "HAGR"}, "ComponentExplosion": { "ExplosionDamage": 100 } },
 
     "Category" : "Ballistic",
     "Type" : "Gauss",
@@ -15,11 +15,11 @@
     "AmmoCategory" : "GAUSS",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 5,
-    "Damage" : 20,
+    "Damage" : 30,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
-    "DamageVariance" : 7,
+    "DamageVariance" : 15,
     "HeatDamage" : 0,
     "AccuracyModifier" : 0,
     "CriticalChanceMultiplier" : 1,
@@ -44,7 +44,7 @@
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "Damage Falloff|",
-    "BonusValueB" : "7 Dmg Variance",
+    "BonusValueB" : "15 Dmg Variance",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Gauss",

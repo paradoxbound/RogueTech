@@ -1,4 +1,102 @@
 {
+
+"Custom": {
+  "ChassisQuirks": {
+    "statusEffects": [
+      	         {
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : true,
+				"showInStatusPanel" : true
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Kraken",
+				"Name" : "Eldritch Horror",
+				"Details" : "Chassis has vastly improved AC Handling",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+                "statName" : "RefireModifier",
+                "operation" : "Int_Add",
+                "modValue" : "-3",
+                "modType" : "System.Int32",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "Autocannon"
+			},
+			"nature" : "Buff"
+		},
+		{
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Kraken2",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Multiply",
+                "modValue" : "-2",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "Autocannon"	
+			},
+			"nature" : "Buff"
+		},
+		{
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Kraken3",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+                "statName" : "HeatGenerated",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.7",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "Autocannon"	
+			},
+			"nature" : "Buff"
+		},		
+    ]
+  }
+},
+
   "Description": {
     "Cost": 14122080,
     "Rarity": 5,
@@ -8,7 +106,7 @@
     "UIName": "Kraken",
     "Id": "chassisdef_kingcrab_KGC-P",
     "Name": "Kraken",
-    "Details": "The Kraken may be made by pirates welding different Crab parts together but it's surprisingly well made, though theres some profanity's etched in the chassis towards their ''Queen''.",
+    "Details": "The Kraken may be made by pirates welding different Crab parts together but it's surprisingly well made, though theres some profanity's etched in the chassis towards their ''Queen''. <b><color=#009933>Quirk: Eldritch Horror</color></b>",
     "Icon": "uixTxrIcon_kingcrab"
   },
   "MovementCapDefID": "movedef_kingcrab_KGC-0000",
@@ -76,14 +174,6 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false
@@ -182,14 +272,6 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Energy",
           "Omni": false
         },
@@ -274,10 +356,10 @@
   "VariantName": "KGC-P",
   "ChassisTags": {
     "items": [
-
+	"Kraken"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Pirate Elite",
-  "YangsThoughts": "The Kraken may be made by pirates welding different Crab parts together but it's surprisingly well made, though theres some profanity's etched in the chassis towards their ''Queen''."
+  "YangsThoughts": "The Kraken may be made by pirates welding different Crab parts together but it's surprisingly well made, though theres some profanity's etched in the chassis towards their ''Queen''. <b><color=#009933>Quirk: Eldritch Horror</color></b>"
 }

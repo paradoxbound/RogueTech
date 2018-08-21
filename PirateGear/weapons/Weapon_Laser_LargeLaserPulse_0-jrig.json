@@ -41,7 +41,7 @@
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "Unknown",
-    "BonusValueB" : "25 Var.Dmg.",
+    "BonusValueB" : "28 Var.Dmg.",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
     "PrefabIdentifier" : "Laser",

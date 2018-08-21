@@ -20,7 +20,7 @@
     "UIName": "Awesome AWS-8Qb",
     "Id": "mechdef_awesome_AWS-8Qb",
     "Name": "Awesome",
-    "Details": "A barely known prototype upgrade for the SLDF Royal forces, the 8Qb features 4 ER PPC and advanced targeting system's able to deliver a precise blow at maximum ranges.",
+    "Details": "A barely known prototype upgrade for the SLDF Royal forces, the 8Qb features 4 ER PPC and advanced targeting system's able to deliver a precise blow at maximum ranges. <b><color=#009933>Quirk: SLDF Royal - Improved Cooling</color></b>",
     "Icon": "uixTxrIcon_awesome"
   },
   "simGameMechPartCost": 970000,

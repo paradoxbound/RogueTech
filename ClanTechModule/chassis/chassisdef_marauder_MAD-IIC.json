@@ -44,7 +44,7 @@
     "UIName": "Marauder",
     "Id": "chassisdef_marauder_MAD-IIC",
     "Name": "Marauder",
-    "Details": "A Clan upgraded Marauder, quite a MAD monster.",
+    "Details": "A Clan upgraded Marauder, quite a MAD monster. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_marauder"
   },
   "MovementCapDefID": "movedef_marauder_MAD-3R",
@@ -69,19 +69,19 @@
     0,
     0
   ],
-  "SpotterDistanceMultiplier": 1.2,
+  "SpotterDistanceMultiplier": 1.25,
   "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1.2,
+  "SensorRangeMultiplier": 1.25,
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 95,
-  "MeleeInstability": 75,
-  "MeleeToHitModifier": 1,
-  "DFADamage": 95,
-  "DFAToHitModifier": 1,
-  "DFASelfDamage": 95,
-  "DFAInstability": 95,
+  "MeleeDamage": 115,
+  "MeleeInstability": 85,
+  "MeleeToHitModifier": 2,
+  "DFADamage": 105,
+  "DFAToHitModifier": 2,
+  "DFASelfDamage": 105,
+  "DFAInstability": 105,
   "Locations": [
     {
       "Location": "Head",
@@ -405,10 +405,10 @@
   "VariantName": "MAD-IIC",
   "ChassisTags": {
     "items": [
-	"NoMelee"
+	"ClanMech"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Clan Battlemech",
-  "YangsThoughts": "A Clan upgraded Marauder, quite a MAD monster."
+  "YangsThoughts": "A Clan upgraded Marauder, quite a MAD monster. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>"
 }

@@ -28,7 +28,7 @@
 			{
                 "statName" : "AccuracyModifier",
                 "operation" : "Float_Multiply",
-                "modValue" : "-1",
+                "modValue" : "-2",
                 "modType" : "System.Single",			
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -58,7 +58,7 @@
 			{
 				"statName" : "RefireModifier",
 				"operation" : "Int_Add",
-				"modValue" : "-2",
+				"modValue" : "-3",
 				"modType" : "System.Int32"			
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -78,7 +78,7 @@
     "UIName": "Yen Lo Wang",
     "Id": "chassisdef_centurion_CN9-YLW",
     "Name": "Yen Lo Wang",
-    "Details": "This Centurion may not be THE Yen-Lo-Wang, but it certainly packs its punch, along with upgraded Jump Jets that help it close the gap.",
+    "Details": "This Centurion may not be THE Yen-Lo-Wang, but it certainly packs its punch, along with upgraded Jump Jets that help it close the gap. <b><color=#009933>Quirk: Deathbringer</color></b>",
     "Icon": "uixTxrIcon_centurion"
   },
   "MovementCapDefID": "movedef_centurion_CN9-A",
@@ -294,5 +294,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Brawler & General Assault",
-  "YangsThoughts": "This Centurion may not be THE Yen-Lo-Wang, but it certainly packs its punch, along with upgraded Jump Jets that help it close the gap."
+  "YangsThoughts": "This Centurion may not be THE Yen-Lo-Wang, but it certainly packs its punch, along with upgraded Jump Jets that help it close the gap. <b><color=#009933>Quirk: Deathbringer</color></b>"
 }

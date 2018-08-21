@@ -45,7 +45,7 @@
     "UIName": "Blackjack",
     "Id": "chassisdef_blackjack_BJ-G",
     "Name": "Blackjack",
-    "Details": "The Blackjack G, unlike the average variant, carries twin Ultra AC/10s. This variant also features an advanced targeting computer, an ultra-light gyro, and a supercharger.",
+    "Details": "The Blackjack G, unlike the average variant, carries twin Ultra AC/10s. This variant also features an advanced targeting computer, an ultra-light gyro, and a supercharger. <b><color=#009933>Quirk: Fire Support Plattform</color></b>",
     "Icon": "uixTxrIcon_blackjack"
   },
   "MovementCapDefID": "movedef_blackjack_BJ-G",
@@ -268,5 +268,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Skirmisher",
-  "YangsThoughts": "The Blackjack G, unlike the average variant, carries twin Ultra AC/10s. This variant also features an advanced targeting computer, an ultra-light gyro, and a supercharger."
+  "YangsThoughts": "The Blackjack G, unlike the average variant, carries twin Ultra AC/10s. This variant also features an advanced targeting computer, an ultra-light gyro, and a supercharger. <b><color=#009933>Quirk: Fire Support Plattform</color></b>"
 }

@@ -97,7 +97,7 @@
     "UIName": "Crab",
     "Id": "chassisdef_crab_CRB-27b",
     "Name": "Crab",
-    "Details": "A simple upgrade utilized by the SLDF Royals concurrently with the original Crab, the 27b replaces the heat sinks with double-strength models and the Lasers with Extented Range variants.",
+    "Details": "A simple upgrade utilized by the SLDF Royals concurrently with the original Crab, the 27b replaces the heat sinks with double-strength models and the Lasers with Extented Range variants. <b><color=#009933>Quirk: Royal Crab - +Defense&Improved Cooling</color></b>",
     "Icon": "uixTxrIcon_kingcrab"
   },
   "MovementCapDefID": "movedef_crab_CRB-20",
@@ -320,5 +320,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Raider",
-  "YangsThoughts": "A simple upgrade utilized by the SLDF Royals concurrently with the original Crab, the 27b replaces the heat sinks with double-strength models and the Lasers with Extented Range variants."
+  "YangsThoughts": "A simple upgrade utilized by the SLDF Royals concurrently with the original Crab, the 27b replaces the heat sinks with double-strength models and the Lasers with Extented Range variants. <b><color=#009933>Quirk: Royal Crab - +Defense&Improved Cooling</color></b>"
 }

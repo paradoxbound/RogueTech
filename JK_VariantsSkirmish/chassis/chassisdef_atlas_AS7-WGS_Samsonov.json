@@ -25,12 +25,9 @@
 			{
 				"statName" : "RefireModifier",
 				"operation" : "Int_Add",
-				"modValue" : "-2",
+				"modValue" : "-3",
 				"modType" : "System.Int32"			
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Energy",
-                "targetWeaponType" : "Autocannon",
-                "targetWeaponSubType" : "MediumLaser"				
+                "targetCollection" : "Weapon"				
 			},
 			"nature" : "Buff"
 		}			
@@ -47,7 +44,7 @@
     "UIName": "Atlas",
     "Id": "chassisdef_atlas_AS7-WGS_Samsonov",
     "Name": "Atlas",
-    "Details": "The personal 'Mech of Galedon Military District commander Warlord Grieg Samsonov during the DCMS's Third Succession War invasion of Galtor III in 3025, only the massive autocannon remains, with the rest of the standard weaponry replaced with a PPC mounted in each arm. The remaining weight and space is devoted to six additional heat sinks.",
+    "Details": "The personal 'Mech of Galedon Military District commander Warlord Grieg Samsonov during the DCMS's Third Succession War invasion of Galtor III in 3025, only the massive autocannon remains, with the rest of the standard weaponry replaced with a PPC mounted in each arm. The remaining weight and space is devoted to six additional heat sinks. <b><color=#009933>Quirk: Grieg's Atlas</color></b>",
     "Icon": "uixTxrIcon_atlas"
   },
   "MovementCapDefID": "movedef_atlas_AS7-D",
@@ -264,5 +261,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Sniper & Close Assault",
-  "YangsThoughts": "The personal 'Mech of Galedon Military District commander Warlord Grieg Samsonov during the DCMS's Third Succession War invasion of Galtor III in 3025, only the massive autocannon remains, with the rest of the standard weaponry replaced with a PPC mounted in each arm. The remaining weight and space is devoted to six additional heat sinks. While lacking much of the close-range weaponry of the AS7-D, this unusual, modified variant was highly effective in a Direct Fire Support Role.\n\n Faction: Galedon Regulars, Fifth Galedon Regulars, Command Company (Draconis Combine)\n\nRarity: Custom, Unknown Status"
+  "YangsThoughts": "The personal 'Mech of Galedon Military District commander Warlord Grieg Samsonov during the DCMS's Third Succession War invasion of Galtor III in 3025, only the massive autocannon remains, with the rest of the standard weaponry replaced with a PPC mounted in each arm. The remaining weight and space is devoted to six additional heat sinks. While lacking much of the close-range weaponry of the AS7-D, this unusual, modified variant was highly effective in a Direct Fire Support Role.\n\n Faction: Galedon Regulars, Fifth Galedon Regulars, Command Company (Draconis Combine)\n\nRarity: Custom, Unknown Status <b><color=#009933>Quirk: Grieg's Atlas</color></b>"
 }

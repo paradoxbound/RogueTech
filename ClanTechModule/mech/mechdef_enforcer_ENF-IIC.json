@@ -22,7 +22,7 @@
     "UIName": "Enforcer ENF-IIC",
     "Id": "mechdef_enforcer_ENF-IIC",
     "Name": "Enforcer",
-    "Details": "A ClanTech upgraded Enforcer.",
+    "Details": "A ClanTech upgraded Enforcer. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_enforcer"
   },
   "simGameMechPartCost": 520000,

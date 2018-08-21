@@ -44,7 +44,7 @@
     "UIName": "Atlas",
     "Id": "chassisdef_atlas_AS-IIC",
     "Name": " Atlas",
-    "Details": "A ClanTech equipped Atlas II.",
+    "Details": "A ClanTech equipped Atlas II. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_atlas"
   },
   "MovementCapDefID": "movedef_atlas_AS7-D",
@@ -69,17 +69,17 @@
     0,
     0
   ],
-  "SpotterDistanceMultiplier": 1.2,
+  "SpotterDistanceMultiplier": 1.25,
   "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1.2,
+  "SensorRangeMultiplier": 1.25,
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 140,
   "MeleeInstability": 100,
-  "MeleeToHitModifier": 1,
+  "MeleeToHitModifier": 2,
   "DFADamage": 125,
-  "DFAToHitModifier": 1,
+  "DFAToHitModifier": 2,
   "DFASelfDamage": 125,
   "DFAInstability": 125,
   "Locations": [
@@ -389,10 +389,10 @@
   "VariantName": "AS-IIC",
   "ChassisTags": {
     "items": [
-	"NoMelee"
+	"ClanMech"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Clan Battlemech",
-  "YangsThoughts": "A ClanTech equipped Atlas II."
+  "YangsThoughts": "A ClanTech equipped Atlas II. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>"
 }

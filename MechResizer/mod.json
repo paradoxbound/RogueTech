@@ -123,6 +123,7 @@
 	"chassisdef_atlas_AS7-D": {"x": 0.87,"y": 1.05, "z": 1},
 	"chassisdef_atlas_AS7-D-DC": {"x": 0.87,"y": 1.05, "z": 1},
 	"chassisdef_atlas_AS7-RS": {"x": 0.87,"y": 1.05, "z": 1},
+	"chassisdef_atlas_AS0-MG": {"x": 1.1,"y": 0.95, "z": 1},	
 	"chassisdef_hector_HOR-1B": {"x": 0.6,"y": 0.78, "z": 0.74},	
 	"chassisdef_marauder_MAD-3D": {"x": 0.76,"y": 0.9, "z": 0.93},
 	"chassisdef_marauder_MAD-3L": {"x": 0.76,"y": 0.9, "z": 0.93},

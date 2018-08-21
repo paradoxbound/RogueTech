@@ -20,7 +20,7 @@
     "UIName": "Wolverine WVR-1R",
     "Id": "mechdef_wolverine_WVR-1R",
     "Name": "Wolverine",
-    "Details": "Infamously nicknamed the ''Varnay-1R'' the original primitive Wolverine was introduced in 2471.",
+    "Details": "Infamously nicknamed the ''Varnay-1R'' the original primitive Wolverine was introduced in 2471. <b><color=#009933>Quirk: Primitive - Impaired Movement</color></b>",
     "Icon": "uixTxrIcon_wolverine"
   },
   "simGameMechPartCost": 630000,

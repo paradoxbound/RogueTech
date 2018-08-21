@@ -25,7 +25,7 @@
 			{
                 "statName" : "HeatGenerated",
                 "operation" : "Float_Multiply",
-                "modValue" : "0.85",
+                "modValue" : "0.8",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -49,7 +49,7 @@
     "UIName": "Kintaro",
     "Id": "chassisdef_kintaro_KTO-18S",
     "Name": "Kintaro",
-    "Details": "This Marik refit of the Kintaro was built in cooperation with Holly as a testbed for Streak and NARC missiles.",
+    "Details": "This Marik refit of the Kintaro was built in cooperation with Holly as a testbed for Streak and NARC missiles. <b><color=#009933>Quirk: Streak Testbed</color></b>",
     "Icon": "uixTxrIcon_kintaro"
   },
   "MovementCapDefID": "movedef_kintaro_KTO-18S",
@@ -312,5 +312,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Close Assault",
-  "YangsThoughts": "This Marik refit of the Kintaro was built in cooperation with Holly as a testbed for Streak and NARC missiles."
+  "YangsThoughts": "This Marik refit of the Kintaro was built in cooperation with Holly as a testbed for Streak and NARC missiles. <b><color=#009933>Quirk: Streak Testbed</color></b>"
 }

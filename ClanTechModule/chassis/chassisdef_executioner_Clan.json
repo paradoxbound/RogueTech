@@ -44,7 +44,7 @@
     "UIName": "Executioner",
     "Id": "chassisdef_executioner_Clan",
     "Name": "Executioner",
-    "Details": "The Executioner is ClanFront Line BattleMech.",
+    "Details": "The Executioner is ClanFront Line BattleMech. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_highlander"
   },
   "MovementCapDefID": "movedef_highlander_HGN-EXb",
@@ -69,19 +69,19 @@
     0,
     0
   ],
-  "SpotterDistanceMultiplier": 1.2,
+  "SpotterDistanceMultiplier": 1.25,
   "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1.2,
+  "SensorRangeMultiplier": 1.25,
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 115,
-  "MeleeInstability": 90,
-  "MeleeToHitModifier": 1,
-  "DFADamage": 115,
-  "DFAToHitModifier": 1,
-  "DFASelfDamage": 100,
-  "DFAInstability": 115,
+  "MeleeDamage": 130,
+  "MeleeInstability": 95,
+  "MeleeToHitModifier": 2,
+  "DFADamage": 120,
+  "DFAToHitModifier": 2,
+  "DFASelfDamage": 120,
+  "DFAInstability": 120,
   "Locations": [
     {
       "Location": "Head",
@@ -405,10 +405,10 @@
   "VariantName": "EX-C",
   "ChassisTags": {
     "items": [
-	"NoMelee"
+	"ClanMech"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Clan BattleMech",
-  "YangsThoughts": "The Executioner is ClanFront Line BattleMech."
+  "YangsThoughts": "The Executioner is ClanFront Line BattleMech. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>"
 }

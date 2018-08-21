@@ -20,7 +20,7 @@
     "UIName": "Locust LCT-0P",
     "Id": "mechdef_locust_LCT-0P",
     "Name": "Locust",
-    "Details": "The Locust 0P is a primitive downgrade, favored among Bandits and Local Security forces for it's easy to maintain Internal Combustion Engine.",
+    "Details": "The Locust 0P is a primitive downgrade, favored among Bandits and Local Security forces for it's easy to maintain Internal Combustion Engine. <b><color=#009933>Quirk: Primitive - Impaired Movement</color></b>",
     "Icon": "uixTxrIcon_locust"
   },
   "simGameMechPartCost": 190000,

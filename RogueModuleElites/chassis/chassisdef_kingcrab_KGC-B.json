@@ -18,7 +18,7 @@
 			{
 				"Id" : "Behemoth",
 				"Name" : "Dreadnought",
-				"Details" : "Chassis has Bulwark and more stable",
+				"Details" : "Chassis has Bulwark and more stability",
 				"Icon" : "uixSvgIcon_skullAtlas"
 			},
 			"statisticData" : 
@@ -70,7 +70,7 @@
     "UIName": "Behemoth",
     "Id": "chassisdef_kingcrab_KGC-B",
     "Name": "Behemoth",
-    "Details": "The Behemoth, named after Terran mythology, this 'Mech is designed to withstand more punishment than any other 'Mech conceivable while bringing its 2 UAC20's to bear.",
+    "Details": "The Behemoth, named after Terran mythology, this 'Mech is designed to withstand more punishment than any other 'Mech conceivable while bringing its 2 UAC20's to bear. <b><color=#009933>Quirk: Dreadnought - Bulwark&Stability</color></b>",
     "Icon": "uixTxrIcon_kingcrab"
   },
   "MovementCapDefID": "movedef_kingcrab_KGC-0000",
@@ -86,7 +86,7 @@
   "TopSpeed": 105,
   "TurnRadius": 130,
   "MaxJumpjets": 3,
-  "Stability": 110,
+  "Stability": 150,
   "StabilityDefenses": [
     0,
     0,
@@ -436,5 +436,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Elite BattleMech",
-  "YangsThoughts": "The Behemoth, named after Terran mythology, this 'Mech is designed to withstand more punishment than any other 'Mech conceivable while bringing its 2 UAC20's to bear."
+  "YangsThoughts": "The Behemoth, named after Terran mythology, this 'Mech is designed to withstand more punishment than any other 'Mech conceivable while bringing its 2 UAC20's to bear. <b><color=#009933>Quirk: Dreadnought - Bulwark&Stability</color></b>"
 }

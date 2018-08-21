@@ -54,7 +54,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "HeatDamageModifier",
                 "operation" : "Float_Add",
-                "modValue" : "0.75",
+                "modValue" : "1.75",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",

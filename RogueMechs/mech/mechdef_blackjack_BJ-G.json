@@ -21,7 +21,7 @@
     "UIName": "Blackjack BJ-G",
     "Id": "mechdef_blackjack_BJ-G",
     "Name": "Blackjack",
-    "Details": "The Blackjack G, unlike the average variant, carries twin Ultra AC/10s. This variant also features an advanced targeting computer, an ultra-light gyro, and a supercharger.",
+    "Details": "The Blackjack G, unlike the average variant, carries twin Ultra AC/10s. This variant also features an advanced targeting computer, an ultra-light gyro, and a supercharger. <b><color=#009933>Quirk: Fire Support Plattform</color></b>",
     "Icon": "uixTxrIcon_blackjack"
   },
   "simGameMechPartCost": 440000,

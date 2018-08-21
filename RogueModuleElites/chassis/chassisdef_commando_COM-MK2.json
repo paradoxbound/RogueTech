@@ -16,7 +16,7 @@
             "effectType" : "StatisticEffect",
             "Description" : {
                 "Id" : "Erinya",
-                "Name" : "Improved Sensor",
+                "Name" : "Lostech Prototype",
                 "Details" : "Chassis has improved Sensors and Accuracy",
                 "Icon" : "uixSvgIcon_skullAtlas"
             },
@@ -42,7 +42,7 @@
     "UIName": "Erinya",
     "Id": "chassisdef_commando_COM-MK2",
     "Name": "Erinya",
-    "Details": "This 'Commando' was found in a Deep Periphery Weapons Cache, named after the Furies of Terran Mythology, it packs a suprisingly mean punch for it's size.",
+    "Details": "This 'Commando' was found in a Deep Periphery Weapons Cache, named after the Furies of Terran Mythology, it packs a suprisingly mean punch for it's size. <b><color=#009933>Quirk: LosTech Prototype - Improved Sensors</color></b>",
     "Icon": "uixTxrIcon_commando"
   },
   "MovementCapDefID": "movedef_commando_COM-MK2",
@@ -73,13 +73,13 @@
   "Signature": -0.3,
   "Radius": 4,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 45,
-  "MeleeInstability": 35,
-  "MeleeToHitModifier": 1,
-  "DFADamage": 40,
-  "DFAToHitModifier": 1,
+  "MeleeDamage": 55,
+  "MeleeInstability": 45,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 45,
+  "DFAToHitModifier": 0,
   "DFASelfDamage": 20,
-  "DFAInstability": 30,
+  "DFAInstability": 40,
   "Locations": [
     {
       "Location": "Head",
@@ -408,5 +408,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Elite Battlemech",
-  "YangsThoughts": "This 'Commando' was found in a Deep Periphery Weapons Cache that didnt quite looked like SLDF, named after the Furies of Terran Mythology, it packs a suprisingly mean punch for it's size."
+  "YangsThoughts": "This 'Commando' was found in a Deep Periphery Weapons Cache, named after the Furies of Terran Mythology, it packs a suprisingly mean punch for it's size. <b><color=#009933>Quirk: LosTech Prototype - Improved Sensors</color></b>"
 }

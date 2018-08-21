@@ -8,7 +8,7 @@
     "UIName": "Executioner",
     "Id": "mechdef_executioner_Clan",
     "Name": "Executioner",
-    "Details": "The Executioner is ClanFront Line BattleMech.",
+    "Details": "The Executioner is ClanFront Line BattleMech. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_highlander"
   },
   "ChassisID": "chassisdef_executioner_Clan",

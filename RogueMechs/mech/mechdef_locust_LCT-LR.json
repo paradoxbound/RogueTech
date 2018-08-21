@@ -22,7 +22,7 @@
     "UIName": "Dagger LCT-LR",
     "Id": "mechdef_locust_LCT-LR",
     "Name": "Dagger",
-    "Details": "The Locust LR 'Dagger' sports a prototype Electronics Warfare suite, a Null Signature System, TAG, and HayWire and NARC launchers. It represents what will one day become the Raven.",
+    "Details": "The Locust LR 'Dagger' sports a prototype Electronics Warfare suite, Stealth Armor, TAG, and HayWire and NARC launchers. <b><color=#009933>Quirk: Proto Raven</color></b>",
     "Icon": "uixTxrIcon_locust"
   },
   "simGameMechPartCost": 200000,
@@ -279,17 +279,6 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_MASC",
-      "SimGameUID": null,
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_TAG",
       "SimGameUID": null,
@@ -302,7 +291,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_ECM",
+      "ComponentDefID": "Gear_EWS",
       "SimGameUID": null,
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,

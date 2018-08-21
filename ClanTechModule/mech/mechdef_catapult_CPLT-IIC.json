@@ -21,7 +21,7 @@
     "UIName": "Catapult CPLT-IIC",
     "Id": "mechdef_catapult_CPLT-IIC",
     "Name": "Catapult",
-    "Details": "A Heavier Clan Tech upgraded Catapult.",
+    "Details": "A Heavier Clan Tech upgraded Catapult. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_catapult"
   },
   "simGameMechPartCost": 740000,

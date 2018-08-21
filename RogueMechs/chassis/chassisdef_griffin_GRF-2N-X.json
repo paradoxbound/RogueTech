@@ -25,7 +25,7 @@
 			{
                 "statName" : "JumpDistanceMultiplier",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.15",
+                "modValue" : "1.2",
                 "modType" : "System.Single"
 			},
 			"nature" : "Buff"
@@ -52,7 +52,7 @@
 			{
                 "statName" : "HeatGenerated",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.2",
+                "modValue" : "1.15",
                 "modType" : "System.Single",
                 "targetCollection" : "Weapon"				
 			},
@@ -71,7 +71,7 @@
     "UIName": "Super Griffin",
     "Id": "chassisdef_griffin_GRF-2N-X",
     "Name": "Super Griffin",
-    "Details": "The GRF-2N-X Super Griffin is an evolution of the classic Griffin, a re-design that essentially produced a new BattleMech with even a different tonnage. Using a sixty ton frame, engineers fitted Prototype Improved Jump Jets to the 'Mech to compensate for its reduced speed.",
+    "Details": "The GRF-2N-X Super Griffin is an evolution of the classic Griffin, a re-design that essentially produced a new BattleMech with even a different tonnage. Using a sixty ton frame, engineers fitted Prototype Improved Jump Jets to the 'Mech to compensate for its reduced speed. <b><color=#009933>Quirk: Prototype Jump Jets</color></b>",
     "Icon": "uixTxrIcon_griffin"
   },
   "MovementCapDefID": "movedef_griffin_GRF-1N",
@@ -276,5 +276,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Sniper & Fire Support",
-  "YangsThoughts": "The GRF-2N-X Super Griffin is an evolution of the classic Griffin, a re-design that essentially produced a new BattleMech with even a different tonnage. Using a sixty ton frame, engineers fitted Prototype Improved Jump Jets to the 'Mech to compensate for its reduced speed."
+  "YangsThoughts": "The GRF-2N-X Super Griffin is an evolution of the classic Griffin, a re-design that essentially produced a new BattleMech with even a different tonnage. Using a sixty ton frame, engineers fitted Prototype Improved Jump Jets to the 'Mech to compensate for its reduced speed. <b><color=#009933>Quirk: Prototype Jump Jets</color></b>"
 }

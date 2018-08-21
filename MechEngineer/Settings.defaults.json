@@ -28,6 +28,22 @@
             ]
         },
         {
+            "Tag" : "Goblin",
+            "IncompatibleTags" : [
+                "Gear_Combat_Shield_Small",
+                "Gear_Combat_Shield_Medium",
+                "Gear_Combat_Shield"
+            ]
+        },
+        {
+            "Tag" : "Cataphract-P",
+            "IncompatibleTags" : [
+                "Gear_Combat_Shield_Small",
+                "Gear_Combat_Shield_Medium",
+                "Gear_Combat_Shield"
+            ]
+        },
+        {
             "Tag" : "Echidnae",
             "IncompatibleTags" : [
                 "Gear_PartialWing_Generic_Standard55"
@@ -41,9 +57,113 @@
             ]
         },
         {
+            "Tag" : "Porcupine",
+            "IncompatibleTags" : [
+                "Gear_Solaris_Spikes"
+            ]
+        },
+        {
+            "Tag" : "Locust-P",
+            "IncompatibleTags" : [
+                "Ammo_AmmunitionBox_Tracer_MG"
+            ]
+        },
+        {
+            "Tag" : "Enforcer-7S",
+            "IncompatibleTags" : [
+                "Ammo_AmmunitionBox_Heavy_GAUSS",
+                "Ammo_AmmunitionBox_Light_GAUSS"
+            ]
+        },
+        {
+            "Tag" : "Dragon-P",
+            "IncompatibleTags" : [
+                "Ammo_AmmunitionBox_Incendiary_LRM",
+                "Ammo_AmmunitionBox_Inferno_SRM"
+            ]
+        },
+        {
+            "Tag" : "Catapult-P",
+            "IncompatibleTags" : [
+                "Ammo_AmmunitionBox_Incendiary_LRM",
+                "Ammo_AmmunitionBox_Inferno_SRM",
+                "Ammo_AmmunitionBox_Artemis_LRM",
+                "Ammo_AmmunitionBox_Artemis_SRM",
+                "Ammo_AmmunitionBox_Deadfire_LRM",
+                "Ammo_AmmunitionBox_Deadfire_SRM",
+                "Ammo_AmmunitionBox_ER_LRM",
+                "Ammo_AmmunitionBox_Heatseeking_LRM",
+                "Ammo_AmmunitionBox_Heatseeking_SRM",
+                "Ammo_AmmunitionBox_Hotloaded_LRM",
+                "Ammo_AmmunitionBox_LFT_LRM",
+                "Ammo_AmmunitionBox_LFT_SRM"
+            ]
+        },
+        {
             "Tag" : "Catapult-K4",
             "IncompatibleTags" : [
                 "Gear_PPC_Capacitator"
+            ]
+        },
+        {
+            "Tag" : "Marauder-S7",
+            "IncompatibleTags" : [
+                "Gear_Combat_Shield_Small",
+                "Gear_Combat_Shield_Medium",
+                "Gear_Combat_Shield",
+                "Weapon_HandyVac_Industrial_Construction_1_LaserCutter",
+                "Weapon_HandyVac_Industrial_Construction_0_ArcWelder",
+                "Weapon_HandyVac_Industrial_Agro_1_Chainsaw",
+                "Weapon_HandyVac_Industrial_Agro_0_Cultivator",
+                "Weapon_Elite_2_PlasmaTorch",
+                "Weapon_Elite_2_LaserDrill",
+                "Weapon_Elite_2_Jackhammer",
+                "Weapon_Elite_2_Chainsword",
+                "Weapon_HandyVac_Industrial_Mining_1_MiningDrill",
+                "Weapon_HandyVac_Industrial_Mining_0_Jackhammer",
+                "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch",
+                "Gear_PPC_Capacitator",
+                "Gear_TargetingTrackingSystem_Hartford_F2400",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-X",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-P150+",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-1500",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-1000",
+                "Gear_TargetingTrackingSystem_Hartford_F3000",
+                "Gear_TargetingTrackingSystem_Hartford_F1800",
+                "Gear_TargetingTrackingSystem_ARTIVcv",
+                "Gear_TargetingTrackingSystem_I3F1",
+                "Gear_TargetingTrackingSystem_I3F2",
+                "Gear_TargetingTrackingSystem_I3F3"
+            ]
+        },
+        {
+            "Tag" : "Defiance",
+            "IncompatibleTags" : [
+                "Gear_PPC_Capacitator",
+                "Weapon_HandyVac_Industrial_Construction_1_LaserCutter",
+                "Weapon_HandyVac_Industrial_Construction_0_ArcWelder",
+                "Weapon_HandyVac_Industrial_Agro_1_Chainsaw",
+                "Weapon_HandyVac_Industrial_Agro_0_Cultivator",
+                "Weapon_Elite_2_PlasmaTorch",
+                "Weapon_Elite_2_LaserDrill",
+                "Weapon_Elite_2_Jackhammer",
+                "Weapon_Elite_2_Chainsword",
+                "Weapon_HandyVac_Industrial_Mining_1_MiningDrill",
+                "Weapon_HandyVac_Industrial_Mining_0_Jackhammer",
+                "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch"
+            ]
+        },
+        {
+            "Tag" : "Basilisk",
+            "IncompatibleTags" : [
+                "Gear_HeatSink_Generic_Thermal-Exchanger-I",
+                "Gear_HeatSink_Generic_Thermal-Exchanger-II",
+                "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+                "Gear_HeatSink_Generic_Improved-Bank",
+                "Gear_HeatSink_Generic_Bulk-Bank",
+                "Gear_HeatSink_Generic_Standard-Bank"
             ]
         },
         {
@@ -58,7 +178,41 @@
                 "Gear_TargetingTrackingSystem_Kallon_A-C-1000",
                 "Gear_TargetingTrackingSystem_Hartford_F3000",
                 "Gear_TargetingTrackingSystem_Hartford_F1800",
-                "Gear_TargetingTrackingSystem_ARTIVcv"
+                "Gear_TargetingTrackingSystem_I3F1",
+                "Gear_TargetingTrackingSystem_I3F2",
+                "Gear_TargetingTrackingSystem_I3F3"
+            ]
+        },
+        {
+            "Tag" : "Kraken",
+            "IncompatibleTags" : [
+                "Gear_Actuator_Coventry_X75-Standard",
+                "Gear_Actuator_Coventry_X65-Standard",
+                "Gear_Actuator_Coventry_X55-Standard",
+                "Gear_TargetingTrackingSystem_Hartford_F2400",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-X",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-P150+",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-1500",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-1000",
+                "Gear_TargetingTrackingSystem_Hartford_F3000",
+                "Gear_TargetingTrackingSystem_Hartford_F1800",
+                "Gear_TargetingTrackingSystem_ARTIVcv",
+                "Gear_TargetingTrackingSystem_I3F1",
+                "Gear_TargetingTrackingSystem_I3F2",
+                "Gear_TargetingTrackingSystem_I3F3"
+            ]
+        },
+        {
+            "Tag" : "Katyusha",
+            "IncompatibleTags" : [
+                "Gear_TargetingTrackingSystem_Hartford_F2400",
+                "Gear_TargetingTrackingSystem_Hartford_F3000",
+                "Gear_TargetingTrackingSystem_Hartford_F1800",
+                "Gear_TargetingTrackingSystem_I3F1",
+                "Gear_TargetingTrackingSystem_I3F2",
+                "Gear_TargetingTrackingSystem_I3F3"
             ]
         },
         {
@@ -209,7 +363,10 @@
     ],
     "AutoFixUpgradeDefSkip" : [
         "Gear_Cockpit_Generic_Small",
-        "emod_arm_lower"
+        "emod_arm_lower",
+        "Gear_Actuator_Coventry_X55-Standard",
+        "Gear_Actuator_Coventry_X65-Standard",
+        "Gear_Actuator_Coventry_X75-Standard"
     ],
     "AutoFixMechDefEngine" : false,
     "AutoFixMechDefEngineTypeDef" : "emod_engineslots_std_center",

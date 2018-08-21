@@ -3247,65 +3247,17 @@
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 6,
+			"DefaultIndex": 7,
 			"Options": [
 				{
-					"ID": "diff_Specials_0",
-					"Name": "0",
+					"ID": "diff_Specials_5",
+					"Name": "5",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
 							"ConstantName": "DefaultShopMaxSpecials",
-							"ConstantValue": "0"
-						}
-					]
-				},
-				{
-					"ID": "diff_Specials_2",
-					"Name": "2",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxSpecials",
-							"ConstantValue": "2"
-						}
-					]
-				},
-				{
-					"ID": "diff_Specials_4",
-					"Name": "4",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxSpecials",
-							"ConstantValue": "4"
-						}
-					]
-				},
-				{
-					"ID": "diff_Specials_6",
-					"Name": "6",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxSpecials",
-							"ConstantValue": "6"
-						}
-					]
-				},
-				{
-					"ID": "diff_Specials_8",
-					"Name": "8",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxSpecials",
-							"ConstantValue": "8"
+							"ConstantValue": "5"
 						}
 					]
 				},
@@ -3322,50 +3274,14 @@
 					]
 				},
 				{
-					"ID": "diff_Specials_12",
-					"Name": "12",
+					"ID": "diff_Specials_15",
+					"Name": "15",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
 							"ConstantName": "DefaultShopMaxSpecials",
-							"ConstantValue": "12"
-						}
-					]
-				},
-				{
-					"ID": "diff_Specials_14",
-					"Name": "14",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxSpecials",
-							"ConstantValue": "14"
-						}
-					]
-				},
-				{
-					"ID": "diff_Specials_16",
-					"Name": "16",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxSpecials",
-							"ConstantValue": "16"
-						}
-					]
-				},
-				{
-					"ID": "diff_Specials_18",
-					"Name": "18",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxSpecials",
-							"ConstantValue": "18"
+							"ConstantValue": "15"
 						}
 					]
 				},
@@ -3382,50 +3298,14 @@
 					]
 				},
 				{
-					"ID": "diff_Specials_22",
-					"Name": "22",
+					"ID": "diff_Specials_25",
+					"Name": "25",
 					"DifficultyValue": 0,
 					"DifficultyConstants": [
 						{
 							"ConstantType": "Finances",
 							"ConstantName": "DefaultShopMaxSpecials",
-							"ConstantValue": "22"
-						}
-					]
-				},
-				{
-					"ID": "diff_Specials_24",
-					"Name": "24",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxSpecials",
-							"ConstantValue": "24"
-						}
-					]
-				},
-				{
-					"ID": "diff_Specials_26",
-					"Name": "26",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxSpecials",
-							"ConstantValue": "26"
-						}
-					]
-				},
-				{
-					"ID": "diff_Specials_28",
-					"Name": "28",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Finances",
-							"ConstantName": "DefaultShopMaxSpecials",
-							"ConstantValue": "28"
+							"ConstantValue": "25"
 						}
 					]
 				},
@@ -3438,6 +3318,126 @@
 							"ConstantType": "Finances",
 							"ConstantName": "DefaultShopMaxSpecials",
 							"ConstantValue": "30"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_35",
+					"Name": "35",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "35"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_40",
+					"Name": "40",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "40"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_45",
+					"Name": "45",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "45"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_50",
+					"Name": "50",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "55"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_60",
+					"Name": "60",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "60"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_65",
+					"Name": "65",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "65"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_65",
+					"Name": "65",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "65"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_70",
+					"Name": "70",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "70"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_75",
+					"Name": "75",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "75"
+						}
+					]
+				},
+				{
+					"ID": "diff_Specials_80",
+					"Name": "80",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Finances",
+							"ConstantName": "DefaultShopMaxSpecials",
+							"ConstantValue": "80"
 						}
 					]
 				}				

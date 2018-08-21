@@ -21,7 +21,7 @@
     "UIName": "JagerMech JM-IIC",
     "Id": "mechdef_jagermech_JM-IIC",
     "Name": "JagerMech",
-    "Details": "A ClanTech upgraded JaegerMech.",
+    "Details": "A ClanTech upgraded JaegerMech. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_jagermech"
   },
   "simGameMechPartCost": 790000,

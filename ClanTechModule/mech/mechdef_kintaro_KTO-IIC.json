@@ -25,7 +25,7 @@
     "UIName": "Kintaro KTO-IIC",
     "Id": "mechdef_kintaro_KTO-IIC",
     "Name": "Kintaro",
-    "Details": "A Clantech upgraded Kintaro.",
+    "Details": "A Clantech upgraded Kintaro. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_kintaro"
   },
   "simGameMechPartCost": 630000,

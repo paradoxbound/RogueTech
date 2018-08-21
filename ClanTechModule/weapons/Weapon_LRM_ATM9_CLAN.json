@@ -1,4 +1,7 @@
 {
+
+"Custom" :  {"Category" : { "CategoryID" : "ATM"}},
+
     "Category" : "Missile",
     "Type" : "LRM",
     "WeaponSubType" : "LRM15",

@@ -44,7 +44,7 @@
     "UIName": "Black Knight",
     "Id": "chassisdef_blackknight_BL-IIC",
     "Name": "Black Knight",
-    "Details": "This is a ClanTech Upgraded Black Knight.",
+    "Details": "This is a ClanTech Upgraded Black Knight. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_blackknight"
   },
   "MovementCapDefID": "movedef_blackknight_BL-S7",
@@ -60,7 +60,7 @@
   "TopSpeed": 64,
   "TurnRadius": 260,
   "MaxJumpjets": 5,
-  "Stability": 130,
+  "Stability": 100,
   "StabilityDefenses": [
     0,
     0,
@@ -69,19 +69,19 @@
     0,
     0
   ],
-  "SpotterDistanceMultiplier": 1.2,
+  "SpotterDistanceMultiplier": 1.25,
   "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1.2,
+  "SensorRangeMultiplier": 1.25,
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 100,
+  "MeleeDamage": 95,
   "MeleeInstability": 75,
-  "MeleeToHitModifier": 1,
-  "DFADamage": 100,
-  "DFAToHitModifier": 1,
-  "DFASelfDamage": 55,
-  "DFAInstability": 65,
+  "MeleeToHitModifier": 2,
+  "DFADamage": 95,
+  "DFAToHitModifier": 2,
+  "DFASelfDamage": 95,
+  "DFAInstability": 95,
   "Locations": [
     {
       "Location": "Head",
@@ -366,10 +366,10 @@
   "VariantName": "BL-IIC",
   "ChassisTags": {
     "items": [
-	"NoMelee"
+	"ClanMech"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Clan Battlemech",
-  "YangsThoughts": "This is a ClanTech Upgraded Black Knight."
+  "YangsThoughts": "This is a ClanTech Upgraded Black Knight. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>"
 }

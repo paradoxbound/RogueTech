@@ -87,59 +87,38 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+			"ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Front",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+			"ComponentDefID": "Weapon_LRM_LRM10_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Front",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+			"ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Front",
 			"HardpointSlot": 2,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Front",
 			"HardpointSlot": 3,
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
+			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Front",
 			"HardpointSlot": 4,
-			"DamageLevel": "Functional"
-		},
-		{
-			"ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"MountedLocation": "Front",
-			"HardpointSlot": 5,
-			"DamageLevel": "Functional"
-		},
-		{
-			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"MountedLocation": "Front",
-			"HardpointSlot": 6,
-			"DamageLevel": "Functional"
-		},
-		{
-			"ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"MountedLocation": "Front",
-			"HardpointSlot": 7,
 			"DamageLevel": "Functional"
 		},
 		{

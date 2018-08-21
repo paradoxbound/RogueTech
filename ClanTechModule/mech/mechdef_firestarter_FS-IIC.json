@@ -24,7 +24,7 @@
     "UIName": "Firestarter FS-IIC",
     "Id": "mechdef_firestarter_FS-IIC",
     "Name": "Firestarter",
-    "Details": "A ClanTech Firestarter, it sports a Puma Emblem.",
+    "Details": "A ClanTech Firestarter, it sports a Puma Emblem. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_firestarter"
   },
   "simGameMechPartCost": 410000,

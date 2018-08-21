@@ -1,10 +1,293 @@
 {
-  "Custom": {
-    "ArmActuatorSupport": {
+"Custom": {
+	"ArmActuatorSupport": {
       "LeftLimit": "Upper",
       "RightLimit": "Upper"
     }
-  },
+  "ChassisQuirks": {
+    "statusEffects": [
+      	         {
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : true,
+				"showInStatusPanel" : true
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Catapult-p",
+				"Name" : "Hydra",
+				"Details" : "Chassis has Pirate LRM Ammo",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+                "statName" : "JumpDistanceMultiplier",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.1",
+                "modType" : "System.Single",
+			},
+			"nature" : "Buff"
+		},
+			{
+			"durationData" :{
+			},
+            "targetingData" : 
+			{
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Hydra1",
+				"Name" : "DeadFire LRM",
+				"Details" : "This unit fires DeadFire LRM's.",
+				"Icon" : "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData" : 
+			{
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "ToHitIndirectModifier",
+                "operation" : "Float_Add",
+                "modValue" : "1.0",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM"				
+			},		
+			"nature" : "Buff"
+		},
+		{
+			"durationData" :
+				{} 
+            "targetingData" :
+			{
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Hydra2",
+				"Name" : "DFLRMMinR",
+				"Details" : "DF Minrange by 50m",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"statName" : "MinRange",
+				"operation" : "Float_Add",
+				"modValue" : "-90.0",
+				"modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM"				
+			},		
+			"nature" : "Buff"
+		},	
+		{
+			"durationData" :{				
+			},
+            "targetingData" : 
+			{
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Hydra3",
+				"Name" : "DFLRMSR",
+				"Details" : "DF Minrange by 50m",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"statName" : "ShortRange",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.75",
+				"modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",				
+			},		
+			"nature" : "Buff"
+		},
+		{
+			"durationData" :
+			{				
+			},
+			"targetingData" : 
+			{
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Hydra4",
+				"Name" : "DFLRMMR",
+				"Details" : "DF Minrange by 50m",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"statName" : "MediumRange",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.75",
+				"modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",				
+			},		
+			"nature" : "Buff"
+		},
+		{
+			"durationData" :
+			{				
+			},
+			"targetingData" : 
+			{
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Hydra5",
+				"Name" : "DFLRMLR",
+				"Details" : "DF Minrange by 50m",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"statName" : "LongRange",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.75",
+				"modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",				
+			},		
+			"nature" : "Buff"
+		},	
+		{
+			"durationData" :{			
+			},
+			"targetingData" : 
+			{
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Hydra6",
+				"Name" : "DFLRMMXR",
+				"Details" : "DF Minrange by 50m",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+				"statName" : "MaxRange",
+				"operation" : "Float_Multiply",
+				"modValue" : "0.75",
+				"modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",				
+			},		
+			"nature" : "Buff"
+		},		
+		{
+			"durationData" :
+			{				
+			},
+			"targetingData" : 
+			{
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Hydra6",
+				"Name" : "DFLRMDMG",
+				"Details" : "DF Minrange by 50m",
+				"Icon" : "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData" : 
+			{
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.25",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",				
+			},		
+			"nature" : "Buff"
+		},
+	        {
+            "durationData" : {
+            },
+            "targetingData" : 
+			{
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "Hydra6",
+                "Name" : "Inferno Ammo",
+                "Details" : "This unit is equipped with inferno rounds",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "statName" : "HeatDamagePerShot",
+                "operation" : "Float_Add",
+                "modValue" : "1",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponType" : "LRM",
+                "targetAmmoCategory" : "LRM",
+            }
+        }		
+    ]
+  }
+},
   "Description": {
     "Cost": 6666000,
     "Rarity": 3,
@@ -14,7 +297,7 @@
     "UIName": "Catapult",
     "Id": "chassisdef_catapult_CPLT-P",
     "Name": "Catapult",
-    "Details": "Ah, the Catapult P. at first it looks like a perfectly fine C1, but they removed almost all tracking systems and added stubble wings all over it, i have no idea what they wanted to achieve with that.",
+    "Details": "Ah, the Catapult P. at first it looks like a perfectly fine C1, but they removed almost all tracking systems and added stubble wings all over it, i have no idea what they wanted to achieve with that. <b><color=#009933>Quirk: Hydra</color></b>",
     "Icon": "uixTxrIcon_catapult"
   },
   "MovementCapDefID": "movedef_catapult_CPLT-C1",
@@ -49,7 +332,7 @@
   "MeleeInstability": 65,
   "MeleeToHitModifier": 0,
   "DFADamage": 90,
-  "DFAToHitModifier": -2,
+  "DFAToHitModifier": -1,
   "DFASelfDamage": 60,
   "DFAInstability": 80,
   "Locations": [
@@ -229,5 +512,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Fire Support",
-  "YangsThoughts": "Ah, the Catapult P. at first it looks like a perfectly fine C1, but they removed almost all tracking systems and added stubble wings all over it, i have no idea what they wanted to achieve with that."
+  "YangsThoughts": "Ah, the Catapult P. at first it looks like a perfectly fine C1, but they removed almost all tracking systems and added stubble wings all over it, i have no idea what they wanted to achieve with that. <b><color=#009933>Quirk: Hydra</color></b>"
 }

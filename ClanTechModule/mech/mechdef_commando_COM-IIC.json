@@ -22,7 +22,7 @@
     "UIName": "Commando COM-IIC",
     "Id": "mechdef_commando_COM-IIC",
     "Name": "Commando",
-    "Details": "A ClanTech upgraded Commando.",
+    "Details": "A ClanTech upgraded Commando. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_commando"
   },
   "simGameMechPartCost": 350000,

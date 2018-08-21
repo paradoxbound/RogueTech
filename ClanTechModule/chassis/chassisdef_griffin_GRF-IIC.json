@@ -44,7 +44,7 @@
     "UIName": "Griffin",
     "Id": "chassisdef_griffin_GRF-IIC",
     "Name": "Griffin",
-    "Details": "A Griffin sporting ClanTech upgrades.",
+    "Details": "A Griffin sporting ClanTech upgrades. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_griffin"
   },
   "MovementCapDefID": "movedef_griffin_GRF-1N",
@@ -60,7 +60,7 @@
   "TopSpeed": 80,
   "TurnRadius": 90,
   "MaxJumpjets": 5,
-  "Stability": 120,
+  "Stability": 100,
   "StabilityDefenses": [
     0,
     0,
@@ -69,18 +69,18 @@
     0,
     0
   ],
-  "SpotterDistanceMultiplier": 1.2,
+  "SpotterDistanceMultiplier": 1.25,
   "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1.2,
+  "SensorRangeMultiplier": 1.25,
   "Signature": 0,
   "Radius": 5,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 80,
+  "MeleeDamage": 70,
   "MeleeInstability": 55,
-  "MeleeToHitModifier": 1,
-  "DFADamage": 90,
-  "DFAToHitModifier": 1,
-  "DFASelfDamage": 90,
+  "MeleeToHitModifier": 2,
+  "DFADamage": 70,
+  "DFAToHitModifier": 2,
+  "DFASelfDamage": 70,
   "DFAInstability": 70,
   "Locations": [
     {
@@ -405,10 +405,10 @@
   "VariantName": "GRF-IIC",
   "ChassisTags": {
     "items": [
-	"NoMelee"
+	"ClanMech"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Clan Battlemech",
-  "YangsThoughts": "A Griffin sporting ClanTech upgrades."
+  "YangsThoughts": "A Griffin sporting ClanTech upgrades. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>"
 }

@@ -23,7 +23,7 @@
     "UIName": "Atlas AS-IIC",
     "Id": "mechdef_atlas_AS-IIC",
     "Name": "Atlas",
-    "Details": "A ClanTech equipped Atlas II.",
+    "Details": "A ClanTech equipped Atlas II. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_atlas"
   },
   "simGameMechPartCost": 2060000,

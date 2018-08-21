@@ -127,7 +127,7 @@
     "UIName": "Warhammer",
     "Id": "chassisdef_warhammer_WHM-NK",
     "Name": "Warhammer",
-    "Details": "A seemingly average Warhammer, the 'Widows Whammy', was rumoured to be the configuration piloted by the Black Widow Natasha Kerensky herself.",
+    "Details": "A seemingly average Warhammer, the 'Widows Whammy', was rumoured to be the configuration piloted by the Black Widow Natasha Kerensky herself. <b><color=#009933>Quirk: Widkowmaker - Superior Cooling</color></b>",
     "Icon": "uixTxrIcon_warhammer"
   },
   "MovementCapDefID": "movedef_warhammer_WHM-6R",
@@ -347,5 +347,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Brawler & Close Assault",
-  "YangsThoughts": "A seemingly average Warhammer, the 'Widows Whammy', was rumoured to be the configuration piloted by the Black Widow Natasha Kerensky herself."
+  "YangsThoughts": "A seemingly average Warhammer, the 'Widows Whammy', was rumoured to be the configuration piloted by the Black Widow Natasha Kerensky herself. <b><color=#009933>Quirk: Widkowmaker - Superior Cooling</color></b>"
 }

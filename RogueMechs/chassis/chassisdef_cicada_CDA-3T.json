@@ -45,7 +45,7 @@
     "UIName": "Porcupine",
     "Id": "chassisdef_cicada_CDA-3T",
     "Name": "Porcupine",
-    "Details": "The Cicada 3T 'Porcupine' is a Solaris refit of the 3C Cicada, outfitted with spiked plating, a combat shield and combat pods.",
+    "Details": "The Cicada 3T 'Porcupine' is a Solaris refit of the 3C Cicada, outfitted with spiked plating, a combat shield and combat pods. <b><color=#009933>Quirk: Spiked Plating</color></b>",
     "Icon": "uixTxrIcon_cicada"
   },
   "MovementCapDefID": "movedef_cicada_CDA-3C",
@@ -76,9 +76,9 @@
   "Signature": 0,
   "Radius": 5,
   "PunchesWithLeftArm": false,
-  "MeleeDamage": 55,
+  "MeleeDamage": 60,
   "MeleeInstability": 40,
-  "MeleeToHitModifier": -1,
+  "MeleeToHitModifier": -3,
   "DFADamage": 50,
   "DFAToHitModifier": 0,
   "DFASelfDamage": 50,
@@ -261,10 +261,10 @@
   "VariantName": "CDA-3T",
   "ChassisTags": {
     "items": [
-
+	"Porcupine"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Scout & Brawler",
-  "YangsThoughts": "The Cicada 3T 'Porcupine' is a Solaris refit of the 3C Cicada, outfitted with spiked plating, a combat shield and combat pods."
+  "YangsThoughts": "The Cicada 3T 'Porcupine' is a Solaris refit of the 3C Cicada, outfitted with spiked plating, a combat shield and combat pods. <b><color=#009933>Quirk: Spiked Plating</color></b>"
 }

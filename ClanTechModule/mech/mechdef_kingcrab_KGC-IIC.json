@@ -22,7 +22,7 @@
     "UIName": "Stone Rhino KGC-IIC",
     "Id": "mechdef_kingcrab_KGC-IIC",
     "Name": "Stone Rhino",
-    "Details": "A Clan redesign of 'Amaris Folly'.",
+    "Details": "A Clan redesign of 'Amaris Folly'. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_kingcrab"
   },
   "simGameMechPartCost": 1370000,

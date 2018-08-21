@@ -23,7 +23,7 @@
     "UIName": "Griffin IIC",
     "Id": "mechdef_griffin_GRF-IIC",
     "Name": "Griffin",
-    "Details": "A Griffin sporting ClanTech upgrades.",
+    "Details": "A Griffin sporting ClanTech upgrades. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_griffin"
   },
   "simGameMechPartCost": 960000,

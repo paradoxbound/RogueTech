@@ -28,7 +28,7 @@
 			{
                 "statName" : "RefireModifier",
                 "operation" : "Int_Add",
-                "modValue" : "3",
+                "modValue" : "5",
                 "modType" : "System.Int32",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -50,7 +50,7 @@
 			"effectType" : "StatisticEffect",
 			"Description" :
 			{
-				"Id" : "ghostback2",
+				"Id" : "enforcer7s2",
 				"Name" : "ChargerSprint",
 				"Details" : "MORE SPEED.",
 				"Icon" : "uixSvgIcon_skullAtlas"
@@ -59,7 +59,7 @@
 			{
                 "statName" : "AccuracyModifier",
                 "operation" : "Float_Multiply",
-                "modValue" : "-2",
+                "modValue" : "-3",
                 "modType" : "System.Single",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -67,7 +67,38 @@
                 "targetWeaponSubType" : "Gauss"				
 			},
 			"nature" : "Buff"
-		}		
+		},
+		{
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "enforcer7s3",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+                "statName" : "DamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.25",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "Gauss",
+                "targetWeaponSubType" : "Gauss"				
+			},
+			"nature" : "Buff"
+		},		
     ]
   }
 },  
@@ -80,7 +111,7 @@
     "UIName": "Enforcer",
     "Id": "chassisdef_enforcer_ENF-7S",
     "Name": "Enforcer",
-    "Details": "The Enforcer 7S is an NAIS prototype carrying a mostly functional Gauss rifle prototype. This one seems to be stolen.",
+    "Details": "The Enforcer 7S is an NAIS prototype carrying a mostly functional Gauss rifle prototype. This one seems to be stolen. <b><color=#009933>Quirk: Prototype Gauss Rifle</color></b>",
     "Icon": "uixTxrIcon_enforcer"
   },
   "MovementCapDefID": "movedef_enforcer_ENF-4R",
@@ -307,10 +338,10 @@
   "VariantName": "ENF-7S",
   "ChassisTags": {
     "items": [
-
+	"Enforcer-7S"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Skirmisher",
-  "YangsThoughts": "The Enforcer 7S is an NAIS prototype carrying a mostly functional Gauss rifle prototype. This one seems to be stolen."
+  "YangsThoughts": "The Enforcer 7S is an NAIS prototype carrying a mostly functional Gauss rifle prototype. This one seems to be stolen. <b><color=#009933>Quirk: Prototype Gauss Rifle</color></b>"
 }

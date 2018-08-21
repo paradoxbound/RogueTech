@@ -1,10 +1,71 @@
 {
-  "Custom": {
+
+"Custom": {
     "ArmActuatorSupport": {
       "LeftLimit": "Lower",
       "RightLimit": "Lower"
     }
-  },
+  "ChassisQuirks": {
+    "statusEffects": [
+      	         {
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : true,
+				"showInStatusPanel" : true
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "DragonP",
+				"Name" : "Pyro",
+				"Details" : "Chassis has Incendiary Weapons",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+                "statName" : "HeatDamagePerShot",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.5",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+			},
+			"nature" : "Buff"
+		},
+		{
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "DragonP2",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+                "statName" : "HeatDamagePerShot",
+                "operation" : "Float_Add",
+                "modValue" : "2",
+                "modType" : "System.Single",
+                "targetCollection" : "Weapon",
+			},
+			"nature" : "Buff"
+		}		
+    ]
+  }
+},  
   "Description": {
     "Cost": 6226000,
     "Rarity": 2,
@@ -14,7 +75,7 @@
     "UIName": "Dragon",
     "Id": "chassisdef_dragon_DRG-P",
     "Name": "Dragon",
-    "Details": "The Dragon P is in a pretty good condition for a Pirate Mech but all its Weapons have been replaced with Incendiary variants and it has all kinds of Graffiti and Unicorns on it, a real joker owned this.",
+    "Details": "The Dragon P is in a pretty good condition for a Pirate Mech but all its Weapons have been replaced with Incendiary variants and it has all kinds of Graffiti and Unicorns on it, a real joker owned this. <b><color=#009933>Quirk: Pyro</color></b>",
     "Icon": "uixTxrIcon_dragon"
   },
   "MovementCapDefID": "movedef_dragon_DRG-1N",
@@ -224,10 +285,10 @@
   "VariantName": "DRG-P",
   "ChassisTags": {
     "items": [
-
+	"Dragon-P"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Skirmisher & Brawler",
-  "YangsThoughts": "The Dragon P is in a pretty good condition for a Pirate Mech but all its Weapons have been replaced with Incendiary variants and it has all kinds of Graffiti and Unicorns on it, a real joker owned this."
+  "YangsThoughts": "The Dragon P is in a pretty good condition for a Pirate Mech but all its Weapons have been replaced with Incendiary variants and it has all kinds of Graffiti and Unicorns on it, a real joker owned this. <b><color=#009933>Quirk: Pyro</color></b>"
 }

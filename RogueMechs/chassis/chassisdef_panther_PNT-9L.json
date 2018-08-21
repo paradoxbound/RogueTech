@@ -20,8 +20,8 @@
 			"Description" :
 			{
 				"Id" : "Panther9l",
-				"Name" : "Plasma Cannon Testbed",
-				"Details" : "Improved Plasma Cannon",
+				"Name" : "Prototype Plasma Cannon",
+				"Details" : "Chassis has improved Plasma Cannon",
 				"Icon" : "uixSvgIcon_skullAtlas"
 			},
 			"statisticData" : 
@@ -118,7 +118,7 @@
     "UIName": "Panther",
     "Id": "chassisdef_panther_PNT-9L",
     "Name": "Panther",
-    "Details": "The Panther 9L carries an experimental Plasma Cannon on a improved Weapons mount and is supported by a Haywire Launcher and Flamer.",
+    "Details": "The Panther 9L carries an experimental Plasma Cannon on a improved Weapons mount and is supported by a Haywire Launcher and Flamer. <b><color=#009933>Quirk: Prototype Plasma Cannon</color></b>",
     "Icon": "uixTxrIcon_panther"
   },
   "MovementCapDefID": "movedef_panther_PNT-9R",
@@ -341,5 +341,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Sniper & Light Brawler",
-  "YangsThoughts": "The Panther 9L carries an experimental Plasma Cannon on a improved Weapons mount and is supported by a Haywire Launcher and Flamer."
+  "YangsThoughts": "The Panther 9L carries an experimental Plasma Cannon on a improved Weapons mount and is supported by a Haywire Launcher and Flamer. <b><color=#009933>Quirk: Prototype Plasma Cannon</color></b>"
 }

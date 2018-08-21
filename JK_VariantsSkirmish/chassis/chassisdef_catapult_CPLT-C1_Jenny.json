@@ -28,8 +28,8 @@
 			"statisticData" : 
 			{
                 "statName" : "DamagePerShot",
-                "operation" : "Float_Add",
-                "modValue" : "2",
+                "operation" : "Float_Multiply",
+                "modValue" : "1.2",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -52,7 +52,7 @@
     "UIName": "Catapult",
     "Id": "chassisdef_catapult_CPLT-C1_Jenny",
     "Name": "Catapult",
-    "Details": "The personal ride of MechWarrior Jenny Templeton of the Chesterton Reserves. This custom variant of the Catapult C1, the <b>Butterbee</b>, replaces the standard arm-mounted LRM-15s with two SRM-6 missile launchers in each arm, giving it deadly close combat capability.",
+    "Details": "The personal ride of MechWarrior Jenny Templeton of the Chesterton Reserves. This custom variant of the Catapult C1, the <b>Butterbee</b>, replaces the standard arm-mounted LRM-15s with two SRM-6 missile launchers in each arm, giving it deadly close combat capability. <b><color=#009933>Quirk: Butterbee</color></b>",
     "Icon": "uixTxrIcon_catapult"
   },
   "MovementCapDefID": "movedef_catapult_CPLT-C1",
@@ -267,5 +267,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Skirmisher & Assassin",
-  "YangsThoughts": "The personal ride of MechWarrior Jenny Templeton of the Chesterton Reserves. This custom variant of the Catapult C1, the <b>Butterbee</b>, replaces the standard arm-mounted LRM-15s with two SRM-6 missile launchers in each arm, giving it deadly close combat capability.\n\n<b>Faction:</b> Chesterton Reserves (Capellan Confederation), Unknown Regiment\n\n<b>Rarity:</b> Custom, Status Unknown"
+  "YangsThoughts": "The personal ride of MechWarrior Jenny Templeton of the Chesterton Reserves. This custom variant of the Catapult C1, the <b>Butterbee</b>, replaces the standard arm-mounted LRM-15s with two SRM-6 missile launchers in each arm, giving it deadly close combat capability.\n\n<b>Faction:</b> Chesterton Reserves (Capellan Confederation), Unknown Regiment\n\n<b>Rarity:</b> Custom, Status Unknown <b><color=#009933>Quirk: Butterbee</color></b>"
 }

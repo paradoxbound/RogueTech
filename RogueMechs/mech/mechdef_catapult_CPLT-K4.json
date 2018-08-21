@@ -20,7 +20,7 @@
     "UIName": "Catapult CPLT-K4",
     "Id": "mechdef_catapult_CPLT-K4",
     "Name": "Catapult",
-    "Details": "An upgrade of the prototype K3, this Kuritan variant carries twin Heavy and Light PPCs linked to a Prototype Capacitator.",
+    "Details": "An upgrade of the prototype K3, this Kuritan variant carries twin Heavy and Light PPCs linked to a Prototype Capacitator. <b><color=#009933>Quirk: Advanced PPC Capacitator</color></b>",
     "Icon": "uixTxrIcon_catapultk2"
   },
   "simGameMechPartCost": 720000,

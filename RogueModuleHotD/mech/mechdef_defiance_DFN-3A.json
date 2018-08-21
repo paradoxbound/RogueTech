@@ -4,7 +4,7 @@
       "unit_mech",
       "unit_heavy",
       "unit_lance_tank",
-      "unit_role_brawler",
+      "unit_role_flanker",
       "unit_release",
       "unit_legendary",
       "steiner"
@@ -22,7 +22,7 @@
     "UIName": "Defiance DFN-3A",
     "Id": "mechdef_defiance_DFN-3A",
     "Name": "Defiance",
-    "Details": "The prototype Defiance was intended to be the flagship design of venerable Defiance Industries, Described as a ''Warhammer on steroids'', it is visually similar to the original WHM-6R, carries a similar weapons array, and uses a searchlight linked to the 'Mech's targeting system.",
+    "Details": "The prototype Defiance was intended to be the flagship design of venerable Defiance Industries, Described as a ''Warhammer on steroids'', it is visually similar to the original WHM-6R, carries a similar weapons array, and advanced TC <b><color=#009933>Quirk: Flagship - Weapon Damage</color></b>",
     "Icon": "uixTxrIcon_warhammer"
   },
   "simGameMechPartCost": 800000,

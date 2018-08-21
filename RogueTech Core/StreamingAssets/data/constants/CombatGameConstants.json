@@ -173,7 +173,7 @@
         "ToHitMaximumRange": 8,
         "ToHitCoverObstructed": 2,
         "DamageResistanceObstructed": 0.9,
-        "DamageResistanceIndirectFire": 0.8,
+        "DamageResistanceIndirectFire": 1,
         "ClusterChanceOriginalLocationMultiplier": 5,
         "ClusterChanceAdjacentMultiplier": 3,
         "ClusterChanceNonadjacentMultiplier": 1,

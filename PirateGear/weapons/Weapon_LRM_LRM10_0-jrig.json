@@ -1,6 +1,6 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamage": 40 } },
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 20 } },
 
     "Category" : "Missile",
     "Type" : "LRM",

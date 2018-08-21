@@ -14,7 +14,7 @@
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
     "Description" : {
-        "Cost" : 40000,
+        "Cost" : 150000,
         "Rarity" : 1,
         "Purchasable" : true,
         "Manufacturer" : "Coventry",
@@ -115,7 +115,7 @@
 			{
 				"statName" : "RefireModifier",
 				"operation" : "Int_Add",
-				"modValue" : "-2",
+				"modValue" : "-1",
 				"modType" : "System.Int32"
 			}
 			}			

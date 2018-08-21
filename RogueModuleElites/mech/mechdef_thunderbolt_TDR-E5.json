@@ -22,7 +22,7 @@
     "UIName": "Eris TDR-E5",
     "Id": "mechdef_thunderbolt_TDR-E5",
     "Name": "Eris",
-    "Details": "The Eris, named after the Terran Goddess of Chaos and Strife, is capable of delivering a stunning long range blow that can unexpectedly crush all but the most capable Combatants.",
+    "Details": "The Eris, named after the Terran Goddess of Chaos and Strife, is capable of delivering a stunning long range blow that can unexpectedly crush all but the most capable Combatants. <b><color=#009933>Quirk: War Goddess - Weapons Damage and Range</color></b>",
     "Icon": "uixTxrIcon_thunderbolt"
   },
   "simGameMechPartCost": 760000,

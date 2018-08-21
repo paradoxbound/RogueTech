@@ -44,7 +44,7 @@
     "UIName": "Wolverine",
     "Id": "chassisdef_wolverine_WVR-C",
     "Name": "Wolverine",
-    "Details": "This BattleMech was solely designed to spite Clanners distaste for everything Wolverine.",
+    "Details": "This BattleMech was solely designed to spite Clanners distaste for everything Wolverine. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_wolverine"
   },
   "MovementCapDefID": "movedef_wolverine_WVR-6R",
@@ -69,17 +69,17 @@
     0,
     0
   ],
-  "SpotterDistanceMultiplier": 1.2,
+  "SpotterDistanceMultiplier": 1.25,
   "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1.2,
+  "SensorRangeMultiplier": 1.25,
   "Signature": 0,
   "Radius": 5,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 70,
   "MeleeInstability": 55,
-  "MeleeToHitModifier": 1,
+  "MeleeToHitModifier": 2,
   "DFADamage": 70,
-  "DFAToHitModifier": 1,
+  "DFAToHitModifier": 2,
   "DFASelfDamage": 70,
   "DFAInstability": 70,
   "Locations": [
@@ -397,10 +397,10 @@
   "VariantName": "WVR-C",
   "ChassisTags": {
     "items": [
-	"NoMelee"
+	"ClanMech"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "No-Clan Mech",
-  "YangsThoughts": "This BattleMech was solely designed to spite Clanners distaste for everything Wolverine."
+  "YangsThoughts": "This BattleMech was solely designed to spite Clanners distaste for everything Wolverine. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>"
 }

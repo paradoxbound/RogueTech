@@ -23,7 +23,7 @@
     "UIName": "Black Knight BL-IIC",
     "Id": "mechdef_blackknight_BL-IIC",
     "Name": "Black Knight",
-    "Details": "This is a ClanTech Upgraded Black Knight.",
+    "Details": "This is a ClanTech Upgraded Black Knight. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_blackknight"
   },
   "simGameMechPartCost": 1490000,

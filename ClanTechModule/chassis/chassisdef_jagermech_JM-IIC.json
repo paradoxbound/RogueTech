@@ -44,7 +44,7 @@
     "UIName": "JagerMech",
     "Id": "chassisdef_jagermech_JM-IIC",
     "Name": "JagerMech",
-    "Details": "A ClanTech upgraded JaegerMech.",
+    "Details": "A ClanTech upgraded JaegerMech. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_jagermech"
   },
   "MovementCapDefID": "movedef_jagermech_JM6-S",
@@ -69,19 +69,19 @@
     0,
     0
   ],
-  "SpotterDistanceMultiplier": 1.2,
+  "SpotterDistanceMultiplier": 1.25,
   "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1.2,
+  "SensorRangeMultiplier": 1.25,
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 60,
-  "MeleeInstability": 65,
-  "MeleeToHitModifier": 1,
-  "DFADamage": 80,
-  "DFAToHitModifier": 1,
-  "DFASelfDamage": 80,
-  "DFAInstability": 80,
+  "MeleeDamage": 90,
+  "MeleeInstability": 70,
+  "MeleeToHitModifier": 2,
+  "DFADamage": 90,
+  "DFAToHitModifier": 2,
+  "DFASelfDamage": 90,
+  "DFAInstability": 90,
   "Locations": [
     {
       "Location": "Head",
@@ -397,11 +397,11 @@
   "VariantName": "JM-IIC",
   "ChassisTags": {
     "items": [
-	"NoMelee"
+	"ClanMech"
 
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support",
-  "YangsThoughts": "A ClanTech upgraded JaegerMech."
+  "YangsThoughts": "A ClanTech upgraded JaegerMech. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>"
 }

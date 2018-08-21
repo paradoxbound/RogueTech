@@ -39,7 +39,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "DamageReductionMultiplierAll",
                 "operation" : "Float_Add",
-                "modValue" : "-0.05",
+                "modValue" : "-0.1",
                 "modType" : "System.Single"
 			},
 			"nature" : "Buff"
@@ -57,7 +57,7 @@
     "UIName": "Goblin",
     "Id": "chassisdef_firestarter_FS7-S",
     "Name": "Goblin",
-    "Details": "A goblin is a monstrous creature from European folklore, first attested in stories from the Middle Ages. They are ascribed various and conflicting abilities, temperaments and appearances depending on the story and country of origin. They are almost always small and grotesque, mischievous or outright malicious.",
+    "Details": "A goblin is a monstrous creature from European folklore, first attested in stories from the Middle Ages. They are ascribed various and conflicting abilities, temperaments and appearances depending on the story and country of origin. They are almost always small and grotesque, mischievous or outright malicious. <b><color=#009933>Quirk: Troublemaker - Less Damage taken</color></b>",
     "Icon": "uixTxrIcon_firestarter"
   },
   "MovementCapDefID": "movedef_firestarter_FS9-H",
@@ -418,10 +418,10 @@
   "VariantName": "FS7-S",
   "ChassisTags": {
     "items": [
-
+	"Goblin"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Elite Battlemech",
-  "YangsThoughts": "A goblin is a monstrous creature from European folklore, first attested in stories from the Middle Ages. They are ascribed various and conflicting abilities, temperaments and appearances depending on the story and country of origin. They are almost always small and grotesque, mischievous or outright malicious."
+  "YangsThoughts": "A goblin is a monstrous creature from European folklore, first attested in stories from the Middle Ages. They are ascribed various and conflicting abilities, temperaments and appearances depending on the story and country of origin. They are almost always small and grotesque, mischievous or outright malicious. <b><color=#009933>Quirk: Troublemaker - Less Damage taken</color></b>"
 }

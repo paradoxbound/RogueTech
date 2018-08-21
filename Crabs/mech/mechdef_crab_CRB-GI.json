@@ -20,7 +20,7 @@
     "UIName": "Gemji CRB-GI",
     "Id": "mechdef_crab_CRB-GI",
     "Name": "Gemji",
-    "Details": "The Gemji CRB-GI has opened its claws, bringing Industrial table flipping to a mech fight.",
+    "Details": "The Gemji CRB-GI has opened its claws, bringing Industrial table flipping to a mech fight. <b><color=#009933>Quirk: Melee Crab - +Defense&Melee</color></b>",
     "Icon": "uixTxrIcon_kingcrab"
   },
   "simGameMechPartCost": 1270000,

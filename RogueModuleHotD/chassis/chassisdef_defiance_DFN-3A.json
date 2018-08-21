@@ -20,7 +20,7 @@
 			"Description" :
 			{
 				"Id" : "Defiance",
-				"Name" : "Defiance Flagship",
+				"Name" : "Flagship",
 				"Details" : "Chassis carries prototype Defiance Weapons Computer",
 				"Icon" : "uixSvgIcon_skullAtlas"
 			},
@@ -28,7 +28,7 @@
 			{
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.1",
+                "modValue" : "1.15",
                 "modType" : "System.Single",
 			},
 			"nature" : "Buff"
@@ -45,7 +45,7 @@
     "UIName": "Defiance",
     "Id": "chassisdef_defiance_DFN-3A",
     "Name": "Defiance",
-    "Details": "The prototype Defiance was intended to be the flagship design of venerable Defiance Industries, Described as a ''Warhammer on steroids'', it is visually similar to the original WHM-6R, carries a similar weapons array, and uses a searchlight linked to the 'Mech's targeting system.",
+    "Details": "The prototype Defiance was intended to be the flagship design of venerable Defiance Industries, Described as a ''Warhammer on steroids'', it is visually similar to the original WHM-6R, carries a similar weapons array, and advanced TC <b><color=#009933>Quirk: Flagship - Weapon Damage</color></b>",
     "Icon": "uixTxrIcon_warhammer"
   },
   "MovementCapDefID": "movedef_warhammer_WHM-6R",
@@ -406,10 +406,10 @@
   "VariantName": "DFN-3A",
   "ChassisTags": {
     "items": [
-
+	"Defiance"
     ],
     "tagSetSourceFile": ""
   },
   "StockRole": "Elite Battlemech",
-  "YangsThoughts": "The prototype Defiance was intended to be the flagship design of venerable Defiance Industries, Described as a ''Warhammer on steroids'', it is visually similar to the original WHM-6R, carries a similar weapons array, and uses a searchlight linked to the 'Mech's targeting system."
+  "YangsThoughts": "The prototype Defiance was intended to be the flagship design of venerable Defiance Industries, Described as a ''Warhammer on steroids'', it is visually similar to the original WHM-6R, carries a similar weapons array, and advanced TC <b><color=#009933>Quirk: Flagship - Weapon Damage</color></b>"
 }

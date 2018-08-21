@@ -1,4 +1,7 @@
 {
+
+"Custom" :  {"Category" : { "CategoryID" : "UAC10"}},
+
     "Category" : "Ballistic",
     "Type" : "Autocannon",
     "WeaponSubType" : "AC10",

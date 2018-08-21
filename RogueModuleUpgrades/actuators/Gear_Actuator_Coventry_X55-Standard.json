@@ -14,7 +14,7 @@
     "RelativeModifier" : 0,
     "AbsoluteModifier" : 0,
     "Description" : {
-        "Cost" : 20000,
+        "Cost" : 100000,
         "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Coventry",
@@ -31,7 +31,7 @@
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 1,
+    "InventorySize" : 2,
     "Tonnage" : 0.5,
     "AllowedLocations" : "Arms",
     "DisallowedLocations" : "All",

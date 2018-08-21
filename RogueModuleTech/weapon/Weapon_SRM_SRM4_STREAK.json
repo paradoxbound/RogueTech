@@ -1,4 +1,7 @@
 {
+
+"Custom" :  {"Category" : { "CategoryID" : "Streak"}},
+
     "Category" : "Missile",
     "Type" : "SRM",
     "WeaponSubType" : "SRM4",

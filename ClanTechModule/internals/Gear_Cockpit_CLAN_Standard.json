@@ -90,9 +90,9 @@
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "SLIC-BLACKOPS",
-                "Name" : "SLIC Black Ops",
-                "Details" : "Increased Sight/Sensors/Health.",
+                "Id" : "ClanSpecStandard",
+                "Name" : "Clan Standard Cockpit",
+                "Details" : "Increased Sight/Sensors and Breaching shot.",
                 "Icon" : "uixSvgIcon_equipment_Cockpit"
             },
             "nature" : "Buff",

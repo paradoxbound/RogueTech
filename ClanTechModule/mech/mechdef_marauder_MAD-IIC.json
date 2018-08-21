@@ -1,4 +1,4 @@
-{
+ {
   "MechTags": {
     "items": [
       "KSBeta",
@@ -40,7 +40,7 @@
     "UIName": "Marauder MAD-IIC",
     "Id": "mechdef_marauder_MAD-IIC",
     "Name": "Marauder",
-    "Details": "A Clan upgraded Marauder, quite a MAD monster.",
+    "Details": "A Clan upgraded Marauder, quite a MAD monster. <b><color=#009933>Quirk: Clan Mech - Improved Shooting</color></b>",
     "Icon": "uixTxrIcon_marauder"
   },
   "simGameMechPartCost": 870000,
