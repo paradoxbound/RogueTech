@@ -1,4 +1,18 @@
 {
+"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+                "WpnRecoil: 2",
+				"VariableDmg: 5",
+				"PipsIgnored: 2",
+				"OHDamage: 75%"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "02001"
+            }		
+	},
+
     "Category" : "AntiPersonnel",
     "Type" : "Flamer",
     "WeaponSubType" : "Flamer",
@@ -13,7 +27,7 @@
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 5,
     "Damage" : 10,
-    "OverheatedDamageMultiplier" : 0.1,
+    "OverheatedDamageMultiplier" : 1.75,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 2,
     "DamageVariance" : 5,

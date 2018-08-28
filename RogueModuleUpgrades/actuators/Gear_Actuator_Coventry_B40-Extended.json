@@ -2,7 +2,10 @@
 
 	"Custom" :  {
 	"Category" : { "CategoryID" : "ArmActuator"},
-	"ArmActuator" : {"AccuracyBonus" : 0, "Type" : "Hand" }
+	"ArmActuator" : {"AccuracyBonus" : 0, "Type" : "Hand" },
+            "InventorySorter" : {
+                "SortKey" : "00020"
+            }			
 	},
 
     "StatName" : null,
@@ -14,7 +17,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Coventry",
         "Model" : "B40 Extended",
-        "UIName" : "Arm Melee 30%Dmg",
+        "UIName" : "Hands Melee 30%Dmg",
         "Id" : "Gear_Actuator_Coventry_B40-Extended",
         "Name" : "Coventry B40 Extended Arm Mod ",
         "Details" : "Actuators control a 'Mech\u2019s limbs and are used to perform Melee attacks at close quarters. All 'Mechs come equipped with stock Actuators, which can be upgraded for improved performance. <b><color=#800080>MELEE HAND ACTUATOR.</color></b> Disables Arm Mounted Weapon Bonus.",

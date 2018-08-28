@@ -1,4 +1,11 @@
 {
+
+	"Custom": {
+            "InventorySorter" : {
+                "SortKey" : "03014"
+            }
+		},
+		
     "Category" : "Missile",
     "Type" : "LRM",
     "WeaponSubType" : "LRM20",

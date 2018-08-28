@@ -21,7 +21,19 @@
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},
-		"ArmorRepair" : { "ArmorTPCost" : 1.1, "ArmorCBCost" : 1.2 }		
+		"ArmorRepair" : { "ArmorTPCost" : 1.1, "ArmorCBCost" : 1.15 },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"EnergyProtection: 20%",				
+				"KineticProtection: -10%",
+                "Reserved: 10",
+				"ArmorTPCost: 10%",
+				"ArmorCBCost: 15%"				
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00009"
+            }						
 	},
 
   
@@ -34,7 +46,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Arc Royal",
         "Model" : "Reflective Coating",
-        "UIName" : "Armor Reflective",
+        "UIName" : "Reflective Coating",
         "Id" : "Gear_Reflective_Coating",
         "Name" : "Reflective Coating",
         "Details" : "Laser Reflective Armor dissipates energy weapon attacks more efficiently than other armor types, reducing the amount of damage taken by the 'Mech mounting it. Despite the name, Laser Reflective Armor is effective against all energy weapons, not just lasers. PPCs, Flamers, and Plasma Rifles and Cannons are all less effective against it. Reserves 10 slots.",

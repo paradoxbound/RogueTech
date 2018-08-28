@@ -1,8 +1,14 @@
 ﻿{
     "Name": "ScorchedEarth",
-    "Version": "1.52",
+    "Version": "2.0b",
     "Enabled": true,
-    "Author": "gnivler",
 
     "DLL": "ScorchedEarth.dll",
+
+    "Settings": {    
+        
+    /* MaxDecals must be a multiple of 125 and no greater than 1,000 */
+    /* Vanila is 125 */
+        
+    "MaxDecals": 125}
 }

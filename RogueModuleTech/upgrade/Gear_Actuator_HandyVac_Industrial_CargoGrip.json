@@ -1,6 +1,18 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "MeleeActuator"} },
+	"Custom" :{
+	"Category" : { "CategoryID" : "ArmActuator"},
+	"ArmActuator" : {"AccuracyBonus" : 0, "Type" : "Hand" },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "MeleeStab: 20",
+                "MeleeAcc: -1"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0020"
+            }		
+	},
 
 
     "StatName" : null,

@@ -1,7 +1,18 @@
 {
 
 	"Custom" : {
-		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 100, "StabilityDamagePerAmmo": 25 }
+		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 100, "StabilityDamagePerAmmo": 25 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "BonusAmmo: 50%",
+                "RecoilAC: +2",
+                "AC20Ammo",
+				"Caseless"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0004"
+            },		
 	},
 
     "AmmoID" : "Ammunition_AC20",

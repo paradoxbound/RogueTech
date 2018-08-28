@@ -2,7 +2,16 @@
 
 	"Custom" :  {
 	"Category" : { "CategoryID" : "ArmActuator"},
-	"ArmActuator" : {"AccuracyBonus" : 0, "Type" : "Hand" }
+	"ArmActuator" : {"AccuracyBonus" : 0, "Type" : "Hand" },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "Melee2: 25",
+                "MeleeAcc: +3"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00020"
+            }		
 	},
 
     "StatName" : null,
@@ -14,7 +23,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Dark Mirage",
         "Model" : "Shredder",
-        "UIName" : "Arm Claws",
+        "UIName" : "Claws",
         "Id" : "Gear_Arm_Claws",
         "Name" : "Claw Hand Actuators",
         "Details" : "A BattleMech Claw is a melee weapon most frequently used in the arena fighting on Solaris. The Claw consists of a series of hardened steel blades mounted on reinforced tungsten frames. <b><color=#800080>MELEE HAND ACTUATOR.</color></b> Disables Arm Mounted Weapon Bonus.",

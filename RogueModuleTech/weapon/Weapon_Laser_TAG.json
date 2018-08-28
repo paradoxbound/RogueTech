@@ -1,4 +1,16 @@
 {
+
+	"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+                "Painter"
+            ]
+        },	
+            "InventorySorter" : {
+                "SortKey" : "04003"
+            }
+		},
+		
     "Category" : "AntiPersonnel",
     "Type" : "Laser",
     "WeaponSubType" : "SmallLaserER",

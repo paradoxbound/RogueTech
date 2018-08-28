@@ -3,7 +3,10 @@
 		"Category" : { 
 			"CategoryID" : "Structure" 
 		},
-		"Flags" : { "flags" : [ "ignore_damage", "default" ] }
+		"Flags" : { "flags" : [ "ignore_damage", "default" ] },
+            "InventorySorter" : {
+                "SortKey" : "0010"
+            }				
 	},
     "Description" : {
         "Cost" : 0,

@@ -1,6 +1,10 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 60, "StabilityDamagePerAmmo": 15 } },
+"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 60, "StabilityDamagePerAmmo": 15 },
+            "InventorySorter" : {
+                "SortKey" : "01013"
+            }
+ },
 
     "Category" : "Ballistic",
     "Type" : "Autocannon",
@@ -37,7 +41,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Kali Yama",
         "Model" : "Shredder Autocannon",
-        "UIName" : "Rifle Heavy",
+        "UIName" : "Heavy Rifle",
         "Id" : "Weapon_Autocannon_AC20_HRIFLE",
         "Name" : "Heavy Rifle",
         "Details" : "The Heavy Rifle is the largest Rifle in the family. The precursor to the modern Autocannon, the Rifle is based on the main guns used by tanks on pre-spaceflight Terra. The Heavy rifle carries 3 tons of ammo with <b><color=#F79232>15 rounds.</color></b> . <b><color=#099ff2>VOLATILE!</color></b>",

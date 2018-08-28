@@ -1,6 +1,10 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamage": 5, "HeatDamage": 8, "StabilityDamage": 6 }},
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 5, "HeatDamage": 8, "StabilityDamage": 6 },
+            "InventorySorter" : {
+                "SortKey" : "02016"
+            }
+},
 
     "Category" : "Energy",
     "Type" : "PPC",

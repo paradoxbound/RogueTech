@@ -28,7 +28,7 @@
 			{
                 "statName" : "RefireModifier",
                 "operation" : "Int_Add",
-                "modValue" : "3",
+                "modValue" : "1",
                 "modType" : "System.Int32",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -59,7 +59,7 @@
 			{
                 "statName" : "DamagePerShot",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.15",
+                "modValue" : "1.2",
                 "modType" : "System.Single",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -111,7 +111,7 @@
     "UIName": "Dreka",
     "Id": "chassisdef_dreka_DKA-1S",
     "Name": "Dreka",
-    "Details": "The Dreka 1S prototype was built to showcase the 2 massive Defiance Hammerfist Heavy Gauss Rifles and is the testbed for what one day will become the Fafnir. <b><color=#009933>Quirk: Prototype HGR</color></b>",
+    "Details": "The Dreka 1S prototype was built to showcase the 2 massive Defiance Hammerfist Heavy Gauss Rifles and is the testbed for what one day will become the Fafnir. <b><color=#009933>Quirk: Prototype HGR - Improved Gauss Damage and Accuracy</color></b>",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_stalker_STK-3F",
@@ -256,7 +256,7 @@
       "InventorySlots": 2,
       "MaxArmor": 180,
       "MaxRearArmor": -1,
-      "InternalStructure": 90
+      "InternalStructure": 105
     },
     {
       "Location": "RightLeg",
@@ -267,7 +267,7 @@
       "InventorySlots": 2,
       "MaxArmor": 180,
       "MaxRearArmor": -1,
-      "InternalStructure": 90
+      "InternalStructure": 105
     }
   ],
   "LOSSourcePositions": [
@@ -322,5 +322,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Prototype",
-  "YangsThoughts": "The Dreka 1S prototype was built to showcase the 2 massive Defiance Hammerfist Heavy Gauss Rifles and is the testbed for what one day will become the Fafnir. <b><color=#009933>Quirk: Prototype HGR</color></b>"
+  "YangsThoughts": "The Dreka 1S prototype was built to showcase the 2 massive Defiance Hammerfist Heavy Gauss Rifles and is the testbed for what one day will become the Fafnir. <b><color=#009933>Quirk: Prototype HGR - Improved Gauss Damage and Accuracy</color></b>"
 }

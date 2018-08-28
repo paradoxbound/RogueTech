@@ -104,6 +104,39 @@
                 "targetWeaponSubType" : "PPCER"
 			},
 			"nature" : "Buff"
+		},
+		{
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Panther9l4",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+                "statName" : "HeatGenerated",
+                "operation" : "Float_Add",
+                "modValue" : "5",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "PPC",
+                "targetAmmoCategory" : "GAUSS",
+                "targetWeaponSubType" : "PPCER"
+			},
+			"nature" : "Buff"
 		}		
     ]
   }
@@ -118,7 +151,7 @@
     "UIName": "Panther",
     "Id": "chassisdef_panther_PNT-9L",
     "Name": "Panther",
-    "Details": "The Panther 9L carries an experimental Plasma Cannon on a improved Weapons mount and is supported by a Haywire Launcher and Flamer. <b><color=#009933>Quirk: Prototype Plasma Cannon</color></b>",
+    "Details": "The Panther 9L carries an experimental Plasma Cannon on a improved Weapons mount and is supported by a Haywire Launcher and Flamer. <b><color=#009933>Quirk: Prototype Plasma Cannon - Greater Plasma output</color></b>",
     "Icon": "uixTxrIcon_panther"
   },
   "MovementCapDefID": "movedef_panther_PNT-9R",
@@ -212,10 +245,6 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -246,15 +275,7 @@
     },
     {
       "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },		
+      "Hardpoints": [		
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -341,5 +362,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Sniper & Light Brawler",
-  "YangsThoughts": "The Panther 9L carries an experimental Plasma Cannon on a improved Weapons mount and is supported by a Haywire Launcher and Flamer. <b><color=#009933>Quirk: Prototype Plasma Cannon</color></b>"
+  "YangsThoughts": "The Panther 9L carries an experimental Plasma Cannon on a improved Weapons mount and is supported by a Haywire Launcher and Flamer. <b><color=#009933>Quirk: Prototype Plasma Cannon - Greater Plasma output</color></b>"
 }

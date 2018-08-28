@@ -22,7 +22,7 @@
     "UIName": "Dagger LCT-LR",
     "Id": "mechdef_locust_LCT-LR",
     "Name": "Dagger",
-    "Details": "The Locust LR 'Dagger' sports a prototype Electronics Warfare suite, Stealth Armor, TAG, and HayWire and NARC launchers. <b><color=#009933>Quirk: Proto Raven</color></b>",
+    "Details": "The Locust LR 'Dagger' sports a prototype Electronics Warfare suite, Stealth Armor, TAG, and HayWire and NARC launchers. <b><color=#009933>Quirk: Proto Raven - Improved Defense, Stealth and Sensors</color></b>",
     "Icon": "uixTxrIcon_locust"
   },
   "simGameMechPartCost": 200000,

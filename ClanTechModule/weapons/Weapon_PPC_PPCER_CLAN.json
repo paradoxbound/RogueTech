@@ -1,4 +1,11 @@
 {
+
+	"Custom": {
+            "InventorySorter" : {
+                "SortKey" : "02015"
+            }
+		},
+		
     "Category" : "Energy",
     "Type" : "PPC",
     "WeaponSubType" : "PPC",
@@ -34,7 +41,7 @@
         "Purchasable" : true,
         "Manufacturer" : "CLAN",
         "Model" : "Extended-Range PPC",
-        "UIName" : "PPC ER (C)",
+        "UIName" : "ER PPC (C)",
         "Id" : "Weapon_PPC_PPCER_CLAN",
         "Name" : "ER PPC (C)",
         "Details" : "An improvement upon standard PPCs, Extended-Range PPCs greatly extend their effective range at the cost of incredible heat generation. ER PPCs also generate a mild EM field that degrades the firing capability of their target.",

@@ -1,4 +1,11 @@
 {
+
+	"Custom": {
+            "InventorySorter" : {
+                "SortKey" : "02003"
+            }
+		}
+		
     "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "SmallLaserER",

@@ -17,7 +17,7 @@
     "Specials": [
       {
          "ID" : "Gear_Coolantpod",
-         "Type" : "Upgrade",
+         "Type" : "HeatSink",
          "DiscountModifier" : 1.0,
          "Count" : 0,
 			"Weight" : 20		 

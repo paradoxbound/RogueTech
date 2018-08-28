@@ -1,7 +1,18 @@
 {
 
 	"Custom" : {
-		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 25, "StabilityDamagePerAmmo": 6 }
+		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 25, "StabilityDamagePerAmmo": 6 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "BonusAmmo: 50%",
+                "RecoilAC: +2",
+                "AC2Ammo",
+				"Caseless"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0001"
+            },		
 	},
 
 

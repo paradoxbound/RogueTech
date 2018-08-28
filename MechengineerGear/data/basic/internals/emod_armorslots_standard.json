@@ -3,8 +3,17 @@
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},
-		"ArmorRepair" : { "ArmorTPCost" : 0.8, "ArmorCBCost" : 0.9 },		
-		"Flags" : { "flags" : [ "ignore_damage", "default" ] }
+		"ArmorRepair" : { "ArmorTPCost" : 0.9, "ArmorCBCost" : 0.8 },		
+		"Flags" : { "flags" : [ "ignore_damage", "default" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"ArmorTPCost: -10%",
+				"ArmorCBCost: -20%"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0009"
+            }				
 	},
     "Description" : {
         "Cost" : 0,

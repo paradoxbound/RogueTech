@@ -7,7 +7,10 @@
 		"ArmActuator" : {
 			"AccuracyBonus" : -2,
 			"Type" : "Lower"
-		}
+		},
+            "InventorySorter" : {
+                "SortKey" : "00020"
+            }				
 	},
 
     "StatName" : null,
@@ -19,7 +22,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Coventry",
         "Model" : "X55 Standard",
-        "UIName" : "Arm Weapon +",
+        "UIName" : "Weapon Mount",
         "Id" : "Gear_Actuator_Coventry_X55-Standard",
         "Name" : "Coventry X55 Standard Arm Mod",
         "Details" : "Weapon Actuators are a collection of specialised Servos and Compensators allowing a BattleMech's Arm mounted Weapons to Fire with greater Accuracy. <b><color=#800080>WEAPON LOWER ARM ACTUATOR.</color></b> Reduces Melee, Improves Arm Mounted Weapons.",

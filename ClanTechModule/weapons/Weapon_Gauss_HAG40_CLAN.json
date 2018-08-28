@@ -1,6 +1,10 @@
 {
 
-"Custom": {"Category" : { "CategoryID" : "HAGR"}, "ComponentExplosion": { "ExplosionDamage": 200 } },
+"Custom": {"Category" : { "CategoryID" : "HAGR"}, "ComponentExplosion": { "ExplosionDamage": 200 },
+            "InventorySorter" : {
+                "SortKey" : "01020"
+            }
+ },
 
     "Category" : "Ballistic",
     "Type" : "Gauss",

@@ -111,7 +111,7 @@
     "UIName": "Firestarter",
     "Id": "chassisdef_firestarter_FS-PM",
     "Name": "Firestarter",
-    "Details": "The Firestarter is a dangerous 'Mech for its tonnage—carefully timed attacks with its Flamers can shut down any 'Mech and leave it open to punishment from your other forces. <b><color=#009933>Quirk: Prototype Flamer</color></b>",
+    "Details": "The Firestarter is a dangerous 'Mech for its tonnage—carefully timed attacks with its Flamers can shut down any 'Mech and leave it open to punishment from your other forces. <b><color=#009933>Quirk: Prototype Flamer - Superior Flamer Output</color></b>",
     "Icon": "uixTxrIcon_firestarter"
   },
   "MovementCapDefID": "movedef_firestarter_FS9-H",
@@ -329,5 +329,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Scout & Disabler",
-  "YangsThoughts": "The Firestarter is a dangerous 'Mech for its tonnage—carefully timed attacks with its Flamers can shut down any 'Mech and leave it open to punishment from your other forces. <b><color=#009933>Quirk: Prototype Flamer</color></b>"
+  "YangsThoughts": "The Firestarter is a dangerous 'Mech for its tonnage—carefully timed attacks with its Flamers can shut down any 'Mech and leave it open to punishment from your other forces. <b><color=#009933>Quirk: Prototype Flamer - Superior Flamer Output</color></b>"
 }

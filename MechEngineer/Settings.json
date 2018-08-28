@@ -1,98 +1,965 @@
 {
-
-    "TagRestrictionsValidateDropEnabled" : true,
-
-	"TagRestrictions": [
-	{
-		"Tag": "Gladiator",
-		"IncompatibleTags": ["Gear_MASC", "Gear_MASC_CLAN", "Gear_Supercharger"]
-	},
-	{
-		"Tag": "Strix",
-		"IncompatibleTags": ["Gear_Combat_Shield_Small", "Gear_Combat_Shield_Medium", "Gear_Combat_Shield"]
-	},
-	{
-		"Tag": "Goblin",
-		"IncompatibleTags": ["Gear_Combat_Shield_Small", "Gear_Combat_Shield_Medium", "Gear_Combat_Shield"]
-	},
-	{
-		"Tag": "Cataphract-P",
-		"IncompatibleTags": ["Gear_Combat_Shield_Small", "Gear_Combat_Shield_Medium", "Gear_Combat_Shield"]
-	},		
-	{
-		"Tag": "Echidnae",
-		"IncompatibleTags": ["Gear_PartialWing_Generic_Standard55"]
-	},
-	{
-		"Tag": "Wolfhound",
-		"IncompatibleTags": ["Gear_LAMS", "Gear_AMS"]
-	},
-	{
-		"Tag": "Porcupine",
-		"IncompatibleTags": ["Gear_Solaris_Spikes"]
-	},
-	{
-		"Tag": "Locust-P",
-		"IncompatibleTags": ["Ammo_AmmunitionBox_Tracer_MG"]
-	},	
-	{
-		"Tag": "Enforcer-7S",
-		"IncompatibleTags": ["Ammo_AmmunitionBox_Heavy_GAUSS", "Ammo_AmmunitionBox_Light_GAUSS"]
-	},
-	{
-		"Tag": "Dragon-P",
-		"IncompatibleTags": ["Ammo_AmmunitionBox_Incendiary_LRM", "Ammo_AmmunitionBox_Inferno_SRM"]
-	},
-	{
-		"Tag": "Catapult-P",
-		"IncompatibleTags": ["Ammo_AmmunitionBox_Incendiary_LRM", "Ammo_AmmunitionBox_Inferno_SRM", "Ammo_AmmunitionBox_Artemis_LRM", "Ammo_AmmunitionBox_Artemis_SRM", "Ammo_AmmunitionBox_Deadfire_LRM", "Ammo_AmmunitionBox_Deadfire_SRM", "Ammo_AmmunitionBox_ER_LRM", "Ammo_AmmunitionBox_Heatseeking_LRM", "Ammo_AmmunitionBox_Heatseeking_SRM", "Ammo_AmmunitionBox_Hotloaded_LRM", "Ammo_AmmunitionBox_LFT_LRM", "Ammo_AmmunitionBox_LFT_SRM"]
-	},	
-	{
-		"Tag": "Catapult-K4",
-		"IncompatibleTags": ["Gear_PPC_Capacitator"]
-	},
-	{
-		"Tag": "Marauder-S7",
-		"IncompatibleTags": ["Gear_Combat_Shield_Small", "Gear_Combat_Shield_Medium", "Gear_Combat_Shield", "Weapon_HandyVac_Industrial_Construction_1_LaserCutter", "Weapon_HandyVac_Industrial_Construction_0_ArcWelder", "Weapon_HandyVac_Industrial_Agro_1_Chainsaw", "Weapon_HandyVac_Industrial_Agro_0_Cultivator", "Weapon_Elite_2_PlasmaTorch", "Weapon_Elite_2_LaserDrill", "Weapon_Elite_2_Jackhammer", "Weapon_Elite_2_Chainsword", "Weapon_HandyVac_Industrial_Mining_1_MiningDrill", "Weapon_HandyVac_Industrial_Mining_0_Jackhammer", "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch", "Gear_PPC_Capacitator", "Gear_TargetingTrackingSystem_Hartford_F2400", "Gear_TargetingTrackingSystem_RCA_InstaTrac-X", "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII", "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX", "Gear_TargetingTrackingSystem_Kallon_A-C-P150+", "Gear_TargetingTrackingSystem_Kallon_A-C-1500", "Gear_TargetingTrackingSystem_Kallon_A-C-1000", "Gear_TargetingTrackingSystem_Hartford_F3000", "Gear_TargetingTrackingSystem_Hartford_F1800", "Gear_TargetingTrackingSystem_ARTIVcv", "Gear_TargetingTrackingSystem_I3F1", "Gear_TargetingTrackingSystem_I3F2", "Gear_TargetingTrackingSystem_I3F3"]
-	},
-	{
-		"Tag": "Defiance",
-		"IncompatibleTags": ["Gear_PPC_Capacitator", "Weapon_HandyVac_Industrial_Construction_1_LaserCutter", "Weapon_HandyVac_Industrial_Construction_0_ArcWelder", "Weapon_HandyVac_Industrial_Agro_1_Chainsaw", "Weapon_HandyVac_Industrial_Agro_0_Cultivator", "Weapon_Elite_2_PlasmaTorch", "Weapon_Elite_2_LaserDrill", "Weapon_Elite_2_Jackhammer", "Weapon_Elite_2_Chainsword", "Weapon_HandyVac_Industrial_Mining_1_MiningDrill", "Weapon_HandyVac_Industrial_Mining_0_Jackhammer", "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch"]
-	},		
-	{
-		"Tag": "Basilisk",
-		"IncompatibleTags": ["Gear_HeatSink_Generic_Thermal-Exchanger-I", "Gear_HeatSink_Generic_Thermal-Exchanger-II", "Gear_HeatSink_Generic_Thermal-Exchanger-III", "Gear_HeatSink_Generic_Improved-Bank", "Gear_HeatSink_Generic_Bulk-Bank", "Gear_HeatSink_Generic_Standard-Bank"]
-	},		
-	{
-		"Tag": "Joermungandr",
-		"IncompatibleTags": ["Gear_TargetingTrackingSystem_Hartford_F2400", "Gear_TargetingTrackingSystem_RCA_InstaTrac-X", "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII", "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX", "Gear_TargetingTrackingSystem_Kallon_A-C-P150+", "Gear_TargetingTrackingSystem_Kallon_A-C-1500", "Gear_TargetingTrackingSystem_Kallon_A-C-1000", "Gear_TargetingTrackingSystem_Hartford_F3000", "Gear_TargetingTrackingSystem_Hartford_F1800", "Gear_TargetingTrackingSystem_I3F1", "Gear_TargetingTrackingSystem_I3F2", "Gear_TargetingTrackingSystem_I3F3"]
-	},
-	{
-		"Tag": "Kraken",
-		"IncompatibleTags": ["Gear_Actuator_Coventry_X75-Standard", "Gear_Actuator_Coventry_X65-Standard", "Gear_Actuator_Coventry_X55-Standard", "Gear_TargetingTrackingSystem_Hartford_F2400", "Gear_TargetingTrackingSystem_RCA_InstaTrac-X", "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII", "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX", "Gear_TargetingTrackingSystem_Kallon_A-C-P150+", "Gear_TargetingTrackingSystem_Kallon_A-C-1500", "Gear_TargetingTrackingSystem_Kallon_A-C-1000", "Gear_TargetingTrackingSystem_Hartford_F3000", "Gear_TargetingTrackingSystem_Hartford_F1800", "Gear_TargetingTrackingSystem_ARTIVcv", "Gear_TargetingTrackingSystem_I3F1", "Gear_TargetingTrackingSystem_I3F2", "Gear_TargetingTrackingSystem_I3F3"]
-	},	
-	{
-		"Tag": "Katyusha",
-		"IncompatibleTags": ["Gear_TargetingTrackingSystem_Hartford_F2400", "Gear_TargetingTrackingSystem_Hartford_F3000", "Gear_TargetingTrackingSystem_Hartford_F1800", "Gear_TargetingTrackingSystem_I3F1", "Gear_TargetingTrackingSystem_I3F2", "Gear_TargetingTrackingSystem_I3F3"]
-	},	
-	{
-		"Tag": "ClanMech",
-		"IncompatibleTags": ["Weapon_HandyVac_Industrial_Construction_1_LaserCutter", "Weapon_HandyVac_Industrial_Construction_0_ArcWelder", "Weapon_HandyVac_Industrial_Agro_1_Chainsaw", "Weapon_HandyVac_Industrial_Agro_0_Cultivator", "Weapon_Elite_2_PlasmaTorch", "Weapon_Elite_2_LaserDrill", "Weapon_Elite_2_Jackhammer", "Weapon_Elite_2_Chainsword", "Weapon_HandyVac_Industrial_Mining_1_MiningDrill", "Weapon_HandyVac_Industrial_Mining_0_Jackhammer", "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch"]
-	},
-	{
-		"Tag": "Eris",
-		"IncompatibleTags": ["Weapon_HandyVac_Industrial_Construction_1_LaserCutter", "Weapon_HandyVac_Industrial_Construction_0_ArcWelder", "Weapon_HandyVac_Industrial_Agro_1_Chainsaw", "Weapon_HandyVac_Industrial_Agro_0_Cultivator", "Weapon_Elite_2_PlasmaTorch", "Weapon_Elite_2_LaserDrill", "Weapon_Elite_2_Jackhammer", "Weapon_Elite_2_Chainsword", "Weapon_HandyVac_Industrial_Mining_1_MiningDrill", "Weapon_HandyVac_Industrial_Mining_0_Jackhammer", "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch"]
-	}	
-	],
-
-    "SaveMechDefOnMechLabConfirm" : false,
-
+    "HeatDamageInjuryEnabled" : true,
+    "ShutdownInjuryEnabled" : true,
+    "MinimumHeatSinksOnMech" : 10,
     "AllowMixingHeatSinkTypes" : true,
-    "FractionalAccounting" : false,
-	
-    "AutoFixMechDefEngine" : false,
-
-    "AutoFixGyroCategorizer" : null,
+    "FractionalAccountingPrecision" : 0.5,
+    "SaveMechDefOnMechLabConfirm" : false,
+    "PerformanceEnableAvailabilityChecks" : true,
+    "DefaultEngineHeatSinkId" : "Gear_HeatSink_Generic_Standard",
+    "EngineMissingFallbackHeatSinkCapacity" : 30,
+    "DynamicSlotsValidateDropEnabled" : true,
+    "BonusDescriptionsTooltipTitle" : "Traits",
+    "BonusDescriptions" : [
+        {
+            "Bonus" : "BonusAmmo",
+            "Short" : "{0} Ammo",
+            "Long" : "{0} Extra Ammo",
+            "Full" : "Ammo Box carries {0} additional Rounds"
+        },
+        {
+            "Bonus" : "Caseless",
+            "Short" : "CL Ammo",
+            "Long" : "Caseless Ammo",
+            "Full" : "Caseless Ammo can be equipped multiple times"
+        },
+        {
+            "Bonus" : "MGAmmo",
+            "Short" : "MG Ammo",
+            "Long" : "MG Ammo",
+            "Full" : "Ammo Box grants buff to all MG's"
+        },
+        {
+            "Bonus" : "AC2Ammo",
+            "Short" : "AC2 Ammo",
+            "Long" : "AC2 Ammo",
+            "Full" : "Ammo Box grants buff to all AC2"
+        },
+        {
+            "Bonus" : "AC5Ammo",
+            "Short" : "AC5 Ammo",
+            "Long" : "AC5 Ammo",
+            "Full" : "Ammo Box grants buff to all AC5"
+        },
+        {
+            "Bonus" : "AC10Ammo",
+            "Short" : "AC10 Ammo",
+            "Long" : "AC10 Ammo",
+            "Full" : "Ammo Box grants buff to all AC10"
+        },
+        {
+            "Bonus" : "AC20Ammo",
+            "Short" : "AC20 Ammo",
+            "Long" : "AC20 Ammo",
+            "Full" : "Ammo Box grants buff to all AC20"
+        },
+        {
+            "Bonus" : "GaussAmmo",
+            "Short" : "Gauss Ammo",
+            "Long" : "Gauss Ammo",
+            "Full" : "Ammo Box grants buff to all Gauss Rifles"
+        },
+        {
+            "Bonus" : "LRMAmmo",
+            "Short" : "LRM Ammo",
+            "Long" : "LRM Ammo",
+            "Full" : "Ammo Box grants buff to all LRM"
+        },
+        {
+            "Bonus" : "SRMAmmo",
+            "Short" : "SRM Ammo",
+            "Long" : "SRM Ammo",
+            "Full" : "Ammo Box grants buff to all SRM"
+        },
+        {
+            "Bonus" : "GaussNoBoom",
+            "Short" : "No Explosion",
+            "Long" : "Doesn't Explode",
+            "Full" : "Gauss Ammo does not explode"
+        },
+        {
+            "Bonus" : "Artemis",
+            "Short" : "Artemis",
+            "Long" : "Artemis IV Compatible",
+            "Full" : "Can be used with Artemis IV System"
+        },
+        {
+            "Bonus" : "ReqECM",
+            "Short" : "ECM Required",
+            "Long" : "ECM Required",
+            "Full" : "Requires a ECM system to be installed"
+        },		
+        {
+            "Bonus" : "ReqArtemis",
+            "Short" : "Req. AIV",
+            "Long" : "Requires ArtemisIV",
+            "Full" : "Requires Artemis IV System to be installed"
+        },
+        {
+            "Bonus" : "DmgFallOff",
+            "Short" : "Dmg FallOff",
+            "Long" : "Damage Fall off",
+            "Full" : "This Weapon has reduced Damage at longer Ranges"
+        },
+        {
+            "Bonus" : "VariableDmg",
+            "Short" : "{0} Var.Dmg.",
+            "Long" : "{0} Variable Damage",
+            "Full" : "Weapon's damage can vary inbetween +/- {0} "
+        },
+        {
+            "Bonus" : "IsECM",
+            "Short" : "ECM",
+            "Long" : "Electronic Counter Measures",
+            "Full" : "ECM - Electronic Counter Measures system"
+        },		
+        {
+            "Bonus" : "Painter",
+            "Short" : "TargetPainter",
+            "Long" : "Target Painter",
+            "Full" : "Target Painter grant improved Hitchances against their Targets"
+        },	
+        {
+            "Bonus" : "Pulse",
+            "Short" : "Pulse",
+            "Long" : "Pulse Laser",
+            "Full" : "Pulse Laser have +2 Accuracy and ignore 2 Evasion"
+        },
+        {
+            "Bonus" : "Streak",
+            "Short" : "Streak",
+            "Long" : "Streak SRM",
+            "Full" : "Streak SRM have +2 Accuracy and ignore 2 Evasion"
+        },		
+        {
+            "Bonus" : "CASE",
+            "Short" : "C.A.S.E",
+            "Long" : "C.A.S.E",
+            "Full" : "CASE prevents Ammo Explosion from travelling to Center Torso"
+        },
+        {
+            "Bonus" : "CASEII",
+            "Short" : "C.A.S.E II",
+            "Long" : "C.A.S.E II",
+            "Full" : "CASE II reduces Ammo Explosion Damage to only three points of Damage."
+        },		
+        {
+            "Bonus" : "Bulwark",
+            "Short" : "Bulwark",
+            "Long" : "Grants Bulwark",
+            "Full" : "Bulwark grants guarded when standing still"
+        },
+        {
+            "Bonus" : "Breaching",
+            "Short" : "Breacher",
+            "Long" : "Breaching Shot",
+            "Full" : "Breaching shot allows to ignore cover with a single Weapon per Target"
+        },
+        {
+            "Bonus" : "NoEject",
+            "Short" : "No Eject",
+            "Long" : "No Ejection",
+            "Full" : "Cockpit lacks Ejection system"
+        },		
+        {
+            "Bonus" : "MinRange",
+            "Short" : "{0} MinRange",
+            "Long" : "{0} Minimum Range",
+            "Full" : "{0} Minimum Range"
+        },
+        {
+            "Bonus" : "Range",
+            "Short" : "{0} Range",
+            "Long" : "{0} Range",
+            "Full" : "{0} to all Range Brackets"
+        },
+        {
+            "Bonus" : "WeaponDamage",
+            "Short" : "{0} Weapon Dmg",
+            "Long" : "{0} Weapon Damage",
+            "Full" : "{0} Weapon Damage dealt"
+        },		
+        {
+            "Bonus" : "StabDamage",
+            "Short" : "{0} Stab Dmg",
+            "Long" : "{0} Stability Damage",
+            "Full" : "{0} Stability Damage dealt"
+        },
+        {
+            "Bonus" : "HeatDamage",
+            "Short" : "{0} Heat Dmg",
+            "Long" : "{0} Heat Damage",
+            "Full" : "{0} Heat Damage dealt"
+        },
+        {
+            "Bonus" : "OHDamage",
+            "Short" : "{0} OH Dmg",
+            "Long" : "{0} OH bonus Damage",
+            "Full" : "{0} bonus Damage against overheating Targets"
+        },
+        {
+            "Bonus" : "GaussDamage",
+            "Short" : "{0} Gauss Dmg",
+            "Long" : "{0} Gauss Damage",
+            "Full" : "{0} Gauss Rifle Damage"
+        },
+        {
+            "Bonus" : "ACDamage",
+            "Short" : "{0} AC Dmg",
+            "Long" : "{0} AC Damage",
+            "Full" : "{0} AutoCannon Damage"
+        },
+        {
+            "Bonus" : "LRMDamage",
+            "Short" : "{0} LRM Dmg",
+            "Long" : "{0} LRM Damage",
+            "Full" : "{0} Long-Range-Missile Damage"
+        },
+        {
+            "Bonus" : "SRMDamage",
+            "Short" : "{0} SRM Dmg",
+            "Long" : "{0} SRM Damage",
+            "Full" : "{0} Short-Range-Missile Damage"
+        },		
+        {
+            "Bonus" : "EngineWeight",
+            "Short" : "{0} Eng.Weight",
+            "Long" : "{0} Engine Weight",
+            "Full" : "{0} Engine Weight Factor change"
+        },
+        {
+            "Bonus" : "EngineReserved",
+            "Short" : "{0} Reserved",
+            "Long" : "{0} Reserved Slots",
+            "Full" : "{0} Engine Slots reserved"
+        },
+        {
+            "Bonus" : "Reserved",
+            "Short" : "{0} Reserved",
+            "Long" : "{0} Reserved Slots",
+            "Full" : "{0} Dynamic Slots reserved"
+        },
+        {
+            "Bonus" : "ArmorTPCost",
+            "Short" : "{0} TP",
+            "Long" : "{0} TechPoints",
+            "Full" : "{0} Tech Point cost to Repair"
+        },
+        {
+            "Bonus" : "ArmorCBCost",
+            "Short" : "{0} CB",
+            "Long" : "{0} Cbills",
+            "Full" : "{0} Cbill cost to Repair"
+        },
+        {
+            "Bonus" : "KineticProtection",
+            "Short" : "{0} KineticRes",
+            "Long" : "{0} Kinetic Resistance",
+            "Full" : "{0} Resistance against Ballistic and Missile Attacks"
+        },
+        {
+            "Bonus" : "EnergyProtection",
+            "Short" : "{0} EnergyRes",
+            "Long" : "{0} Energy Resistance",
+            "Full" : "{0} Resistance against Energy based Attacks"
+        },
+        {
+            "Bonus" : "ArmorFactor",
+            "Short" : "{0} Weight.",
+            "Long" : "{0} Arm.Weight",
+            "Full" : "{0} Weight change per point Armor"
+        },
+        {
+            "Bonus" : "ArmorProtection",
+            "Short" : "{0} Armor",
+            "Long" : "{0} Protection",
+            "Full" : "{0} Armor Protection per point of armor"
+        },
+        {
+            "Bonus" : "DamageTaken",
+            "Short" : "{0} Dmg.Tkn.",
+            "Long" : "{0} Damage taken",
+            "Full" : "{0} reduced Damage taken"
+        },
+        {
+            "Bonus" : "MissileDamageTaken",
+            "Short" : "{0} Miss.Dmg.Tkn.",
+            "Long" : "{0} Missile Damage taken",
+            "Full" : "{0} reduced Damage taken from Missile Attacks"
+        },
+        {
+            "Bonus" : "MeleeDamageTaken",
+            "Short" : "{0} Mel.Dmg.Tkn.",
+            "Long" : "{0} Melee Damage taken",
+            "Full" : "{0} reduced Melee Damage taken"
+        },
+        {
+            "Bonus" : "StructureFactor",
+            "Short" : "{0} Struct.Weight.",
+            "Long" : "{0} Structure Weight",
+            "Full" : "{0} reduced Structure Weight from 1/10 Chassis weight"
+        },
+        {
+            "Bonus" : "StructureProtection",
+            "Short" : "{0} Structure.",
+            "Long" : "{0} Structure Points",
+            "Full" : "{0} Structure Points"
+        },
+        {
+            "Bonus" : "CritRes",
+            "Short" : "{0} CritRes.",
+            "Long" : "{0} Crit Resist",
+            "Full" : "{0} Resistance against Critical Hits"
+        },
+        {
+            "Bonus" : "GyroStab",
+            "Short" : "{0} Stab.",
+            "Long" : "{0} Stability",
+            "Full" : "{0} Stability Threshhold provided by Gyro"
+        },
+        {
+            "Bonus" : "StabDamageTaken",
+            "Short" : "{0} StabTkn.",
+            "Long" : "{0} Stability Taken",
+            "Full" : "{0} reduced Stability Damage taken"
+        },
+        {
+            "Bonus" : "Defense",
+            "Short" : "{0} Defense.",
+            "Long" : "{0} Defense",
+            "Full" : "{0} Defense against being hit"
+        },
+        {
+            "Bonus" : "MissileDefense",
+            "Short" : "{0} Miss.Def.",
+            "Long" : "{0} Missile Defense",
+            "Full" : "{0} Defense against being hit by hit by Missiles"
+        },
+        {
+            "Bonus" : "Initiative",
+            "Short" : "{0} Ini.",
+            "Long" : "{0} Initiative",
+            "Full" : "{0} Initiative Phase Bonus"
+        },
+        {
+            "Bonus" : "Crits",
+            "Short" : "{0} Crit.",
+            "Long" : "{0} Criticals",
+            "Full" : "{0} Chance to deal a Critical Hit"
+        },
+        {
+            "Bonus" : "WpnCrits",
+            "Short" : "{0} Crit.",
+            "Long" : "{0} Criticals",
+            "Full" : "{0} Chance to deal a Critical Hit with this Weapon"
+        },		
+        {
+            "Bonus" : "Recoil",
+            "Short" : "{0} Rec.",
+            "Long" : "{0} Recoil",
+            "Full" : "{0} Recoil with ranged Weapons"
+        },
+        {
+            "Bonus" : "WpnRecoil",
+            "Short" : "{0} Rec.",
+            "Long" : "{0} Recoil",
+            "Full" : "{0} Recoil with this Weapon"
+        },		
+        {
+            "Bonus" : "RecoilAC",
+            "Short" : "{0} Rec.",
+            "Long" : "{0} AC Recoil",
+            "Full" : "{0} Recoil with Autocannons"
+        },
+        {
+            "Bonus" : "WpnAccuracy",
+            "Short" : "{0} Acc.",
+            "Long" : "{0} Accuracy",
+            "Full" : "{0} Accuracy with this Weapon"
+        },
+        {
+            "Bonus" : "PipsIgnored",
+            "Short" : "{0} Pips.",
+            "Long" : "{0} Evasion Pips",
+            "Full" : "{0} Evasion Pips ignored by this Weapon"
+        },		
+        {
+            "Bonus" : "Accuracy",
+            "Short" : "{0} Acc.",
+            "Long" : "{0} Accuracy",
+            "Full" : "{0} Accuracy with ranged Weapons"
+        },
+        {
+            "Bonus" : "ArmAccuracy",
+            "Short" : "{0} ArmAcc.",
+            "Long" : "{0} Arm Accuracy",
+            "Full" : "{0} accuracy with Arm Mounted Weapons"
+        },
+        {
+            "Bonus" : "ACAccuracy",
+            "Short" : "{0} AC Acc.",
+            "Long" : "{0} AC Accuracy",
+            "Full" : "{0} Accuracy with Autocannons"
+        },
+        {
+            "Bonus" : "GaussAccuracy",
+            "Short" : "{0} Gauss Acc.",
+            "Long" : "{0} Gauss Accuracy",
+            "Full" : "{0} Accuracy with Gauss Rifles"
+        },
+        {
+            "Bonus" : "LRMAccuracy",
+            "Short" : "{0} LRM Acc.",
+            "Long" : "{0} LRM Accuracy",
+            "Full" : "{0} Accuracy with Long-Range-Missiles"
+        },
+        {
+            "Bonus" : "SRMAccuracy",
+            "Short" : "{0} SRM Acc.",
+            "Long" : "{0} SRM Accuracy",
+            "Full" : "{0} Accuracy with Short-Range-Missiles"
+        },
+        {
+            "Bonus" : "BallisticAcc",
+            "Short" : "{0} Ball.Acc.",
+            "Long" : "{0} Ballistic Acc.",
+            "Full" : "{0} Accuracy with Ballistic Weapons"
+        },
+        {
+            "Bonus" : "EnergyAcc",
+            "Short" : "{0} Enrg.Acc.",
+            "Long" : "{0} Energy Acc.",
+            "Full" : "{0} Accuracy with Energy Weapons"
+        },
+        {
+            "Bonus" : "MissileAcc",
+            "Short" : "{0} Miss.Acc.",
+            "Long" : "{0} Missile Acc.",
+            "Full" : "{0} Accuracy with Missile Weapons"
+        },
+        {
+            "Bonus" : "DFMissileAcc",
+            "Short" : "{0} DFMiss.Acc.",
+            "Long" : "{0} Direct Miss Acc.",
+            "Full" : "{0} Accuracy with Missile Direct Fire"
+        },
+        {
+            "Bonus" : "IndirectAcc",
+            "Short" : "{0} ID.Acc.",
+            "Long" : "{0} Indirect Acc.",
+            "Full" : "{0} Accuracy with Indirect Fire"
+        },
+        {
+            "Bonus" : "HeatPerTurn",
+            "Short" : "{0} Heat / Turn",
+            "Long" : "{0} Heat / Turn",
+            "Full" : "{0} Heat per Turn"
+        },
+        {
+            "Bonus" : "HeatGenerated",
+            "Short" : "{0} Heat",
+            "Long" : "{0} Heat Gen",
+            "Full" : "{0} Heat generated from Weapons Fire"
+        },
+        {
+            "Bonus" : "JumpDistance",
+            "Short" : "{0} Jump.",
+            "Long" : "{0} Jumping",
+            "Full" : "{0} Jump Distance"
+        },
+        {
+            "Bonus" : "MeleeStab",
+            "Short" : "{0} MeleeStabDmg",
+            "Long" : "{0} Melee Stab. Damage",
+            "Full" : "{0} Melee Stability Damage"
+        },
+        {
+            "Bonus" : "Melee",
+            "Short" : "{0} MeleeDmg",
+            "Long" : "{0} Melee Damage",
+            "Full" : "{0} Increased Melee Damage"
+        },
+        {
+            "Bonus" : "Melee2",
+            "Short" : "{0} MeleeDmg",
+            "Long" : "{0} Melee Damage",
+            "Full" : "{0} Additional Base Melee Damage"
+        },
+        {
+            "Bonus" : "MeleeAcc",
+            "Short" : "{0} MeleeAcc",
+            "Long" : "{0} Melee Accuracy",
+            "Full" : "{0} Melee Accuracy"
+        },
+        {
+            "Bonus" : "DFA2",
+            "Short" : "{0} DFA Dmg",
+            "Long" : "{0} DFA Damage",
+            "Full" : "{0} Additional Base Death from Above Damage"
+        },
+        {
+            "Bonus" : "DFAAcc",
+            "Short" : "{0} DFAAcc",
+            "Long" : "{0} DFA Accuracy",
+            "Full" : "{0} Accuracy with Death from Above"
+        },
+        {
+            "Bonus" : "DFASelfDamage",
+            "Short" : "{0} DFA.Slf.Dmg",
+            "Long" : "{0} DFA Self Damage",
+            "Full" : "{0} Death from Above Self Damage taken"
+        },
+        {
+            "Bonus" : "Resolve",
+            "Short" : "{0} Resolve",
+            "Long" : "{0} Inc.Resolve",
+            "Full" : "{0} increased Resolve gain"
+        },
+        {
+            "Bonus" : "Health",
+            "Short" : "{0} Injury",
+            "Long" : "{0} Injury res.",
+            "Full" : "{0} Injuries resisted"
+        },
+        {
+            "Bonus" : "Sensors",
+            "Short" : "{0} Sensors",
+            "Long" : "{0} Inc.Sensors",
+            "Full" : "{0} increased Sensor Distance"
+        },
+        {
+            "Bonus" : "Sensors2",
+            "Short" : "{0} Sensors",
+            "Long" : "{0} Sensors",
+            "Full" : "{0} Base Sensor Distance"
+        },
+        {
+            "Bonus" : "Sight",
+            "Short" : "{0} Sight",
+            "Long" : "{0} Inc. Sight",
+            "Full" : "{0} increased Sight Distance"
+        },
+        {
+            "Bonus" : "Sight2",
+            "Short" : "{0} Sight",
+            "Long" : "{0} Sight",
+            "Full" : "{0} Base Sight Distance"
+        },
+        {
+            "Bonus" : "Visibility",
+            "Short" : "{0} Vis.",
+            "Long" : "{0} Visibility",
+            "Full" : "{0} reduced Visibility in Cover"
+        },
+        {
+            "Bonus" : "Signature",
+            "Short" : "{0} Sig.",
+            "Long" : "{0} Signature",
+            "Full" : "{0} Reduced Signature against Sensor"
+        },
+        {
+            "Bonus" : "Evasion",
+            "Short" : "{0} Eva.",
+            "Long" : "{0} Evasion",
+            "Full" : "{0} Evasion gained from Movement"
+        },
+        {
+            "Bonus" : "WalkSpeed",
+            "Short" : "{0} Walk.",
+            "Long" : "{0} Walk Dist",
+            "Full" : "{0} Walking Distance"
+        },
+        {
+            "Bonus" : "RunSpeed",
+            "Short" : "{0} Sprint.",
+            "Long" : "{0} Sprint Dist",
+            "Full" : "{0} Sprinting Distance"
+        },
+        {
+            "Bonus" : "PPCCAPDMG",
+            "Short" : "{0} PPC Dmg.",
+            "Long" : "{0} PPC Damage",
+            "Full" : "{0} Increased Damage with PPC"
+        },
+        {
+            "Bonus" : "PPCCAPHEAT",
+            "Short" : "{0} PPC Heat.",
+            "Long" : "{0} PPC Heat",
+            "Full" : "{0} Heat generated with PPC"
+        },
+        {
+            "Bonus" : "PPCDEBUFF",
+            "Short" : "PPC Debuff",
+            "Long" : "PPC Debuff {0}",
+            "Full" : "PPC scrambles targets system for {0} accuracy"
+        }		
+    ],
+    "TagRestrictionsValidateDropEnabled" : true,
+    "TagRestrictionsUseDescriptionIds" : true,
+    "TagRestrictions" : [
+        {
+            "Tag" : "Gladiator",
+            "IncompatibleTags" : [
+                "Gear_MASC",
+                "Gear_MASC_CLAN",
+                "Gear_Supercharger"
+            ]
+        },
+        {
+            "Tag" : "Strix",
+            "IncompatibleTags" : [
+                "Gear_Combat_Shield_Small",
+                "Gear_Combat_Shield_Medium",
+                "Gear_Combat_Shield"
+            ]
+        },
+        {
+            "Tag" : "Weapon-X",
+            "IncompatibleTags" : [
+                "Gear_Combat_Shield_Small",
+                "Gear_Combat_Shield_Medium",
+                "Gear_Combat_Shield"
+            ]
+        },
+        {
+            "Tag" : "Goblin",
+            "IncompatibleTags" : [
+                "Gear_Combat_Shield_Small",
+                "Gear_Combat_Shield_Medium",
+                "Gear_Combat_Shield"
+            ]
+        },
+        {
+            "Tag" : "Cataphract-P",
+            "IncompatibleTags" : [
+                "Gear_Combat_Shield_Small",
+                "Gear_Combat_Shield_Medium",
+                "Gear_Combat_Shield"
+            ]
+        },
+        {
+            "Tag" : "Echidnae",
+            "IncompatibleTags" : [
+                "Gear_PartialWing_Generic_Standard55"
+            ]
+        },
+        {
+            "Tag" : "Wolfhound",
+            "IncompatibleTags" : [
+                "Gear_LAMS",
+                "Gear_AMS"
+            ]
+        },
+        {
+            "Tag" : "Butcher",
+            "IncompatibleTags" : [
+                "Gear_Cockpit_Torsomount",
+                "Gear_Cockpit_CommandConsole"
+            ]
+        },
+        {
+            "Tag" : "Porcupine",
+            "IncompatibleTags" : [
+                "Gear_Solaris_Spikes"
+            ]
+        },
+        {
+            "Tag" : "Locust-P",
+            "IncompatibleTags" : [
+                "Ammo_AmmunitionBox_Tracer_MG"
+            ]
+        },
+        {
+            "Tag" : "Enforcer-7S",
+            "IncompatibleTags" : [
+                "Ammo_AmmunitionBox_Heavy_GAUSS",
+                "Ammo_AmmunitionBox_Light_GAUSS"
+            ]
+        },
+        {
+            "Tag" : "Dragon-P",
+            "IncompatibleTags" : [
+                "Ammo_AmmunitionBox_Incendiary_LRM",
+                "Ammo_AmmunitionBox_Inferno_SRM"
+            ]
+        },
+        {
+            "Tag" : "Catapult-P",
+            "IncompatibleTags" : [
+                "Ammo_AmmunitionBox_Incendiary_LRM",
+                "Ammo_AmmunitionBox_Inferno_SRM",
+                "Ammo_AmmunitionBox_Artemis_LRM",
+                "Ammo_AmmunitionBox_Artemis_SRM",
+                "Ammo_AmmunitionBox_Deadfire_LRM",
+                "Ammo_AmmunitionBox_Deadfire_SRM",
+                "Ammo_AmmunitionBox_ER_LRM",
+                "Ammo_AmmunitionBox_Heatseeking_LRM",
+                "Ammo_AmmunitionBox_Heatseeking_SRM",
+                "Ammo_AmmunitionBox_Hotloaded_LRM",
+                "Ammo_AmmunitionBox_LFT_LRM",
+                "Ammo_AmmunitionBox_LFT_SRM"
+            ]
+        },
+        {
+            "Tag" : "Catapult-K4",
+            "IncompatibleTags" : [
+                "Gear_PPC_Capacitator"
+            ]
+        },
+        {
+            "Tag" : "Marauder-S7",
+            "IncompatibleTags" : [
+                "Gear_Combat_Shield_Small",
+                "Gear_Combat_Shield_Medium",
+                "Gear_Combat_Shield",
+                "Weapon_HandyVac_Industrial_Construction_1_LaserCutter",
+                "Weapon_HandyVac_Industrial_Construction_0_ArcWelder",
+                "Weapon_HandyVac_Industrial_Agro_1_Chainsaw",
+                "Weapon_HandyVac_Industrial_Agro_0_Cultivator",
+                "Weapon_Elite_2_PlasmaTorch",
+                "Weapon_Elite_2_LaserDrill",
+                "Weapon_Elite_2_Jackhammer",
+                "Weapon_Elite_2_Chainsword",
+                "Weapon_HandyVac_Industrial_Mining_1_MiningDrill",
+                "Weapon_HandyVac_Industrial_Mining_0_Jackhammer",
+                "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch",
+                "Gear_PPC_Capacitator",
+                "Gear_TargetingTrackingSystem_Hartford_F2400",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-X",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-P150+",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-1500",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-1000",
+                "Gear_TargetingTrackingSystem_Hartford_F3000",
+                "Gear_TargetingTrackingSystem_Hartford_F1800",
+                "Gear_TargetingTrackingSystem_ARTIVcv",
+                "Gear_TargetingTrackingSystem_I3F1",
+                "Gear_TargetingTrackingSystem_I3F2",
+                "Gear_TargetingTrackingSystem_I3F3"
+            ]
+        },
+        {
+            "Tag" : "Defiance",
+            "IncompatibleTags" : [
+                "Gear_PPC_Capacitator",
+                "Weapon_HandyVac_Industrial_Construction_1_LaserCutter",
+                "Weapon_HandyVac_Industrial_Construction_0_ArcWelder",
+                "Weapon_HandyVac_Industrial_Agro_1_Chainsaw",
+                "Weapon_HandyVac_Industrial_Agro_0_Cultivator",
+                "Weapon_Elite_2_PlasmaTorch",
+                "Weapon_Elite_2_LaserDrill",
+                "Weapon_Elite_2_Jackhammer",
+                "Weapon_Elite_2_Chainsword",
+                "Weapon_HandyVac_Industrial_Mining_1_MiningDrill",
+                "Weapon_HandyVac_Industrial_Mining_0_Jackhammer",
+                "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch"
+            ]
+        },
+        {
+            "Tag" : "Basilisk",
+            "IncompatibleTags" : [
+                "Gear_HeatSink_Generic_Thermal-Exchanger-I",
+                "Gear_HeatSink_Generic_Thermal-Exchanger-II",
+                "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+                "Gear_HeatSink_Generic_Improved-Bank",
+                "Gear_HeatSink_Generic_Bulk-Bank",
+                "Gear_HeatSink_Generic_Standard-Bank"
+            ]
+        },
+        {
+            "Tag" : "Joermungandr",
+            "IncompatibleTags" : [
+                "Gear_TargetingTrackingSystem_Hartford_F2400",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-X",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-P150+",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-1500",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-1000",
+                "Gear_TargetingTrackingSystem_Hartford_F3000",
+                "Gear_TargetingTrackingSystem_Hartford_F1800",
+                "Gear_TargetingTrackingSystem_I3F1",
+                "Gear_TargetingTrackingSystem_I3F2",
+                "Gear_TargetingTrackingSystem_I3F3"
+            ]
+        },
+        {
+            "Tag" : "Kraken",
+            "IncompatibleTags" : [
+                "Gear_Actuator_Coventry_X75-Standard",
+                "Gear_Actuator_Coventry_X65-Standard",
+                "Gear_Actuator_Coventry_X55-Standard",
+                "Gear_TargetingTrackingSystem_Hartford_F2400",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-X",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII",
+                "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-P150+",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-1500",
+                "Gear_TargetingTrackingSystem_Kallon_A-C-1000",
+                "Gear_TargetingTrackingSystem_Hartford_F3000",
+                "Gear_TargetingTrackingSystem_Hartford_F1800",
+                "Gear_TargetingTrackingSystem_ARTIVcv",
+                "Gear_TargetingTrackingSystem_I3F1",
+                "Gear_TargetingTrackingSystem_I3F2",
+                "Gear_TargetingTrackingSystem_I3F3"
+            ]
+        },
+        {
+            "Tag" : "Katyusha",
+            "IncompatibleTags" : [
+                "Gear_TargetingTrackingSystem_Hartford_F2400",
+                "Gear_TargetingTrackingSystem_Hartford_F3000",
+                "Gear_TargetingTrackingSystem_Hartford_F1800",
+                "Gear_TargetingTrackingSystem_I3F1",
+                "Gear_TargetingTrackingSystem_I3F2",
+                "Gear_TargetingTrackingSystem_I3F3"
+            ]
+        },
+        {
+            "Tag" : "ClanMech",
+            "IncompatibleTags" : [
+                "Weapon_HandyVac_Industrial_Construction_1_LaserCutter",
+                "Weapon_HandyVac_Industrial_Construction_0_ArcWelder",
+                "Weapon_HandyVac_Industrial_Agro_1_Chainsaw",
+                "Weapon_HandyVac_Industrial_Agro_0_Cultivator",
+                "Weapon_Elite_2_PlasmaTorch",
+                "Weapon_Elite_2_LaserDrill",
+                "Weapon_Elite_2_Jackhammer",
+                "Weapon_Elite_2_Chainsword",
+                "Weapon_HandyVac_Industrial_Mining_1_MiningDrill",
+                "Weapon_HandyVac_Industrial_Mining_0_Jackhammer",
+                "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch"
+            ]
+        },
+        {
+            "Tag" : "Eris",
+            "IncompatibleTags" : [
+                "Weapon_HandyVac_Industrial_Construction_1_LaserCutter",
+                "Weapon_HandyVac_Industrial_Construction_0_ArcWelder",
+                "Weapon_HandyVac_Industrial_Agro_1_Chainsaw",
+                "Weapon_HandyVac_Industrial_Agro_0_Cultivator",
+                "Weapon_Elite_2_PlasmaTorch",
+                "Weapon_Elite_2_LaserDrill",
+                "Weapon_Elite_2_Jackhammer",
+                "Weapon_Elite_2_Chainsword",
+                "Weapon_HandyVac_Industrial_Mining_1_MiningDrill",
+                "Weapon_HandyVac_Industrial_Mining_0_Jackhammer",
+                "Weapon_HandyVac_Industrial_Construction_1_PlasmaTorch"
+            ]
+        }
+    ],
+    "EngineCriticalHitStates" : {
+        "MaxStates" : 2,
+        "DeathMethod" : "EngineDestroyed",
+        "HitEffects" : [
+            {
+                "State" : 1,
+                "StatusEffect" : {
+                    "durationData" : {
+                        "duration" : 0,
+                        "ticksOnActivations" : false,
+                        "useActivationsOfTarget" : false,
+                        "ticksOnEndOfRound" : false,
+                        "ticksOnMovements" : false,
+                        "stackLimit" : 0,
+                        "clearedWhenAttacked" : false
+                    },
+                    "targetingData" : {
+                        "effectTargetsCreator" : true,
+                        "effectTriggerType" : "Passive",
+                        "triggerLimit" : 0,
+                        "extendDurationOnTrigger" : 0,
+                        "specialRules" : "NotSet",
+                        "effectTargetType" : "Creator",
+                        "range" : 0,
+                        "forcePathRebuild" : false,
+                        "forceVisRebuild" : false,
+                        "showInTargetPreview" : true,
+                        "showInStatusPanel" : true
+                    },
+                    "effectType" : "StatisticEffect",
+                    "Description" : {
+                        "Id" : "StatusEffect-EngineCrit1",
+                        "Name" : "Engine Crit (1)",
+                        "Details" : "Engine was hit, additional 15 Heat / Turn",
+                        "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+                    },
+                    "nature" : "Debuff",
+                    "statisticData" : {
+                        "appliesEachTick" : false,
+                        "effectsPersistAfterDestruction" : false,
+                        "statName" : "HeatSinkCapacity",
+                        "operation" : "Int_Subtract",
+                        "modValue" : "15",
+                        "modType" : "System.Int32",
+                        "additionalRules" : "NotSet",
+                        "targetCollection" : "NotSet",
+                        "targetWeaponCategory" : "NotSet",
+                        "targetWeaponType" : "NotSet",
+                        "targetAmmoCategory" : "NotSet",
+                        "targetWeaponSubType" : "NotSet"
+                    }
+                }
+            },
+            {
+                "State" : 2,
+                "StatusEffect" : {
+                    "durationData" : {
+                        "duration" : 0,
+                        "ticksOnActivations" : false,
+                        "useActivationsOfTarget" : false,
+                        "ticksOnEndOfRound" : false,
+                        "ticksOnMovements" : false,
+                        "stackLimit" : 0,
+                        "clearedWhenAttacked" : false
+                    },
+                    "targetingData" : {
+                        "effectTargetsCreator" : true,
+                        "effectTriggerType" : "Passive",
+                        "triggerLimit" : 0,
+                        "extendDurationOnTrigger" : 0,
+                        "specialRules" : "NotSet",
+                        "effectTargetType" : "Creator",
+                        "range" : 0,
+                        "forcePathRebuild" : false,
+                        "forceVisRebuild" : false,
+                        "showInTargetPreview" : true,
+                        "showInStatusPanel" : true
+                    },
+                    "effectType" : "StatisticEffect",
+                    "Description" : {
+                        "Id" : "StatusEffect-EngineCrit2",
+                        "Name" : "Engine Crit (2)",
+                        "Details" : "Engine was hit, additional 30 Heat / Turn",
+                        "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+                    },
+                    "nature" : "Debuff",
+                    "statisticData" : {
+                        "appliesEachTick" : false,
+                        "effectsPersistAfterDestruction" : false,
+                        "statName" : "HeatSinkCapacity",
+                        "operation" : "Int_Subtract",
+                        "modValue" : "30",
+                        "modType" : "System.Int32",
+                        "additionalRules" : "NotSet",
+                        "targetCollection" : "NotSet",
+                        "targetWeaponCategory" : "NotSet",
+                        "targetWeaponType" : "NotSet",
+                        "targetAmmoCategory" : "NotSet",
+                        "targetWeaponSubType" : "NotSet"
+                    }
+                }
+            }
+        ]
+    },
+    "LogLevels" : [
+        {
+            "Name" : "MechEngineer",
+            "Level" : "Debug"
+        }
+    ],
+	"AutoFixGyroCategorizer" : null,
     "AutoFixMechDefGyroAdder" : null,
     "AutoFixGyroSlotChange" : null,
     "AutoFixCockpitCategorizer" : null,
@@ -109,28 +976,46 @@
 	"AutoFixArmActuatorCategorizer" : null,
     "AutoFixArmActuatorSlotChange" : null,
 	"AutoFixCockpitSlotChange" : null,
-	
     "AutoFixChassisDefSlotsChanges" :null,
+    "AutoFixWeaponDefSlotsChanges" : null
 	
+    "AutoFixMechDefSkip" : [
+        
+    ],
     "AutoFixUpgradeDefSkip" : [
         "Gear_Cockpit_Generic_Small",
         "emod_arm_lower",
-		"Gear_Actuator_Coventry_X55-Standard",
-		"Gear_Actuator_Coventry_X65-Standard",
-		"Gear_Actuator_Coventry_X75-Standard"
-    ],	
-		
-    "DynamicSlotsValidateDropEnabled" : true,
+        "Gear_Actuator_Coventry_X55-Standard",
+        "Gear_Actuator_Coventry_X65-Standard",
+        "Gear_Actuator_Coventry_X75-Standard"
+    ],
+    "AutoFixMechDefEngine" : false,
+    "AutoFixMechDefEngineTypeDef" : "emod_engineslots_std_center",
+    "AutoFixMechDefArmActuator" : true,
+    "AutoFixChassisDefSkip" : [
+        
+    ],
+    "AutoFixChassisDefInitialTonnage" : false,
+    "AutoFixChassisDefInitialToTotalTonnageFactor" : 0.1,
+    "AutoFixChassisDefMaxJumpjets" : true,
+    "AutoFixChassisDefMaxJumpjetsCount" : 8,
+    "AutoFixChassisDefMaxJumpjetsRating" : 400,
     "CBTMovement" : {
         "UseGameWalkValues" : true,
         "JJRoundUp" : false,
         "TTWalkMultiplier" : 25,
         "TTSprintMultiplier" : 38
-    },	
-		
-    "AutoFixChassisDefInitialTonnage" : false,
-    "AutoFixChassisDefInitialToTotalTonnageFactor" : 0.1,
-    "AutoFixWeaponDefSlotsChanges" : null,	
+    },
+    "HardpointFix" : {
+        "AutoFixChassisDefWeaponHardpointCounts" : false,
+        "EnforceHardpointLimits" : false,
+        "AllowDefaultLoadoutWeapons" : false,
+        "AllowLRMInSmallerSlotsForAll" : false,
+        "AllowLRMInSmallerSlotsForMechs" : [
+            "atlas"
+        ],
+        "AllowLRMInLargerSlotsForAll" : true
+    },
     "Categories" : [
         {
             "Name" : "Armor",
@@ -141,6 +1026,7 @@
             "displayName" : "Armor",
             "AllowMixTags" : true,
             "AutoReplace" : true,
+            "ReplaceAnyLocation" : false,
             "MaxEquiped" : 1,
             "MaxEquipedPerLocation" : -1,
             "MinEquiped" : 1,
@@ -155,7 +1041,10 @@
                     "Flags" : [
                         "not_broken"
                     ]
-                }				
+                },
+                "InventorySorter" : {
+                    "SortKey" : "Armor"
+                },				
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
             "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
@@ -180,6 +1069,7 @@
             "displayName" : "Structure",
             "AllowMixTags" : true,
             "AutoReplace" : true,
+            "ReplaceAnyLocation" : false,
             "MaxEquiped" : 1,
             "MaxEquipedPerLocation" : -1,
             "MinEquiped" : 1,
@@ -194,7 +1084,10 @@
                     "Flags" : [
                         "not_broken"
                     ]
-                }				
+                },
+                "InventorySorter" : {
+                    "SortKey" : "Structure"
+                },				
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
             "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
@@ -210,7 +1103,7 @@
             "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
             "ValidateForbidden" : "Cannot use {0} and {1} together"
         },
-{
+        {
             "Name" : "Cockpit",
             "DisplayName" : "Cockpit",
             "Unique" : true,
@@ -231,95 +1124,101 @@
                     "ComponentDefId" : "Gear_Cockpit_Generic_Standard",
                     "Location" : "Head"
                 },
-		"CriticalHitStates": {
-			"MaxStates" : 2,
-			"DeathMethod" : "PilotKilled",			
-			"HitEffects" : [
-				{
-					"State" : 1,
-					"StatusEffect" : {
-						"durationData" : {
-						},
-						"targetingData" : {
-							"effectTargetsCreator" : true,
-							"effectTriggerType" : "Passive",
-							"effectTargetType" : "Creator"
-						},
-						"effectType" : "StatisticEffect",
-						"Description" : {
-							"Id" : "SensorsDestroyed",
-							"Name" : "Sensors Destroyed",
-							"Details" : "-50% Sight and Sensor",
-							"Icon" : "uixSvgIcon_equipment_Cockpit"
-						},
-						"nature" : "Debuff",
-						"statisticData" : {
-						"statName" : "SensorDistanceAbsolute",
-						"operation" : "Float_Multiply",
-						"modValue" : "0.5",
-						"modType" : "System.Single"
-						}
-					}					
-				},
-				{
-					"State" : 1,				
-					"StatusEffect" : {
-						"durationData" : {
-						},
-						"targetingData" : {
-							"effectTargetsCreator" : true,
-							"effectTriggerType" : "Passive",
-							"effectTargetType" : "Creator"
-						},
-						"effectType" : "StatisticEffect",
-						"Description" : {
-							"Id" : "SensorsDestroyed2",
-							"Name" : "Sensors Destroyed",
-							"Details" : "-50% Sight and Sensor",
-							"Icon" : "uixSvgIcon_equipment_Cockpit"
-						},
-						"nature" : "Debuff",
-						"statisticData" : {
-						"statName" : "SpotterDistanceAbsolute",
-						"operation" : "Float_Multiply",
-						"modValue" : "0.5",
-						"modType" : "System.Single"
-						}
-					}
-				},
-				{
-					"State" : 2,				
-					"StatusEffect" : {
-						"durationData" : {
-						},
-						"targetingData" : {
-							"effectTargetsCreator" : true,
-							"effectTriggerType" : "Passive",
-							"effectTargetType" : "Creator"
-						},
-						"effectType" : "StatisticEffect",
-						"Description" : {
-							"Id" : "LifeSupportDestroyed",
-							"Name" : "Life Support Destroyed",
-							"Details" : "Take Damage on Shutdown",
-							"Icon" : "uixSvgIcon_equipment_Cockpit"
-						},
-						"nature" : "Debuff",
-						"statisticData" : {
-				"statName" : "ReceiveShutdownInjury",
-				"operation" : "Set",
-				"modValue" : "true",
-				"modType" : "System.Boolean"
-						}
-					}
-				}				
-			]
-				},
+                "CriticalHitStates" : {
+                    "MaxStates" : 2,
+                    "DeathMethod" : "PilotKilled",
+                    "HitEffects" : [
+                        {
+                            "State" : 1,
+                            "StatusEffect" : {
+                                "durationData" : {
+                                    
+                                },
+                                "targetingData" : {
+                                    "effectTargetsCreator" : true,
+                                    "effectTriggerType" : "Passive",
+                                    "effectTargetType" : "Creator"
+                                },
+                                "effectType" : "StatisticEffect",
+                                "Description" : {
+                                    "Id" : "SensorsDestroyed",
+                                    "Name" : "Sensors Destroyed",
+                                    "Details" : "-50% Sight and Sensor",
+                                    "Icon" : "uixSvgIcon_equipment_Cockpit"
+                                },
+                                "nature" : "Debuff",
+                                "statisticData" : {
+                                    "statName" : "SensorDistanceAbsolute",
+                                    "operation" : "Float_Multiply",
+                                    "modValue" : "0.5",
+                                    "modType" : "System.Single"
+                                }
+                            }
+                        },
+                        {
+                            "State" : 1,
+                            "StatusEffect" : {
+                                "durationData" : {
+                                    
+                                },
+                                "targetingData" : {
+                                    "effectTargetsCreator" : true,
+                                    "effectTriggerType" : "Passive",
+                                    "effectTargetType" : "Creator"
+                                },
+                                "effectType" : "StatisticEffect",
+                                "Description" : {
+                                    "Id" : "SensorsDestroyed2",
+                                    "Name" : "Sensors Destroyed",
+                                    "Details" : "-50% Sight and Sensor",
+                                    "Icon" : "uixSvgIcon_equipment_Cockpit"
+                                },
+                                "nature" : "Debuff",
+                                "statisticData" : {
+                                    "statName" : "SpotterDistanceAbsolute",
+                                    "operation" : "Float_Multiply",
+                                    "modValue" : "0.5",
+                                    "modType" : "System.Single"
+                                }
+                            }
+                        },
+                        {
+                            "State" : 2,
+                            "StatusEffect" : {
+                                "durationData" : {
+                                    
+                                },
+                                "targetingData" : {
+                                    "effectTargetsCreator" : true,
+                                    "effectTriggerType" : "Passive",
+                                    "effectTargetType" : "Creator"
+                                },
+                                "effectType" : "StatisticEffect",
+                                "Description" : {
+                                    "Id" : "LifeSupportDestroyed",
+                                    "Name" : "Life Support Destroyed",
+                                    "Details" : "Take Damage on Shutdown",
+                                    "Icon" : "uixSvgIcon_equipment_Cockpit"
+                                },
+                                "nature" : "Debuff",
+                                "statisticData" : {
+                                    "statName" : "ReceiveShutdownInjury",
+                                    "operation" : "Set",
+                                    "modValue" : "true",
+                                    "modType" : "System.Boolean"
+                                }
+                            }
+                        }
+                    ]
+                },
                 "Flags" : {
                     "Flags" : [
                         "not_broken"
                     ]
-                }				
+                },
+                "InventorySorter" : {
+                    "SortKey" : "Cockpit"
+                },				
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
             "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
@@ -335,7 +1234,6 @@
             "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
             "ValidateForbidden" : "Cannot use {0} and {1} together"
         },
-		
         {
             "Name" : "Gyro",
             "DisplayName" : "Gyro",
@@ -345,6 +1243,7 @@
             "displayName" : "Gyro",
             "AllowMixTags" : true,
             "AutoReplace" : true,
+            "ReplaceAnyLocation" : false,
             "MaxEquiped" : 1,
             "MaxEquipedPerLocation" : -1,
             "MinEquiped" : 1,
@@ -355,68 +1254,73 @@
                 "Replace" : {
                     "ComponentDefId" : "Gear_Gyro_Generic_Standard"
                 },
-			"CriticalHitStates": {
-				"MaxStates" : 2,			
-				"HitEffects" : [
-				{
-					"State" : 1,
-					"StatusEffect" : {
-						"durationData" : {
-						},
-						"targetingData" : {
-							"effectTargetsCreator" : true,
-							"effectTriggerType" : "Passive",
-							"effectTargetType" : "Creator"
-						},
-						"effectType" : "StatisticEffect",
-						"Description" : {
-							"Id" : "Gyro_Critical",
-							"Name" : "Gyro Critical",
-							"Details" : "Double Stability Damage taken",
-							"Icon" : "uixSvgIcon_equipment_Gyro"
-						},
-						"nature" : "Debuff",
-						"statisticData" : {
-                "statName" : "ReceivedInstabilityMultiplier",
-                "operation" : "Float_Multiply",
-                "modValue" : "2.0",
-                "modType" : "System.Single"
-						}
-					}					
-				},
-				{
-					"State" : 2,
-					"StatusEffect" : {
-						"durationData" : {
-						},
-						"targetingData" : {
-							"effectTargetsCreator" : true,
-							"effectTriggerType" : "Passive",
-							"effectTargetType" : "Creator"
-						},
-						"effectType" : "StatisticEffect",
-						"Description" : {
-							"Id" : "Gyro_Critical2",
-							"Name" : "Gyro Critical",
-							"Details" : "X2 Stability taken & -20 Threshhold",
-							"Icon" : "uixSvgIcon_equipment_Gyro"
-						},
-						"nature" : "Debuff",
-						"statisticData" : {
-                "statName" : "UnsteadyThreshold",
-                "operation" : "Float_Add",
-                "modValue" : "-20.0",
-                "modType" : "System.Single"
-						}
-					}					
-				 }				
-				]
-			  },
+                "CriticalHitStates" : {
+                    "MaxStates" : 2,
+                    "HitEffects" : [
+                        {
+                            "State" : 1,
+                            "StatusEffect" : {
+                                "durationData" : {
+                                    
+                                },
+                                "targetingData" : {
+                                    "effectTargetsCreator" : true,
+                                    "effectTriggerType" : "Passive",
+                                    "effectTargetType" : "Creator"
+                                },
+                                "effectType" : "StatisticEffect",
+                                "Description" : {
+                                    "Id" : "Gyro_Critical",
+                                    "Name" : "Gyro Critical",
+                                    "Details" : "Double Stability Damage taken",
+                                    "Icon" : "uixSvgIcon_equipment_Gyro"
+                                },
+                                "nature" : "Debuff",
+                                "statisticData" : {
+                                    "statName" : "ReceivedInstabilityMultiplier",
+                                    "operation" : "Float_Multiply",
+                                    "modValue" : "2.0",
+                                    "modType" : "System.Single"
+                                }
+                            }
+                        },
+                        {
+                            "State" : 2,
+                            "StatusEffect" : {
+                                "durationData" : {
+                                    
+                                },
+                                "targetingData" : {
+                                    "effectTargetsCreator" : true,
+                                    "effectTriggerType" : "Passive",
+                                    "effectTargetType" : "Creator"
+                                },
+                                "effectType" : "StatisticEffect",
+                                "Description" : {
+                                    "Id" : "Gyro_Critical2",
+                                    "Name" : "Gyro Critical",
+                                    "Details" : "X2 Stability taken & -20 Threshhold",
+                                    "Icon" : "uixSvgIcon_equipment_Gyro"
+                                },
+                                "nature" : "Debuff",
+                                "statisticData" : {
+                                    "statName" : "UnsteadyThreshold",
+                                    "operation" : "Float_Add",
+                                    "modValue" : "-20.0",
+                                    "modType" : "System.Single"
+                                }
+                            }
+                        }
+                    ]
+                },
                 "Flags" : {
                     "Flags" : [
                         "not_broken"
                     ]
-                }			  
+                },
+                "InventorySorter" : {
+                    "SortKey" : "Gyro"
+                },				
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
             "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
@@ -441,6 +1345,7 @@
             "displayName" : "Engine Shielding",
             "AllowMixTags" : true,
             "AutoReplace" : true,
+            "ReplaceAnyLocation" : false,
             "MaxEquiped" : 1,
             "MaxEquipedPerLocation" : -1,
             "MinEquiped" : 1,
@@ -450,7 +1355,10 @@
                 },
                 "Replace" : {
                     "ComponentDefId" : "emod_engineslots_std_center"
-                }
+                },
+                "InventorySorter" : {
+                    "SortKey" : "Engine"
+                },				
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
             "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
@@ -475,6 +1383,7 @@
             "displayName" : "Engine Core",
             "AllowMixTags" : true,
             "AutoReplace" : true,
+            "ReplaceAnyLocation" : false,
             "MaxEquiped" : 1,
             "MaxEquipedPerLocation" : -1,
             "MinEquiped" : 1,
@@ -491,7 +1400,10 @@
                         "engine_part",
                         "not_broken"
                     ]
-                }
+                },
+                "InventorySorter" : {
+                    "SortKey" : "Engine2"
+                },				
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
             "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
@@ -530,7 +1442,7 @@
                         "not_broken",
                         "default"
                     ]
-                }
+                }			
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
             "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
@@ -545,7 +1457,7 @@
             "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
             "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
             "ValidateForbidden" : "Cannot use {0} and {1} together"
-        },	
+        },
         {
             "Name" : "ArmActuator",
             "DisplayName" : "Arm Actuator",
@@ -569,7 +1481,10 @@
                 "ArmActuator" : {
                     "AccuracyBonus" : -1,
                     "Type" : "Hand"
-                }
+                },
+                "InventorySorter" : {
+                    "SortKey" : "Arms"
+                },				
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
             "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
@@ -584,7 +1499,7 @@
             "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
             "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
             "ValidateForbidden" : "Cannot use {0} and {1} together"
-        },		
+        },
         {
             "Name" : "LegUpgrade",
             "DisplayName" : "Leg Upgrade",
@@ -594,6 +1509,7 @@
             "displayName" : "Leg Upgrade",
             "AllowMixTags" : true,
             "AutoReplace" : true,
+            "ReplaceAnyLocation" : false,
             "MaxEquiped" : -1,
             "MaxEquipedPerLocation" : 1,
             "MinEquiped" : 0,
@@ -628,12 +1544,17 @@
                 "CASE2"
             ],
             "DefaultCustoms" : {
-				"CASE": {},
+                "CASE" : {
+                    
+                },
                 "Flags" : {
                     "Flags" : [
                         "ignore_damage"
                     ]
-                }
+                },
+                "InventorySorter" : {
+                    "SortKey" : "CASE"
+                }				
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
             "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
@@ -666,14 +1587,17 @@
                 "CASE"
             ],
             "DefaultCustoms" : {
-				"CASE": {
-						"MaximumDamage" : 3
-				},			
+                "CASE" : {
+                    "MaximumDamage" : 3
+                },
                 "Flags" : {
                     "Flags" : [
                         "ignore_damage"
                     ]
-                }
+                },
+                "InventorySorter" : {
+                    "SortKey" : "CASE"
+                }				
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
             "AddAlreadyEquipedLocation" : "{0} already installed on {1}",
@@ -688,7 +1612,6 @@
             "ValidateUniqueLocation" : "EXCESS {0}: This mech can't mount more then one {1} at any location",
             "ValidateMaximumLocation" : "EXCESS {0}: This mech can't mount more then {2} of {1} any location",
             "ValidateForbidden" : "Cannot use {0} and {1} together"
-        }		
-    ],		
-	"logLevel": "Debug"
+        }
+    ]
 }

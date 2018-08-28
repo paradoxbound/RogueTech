@@ -1,7 +1,10 @@
 {
 
 	"Custom" : {
-		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 25, "StabilityDamagePerAmmo": 6 }
+		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 25, "StabilityDamagePerAmmo": 6 },
+            "InventorySorter" : {
+                "SortKey" : "0001"
+            },		
 	},
 
     "AmmoID" : "Ammunition_AC2",

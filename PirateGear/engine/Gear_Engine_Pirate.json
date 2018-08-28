@@ -116,7 +116,10 @@
 					}
 				}				
 			]
-		}		
+		},
+            "InventorySorter" : {
+                "SortKey" : "00013"
+            }		
 	},
 
     "DissipationCapacity" : 10,
@@ -179,7 +182,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "HeatGenerated",
                 "operation" : "Float_Multiply",
-                "modValue" : "0.85",
+                "modValue" : "0.9",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "Weapon",
@@ -230,7 +233,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "MaxHeat",
                 "operation" : "Int_Add",
-                "modValue" : "30",
+                "modValue" : "20",
                 "modType" : "System.Int32",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
@@ -281,7 +284,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "OverheatLevel",
                 "operation" : "Int_Add",
-                "modValue" : "20",
+                "modValue" : "15",
                 "modType" : "System.Int32",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",
@@ -331,7 +334,7 @@
 			{
 				"statName" : "WalkSpeed",
 				"operation" : "Float_Multiply",
-				"modValue" : "1.2",
+				"modValue" : "1.1",
 				"modType" : "System.Single"
 			},
 			"nature" : "Buff"
@@ -360,7 +363,7 @@
 			{
 				"statName" : "RunSpeed",
 				"operation" : "Float_Multiply",
-				"modValue" : "1.2",
+				"modValue" : "1.1",
 				"modType" : "System.Single"
 			},
 			"nature" : "Buff"

@@ -1,6 +1,10 @@
 {
 
-"Custom" :  {"Category" : { "CategoryID" : "UAC20"}},
+"Custom" :  {"Category" : { "CategoryID" : "UAC20"},
+            "InventorySorter" : {
+                "SortKey" : "01008"
+            }
+},
 
     "Category" : "Ballistic",
     "Type" : "Autocannon",
@@ -37,7 +41,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Kali Yama",
         "Model" : "Shredder Autocannon",
-        "UIName" : "AC/20 Ultra",
+        "UIName" : "Ultra AC/20 ",
         "Id" : "Weapon_Autocannon_AC20_0-Ultra",
         "Name" : "UAC/20",
         "Details" : "Ultra Autocannons boast double the rate of fire of a regular Autocannon, with only moderate increases in weight, size, and heat. The UAC/20 is one of the most fearsome weapons on the battlefield.",

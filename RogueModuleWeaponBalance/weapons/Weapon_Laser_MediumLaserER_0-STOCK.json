@@ -1,4 +1,11 @@
 {
+
+	"Custom": {
+            "InventorySorter" : {
+                "SortKey" : "02006"
+            }
+		},
+		
     "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "MediumLaserER",
@@ -34,7 +41,7 @@
         "Purchasable" : false,
         "Manufacturer" : "SCI",
         "Model" : "Extended-Range Medium Laser",
-        "UIName" : "Laser M ER",
+        "UIName" : "ER Medium Laser",
         "Id" : "Weapon_Laser_MediumLaserER_0-STOCK",
         "Name" : "ER M Laser",
         "Details" : "An improvement upon standard Medium Lasers, Extended-Range Medium Lasers extend their effective range at the cost of considerable heat generation. Like all Lasers, ER Medium Lasers enjoy a baseline accuracy bonus over other weapons.",

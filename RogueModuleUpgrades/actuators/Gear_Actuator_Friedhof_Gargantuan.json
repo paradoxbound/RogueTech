@@ -6,7 +6,10 @@
 		},
 		"ArmActuator" : {
 			"Type" : "Upper"
-		}
+		},
+            "InventorySorter" : {
+                "SortKey" : "00020"
+            }				
 	},
 
     "StatName" : null,
@@ -18,7 +21,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Friedhof",
         "Model" : "Gargantuan",
-        "UIName" : "Arm Shoulder Ballistic",
+        "UIName" : "Upper Ballistic",
         "Id" : "Gear_Actuator_Friedhof_Gargantuan",
         "Name" : "Friedhof Gargantuan Arm Mod ",
         "Details" : "Upper Arm Actuators usually are barely more then a connector for a limb. <b><color=#800080>WEAPON SHOULDER ACTUATOR.</color></b> Grants only bonus to 1 weapon type.",

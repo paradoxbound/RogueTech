@@ -9,7 +9,18 @@
 				"TechCost": "[[Chassis.Tonnage]]/10",
 				"CBillCost": "[[Chassis.Tonnage]] * 1.1"
 			}
-		}	
+		},
+        "BonusDescriptions": {
+            "Bonuses": [
+                "Sensors: +20%",
+				"Sight: +20%",
+				"Health: +1",
+				"Resolve: +1"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00019"
+            }		
 	},
 
     "StatName" : null,
@@ -21,13 +32,13 @@
         "Purchasable" : true,
         "Manufacturer" : "SLDF",
         "Model" : "Advanced",
-        "UIName" : "Cockpit SLIC",
+        "UIName" : "SLIC Suite",
         "Id" : "Gear_Cockpit_SLDF_Custom",
         "Name" : "SLDF SpecOps Cockpit  ",
         "Details" : "This SpecOps tactical upgrade includes a high-grade ballistic cooling vest, an integrated C3 command helmet, and advanced onboard systems, providing both improved sensor capability as well as protection for the pilot. ",
         "Icon" : "uixSvgIcon_equipment_Comms"
     },
-    "BonusValueA" : "+1 Health/Morale.",
+    "BonusValueA" : "+1 Health/Resolve.",
     "BonusValueB" : "+20% Sensors/Sight",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",

@@ -21,15 +21,15 @@
 			{
 				"Id" : "butcher",
 				"Name" : "Bloodsports",
-				"Details" : "Chassis has Melee Boni and pushes back a Phase",
+				"Details" : "Chassis has Melee and Initiative bonus",
 				"Icon" : "uixSvgIcon_skullAtlas"
 			},
 			"statisticData" : 
 			{
-				"statName" : "MeleeHitPushBackPhases",
-				"operation" : "Int_Add",
-				"modValue" : "1",
-				"modType" : "System.Int32"
+                "statName" : "BaseInitiative",
+                "operation" : "Int_Add",
+                "modValue" : "-1",
+                "modType" : "System.Int32",
 			},
 			"nature" : "Buff"
 		}			
@@ -45,7 +45,7 @@
     "UIName": "Butcher",
     "Id": "chassisdef_butcher_VND-BR",
     "Name": "Butcher",
-    "Details": "Duncan fisher once said, the Butcher was the natural product of Solaris' sweaty and testosterone driven battles. Forged in the heat of battle and adorned with the reamains of other Gladiator's Mechs. <b><color=#009933>Quirk: Bloodsports</color></b>",
+    "Details": "Duncan fisher once said, the Butcher was the natural product of Solaris' sweaty and testosterone driven battles. Forged in the heat of battle and adorned with the reamains of other Gladiator's Mechs. <b><color=#009933>Quirk: Bloodsports - Improved Initiative</color></b>",
     "Icon": "uixTxrIcon_vindicator"
   },
   "MovementCapDefID": "movedef_vindicator_VND-1R",
@@ -265,5 +265,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Gladiator",
-  "YangsThoughts": "Duncan fisher once said, the Butcher was the natural product of Solaris' sweaty and testosterone driven battles. Forged in the heat of battle and adorned with the reamains of other Gladiator's Mechs. <b><color=#009933>Quirk: Bloodsports</color></b>"
+  "YangsThoughts": "Duncan fisher once said, the Butcher was the natural product of Solaris' sweaty and testosterone driven battles. Forged in the heat of battle and adorned with the reamains of other Gladiator's Mechs. <b><color=#009933>Quirk: Bloodsports - Improved Initiative</color></b>"
 }

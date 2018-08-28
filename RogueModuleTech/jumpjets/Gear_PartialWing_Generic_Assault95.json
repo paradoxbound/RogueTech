@@ -1,6 +1,17 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "PartialWing"}, "Flags" : { "flags" : [ "not_broken" ] } },
+	"Custom" :  {"Category" : { "CategoryID" : "PartialWing"}, 
+	"Flags" : { "flags" : [ "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "HeatPerTurn: - 9",
+                "JumpDistance: 30%",
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00028"
+            }		
+	},
 
     "JumpCapacity" : 1,
     "MinTonnage" : 95,

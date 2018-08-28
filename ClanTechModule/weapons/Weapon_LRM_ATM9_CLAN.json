@@ -1,6 +1,10 @@
 {
 
-"Custom" :  {"Category" : { "CategoryID" : "ATM"}},
+"Custom" :  {"Category" : { "CategoryID" : "ATM"},
+            "InventorySorter" : {
+                "SortKey" : "03017"
+            }
+},
 
     "Category" : "Missile",
     "Type" : "LRM",
@@ -18,10 +22,10 @@
     "Damage" : 12,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 0,
+    "EvasivePipsIgnored" : 1,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
-    "AccuracyModifier" : 0,
+    "AccuracyModifier" : -1,
     "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : true,

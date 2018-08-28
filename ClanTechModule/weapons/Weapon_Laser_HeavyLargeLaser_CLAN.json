@@ -1,4 +1,11 @@
 {
+
+	"Custom": {
+            "InventorySorter" : {
+                "SortKey" : "02008"
+            }
+		},
+
     "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "LargeLaser",
@@ -29,7 +36,7 @@
     "Instability" : 7.5,
     "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Large",
     "Description" : {
-        "Cost" : 560000,
+        "Cost" : 1680000,
         "Rarity" : 10,
         "Purchasable" : true,
         "Manufacturer" : "CLAN",

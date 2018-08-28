@@ -1,4 +1,17 @@
 {
+
+	"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+                "WpnRecoil: 2",
+				"VariableDmg: 4"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "03007"
+            }		
+	},
+
     "Category" : "Missile",
     "Type" : "SRM",
     "WeaponSubType" : "SRM6",

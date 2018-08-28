@@ -9,7 +9,15 @@
 				"TechCost": "[[Chassis.Tonnage]]/10",
 				"CBillCost": "[[Chassis.Tonnage]] * 1.2"
 			}
-		}		
+		},
+        "BonusDescriptions": {
+            "Bonuses": [
+                "GyroStab: 40"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00022"
+            }		
 	},
 
     "StatName" : null,
@@ -28,7 +36,7 @@
         "Icon" : "uixSvgIcon_equipment_Gyro"
     },
     "BonusValueA" : "",
-    "BonusValueB" : "40 Stability",
+    "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",

@@ -1,6 +1,16 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC5Ammo"}, "Tag" : "Precision", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 45, "StabilityDamagePerAmmo": 12 } },
+	"Custom" :  {"Category" : { "CategoryID" : "AC5Ammo"}, "Tag" : "Precision", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 45, "StabilityDamagePerAmmo": 12 },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"ACAccuracy: +1",
+                "AC5Ammo"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0002"
+            },		
+	},
 
     "AmmoID" : "Ammunition_AC5",
     "Capacity" : 15,

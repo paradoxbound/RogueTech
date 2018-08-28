@@ -1,6 +1,17 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC10Ammo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 15, "StabilityDamagePerAmmo": 45 } },
+	"Custom" :  {"Category" : { "CategoryID" : "AC10Ammo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 15, "StabilityDamagePerAmmo": 45 },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"StabDamage: X2",
+                "ACDamage: -75%",
+                "AC10Ammo"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0003"
+            },		
+	},
 
     "AmmoID" : "Ammunition_AC10",
     "Capacity" : 8,

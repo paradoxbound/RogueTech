@@ -1,7 +1,15 @@
 {
 
 	"Custom" : {
-		"Flags" : { "flags" : [ "not_broken" ] }
+		"Flags" : { "flags" : [ "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "GaussNoBoom"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0005"
+            },		
 	},
 
     "AmmoID" : "Ammunition_GAUSS",

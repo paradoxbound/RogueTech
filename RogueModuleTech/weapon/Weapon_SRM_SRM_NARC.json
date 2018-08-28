@@ -1,4 +1,16 @@
 {
+
+	"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+                "Painter"
+            ]
+        },	
+            "InventorySorter" : {
+                "SortKey" : "04003"
+            }
+		},
+		
     "Category" : "AntiPersonnel",
     "Type" : "SRM",
     "WeaponSubType" : "SRM2",
@@ -40,7 +52,7 @@
         "Details" : "This Launcher fires a single NARC beacon that attaches itself to the enemy and emits a homing signal for all friendly weapons. This prototype comes with an advanced guidance system. Three turn duration, does not stack.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
-    "BonusValueA" : "",
+    "BonusValueA" : "Target Painter",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",

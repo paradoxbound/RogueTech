@@ -30,10 +30,10 @@
       "DamageLevel": "Functional",
       "Location": "Head",
       "CurrentArmor": 45,
-      "CurrentRearArmor": 0,
+      "CurrentRearArmor": -1,
       "CurrentInternalStructure": 16,
       "AssignedArmor": 45,
-      "AssignedRearArmor": 0
+      "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
@@ -66,37 +66,37 @@
       "DamageLevel": "Functional",
       "Location": "LeftArm",
       "CurrentArmor": 35,
-      "CurrentRearArmor": 0,
+      "CurrentRearArmor": -1,
       "CurrentInternalStructure": 30,
       "AssignedArmor": 35,
-      "AssignedRearArmor": 0
+      "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightArm",
       "CurrentArmor": 35,
-      "CurrentRearArmor": 0,
+      "CurrentRearArmor": -1,
       "CurrentInternalStructure": 30,
       "AssignedArmor": 35,
-      "AssignedRearArmor": 0
+      "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftLeg",
       "CurrentArmor": 35,
-      "CurrentRearArmor": 0,
+      "CurrentRearArmor": -1,
       "CurrentInternalStructure": 50,
       "AssignedArmor": 35,
-      "AssignedRearArmor": 0
+      "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightLeg",
       "CurrentArmor": 35,
-      "CurrentRearArmor": 0,
+      "CurrentRearArmor": -1,
       "CurrentInternalStructure": 50,
       "AssignedArmor": 35,
-      "AssignedRearArmor": 0
+      "AssignedRearArmor": -1
     }
   ],
   "inventory": [

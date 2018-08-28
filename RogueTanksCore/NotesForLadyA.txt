@@ -1,0 +1,32 @@
+8/25/2018
+
+Fixed broken Bulldog.
+
+Fixed Vargr APC
+
+Un-Blacklisted Armored Mobile HQ and gave it it's own chassisdef.
+
+-------------
+
+Added in missing Tracked vehicle movement tweak from VIP.
+
+Misc minor changes detailed in the RogueTankXL readme changelog.
+
+----------------------------
+Made J.Edgar (TAG) and addded to Core.
+
+Made 3 Galleon variations and added to Core
+
+Made Turhan APC (AMS) and added to Core.
+
+Made 11-17 movedef, applied same to J.Edgars.
+
+Set JK's Vargr APCs to 5-8 movedef.
+
+Pruned JK's movedefs
+
+All APC variants put into Core.
+
+All variants of vanilla units put into Core.
+
+Put 2 Zephyrs, 2 Hunters, 1 Puma, and the Heavy LRM carrier into Core. They fill empty niches. We'll see how that goes.

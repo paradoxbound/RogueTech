@@ -15,23 +15,36 @@
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},		
-		"ArmorRepair" : { "ArmorTPCost" : 2, "ArmorCBCost" : 2 },		
-		"ArmorStructureChanges": { "ArmorFactor": 0.88, "StructureFactor": 1.3 },
-		"Flags" : { "flags" : [ "ignore_damage", "autorepair", "not_broken" ] }
+		"ArmorRepair" : { "ArmorTPCost" : 1.8, "ArmorCBCost" : 1.9 },		
+		"ArmorStructureChanges": { "ArmorFactor": 0.88, "StructureFactor": 1.2 },
+		"Flags" : { "flags" : [ "ignore_damage", "autorepair", "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"DamageTaken: -20%",
+				"StructureProtection: +20%",				
+                "ArmorProtection: -12%",
+				"ArmorTPCost: 80%",
+				"ArmorCBCost: 90%",
+				"CASE"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00009"
+            }						
 	},
     "Description" : {
-        "Cost" : 200000,
+        "Cost" : 2000000,
         "Rarity" : 10,
         "Purchasable" : true,
         "Manufacturer" : "Clan",
         "Model" : "Armor Critical Slot",
-        "UIName" : "Armor Ferro-Lamellor (C)",
+        "UIName" : "Ferro-Lamellor (C)",
         "Id" : "emod_armorslots_clanferrolamellor",
         "Name" : "Ferro-Lamellor Armor (C)",
         "Details" : "Created by the Scientist caste of Clan Snow Raven, Ferro-Lamellor armor is based on the Ferro-Carbide armor used in the Raven's WarShips. Scaled down for use on 'Mechs, AeroSpace Fighters, and tanks, the experimental Ferro-Lamellor armor offers improved protection, beyond even that of the Ferro-Fibrous armor. <b><color=#00ff00>CASE Enabled</color></b>",
         "Icon" : "uixSvgIcon_action_end"
     },
-    "BonusValueA" : "-20%Dmg.Taken|+30%Structure|",
+    "BonusValueA" : "-20%Dmg.Taken|+20%Structure|",
     "BonusValueB" : "-12%Armor",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",

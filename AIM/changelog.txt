@@ -1,23 +1,36 @@
 CHANGE LOG
 
-??? AIM Version 2.1 for BATTLETECH 1.1.2
+2018-08-22 AIM Version 2.2 for BATTLETECH 1.2.0
 
-* Big: Remove support code for game version 1.1.1 and before.
+* Big: Updated for 1.2.0. Incompatible with game version 1.1.2 and before.
+* Big: Vehicle called shot fix removed, because fixed in 1.2.0 and mod is not backward compatible due to game update.
+
+2018-08-23 AIM Version 2.1.1 for BATTLETECH 1.1.2
+
+* Fix: LOS of unknown targets always use front colour.
+* Fix: Ammo AI was leaving too many ammo in bins.
+* Mod: Better compatibility with mods that change explosion rules.
+
+2018-08-18 AIM Version 2.1 for BATTLETECH 1.1.2
+
+* Big: Updated for 1.1.2. Incompatible with game version 1.1.1 and before.
 * New: Change Line of Fire colours by attack direction.
-* New: Change arc colour of facing indicators.
-* New: Change color of floating armor bar.
-* New: Customise list and order of ranged attack modifiers.
-* New: Directional attack modifier - get accuracy bonus for attacking from side or rear.
-* New: Factor in self movement accuracy modifier during movement plan.
+* New: Change Facing Indicators colours.
+* New: Change Floating Armor Bar colours.
+* New: Customise list and order of ranged attack modifiers. (melee modifiers already done in 2.0)
+* New: Directional Attack Modifier - get accuracy bonus for attacking from side or rear.
+* New: Factor in self movement accuracy modifier during action plan.
+* New: After-Jump to-hit modifier.
 * New: Show ammo count in paper doll tooltip.
 * New: Balanced ammo usage to reduce chance of ammo explosion.
-* New: Auto Jettsion Ammo when they are useless.
+* New: Auto Jettison Ammo when they are useless.
 * New: Skip crit roll on dead units.
 * New: Attack Log now logs Round and Phase.
 * Mod: New logging code that formats and write logs in the background and will not cause the game to lag.
 * Mod: Attack logs are now automatically archived, with a total size limit also managed in the background.
 * Fix: Hit Location fix now modifies hit tables instead of totally overwriting GetHitLocation.
 * Fix: A few resources are now cleared on combat end to reduce memory leak.
+* Fix: Precise settings to kill imperfect conversion such as 0.800000011920929 and 3.2999999523162842.
 
 2018-07-27 AIM Version 2.0 for BATTLETECH 1.1.2
 

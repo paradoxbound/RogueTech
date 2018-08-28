@@ -1,4 +1,11 @@
 {
+
+	"Custom": {	
+            "InventorySorter" : {
+                "SortKey" : "04003"
+            }
+		},
+		
     "Category" : "AntiPersonnel",
     "Type" : "SRM",
     "WeaponSubType" : "SRM2",

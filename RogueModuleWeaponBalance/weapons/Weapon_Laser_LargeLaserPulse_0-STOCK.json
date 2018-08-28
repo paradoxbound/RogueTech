@@ -1,4 +1,16 @@
 {
+
+	"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+                "Pulse"
+            ]
+        },	
+            "InventorySorter" : {
+                "SortKey" : "02010"
+            }
+		},
+		
     "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "LargeLaserPulse",
@@ -34,7 +46,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Blankenburg",
         "Model" : "Large Pulse Laser",
-        "UIName" : "Laser L Pulse",
+        "UIName" : "Large Pulse Laser",
         "Id" : "Weapon_Laser_LargeLaserPulse_0-STOCK",
         "Name" : "L Pulse",
         "Details" : "An improvement upon standard Large Lasers, Large Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. Like all Lasers, Large Pulse Lasers enjoy a baseline accuracy bonus over other weapons.",

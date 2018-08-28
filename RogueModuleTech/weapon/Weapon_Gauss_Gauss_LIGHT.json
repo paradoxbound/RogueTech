@@ -1,6 +1,10 @@
 {
 
-"Custom": {"Category" : { "CategoryID" : "LGR"}, "ComponentExplosion": { "ExplosionDamage": 30, "HeatDamage": 15, "StabilityDamage": 15 } },
+"Custom": {"Category" : { "CategoryID" : "LGR"}, "ComponentExplosion": { "ExplosionDamage": 30, "HeatDamage": 15, "StabilityDamage": 15 },
+            "InventorySorter" : {
+                "SortKey" : "01016"
+            }
+ },
 
     "Category" : "Ballistic",
     "Type" : "Gauss",
@@ -32,12 +36,12 @@
     "Instability" : 12.5,
     "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
     "Description" : {
-        "Cost" : 1480000,
+        "Cost" : 780000,
         "Rarity" : 10,
         "Purchasable" : true,
         "Manufacturer" : "Imperator",
         "Model" : "Light Magnetic Cannon",
-        "UIName" : "Gauss Rifle Light",
+        "UIName" : "Light Gauss Rifle",
         "Id" : "Weapon_Gauss_Gauss_LIGHT",
         "Name" : "Light Gauss Rifle",
         "Details" : "The Light Gauss Rifle was introduced by the Free Worlds League. It functions identically to a Gauss Rifle, electromagnetically accelerating a slug to high speeds to cause massive damage at long range. As its name suggests, however, the Light Gauss Rifle is designed to be more compact, allowing Gauss Rifles to be mounted on smaller combat units. <b><color=#099ff2>VOLATILE!</color></b>",

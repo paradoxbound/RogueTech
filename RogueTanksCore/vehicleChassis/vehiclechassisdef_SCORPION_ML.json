@@ -1,11 +1,11 @@
 {
 	"Description" : {
-		"Id" : "vehiclechassisdef_SCORPION_ML",
-		"Name" : "Scorpion ML",
+		"Id" : "vehiclechassisdef_SCORPIONMLcv",
+		"Name" : "Scorpion",
 		"Details" : "",
 		"Icon" : "MANTICORE",
 		"Cost" : 993,
-		"Rarity" : 4,
+		"Rarity" : 0,
 		"Purchasable" : false
 	},
 	"MovementCapDefID" : "movedef_SCORPION",
@@ -67,10 +67,6 @@
 		{
 			"Location" : "Front",
 			"Hardpoints" : [
-				{
-					"WeaponMount" : "AntiPersonnel",
-					"Omni" : false
-				}
 			],
 			"Tonnage" : 0,
 			"InventorySlots" : 0,
@@ -104,7 +100,7 @@
 			"MaxArmor" : 50,
 			"InternalStructure" : 15
 		},
-	  {
+        {
 			"Location" : "Turret",
 			"Hardpoints" : [
 				{
@@ -113,6 +109,10 @@
 				},
 				{
 					"WeaponMount" : "Energy",
+					"Omni" : false
+				},
+				{
+					"WeaponMount" : "AntiPersonnel",
 					"Omni" : false
 				}
 			],

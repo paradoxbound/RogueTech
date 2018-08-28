@@ -1,4 +1,17 @@
 {
+
+	"Custom" :  {
+	"Flags" : { "flags" : [ "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "JumpDistance: 10%",
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00028"
+            }		
+	},
+	
     "JumpCapacity" : 1,
     "MinTonnage" : 60,
     "MaxTonnage" : 85,

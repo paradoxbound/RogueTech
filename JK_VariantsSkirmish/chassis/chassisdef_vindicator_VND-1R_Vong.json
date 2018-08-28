@@ -2,7 +2,38 @@
   "Custom": {
     "ArmActuatorSupport": {
       "RightLimit": "Lower"
-    }
+    },
+  "ChassisQuirks": {
+    "statusEffects": [
+      	         {
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : true,
+				"showInStatusPanel" : true
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Vong",
+				"Name" : "Choung's Vindicator",
+				"Details" : "Chassis gives Injury resist",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+                "statName" : "BonusHealth",
+                "operation" : "Int_Add",
+                "modValue" : "1",
+                "modType" : "System.Int32",
+			},
+			"nature" : "Buff"
+		}			
+    ]
+  }	
   },
   "Description": {
     "Cost": 3958420,
@@ -13,7 +44,7 @@
     "UIName": "Vindicator",
     "Id": "chassisdef_vindicator_VND-1R_Vong",
     "Name": "Vindicator",
-    "Details": "Made in 3020, this customized Vindicator used by Major Choung Vong, in the Third Succession War, moved the head-mounted medium laser to the right arm, simply making the cockpit roomier for its brutally effective, but rather rotund pilot. It is by all accounts the same as the original 1R, retaining all its capabilities.",
+    "Details": "Made in 3020, this customized Vindicator used by Major Choung Vong, in the Third Succession War, moved the head-mounted medium laser to the right arm, simply making the cockpit roomier for its brutally effective, but rather rotund pilot. It is by all accounts the same as the original 1R, retaining all its capabilities. <b><color=#009933>Quirk: Choung's - Injuriy Resist</color></b>",
     "Icon": "uixTxrIcon_vindicator"
   },
   "MovementCapDefID": "movedef_vindicator_VND-1R",
@@ -222,5 +253,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Brawler",
-  "YangsThoughts": "Made in 3020, this customized Vindicator used by Major Choung Vong in the Third Succession War moved the head-mounted medium laser to the right arm, simply making the cockpit roomier for its brutally effective, but rather rotund pilot. It is by all accounts the same as the original 1R, retaining all its capabilities.\n\nBetween her outspokenness and her 125 kg (at least) weight on a 1.85-meter frame, superiors and subordinates are always aware of Vong. While some accuse her of being a bully, the bottom line is that Major Vong gets things done. \n\n<b>Faction:</b> Sian Reserves, Vong's Grenadiers Regiment, Capellan Confederation (House Liao)\n\n<b>Rarity:</b> Custom, Active"
+  "YangsThoughts": "Made in 3020, this customized Vindicator used by Major Choung Vong in the Third Succession War moved the head-mounted medium laser to the right arm, simply making the cockpit roomier for its brutally effective, but rather rotund pilot. It is by all accounts the same as the original 1R, retaining all its capabilities.\n\nBetween her outspokenness and her 125 kg (at least) weight on a 1.85-meter frame, superiors and subordinates are always aware of Vong. While some accuse her of being a bully, the bottom line is that Major Vong gets things done.<b><color=#009933>Quirk: Choung's - Injuriy Resist</color></b>"
 }

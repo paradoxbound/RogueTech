@@ -1,6 +1,18 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "ECM"} },
+	"Custom" :  {"Category" : { "CategoryID" : "ECM"},
+        "BonusDescriptions": {
+            "Bonuses": [
+                "Defense: 3",
+                "Signature: -25%",
+                "Visibility: -25%",
+				"IsECM"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00024"
+            }		
+	},
 
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -11,7 +23,7 @@
         "Purchasable" : true,
         "Manufacturer" : "DCMS",
         "Model" : "Angel ECM",
-        "UIName" : "ECM Angel",
+        "UIName" : "Angel ECM",
         "Id" : "Gear_Angel_ECM",
         "Name" : "Angel ECM",
         "Details" : "The Angel ECM Suite is an advanced version of the Guardian ECM Suite operating on a broader spectrum and greatly advances ECM technology on the battlefield. Development of the Angel began in the Draconis Combine shortly after the Battle of Luthien, but despite assistance from ComStar, cost overruns and internal problems within both powers kept it in its experimental stages for a long time and delayed its widespread deployment.",

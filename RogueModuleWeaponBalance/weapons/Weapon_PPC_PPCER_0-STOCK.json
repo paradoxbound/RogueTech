@@ -1,4 +1,11 @@
 {
+
+	"Custom": {
+            "InventorySorter" : {
+                "SortKey" : "02015"
+            }
+		},
+		
     "Category" : "Energy",
     "Type" : "PPC",
     "WeaponSubType" : "PPC",
@@ -34,7 +41,7 @@
         "Purchasable" : false,
         "Manufacturer" : "Kong Interstellar",
         "Model" : "Extended-Range PPC",
-        "UIName" : "PPC ER",
+        "UIName" : "ER PPC",
         "Id" : "Weapon_PPC_PPCER_0-STOCK",
         "Name" : "ER PPC",
         "Details" : "An improvement upon standard PPCs, Extended-Range PPCs greatly extend their effective range at the cost of incredible heat generation. ER PPCs also generate a mild EM field that degrades the firing capability of their target.",

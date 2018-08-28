@@ -2,7 +2,10 @@
 	"Custom": {
 		"EngineHeatSinkKit": {
 			"HeatSinkDefId": "Gear_HeatSink_Generic_Double_Clan"
-		}
+		},
+            "InventorySorter" : {
+                "SortKey" : "00016"
+            }		
 	},
     "DissipationCapacity" : 0,
     "Description" : {

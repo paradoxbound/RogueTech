@@ -3,7 +3,12 @@
 		"Category" : { 
 			"CategoryID" : "Gyro" 
 		},
-		"Flags" : { "flags" : [ "default" ] }
+		"Flags" : { "flags" : [ "default" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "GyroStab: 40"
+            ]
+        }		
 	},
     "Description" : {
         "Cost" : 0,

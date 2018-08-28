@@ -9,7 +9,15 @@
 				"TechCost": "1",
 				"CBillCost": "[[Chassis.Tonnage]]"
 			}
-		}		
+		},
+        "BonusDescriptions": {
+            "Bonuses": [
+				"Sight2: 50"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00019"
+            }		
 	},
 
     "StatName" : null,
@@ -21,7 +29,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Majesty M M",
         "Model" : "120KL",
-        "UIName" : "Cockpit +50 View",
+        "UIName" : "Cockpit +50View",
         "Id" : "Gear_Cockpit_Majesty_M_M_120KL",
         "Name" : "Majesty M M 120KL Rangefinder",
         "Details" : "All 'Mechs come equipped with a stock cockpit configuration, which can be upgraded for improved performance. Rangefinders increase the range at which targets can be visually acquired for direct targeting or spotting for support fire.",

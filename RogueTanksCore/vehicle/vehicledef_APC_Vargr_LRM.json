@@ -60,28 +60,21 @@
 	],
 	"inventory" : [
 		 {
-		  "ComponentDefID" : "Weapon_MachineGun_MachineGun_0-STOCK",
+		  "ComponentDefID" : "Weapon_MachineGun_MachineGun_1-HEAVY",
 		  "ComponentDefType" : "Weapon",
 		  "MountedLocation" : "Turret",
 		  "HardpointSlot" : 0,
 		  "DamageLevel" : "Functional"
 		 },
 		 {
-		  "ComponentDefID" : "Weapon_MachineGun_MachineGun_0-STOCK",
+		  "ComponentDefID" : "Weapon_MachineGun_MachineGun_1-HEAVY",
 		  "ComponentDefType" : "Weapon",
 		  "MountedLocation" : "Turret",
 		  "HardpointSlot" : 1,
 		  "DamageLevel" : "Functional"
 		 },
 		 {
-		  "ComponentDefID" : "Weapon_LRM_LRM10_0-STOCK",
-		  "ComponentDefType" : "Weapon",
-		  "MountedLocation" : "Turret",
-		  "HardpointSlot" : 1,
-		  "DamageLevel" : "Functional"
-		 },
-		 {
-		  "ComponentDefID" : "Weapon_LRM_LRM10_0-STOCK",
+		  "ComponentDefID" : "Weapon_LRM_LRM20_0-STOCK",
 		  "ComponentDefType" : "Weapon",
 		  "MountedLocation" : "Turret",
 		  "HardpointSlot" : 1,

@@ -1,6 +1,16 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC20Ammo"}, "Tag" : "Precision", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 100, "StabilityDamagePerAmmo": 25 } },
+	"Custom" :  {"Category" : { "CategoryID" : "AC20Ammo"}, "Tag" : "Precision", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 100, "StabilityDamagePerAmmo": 25 },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"ACAccuracy: +1",
+                "AC20Ammo"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0004"
+            },		
+	},
 	
     "AmmoID" : "Ammunition_AC20",
     "Capacity" : 5,

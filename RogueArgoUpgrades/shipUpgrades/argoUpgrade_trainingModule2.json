@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_trainingModule2",
         "Name" : "Training Module 2",
-        "Details" : "Adding more Battle Pods allows for full-lance training simulations, as well as raucous ship-wide tournaments. This increases the amount of experience gained by MechWarriors aboard the ship. Each MechWarrior with less than 50,000 total experience will gain 50 experience points per day.",
+        "Details" : "Adding more Battle Pods allows for full-lance training simulations, as well as raucous ship-wide tournaments. This increases the amount of experience gained by MechWarriors aboard the ship. Each MechWarrior with less than 500,000 total experience will gain 50 experience points per day.",
         "Icon" : "uixSvgIcon_shipUpgrade_training2"
     },
     "Illustration" : "uixTxrSpot_TrainingModules",
@@ -44,7 +44,7 @@
 		{
 			"typeString" : "System.Int32",
 			"name" : "ExperiencePerDayCap",
-			"value" : 50000,
+			"value" : 500000,
 			"set" : true,
 			"valueConstant" : ""
 		}       

@@ -47,69 +47,7 @@
 			"effectType" : "StatisticEffect",
 			"Description" :
 			{
-				"Id" : "ghostback2",
-				"Name" : "ChargerSprint",
-				"Details" : "MORE SPEED.",
-				"Icon" : "uixSvgIcon_skullAtlas"
-			},
-			"statisticData" : 
-			{
-                "statName" : "DamagePerShot",
-                "operation" : "Float_Multiply",
-                "modValue" : "1.15",
-                "modType" : "System.Single",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Ballistic",
-                "targetWeaponType" : "Gauss",
-                "targetWeaponSubType" : "Gauss"				
-			},
-			"nature" : "Buff"
-		},
-		{
-            "durationData" : {
-            },
-            "targetingData" : {
-				"effectTargetsCreator" : true,
-				"effectTriggerType" : "Passive",
-				"effectTargetType" : "Creator",
-				"showInTargetPreview" : false,
-				"showInStatusPanel" : false
-            },
-			"effectType" : "StatisticEffect",
-			"Description" :
-			{
-				"Id" : "ghostback3",
-				"Name" : "ChargerSprint",
-				"Details" : "MORE SPEED.",
-				"Icon" : "uixSvgIcon_skullAtlas"
-			},
-			"statisticData" : 
-			{
-                "statName" : "Instability",
-                "operation" : "Float_Multiply",
-                "modValue" : "1.3",
-                "modType" : "System.Single",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "Ballistic",
-                "targetWeaponType" : "Gauss",
-                "targetWeaponSubType" : "Gauss"				
-			},
-			"nature" : "Buff"
-		},
-		{
-            "durationData" : {
-            },
-            "targetingData" : {
-				"effectTargetsCreator" : true,
-				"effectTriggerType" : "Passive",
-				"effectTargetType" : "Creator",
-				"showInTargetPreview" : false,
-				"showInStatusPanel" : false
-            },
-			"effectType" : "StatisticEffect",
-			"Description" :
-			{
-				"Id" : "ghostback4",
+				"Id" : "Ghostback2",
 				"Name" : "ChargerSprint",
 				"Details" : "MORE SPEED.",
 				"Icon" : "uixSvgIcon_skullAtlas"
@@ -118,7 +56,131 @@
 			{
 				"statName" : "MinRange",
 				"operation" : "Float_Multiply",
-				"modValue" : "1.5",
+				"modValue" : "0.25",
+				"modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "Gauss",
+                "targetWeaponSubType" : "Gauss"			
+			},
+			"nature" : "Buff"
+		},
+		{
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Ghostback3",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+				"statName" : "ShortRange",
+				"operation" : "Float_Multiply",
+				"modValue" : "1.25",
+				"modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "Gauss",
+                "targetWeaponSubType" : "Gauss"				
+			},
+			"nature" : "Buff"
+		},
+		{
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Ghostback4",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+				"statName" : "MediumRange",
+				"operation" : "Float_Multiply",
+				"modValue" : "1.25",
+				"modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "Gauss",
+                "targetWeaponSubType" : "Gauss"				
+			},
+			"nature" : "Buff"
+		},
+		{
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Ghostback5",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+				"statName" : "LongRange",
+				"operation" : "Float_Multiply",
+				"modValue" : "1.25",
+				"modType" : "System.Single",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "Gauss",
+                "targetWeaponSubType" : "Gauss"			
+			},
+			"nature" : "Buff"
+		},
+		{
+            "durationData" : {
+            },
+            "targetingData" : {
+				"effectTargetsCreator" : true,
+				"effectTriggerType" : "Passive",
+				"effectTargetType" : "Creator",
+				"showInTargetPreview" : false,
+				"showInStatusPanel" : false
+            },
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "Ghostback5",
+				"Name" : "ChargerSprint",
+				"Details" : "MORE SPEED.",
+				"Icon" : "uixSvgIcon_skullAtlas"
+			},
+			"statisticData" : 
+			{
+				"statName" : "MaxRange",
+				"operation" : "Float_Multiply",
+				"modValue" : "1.45",
 				"modType" : "System.Single",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -140,7 +202,7 @@
     "UIName": "Hunchback",
     "Id": "chassisdef_hunchback_HBK-4GG",
     "Name": "Hunchback",
-    "Details": "During the War of 3039, the 9th Ghost regiment was engaged by the Screaming Eagles mercenary company during the Elidere IV campaign, when they decided to modify two of their Hunchbacks to carry prototype Gauss Rifles. Thus, the HBK-4GG was born, able to cause tremendous damage at ranges beyond anyone's expectations. <b><color=#009933>Quirk: Field Refit</color></b>",
+    "Details": "During the War of 3039, the 9th Ghost regiment was engaged by the Screaming Eagles mercenary company during the Elidere IV campaign, when they decided to modify two of their Hunchbacks to carry prototype Gauss Rifles. Thus, the HBK-4GG was born, able to cause tremendous damage at ranges beyond anyone's expectations. <b><color=#009933>Quirk: Field Refit - Superior Gauss Range but Recoil</color></b>",
     "Icon": "uixTxrIcon_hunchback"
   },
   "MovementCapDefID": "movedef_hunchback_HBK-4G",
@@ -371,5 +433,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Sniper",
-  "YangsThoughts": "During the War of 3039, the 9th Ghost regiment was engaged by the Screaming Eagles mercenary company during the Elidere IV campaign, when they decided to modify two of their Hunchbacks to carry prototype Gauss Rifles. Thus, the HBK-4GG was born, able to cause tremendous damage at ranges beyond anyone's expectations. <b><color=#009933>Quirk: Field Refit</color></b>"
+  "YangsThoughts": "During the War of 3039, the 9th Ghost regiment was engaged by the Screaming Eagles mercenary company during the Elidere IV campaign, when they decided to modify two of their Hunchbacks to carry prototype Gauss Rifles. Thus, the HBK-4GG was born, able to cause tremendous damage at ranges beyond anyone's expectations. <b><color=#009933>Quirk: Field Refit - Superior Gauss Range but Recoil</color></b>"
 }

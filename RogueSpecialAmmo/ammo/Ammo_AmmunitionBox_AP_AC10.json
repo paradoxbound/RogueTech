@@ -1,6 +1,16 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC10Ammo"}, "Tag" : "AP", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 60, "StabilityDamagePerAmmo": 15 }	},
+	"Custom" :  {"Category" : { "CategoryID" : "AC10Ammo"}, "Tag" : "AP", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 60, "StabilityDamagePerAmmo": 15 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "Crits: +100%",
+                "AC10Ammo"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0003"
+            },		
+	},
 
     "AmmoID" : "Ammunition_AC10",
     "Capacity" : 4,

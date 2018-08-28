@@ -1,4 +1,17 @@
 {
+
+"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+				"VariableDmg: 20",
+				"WpnRecoil: 2"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "02002"
+            }		
+ },
+ 
     "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "SmallLaser",
@@ -34,7 +47,7 @@
         "Purchasable" : true,
         "Manufacturer" : "not Martell",
         "Model" : "Small Laser",
-        "UIName" : "Laser S (PRT)",
+        "UIName" : "Small Laser (PRT)",
         "Id" : "Weapon_Laser_SmallLaser_0-jrig",
         "Name" : "Pirate S Laser",
         "Details" : "If you slap three Small Lasers together, and jury-rig the mount point and power supply, you’ll get this piece of work.  I didn't know that duct tape could petrify like that.",

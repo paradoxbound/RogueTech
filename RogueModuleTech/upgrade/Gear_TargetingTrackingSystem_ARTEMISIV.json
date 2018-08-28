@@ -1,6 +1,15 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "MissTTSART"} },
+	"Custom" :  {"Category" : { "CategoryID" : "MissTTSART"},
+        "BonusDescriptions": {
+            "Bonuses": [
+                "MissileAcc: +2"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00027"
+            }		
+	},
 
     "StatName" : null,
     "RelativeModifier" : 0,

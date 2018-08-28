@@ -1,6 +1,10 @@
 {
 
-"Custom" :  {"Category" : { "CategoryID" : "ATM"}},
+"Custom" :  {"Category" : { "CategoryID" : "ATM"},
+            "InventorySorter" : {
+                "SortKey" : "03018"
+            }
+},
 
     "Category" : "Missile",
     "Type" : "LRM",

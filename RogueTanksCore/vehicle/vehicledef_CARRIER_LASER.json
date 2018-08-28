@@ -1,46 +1,47 @@
 {
    "Version" : 1,
    "Description" : {
-      "Id" : "vehicledef_CARRIER_LASER",
+      "Id" : "vehicledef_CARRIER_LASERcv",
       "Name" : "Laser Carrier",
       "Details" : "",
       "Icon" : "",
       "Cost" : 993,
-      "Rarity" : 2,
+      "Rarity" : 0,
       "Purchasable" : false
    },
-   "ChassisID" : "vehiclechassisdef_CARRIER_LASER",
+   "ChassisID" : "vehiclechassisdef_CARRIER_LASERcv",
    "VehicleTags": {
       "items": [
          "unit_vehicle",
          "unit_heavy",
+         "unit_medium",
          "unit_tracks",
          "unit_release",
          "unit_vehicle_carrier",
-		 "unit_lance_assassin"
+         "unit_lance_assassin"
       ],
       "tagSetSourceFile": ""
    },
    "Locations" : [
 		{
 			"Location" : "Front",
-			"CurrentArmor" : 60,
+			"CurrentArmor" : 110,
 			"CurrentInternalStructure" : 30,
-			"AssignedArmor" : 60,
+			"AssignedArmor" : 110,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Left",
-			"CurrentArmor" : 60,
+			"CurrentArmor" : 75,
 			"CurrentInternalStructure" : 30,
-			"AssignedArmor" : 60,
+			"AssignedArmor" : 75,
 			"DamageLevel" : "Functional"
 		},
 		{
 			"Location" : "Right",
-			"CurrentArmor" : 60,
+			"CurrentArmor" : 75,
 			"CurrentInternalStructure" : 30,
-			"AssignedArmor" : 60,
+			"AssignedArmor" : 75,
 			"DamageLevel" : "Functional"
 		},
 		{
@@ -52,9 +53,9 @@
 		},
 		{
 			"Location" : "Turret",
-			"CurrentArmor" : 50,
+			"CurrentArmor" : 60,
 			"CurrentInternalStructure" : 30,
-			"AssignedArmor" : 50,
+			"AssignedArmor" : 60,
 			"DamageLevel" : "Functional"
 		}
    ],
@@ -115,7 +116,7 @@
 		 "HardpointSlot" : 7,
 		 "DamageLevel" : "Functional"
       },
-	  {
+      {
          "ComponentDefID" : "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII",
          "ComponentDefType" : "Upgrade",
          "MountedLocation" : "Front",

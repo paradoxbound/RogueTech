@@ -24,7 +24,7 @@
 			"statisticData" : 
 			{
                 "statName" : "AccuracyModifier",
-                "operation" : "Float_Multiply",
+                "operation" : "Float_Add",
                 "modValue" : "-3",
                 "modType" : "System.Single",			
                 "targetCollection" : "Weapon",
@@ -47,7 +47,7 @@
     "UIName": "Atlas",
     "Id": "chassisdef_atlas_AS7-D_Danielle",
     "Name": "Atlas",
-    "Details": "Piloted by Wolf's Dragoons Captain Danielle Rondema, this modified Atlas carried three medium lasers in each arm, trading away the SRM rack to do so. The additional heat was dissipated by two additional heat sinks that replaced the rear-firing medium lasers. <b><color=#009933>Quirk: Rondema's Atlas</color></b>",
+    "Details": "Piloted by Wolf's Dragoons Captain Danielle Rondema, this modified Atlas carried three medium lasers in each arm, trading away the SRM rack to do so. The additional heat was dissipated by two additional heat sinks that replaced the rear-firing medium lasers. <b><color=#009933>Quirk: Rondema's Atlas - Accurate Medium Laser</color></b>",
     "Icon": "uixTxrIcon_atlas"
   },
   "MovementCapDefID": "movedef_atlas_AS7-D",
@@ -263,5 +263,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut & Close Assault",
-  "YangsThoughts": "Piloted by Wolf's Dragoons Captain Danielle Rondema, this modified Atlas carried three medium lasers in each arm, trading away the SRM rack to do so. The additional heat was dissipated by two additional heat sinks that replaced the rear-firing medium lasers.\n\n<b>Faction:</b> Beta Regiment, Rondema's Company, Rondema's Roughnecks (Wolf's Dragoons)\n\n<b>Rarity:</b> Custom <b><color=#009933>Quirk: Rondema's Atlas</color></b>"
+  "YangsThoughts": "Piloted by Wolf's Dragoons Captain Danielle Rondema, this modified Atlas carried three medium lasers in each arm, trading away the SRM rack to do so. The additional heat was dissipated by two additional heat sinks that replaced the rear-firing medium lasers.<b><color=#009933>Quirk: Rondema's Atlas - Accurate Medium Laser</color></b>"
 }

@@ -1,6 +1,19 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamage": 150 } },
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 150 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "WpnRecoil: 5",
+				"VariableDmg: 40",
+				"WpnCrits: +100%"
+				"WpnAccuracy: -1"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "01008"
+            }		
+
+ },
 
     "Category" : "AntiPersonnel",
     "Type" : "Autocannon",

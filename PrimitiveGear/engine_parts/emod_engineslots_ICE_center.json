@@ -12,7 +12,10 @@
 		"Category" : { 
 			"CategoryID" : "EngineShield" 
 		},
-		"Flags" : { "flags" : [ "engine_part" ] }
+		"Flags" : { "flags" : [ "engine_part" ] },
+            "InventorySorter" : {
+                "SortKey" : "0013"
+            }		
 	},
     "Description" : {
         "Cost" : 250000,

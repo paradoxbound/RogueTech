@@ -1,6 +1,11 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 6, "StabilityDamagePerAmmo": 2 } },
+"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 6, "StabilityDamagePerAmmo": 2 },
+            "InventorySorter" : {
+                "SortKey" : "04002"
+            }
+
+ },
 
     "Category" : "AntiPersonnel",
     "Type" : "Autocannon",
@@ -37,7 +42,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Solaris Arms",
         "Model" : "Explosive Cannister",
-        "UIName" : "POD M",
+        "UIName" : "M POD",
         "Id" : "Weapon_POD_M",
         "Name" : "Anti-Mech Pod",
         "Details" : "The M-Pod is based on the A-Pod and B-Pod, but uses larger explosives to inflict more damage. Designed by engineers in the Solaris games, the M-Pod is essentially a modified canister of LB-X autocannon ammunition. When activated it sprays targets with a mixture of shrapnel and 'Mech sized shotgun pellets. <b><color=#099ff2>VOLATILE!</color></b>",

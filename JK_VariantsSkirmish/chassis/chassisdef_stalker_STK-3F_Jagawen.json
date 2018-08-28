@@ -169,7 +169,7 @@
     "UIName": "Stalker",
     "Id": "chassisdef_stalker_STK-3F_Jagawen",
     "Name": "Stalker",
-    "Details": "The personal 'Mech of Sho-sho Jagawen Torisobo of the Eigth Sword of Light. Designed for close combat, this custom Stalker replaces the LRM launchers with twin SRM-6 racks in each torso and installed six additional heat sinks. <b><color=#009933>Quirk:Torisobo's Stalker</color></b>",
+    "Details": "The personal 'Mech of Sho-sho Jagawen Torisobo of the Eigth Sword of Light. Designed for close combat, this custom Stalker replaces the LRM launchers with twin SRM-6 racks in each torso and installed six additional heat sinks. <b><color=#009933>Quirk:Torisobo's Stalker - Improved SRM Heat & Range</color></b>",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_stalker_STK-3F",
@@ -393,5 +393,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Juggernaut, Close Support, & Ranged Assault",
-  "YangsThoughts": "The personal 'Mech of Sho-sho Jagawen Torisobo of the Eigth Sword of Light. Designed for close combat, this custom Stalker replaced the LRM launchers with twin SRM-6 racks in each torso and installed six additional heat sinks.\n\nThe original model 3F is certainly a powerful machine, but the <b>Jagawen</b> turns the Stalker into a terrifying Close Support Assault.\n\n<b>Faction:</b> 8th Sword of Light 'The Jade Dragon' (Draconis Combine)\n\n<b>Rarity:</b> Custom, Status Active (Survived) <b><color=#009933>Quirk:Torisobo's Stalker</color></b>"
+  "YangsThoughts": "The personal 'Mech of Sho-sho Jagawen Torisobo of the Eigth Sword of Light. Designed for close combat, this custom Stalker replaced the LRM launchers with twin SRM-6 racks in each torso and installed six additional heat sinks.\n\nThe original model 3F is certainly a powerful machine, but the <b>Jagawen</b> turns the Stalker into a terrifying Close Support Assault.<b><color=#009933>Quirk:Torisobo's Stalker - Improved SRM Heat & Range</color></b>"
 }

@@ -23,8 +23,19 @@
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},
-		"ArmorRepair" : { "ArmorTPCost" : 1.3, "ArmorCBCost" : 1.4 },		
-		"Flags" : { "flags" : [ "not_broken" ] }		
+		"ArmorRepair" : { "ArmorTPCost" : 1.1, "ArmorCBCost" : 1.15 },		
+		"Flags" : { "flags" : [ "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "ArmorFactor: -6%",
+                "Reserved: 7",
+				"ArmorTPCost: 10%",
+				"ArmorCBCost: 15%"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00009"
+            }						
 	},
     "Description" : {
         "Cost" : 400000,
@@ -32,7 +43,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Kallon",
         "Model" : "Armor Critical Slot",
-        "UIName" : "Armor Light Ferro",
+        "UIName" : "Light Ferro",
         "Id" : "emod_armorslots_lightferrosfibrous",
         "Name" : "Light Ferro-Fibrous Armor",
         "Details" : "Light Ferro-Fibrous armor (FF) is an attempt by the Inner Sphere to mimic SLDF Ferro-Fibrous armor. Utilizing a weave of ferro-steel, ferro-titanium, and diamond weave fibers which boosts the tensile strength of the plating, it provides more protection per ton than standard armor, but takes up more space on the 'Mech or vehicle.",

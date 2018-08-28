@@ -3,12 +3,597 @@
     "ShutdownInjuryEnabled" : true,
     "MinimumHeatSinksOnMech" : 10,
     "AllowMixingHeatSinkTypes" : true,
-    "FractionalAccounting" : false,
+    "FractionalAccountingPrecision" : 0.5,
     "SaveMechDefOnMechLabConfirm" : false,
     "PerformanceEnableAvailabilityChecks" : true,
     "DefaultEngineHeatSinkId" : "Gear_HeatSink_Generic_Standard",
     "EngineMissingFallbackHeatSinkCapacity" : 30,
     "DynamicSlotsValidateDropEnabled" : true,
+    "BonusDescriptionsTooltipTitle" : "Traits",
+    "BonusDescriptions" : [
+        {
+            "Bonus" : "BonusAmmo",
+            "Short" : "{0} Ammo",
+            "Long" : "{0} Extra Ammo",
+            "Full" : "Ammo Box carries {0} additional Rounds"
+        },
+        {
+            "Bonus" : "Caseless",
+            "Short" : "CL Ammo",
+            "Long" : "Caseless Ammo",
+            "Full" : "Caseless Ammo can be equipped multiple times"
+        },
+        {
+            "Bonus" : "MGAmmo",
+            "Short" : "MG Ammo",
+            "Long" : "MG Ammo",
+            "Full" : "Ammo Box grants buff to all MG's"
+        },
+        {
+            "Bonus" : "AC2Ammo",
+            "Short" : "AC2 Ammo",
+            "Long" : "AC2 Ammo",
+            "Full" : "Ammo Box grants buff to all AC2"
+        },
+        {
+            "Bonus" : "AC5Ammo",
+            "Short" : "AC5 Ammo",
+            "Long" : "AC5 Ammo",
+            "Full" : "Ammo Box grants buff to all AC5"
+        },
+        {
+            "Bonus" : "AC10Ammo",
+            "Short" : "AC10 Ammo",
+            "Long" : "AC10 Ammo",
+            "Full" : "Ammo Box grants buff to all AC10"
+        },
+        {
+            "Bonus" : "AC20Ammo",
+            "Short" : "AC20 Ammo",
+            "Long" : "AC20 Ammo",
+            "Full" : "Ammo Box grants buff to all AC20"
+        },
+        {
+            "Bonus" : "GaussAmmo",
+            "Short" : "Gauss Ammo",
+            "Long" : "Gauss Ammo",
+            "Full" : "Ammo Box grants buff to all Gauss Rifles"
+        },
+        {
+            "Bonus" : "LRMAmmo",
+            "Short" : "LRM Ammo",
+            "Long" : "LRM Ammo",
+            "Full" : "Ammo Box grants buff to all LRM"
+        },
+        {
+            "Bonus" : "SRMAmmo",
+            "Short" : "SRM Ammo",
+            "Long" : "SRM Ammo",
+            "Full" : "Ammo Box grants buff to all SRM"
+        },
+        {
+            "Bonus" : "GaussNoBoom",
+            "Short" : "No Explosion",
+            "Long" : "Doesn't Explode",
+            "Full" : "Gauss Ammo does not explode"
+        },
+        {
+            "Bonus" : "Artemis",
+            "Short" : "Artemis",
+            "Long" : "Artemis IV Compatible",
+            "Full" : "Can be used with Artemis IV System"
+        },
+        {
+            "Bonus" : "ReqECM",
+            "Short" : "ECM Required",
+            "Long" : "ECM Required",
+            "Full" : "Requires a ECM system to be installed"
+        },
+        {
+            "Bonus" : "ReqArtemis",
+            "Short" : "Req. AIV",
+            "Long" : "Requires ArtemisIV",
+            "Full" : "Requires Artemis IV System to be installed"
+        },
+        {
+            "Bonus" : "DmgFallOff",
+            "Short" : "Dmg FallOff",
+            "Long" : "Damage Fall off",
+            "Full" : "This Weapon has reduced Damage at longer Ranges"
+        },
+        {
+            "Bonus" : "VariableDmg",
+            "Short" : "{0} Var.Dmg.",
+            "Long" : "{0} Variable Damage",
+            "Full" : "Weapon's damage can vary inbetween +/- {0} "
+        },
+        {
+            "Bonus" : "IsECM",
+            "Short" : "ECM",
+            "Long" : "Electronic Counter Measures",
+            "Full" : "ECM - Electronic Counter Measures system"
+        },
+        {
+            "Bonus" : "Painter",
+            "Short" : "TargetPainter",
+            "Long" : "Target Painter",
+            "Full" : "Target Painter grant improved Hitchances against their Targets"
+        },
+        {
+            "Bonus" : "Pulse",
+            "Short" : "Pulse",
+            "Long" : "Pulse Laser",
+            "Full" : "Pulse Laser have +2 Accuracy and ignore 2 Evasion"
+        },
+        {
+            "Bonus" : "Streak",
+            "Short" : "Streak",
+            "Long" : "Streak SRM",
+            "Full" : "Streak SRM have +2 Accuracy and ignore 2 Evasion"
+        },
+        {
+            "Bonus" : "CASE",
+            "Short" : "C.A.S.E",
+            "Long" : "C.A.S.E",
+            "Full" : "CASE prevents Ammo Explosion from travelling to Center Torso"
+        },
+        {
+            "Bonus" : "CASEII",
+            "Short" : "C.A.S.E II",
+            "Long" : "C.A.S.E II",
+            "Full" : "CASE II reduces Ammo Explosion Damage to only three points of Damage."
+        },
+        {
+            "Bonus" : "Bulwark",
+            "Short" : "Bulwark",
+            "Long" : "Grants Bulwark",
+            "Full" : "Bulwark grants guarded when standing still"
+        },
+        {
+            "Bonus" : "Breaching",
+            "Short" : "Breacher",
+            "Long" : "Breaching Shot",
+            "Full" : "Breaching shot allows to ignore cover with a single Weapon per Target"
+        },
+        {
+            "Bonus" : "NoEject",
+            "Short" : "No Eject",
+            "Long" : "No Ejection",
+            "Full" : "Cockpit lacks Ejection system"
+        },
+        {
+            "Bonus" : "MinRange",
+            "Short" : "{0} MinRange",
+            "Long" : "{0} Minimum Range",
+            "Full" : "{0} Minimum Range"
+        },
+        {
+            "Bonus" : "Range",
+            "Short" : "{0} Range",
+            "Long" : "{0} Range",
+            "Full" : "{0} to all Range Brackets"
+        },
+        {
+            "Bonus" : "WeaponDamage",
+            "Short" : "{0} Weapon Dmg",
+            "Long" : "{0} Weapon Damage",
+            "Full" : "{0} Weapon Damage dealt"
+        },
+        {
+            "Bonus" : "StabDamage",
+            "Short" : "{0} Stab Dmg",
+            "Long" : "{0} Stability Damage",
+            "Full" : "{0} Stability Damage dealt"
+        },
+        {
+            "Bonus" : "HeatDamage",
+            "Short" : "{0} Heat Dmg",
+            "Long" : "{0} Heat Damage",
+            "Full" : "{0} Heat Damage dealt"
+        },
+        {
+            "Bonus" : "OHDamage",
+            "Short" : "{0} OH Dmg",
+            "Long" : "{0} OH bonus Damage",
+            "Full" : "{0} bonus Damage against overheating Targets"
+        },
+        {
+            "Bonus" : "GaussDamage",
+            "Short" : "{0} Gauss Dmg",
+            "Long" : "{0} Gauss Damage",
+            "Full" : "{0} Gauss Rifle Damage"
+        },
+        {
+            "Bonus" : "ACDamage",
+            "Short" : "{0} AC Dmg",
+            "Long" : "{0} AC Damage",
+            "Full" : "{0} AutoCannon Damage"
+        },
+        {
+            "Bonus" : "LRMDamage",
+            "Short" : "{0} LRM Dmg",
+            "Long" : "{0} LRM Damage",
+            "Full" : "{0} Long-Range-Missile Damage"
+        },
+        {
+            "Bonus" : "SRMDamage",
+            "Short" : "{0} SRM Dmg",
+            "Long" : "{0} SRM Damage",
+            "Full" : "{0} Short-Range-Missile Damage"
+        },
+        {
+            "Bonus" : "EngineWeight",
+            "Short" : "{0} Eng.Weight",
+            "Long" : "{0} Engine Weight",
+            "Full" : "{0} Engine Weight Factor change"
+        },
+        {
+            "Bonus" : "EngineReserved",
+            "Short" : "{0} Reserved",
+            "Long" : "{0} Reserved Slots",
+            "Full" : "{0} Engine Slots reserved"
+        },
+        {
+            "Bonus" : "Reserved",
+            "Short" : "{0} Reserved",
+            "Long" : "{0} Reserved Slots",
+            "Full" : "{0} Dynamic Slots reserved"
+        },
+        {
+            "Bonus" : "ArmorTPCost",
+            "Short" : "{0} TP",
+            "Long" : "{0} TechPoints",
+            "Full" : "{0} Tech Point cost to Repair"
+        },
+        {
+            "Bonus" : "ArmorCBCost",
+            "Short" : "{0} CB",
+            "Long" : "{0} Cbills",
+            "Full" : "{0} Cbill cost to Repair"
+        },
+        {
+            "Bonus" : "KineticProtection",
+            "Short" : "{0} KineticRes",
+            "Long" : "{0} Kinetic Resistance",
+            "Full" : "{0} Resistance against Ballistic and Missile Attacks"
+        },
+        {
+            "Bonus" : "EnergyProtection",
+            "Short" : "{0} EnergyRes",
+            "Long" : "{0} Energy Resistance",
+            "Full" : "{0} Resistance against Energy based Attacks"
+        },
+        {
+            "Bonus" : "ArmorFactor",
+            "Short" : "{0} Weight.",
+            "Long" : "{0} Arm.Weight",
+            "Full" : "{0} Weight change per point Armor"
+        },
+        {
+            "Bonus" : "ArmorProtection",
+            "Short" : "{0} Armor",
+            "Long" : "{0} Protection",
+            "Full" : "{0} Armor Protection per point of armor"
+        },
+        {
+            "Bonus" : "DamageTaken",
+            "Short" : "{0} Dmg.Tkn.",
+            "Long" : "{0} Damage taken",
+            "Full" : "{0} reduced Damage taken"
+        },
+        {
+            "Bonus" : "MissileDamageTaken",
+            "Short" : "{0} Miss.Dmg.Tkn.",
+            "Long" : "{0} Missile Damage taken",
+            "Full" : "{0} reduced Damage taken from Missile Attacks"
+        },
+        {
+            "Bonus" : "MeleeDamageTaken",
+            "Short" : "{0} Mel.Dmg.Tkn.",
+            "Long" : "{0} Melee Damage taken",
+            "Full" : "{0} reduced Melee Damage taken"
+        },
+        {
+            "Bonus" : "StructureFactor",
+            "Short" : "{0} Struct.Weight.",
+            "Long" : "{0} Structure Weight",
+            "Full" : "{0} reduced Structure Weight from 1/10 Chassis weight"
+        },
+        {
+            "Bonus" : "StructureProtection",
+            "Short" : "{0} Structure.",
+            "Long" : "{0} Structure Points",
+            "Full" : "{0} Structure Points"
+        },
+        {
+            "Bonus" : "CritRes",
+            "Short" : "{0} CritRes.",
+            "Long" : "{0} Crit Resist",
+            "Full" : "{0} Resistance against Critical Hits"
+        },
+        {
+            "Bonus" : "GyroStab",
+            "Short" : "{0} Stab.",
+            "Long" : "{0} Stability",
+            "Full" : "{0} Stability Threshhold provided by Gyro"
+        },
+        {
+            "Bonus" : "StabDamageTaken",
+            "Short" : "{0} StabTkn.",
+            "Long" : "{0} Stability Taken",
+            "Full" : "{0} reduced Stability Damage taken"
+        },
+        {
+            "Bonus" : "Defense",
+            "Short" : "{0} Defense.",
+            "Long" : "{0} Defense",
+            "Full" : "{0} Defense against being hit"
+        },
+        {
+            "Bonus" : "MissileDefense",
+            "Short" : "{0} Miss.Def.",
+            "Long" : "{0} Missile Defense",
+            "Full" : "{0} Defense against being hit by hit by Missiles"
+        },
+        {
+            "Bonus" : "Initiative",
+            "Short" : "{0} Ini.",
+            "Long" : "{0} Initiative",
+            "Full" : "{0} Initiative Phase Bonus"
+        },
+        {
+            "Bonus" : "Crits",
+            "Short" : "{0} Crit.",
+            "Long" : "{0} Criticals",
+            "Full" : "{0} Chance to deal a Critical Hit"
+        },
+        {
+            "Bonus" : "WpnCrits",
+            "Short" : "{0} Crit.",
+            "Long" : "{0} Criticals",
+            "Full" : "{0} Chance to deal a Critical Hit with this Weapon"
+        },
+        {
+            "Bonus" : "Recoil",
+            "Short" : "{0} Rec.",
+            "Long" : "{0} Recoil",
+            "Full" : "{0} Recoil with ranged Weapons"
+        },
+        {
+            "Bonus" : "WpnRecoil",
+            "Short" : "{0} Rec.",
+            "Long" : "{0} Recoil",
+            "Full" : "{0} Recoil with this Weapon"
+        },
+        {
+            "Bonus" : "RecoilAC",
+            "Short" : "{0} Rec.",
+            "Long" : "{0} AC Recoil",
+            "Full" : "{0} Recoil with Autocannons"
+        },
+        {
+            "Bonus" : "WpnAccuracy",
+            "Short" : "{0} Acc.",
+            "Long" : "{0} Accuracy",
+            "Full" : "{0} Accuracy with this Weapon"
+        },
+        {
+            "Bonus" : "PipsIgnored",
+            "Short" : "{0} Pips.",
+            "Long" : "{0} Evasion Pips",
+            "Full" : "{0} Evasion Pips ignored by this Weapon"
+        },
+        {
+            "Bonus" : "Accuracy",
+            "Short" : "{0} Acc.",
+            "Long" : "{0} Accuracy",
+            "Full" : "{0} Accuracy with ranged Weapons"
+        },
+        {
+            "Bonus" : "ArmAccuracy",
+            "Short" : "{0} ArmAcc.",
+            "Long" : "{0} Arm Accuracy",
+            "Full" : "{0} accuracy with Arm Mounted Weapons"
+        },
+        {
+            "Bonus" : "ACAccuracy",
+            "Short" : "{0} AC Acc.",
+            "Long" : "{0} AC Accuracy",
+            "Full" : "{0} Accuracy with Autocannons"
+        },
+        {
+            "Bonus" : "GaussAccuracy",
+            "Short" : "{0} Gauss Acc.",
+            "Long" : "{0} Gauss Accuracy",
+            "Full" : "{0} Accuracy with Gauss Rifles"
+        },
+        {
+            "Bonus" : "LRMAccuracy",
+            "Short" : "{0} LRM Acc.",
+            "Long" : "{0} LRM Accuracy",
+            "Full" : "{0} Accuracy with Long-Range-Missiles"
+        },
+        {
+            "Bonus" : "SRMAccuracy",
+            "Short" : "{0} SRM Acc.",
+            "Long" : "{0} SRM Accuracy",
+            "Full" : "{0} Accuracy with Short-Range-Missiles"
+        },
+        {
+            "Bonus" : "BallisticAcc",
+            "Short" : "{0} Ball.Acc.",
+            "Long" : "{0} Ballistic Acc.",
+            "Full" : "{0} Accuracy with Ballistic Weapons"
+        },
+        {
+            "Bonus" : "EnergyAcc",
+            "Short" : "{0} Enrg.Acc.",
+            "Long" : "{0} Energy Acc.",
+            "Full" : "{0} Accuracy with Energy Weapons"
+        },
+        {
+            "Bonus" : "MissileAcc",
+            "Short" : "{0} Miss.Acc.",
+            "Long" : "{0} Missile Acc.",
+            "Full" : "{0} Accuracy with Missile Weapons"
+        },
+        {
+            "Bonus" : "DFMissileAcc",
+            "Short" : "{0} DFMiss.Acc.",
+            "Long" : "{0} Direct Miss Acc.",
+            "Full" : "{0} Accuracy with Missile Direct Fire"
+        },
+        {
+            "Bonus" : "IndirectAcc",
+            "Short" : "{0} ID.Acc.",
+            "Long" : "{0} Indirect Acc.",
+            "Full" : "{0} Accuracy with Indirect Fire"
+        },
+        {
+            "Bonus" : "HeatPerTurn",
+            "Short" : "{0} Heat / Turn",
+            "Long" : "{0} Heat / Turn",
+            "Full" : "{0} Heat per Turn"
+        },
+        {
+            "Bonus" : "HeatGenerated",
+            "Short" : "{0} Heat",
+            "Long" : "{0} Heat Gen",
+            "Full" : "{0} Heat generated from Weapons Fire"
+        },
+        {
+            "Bonus" : "JumpDistance",
+            "Short" : "{0} Jump.",
+            "Long" : "{0} Jumping",
+            "Full" : "{0} Jump Distance"
+        },
+        {
+            "Bonus" : "MeleeStab",
+            "Short" : "{0} MeleeStabDmg",
+            "Long" : "{0} Melee Stab. Damage",
+            "Full" : "{0} Melee Stability Damage"
+        },
+        {
+            "Bonus" : "Melee",
+            "Short" : "{0} MeleeDmg",
+            "Long" : "{0} Melee Damage",
+            "Full" : "{0} Increased Melee Damage"
+        },
+        {
+            "Bonus" : "Melee2",
+            "Short" : "{0} MeleeDmg",
+            "Long" : "{0} Melee Damage",
+            "Full" : "{0} Additional Base Melee Damage"
+        },
+        {
+            "Bonus" : "MeleeAcc",
+            "Short" : "{0} MeleeAcc",
+            "Long" : "{0} Melee Accuracy",
+            "Full" : "{0} Melee Accuracy"
+        },
+        {
+            "Bonus" : "DFA2",
+            "Short" : "{0} DFA Dmg",
+            "Long" : "{0} DFA Damage",
+            "Full" : "{0} Additional Base Death from Above Damage"
+        },
+        {
+            "Bonus" : "DFAAcc",
+            "Short" : "{0} DFAAcc",
+            "Long" : "{0} DFA Accuracy",
+            "Full" : "{0} Accuracy with Death from Above"
+        },
+        {
+            "Bonus" : "DFASelfDamage",
+            "Short" : "{0} DFA.Slf.Dmg",
+            "Long" : "{0} DFA Self Damage",
+            "Full" : "{0} Death from Above Self Damage taken"
+        },
+        {
+            "Bonus" : "Resolve",
+            "Short" : "{0} Resolve",
+            "Long" : "{0} Inc.Resolve",
+            "Full" : "{0} increased Resolve gain"
+        },
+        {
+            "Bonus" : "Health",
+            "Short" : "{0} Injury",
+            "Long" : "{0} Injury res.",
+            "Full" : "{0} Injuries resisted"
+        },
+        {
+            "Bonus" : "Sensors",
+            "Short" : "{0} Sensors",
+            "Long" : "{0} Inc.Sensors",
+            "Full" : "{0} increased Sensor Distance"
+        },
+        {
+            "Bonus" : "Sensors2",
+            "Short" : "{0} Sensors",
+            "Long" : "{0} Sensors",
+            "Full" : "{0} Base Sensor Distance"
+        },
+        {
+            "Bonus" : "Sight",
+            "Short" : "{0} Sight",
+            "Long" : "{0} Inc. Sight",
+            "Full" : "{0} increased Sight Distance"
+        },
+        {
+            "Bonus" : "Sight2",
+            "Short" : "{0} Sight",
+            "Long" : "{0} Sight",
+            "Full" : "{0} Base Sight Distance"
+        },
+        {
+            "Bonus" : "Visibility",
+            "Short" : "{0} Vis.",
+            "Long" : "{0} Visibility",
+            "Full" : "{0} reduced Visibility in Cover"
+        },
+        {
+            "Bonus" : "Signature",
+            "Short" : "{0} Sig.",
+            "Long" : "{0} Signature",
+            "Full" : "{0} Reduced Signature against Sensor"
+        },
+        {
+            "Bonus" : "Evasion",
+            "Short" : "{0} Eva.",
+            "Long" : "{0} Evasion",
+            "Full" : "{0} Evasion gained from Movement"
+        },
+        {
+            "Bonus" : "WalkSpeed",
+            "Short" : "{0} Walk.",
+            "Long" : "{0} Walk Dist",
+            "Full" : "{0} Walking Distance"
+        },
+        {
+            "Bonus" : "RunSpeed",
+            "Short" : "{0} Sprint.",
+            "Long" : "{0} Sprint Dist",
+            "Full" : "{0} Sprinting Distance"
+        },
+        {
+            "Bonus" : "PPCCAPDMG",
+            "Short" : "{0} PPC Dmg.",
+            "Long" : "{0} PPC Damage",
+            "Full" : "{0} Increased Damage with PPC"
+        },
+        {
+            "Bonus" : "PPCCAPHEAT",
+            "Short" : "{0} PPC Heat.",
+            "Long" : "{0} PPC Heat",
+            "Full" : "{0} Heat generated with PPC"
+        },
+        {
+            "Bonus" : "PPCDEBUFF",
+            "Short" : "PPC Debuff",
+            "Long" : "PPC Debuff {0}",
+            "Full" : "PPC scrambles targets system for {0} accuracy"
+        }
+    ],
     "TagRestrictionsValidateDropEnabled" : true,
     "TagRestrictionsUseDescriptionIds" : true,
     "TagRestrictions" : [
@@ -16,11 +601,20 @@
             "Tag" : "Gladiator",
             "IncompatibleTags" : [
                 "Gear_MASC",
+                "Gear_MASC_CLAN",
                 "Gear_Supercharger"
             ]
         },
         {
             "Tag" : "Strix",
+            "IncompatibleTags" : [
+                "Gear_Combat_Shield_Small",
+                "Gear_Combat_Shield_Medium",
+                "Gear_Combat_Shield"
+            ]
+        },
+        {
+            "Tag" : "Weapon-X",
             "IncompatibleTags" : [
                 "Gear_Combat_Shield_Small",
                 "Gear_Combat_Shield_Medium",
@@ -54,6 +648,13 @@
             "IncompatibleTags" : [
                 "Gear_LAMS",
                 "Gear_AMS"
+            ]
+        },
+        {
+            "Tag" : "Butcher",
+            "IncompatibleTags" : [
+                "Gear_Cockpit_Torsomount",
+                "Gear_Cockpit_CommandConsole"
             ]
         },
         {
@@ -420,6 +1021,9 @@
                     "Flags" : [
                         "not_broken"
                     ]
+                },
+                "InventorySorter" : {
+                    "SortKey" : "Armor"
                 }
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
@@ -460,6 +1064,9 @@
                     "Flags" : [
                         "not_broken"
                     ]
+                },
+                "InventorySorter" : {
+                    "SortKey" : "Structure"
                 }
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
@@ -588,6 +1195,9 @@
                     "Flags" : [
                         "not_broken"
                     ]
+                },
+                "InventorySorter" : {
+                    "SortKey" : "Cockpit"
                 }
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
@@ -687,6 +1297,9 @@
                     "Flags" : [
                         "not_broken"
                     ]
+                },
+                "InventorySorter" : {
+                    "SortKey" : "Gyro"
                 }
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
@@ -722,6 +1335,9 @@
                 },
                 "Replace" : {
                     "ComponentDefId" : "emod_engineslots_std_center"
+                },
+                "InventorySorter" : {
+                    "SortKey" : "Engine"
                 }
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
@@ -764,6 +1380,9 @@
                         "engine_part",
                         "not_broken"
                     ]
+                },
+                "InventorySorter" : {
+                    "SortKey" : "Engine2"
                 }
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
@@ -842,6 +1461,9 @@
                 "ArmActuator" : {
                     "AccuracyBonus" : -1,
                     "Type" : "Hand"
+                },
+                "InventorySorter" : {
+                    "SortKey" : "Arms"
                 }
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
@@ -909,6 +1531,9 @@
                     "Flags" : [
                         "ignore_damage"
                     ]
+                },
+                "InventorySorter" : {
+                    "SortKey" : "CASE"
                 }
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",
@@ -949,6 +1574,9 @@
                     "Flags" : [
                         "ignore_damage"
                     ]
+                },
+                "InventorySorter" : {
+                    "SortKey" : "CASE"
                 }
             },
             "AddAlreadyEquiped" : "{0} already installed on mech",

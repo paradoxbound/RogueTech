@@ -28,7 +28,7 @@
 			{
                 "statName" : "RefireModifier",
                 "operation" : "Int_Add",
-                "modValue" : "5",
+                "modValue" : "6",
                 "modType" : "System.Int32",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -58,7 +58,7 @@
 			"statisticData" : 
 			{
                 "statName" : "AccuracyModifier",
-                "operation" : "Float_Multiply",
+                "operation" : "Float_Add",
                 "modValue" : "-3",
                 "modType" : "System.Single",
                 "targetCollection" : "Weapon",
@@ -111,7 +111,7 @@
     "UIName": "Enforcer",
     "Id": "chassisdef_enforcer_ENF-7S",
     "Name": "Enforcer",
-    "Details": "The Enforcer 7S is an NAIS prototype carrying a mostly functional Gauss rifle prototype. This one seems to be stolen. <b><color=#009933>Quirk: Prototype Gauss Rifle</color></b>",
+    "Details": "The Enforcer 7S is an NAIS prototype carrying a mostly functional Gauss rifle prototype. This one seems to be stolen. <b><color=#009933>Quirk: Prototype Gauss Rifle - Bonus Gauss Accuracy and Damage but Recoil</color></b>",
     "Icon": "uixTxrIcon_enforcer"
   },
   "MovementCapDefID": "movedef_enforcer_ENF-4R",
@@ -343,5 +343,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support & Skirmisher",
-  "YangsThoughts": "The Enforcer 7S is an NAIS prototype carrying a mostly functional Gauss rifle prototype. This one seems to be stolen. <b><color=#009933>Quirk: Prototype Gauss Rifle</color></b>"
+  "YangsThoughts": "The Enforcer 7S is an NAIS prototype carrying a mostly functional Gauss rifle prototype. This one seems to be stolen. <b><color=#009933>Quirk: Prototype Gauss Rifle - Bonus Gauss Accuracy and Damage but Recoil</color></b>"
 }

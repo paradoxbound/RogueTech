@@ -1,6 +1,20 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamage": 70 } }
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 70 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "PipsIgnored: 1",
+				"WpnAccuracy: -2",
+				"VariableDmg: 30",
+				"WpnRecoil: 3"
+				"WpnCrits: 100%"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "01015"
+            }		
+
+ },
 
     "Category" : "Ballistic",
     "Type" : "Gauss",

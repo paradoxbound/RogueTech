@@ -1,4 +1,18 @@
 {
+
+"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+				"VariableDmg: 6",
+				"Melee2: 6",
+				"DmgFallOff"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "02006"
+            }		
+ },
+ 
     "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "MediumLaserER",
@@ -34,7 +48,7 @@
         "Purchasable" : true,
         "Manufacturer" : "SCI",
         "Model" : "Extended-Range Medium Laser",
-        "UIName" : "Laser M ER (PRT)",
+        "UIName" : "ER Medium Laser (PRT)",
         "Id" : "Weapon_Laser_MediumLaserER_0-jrig",
         "Name" : "Pirate ER M Laser",
         "Details" : "In my in-depth study of pirate-ology, I’ve discovered that if you put spikes on it, it’ll do more damage.  If you’re the kind to down a handle of rum and shoot yourself out of an airlock, this design will make complete sense to you.",

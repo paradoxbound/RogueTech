@@ -1,6 +1,16 @@
 {
 
-	"Custom" :   { "Category" : { "CategoryID" : "Spikes"}, "Flags" : { "flags" : [ "not_broken" ] } },
+	"Custom" :   { "Category" : { "CategoryID" : "Spikes"}, "Flags" : { "flags" : [ "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "MeleeDamageTaken: -3%",
+                "Melee: +2%"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00026"
+            }			
+	},
   
     "StatName" : null,
     "RelativeModifier" : 0,

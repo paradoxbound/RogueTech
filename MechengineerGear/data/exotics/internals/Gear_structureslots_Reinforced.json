@@ -16,7 +16,17 @@
 		"Category" : { 
 			"CategoryID" : "Structure" 
 		},		
-		"Flags" : { "flags" : [ "ignore_damage", "autorepair", "not_broken" ] }		
+		"Flags" : { "flags" : [ "ignore_damage", "autorepair", "not_broken" ] }
+        "BonusDescriptions": {
+            "Bonuses": [
+                "StructureFactor: +25%",
+                "StructureProtection: +50%",
+				"CritRes: 50%"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00010"
+            }		
 	},
 
   
@@ -29,7 +39,7 @@
         "Purchasable" : true,
         "Manufacturer" : "LIC",
         "Model" : "Reinforced",
-        "UIName" : "Structure Reinforced",
+        "UIName" : "Reinforced",
         "Id" : "Gear_structureslots_Reinforced",
         "Name" : "Reinforced Structure",
         "Details" : "Reinforced structure is an attempt to improve a BattleMech's survivability by increasing the durability of the internal structure. Reduces incoming Critical Hits.",

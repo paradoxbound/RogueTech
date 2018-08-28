@@ -6,13 +6,16 @@
 		"WorkOrderCosts": {
 			"Install": {
 				"TechCost": "[[Chassis.Tonnage]]/8",
-				"CBillCost": "130 * [[Chassis.Tonnage]]"
+				"CBillCost": "130 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 10"
 			}
 		},
 		"Category" : { 
 			"CategoryID" : "EngineCore" 
 		},
-		"Flags" : { "flags" : [ "engine_part" ] }
+		"Flags" : { "flags" : [ "engine_part" ] },
+		            "InventorySorter" : {
+                "SortKey" : "0014"
+            }		
 	},
     "DissipationCapacity" : 0,
     "Description" : {

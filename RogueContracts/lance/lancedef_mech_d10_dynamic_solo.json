@@ -25,6 +25,7 @@
          "unitTagSet" : {
             "items" : [
 			   "unit_mech",
+			   "unit_assault",
 			   "unit_legendary"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"

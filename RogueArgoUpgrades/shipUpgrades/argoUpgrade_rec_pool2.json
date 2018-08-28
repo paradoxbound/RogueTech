@@ -6,7 +6,7 @@
         "UIName" : "",
         "Id" : "argoUpgrade_rec_pool2",
         "Name" : "Upgraded Low-G Pool",
-        "Details" : "Upgraded Low-G Pool with better opportunities for swimming, training and leisure activities. Drastically reduces upkeep and gives 10 extra EXP per day",
+        "Details" : "Upgraded Low-G Pool with better opportunities for swimming, training and leisure activities. Drastically reduces upkeep.",
         "Icon" : "uixSvgIcon_shipUpgrade_pool"
     },
     "Illustration" : "uixTxrSpot_LowGPool",
@@ -38,12 +38,6 @@
 			"typeString" : "System.Int32",
 			"name" : "Morale",
 			"value" : 1,
-			"valueConstant" : ""
-		},
-		{
-			"typeString" : "System.Int32",
-			"name" : "ExperiencePerDay",
-			"value" : 10,
 			"valueConstant" : ""
 		}		
     ]

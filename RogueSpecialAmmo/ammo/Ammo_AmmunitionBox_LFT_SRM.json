@@ -1,6 +1,17 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 2, "StabilityDamagePerAmmo": 6 } },
+	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 2, "StabilityDamagePerAmmo": 6 },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"StabDamage: X2",
+                "SRMDamage: -75%",
+                "SRMAmmo"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0007"
+            },		
+	},
 
     "AmmoID" : "Ammunition_SRM",
     "Capacity" : 100,

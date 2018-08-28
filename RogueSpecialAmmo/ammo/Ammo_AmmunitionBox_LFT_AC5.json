@@ -1,6 +1,17 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC5Ammo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 11, "StabilityDamagePerAmmo": 33 } },
+	"Custom" :  {"Category" : { "CategoryID" : "AC5Ammo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 11, "StabilityDamagePerAmmo": 33 },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"StabDamage: X2",
+                "ACDamage: -75%",
+                "AC5Ammo"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0002"
+            },		
+	},
 	
     "AmmoID" : "Ammunition_AC5",
     "Capacity" : 15,

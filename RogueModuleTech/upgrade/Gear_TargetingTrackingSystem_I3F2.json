@@ -1,7 +1,16 @@
 {
 
 
-	"Custom" :  {"Category" : { "CategoryID" : "I3F2"} },
+	"Custom" :  {"Category" : { "CategoryID" : "I3F2"},
+        "BonusDescriptions": {
+            "Bonuses": [
+                "IndirectAcc: +2"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00027"
+            }		
+	},
 
     "StatName" : null,
     "RelativeModifier" : 0,

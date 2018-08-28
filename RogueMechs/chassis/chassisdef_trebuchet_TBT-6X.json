@@ -44,7 +44,7 @@
     "UIName": "Katyusha",
     "Id": "chassisdef_trebuchet_TBT-6X",
     "Name": "Katyusha",
-    "Details": "The TBT-6X 'Katyusha' is a slightly heavier Trebuchet designed as a testbed for the Artemis IV Smart Missile System. <b><color=#009933>Quirk: Artillery TTS</color></b>",
+    "Details": "The TBT-6X 'Katyusha' is a slightly heavier Trebuchet designed as a testbed for the Artemis IV Smart Missile System. <b><color=#009933>Quirk: Artillery TTS - Improved Indirect Accuracy</color></b>",
     "Icon": "uixTxrIcon_trebuchet"
   },
   "MovementCapDefID": "movedef_trebuchet_TBT-6X",
@@ -276,5 +276,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support",
-  "YangsThoughts": "The TBT-6X 'Katyusha' is a slightly heavier Trebuchet designed as a testbed for the Artemis IV Smart Missile System. <b><color=#009933>Quirk: Artillery TTS</color></b>"
+  "YangsThoughts": "The TBT-6X 'Katyusha' is a slightly heavier Trebuchet designed as a testbed for the Artemis IV Smart Missile System. <b><color=#009933>Quirk: Artillery TTS - Improved Indirect Accuracy</color></b>"
 }

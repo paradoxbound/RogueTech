@@ -1,6 +1,10 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 4, "StabilityDamagePerAmmo": 1 } },
+"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 4, "StabilityDamagePerAmmo": 1 },
+            "InventorySorter" : {
+                "SortKey" : "03001"
+            }
+ },
 
     "Category" : "Missile",
     "Type" : "LRM",

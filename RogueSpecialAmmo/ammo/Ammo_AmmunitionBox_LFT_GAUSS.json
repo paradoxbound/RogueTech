@@ -1,6 +1,18 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "GaussAmmo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] } },
+	"Custom" :  {"Category" : { "CategoryID" : "GaussAmmo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "GaussDamage: -75%",
+                "StabDamage: X2",
+                "GaussAmmo",
+				"GaussNoBoom"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0005"
+            },		
+	},
 
     "AmmoID" : "Ammunition_GAUSS",
     "Capacity" : 8,

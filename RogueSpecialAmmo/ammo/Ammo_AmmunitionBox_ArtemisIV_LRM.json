@@ -1,6 +1,19 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "LRMARTIVAmmo"}, "Tag" : "ArtemisIV", "RequiredCategory" : { "CategoryID" : "MissTTSART"}, "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 4, "StabilityDamagePerAmmo": 1 } },
+	"Custom" :  {"Category" : { "CategoryID" : "LRMARTIVAmmo"}, "Tag" : "ArtemisIV", "RequiredCategory" : { "CategoryID" : "MissTTSART"}, "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 4, "StabilityDamagePerAmmo": 1 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "LRMAccuracy: +2",
+				"Crits: 100%",
+				"IndirectAcc: +2"
+                "LRMAmmo",
+				"ReqArtemis"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0008"
+            },		
+	},
 
     "AmmoID" : "Ammunition_LRM",
     "Capacity" : 140,

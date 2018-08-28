@@ -1,0 +1,78 @@
+{
+   "Version" : 1,
+   "Description" : {
+      "Id" : "vehicledef_GALLEON_GAL104cv",
+      "Name" : "Galleon 104",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 564,
+      "Rarity" : 5,
+      "Purchasable" : false
+   },
+   "ChassisID" : "vehiclechassisdef_GALLEON_GAL104",
+   "VehicleTags": {
+      "items": [
+         "unit_vehicle",
+         "unit_light",
+		 "unit_medium",
+         "unit_tracks",
+         "unit_lance_vanguard",
+		 "unit_lance_assassin",
+		 "unit_lance_support"
+      ],
+      "tagSetSourceFile": ""
+   },
+   "Locations" : [
+		{
+			"Location" : "Front",
+			"CurrentArmor" : 140,
+			"CurrentInternalStructure" : 15,
+			"AssignedArmor" : 140,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Left",
+			"CurrentArmor" : 100,
+			"CurrentInternalStructure" : 15,
+			"AssignedArmor" : 100,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Right",
+			"CurrentArmor" : 100,
+			"CurrentInternalStructure" : 15,
+			"AssignedArmor" : 100,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Rear",
+			"CurrentArmor" : 95,
+			"CurrentInternalStructure" : 15,
+			"AssignedArmor" : 95,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Turret",
+			"CurrentArmor" : 145,
+			"CurrentInternalStructure" : 15,
+			"AssignedArmor" : 145,
+			"DamageLevel" : "Functional"
+		}
+   ],
+   "inventory" : [
+      {
+         "ComponentDefID" : "Weapon_Laser_LargeLaserER_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 0,
+		 "DamageLevel" : "Functional"
+      },
+	  {
+         "ComponentDefID": "Gear_TTS_AdvancedTC",
+         "ComponentDefType": "Upgrade",
+		 "MountedLocation": "Front",
+         "HardpointSlot": -1,
+         "DamageLevel": "Functional"
+      }
+   ]
+}

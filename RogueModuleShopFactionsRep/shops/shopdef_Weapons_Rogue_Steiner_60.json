@@ -12,20 +12,7 @@
         ],
         "tagSetSourceFile": ""
     },
-    "Inventory": [
-
-        {
-            "ID": "Weapon_Gauss_Gauss_0-STOCK",
-            "Type": "Weapon",
-            "DiscountModifier": 1,
-            "Count" : 0
-        },
-        {
-            "ID": "Weapon_Gauss_Gauss_HEAVY",
-            "Type": "Weapon",
-            "DiscountModifier": 1.2,
-            "Count" : 0
-        },		
+    "Inventory": [		
         {
             "ID": "Weapon_Laser_LargeLaserER_0-STOCK",
             "Type": "Weapon",

@@ -73,7 +73,7 @@
             "k" : "Int_RecentTargetThresholdPhases",
             "v" : {
 		"type" : "Int",
-		"intVal" : 6
+		"intVal" : 3
             }
 	},
 	{
@@ -92,7 +92,7 @@
             "k" : "Float_RouteWaypointRadius",
             "v" : {
 		"type" : "Float",
-		"floatVal" : 60
+		"floatVal" : 40
             }
 	},
 	{
@@ -1432,7 +1432,16 @@
 		"boolVal" : false
 	    }
 	},
+        {
+            /* If true, allow AI to attack hostiles. Otherwise, only move and brace.
+	     */
 
+	    "k" : "Bool_AllowAttack",
+	    "v" : {
+		"type" : "Bool",
+		"boolVal" : true
+	    }
+        },
 
 	{
 	    /* An alerted unit will act on visibility information,

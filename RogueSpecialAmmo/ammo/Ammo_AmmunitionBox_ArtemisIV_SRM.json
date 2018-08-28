@@ -1,6 +1,19 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "SRMARTIVAmmo"}, "Tag" : "ArtemisIV", "RequiredCategory" : { "CategoryID" : "MissTTSART"}, "ComponentExplosion": { "ExplosionDamagePerAmmo": 8, "StabilityDamagePerAmmo": 2 }	},
+	"Custom" :  {"Category" : { "CategoryID" : "SRMARTIVAmmo"}, "Tag" : "ArtemisIV", "RequiredCategory" : { "CategoryID" : "MissTTSART"}, "ComponentExplosion": { "ExplosionDamagePerAmmo": 8, "StabilityDamagePerAmmo": 2 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "SRMAccuracy: +2",
+				"SRMDamage: +2"
+				"Crits: 50%",				
+                "SRMAmmo",
+				"ReqArtemis"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0007"
+            },		
+	},
 
     "AmmoID" : "Ammunition_SRM",
     "Capacity" : 100,
@@ -17,7 +30,7 @@
         "Icon" : "uixSvgIcon_ammoBox_Missile"
     },
     "BonusValueA" : "+2 Accuracy|+50% Crit|",
-    "BonusValueB" : "+1 SRM Damage",
+    "BonusValueB" : "+2 SRM Damage",
     "ComponentType" : "AmmunitionBox",
     "ComponentSubType" : "Ammunition",
     "PrefabIdentifier" : "",

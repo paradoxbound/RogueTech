@@ -6,7 +6,10 @@
 		},
 		"ArmActuator" : {
 			"Type" : "Upper"
-		}
+		},
+            "InventorySorter" : {
+                "SortKey" : "00020"
+            }				
 	},
 
     "StatName" : null,
@@ -18,7 +21,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Friedhof",
         "Model" : "Behemoth",
-        "UIName" : "Arm Shoulder Energy",
+        "UIName" : "Upper Energy",
         "Id" : "Gear_Actuator_Friedhof_Behemoth",
         "Name" : "Friedhof Behemoth Arm Mod",
         "Details" : "Upper Arm Actuators usually are barely more then a connector for a limb. <b><color=#800080>WEAPON SHOULDER ACTUATOR.</color></b> Grants only bonus to 1 weapon type.",

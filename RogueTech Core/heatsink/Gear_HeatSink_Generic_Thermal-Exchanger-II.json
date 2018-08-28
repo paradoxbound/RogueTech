@@ -1,6 +1,10 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "TE2"}, "ComponentExplosion": { "HeatDamage": 12 } },
+	"Custom" :  {"Category" : { "CategoryID" : "TE2"}, "ComponentExplosion": { "HeatDamage": 12,"ExplosionDamage": 6, "StabilityDamage": 6 },
+            "InventorySorter" : {
+                "SortKey" : "00018"
+            }
+	},
 
     "DissipationCapacity" : 6,
     "Description" : {

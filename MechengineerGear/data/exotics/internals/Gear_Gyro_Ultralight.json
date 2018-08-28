@@ -66,7 +66,16 @@
 					}					
 				 }				
 				]
-			  }		
+			  },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "GyroStab: 30",
+				"StabDamageTaken: +20%"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00022"
+            }		
 	},
 
     "StatName" : null,

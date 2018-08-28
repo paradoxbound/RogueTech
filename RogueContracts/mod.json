@@ -10,7 +10,9 @@
 	
 	
     "Manifest": [			
-			{ "Type": "LanceDef", "Path": "lance" }
+			{ "Type": "LanceDef", "Path": "lance" },
+			{ "Type": "ContractOverride", "Path": "defendbase" },
+			{ "Type": "ContractOverride", "Path": "ambushconvoy" }
     	]	
 	       
 	

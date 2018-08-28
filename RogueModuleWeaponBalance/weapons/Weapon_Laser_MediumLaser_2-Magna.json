@@ -1,4 +1,11 @@
 {
+
+	"Custom": {
+            "InventorySorter" : {
+                "SortKey" : "02005"
+            }
+		},
+		
     "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "MediumLaser",
@@ -34,7 +41,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Magna",
         "Model" : "Medium Laser",
-        "UIName" : "Laser M + +",
+        "UIName" : "Medium Laser + +",
         "Id" : "Weapon_Laser_MediumLaser_2-Magna",
         "Name" : "M Laser + +",
         "Details" : "Medium Lasers are lightweight with respectable damage. Because of this, at least one can be found mounted on most units that cross the battlefield. Like all Lasers, Medium Lasers enjoy a baseline accuracy bonus over other weapons.",

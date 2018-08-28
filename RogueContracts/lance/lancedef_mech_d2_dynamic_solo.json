@@ -26,6 +26,7 @@
             "items" : [
                "unit_mech",
                "unit_medium"
+			   "unit_legendary"
             ],
             "tagSetSourceFile" : "Tags/UnitTags"
          },

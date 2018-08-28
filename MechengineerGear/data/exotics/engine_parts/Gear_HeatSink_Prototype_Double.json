@@ -1,7 +1,10 @@
 {
 
 	"Custom": {
-		"ComponentExplosion": { "HeatDamage": 12, "ExplosionDamage": 25, "StabilityDamage": 10 }
+		"ComponentExplosion": { "HeatDamage": 12, "ExplosionDamage": 25, "StabilityDamage": 10 },
+            "InventorySorter" : {
+                "SortKey" : "00015"
+            }		
 	},
 
     "DissipationCapacity" : 6,

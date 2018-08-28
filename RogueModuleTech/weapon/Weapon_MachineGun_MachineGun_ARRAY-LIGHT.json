@@ -1,4 +1,11 @@
 {
+
+	"Custom": {
+            "InventorySorter" : {
+                "SortKey" : "01021"
+            }
+		},
+		
     "Category" : "Ballistic",
     "Type" : "MachineGun",
     "WeaponSubType" : "MachineGun",
@@ -34,7 +41,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Sperry Browning",
         "Model" : "Light Machine Gun Array",
-        "UIName" : "MG Array Light",
+        "UIName" : "MG Array Light ",
         "Id" : "Weapon_MachineGun_MachineGun_ARRAY-LIGHT",
         "Name" : "LMG Array",
         "Details" : "Machine Gun Arrays are multiple Machine Guns linked together to fire simultaneously, this consists of 4 Light Machine Guns.",

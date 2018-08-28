@@ -1,7 +1,10 @@
 {
 
 	"Custom" : {
-		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 8, "StabilityDamagePerAmmo": 2 }
+		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 8, "StabilityDamagePerAmmo": 2 },
+            "InventorySorter" : {
+                "SortKey" : "0007"
+            },		
 	},
 
     "AmmoID" : "Ammunition_SRM",

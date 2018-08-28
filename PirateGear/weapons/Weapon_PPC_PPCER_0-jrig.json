@@ -1,6 +1,20 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamage": 30 } }
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 30 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "PPCDEBUFF: -1",
+				"PipsIgnored: 1"
+				"VariableDmg: 15",
+				"DmgFallOff"
+				"WpnAccuracy: -1",
+				"WpnRecoil: 3"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "02011"
+            }		
+	},
 
     "Category" : "Energy",
     "Type" : "PPC",
@@ -37,7 +51,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Kong Interstellar",
         "Model" : "Extended-Range PPC",
-        "UIName" : "PPC ER (PRT)",
+        "UIName" : "ER PPC (PRT)",
         "Id" : "Weapon_PPC_PPCER_0-jrig",
         "Name" : "Pirate ER PPC",
         "Details" : "This marvel of engineering has been violated in so many ways, I can not begin to decipher what it's been through.  And no, the fake magazine attached to its underside can not be removed, it is somehow integrated into the containment field that keeps this thing from blowing up when fired. <b><color=#099ff2>VOLATILE!</color></b>",

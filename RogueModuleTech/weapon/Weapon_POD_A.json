@@ -1,6 +1,10 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 2, "StabilityDamagePerAmmo": 1 } },
+"Custom": { "ComponentExplosion": { "ExplosionDamagePerAmmo": 2, "StabilityDamagePerAmmo": 1 },
+            "InventorySorter" : {
+                "SortKey" : "04002"
+            }
+ },
 
     "Category" : "AntiPersonnel",
     "Type" : "MachineGun",
@@ -37,7 +41,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Solaris Arms",
         "Model" : "Explosive Cannister",
-        "UIName" : "POD A",
+        "UIName" : "A POD",
         "Id" : "Weapon_POD_A",
         "Name" : "Anti-Personnel Pod",
         "Details" : "An Anti-Personnel Pod (A-Pod) is a piece of equipment designed specifically for 'Mechs. When detonated, effectively fill an area 15 meters in diameter with deadly shrapnel. <b><color=#099ff2>VOLATILE!</color></b>",

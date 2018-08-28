@@ -2,7 +2,7 @@
   "Name": "CharlesB",
   "Enabled": true,
 
-  "Version": "1.0.0",
+  "Version": "1.0.2",
 
   "Author": "janxious",
   "Website": "https://github.com/janxious/CharlesB",
@@ -28,7 +28,7 @@
     "allowSteadyToKnockdownForMelee": true,
 
     "fallingDamage": true,
-    "fallingAmountDamagePerTon": 0.4,
+    "fallingAmountDamagePerTon": 0.5,
 
     "debug": false
   }

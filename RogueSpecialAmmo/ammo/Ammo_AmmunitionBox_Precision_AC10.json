@@ -1,6 +1,16 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC10Ammo"}, "Tag" : "Precision", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 60,"StabilityDamagePerAmmo": 15 } },
+	"Custom" :  {"Category" : { "CategoryID" : "AC10Ammo"}, "Tag" : "Precision", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 60,"StabilityDamagePerAmmo": 15 },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"ACAccuracy: +1",
+                "AC10Ammo"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0003"
+            },		
+	},
 
     "AmmoID" : "Ammunition_AC10",
     "Capacity" : 8,

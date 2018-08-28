@@ -193,7 +193,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "emod_arm_upper",
+      "ComponentDefID": "emod_arm_hand",
       "SimGameUID": "",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
@@ -204,7 +204,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "emod_arm_upper",
+      "ComponentDefID": "emod_arm_hand",
       "SimGameUID": "",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,

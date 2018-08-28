@@ -74,7 +74,7 @@
     "UIName": "Stingray",
     "Id": "chassisdef_stingray_SYU-1X",
     "Name": "Stingray",
-    "Details": "The Stingray is a Capellan prototype based on the Raven. Carrying advanced stealth gear and twin Plasma rifles, is it capable of delivering a deadly blow at short ranges. <b><color=#009933>Quirk: Harasser</color></b>",
+    "Details": "The Stingray is a Capellan prototype based on the Raven. Carrying advanced stealth gear and twin Plasma rifles, is it capable of delivering a deadly blow at short ranges. <b><color=#009933>Quirk: Harasser - Improved Stealth and Movement</color></b>",
     "Icon": "uixTxrIcon_cicada"
   },
   "MovementCapDefID": "movedef_jenner_JR7-D",
@@ -100,9 +100,9 @@
     0
   ],
   "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 0.9,
+  "VisibilityMultiplier": 0.8,
   "SensorRangeMultiplier": 1,
-  "Signature": -0.1,
+  "Signature": -0.2,
   "Radius": 4,
   "PunchesWithLeftArm": false,
   "MeleeDamage": 45,
@@ -285,5 +285,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fast Striker Cavalry",
-  "YangsThoughts": "The Stingray is a Capellan prototype based on the Raven. Carrying advanced stealth gear and twin Plasma rifles, it's capable of delivering a deadly blow at short ranges. <b><color=#009933>Quirk: Harasser</color></b>"
+  "YangsThoughts": "The Stingray is a Capellan prototype based on the Raven. Carrying advanced stealth gear and twin Plasma rifles, is it capable of delivering a deadly blow at short ranges. <b><color=#009933>Quirk: Harasser - Improved Stealth and Movement</color></b>"
 }

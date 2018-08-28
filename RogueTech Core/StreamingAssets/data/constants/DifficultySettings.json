@@ -38,6 +38,43 @@
 			]
 		},
 		{
+            "ID" : "diff_skipPrologue",
+            "Name" : "Skip Prologue",
+			"UIOrder" : 0,
+            "Tooltip" : "<color=#F79B26>SETTING DOES NOT WORK FOR ROGUETECH</color> Hardcoded and cant remove it.",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : true,
+            "StartOnly" : true,
+            "DefaultIndex" : 0,
+            "Options" : [
+                {
+                    "ID" : "diff_PSKIP_off",
+                    "Name" : "Off",
+                    "DifficultyValue" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "SkipTutorial",
+                            "ConstantValue" : "False"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_PSKIP_on",
+                    "Name" : "On",
+                    "DifficultyValue" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Story",
+                            "ConstantName" : "SkipTutorial",
+                            "ConstantValue" : "True"
+                        }
+                    ]
+                }
+            ]
+        },		
+		{
 			"ID": "diff_equipNewMech",
 			"Name": "Unequipped 'Mechs",
 			"UIOrder": 1,
@@ -78,7 +115,7 @@
 			"ID": "diff_mechConstruction",
 			"Name": "Parts for 'Mech Assembly",
 			"UIOrder": 2,
-			"Tooltip": "This setting controls the number of salvaged or purchased 'Mech parts you must acquire to assemble a new 'Mech. Increase this value to make new 'Mechs rarer and more difficult to obtain. ",
+			"Tooltip": "<color=#F79B26>USE SECOND SETTING!</color>This setting controls the number of salvaged or purchased 'Mech parts you must acquire to assemble a new 'Mech. Increase this value to make new 'Mechs rarer and more difficult to obtain. <color=#F79B26>hardcoded to be ontop</color>",
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
@@ -159,10 +196,155 @@
 				}
 			]
 		},
+        {
+            "ID" : "diff_mechDestruction",
+            "Name" : "'Mech Recovery Chance",
+			"UIOrder" : 3,
+            "Tooltip" : "This setting defines chance to recover a destroyed 'Mech before KIA(+10%) and EJECT(+50%) recovery bonus. <color=#F79B26>defines the chance of getting your oen mech back for free</color>",
+            "Enabled" : true,
+            "Visible" : true,
+            "Toggle" : false,
+            "StartOnly" : false,
+            "DefaultIndex" : 7,
+            "Options" : [
+                {
+                    "ID" : "diff_MD_100",
+                    "Name" : "100%",
+                    "DifficultyValue" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "1"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MD_90",
+                    "Name" : "90%",
+                    "DifficultyValue" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "0.9"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MD_80",
+                    "Name" : "80%",
+                    "DifficultyValue" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "0.8"
+                        }
+                    ]
+                },	
+                {
+                    "ID" : "diff_MD_70",
+                    "Name" : "70%",
+                    "DifficultyValue" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "0.7"
+                        }
+                    ]
+                },	
+                {
+                    "ID" : "diff_MD_60",
+                    "Name" : "60%",
+                    "DifficultyValue" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "0.6"
+                        }
+                    ]
+                },	
+                {
+                    "ID" : "diff_MD_50",
+                    "Name" : "50%",
+                    "DifficultyValue" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "0.5"
+                        }
+                    ]
+                },	
+                {
+                    "ID" : "diff_MD_40",
+                    "Name" : "40%",
+                    "DifficultyValue" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "0.4"
+                        }
+                    ]
+                },
+                {
+                    "ID" : "diff_MD_30",
+                    "Name" : "30%",
+                    "DifficultyValue" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "0.3"
+                        }
+                    ]
+                },	
+                {
+                    "ID" : "diff_MD_20",
+                    "Name" : "20%",
+                    "DifficultyValue" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "0.2"
+                        }
+                    ]
+                },	
+                {
+                    "ID" : "diff_MD_10",
+                    "Name" : "10%",
+                    "DifficultyValue" : 0,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "0.1"
+                        }
+                    ]
+                },					
+                {
+                    "ID" : "diff_MD_on",
+                    "Name" : "On",
+                    "DifficultyValue" : 2,
+                    "DifficultyConstants" : [
+                        {
+                            "ConstantType" : "Salvage",
+                            "ConstantName" : "DestroyedMechRecoveryChance",
+                            "ConstantValue" : "0"
+                        }
+                    ]
+                }
+            ]
+        },		
 		{
 			"ID": "diff_contractDifficulty",
 			"Name": "Enemy Force Strength",
-			"UIOrder": 3,
+			"UIOrder": 4,
 			"Tooltip": "This setting modifies the overall strength of enemy forces. At higher difficulties, you will encounter heavier 'Mechs.",
 			"Enabled": true,
 			"Visible": true,
@@ -184,7 +366,7 @@
 				},			
 				{
 					"ID": "diff_CMD_easy",
-					"Name": "Easy",
+					"Name": "Don't hurt me",
 					"DifficultyValue": -1,
 					"DifficultyConstants": [
 						{
@@ -220,7 +402,7 @@
 				},
 				{
 					"ID": "diff_CMD_veryhard",
-					"Name": "VeryHard",
+					"Name": "Mercenary",
 					"DifficultyValue": 2,
 					"DifficultyConstants": [
 						{
@@ -229,13 +411,109 @@
 							"ConstantValue": "2"
 						}
 					]
+				},				
+				{
+					"ID": "diff_CMD_pirate",
+					"Name": "Pirate",
+					"DifficultyValue": 3,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "3"
+						}
+					]
+				},
+				{
+					"ID": "diff_CMD_warlord",
+					"Name": "Warlord",
+					"DifficultyValue": 4,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "4"
+						}
+					]
+				},
+				{
+					"ID": "diff_CMD_Clanner",
+					"Name": "Clanner",
+					"DifficultyValue": 5,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "5"
+						}
+					]
+				},
+				{
+					"ID": "diff_CMD_nothing",
+					"Name": "'Tis nothing",
+					"DifficultyValue": 6,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "6"
+						}
+					]
+				},				
+				{
+					"ID": "diff_CMD_bringit",
+					"Name": "Bring It!",
+					"DifficultyValue": 7,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "7"
+						}
+					]
+				},
+				{
+					"ID": "diff_CMD_HMPlenty",
+					"Name": "Hurt me Plenty",
+					"DifficultyValue": 8,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "8"
+						}
+					]
+				},
+				{
+					"ID": "diff_CMD_nightmare",
+					"Name": "Nightmare",
+					"DifficultyValue": 9,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "9"
+						}
+					]
+				},				
+				{
+					"ID": "diff_CMD_spankme",
+					"Name": "SPANK ME!",
+					"DifficultyValue": 10,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "ContractDifficultyMod",
+							"ConstantValue": "10"
+						}
+					]
 				}				
 			]
 		},
 		{
 			"ID": "diff_Starter",
 			"Name": "Starter Mech",
-			"UIOrder": 4,
+			"UIOrder": 5,
 			"Tooltip": "Select your starter Mech.",
 			"Enabled": true,
 			"Visible": true,
@@ -390,191 +668,9 @@
 			]
 		},		
 		{
-			"ID": "diff_Contracts",
-			"Name": "Contracts generated",
-			"UIOrder": 5,
-			"Tooltip": "Set your Choice of Maximum Contracts generated per system. <color=#ff0000>Requires Saving and Reload to take effect!.</color>",
-			"Enabled": true,
-			"Visible": true,
-			"Toggle": false,
-			"StartOnly": false,
-			"DefaultIndex": 3,
-			"Options": [
-				{
-					"ID": "diff_CG_supereasy2",
-					"Name": "16",
-					"DifficultyValue": -1,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "MaxContractsPerSystem",
-							"ConstantValue": "16"
-						}
-					]
-				},			
-				{
-					"ID": "diff_CG_supereasy1",
-					"Name": "14",
-					"DifficultyValue": -1,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "MaxContractsPerSystem",
-							"ConstantValue": "14"
-						}
-					]
-				},			
-				{
-					"ID": "diff_CG_supereasy",
-					"Name": "12",
-					"DifficultyValue": -1,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "MaxContractsPerSystem",
-							"ConstantValue": "12"
-						}
-					]
-				},
-				{
-					"ID": "diff_CG_easy",
-					"Name": "10",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "MaxContractsPerSystem",
-							"ConstantValue": "10"
-						}
-					]
-				},
-				{
-					"ID": "diff_CG_medium",
-					"Name": "8",
-					"DifficultyValue": 1,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "MaxContractsPerSystem",
-							"ConstantValue": "8"
-						}
-					]
-				},
-				{
-					"ID": "diff_CG_hard",
-					"Name": "6",
-					"DifficultyValue": 1,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "MaxContractsPerSystem",
-							"ConstantValue": "6"
-						}
-					]
-				},
-				{
-					"ID": "diff_CG_superhard",
-					"Name": "4",
-					"DifficultyValue": 2,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "MaxContractsPerSystem",
-							"ConstantValue": "4"
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "diff_Breadcrums",
-			"Name": "Deployments generated",
-			"UIOrder": 6,
-			"Tooltip": "Set your Choice of Deployments generated per system. <color=#ff0000>Requires Saving and Reload to take effect!.</color>",
-			"Enabled": true,
-			"Visible": true,
-			"Toggle": false,
-			"StartOnly": false,
-			"DefaultIndex": 4,
-			"Options": [
-				{
-					"ID": "diff_BC_supereasy2",
-					"Name": "7",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "MaxBreadcrumbsPerSystem",
-							"ConstantValue": "7"
-						}
-					]
-				},				
-				{
-					"ID": "diff_BC_supereasy1",
-					"Name": "6",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "MaxBreadcrumbsPerSystem",
-							"ConstantValue": "6"
-						}
-					]
-				},			
-				{
-					"ID": "diff_BC_supereasy",
-					"Name": "5",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "MaxBreadcrumbsPerSystem",
-							"ConstantValue": "5"
-						}
-					]
-				},
-				{
-					"ID": "diff_BC_easy",
-					"Name": "4",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "MaxBreadcrumbsPerSystem",
-							"ConstantValue": "4"
-						}
-					]
-				},
-				{
-					"ID": "diff_BC_medium",
-					"Name": "3",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "MaxBreadcrumbsPerSystem",
-							"ConstantValue": "3"
-						}
-					]
-				},
-				{
-					"ID": "diff_BC_superhard",
-					"Name": "2",
-					"DifficultyValue": 0,
-					"DifficultyConstants": [
-						{
-							"ConstantType": "Story",
-							"ConstantName": "MaxBreadcrumbsPerSystem",
-							"ConstantValue": "2"
-						}
-					]
-				}
-			]
-		},
-		{
 			"ID": "diff_DifficVariance",
 			"Name": "Contract Difficulty Variance",
-			"UIOrder": 7,
+			"UIOrder": 6,
 			"Tooltip": "Set your Choice of Maximum difficulty difference between generated contracts<color=#F79B26>Each number is a half skull difference to your global difficulty.</color>",
 			"Enabled": true,
 			"Visible": true,
@@ -719,7 +815,7 @@
 		{
 			"ID": "diff_contractPayment",
 			"Name": "Contract Payment",
-			"UIOrder": 8,
+			"UIOrder": 7,
 			"Tooltip": "This setting controls the amount of C-Bills paid by contracts across the entire game. Adjust this setting to make the economic gameplay more or less forgiving.",
 			"Enabled": true,
 			"Visible": true,
@@ -792,7 +888,7 @@
 		{
 			"ID": "diff_baseSalvage",
 			"Name": "Salvage",
-			"UIOrder": 9,
+			"UIOrder": 8,
 			"Tooltip": "This setting changes the amount of salvage you may obtain from negotiation. Adjust this setting to make the economic gameplay more or less forgiving.",
 			"Enabled": true,
 			"Visible": true,
@@ -841,7 +937,7 @@
 		{
 			"ID": "diff_CommanderEXP",
 			"Name": "Commander Experience Points",
-			"UIOrder": 10,
+			"UIOrder": 9,
 			"Tooltip": "Use this to decide for the starting Experience of your Commander",
 			"Enabled": true,
 			"Visible": true,
@@ -902,7 +998,7 @@
 		{
 			"ID": "diff_advancedPilots",
 			"Name": "Advanced MechWarriors",
-			"UIOrder": 11,
+			"UIOrder": 10,
 			"Tooltip": "In the later parts of the game, new MechWarriors in the Hiring Hall will often have better stats and skills than in the early parts of the game. Modify this setting to change the frequency of new MechWarriors having these improvements.",
 			"Enabled": true,
 			"Visible": true,
@@ -1096,7 +1192,7 @@
 		{
 			"ID": "diff_pilotpersystem",
 			"Name": "Pilots per system",
-			"UIOrder": 13,
+			"UIOrder": 12,
 			"Tooltip": "This setting controls the Pilots avaible per System",
 			"Enabled": true,
 			"Visible": true,
@@ -1229,7 +1325,7 @@
 		{
 			"ID": "diff_pilotProgression",
 			"Name": "MechWarrior Progression",
-			"UIOrder": 14,
+			"UIOrder": 13,
 			"Tooltip": "This setting controls the amount of experience MechWarriors gain after each mission. Change this setting to adjust the rate at which MechWarriors improve their stats and gain new skills.",
 			"Enabled": true,
 			"Visible": true,
@@ -1314,7 +1410,7 @@
 		{
 			"ID": "diff_pilotExponent",
 			"Name": "MechWarrior Exponent",
-			"UIOrder": 15,
+			"UIOrder": 14,
 			"Tooltip": "This setting controls the exponent of raising XP Cost per Level. <color=#F79B26>LevelCost=(Potential Level,Exponent)*Multiplier.</color>",
 			"Enabled": true,
 			"Visible": true,
@@ -1399,7 +1495,7 @@
 		{
 			"ID": "diff_pilotcostmultiplier",
 			"Name": "MechWarrior Multiplier",
-			"UIOrder": 16,
+			"UIOrder": 15,
 			"Tooltip": "This setting controls the multiplier of XP Cost per Level. <color=#F79B26>LevelCost=(Potential Level,Exponent)*Multiplier.</color>",
 			"Enabled": true,
 			"Visible": true,
@@ -1484,7 +1580,7 @@
 		{
 			"ID": "diff_lethality",
 			"Name": "Lethality",
-			"UIOrder": 17,
+			"UIOrder": 16,
 			"Tooltip": "Choose the chance of being KILLED IN ACTION from never to always.",
 			"Enabled": true,
 			"Visible": true,
@@ -1565,14 +1661,26 @@
 		{
 			"ID": "diff_money",
 			"Name": "Starting Money",
-			"UIOrder": 18,
+			"UIOrder": 17,
 			"Tooltip": "Select your starting capital.",
 			"Enabled": true,
 			"Visible": true,
 			"Toggle": false,
 			"StartOnly": false,
-			"DefaultIndex": 3,
+			"DefaultIndex": 4,
 			"Options": [
+				{
+					"ID": "diff_SM_supereasy",
+					"Name": "CHEAT",
+					"DifficultyValue": 0,
+					"DifficultyConstants": [
+						{
+							"ConstantType": "Story",
+							"ConstantName": "StartingCBills",
+							"ConstantValue": "65800000"
+						}
+					]
+				},			
 				{
 					"ID": "diff_SM_supereasy",
 					"Name": "6580000",
@@ -1650,7 +1758,7 @@
 		{
 			"ID": "diff_MechBayTechCost",
 			"Name": "Mech Bay Speed",
-			"UIOrder": 19,
+			"UIOrder": 18,
 			"Tooltip": "Select Mech Bay construction Speeds",
 			"Enabled": true,
 			"Visible": true,
@@ -1948,7 +2056,7 @@
 		{
 			"ID": "diff_ArmourTechCost",
 			"Name": "Mech Bay Armour Speed",
-			"UIOrder": 20,
+			"UIOrder": 19,
 			"Tooltip": "Select the speed at which your armour is changed",
 			"Enabled": true,
 			"Visible": true,
@@ -2021,7 +2129,7 @@
 		{
 			"ID": "diff_MechBayBillsCost",
 			"Name": "Mech Bay CBILLS",
-			"UIOrder": 21,
+			"UIOrder": 20,
 			"Tooltip": "Select Mech Bay Cbill Cost",
 			"Enabled": true,
 			"Visible": true,
@@ -2282,7 +2390,7 @@
 		{
 			"ID": "diff_ArgoMaintenance",
 			"Name": "Argo Monthly Payment",
-			"UIOrder": 22,
+			"UIOrder": 21,
 			"Tooltip": "Select The modifer strength for Monthly Costs.",
 			"Enabled": true,
 			"Visible": true,
@@ -2430,7 +2538,7 @@
 		{
 			"ID": "diff_ArgoMorale",
 			"Name": "Argo Monthly Morale",
-			"UIOrder": 23,
+			"UIOrder": 22,
 			"Tooltip": "Select The modifer Argo Monthly Morale.",
 			"Enabled": true,
 			"Visible": true,
@@ -2578,7 +2686,7 @@
 		{
 			"ID": "diff_ShopSell",
 			"Name": "Shop Selling Prices",
-			"UIOrder": 24,
+			"UIOrder": 23,
 			"Tooltip": "Set your desired Selling Values.",
 			"Enabled": true,
 			"Visible": true,
@@ -2843,7 +2951,7 @@
 {
 			"ID": "diff_ShopScrap",
 			"Name": "Scrap Return Values",
-			"UIOrder": 25,
+			"UIOrder": 24,
 			"Tooltip": "Set your desired Scrapping Payouts.",
 			"Enabled": true,
 			"Visible": true,
@@ -3108,7 +3216,7 @@
 {
 			"ID": "diff_ShopSize",
 			"Name": "Max Shop Inventory",
-			"UIOrder": 26,
+			"UIOrder": 25,
 			"Tooltip": "Set your desired Max Shop Inventory.",
 			"Enabled": true,
 			"Visible": true,
@@ -3241,7 +3349,7 @@
 {
 			"ID": "diff_ShopSpecials",
 			"Name": "Max Specials per shop",
-			"UIOrder": 27,
+			"UIOrder": 26,
 			"Tooltip": "Set your desired Max Special Amount .",
 			"Enabled": true,
 			"Visible": true,

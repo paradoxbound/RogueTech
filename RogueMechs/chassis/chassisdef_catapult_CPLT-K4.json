@@ -76,7 +76,7 @@
     "UIName": "Catapult",
     "Id": "chassisdef_catapult_CPLT-K4",
     "Name": "Catapult",
-    "Details": "An upgrade of the prototype K3, this Kuritan variant carries twin Heavy and Light PPCs linked to a Prototype Capacitator. <b><color=#009933>Quirk: Advanced PPC Capacitator</color></b>",
+    "Details": "An upgrade of the prototype K3, this Kuritan variant carries twin Heavy and Light PPCs linked to a Prototype Capacitator. <b><color=#009933>Quirk: Advanced PPC Capacitator - Superior PPC Damage</color></b>",
     "Icon": "uixTxrIcon_catapultk2"
   },
   "MovementCapDefID": "movedef_catapult_CPLT-C1",
@@ -292,5 +292,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "PPC Carrier",
-  "YangsThoughts": "An upgrade of the prototype K3, this Kuritan variant carries twin Heavy and Light PPCs linked to a Prototype Capacitator. <b><color=#009933>Quirk: Advanced PPC Capacitator</color></b>"
+  "YangsThoughts": "An upgrade of the prototype K3, this Kuritan variant carries twin Heavy and Light PPCs linked to a Prototype Capacitator. <b><color=#009933>Quirk: Advanced PPC Capacitator - Superior PPC Damage</color></b>"
 }

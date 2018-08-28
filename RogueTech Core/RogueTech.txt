@@ -70,6 +70,136 @@ Changelog
 ---------
 *The exact changes will be kept in Articles, so you can check what it all does (will do my best to clean it up).*
 
+0.99 Stable Release
+
+COMPATIBILITY PATCH FOR 1.2
+
+REQUIRES BATTLETECH 1.2
+REQUIRES CLEAN INSTALL OPTION SET!
+REQUIRES TO PATCH BTML!
+
+Patched Harmony
+Patched MechEngineer
+Patched CustomComponents
+Patched ArmorRepair
+Patched PerformanceFixer
+Patched Wartech
+Patched DropCostbymech
+Patched Deployments
+Patched AIM
+Patched SortByTonnage
+Patched ScorchedEarth
+Patched CrystalClear
+Patched PilotQuirks
+Patched MonthlyMoraleAndTechAdjustment
+Patched Panic System
+Patched Turbine
+Patched WeaponRealizer
+Patched CharlesB
+Patched CBT Heat
+Patched CBT Piloting
+Patched Pilot Quirks
+Patched WorkOrderMover
+
+First pass of ThroughArmorCriticals
+dealing 25% of armor damage has a chance to be a critical hit
+
+Improved item Sorting
+Items are now first sorted by a string instead of their GUID
+Currently Incompatible to Perf Fixer
+
+Improved Descriptions for many items
+Now shows a list of its effects
+
+Improved Descriptions of Chassis Quirks
+
+Assorted Balance tweaks
+
+Difficulty Menu rework
+Contracts set to 12
+Deployments set to 4
+
+----
+
+0.99 Public Alpha 2 fixes1
+One bug found and fixed
+Pirate Weapons got descriptions
+Patched Pilot Quirks
+Patched WorkOrderMover
+
+0.99 Public Alpha 2
+Patched Panic System
+Patched MechEngineer
+Patched Turbine
+
+First batch of upgraded item and gear descriptions
+Now list all their bonus on their item card
+
+
+0.99 Public Alpha fixes1hf1
+fixed a typo
+
+0.99 Public Alpha fixes1
+Several minor fixes
+
+0.99 Public Alpha 1
+Fixed test mechs in simgameconstants
+Difficulty Menu rework
+Contracts set to 12
+Deployments set to 4
+
+0.99 Preview2
+
+Minor fixes
+
+Patched WeaponRealizer
+Patched CharlesB
+Patched MechEngineer
+Patched Panic System
+Patched CBT Heat
+Patched CBT Piloting
+
+0.99 preview1
+
+COMPATIBILITY PATCH FOR 1.2
+
+REQUIRES BATTLETECH 1.2
+REQUIRES CLEAN INSTALL OPTION SET!
+REQUIRES TO PATCH BTML!
+
+Game now always starts in combat state to prevent turndirector bug
+
+Upgraded all tanks and their options
+Hopefully preventing database lances breaking
+Added an option to select base change to recover own mech
+Camzoom removed and changes through combatgameconstants
+Removed Exclusive filter
+Removed ShopSeller
+Removed FastSaveDelete
+Reworked calculations for engine refits
+Quirk Descriptions Updated for all mechs, some redesigned
+Reworked costs for repairing alternate armor, on average, cheaper
+Clan CASEII restricted to clan armors
+Reduced Chance for HeadInjury
+
+
+Patched Harmony
+Patched MechEngineer
+Patched CustomComponents
+Patched ArmorRepair
+Patched PerformanceFixer
+Patched Wartech
+Patched DropCostbymech
+Patched Deployments
+Patched AIM
+Patched SortByTonnage
+Patched ScorchedEarth
+Patched CrystalClear
+Patched PilotQuirks
+Patched MonthlyMoraleAndTechAdjustment
+Patched Panic System
+
+
 0989 Patch4fix1
 Fixed roguetankscore issues
 a few upgrades to quirks descriptions on chassis

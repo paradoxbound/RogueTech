@@ -1,6 +1,15 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "ENGTTST3"} },
+	"Custom" :  {"Category" : { "CategoryID" : "ENGTTST3"},
+        "BonusDescriptions": {
+            "Bonuses": [
+                "EnergyAcc: +3"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00027"
+            }		
+	},
 
     "StatName" : null,
     "RelativeModifier" : 0,

@@ -1,6 +1,19 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "GaussAmmo"}, "Tag" : "Heavy", "Flags" : { "flags" : [ "not_broken" ] } },
+	"Custom" :  {"Category" : { "CategoryID" : "GaussAmmo"}, "Tag" : "Heavy", "Flags" : { "flags" : [ "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "GaussDamage: 25%",
+				"Range: -50%"
+                "GaussAccuracy: -1",
+                "GaussAmmo",
+				"GaussNoBoom"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0005"
+            },		
+	},
 
     "AmmoID" : "Ammunition_GAUSS",
     "Capacity" : 4,

@@ -27,7 +27,7 @@
     "OneChangePerTurn": false,
 
     /* percent of remaining armor that must be destroyed to cause a panic save */
-    "MinimumArmorDamagePercentageRequired": 10,
+    "MinimumDamagePercentageRequired": 10,
 
     /* integer number of cumulative structure damage required to cause a panic save */
     "MinimumStructureDamageRequired": 5,
@@ -41,10 +41,10 @@
     "LeggedMaxModifier": 15,
     "WeaponlessModifier": 15,
     "AloneModifier": 5,
-    "MoraleMaxModifier": 10,
+    "ResolveMaxModifier": 10,
 
     /* AI morale goes to 50 */
-    "MedianMorale": 15,
+    "MedianResolve": 20,
     
     /* factors that affect only panic saving throws based on existing panic state */
     "UnsettledPanicModifier": 1,

@@ -1,6 +1,18 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamage": 20 } },
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 30 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "WpnAccuracy: -1",
+				"OHDamage: 75%",
+				"PipsIgnored: 1",
+				"VariableDmg: 2"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "03012"
+            }		
+ },
 
     "Category" : "Missile",
     "Type" : "LRM",
@@ -16,7 +28,7 @@
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 12,
     "Damage" : 4,
-    "OverheatedDamageMultiplier" : 1.5,
+    "OverheatedDamageMultiplier" : 1.75,
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 1,
     "DamageVariance" : 2,

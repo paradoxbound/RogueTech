@@ -1,7 +1,10 @@
 {
 
 	"Custom" : {
-		"Flags" : { "flags" : [ "not_broken" ] }
+		"Flags" : { "flags" : [ "not_broken" ] },
+            "InventorySorter" : {
+                "SortKey" : "00012"
+            }		
 	},
 
     "StatName" : null,

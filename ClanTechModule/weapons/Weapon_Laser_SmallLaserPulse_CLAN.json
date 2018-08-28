@@ -1,4 +1,16 @@
 {
+
+	"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+                "Pulse"
+            ]
+        },	
+            "InventorySorter" : {
+                "SortKey" : "02004"
+            }
+		}
+		
     "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "SmallLaserPulse",

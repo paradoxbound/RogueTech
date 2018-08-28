@@ -1,6 +1,10 @@
 {
 
-	"Custom" :   { "Category" : { "CategoryID" : "MeleeWeapon"} },
+	"Custom" :   { "Category" : { "CategoryID" : "MeleeWeapon"},
+            "InventorySorter" : {
+                "SortKey" : "04001"
+            }
+	},
 	
     "Category" : "AntiPersonnel",
     "Type" : "Flamer",

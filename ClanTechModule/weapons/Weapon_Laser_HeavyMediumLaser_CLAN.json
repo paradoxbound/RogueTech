@@ -1,4 +1,11 @@
 {
+
+	"Custom": {
+            "InventorySorter" : {
+                "SortKey" : "02005"
+            }
+		}
+		
     "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "MediumLaser",
@@ -11,7 +18,7 @@
     ],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 23,
+    "HeatGenerated" : 33,
     "Damage" : 50,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
@@ -29,7 +36,7 @@
     "Instability" : 4.1,
     "WeaponEffectID" : "WeaponEffect-Weapon_Laser_Medium",
     "Description" : {
-        "Cost" : 240000,
+        "Cost" : 720000,
         "Rarity" : 10,
         "Purchasable" : true,
         "Manufacturer" : "CLAN",

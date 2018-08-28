@@ -1,6 +1,11 @@
 {
 
-"Custom" :  {"Category" : { "CategoryID" : "UAC10"}},
+"Custom" :  {"Category" : { "CategoryID" : "UAC10"},
+            "InventorySorter" : {
+                "SortKey" : "01007"
+            }
+
+},
 
     "Category" : "Ballistic",
     "Type" : "Autocannon",
@@ -37,7 +42,7 @@
         "Purchasable" : true,
         "Manufacturer" : "CLAN",
         "Model" : "Heavy Autocannon",
-        "UIName" : "AC/10 Ultra (C)",
+        "UIName" : "Ultra AC/10 (C)",
         "Id" : "Weapon_Autocannon_AC10_CLAN",
         "Name" : "UAC/10 (C)",
         "Details" : "One of the most powerful and efficient weapons mounted in combat, AC/10s are known for their heavy damage and ability to stagger opponents. Like all Autocannon weaponry, AC/10s suffer from recoil effects from continuous fire.",

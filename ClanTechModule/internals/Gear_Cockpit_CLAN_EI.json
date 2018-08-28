@@ -9,7 +9,16 @@
 				"TechCost": "[[Chassis.Tonnage]]/8",
 				"CBillCost": "[[Chassis.Tonnage]] * 1.35"
 			}
-		}		
+		},
+        "BonusDescriptions": {
+            "Bonuses": [
+                "DamageTaken: -10%",
+                "WeaponDamage: +5%"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00019"
+            }		
 	},
 
     "StatName" : null,
@@ -21,7 +30,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Clan",
         "Model" : "EI Cockpit",
-        "UIName" : "Cockpit EI (C)",
+        "UIName" : "Enhanced Imaging (C)",
         "Id" : "Gear_Cockpit_CLAN_EI",
         "Name" : "Enhanced Imaging Cockpit",
         "Details" : "Developed by the Clans, Enhanced Imaging is an advanced targeting and piloting system for use with humanoid shaped combat vehicles such as BattleMechs. While offering considerable advantages, EI inflicts serious side effects on the user, including possible mental instability, nerve damage and death.",

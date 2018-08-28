@@ -28,7 +28,7 @@
 			{
                 "statName" : "RefireModifier",
                 "operation" : "Int_Add",
-                "modValue" : "-2",
+                "modValue" : "-1",
                 "modType" : "System.Int32",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -58,7 +58,7 @@
 			{
 				"statName" : "MinRange",
 				"operation" : "Float_Multiply",
-				"modValue" : "0.5",
+				"modValue" : "0.25",
 				"modType" : "System.Single",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -88,7 +88,7 @@
 			{
 				"statName" : "ShortRange",
 				"operation" : "Float_Multiply",
-				"modValue" : "1.15",
+				"modValue" : "1.25",
 				"modType" : "System.Single",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -118,7 +118,7 @@
 			{
 				"statName" : "MediumRange",
 				"operation" : "Float_Multiply",
-				"modValue" : "1.15",
+				"modValue" : "1.25",
 				"modType" : "System.Single",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -148,7 +148,7 @@
 			{
 				"statName" : "LongRange",
 				"operation" : "Float_Multiply",
-				"modValue" : "1.15",
+				"modValue" : "1.25",
 				"modType" : "System.Single",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -178,7 +178,7 @@
 			{
 				"statName" : "MaxRange",
 				"operation" : "Float_Multiply",
-				"modValue" : "1.3",
+				"modValue" : "1.45",
 				"modType" : "System.Single",
                 "targetCollection" : "Weapon",
                 "targetWeaponCategory" : "Ballistic",
@@ -198,7 +198,7 @@
     "UIName": "JagerMech",
     "Id": "chassisdef_jagermech_JM7-F",
     "Name": "JagerMech",
-    "Details": "The JagerMech 7F has been upgraded to carry twin Rotary Autocannon/5, providing ranged fire support only surpassed by Assault class Battlemechs. <b><color=#009933>Quirk: FLAK AC</color></b>",
+    "Details": "The JagerMech 7F has been upgraded to carry twin Rotary Autocannon/5, providing ranged fire support only surpassed by Assault class Battlemechs. <b><color=#009933>Quirk: FLAK AC - Improved AC Ranges</color></b>",
     "Icon": "uixTxrIcon_jagermech"
   },
   "MovementCapDefID": "movedef_jagermech_JM6-S",
@@ -417,5 +417,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fire Support",
-  "YangsThoughts": "The JagerMech 7F has been upgraded to carry twin Rotary Autocannon/5s, providing ranged fire support only surpassed by Assault class Battlemechs. <b><color=#009933>Quirk: FLAK AC</color></b>"
+  "YangsThoughts": "The JagerMech 7F has been upgraded to carry twin Rotary Autocannon/5s, providing ranged fire support only surpassed by Assault class Battlemechs. <b><color=#009933>Quirk: FLAK AC - Improved AC Ranges</color></b>"
 }

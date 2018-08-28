@@ -1,6 +1,18 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "LegUpgrade"} },
+	"Custom" :  {"Category" : { "CategoryID" : "LegUpgrade"},
+        "BonusDescriptions": {
+            "Bonuses": [
+                "MeleeAcc: +1",
+                "DFAAcc: +1",
+                "Melee2: +20",
+                "DFA2: +20"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00021"
+            }		
+	},
 
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -23,7 +35,7 @@
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
     "BattleValue" : 0,
-    "InventorySize" : 2,
+    "InventorySize" : 1,
     "Tonnage" : 2,
     "AllowedLocations" : "Legs",
     "DisallowedLocations" : "All",

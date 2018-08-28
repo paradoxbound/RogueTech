@@ -1,4 +1,20 @@
 {
+
+	"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+                "PPCDEBUFF: -2",
+                "WpnCrits: +20%",
+				"VariableDmg: 25",
+				"WpnAccuracy: +1",
+				"WpnRecoil: 4"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "02011"
+            }		
+	},
+	
     "Category" : "Energy",
     "Type" : "PPC",
     "WeaponSubType" : "PPC",

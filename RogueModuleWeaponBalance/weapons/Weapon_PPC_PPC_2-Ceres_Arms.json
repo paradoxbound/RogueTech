@@ -1,4 +1,11 @@
 {
+
+	"Custom": {
+            "InventorySorter" : {
+                "SortKey" : "02011"
+            }
+		},
+		
     "Category" : "Energy",
     "Type" : "PPC",
     "WeaponSubType" : "PPC",

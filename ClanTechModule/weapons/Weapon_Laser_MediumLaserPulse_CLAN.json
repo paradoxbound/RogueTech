@@ -1,4 +1,16 @@
 {
+
+	"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+                "Pulse"
+            ]
+        },	
+            "InventorySorter" : {
+                "SortKey" : "02007"
+            }
+		}
+		
     "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "MediumLaserPulse",

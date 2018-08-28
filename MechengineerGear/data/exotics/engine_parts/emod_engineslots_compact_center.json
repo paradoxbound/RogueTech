@@ -12,7 +12,15 @@
 		"Category" : { 
 			"CategoryID" : "EngineShield" 
 		},
-		"Flags" : { "flags" : [ "engine_part", "not_broken" ] }
+		"Flags" : { "flags" : [ "engine_part", "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "EngineWeight: +50%"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0013"
+            }		
 	},
     "Description" : {
         "Cost" : 625000,

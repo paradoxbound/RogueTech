@@ -1,6 +1,17 @@
 {
 
-"Custom" :  {"Category" : { "CategoryID" : "Streak"}},
+"Custom" :  {"Category" : { "CategoryID" : "Streak"},
+	"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+                "Streak"
+            ]
+        }		
+	},
+            "InventorySorter" : {
+                "SortKey" : "03008"
+            }
+},
 
 
     "Category" : "Missile",

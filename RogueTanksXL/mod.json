@@ -1,0 +1,26 @@
+{
+    "Name": "RogueTanksXL",
+    "Enabled": true,
+
+    "Version": "2.1.7",
+    "Description": "The Expanded Tanks of Roguetech",
+    "Author": "Cargo Vroom and LadyAlecto, with thanks to Justin Kase",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+	
+				"DependsOn": [ "RogueModuleTech", "CustomComponents"],
+
+    "Manifest": [
+	{ "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
+    	{ "Type": "VehicleDef", "Path": "vehicle" }
+    ]
+	
+	
+	
+
+    
+
+		
+
+	
+}

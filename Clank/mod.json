@@ -1,14 +1,26 @@
 {
-	"Name": "Clan Tank Module",
-	"Author": "Cargo_Vroom",
-	"Website": "",
+    "Name": "CLANK",
+    "Enabled": true,
 
-	"Enabled": true,
-	"DependsOn": ["CustomComponents", "MechEngineer", "ClanTech Module"],
+    "Version": "0.0.1",
+    "Description": "CLan TaNKs",
+    "Author": "Cargo_Vroom for Roguetech",
+    "Website": "",
+    "Contact": "fakeemail@fakeemail.com",
+	
+				"DependsOn": [ "RogueModuleTech", "CustomComponents"],
 
-
-	"Manifest": [
-		{ "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
+    "Manifest": [
+	{ "Type": "VehicleChassisDef", "Path": "vehiclechassis" },
     	{ "Type": "VehicleDef", "Path": "vehicle" }
-	]
+    ]
+	
+	
+	
+
+    
+
+		
+
+	
 }

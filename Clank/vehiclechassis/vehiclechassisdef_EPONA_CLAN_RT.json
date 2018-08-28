@@ -1,7 +1,7 @@
 {
 	"Description": {
 		"Id": "vehiclechassisdef_EPONA_CLAN_RT",
-		"Name": "Epona-D",
+		"Name": "Epona Prime",
 		"Details": "",
 		"Icon": "MANTICORE",
 		"Cost": 1393,
@@ -66,16 +66,7 @@
 	"Locations": [
 		{
 			"Location": "Front",
-			"Hardpoints": [
-			{
-				"WeaponMount": "Energy",
-				"Omni": false
-			},
-			{
-				"WeaponMount": "Energy",
-				"Omni": false
-			}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 0,
 			"MaxArmor": 5,
@@ -109,7 +100,23 @@
 			"Location": "Turret",
 			"Hardpoints": [
 			{
-				"WeaponMount": "Ballistic",
+				"WeaponMount": "Missile",
+				"Omni": false
+			},
+			{
+				"WeaponMount": "Energy",
+				"Omni": false
+			},
+			{
+				"WeaponMount": "Energy",
+				"Omni": false
+			},
+			{
+				"WeaponMount": "Energy",
+				"Omni": false
+			},
+			{
+				"WeaponMount": "Energy",
 				"Omni": false
 			}
 			],

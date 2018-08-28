@@ -1,4 +1,11 @@
 {
+
+	"Custom": {
+            "InventorySorter" : {
+                "SortKey" : "02008"
+            }
+		},
+		
     "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "LargeLaser",
@@ -34,7 +41,7 @@
         "Purchasable" : true,
         "Manufacturer" : "ExoStar",
         "Model" : "Large Laser",
-        "UIName" : "Laser L +",
+        "UIName" : "Large Laser +",
         "Id" : "Weapon_Laser_LargeLaser_1-ExoStar",
         "Name" : "L Laser +",
         "Details" : "Large Lasers exhibit a powerful combination of damage, range, and compactness but generate a substantial amount of heat. Like all Lasers, Large Lasers enjoy a baseline accuracy bonus over other weapons.",

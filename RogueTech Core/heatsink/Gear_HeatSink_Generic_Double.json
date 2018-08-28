@@ -5,7 +5,10 @@
 			"FullName": "Double Heat Sinks",
 			"Abbreviation": "DHS",
 			"Tag": "DHS"
-		}
+		},
+            "InventorySorter" : {
+                "SortKey" : "00015"
+            }		
 	},
 
     "DissipationCapacity" : 6,

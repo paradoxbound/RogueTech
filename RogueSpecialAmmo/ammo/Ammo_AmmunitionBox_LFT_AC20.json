@@ -1,6 +1,17 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC20Ammo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 25, "StabilityDamagePerAmmo": 75 } },
+	"Custom" :  {"Category" : { "CategoryID" : "AC20Ammo"}, "Tag" : "LFT", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 25, "StabilityDamagePerAmmo": 75 },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"StabDamage: X2",
+                "ACDamage: -75%",
+                "AC20Ammo"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0004"
+            },		
+	},
 
     "AmmoID" : "Ammunition_AC20",
     "Capacity" : 5,

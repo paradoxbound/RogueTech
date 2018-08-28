@@ -6,7 +6,15 @@
 		"ArmActuator" : {
 			"AccuracyBonus" : -1,
 			"Type" : "Lower"
-		}
+		},
+        "BonusDescriptions": {
+            "Bonuses": [
+                "ArmAccuracy: +1"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00020"
+            }		
 	},
     "Description" : {
         "Cost" : 50000,
@@ -14,7 +22,7 @@
         "Purchasable" : false,
         "Manufacturer" : "Generic",
         "Model" : "Standard",
-        "UIName" : "Arm Lower",
+        "UIName" : "Lower Arm",
         "Id" : "emod_arm_lower",
         "Name" : "Arm Lower Actuator",
         "Details" : "An Actuator is a component within a BattleMech's limbs, composed of the joint, myomer bundles, and motor control units. The Lower Arm Actuator improves Arm Mounted accuracy.",

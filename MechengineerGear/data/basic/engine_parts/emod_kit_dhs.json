@@ -25,6 +25,9 @@
 				"CBillCost": "250"
 			}
 		},
+            "InventorySorter" : {
+                "SortKey" : "00016"
+            }		
 	},
     "DissipationCapacity" : 0,
     "Description" : {

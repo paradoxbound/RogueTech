@@ -2,7 +2,15 @@
 	"Custom": {
 		"Category" : { 
 			"CategoryID" : "CASE2" 
-		}			
+		},
+        "BonusDescriptions": {
+            "Bonuses": [
+				"CASEII"
+            ]	
+},
+            "InventorySorter" : {
+                "SortKey" : "0011"
+            }		
 	},
     "Description" : {
         "Cost" : 500000,
@@ -16,8 +24,8 @@
         "Details" : "CASE II is an experimental version of standard CASE. When an internal explosion occurs, CASE II reduces the damage to the Internal Structure of the installed location, making it take only three points of damage.",
         "Icon" : "uixSvgIcon_action_end"
     },
-    "BonusValueA" : "",
-    "BonusValueB" : "",
+    "BonusValueA" : "Contains",
+    "BonusValueB" : "Explosions",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",

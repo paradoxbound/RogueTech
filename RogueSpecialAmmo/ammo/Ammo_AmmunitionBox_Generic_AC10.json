@@ -1,7 +1,10 @@
 {
 
 	"Custom" : {
-		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 60,"StabilityDamagePerAmmo": 15 }
+		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 60,"StabilityDamagePerAmmo": 15 },
+            "InventorySorter" : {
+                "SortKey" : "0003"
+            },		
 	},
 
     "AmmoID" : "Ammunition_AC10",

@@ -26,19 +26,31 @@
         "CASE": {
             "AllLocations": true
         },		
-		"ArmorRepair" : { "ArmorTPCost" : 1.5, "ArmorCBCost" : 1.8 },		
-		"Flags" : { "flags" : [ "ignore_damage", "autorepair", "not_broken" ] }		
+		"ArmorRepair" : { "ArmorTPCost" : 1.3, "ArmorCBCost" : 1.65 },		
+		"Flags" : { "flags" : [ "autorepair", "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "ArmorFactor: -12%",
+                "Reserved: 7",
+				"ArmorTPCost: 30%",
+				"ArmorCBCost: 65%",
+				"CASE"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00009"
+            }						
 	},
     "Description" : {
-        "Cost" : 100000,
+        "Cost" : 1000000,
         "Rarity" : 10,
         "Purchasable" : true,
         "Manufacturer" : "Clan",
         "Model" : "Armor Critical Slot",
-        "UIName" : "Armor Ferro-Fibrous (C)",
+        "UIName" : "Ferro-Fibrous (C)",
         "Id" : "emod_armorslots_clanferrosfibrous",
         "Name" : "Ferro-Fibrous Armor (C)",
-        "Details" : "Clan Ferro-Fibrous armor (cFF) is a special type of armor used by vehicles and BattleMechs. Utilizing a weave of ferro-steel, ferro-titanium, and diamond weave fibers which boosts the tensile strength of the plating, it provides more protection per ton than standard armor, but takes up more space on the 'Mech or vehicle.<b><color=#00ff00>CASE Enabled</color></b>",
+        "Details" : "Clan Ferro-Fibrous armor (cFF) is a special type of armor used by vehicles and BattleMechs. Utilizing a weave of ferro-steel, ferro-titanium, and diamond weave fibers which boosts the tensile strength of the plating, it provides more protection per ton than standard armor, but takes up more space on the 'Mech or vehicle. <b><color=#00ff00>CASE Enabled</color></b>",
         "Icon" : "uixSvgIcon_action_end"
     },
     "BonusValueA" : "-12% Armor Weight|",

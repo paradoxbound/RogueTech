@@ -1,4 +1,20 @@
 {
+
+"Custom":{
+        "BonusDescriptions": {
+            "Bonuses": [
+                "WpnRecoil: 6",
+				"VariableDmg: 66",
+				"WpnCrits: +66%"
+				"WpnAccuracy: +1",				
+				"PipsIgnored: 1"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "01004"
+            }		
+	},
+
     "Category" : "Ballistic",
     "Type" : "Autocannon",
     "WeaponSubType" : "AC20",
@@ -19,7 +35,7 @@
     "DamageVariance" : 66,
     "HeatDamage" : 0,
     "AccuracyModifier" : -1,
-    "CriticalChanceMultiplier" : 1,
+    "CriticalChanceMultiplier" : 1.66,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 6,

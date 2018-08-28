@@ -10,14 +10,28 @@
 			}
 		},
 		"Weights": {
-			"ArmorFactor": 1.99850
+			"ArmorFactor": 2
 		},
 		"ArmorStructureChanges": { "ArmorFactor": 2 },
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},
 		"ArmorRepair" : { "ArmorTPCost" : 1.5, "ArmorCBCost" : 1.5 },		
-		"Flags" : { "flags" : [ "ignore_damage", "autorepair", "not_broken" ] }			
+		"Flags" : { "flags" : [ "ignore_damage", "autorepair", "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"ArmorProtection: X2",
+				"ArmorFactor: X2",			
+				"CritRes: 50%",
+				"WalkSpeed: -20%",
+				"RunSpeed: -20%",
+				"ArmorTPCost: 50%",
+				"ArmorCBCost: 50%"				
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00009"
+            }						
 	},
 
   
@@ -30,7 +44,7 @@
         "Purchasable" : true,
         "Manufacturer" : "NAIS",
         "Model" : "Hardened",
-        "UIName" : "Armor Hardened",
+        "UIName" : "Hardened",
         "Id" : "Gear_armorslots_Hardened",
         "Name" : "Hardened Armor",
         "Details" : "Hardened Armor is a thicker armor type that uses multiple overlapping plates to provide additional protection against enemy fire. Though capable of diverting more damage than standard armor, the increased number of armor plates and their lack of flexibility makes any unit employing it more difficult to pilot, and can affect the speed as well. In fact, Hardened Armor is so heavy that it cannot be mounted on hovercraft, VTOLs, or WiGE vehicles. Reduces incoming Critical Hits.",

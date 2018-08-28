@@ -19,7 +19,16 @@
 				{ "ComponentDefId" : "emod_engineslots_size3", "Location" : "RightTorso" }
 			]
 		},
-		"Flags" : { "flags" : [ "engine_part", "not_broken" ] }
+		"Flags" : { "flags" : [ "engine_part", "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "EngineWeight: -50%",
+				"EngineReserved: 6"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0013"
+            }		
 	},
     "Description" : {
         "Cost" : 4000000,

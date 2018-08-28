@@ -1,6 +1,16 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "CombatShield"}, "Flags" : { "flags" : [ "not_broken" ] } },
+	"Custom" :  {"Category" : { "CategoryID" : "CombatShield"}, "Flags" : { "flags" : [ "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "DamageTaken: -10%",
+                "JumpDistance: -15%"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00026"
+            }		
+	},
 
     "StatName" : null,
     "RelativeModifier" : 0,

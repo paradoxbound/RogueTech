@@ -1,6 +1,17 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Heatseeker", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 8, "StabilityDamagePerAmmo": 2 } },
+	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Heatseeker", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 8, "StabilityDamagePerAmmo": 2 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "OHDamage: 75%",
+                "Accuracy: +1",
+                "SRMAmmo"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0007"
+            },		
+	},
 
     "AmmoID" : "Ammunition_SRM",
     "Capacity" : 100,

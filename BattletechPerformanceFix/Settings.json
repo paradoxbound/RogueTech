@@ -1,4 +1,5 @@
 { "logLevel" : "Debug" 
 , "experimentalLazyRoomInitialization": false
 , "experimentalLoadFixes": false
+, "experimentalSalvageSoftlockFix" : false
 }

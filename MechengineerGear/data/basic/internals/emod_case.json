@@ -2,7 +2,15 @@
 	"Custom": {
 		"Category" : { 
 			"CategoryID" : "CASE" 
-		}	
+		},
+        "BonusDescriptions": {
+            "Bonuses": [
+				"CASE"
+            ]	
+},
+            "InventorySorter" : {
+                "SortKey" : "0011"
+            }				
 	},
     "Description" : {
         "Cost" : 50000,
@@ -13,11 +21,11 @@
         "Id" : "emod_case",
         "UIName" : "C.A.S.E.",
         "Name" : "C.A.S.E.",
-        "Details" : "CASE is short for Cellular Ammunition Storage Equipment. In an internal explosion event, CASE prevents the explosion from travelling to adjacent mech compartments. While it does not prevent damage to occur in the protected area, it does prevent it from passing through, helping to prevent ammo explosions to reach the center torso of a mech.",
+        "Details" : "CASE is short for Cellular Ammunition Storage Equipment. In an internal explosion event, CASE prevents the explosion from travelling to adjacent mech compartments. While CASE does not prevent damage to occur in the protected area, it does prevent it from passing through, helping to prevent ammo explosions to reach the center torso of a mech.",
         "Icon" : "uixSvgIcon_action_end"
     },
-    "BonusValueA" : "",
-    "BonusValueB" : "",
+    "BonusValueA" : "Redirects",
+    "BonusValueB" : "Explosions",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",

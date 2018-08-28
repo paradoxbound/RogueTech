@@ -1,4 +1,19 @@
 {
+
+"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+				"Painter"
+                "PipsIgnored: 1",
+				"WpnAccuracy: +1",
+				"DmgFallOff"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "04003"
+            }		
+ },
+
     "Category" : "AntiPersonnel",
     "Type" : "Laser",
     "WeaponSubType" : "SmallLaserER",

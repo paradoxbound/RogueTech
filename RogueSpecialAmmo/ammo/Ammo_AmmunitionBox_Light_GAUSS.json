@@ -1,6 +1,19 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "GaussAmmo"}, "Tag" : "Light", "Flags" : { "flags" : [ "not_broken" ] } },
+	"Custom" :  {"Category" : { "CategoryID" : "GaussAmmo"}, "Tag" : "Light", "Flags" : { "flags" : [ "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "GaussDamage: 40%",
+				"Range: +300%"
+                "GaussAccuracy: +1",
+                "GaussAmmo",
+				"GaussNoBoom"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0005"
+            }		
+	},
 
     "AmmoID" : "Ammunition_GAUSS",
     "Capacity" : 10,

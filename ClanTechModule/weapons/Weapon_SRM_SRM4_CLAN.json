@@ -1,4 +1,10 @@
 {
+
+	"Custom": {
+            "InventorySorter" : {
+                "SortKey" : "03006"
+            }
+		},
     "Category" : "Missile",
     "Type" : "SRM",
     "WeaponSubType" : "SRM4",

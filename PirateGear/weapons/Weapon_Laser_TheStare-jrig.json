@@ -1,4 +1,20 @@
 {
+
+"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+				"Painter"
+                "PipsIgnored: 3",
+				"VariableDmg: 20",
+				"WpnRecoil: 2",
+				"DmgFallOff"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "02010"
+            }		
+ },
+ 
     "Category" : "Energy",
     "Type" : "Laser",
     "WeaponSubType" : "LargeLaserPulse",

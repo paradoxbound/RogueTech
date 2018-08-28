@@ -1,6 +1,16 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AMS"} },
+	"Custom" :  {"Category" : { "CategoryID" : "AMS"},
+        "BonusDescriptions": {
+            "Bonuses": [
+                "MissileDamageTaken: -15%",
+                "HeatPerTurn: +5"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00025"
+            }			
+	},
 
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -11,7 +21,7 @@
         "Purchasable" : true,
         "Manufacturer" : "DS Aero",
         "Model" : "Beamsplitter",
-        "UIName" : "AMS Laser",
+        "UIName" : "Laser AMS",
         "Id" : "Gear_LAMS",
         "Name" : "Laser Anti Missile System",
         "Details" : "The Laser Anti-Missile System (LAMS) is an advanced variation of the standard Anti-Missile Systems. While the standard system utilizes a machine gun linked to specialized tracking systems, the LAMS uses a Small Pulse Laser, ensuring that the system never runs out of ammunition.  LAMS generate a constant heat as they are always primed to fire immediately. Does not stack.",

@@ -23,8 +23,19 @@
 		"Category" : { 
 			"CategoryID" : "Armor" 
 		},
-		"ArmorRepair" : { "ArmorTPCost" : 1.3, "ArmorCBCost" : 1.3 },		
-		"Flags" : { "flags" : [ "not_broken" ] }		
+		"ArmorRepair" : { "ArmorTPCost" : 1.15, "ArmorCBCost" : 1.2 },		
+		"Flags" : { "flags" : [ "not_broken" ] },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "ArmorFactor: -20%",
+                "Reserved: 21",
+				"ArmorTPCost: 15%",
+				"ArmorCBCost: 20%"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00009"
+            }						
 	},
     "Description" : {
         "Cost" : 400000,
@@ -32,7 +43,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Durallex",
         "Model" : "Armor Critical Slot",
-        "UIName" : "Armor Heavy Ferro",
+        "UIName" : "Heavy Ferro",
         "Id" : "emod_armorslots_heavyferrosfibrous",
         "Name" : "Heavy Ferro-Fibrous Armor",
         "Details" : "Heavy Ferro-Fibrous armor was developed by Durallex for the Lyran Alliance based on the Inner Sphere's attempts at Light Ferro-Fibrous. Utilizing a weave of ferro-steel, ferro-titanium, and diamond weave fibers which boosts the tensile strength of the plating, it provides more protection per ton than standard armor, but takes up more space on the 'Mech or vehicle.",

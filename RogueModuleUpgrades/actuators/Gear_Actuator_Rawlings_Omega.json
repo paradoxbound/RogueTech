@@ -1,6 +1,10 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "DFADamage"} },
+	"Custom" :  {"Category" : { "CategoryID" : "DFADamage"},
+            "InventorySorter" : {
+                "SortKey" : "00021"
+            }	
+	},
 
     "StatName" : null,
     "RelativeModifier" : 0,

@@ -1,6 +1,20 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Deadfire", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 12,"StabilityDamagePerAmmo": 3 } },
+	"Custom" :  {"Category" : { "CategoryID" : "SRMAmmo"}, "Tag" : "Deadfire", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 12,"StabilityDamagePerAmmo": 3 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "SRMDamage: +50%",
+                "StabDamage: +50%",
+                "Range: -30%",
+                "SRMAccuracy: -2",
+				"SRMAmmo"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0007"
+            },		
+
+	},
 
     "AmmoID" : "Ammunition_SRM",
     "Capacity" : 80,

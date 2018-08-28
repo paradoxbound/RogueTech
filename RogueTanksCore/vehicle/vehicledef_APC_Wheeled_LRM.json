@@ -60,10 +60,10 @@
    ],
    "inventory" : [
         {
-         "ComponentDefID" : "Weapon_LRM_LRM10_0-STOCK",
+         "ComponentDefID" : "Weapon_LRM_LRM5_0-STOCK",
          "ComponentDefType" : "Weapon",
          "MountedLocation" : "Turret",
-		 "HardpointSlot" : 0,
+		 "HardpointSlot" : 1,
 		 "DamageLevel" : "Functional"
         },
 	    {

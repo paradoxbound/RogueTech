@@ -3,4 +3,9 @@
     "Enabled": true,
 	
 				"DependsOn": [ "RogueTech Core" ],
+				
+	"Manifest": [
+        { "Type": "StarSystemDef", "Path": "StarSystem" },
+			{ "Type": "ContractOverride", "Path": "contracts" }
+    ]				
 }

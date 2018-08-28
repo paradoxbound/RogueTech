@@ -1,6 +1,16 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "AC2Ammo"}, "Tag" : "Precision", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 25, "StabilityDamagePerAmmo": 6 } },
+	"Custom" :  {"Category" : { "CategoryID" : "AC2Ammo"}, "Tag" : "Precision", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 25, "StabilityDamagePerAmmo": 6 },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"ACAccuracy: +1",
+                "AC2Ammo"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0001"
+            },		
+	},
 
     "AmmoID" : "Ammunition_AC2",
     "Capacity" : 25,

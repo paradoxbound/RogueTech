@@ -1,6 +1,19 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "ECM"} },
+	"Custom" :  {"Category" : { "CategoryID" : "ECM"},
+        "BonusDescriptions": {
+            "Bonuses": [
+                "Defense: 2",
+                "Accuracy: +1",
+				"Sensors: +20%",
+                "Signature: -50%",
+				"IsECM"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00024"
+            }		
+	},
 
     "StatName" : null,
     "RelativeModifier" : 0,
@@ -11,7 +24,7 @@
         "Purchasable" : true,
         "Manufacturer" : "Ceres",
         "Model" : "EWS",
-        "UIName" : "ECM Warfare Suite",
+        "UIName" : "Warfare Suite",
         "Id" : "Gear_EWS",
         "Name" : "Warfare Suite",
         "Details" : "This advanced Electronics Warfare Suite is designed to mimic the more advanced Star League-era ECM, Active Probe and Targeting Computer. Containing a vast Array of Electronic Warfare Systems able to efficiently jam Enemy sensors and improving their Own.",
@@ -36,7 +49,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : 1,
+                "stackLimit" : -1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -87,7 +100,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : 1,
+                "stackLimit" : -1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -138,7 +151,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : 1,
+                "stackLimit" : -1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {
@@ -240,7 +253,7 @@
                 "useActivationsOfTarget" : false,
                 "ticksOnEndOfRound" : false,
                 "ticksOnMovements" : false,
-                "stackLimit" : 1,
+                "stackLimit" : -1,
                 "clearedWhenAttacked" : false
             },
             "targetingData" : {

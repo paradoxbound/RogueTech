@@ -1,6 +1,16 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "MGAmmo"}, "Tag" : "Tracer", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 4,"StabilityDamagePerAmmo": 1 } },
+	"Custom" :  {"Category" : { "CategoryID" : "MGAmmo"}, "Tag" : "Tracer", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 4,"StabilityDamagePerAmmo": 1 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "Accuracy: +1",
+                "MGAmmo"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0006"
+            },		
+	},
 
     "AmmoID" : "Ammunition_MG",
     "Capacity" : 150,

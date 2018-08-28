@@ -1,4 +1,11 @@
 {
+
+	"Custom": {
+            "InventorySorter" : {
+                "SortKey" : "02001"
+            }
+		},
+
     "Category" : "Energy",
     "Type" : "Flamer",
     "WeaponSubType" : "Flamer",

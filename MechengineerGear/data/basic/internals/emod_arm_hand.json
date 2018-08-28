@@ -6,7 +6,16 @@
 		"ArmActuator" : {
 			"AccuracyBonus" : -1,
 			"Type" : "Hand"
-		}
+		},
+        "BonusDescriptions": {
+            "Bonuses": [
+                "ArmAccuracy: +1",
+				"MeleeAcc: +1"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00020"
+            }				
 	},
     "Description" : {
         "Cost" : 100000,
@@ -14,14 +23,14 @@
         "Purchasable" : false,
         "Manufacturer" : "Generic",
         "Model" : "Standard",
-        "UIName" : "Arm Hand",
+        "UIName" : "Hand",
         "Id" : "emod_arm_hand",
         "Name" : "Arm Hand Actuator",
         "Details" : "An Actuator is a component within a BattleMech's limbs, composed of the joint, myomer bundles, and motor control units. The hand actuator requires the lower and upper arm actuators to be installed and working.",
         "Icon" : "uixSvgIcon_equipment_ActuatorArm"
     },
-    "BonusValueA" : "+ 1 Acc.",
-    "BonusValueB" : "+ 1 Melee Hit",
+    "BonusValueA" : "Hands",
+    "BonusValueB" : "",
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
@@ -38,13 +47,13 @@
             "targetingData" : {
                 "effectTriggerType" : "Passive",
                 "effectTargetType" : "Creator",
-                "showInStatusPanel" : true
+                "showInStatusPanel" : false
             },
             "effectType" : "StatisticEffect",
             "Description" : {
-                "Id" : "StatusEffect-Attack_ToHitMelee2-T0",
+                "Id" : "StatusEffect-Attack_ToHitMeleeHands",
                 "Name" : "MELEE HIT CHANCE IMPROVED",
-                "Details" : "Melee attacks attempted have their hit improved by [AMT].",
+                "Details" : "Melee attacks attempted have their hit improved by +1.",
                 "Icon" : "uixSvgIcon_equipment_ActuatorArm"
             },
             "nature" : "Buff",

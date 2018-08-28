@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "forcedevent_leopard_mechtechExpenses",
         "Name" : "Organized Chaos",
-        "Details" : "In the morning briefing, Yang jumps right in. \"Commander, the Mechbay is too small! My MechTechs keep tripping over everything.\"\r\n\r\n\"Chief, we've talked about this,\" Darius says in exasperation. \"We can't exactly knock down any walls.\"\r\n\r\nSumire inserts herself. \"What if we moved some supplies into other parts of the Leopard? The bunks, the kitchen, hell, I'll even store some boxes in the cockpit if it'll help.\"\r\n\r\nYang rubs his chin. \"Yeah, if I had some breathing room for a week, I could re-organize and make room for everything to move back.\"",
+        "Details" : "In the morning briefing, Yang jumps right in. \"Commander, the Leopard is too small! My MechTechs keep tripping over everything.\"\r\n\r\n\"Chief, we've talked about this,\" Darius says in exasperation. \"We can't exactly knock down any walls.\"\r\n\r\nSumire inserts herself. \"What if we moved some supplies into other parts of the Leopard? The bunks, the kitchen, hell, I'll even store some boxes in the cockpit if it'll help.\"\r\n\r\nYang rubs his chin. \"Yeah, if I had some breathing room for a week, I could re-organize and make room for everything to move back.\"",
         "Icon" : "uixTxrSpot_YangWorking.png"
     },
     "Scope" : "Company",

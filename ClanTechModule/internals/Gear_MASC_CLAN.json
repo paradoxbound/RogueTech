@@ -1,6 +1,17 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "MASC"}, "ComponentExplosion": { "StabilityDamage": 100 } },
+	"Custom" :  {"Category" : { "CategoryID" : "MASC"}, "ComponentExplosion": { "StabilityDamage": 100 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "RunSpeed: +50%",
+                "WalkSpeed: +30%",
+                "HeatGenerated: +30%"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "00023"
+            }		
+	},
 
     "Description" : {
         "Cost" : 1860000,
@@ -129,7 +140,7 @@
                 "effectsPersistAfterDestruction" : false,
                 "statName" : "HeatGenerated",
                 "operation" : "Float_Multiply",
-                "modValue" : "1.15",
+                "modValue" : "1.3",
                 "modType" : "System.Single",
                 "additionalRules" : "NotSet",
                 "targetCollection" : "NotSet",

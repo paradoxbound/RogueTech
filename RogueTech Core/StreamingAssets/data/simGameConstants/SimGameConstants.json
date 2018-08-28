@@ -9,6 +9,9 @@
 		"QuarterLength" : 30,
 		"MonthLength" : 30,
 		"BurndownDayLength" : 30,
+		"MechCostPerQuarter" : 12000,
+		"MechTechCostPerQuarter" : 9000,
+		"MedTechCostPerQuarter" : 3000,
 		"SpartanCostModifier" : 0.6,
 		"RestrictedCostModifier" : 0.8,
 		"GenerousCostModifier" : 1.4,
@@ -67,12 +70,19 @@
 	  "SkillCap" : 10,
 	  "SkillFloor" : 1,
 	  "DifficultySkillFudge" : 3,
+	  "AdvancedPilotBaseChance" : -0.25,
 	  "AdvancedPilotDifficultyStep" : 0.08,
+	  "BaseXPGainPerMission" : 400,
+	  "PilotLevelCostExponent" : 2,
+	  "PilotLevelCostMultiplier" : 100,
 	  "MaxLevelOneAbilities" : 2,
 	  "MaxLevelTwoAbilities" : 2,
 	  "LethalDamageCost" : 180,
 	  "IncapacitatedDamageCost" : 180,
 	  "BaseInjuryDamageCost" : 480,
+	  "IncapacitatedDeathChance" : 0.9,
+	  "LethalDeathChance" : 1.4,
+	  "GutsDeathReduction" : 0.05
 	  
    },
    "Salvage" : {
@@ -137,10 +147,10 @@
 		"UpgradedDropShip" : "argo",
 		"StartingPlayerMech" : "mechdef_blackjack_BJ-1",
 		"StartingLance" : [
-			"mechdef_vindicator_VND-1R",
+			"mechdef_blackjack_BJ-G",
+			"mechdef_panther_PNT-9L",
 			"mechdef_trebuchet_TBT-4M",
-			"mechdef_venom_SDR-9K",
-			"mechdef_locust_LCT-LR"
+			"mechdef_wolverine_WVR-X"
 		],		
 		"StartingArgoUpgrades" : [
 			"argoUpgrade_drive0",
@@ -206,7 +216,8 @@
         "AlliedMaxContractDifficulty": 8, 
 		
 		"MissionsForFirstBreadcrumb" : 0,
-		"MaxContractsPerSystem": 16
+		"MaxContractsPerSystem": 12
+		"MaxBreadcrumbsPerSystem": 4
 
 		"ContractRenewalPerWeek" : 5,
 		"ContractSuccessReduction" : 1.0,
@@ -231,6 +242,33 @@
 		"NotifArgoUpgradesRecurrence": 0,
 		"NotifMechRepairsNeededRecurrence": 0,
 		"DiscardPileToActiveRatio" : 2.0,
+		"CommanderStartingExperience" : 1800,
+		"MedBayWorkOrderCompletedText" : "{0} has returned to duty",
+		"GeneralMechWorkOrderCompletedText" : " Work on {0} complete",
+		"MechReadiedWorkOrderCompletedText" : "{0} is ready for refit",
+		"TagAddedMW" : "[[RES_MW,{RES_MW.Callsign}]] has gained the following tags:",
+		"TagAddedMech" : "[[RES_MECH,{RES_MECH.Name}]] has gained the following tags:",
+		"TagAddedSystem" : "[[RES_SYSTEM,{RES_SYSTEM.Name}]] has gained the following tags:",
+		"TagAddedCompany" : "Your Company has gained the following tags:",
+		"TagAddedMWTemp" : "[[RES_MW,{RES_MW.Callsign}]] has gained the following tags for {RES_DURATION.ToString} days:",
+		"TagAddedMechTemp" : "[[RES_MECH,{RES_MECH.Name}]] has gained the following tags for {RES_DURATION.ToString} days:",
+		"TagAddedSystemTemp" : "[[RES_SYSTEM,{RES_SYSTEM.Name}]] has gained the following tags for {RES_DURATION.ToString} days:",
+		"TagAddedCompanyTemp" : "Your Company has gained the following tags for {RES_DURATION.ToString} days:",
+		"TagAddedMWTempEnd" : "[[RES_MW,{RES_MW.Callsign}]] tag has expired:",
+		"TagAddedMechTempEnd" : "[[RES_MECH,{RES_MECH.Name}]] tag has expired:",
+		"TagAddedSystemTempEnd" : "[[RES_SYSTEM,{RES_SYSTEM.Name}]] tag has expired:",
+		"TagAddedCompanyTempEnd" : "Company tag has expired:",
+		"TagRemovedMW" : "[[RES_MW,{RES_MW.Callsign}]] has lost the following tags:",
+		"TagRemovedMech" : "[[RES_MECH,{RES_MECH.Name}]] has lost the following tags:",
+		"TagRemovedSystem" : "[[RES_SYSTEM,{RES_SYSTEM.Name}]] has lost the following tags:",
+		"TagRemovedCompany" : "Your Company has lost the following tags:",
+		"TagRemovedMWTemp" : "[[RES_MW,{RES_MW.Callsign}]] has lost the following tags for {RES_DURATION.ToString} days:",
+		"TagRemovedMechTemp" : "[[RES_MECH,{RES_MECH.Name}]] has lost the following tags for {RES_DURATION.ToString} days:",
+		"TagRemovedSystemTemp" : "[[RES_SYSTEM,{RES_SYSTEM.Name}]] has lost the following tags for {RES_DURATION.ToString} days:",
+		"TagRemovedCompanyTemp" : "Your Company has lost the following tags for {RES_DURATION.ToString} days:",
+		"AARCompleteNotificationsDisabled": "AARCompleteNotificationsDisabled",
+		"CampaignCommanderUpdateTags" : [
+		]
    },
 
    "Progression" : {

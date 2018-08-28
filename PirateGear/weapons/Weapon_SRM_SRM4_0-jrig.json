@@ -1,4 +1,19 @@
 {
+
+	"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+                "OHDamage: 20%",
+                "WpnCrits: +50%",
+				"VariableDmg: 4",
+				"WpnAccuracy: -1"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "03006"
+            }		
+	},
+	
     "Category" : "Missile",
     "Type" : "SRM",
     "WeaponSubType" : "SRM4",

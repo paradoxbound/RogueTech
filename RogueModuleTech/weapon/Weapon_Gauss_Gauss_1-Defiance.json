@@ -1,6 +1,10 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamage": 55, "HeatDamage": 30, "StabilityDamage": 25 } },
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 55, "HeatDamage": 30, "StabilityDamage": 25 },
+            "InventorySorter" : {
+                "SortKey" : "01015"
+            }
+ },
 
     "Category" : "Ballistic",
     "Type" : "Gauss",

@@ -1,6 +1,10 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "HBStandard"}, "ComponentExplosion": { "HeatDamage": 2 } },
+	"Custom" :  {"Category" : { "CategoryID" : "HBStandard"}, "ComponentExplosion": { "HeatDamage": 2, "ExplosionDamage": 2, "StabilityDamage": 2 },
+            "InventorySorter" : {
+                "SortKey" : "00017"
+            }
+	},
 
     "DissipationCapacity" : 1,
     "Description" : {

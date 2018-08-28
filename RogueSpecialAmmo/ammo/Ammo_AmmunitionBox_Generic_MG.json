@@ -1,7 +1,10 @@
 {
 
 	"Custom" : {
-		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 4, "StabilityDamagePerAmmo": 1 }
+		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 4, "StabilityDamagePerAmmo": 1 },
+            "InventorySorter" : {
+                "SortKey" : "0006"
+            }		
 	},
 
     "AmmoID" : "Ammunition_MG",

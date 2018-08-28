@@ -125,7 +125,7 @@
             {
                 "statName": "SensorSignatureModifier",
                 "operation": "Float_Add",
-                "modValue": "0.8",
+                "modValue": "0.4",
                 "modType": "System.Single"
             },
             "nature": "Debuff"
@@ -777,6 +777,26 @@
         "UseBaselineMoraleGainEachRound": true,
         "MoraleBaselineGainPerRound": 1,
         "MoraleBaselineMultiplyByActive": false,
+        "BaselineMultiplyByActiveElites": true,
+        "BaselineAddFromSimGame": true,
+        "BaselineAddFromSimGameThresholds":
+        [
+            0,
+            11,
+            21,
+            31,
+            41
+        ],
+        "BaselineAddFromSimGameValues":
+        [
+            0,
+            1,
+            2,
+            3,
+            4
+        ],
+        "BaselineAddMoraleMods": true,
+        "BaselineModsOnlyBiggest": true,
         "FreeStandUpAction": false,
         "CameraHighlight": false,
         "ThresholdMajorityHit": 0.75,
@@ -842,7 +862,7 @@
                 "modType": "System.Single"
             },
             "nature": "Buff"
-        },
+        }
     },
     "FuryConstants":
     {
@@ -960,27 +980,27 @@
 		[
             {
                 "k": "range_extreme",
-                "v": "Extreme",
+                "v": "Extreme"
             },
             {
                 "k": "range_very-long",
-                "v": "Very Long",
+                "v": "Very Long"
             },
             {
                 "k": "range_long",
-                "v": "Long",
+                "v": "Long"
             },
             {
                 "k": "range_standard",
-                "v": "Standard",
+                "v": "Standard"
             },
             {
                 "k": "range_close",
-                "v": "Close",
+                "v": "Close"
             },
             {
                 "k": "default",
-                "v": "Unknown",
+                "v": "Unknown"
             }
         ],
         "MoveDescription":
@@ -1010,12 +1030,12 @@
         },
         "MoraleBarDescription":
         {
-            "Name": "Morale Bar",
-            "Details": "Your lance gains Morale for performing well in combat.\nWhen the bar is two-thirds full, your MechWarriors become Inspired, gaining a +2 bonus to Accuracy for all attacks."
+            "Name": "Resolve",
+            "Details": "Your lance gains <color=#F79B26>{0}</color> Resolve each round of combat. When the bar is at 50%, your MechWarriors become Inspired, gaining a +1 bonus to Accuracy for all attacks."
         },
         "FuryBarDescription":
         {
-            "Name": "Fury Bar",
+            "Name": "Fury",
             "Details": "Your lance gains Fury as bad things happen to it.\nWhen the bar fills, you can use it to perform a Precision Strike with one MechWarrior."
         },
         "MoraleAttackDescription":
@@ -1026,7 +1046,7 @@
         "MoraleCostAttackDescription":
         {
             "Name": "PRECISION STRIKE COST",
-            "Details": "Cost: 10 Morale"
+            "Details": "Cost: 10 Resolve"
         },
         "MoraleCostAttackDescriptionFury":
         {
@@ -1036,12 +1056,12 @@
         "MoraleCostAttackDescriptionLow":
         {
             "Name": "PRECISION STRIKE COST LOW",
-            "Details": "Cost: <color=#F04228FF>20 Morale (this MechWarrior has Low Spirits)</color>"
+            "Details": "Cost: <color=#F04228FF>20 Resolve (this MechWarrior has Low Spirits)</color>"
         },
         "MoraleCostAttackDescriptionHigh":
         {
             "Name": "PRECISION STRIKE COST HIGH",
-            "Details": "Cost: <color=#85DBF6FF>5 Morale (this MechWarrior has High Spirits)</color>"
+            "Details": "Cost: <color=#85DBF6FF>5 Resolve (this MechWarrior has High Spirits)</color>"
         },
         "MoraleDefendDescription":
         {
@@ -1051,17 +1071,17 @@
         "MoraleCostDefendDescription":
         {
             "Name": "VIGILANCE COST",
-            "Details": "Cost: 35 Morale"
+            "Details": "Cost: 30 Resolve"
         },
         "MoraleCostDefendDescriptionLow":
         {
             "Name": "VIGILANCE COST LOW",
-            "Details": "Cost: <color=#F04228FF>50 Morale (this MechWarrior has Low Spirits)</color>"
+            "Details": "Cost: <color=#F04228FF>40 Resolve (this MechWarrior has Low Spirits)</color>"
         },
         "MoraleCostDefendDescriptionHigh":
         {
             "Name": "VIGILANCE COST HIGH",
-            "Details": "Cost: <color=#85DBF6FF>25 Morale (this MechWarrior has High Spirits)</color>"
+            "Details": "Cost: <color=#85DBF6FF>20 Resolve (this MechWarrior has High Spirits)</color>"
         },
         "FireMultiDescription":
         {
@@ -1163,13 +1183,13 @@
         },
         "MoraleGeneralTutorialDesc":
         {
-            "Name": "Morale",
-            "Details": "Your lance's Morale (the blue bar next to your pilots) increases as you engage in combat. When it is half full, your pilots will be Inspired (+1 Accuracy to all attacks)."
+            "Name": "Resolve",
+            "Details": "Your lance's Resolve (the blue bar next to your pilots) increases in each round of combat. When it is half full, your pilots will be Inspired (+1 Accuracy to all attacks)."
         },
         "MoraleGeneralStageTwoTutorialDesc":
         {
-            "Name": "Morale",
-            "Details": "You can spend Morale to use either of the Morale abilities, {0} and {1}, located with the rest of the action buttons."
+            "Name": "Resolve",
+            "Details": "You can spend Resolve to use either of the Resolve abilities, {0} and {1}, located with the rest of the action buttons."
         },
         "CameraStageOneTutorialDesc":
         {
@@ -1185,29 +1205,53 @@
         {
             "Name": "Evasion",
             "Details": "The farther you move, the more EVASIVE charges you will gain. Each EVASIVE charge makes you harder to hit."
-        }
+        },
+        "InjuryStringAmmoExplosion":"killed by an ammo explosion",
+        "InjuryStringArtillery":"caught in a massive explosion",
+        "InjuryStringDFAEnemy":"jumped on by an enemy {KILLEDBY_UNIT.Description.Name}",
+        "InjuryStringDFAEnemyGeneric":"jumped on by an enemy 'Mech",
+        "InjuryStringDFASelf":"killed while trying to jump on an enemy {KILLEDBY_UNIT.Description.Name}",
+        "InjuryStringDFASelfGeneric":"killed while trying to jump on an enemy",
+        "InjuryStringDropShip":"crushed by a DropShip",
+        "InjuryStringHeadHit":"hit in the head by an enemy {KILLEDBY_UNIT.Description.Name}",
+        "InjuryStringHeadHitGeneric":"killed by cockpit damage",
+        "InjuryStringHeadHitMelee":"struck in the head by an enemy {KILLEDBY_UNIT.Description.Name}",
+        "InjuryStringKilledByEnemy":"hit by an enemy {KILLEDBY_UNIT.Description.Name}",
+        "InjuryStringKilledByEnemyGeneric":"lost in combat",
+        "InjuryStringKnockdownGeneric":"killed in a fall",
+        "InjuryStringKnockedDownBy":"knocked down by an enemy {KILLEDBY_UNIT.Description.Name}",
+        "InjuryStringMelee":"struck by an enemy {KILLEDBY_UNIT.DisplayName}",
+        "InjuryStringMeleeGeneric":"struck by a melee attack",
+        "InjuryStringOverheatedEnemy":"overheated by an enemy {KILLEDBY_UNIT.Description.Name}",
+        "InjuryStringOverheatedEnemyUnknown":"overheated by an enemy",
+        "InjuryStringOverheatedSelf":"killed by overheating",
+        "InjuryStringOverheatedSelfGeneric":"killed by overheating",
+        "InjuryStringSideTorso":"killed by an enemy {KILLEDBY_UNIT.Description.Name}",
+        "InjuryStringSideTorsoGeneric":"lost in combat",
+        "InjuryStringUnknown":"lost in a misadventure",
+        "InjuryStringWeapon":"killed by an enemy {KILLEDBY_UNIT.Description.Name}"
     },
     "CameraConstants":
     {
-        "MoveSpeed" : 90.0, /* acceleration of the camera */
-        "MaxSpeed" : 30.0, /* max top speed of the camera */
-        "MoveFalloff" : 0.7, /* this controls "friction" which slows the camera's momentum */
-        "ZoomSpeed" : 1900.0, /* how fast the camera zooms in and out, under player control */
+        "MoveSpeed" : 600.0, /* acceleration of the camera */
+        "MaxSpeed" : 430.0, /* max top speed of the camera */
+        "MoveFalloff" : 0.5, /* this controls "friction" which slows the camera's momentum */
+        "ZoomSpeed" : 2000.0, /* how fast the camera zooms in and out, under player control */
         "RotationSpeed" : 19.0, /* how fast the camera rotates via right mouse hold */
-        "RotationSpeedKeyboard" : 19.0, /* how fast the camera rotates via Q and E */
+        "RotationSpeedKeyboard" : 21.0, /* how fast the camera rotates via Q and E */
         "TargetRotLerpFactor" : 1.55, /* how fast the camera will try to rotate to face its target during a camera sequence */
         "EdgePushSize" : 0.025, /* the size of the "screen edge", where it will start pushing the camera */
         "EdgeAutoZoomSize" : 0.25, /* the size of the "screen edge" when determining if the camera needs to refocus on an object */
-        "MinDistToFocalPoint" : 50.0, /* how close you can move the camera to its focal point */
+        "MinDistToFocalPoint" : 65.0, /* how close you can move the camera to its focal point */
         "MinHeightAboveTerrain" : 20.0, /* minimum height the camera must be above terrain */
-        "MaxHeightAboveTerrain" : 720.0, /* maximum height the camera can reach above terrain, or to its focal point */
-        "MinAngle" : 10.0, /* how close you can get to looking flat toward the horizon - degrees */
-        "MaxAngle" : 75.0, /* how close you can get to looking vertically straight down - degrees */
-        "DefaultAngle" : 40.0, /* the starting vertical angle */
-        "DefaultFOV" : 40.0, /* default Field Of View that the camera will always return to from zoom-in cams */
+        "MaxHeightAboveTerrain" : 900.0, /* maximum height the camera can reach above terrain, or to its focal point */
+        "MinAngle" : 5.0, /* how close you can get to looking flat toward the horizon - degrees */
+        "MaxAngle" : 90.0, /* how close you can get to looking vertically straight down - degrees */
+        "DefaultAngle" : 50.0, /* the starting vertical angle */
+        "DefaultFOV" : 35.0, /* default Field Of View that the camera will always return to from zoom-in cams */
         "TutorialMoveTime" : 1.0, /* in first tutorial level... how long to pause after first successful "move" of camera before proceeding */
         "TimeBetweenTutorials" : 1.0, /* ... time to pause before second tutorial */
-        "TutorialRotateTime" : 3.0, /* ... how long to pause after first successful "rotate" of camera before proceeding */
+        "TutorialRotateTime" : 1.0, /* ... how long to pause after first successful "rotate" of camera before proceeding */
         "TargetCamPosMultiplierSide" : 1.3, /* over-the-shoulder targeting cam - adjusts distance to the side of the firing mech */
         "TargetCamPosMultiplierBack" : 3.5, /* over-the-shoulder targeting cam - adjusts distance back from the firing mech */
         "TargetCamPosMultiplierHeight" : 1.1, /* over-the-shoulder targeting cam - adjusts distance up from the firing mech */
@@ -1229,18 +1273,18 @@
         "FramingZoomMultiplier" : 0.015, /* when auto-framing, this controls how far back to zoom */
         "FrameRightMultiplier" : 2.0, /* framing constants, since the screen is not a square */
         "FrameUpMultiplier" : 4.0,
-        "TimeToShowNewBlips" : 1.5, /* when zooming to newly revealed contacts, how long to show them */
+        "TimeToShowNewBlips" : 0.8, /* when zooming to newly revealed contacts, how long to show them */
         "MeleeAttackCamMinHeight" : 85.0, /* used for non-cinematic purposes when showing units - for melee cam, as well as death cam */
-        "CamDelayDeath" : 1.0, /* this section controls delays for different events */
+        "CamDelayDeath" : 1.6, /* this section controls delays for different events */
         "CamDelayBuildingDeath" : 1.5,
         "CamDelayFall" : 2.0,
         "CamDelayLocationDestroyed" : 1.5,
         "CamDelayCriticalHit" : 2.0,
         "CamDelayComponentDestroyed" : 2.0,
         "CamDelayPilotInjured" : 1.0,
-        "CamDelayPilotInspired" : 2.0,
+        "CamDelayPilotInspired" : 1.5,
         "CamDelayMiscInfo" : 1.5,
-        "CamMultiplierSlowMove" : 10.0 /* this multiplier controls "slow start" camera zooms: mission begin, mission end, and non-cinematic player attack zooms */
+        "CamMultiplierSlowMove" : 5.0 /* this multiplier controls "slow start" camera zooms: mission begin, mission end, and non-cinematic player attack zooms */
     },
     "VFXNames": {
       "pilotEject": {
@@ -1379,6 +1423,22 @@
         "name": "vfxPrfPrtl_mechDmgDead_loop",
         "cacheCount": 6
       },
+	  "deadMechLoop_A": {
+        "name": "vfxPrfPrtl_mechDmgDead_A_loop",
+        "cacheCount": 6
+      },
+	  "deadMechLoop_B": {
+        "name": "vfxPrfPrtl_mechDmgDead_B_loop",
+        "cacheCount": 6
+      },
+	  "deadMechLoop_C": {
+        "name": "vfxPrfPrtl_mechDmgDead_C_loop",
+        "cacheCount": 6
+      },
+	  "deadMechLoop_D": {
+        "name": "vfxPrfPrtl_mechDmgDead_loop",
+        "cacheCount": 6
+      },
       "heat_midHeat_persistent": {
         "name": "vfxPrfPrtl_heatVentSm_loop",
         "cacheCount": 3
@@ -1504,7 +1564,7 @@
 		"DEBUG_JumpjetDuration" : 3.5,
         "JumpjetMinHeight": 40.0,
         "DFAMinHeight": 70.0,
-		"DFAExecutionHeight" : 1.0,
+		"DFAExecutionHeight" : 25.0,
         "ExperimentalFlag": true,
         "ExperimentalGridDistance": 24.0,
         "ExperimentalHexRadius": 4,

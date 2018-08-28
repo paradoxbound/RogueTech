@@ -1,4 +1,18 @@
 {
+
+"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+                "WpnCrits: 50%",
+				"OHDamage: 50%",
+				"VariableDmg: 2"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "03011"
+            }		
+ },
+ 
     "Category" : "Missile",
     "Type" : "LRM",
     "WeaponSubType" : "LRM5",

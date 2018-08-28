@@ -1,4 +1,19 @@
 {
+
+	"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+				"OHDamage: +50%",
+				"VariableDmg: 2"
+				"WpnAccuracy: -1"
+                "PipsIgnored: 1",
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "01021"
+            }		
+	},
+
     "Category" : "Ballistic",
     "Type" : "MachineGun",
     "WeaponSubType" : "MachineGun",

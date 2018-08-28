@@ -1,6 +1,21 @@
 {
 
-"Custom": { "ComponentExplosion": { "ExplosionDamage": 75 } }
+"Custom": { "ComponentExplosion": { "ExplosionDamage": 75 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "PPCDEBUFF: -3",
+                "WpnCrits: +50%",
+				"VariableDmg: 10",
+				"DmgFallOff",
+				"WpnAccuracy: -2"
+				"WpnRecoil: 4"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "02011"
+            }		
+
+ },
 
     "Category" : "Energy",
     "Type" : "PPC",

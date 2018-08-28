@@ -1,6 +1,16 @@
 {
 
-	"Custom" :  {"Category" : { "CategoryID" : "LRMAmmo"}, "Tag" : "Hotloaded", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 5, "StabilityDamagePerAmmo": 2 } },
+	"Custom" :  {"Category" : { "CategoryID" : "LRMAmmo"}, "Tag" : "Hotloaded", "Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 5, "StabilityDamagePerAmmo": 2 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "MinRange: -180",
+                "LRMAmmo"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0008"
+            },		
+	},
 
     "AmmoID" : "Ammunition_LRM",
     "Capacity" : 100,

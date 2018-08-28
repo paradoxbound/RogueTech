@@ -1,7 +1,18 @@
 {
 
 	"Custom" : {
-		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 60,"StabilityDamagePerAmmo": 15 }
+		"Flags" : { "flags" : [ "not_broken" ] }, "ComponentExplosion": { "ExplosionDamagePerAmmo": 60,"StabilityDamagePerAmmo": 15 },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "BonusAmmo: 50%",
+                "RecoilAC: +2",
+                "AC10Ammo",
+				"Caseless"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "0003"
+            },		
 	},
 
     "AmmoID" : "Ammunition_AC10",

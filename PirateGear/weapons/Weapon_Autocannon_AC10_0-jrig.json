@@ -1,4 +1,19 @@
 {
+
+	"Custom": {
+        "BonusDescriptions": {
+            "Bonuses": [
+                "WpnRecoil: 4",
+				"WpnAccuracy: +1",
+				"VariableDmg: 20",
+				"PipsIgnored: 1"
+            ]
+        },
+            "InventorySorter" : {
+                "SortKey" : "01003"
+            }		
+	},
+
     "Category" : "Ballistic",
     "Type" : "Autocannon",
     "WeaponSubType" : "AC10",
